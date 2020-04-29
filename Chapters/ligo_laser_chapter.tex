@@ -1,0 +1,110 @@
+\section{Introduction}
+\begin{itemize}
+	\item why ligo needs high power
+	\item brief history of LIGO laser 
+	\item mention noise problems leading to wanting new amplifier
+\end{itemize}
+\section{Requirements}
+\begin{itemize}
+	\item power requirements
+	\item long term stability requirement
+	\item noise requirements (pointing+frequency+amplitude, only measured frequency and amplitude)
+\end{itemize}
+\section{OEM solid-state Amplifier}
+\begin{itemize}
+	\item why are they better than an HPO in principle
+	\item how they work
+	\item neovan 4S-HP
+\end{itemize}
+\section{Set-up and Layout}
+\begin{itemize}
+	\item diagram of layout
+	\item description of layout
+	\item use 2 amplifiers and a PMC to get high power gaussian beam
+	\item flow rates and beam quality of amplifiers
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{figures/E1900168-v3_O4laser_TNT_TableLayout_AOM}
+	\caption{e1900168. Layout placeholder}
+	\label{fig:e1900168-v3o4lasertnttablelayoutaom}
+\end{figure}
+
+\section{Frequency Noise}
+Need to put together the measurements for frequency noise.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/PMC_open_loop_transfer_function}
+	\caption{Open loop gain of frequency stabilisation loop}
+	\label{fig:pmcopenlooptransferfunction}
+\end{figure}
+\section{Long Term Power Results}
+In touch with Matt about his, I would like 1 month or something like that (as long as possible)
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/mode_scan_comparisons}
+	\caption{Flow rates affecting the thermal lensing, resulting in increased ellipticity}
+	\label{fig:modescancomparisons}
+\end{figure}
+
+\section{Conclusion}
+summary of how much power for how long, and how it could be improved slightly with mode matching
+\chapter{Amplitude Stabilisation for High Power Laser at LIGO}
+\section{Introduction + Requirements}
+\begin{itemize}
+	\item shot noise requirement
+	\item radiation pressure noise setting noise requirement
+	\item inner+outer loop design
+	\item could include calculation for mismatches in the IFO? Point absorbers etc.
+\end{itemize}
+\section{Free Running Noise and Noise Hunting}
+\begin{itemize}
+	\item free running noise of the laser
+	\item what dominates the laser noise? NPRO
+	\item noise sources such as mounts 
+	\item noise from PMC offset not being tuned
+	\item 4Hz noise from Beckhoff
+\end{itemize}
+\section{AOM Stabilisation}
+\begin{itemize}
+	\item description of AOM
+	\item AOM TF
+	\item AOM loop TF
+	\item plot of AOM stabilisation working
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/AOM_stabilisation_noise}
+	\caption{Free running and stabilised noise of laser}
+	\label{fig:aomstabilisationnoise}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/AOM_stabilisation_TF}
+	\caption{Transfer functions for parts of the AOM servo}
+	\label{fig:aomstabilisationtf}
+\end{figure}
+\section{Current Shunt Stabilisation}
+\begin{itemize}
+	\item description of CS
+	\item CS TF
+	\item CS loop TF
+	\item plot of CS stabilisation working
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/current_shunt_tfs}
+	\caption{current shunt input to light power transfer function for different diode currents}
+	\label{fig:currentshunttfs}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/dc_power_all_pd}
+	\caption{DC behaviour of current shunt}
+	\label{fig:dcpowerallpd}
+\end{figure}
+\section{Comparison of Two stabilisation Schemes}
+\begin{itemize}
+	\item why I think the AOM is a better choice even though they both work
+\end{itemize}
+\section{Conclusion}

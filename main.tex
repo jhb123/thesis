@@ -1,0 +1,61 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{SIunits}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[margin=1in]{geometry}
+\usepackage{url}
+\graphicspath{ {Figures/} }
+\bibliographystyle{unsrt}
+
+\title{
+	{Quantum Limited Gravitational Wave Detection}\\
+	{\large University of Glasgow}\\
+	{\includegraphics[width=0.5\textwidth]{place_holder.png}}
+}
+\author{Joseph Henry Briggs}
+\date{Day Month Year}
+
+\begin{document}
+\maketitle
+
+\chapter*{Abstract}
+All you need are lasers and photodiodes. 
+
+\chapter*{Dedication}
+
+\chapter*{Declaration}
+I declare that..
+
+\chapter*{Acknowledgements}
+I want to thank...
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{Chapters/Introduction}
+\chapter{Gravitational Wave Interferometers}
+\input{Chapters/Gravitational_Wave_Interferometers}
+\chapter{High Power Laser Prototype for LIGO}
+\input{Chapters/ligo_laser_chapter}
+\chapter{Balanced Homodyne for LIGO A+}
+\input{Chapters/BHD_for_ligo}
+\chapter{in Air BHD experiments}
+\input{Chapters/table_top_bhd}
+\chapter{In-vacuum experiments}
+\input{Chapters/in_vacuum_mz}
+\chapter{Relevent Semiconductor and Photodiode Theory}
+\input{Chapters/semiconductor_physics}
+\chapter{Characterisation of InGaAs Photodiodes}
+should this be an appendix?
+\chapter{Characterisation of Extended InGaAs Photodiodes}
+\graphicspath{ {paper/} }
+\input{paper/document}
+\chapter{Conclusion and Future Work}
+\appendix
+\chapter{Control Theory}
+\bibliography{C:/bibliography/bibliography}
+\end{document}
