@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  11 MAY 2020 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  12 MAY 2020 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,7 +1291,15 @@ Chapter 9.
 
 ]
 Appendix A.
-(./main.bbl [44
+[44
+
+]
+Appendix B.
+[45
+
+]
+Appendix C.
+(./main.bbl [46
 
 ]
 Underfull \hbox (badness 1281) in paragraph at lines 4--8
@@ -1299,9 +1307,9 @@ Underfull \hbox (badness 1281) in paragraph at lines 4--8
 -o-ra-tion.  Gwtc-1: A
  []
 
-[45
+[47
 
-] [46]) [47] (./main.aux) ) 
+] [48]) [49] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  4856 strings out of 492990
  71746 string characters out of 6136333
@@ -1323,10 +1331,10 @@ nts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/
 2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (48 pages, 979580 bytes).
+Output written on main.pdf (50 pages, 980476 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
+ 457 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
