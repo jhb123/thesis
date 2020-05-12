@@ -1,106 +1,136 @@
-\contentsline {chapter}{\numberline {1}Introduction}{8}
-\contentsline {section}{\numberline {1.1}Introduction}{9}
-\contentsline {section}{\numberline {1.2}general relativity}{9}
-\contentsline {section}{\numberline {1.3}What is a gravitational wave}{9}
-\contentsline {section}{\numberline {1.4}How detections of gravitational waves have verified GR}{9}
-\contentsline {section}{\numberline {1.5}Sources of gravitational waves}{9}
-\contentsline {section}{\numberline {1.6}how gravitational wave detections have been important to cosmology}{9}
-\contentsline {section}{\numberline {1.7}how gravitational wave detections have been important to astronomy}{9}
-\contentsline {section}{\numberline {1.8}thesis structure}{9}
-\contentsline {chapter}{\numberline {2}Gravitational Wave Interferometers}{10}
-\contentsline {section}{\numberline {2.1}Section linking GR to interferometer with light like spacetime intervals}{11}
-\contentsline {section}{\numberline {2.2}Gaussian beams}{11}
-\contentsline {section}{\numberline {2.3}Amplitude and Phase modulated light}{11}
-\contentsline {section}{\numberline {2.4}Fabry-P\'erot Cavity as a Gravitational Wave interferometer}{11}
-\contentsline {section}{\numberline {2.5}Basic Michelson interferometer}{11}
-\contentsline {subsection}{\numberline {2.5.1}dark fringe}{11}
-\contentsline {section}{\numberline {2.6}Michelson with arm cavities}{11}
-\contentsline {section}{\numberline {2.7}Michelson with power recycling}{11}
-\contentsline {section}{\numberline {2.8}Michelson with signal recyling}{11}
-\contentsline {section}{\numberline {2.9}Response of dual Michelson to a gravitation wave }{11}
-\contentsline {section}{\numberline {2.10}Sensitivity curves}{11}
-\contentsline {section}{\numberline {2.11}Noise sources}{11}
-\contentsline {subsection}{\numberline {2.11.1}Shot noise}{11}
-\contentsline {subsection}{\numberline {2.11.2}All noise sources...}{11}
-\contentsline {section}{\numberline {2.12}losses}{11}
-\contentsline {section}{\numberline {2.13}other detectors}{12}
-\contentsline {subsection}{\numberline {2.13.1}LISA}{12}
-\contentsline {subsection}{\numberline {2.13.2}speedmeter}{12}
-\contentsline {subsection}{\numberline {2.13.3}bar detector}{12}
-\contentsline {chapter}{\numberline {3}High Power Laser Prototype for LIGO}{13}
-\contentsline {section}{\numberline {3.1}Introduction}{13}
-\contentsline {section}{\numberline {3.2}Requirements}{13}
-\contentsline {section}{\numberline {3.3}OEM solid-state Amplifier}{13}
-\contentsline {section}{\numberline {3.4}Set-up and Layout}{13}
-\contentsline {section}{\numberline {3.5}Frequency Noise}{14}
-\contentsline {section}{\numberline {3.6}Long Term Power Results}{14}
-\contentsline {section}{\numberline {3.7}Conclusion}{14}
-\contentsline {chapter}{\numberline {4}Amplitude Stabilisation for High Power Laser at LIGO}{16}
-\contentsline {section}{\numberline {4.1}Introduction + Requirements}{16}
-\contentsline {section}{\numberline {4.2}Free Running Noise and Noise Hunting}{16}
-\contentsline {section}{\numberline {4.3}AOM Stabilisation}{16}
-\contentsline {section}{\numberline {4.4}Current Shunt Stabilisation}{19}
-\contentsline {section}{\numberline {4.5}Comparison of Two stabilisation Schemes}{19}
-\contentsline {section}{\numberline {4.6}Conclusion}{19}
-\contentsline {chapter}{\numberline {5}Balanced Homodyne for LIGO A+}{21}
-\contentsline {section}{\numberline {5.1}Motivation for BHD in A+}{21}
-\contentsline {section}{\numberline {5.2}Derivation of path length stability}{21}
-\contentsline {section}{\numberline {5.3}WS visulations as a tool for understanding mode matching problems}{21}
-\contentsline {section}{\numberline {5.4}Mode matching with astigmatism}{21}
-\contentsline {section}{\numberline {5.5}Algorithm for calculating optimal 3 lens mode matching solution}{21}
-\contentsline {section}{\numberline {5.6}HAM6 layout}{21}
-\contentsline {section}{\numberline {5.7}Thermal lensing}{21}
-\contentsline {section}{\numberline {5.8}Arm cavity power linked to AWC}{21}
-\contentsline {section}{\numberline {5.9}Conclusion about BHD for A+}{21}
-\contentsline {chapter}{\numberline {6}in Air BHD experiments}{22}
-\contentsline {section}{\numberline {6.1}description of apparatus}{22}
-\contentsline {paragraph}{}{22}
-\contentsline {paragraph}{}{22}
-\contentsline {paragraph}{}{23}
-\contentsline {chapter}{\numberline {7}In-vacuum experiments}{24}
-\contentsline {section}{\numberline {7.1}Introduction}{24}
-\contentsline {section}{\numberline {7.2}apparatus}{24}
-\contentsline {subsection}{\numberline {7.2.1}description of vacuum system}{24}
-\contentsline {subsection}{\numberline {7.2.2}suspensions}{24}
-\contentsline {subsection}{\numberline {7.2.3}photodiodes}{24}
-\contentsline {subsection}{\numberline {7.2.4}measurement of table motion}{24}
-\contentsline {section}{\numberline {7.3}control loop}{24}
-\contentsline {subsection}{\numberline {7.3.1}transfer function simulation of suspension}{24}
-\contentsline {subsection}{\numberline {7.3.2}analogue electronics}{24}
-\contentsline {subsection}{\numberline {7.3.3}digital filering}{24}
-\contentsline {section}{\numberline {7.4}Measurements}{24}
-\contentsline {section}{\numberline {7.5}Discussion}{24}
-\contentsline {chapter}{\numberline {8}Relevent Semiconductor and Photodiode Theory}{25}
-\contentsline {section}{\numberline {8.1}what is a semiconductor}{25}
-\contentsline {section}{\numberline {8.2}what is a diode}{25}
-\contentsline {section}{\numberline {8.3}what is a PIN junction}{25}
-\contentsline {section}{\numberline {8.4}what is a photodiode and basic properties of them}{25}
-\contentsline {section}{\numberline {8.5}Possible materials for photodiodes}{25}
-\contentsline {section}{\numberline {8.6}Dark current}{25}
-\contentsline {section}{\numberline {8.7}1/f noise sources in semiconductors}{25}
-\contentsline {section}{\numberline {8.8}growth techniques for photodiodes and why its important}{25}
-\contentsline {chapter}{\numberline {9}Characterisation of InGaAs Photodiodes}{26}
-\contentsline {chapter}{\numberline {10}Characterisation of Extended InGaAs Photodiodes}{27}
+\contentsline {chapter}{\numberline {1}Gravitational Wave Interferometers}{8}
+\contentsline {section}{\numberline {1.1}Introduction}{8}
+\contentsline {section}{\numberline {1.2}What is a gravitational wave}{8}
+\contentsline {section}{\numberline {1.3}Little bit of astrophyics and cosmology}{8}
+\contentsline {subsection}{\numberline {1.3.1}Sources of gravitational waves}{8}
+\contentsline {subsection}{\numberline {1.3.2}How detections of gravitational waves have verified GR}{9}
+\contentsline {subsection}{\numberline {1.3.3}how gravitational wave detections have been important to cosmology}{9}
+\contentsline {subsection}{\numberline {1.3.4}how gravitational wave detections have been important to astronomy}{9}
+\contentsline {section}{\numberline {1.4}Section linking GR to interferometer with light like spacetime intervals}{9}
+\contentsline {section}{\numberline {1.5}Amplitude and Phase modulated light}{9}
+\contentsline {section}{\numberline {1.6}Fabry-P\'erot Cavity as a Gravitational Wave interferometer}{9}
+\contentsline {section}{\numberline {1.7}Basic Michelson interferometer}{9}
+\contentsline {subsection}{\numberline {1.7.1}dark fringe}{9}
+\contentsline {section}{\numberline {1.8}Michelson with arm cavities}{9}
+\contentsline {section}{\numberline {1.9}Michelson with power recycling}{9}
+\contentsline {section}{\numberline {1.10}Michelson with signal recyling}{9}
+\contentsline {section}{\numberline {1.11}Response of dual Michelson to a gravitation wave }{9}
+\contentsline {section}{\numberline {1.12}Sensitivity curves}{9}
+\contentsline {section}{\numberline {1.13}Noise sources}{9}
+\contentsline {subsection}{\numberline {1.13.1}Shot noise}{9}
+\contentsline {subsection}{\numberline {1.13.2}All noise sources...}{9}
+\contentsline {section}{\numberline {1.14}losses}{9}
+\contentsline {section}{\numberline {1.15}Third Generation Ground based Detectors}{10}
+\contentsline {section}{\numberline {1.16}other detectors}{10}
+\contentsline {subsection}{\numberline {1.16.1}LISA}{10}
+\contentsline {subsection}{\numberline {1.16.2}speedmeter}{10}
+\contentsline {section}{\numberline {1.17}Gaussian beams}{10}
+\contentsline {chapter}{\numberline {2}High Power Laser Prototype for LIGO}{11}
+\contentsline {section}{\numberline {2.1}Introduction}{11}
+\contentsline {section}{\numberline {2.2}Requirements}{11}
+\contentsline {section}{\numberline {2.3}OEM solid-state Amplifier}{11}
+\contentsline {section}{\numberline {2.4}Set-up and Layout}{11}
+\contentsline {section}{\numberline {2.5}Frequency Noise}{12}
+\contentsline {section}{\numberline {2.6}Long Term Power Results}{12}
+\contentsline {section}{\numberline {2.7}Conclusion}{12}
+\contentsline {chapter}{\numberline {3}Amplitude Stabilisation for High Power Laser at LIGO}{14}
+\contentsline {section}{\numberline {3.1}Introduction + Requirements}{14}
+\contentsline {section}{\numberline {3.2}Free Running Noise and Noise Hunting}{14}
+\contentsline {section}{\numberline {3.3}AOM Stabilisation}{14}
+\contentsline {section}{\numberline {3.4}Current Shunt Stabilisation}{17}
+\contentsline {section}{\numberline {3.5}Comparison of Two stabilisation Schemes}{17}
+\contentsline {section}{\numberline {3.6}Conclusion}{17}
+\contentsline {chapter}{\numberline {4}Balanced Homodyne for LIGO A+}{19}
+\contentsline {section}{\numberline {4.1}Motivation for BHD in A+}{19}
+\contentsline {section}{\numberline {4.2}Derivation of path length stability}{19}
+\contentsline {section}{\numberline {4.3}WS visulations as a tool for understanding mode matching problems}{19}
+\contentsline {section}{\numberline {4.4}Mode matching with astigmatism}{19}
+\contentsline {section}{\numberline {4.5}Algorithm for calculating optimal 3 lens mode matching solution}{19}
+\contentsline {section}{\numberline {4.6}HAM6 layout}{19}
+\contentsline {section}{\numberline {4.7}Thermal lensing}{19}
+\contentsline {section}{\numberline {4.8}Arm cavity power linked to AWC}{19}
+\contentsline {section}{\numberline {4.9}Conclusion about BHD for A+}{19}
+\contentsline {chapter}{\numberline {5}in Air BHD experiments}{20}
+\contentsline {paragraph}{Thoughts on 50:50ness of beam splitter}{20}
+\contentsline {section}{\numberline {5.1}Introduction}{21}
+\contentsline {section}{\numberline {5.2}Theory of MZ related to BHD}{21}
+\contentsline {subsection}{\numberline {5.2.1}Link 50:50 ness of beam splitter to SNR}{21}
+\contentsline {subsection}{\numberline {5.2.2}Link photodiode loss to SNR}{21}
+\contentsline {subsection}{\numberline {5.2.3}Link LO LIGO phase noise to this experiment}{21}
+\contentsline {subsection}{\numberline {5.2.4}Could think about loss at the beamsplitter, havent done that before}{21}
+\contentsline {section}{\numberline {5.3}Apparatus}{21}
+\contentsline {subsection}{\numberline {5.3.1}CDS and whitening/dewhitening}{21}
+\contentsline {subsection}{\numberline {5.3.2}Servo}{21}
+\contentsline {section}{\numberline {5.4}Measurement Procedure}{21}
+\contentsline {subsection}{\numberline {5.4.1}Calibration}{21}
+\contentsline {section}{\numberline {5.5}Results and analysis}{21}
+\contentsline {section}{\numberline {5.6}Conclusion}{21}
+\contentsline {chapter}{\numberline {6}In-vacuum experiments}{22}
+\contentsline {section}{\numberline {6.1}Introduction}{22}
+\contentsline {section}{\numberline {6.2}apparatus}{23}
+\contentsline {subsection}{\numberline {6.2.1}description of vacuum system}{23}
+\contentsline {subsection}{\numberline {6.2.2}suspensions}{23}
+\contentsline {subsection}{\numberline {6.2.3}photodiodes}{23}
+\contentsline {subsection}{\numberline {6.2.4}measurement of table motion}{23}
+\contentsline {section}{\numberline {6.3}control loop}{23}
+\contentsline {subsection}{\numberline {6.3.1}transfer function simulation of suspension}{23}
+\contentsline {subsection}{\numberline {6.3.2}analogue electronics}{23}
+\contentsline {subsection}{\numberline {6.3.3}digital filering}{23}
+\contentsline {section}{\numberline {6.4}Measurements}{23}
+\contentsline {section}{\numberline {6.5}Discussion}{23}
+\contentsline {chapter}{\numberline {7}Characterisation of InGaAs Photodiodes}{24}
+\contentsline {chapter}{\numberline {8}Characterisation of 2um Photodiodes}{25}
+\contentsline {section}{\numberline {8.1}Introduction and requirements}{26}
+\contentsline {subsection}{\numberline {8.1.1}Wavelength choice}{26}
+\contentsline {subsection}{\numberline {8.1.2}Semiconductor choice}{26}
+\contentsline {subsection}{\numberline {8.1.3}Quantum efficiency}{26}
+\contentsline {subsection}{\numberline {8.1.4}linearity}{26}
+\contentsline {subsection}{\numberline {8.1.5}Quantum noise from modulation demodulation emphasis}{26}
+\contentsline {subsection}{\numberline {8.1.6}low levels of dark noise (1/f)}{26}
+\contentsline {subsection}{\numberline {8.1.7}size of diode}{26}
+\contentsline {section}{\numberline {8.2}`Bare minimum' Photodiode Theory}{26}
+\contentsline {subsection}{\numberline {8.2.1}what is a semiconductor}{26}
+\contentsline {subsection}{\numberline {8.2.2}what is a diode}{26}
+\contentsline {subsection}{\numberline {8.2.3}what is a PIN junction}{26}
+\contentsline {subsection}{\numberline {8.2.4}what is a photodiode and basic properties of them}{26}
+\contentsline {subsection}{\numberline {8.2.5}Possible materials for photodiodes}{26}
+\contentsline {subsection}{\numberline {8.2.6}Dark current}{26}
+\contentsline {subsection}{\numberline {8.2.7}1/f noise sources in semiconductors}{26}
+\contentsline {subsection}{\numberline {8.2.8}growth techniques for photodiodes and why its important}{26}
+\contentsline {section}{\numberline {8.3}List of experiments done on extended InGaAs}{26}
+\contentsline {subsection}{\numberline {8.3.1}dark noise measurements}{27}
+\contentsline {subsubsection}{dark noise as function of bias}{27}
+\contentsline {subsubsection}{dark noise as function of temperature}{27}
+\contentsline {subsection}{\numberline {8.3.2}Light based tests}{27}
+\contentsline {subsubsection}{lock-in style measurements to measure QE change}{27}
+\contentsline {subsubsection}{DC style measurements to measure QE change}{27}
+\contentsline {subsubsection}{Shot noise measurement to validate QE change}{27}
+\contentsline {subsubsection}{lock in style measurement to test linearity}{27}
+\contentsline {subsection}{\numberline {8.3.3}List of experiments done on Hammamatsu P5968-100 InSb}{27}
+\contentsline {section}{\numberline {8.4}Apparatus for measurements in each subsection above}{27}
+\contentsline {section}{\numberline {8.5}Discussion of the results for each subsubsection above}{27}
+\contentsline {section}{\numberline {8.6}Conclusion}{27}
+\contentsline {section}{\numberline {8.7}Current write up in paper form}{27}
 \contentsline {paragraph}{}{27}
-\contentsline {section}{\numberline {10.1}abstract}{27}
-\contentsline {section}{\numberline {10.2}Introduction}{28}
+\contentsline {section}{\numberline {8.8}abstract}{27}
+\contentsline {section}{\numberline {8.9}Introduction}{28}
 \contentsline {paragraph}{}{28}
 \contentsline {paragraph}{}{28}
-\contentsline {paragraph}{}{29}
 \contentsline {paragraph}{}{29}
 \contentsline {paragraph}{}{30}
 \contentsline {paragraph}{}{30}
 \contentsline {paragraph}{}{31}
-\contentsline {section}{\numberline {10.3}Apparatus}{31}
 \contentsline {paragraph}{}{31}
+\contentsline {section}{\numberline {8.10}Apparatus}{31}
+\contentsline {paragraph}{}{32}
 \contentsline {paragraph}{}{32}
 \contentsline {paragraph}{}{33}
-\contentsline {section}{\numberline {10.4}Experimental Results from Testing Extended InGaAs Photodiodes.}{33}
+\contentsline {section}{\numberline {8.11}Experimental Results from Testing Extended InGaAs Photodiodes.}{33}
 \contentsline {paragraph}{}{33}
-\contentsline {paragraph}{}{34}
 \contentsline {paragraph}{}{35}
-\contentsline {paragraph}{}{35}
-\contentsline {section}{\numberline {10.5}Conclusion}{37}
-\contentsline {section}{\numberline {10.6}Acknowledgements}{38}
-\contentsline {chapter}{\numberline {11}Conclusion and Future Work}{43}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {section}{\numberline {8.12}Conclusion}{38}
+\contentsline {section}{\numberline {8.13}Acknowledgements}{39}
+\contentsline {chapter}{\numberline {9}Conclusion and Future Work}{43}
 \contentsline {chapter}{\numberline {A}Control Theory}{44}

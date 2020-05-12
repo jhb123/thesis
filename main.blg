@@ -3,23 +3,25 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: C:/bibliography/bibliography.bib
+I was expecting a `,' or a `}'---line 3069 of file C:/bibliography/bibliography.bib
+ : @misc{SAMS_Design 
+ :                   Requirements Document,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Collaboration2018
 Warning--empty year in Collaboration2018
 Too many commas in name 3 of "The LIGO Scientific Collaboration and The Virgo Collaboration, The 1M2H Collaboration, The Dark Energy Camera GW-EM Collaboration and the DES Collaboration, The DLT40 Collaboration, The Las Cumbres Observatory Collaboration, The VINROUGE Collaboration \& The MASTER Collaboration" for entry Abbott2017d
 while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "L. Barsotti, L. McCuller, M.Evans, P. Fritschel" for entry a+curve
-while executing---line 944 of file unsrt.bst
 You've used 28 entries,
             1791 wiz_defined-function locations,
-            639 strings with 11105 characters,
-and the built_in function-call counts, 8080 in all, are:
-= -- 522
-> -- 747
+            639 strings with 11114 characters,
+and the built_in function-call counts, 8124 in all, are:
+= -- 523
+> -- 757
 < -- 1
-+ -- 261
-- -- 233
-* -- 792
-:= -- 1447
++ -- 264
+- -- 236
+* -- 799
+:= -- 1456
 add.period$ -- 86
 call.type$ -- 28
 change.case$ -- 24
@@ -27,8 +29,8 @@ chr.to.int$ -- 0
 cite$ -- 30
 duplicate$ -- 250
 empty$ -- 597
-format.name$ -- 233
-if$ -- 1623
+format.name$ -- 236
+if$ -- 1631
 int.to.chr$ -- 0
 int.to.str$ -- 28
 missing$ -- 24
