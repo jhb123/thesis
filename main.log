@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  12 MAY 2020 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  15 MAY 2020 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -702,15 +702,15 @@ _holder.png>] [1
 
 ] (./main.toc [5
 
-] [6])
+] [6] [7])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [7]
+ [8]
 Chapter 1.
-(./Chapters/Gravitational_Wave_Interferometers.tex [8
+(./Chapters/Gravitational_Wave_Interferometers.tex [9
 
-]) [9] [10]
+]) [10] [11]
 Chapter 2.
 (./Chapters/ligo_laser_chapter.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
@@ -720,7 +720,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-<figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf, id=43, pagebox=cropbox, 1
+<figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf, id=46, pagebox=cropbox, 1
 3876.34187pt x 4264.43187pt>
 File: figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf Graphic file (type pd
 f)
@@ -729,7 +729,7 @@ Package pdftex.def Info: figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf  u
 sed on input line 28. on input line 28.
 Package pdftex.def Info: Requested size: 469.75502pt x 144.32504pt on input lin
 e 28.
- [11
+ [12
 
 ]
 Package epstopdf Info: Source file: <figures/PMC_open_loop_transfer_function.ep
@@ -745,7 +745,7 @@ sfer_function-eps-converted-to.pdf figures/PMC_open_loop_transfer_function.eps>
 
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<figures/PMC_open_loop_transfer_function-eps-converted-to.pdf, id=48, pagebox=c
+<figures/PMC_open_loop_transfer_function-eps-converted-to.pdf, id=52, pagebox=c
 ropbox, 484.81125pt x 395.4775pt>
 File: figures/PMC_open_loop_transfer_function-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -754,14 +754,14 @@ Package pdftex.def Info: figures/PMC_open_loop_transfer_function-eps-converted-
 to.pdf  used on input line 37. on input line 37.
 Package pdftex.def Info: Requested size: 328.82707pt x 268.25131pt on input lin
 e 37.
-<figures/mode_scan_comparisons.png, id=49, 1170.62344pt x 883.04906pt>
+<figures/mode_scan_comparisons.png, id=53, 1170.62344pt x 883.04906pt>
 File: figures/mode_scan_comparisons.png Graphic file (type png)
 <use figures/mode_scan_comparisons.png>
 Package pdftex.def Info: figures/mode_scan_comparisons.png  used on input line 
 45. on input line 45.
 Package pdftex.def Info: Requested size: 328.82707pt x 248.04703pt on input lin
 e 45.
- [12 <./figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf>] [13 <./figures/PM
+ [13 <./figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf>] [14 <./figures/PM
 C_open_loop_transfer_function-eps-converted-to.pdf> <./figures/mode_scan_compar
 isons.png (PNG copy)>]
 Chapter 3.
@@ -776,7 +776,7 @@ ted-to.pdf>
 noise-eps-converted-to.pdf figures/AOM_stabilisation_noise.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
-<figures/AOM_stabilisation_noise-eps-converted-to.pdf, id=72, pagebox=cropbox, 
+<figures/AOM_stabilisation_noise-eps-converted-to.pdf, id=75, pagebox=cropbox, 
 580.1675pt x 596.2275pt>
 File: figures/AOM_stabilisation_noise-eps-converted-to.pdf Graphic file (type p
 df)
@@ -796,7 +796,7 @@ Package epstopdf Info: Source file: <figures/AOM_stabilisation_TF.eps>
 TF-eps-converted-to.pdf figures/AOM_stabilisation_TF.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<figures/AOM_stabilisation_TF-eps-converted-to.pdf, id=73, pagebox=cropbox, 580
+<figures/AOM_stabilisation_TF-eps-converted-to.pdf, id=76, pagebox=cropbox, 580
 .1675pt x 596.2275pt>
 File: figures/AOM_stabilisation_TF-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -805,9 +805,9 @@ Package pdftex.def Info: figures/AOM_stabilisation_TF-eps-converted-to.pdf  use
 d on input line 83. on input line 83.
 Package pdftex.def Info: Requested size: 328.82707pt x 337.9336pt on input line
  83.
-[14
+[15
 
-] [15 <./figures/AOM_stabilisation_noise-eps-converted-to.pdf>] [16 <./figures/
+] [16 <./figures/AOM_stabilisation_noise-eps-converted-to.pdf>] [17 <./figures/
 AOM_stabilisation_TF-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/current_shunt_tfs.eps>
 (epstopdf)                    date: 2020-01-06 16:26:35
@@ -820,7 +820,7 @@ Package epstopdf Info: Source file: <figures/current_shunt_tfs.eps>
 eps-converted-to.pdf figures/current_shunt_tfs.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<figures/current_shunt_tfs-eps-converted-to.pdf, id=93, pagebox=cropbox, 919.43
+<figures/current_shunt_tfs-eps-converted-to.pdf, id=96, pagebox=cropbox, 919.43
 5pt x 664.4825pt>
 File: figures/current_shunt_tfs-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/current_shunt_tfs-eps-converted-to.pdf>
@@ -828,14 +828,14 @@ Package pdftex.def Info: figures/current_shunt_tfs-eps-converted-to.pdf  used o
 n input line 96. on input line 96.
 Package pdftex.def Info: Requested size: 328.82707pt x 237.65208pt on input lin
 e 96.
-<figures/dc_power_all_pd.png, id=94, 554.07pt x 414.8298pt>
+<figures/dc_power_all_pd.png, id=97, 554.07pt x 414.8298pt>
 File: figures/dc_power_all_pd.png Graphic file (type png)
 <use figures/dc_power_all_pd.png>
 Package pdftex.def Info: figures/dc_power_all_pd.png  used on input line 102. o
 n input line 102.
 Package pdftex.def Info: Requested size: 328.82707pt x 246.19064pt on input lin
 e 102.
-) [17 <./figures/current_shunt_tfs-eps-converted-to.pdf>] [18 <./figures/dc_pow
+) [18 <./figures/current_shunt_tfs-eps-converted-to.pdf>] [19 <./figures/dc_pow
 er_all_pd.png (PNG copy)>]
 Chapter 4.
 (./Chapters/BHD_for_ligo.tex
@@ -844,11 +844,11 @@ Overfull \hbox (18.7527pt too wide) in paragraph at lines 5--5
 
  []
 
-) [19
+) [20
 
 ]
 Chapter 5.
-(./Chapters/table_top_bhd.tex [20
+(./Chapters/table_top_bhd.tex [21
 
 ]
 Overfull \hbox (354.60924pt too wide) in paragraph at lines 23--30
@@ -871,59 +871,59 @@ Overfull \hbox (260.75577pt too wide) in paragraph at lines 23--30
 ll-[]servo-[]and-[]sends-[]saturating/$ 
  []
 
-) [21]
+) [22]
 Chapter 6.
-(./Chapters/in_vacuum_mz.tex) [22
+(./Chapters/in_vacuum_mz.tex) [23
 
-] [23]
+] [24]
 Chapter 7.
-[24
+[25
 
 ]
 Chapter 8.
-(./paper/document.tex [25
+(./paper/document.tex [26
 
 ]
 Overfull \vbox (33.97003pt too high) has occurred while \output is active []
 
 
-[26]
-LaTeX Info: Redefining \usk on input line 37.
-
-runtime option `thickspace' provided!
-LaTeX Info: Redefining \@qsk on input line 37.
-runtime option `thickqspace' provided!
-LaTeX Info: Redefining \usk on input line 37.
-runtime option `thickspace' provided!
-LaTeX Info: Redefining \@qsk on input line 37.
-runtime option `thickqspace' provided!
-LaTeX Info: Redefining \usk on input line 37.
-runtime option `thickspace' provided!
-LaTeX Info: Redefining \@qsk on input line 37.
-runtime option `thickqspace' provided!
 [27]
-LaTeX Info: Redefining \usk on input line 43.
+LaTeX Info: Redefining \usk on input line 37.
 
 runtime option `thickspace' provided!
-LaTeX Info: Redefining \@qsk on input line 43.
+LaTeX Info: Redefining \@qsk on input line 37.
 runtime option `thickqspace' provided!
-LaTeX Info: Redefining \usk on input line 43.
+LaTeX Info: Redefining \usk on input line 37.
 runtime option `thickspace' provided!
-LaTeX Info: Redefining \@qsk on input line 43.
+LaTeX Info: Redefining \@qsk on input line 37.
 runtime option `thickqspace' provided!
-LaTeX Info: Redefining \usk on input line 43.
+LaTeX Info: Redefining \usk on input line 37.
 runtime option `thickspace' provided!
-LaTeX Info: Redefining \@qsk on input line 43.
-runtime option `thickqspace' provided!
-LaTeX Info: Redefining \usk on input line 43.
-runtime option `thickspace' provided!
-LaTeX Info: Redefining \@qsk on input line 43.
-runtime option `thickqspace' provided!
-LaTeX Info: Redefining \usk on input line 43.
-runtime option `thickspace' provided!
-LaTeX Info: Redefining \@qsk on input line 43.
+LaTeX Info: Redefining \@qsk on input line 37.
 runtime option `thickqspace' provided!
 [28]
+LaTeX Info: Redefining \usk on input line 43.
+
+runtime option `thickspace' provided!
+LaTeX Info: Redefining \@qsk on input line 43.
+runtime option `thickqspace' provided!
+LaTeX Info: Redefining \usk on input line 43.
+runtime option `thickspace' provided!
+LaTeX Info: Redefining \@qsk on input line 43.
+runtime option `thickqspace' provided!
+LaTeX Info: Redefining \usk on input line 43.
+runtime option `thickspace' provided!
+LaTeX Info: Redefining \@qsk on input line 43.
+runtime option `thickqspace' provided!
+LaTeX Info: Redefining \usk on input line 43.
+runtime option `thickspace' provided!
+LaTeX Info: Redefining \@qsk on input line 43.
+runtime option `thickqspace' provided!
+LaTeX Info: Redefining \usk on input line 43.
+runtime option `thickspace' provided!
+LaTeX Info: Redefining \@qsk on input line 43.
+runtime option `thickqspace' provided!
+[29]
 LaTeX Info: Redefining \usk on input line 47.
 
 runtime option `thickspace' provided!
@@ -945,7 +945,7 @@ LaTeX Info: Redefining \usk on input line 47.
 runtime option `thickspace' provided!
 LaTeX Info: Redefining \@qsk on input line 47.
 runtime option `thickqspace' provided!
-[29]
+[30]
 LaTeX Info: Redefining \usk on input line 67.
 
 runtime option `thickspace' provided!
@@ -955,7 +955,7 @@ LaTeX Info: Redefining \usk on input line 69.
 runtime option `thickspace' provided!
 LaTeX Info: Redefining \@qsk on input line 69.
 runtime option `thickqspace' provided!
-[30]
+[31]
 LaTeX Info: Redefining \usk on input line 71.
 
 runtime option `thickspace' provided!
@@ -973,7 +973,7 @@ LaTeX Info: Redefining \usk on input line 75.
 runtime option `thickspace' provided!
 LaTeX Info: Redefining \@qsk on input line 75.
 runtime option `thickqspace' provided!
-[31]
+[32]
 LaTeX Info: Redefining \usk on input line 77.
 
 runtime option `thickspace' provided!
@@ -1007,7 +1007,7 @@ LaTeX Info: Redefining \usk on input line 88.
 runtime option `thickspace' provided!
 LaTeX Info: Redefining \@qsk on input line 88.
 runtime option `thickqspace' provided!
-<paper/Dark_noise_test_box_1.png, id=156, 204.95772pt x 94.24008pt>
+<paper/Dark_noise_test_box_1.png, id=159, 204.95772pt x 94.24008pt>
 File: paper/Dark_noise_test_box_1.png Graphic file (type png)
 <use paper/Dark_noise_test_box_1.png>
 Package pdftex.def Info: paper/Dark_noise_test_box_1.png  used on input line 99
@@ -1030,7 +1030,7 @@ LaTeX Info: Redefining \usk on input line 108.
 runtime option `thickspace' provided!
 LaTeX Info: Redefining \@qsk on input line 108.
 runtime option `thickqspace' provided!
-<paper/qe_tester.png, id=157, 346.75146pt x 118.5228pt>
+<paper/qe_tester.png, id=160, 346.75146pt x 118.5228pt>
 File: paper/qe_tester.png Graphic file (type png)
 <use paper/qe_tester.png>
 Package pdftex.def Info: paper/qe_tester.png  used on input line 115. on input 
@@ -1047,7 +1047,7 @@ Package epstopdf Info: Source file: <paper/test_set_up.eps>
 erted-to.pdf paper/test_set_up.eps>
 (epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
-<paper/test_set_up-eps-converted-to.pdf, id=158, pagebox=cropbox, 442.65375pt x
+<paper/test_set_up-eps-converted-to.pdf, id=161, pagebox=cropbox, 442.65375pt x
  208.78pt>
 File: paper/test_set_up-eps-converted-to.pdf Graphic file (type pdf)
 <use paper/test_set_up-eps-converted-to.pdf>
@@ -1055,7 +1055,7 @@ Package pdftex.def Info: paper/test_set_up-eps-converted-to.pdf  used on input
 line 121. on input line 121.
 Package pdftex.def Info: Requested size: 328.82707pt x 155.10005pt on input lin
 e 121.
-[32]
+[33]
 Package epstopdf Info: Source file: <paper/fd10d_dark_noise_reverse_bias.eps>
 (epstopdf)                    date: 2019-10-09 16:58:55
 (epstopdf)                    size: 120298 bytes
@@ -1067,7 +1067,7 @@ nverted-to.pdf>
 erse_bias-eps-converted-to.pdf paper/fd10d_dark_noise_reverse_bias.eps>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
-<paper/fd10d_dark_noise_reverse_bias-eps-converted-to.pdf, id=162, pagebox=crop
+<paper/fd10d_dark_noise_reverse_bias-eps-converted-to.pdf, id=165, pagebox=crop
 box, 376.40625pt x 298.11375pt>
 File: paper/fd10d_dark_noise_reverse_bias-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1098,7 +1098,7 @@ Package epstopdf Info: Source file: <paper/cooling_fd10.eps>
 verted-to.pdf paper/cooling_fd10.eps>
 (epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
-<paper/cooling_fd10-eps-converted-to.pdf, id=163, pagebox=cropbox, 363.3575pt x
+<paper/cooling_fd10-eps-converted-to.pdf, id=166, pagebox=cropbox, 363.3575pt x
  306.14375pt>
 File: paper/cooling_fd10-eps-converted-to.pdf Graphic file (type pdf)
 <use paper/cooling_fd10-eps-converted-to.pdf>
@@ -1128,7 +1128,7 @@ Package epstopdf Info: Source file: <paper/DC_11mW_436um.eps>
 nverted-to.pdf paper/DC_11mW_436um.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
-<paper/DC_11mW_436um-eps-converted-to.pdf, id=164, pagebox=cropbox, 366.36874pt
+<paper/DC_11mW_436um-eps-converted-to.pdf, id=167, pagebox=cropbox, 366.36874pt
  x 294.09875pt>
 File: paper/DC_11mW_436um-eps-converted-to.pdf Graphic file (type pdf)
 <use paper/DC_11mW_436um-eps-converted-to.pdf>
@@ -1136,7 +1136,7 @@ Package pdftex.def Info: paper/DC_11mW_436um-eps-converted-to.pdf  used on inpu
 t line 143. on input line 143.
 Package pdftex.def Info: Requested size: 328.82707pt x 263.97739pt on input lin
 e 143.
-[33 <./paper/Dark_noise_test_box_1.png (PNG copy)>] [34 <./paper/qe_tester.png 
+[34 <./paper/Dark_noise_test_box_1.png (PNG copy)>] [35 <./paper/qe_tester.png 
 (PNG copy)> <./paper/test_set_up-eps-converted-to.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1145,7 +1145,7 @@ LaTeX Info: Redefining \usk on input line 148.
 runtime option `thickspace' provided!
 LaTeX Info: Redefining \@qsk on input line 148.
 runtime option `thickqspace' provided!
-<paper/dark_noise_test_box_2.png, id=281, 357.88104pt x 114.9093pt>
+<paper/dark_noise_test_box_2.png, id=285, 357.88104pt x 114.9093pt>
 File: paper/dark_noise_test_box_2.png Graphic file (type png)
 <use paper/dark_noise_test_box_2.png>
 Package pdftex.def Info: paper/dark_noise_test_box_2.png  used on input line 15
@@ -1160,7 +1160,7 @@ LaTeX Info: Redefining \usk on input line 152.
 runtime option `thickspace' provided!
 LaTeX Info: Redefining \@qsk on input line 152.
 runtime option `thickqspace' provided!
-[35 <./paper/fd10d_dark_noise_reverse_bias-eps-converted-to.pdf>] [36 <./paper/
+[36 <./paper/fd10d_dark_noise_reverse_bias-eps-converted-to.pdf>] [37 <./paper/
 cooling_fd10-eps-converted-to.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1175,7 +1175,7 @@ Package epstopdf Info: Source file: <paper/cross_check.eps>
 erted-to.pdf paper/cross_check.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<paper/cross_check-eps-converted-to.pdf, id=300, pagebox=cropbox, 372.39125pt x
+<paper/cross_check-eps-converted-to.pdf, id=303, pagebox=cropbox, 372.39125pt x
  294.09875pt>
 File: paper/cross_check-eps-converted-to.pdf Graphic file (type pdf)
 <use paper/cross_check-eps-converted-to.pdf>
@@ -1196,7 +1196,7 @@ noise_sources-eps-converted-to.pdf paper/FD10D_dark_noise_1V_noise_sources.eps>
 
 (epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
-<paper/FD10D_dark_noise_1V_noise_sources-eps-converted-to.pdf, id=301, pagebox=
+<paper/FD10D_dark_noise_1V_noise_sources-eps-converted-to.pdf, id=304, pagebox=
 cropbox, 372.39125pt x 294.09875pt>
 File: paper/FD10D_dark_noise_1V_noise_sources-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1219,7 +1219,7 @@ Package epstopdf Info: Source file: <paper/laser_components_noise.eps>
 se-eps-converted-to.pdf paper/laser_components_noise.eps>
 (epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
-<paper/laser_components_noise-eps-converted-to.pdf, id=302, pagebox=cropbox, 37
+<paper/laser_components_noise-eps-converted-to.pdf, id=305, pagebox=cropbox, 37
 6.40625pt x 294.09875pt>
 File: paper/laser_components_noise-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1238,7 +1238,7 @@ Package epstopdf Info: Source file: <paper/ratio.eps>
 to.pdf paper/ratio.eps>
 (epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
-<paper/ratio-eps-converted-to.pdf, id=303, pagebox=cropbox, 361.35pt x 303.1325
+<paper/ratio-eps-converted-to.pdf, id=306, pagebox=cropbox, 361.35pt x 303.1325
 pt>
 File: paper/ratio-eps-converted-to.pdf Graphic file (type pdf)
 <use paper/ratio-eps-converted-to.pdf>
@@ -1252,7 +1252,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37 <./paper/DC_11mW_436um-eps-converted-to.pdf>]
+[38 <./paper/DC_11mW_436um-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <paper/forward_bias_IV.eps>
 (epstopdf)                    date: 2019-06-07 12:53:26
 (epstopdf)                    size: 30612 bytes
@@ -1264,7 +1264,7 @@ Package epstopdf Info: Source file: <paper/forward_bias_IV.eps>
 converted-to.pdf paper/forward_bias_IV.eps>
 (epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
-<paper/forward_bias_IV-eps-converted-to.pdf, id=312, pagebox=cropbox, 361.35pt 
+<paper/forward_bias_IV-eps-converted-to.pdf, id=315, pagebox=cropbox, 361.35pt 
 x 271.0125pt>
 File: paper/forward_bias_IV-eps-converted-to.pdf Graphic file (type pdf)
 <use paper/forward_bias_IV-eps-converted-to.pdf>
@@ -1281,25 +1281,25 @@ LaTeX Info: Redefining \usk on input line 201.
 runtime option `thickspace' provided!
 LaTeX Info: Redefining \@qsk on input line 201.
 runtime option `thickqspace' provided!
-) [38 <./paper/dark_noise_test_box_2.png (PNG copy)>] [39 <./paper/cross_check-
+) [39 <./paper/dark_noise_test_box_2.png (PNG copy)>] [40 <./paper/cross_check-
 eps-converted-to.pdf> <./paper/FD10D_dark_noise_1V_noise_sources-eps-converted-
-to.pdf>] [40 <./paper/laser_components_noise-eps-converted-to.pdf>] [41 <./pape
-r/ratio-eps-converted-to.pdf>] [42 <./paper/forward_bias_IV-eps-converted-to.pd
+to.pdf>] [41 <./paper/laser_components_noise-eps-converted-to.pdf>] [42 <./pape
+r/ratio-eps-converted-to.pdf>] [43 <./paper/forward_bias_IV-eps-converted-to.pd
 f>]
 Chapter 9.
-[43
-
-]
-Appendix A.
 [44
 
 ]
-Appendix B.
+Appendix A.
 [45
 
 ]
+Appendix B.
+[46
+
+]
 Appendix C.
-(./main.bbl [46
+(./main.bbl [47
 
 ]
 Underfull \hbox (badness 1281) in paragraph at lines 4--8
@@ -1307,9 +1307,9 @@ Underfull \hbox (badness 1281) in paragraph at lines 4--8
 -o-ra-tion.  Gwtc-1: A
  []
 
-[47
+[48
 
-] [48]) [49] (./main.aux) ) 
+] [49]) [50] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  4856 strings out of 492990
  71746 string characters out of 6136333
@@ -1331,10 +1331,10 @@ nts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/
 2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (50 pages, 980476 bytes).
+Output written on main.pdf (51 pages, 980679 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
+ 460 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

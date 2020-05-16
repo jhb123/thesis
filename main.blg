@@ -3,10 +3,6 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: C:/bibliography/bibliography.bib
-I was expecting a `,' or a `}'---line 3069 of file C:/bibliography/bibliography.bib
- : @misc{SAMS_Design 
- :                   Requirements Document,
-I'm skipping whatever remains of this entry
 Warning--empty journal in Collaboration2018
 Warning--empty year in Collaboration2018
 Too many commas in name 3 of "The LIGO Scientific Collaboration and The Virgo Collaboration, The 1M2H Collaboration, The Dark Energy Camera GW-EM Collaboration and the DES Collaboration, The DLT40 Collaboration, The Las Cumbres Observatory Collaboration, The VINROUGE Collaboration \& The MASTER Collaboration" for entry Abbott2017d
@@ -52,4 +48,4 @@ warning$ -- 2
 while$ -- 54
 width$ -- 30
 write$ -- 300
-(There were 2 error messages)
+(There was 1 error message)
