@@ -1,5 +1,27 @@
-\section{Motivation for BHD in A+}
+\textcolor{red}{There doesn't need to be a discussion about what BHD is, but it is worth briefly mentioning what it is and the other readout methods again}
+Context for BHD upgrade being part of A+. 
+\section{BHD versus DC readout for A+}
+\begin{itemize}
+	\item \href{https://dcc.ligo.org/G2000962}{G2000962}, DDR CDR presentation A.	
+	\item \href{https://dcc.ligo.org/LIGO-G2001026}{G2001026}, DDR CDR presentation B.
+	\item Ken's notes on BHD benefits compared to DC readout, email on 25/06/2020 11:26
+	\item \href{https://dcc.ligo.org/LIGO-L2000200}{LIGO-L2000200} Q and A. Useful technical points and things people will find confusing/may ask about.
+\end{itemize}
+\paragraph{}
+Main benefit of BHD is reduction of SRC length noise coupling to AS port. This noise coupling is described in \cite{Izumi2016}, see equation 13. This paper has some coupled cavity maths in it. If this needs explained, look up \href{https://dcc.ligo.org/LIGO-P000013}{Transfer Functions for Fields in a 3-Mirror Nested Cavity}, \cite{Rakhmanov2000}. There is an opto-mechanical coupling between the length of the SRC and arm cavity (due to radiation pressure). Reducing the DC offset reduces the radiation pressure, which reduces this coupling.
+\paragraph{estimate reduction of SRC length noise coupling}
+Equation for SRC length noise to AS signal is (I couldn't get this to plot, need to debug this)
+\begin{equation}
+	\frac{S_{\rm{as}}}{S_{\rm{dc}}} = 4g_p^2g_s^2r'^2_a \epsilon\left(\frac{\partial L_-}{\partial l_s}\right)\frac{k\Delta l_s}{1+s_{\rm{rse}}}
+\end{equation}
+the TEM00 is decreased to fringe offset (rms + DC) + 1mW of common mode carrier, currently there is 20mA of photo-current. (shelia dwyer answer in email FW: BHD review committee request \& document PREVIEW).
 \section{Derivation of path length stability}
+\begin{itemize}
+	\item \href{https://dcc.ligo.org/LIGO-G1702485}{Hang Yu BHD requirements}
+\end{itemize}
+\paragraph{}
+Analytic expression
+\cite{Izumi2016} and finesse simulation.
 \section{WS visulations as a tool for understanding mode matching problems}
 \section{Mode matching with astigmatism}
 \section{Algorithm for calculating optimal 3 lens mode matching solution}

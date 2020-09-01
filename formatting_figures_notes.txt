@@ -1,0 +1,91 @@
+Figure style guide
+------------------
+
+N.B. ask ken about capitalisation.
+
+Graphs
+------
+
+Figures shall be saved as eps when using matplotlib or 'epsc' when using matlab. 
+This is to prevent a latex warning.
+
+Figure names shall be 'chapter description'_chapter_'figure description'. For
+example, 'sim_chapter_Zoom_in_ETM_tuning' refers to the figure being in the 
+simulation chapter, and the figure is a zoom in of ETM behaviour.
+
+For all figures, the following points should be checked:
+	- Are all lines visible/distinguishable? Changing thickness and linestyle can
+	help.
+	- Are the axis labelled? The label is a sentence, so normal sentence 
+	capitalisation should be used.
+	- Capitalisation should follow normal grammar rules in the legend.
+	- Do the axis have units? The units should be put in brackets like (m). No 
+	other shape of brackets should be used.
+	- Does the figure need a grid? This is useful for when precise values need 
+	reading off from the plot. 
+	- Are subscripts properly typset?
+	- Have standard unit labels been used? A for amps, degree symbols instead
+	of 'deg' etc.
+	- Is the legend covering as little of the data as possible?
+	- Check for spelling mistakes! e.g. freuqency -> frequency.
+	
+On a higher level of editing, make sure that things are consistent. (To expand
+with specific examples later).
+	
+Standard matlab and matplotlib fonts will be used. The following examples give
+a template to use which looks nice.
+
+In general, for matplotlib figures use:
+
+figure_size = (6,4)
+plt.figure(figsize = figure_size,dpi = 150)
+plt.plot(x,y,label = 'Name of line')
+plt.legend(prop={'size': 8},loc = 'lower left')
+plt.xlabel('x axis (units)')
+plt.ylabel('y axis (units)')
+plt.tight_layout()
+plt.grid()
+plt.savefig('sim_chapter_Zoom_in_ETM_tuning.eps')
+plt.show()
+
+when there is important issues (i.e. not to do with the legend), save as a pdf.
+
+For matlab figures, use the linspecer (from mathworks file exchange) function to 
+generate colours e.g. An example Figures is shown below.
+
+c = linspecer(2);
+
+size = 1.1;
+aspect_ratio = size.*[6,4];
+
+figure('Name','dark noise','units','inches','position',[0 0 aspect_ratio(1) aspect_ratio(2)])
+loglog(x1, y1, 'color',c(1,:))
+hold on
+loglog(x2, y2, 'color',c(2,:))
+hold off
+set(gca,'fontsize',12)
+xlabel('Frequency (Hz)')
+ylabel('I_r_m_s/\surd(Hz)')
+legend('0.00V','0.10V','numColumns',2,'location','northeast')
+axis tight
+print('Noise_low_f','-depsc')
+
+Circuits
+--------
+'flow' of circuit is left to right as this makes them easier to reading.
+
+decouple grounds for ease of reading.
+
+avoid diagonal lines.
+
+have gnd at the bottom of the diagram.
+
+clearly label pin numbers, part values polarities, connector inputs etc.
+
+keep functional blocks separate.
+
+see art of electronics appendix B for more tips.
+
+Other Figures
+-------------
+

@@ -3,49 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: C:/bibliography/bibliography.bib
-Warning--empty journal in Collaboration2018
-Warning--empty year in Collaboration2018
-Too many commas in name 3 of "The LIGO Scientific Collaboration and The Virgo Collaboration, The 1M2H Collaboration, The Dark Energy Camera GW-EM Collaboration and the DES Collaboration, The DLT40 Collaboration, The Las Cumbres Observatory Collaboration, The VINROUGE Collaboration \& The MASTER Collaboration" for entry Abbott2017d
-while executing---line 944 of file unsrt.bst
-You've used 28 entries,
+You've used 2 entries,
             1791 wiz_defined-function locations,
-            639 strings with 11114 characters,
-and the built_in function-call counts, 8124 in all, are:
-= -- 523
-> -- 757
-< -- 1
-+ -- 264
-- -- 236
-* -- 799
-:= -- 1456
-add.period$ -- 86
-call.type$ -- 28
-change.case$ -- 24
+            461 strings with 3877 characters,
+and the built_in function-call counts, 415 in all, are:
+= -- 35
+> -- 12
+< -- 0
++ -- 5
+- -- 3
+* -- 26
+:= -- 71
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 250
-empty$ -- 597
-format.name$ -- 236
-if$ -- 1631
+cite$ -- 2
+duplicate$ -- 21
+empty$ -- 49
+format.name$ -- 3
+if$ -- 93
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 24
-newline$ -- 143
-num.names$ -- 26
-pop$ -- 67
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 2
+pop$ -- 7
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 95
+skip$ -- 6
 stack$ -- 0
-substring$ -- 398
-swap$ -- 37
-text.length$ -- 1
+substring$ -- 18
+swap$ -- 3
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 54
-width$ -- 30
-write$ -- 300
-(There was 1 error message)
+warning$ -- 0
+while$ -- 3
+width$ -- 3
+write$ -- 24
