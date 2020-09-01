@@ -2,6 +2,14 @@
 Context for BHD upgrade being part of A+. 
 \section{BHD versus DC readout for A+}
 \begin{itemize}
+	\item Reduction of SRC length coupling. Should this be a quantitative analysis or shall I quote the results?
+	\item Reduction of Back scatter from the septum window between ham5 and ham6. Technically this is not to do with BHD, this could, but practically it kind of is?
+	\item Ability to tune homodyne phase is cool but in the context of GW detection, maybe not important. 
+	\item PD SNR is not important.
+	\item There is an optomechanical coupling between SRC cavity length noise and GW signal channel, but as far as I can tell this is well below the noise floor.
+\end{itemize}
+some useful references:
+\begin{itemize}
 	\item \href{https://dcc.ligo.org/G2000962}{G2000962}, DDR CDR presentation A.	
 	\item \href{https://dcc.ligo.org/LIGO-G2001026}{G2001026}, DDR CDR presentation B.
 	\item Ken's notes on BHD benefits compared to DC readout, email on 25/06/2020 11:26
@@ -10,22 +18,102 @@ Context for BHD upgrade being part of A+.
 \paragraph{}
 Main benefit of BHD is reduction of SRC length noise coupling to AS port. This noise coupling is described in \cite{Izumi2016}, see equation 13. This paper has some coupled cavity maths in it. If this needs explained, look up \href{https://dcc.ligo.org/LIGO-P000013}{Transfer Functions for Fields in a 3-Mirror Nested Cavity}, \cite{Rakhmanov2000}. There is an opto-mechanical coupling between the length of the SRC and arm cavity (due to radiation pressure). Reducing the DC offset reduces the radiation pressure, which reduces this coupling.
 \paragraph{estimate reduction of SRC length noise coupling}
-Equation for SRC length noise to AS signal is (I couldn't get this to plot, need to debug this)
+Differential DC offset is $\epsilon$, so this coupling scales with the offset. Since we get the LO from elsewhere, the amount of offset can be reduced. Currently it is  TEM00 is decreased to fringe offset (rms + DC) + 1mW of common mode carrier, currently there is 20mA of photo-current. (shelia dwyer answer in email FW: BHD review committee request \& document PREVIEW). Assume 0.85 A/W (qe = 99\%), this gives 23mW of light. This can be reduced to between 1mW to 5mW, giving a reduction of at most 23, at least 4.6. Need to check this point.
+\paragraph{Optical spring effect which is porbably not important}
+In a large scale gravitational wave detector, the main advantage of BHD versus DC-readout is the ability to reduce the differential arm offset that is required to provide the GW signal a local oscillator field to beat with, as the LO field is provided by other means. SRC length noise scales quadratically with the DC offset \cite{Izumi2016}, so a reduction in the DC offset causes a reduction in this coupling. SRC length noise couples to the output signal via radiation pressure. The change in differential arm length due to a change in length of the SRC scales linearly with the DC offset ($\epsilon = kL_{\rm{offset}}$) due to radiation pressure. \textcolor{red}{Don't know what the current DC offset is. The optomechanical coupling between SRC length and differential arm length is given as
 \begin{equation}
-	\frac{S_{\rm{as}}}{S_{\rm{dc}}} = 4g_p^2g_s^2r'^2_a \epsilon\left(\frac{\partial L_-}{\partial l_s}\right)\frac{k\Delta l_s}{1+s_{\rm{rse}}}
+\frac{\partial L_-}{\partial l_s} = \frac{16g_s^2r'_a r_s}{ct_s^2s^2_\mu(1+s_{\rm{rse}})}\epsilon kP_a
 \end{equation}
-the TEM00 is decreased to fringe offset (rms + DC) + 1mW of common mode carrier, currently there is 20mA of photo-current. (shelia dwyer answer in email FW: BHD review committee request \& document PREVIEW).
-\section{Derivation of path length stability}
-\begin{itemize}
-	\item \href{https://dcc.ligo.org/LIGO-G1702485}{Hang Yu BHD requirements}
-\end{itemize}
+and the normalised response between the power at the AS port and the SRC length noise is
+\begin{equation}
+	\frac{S_{\rm{as}}}{S_{\rm{dc}}} = 4g_p^2g_s^2r'^2_a\epsilon \left(\frac{\partial L_-}{\partial l_s}\right)\frac{k \Delta l_s}{1+s_{\rm{rse}}}
+\end{equation}
+}
+\section{Local Oscillator Path Length Stability Requirement and HRTS requirement}
+The requirement for the path length stability of the local oscillator is determined by the sensitivity goal for A+. Deconvolving the strain sensitivity curve for A+ with the linear response function between differential strain, $h$, and power at the AS port gives the noise of the AS beam. This is then converted to an equivalent phase noise between the AS the LO beams. Finally, the requirement for the suspended optics is derived.
 \paragraph{}
-Analytic expression
-\cite{Izumi2016} and finesse simulation.
-\section{WS visulations as a tool for understanding mode matching problems}
-\section{Mode matching with astigmatism}
-\section{Algorithm for calculating optimal 3 lens mode matching solution}
+A gravitational wave produces a phase modulated signal in the AS beam. The LO beam will also be phase modulated by the motion of the mirrors in the LO path. When these beams are combined, it is the phase difference between the two fields that produces a signal, so the phase noise of the LO path must be sufficiently low that the signal that is generated by the interference of the LO and AS beams corresponds to the phase modulation of the AS beam. 
+\subsection{Local Oscillator Path}
+Two options for the local oscillator path were considered: a beam picked off from the main beam splitters AR coating (BSAR) or the beam transmitted through PR2 \cite{Zhang2019} (POP). The determining factor in choice of LO path was the effect of backscatter, and the POP choice is far superior to the BSAR choice at all frequencies and scatter phases. This is because any backscatter from the BSAR enters only one arm, and therefore is a differential effect. Any back scatter that enters the POP port is common-mode, meaning that the differential arm signal is far less sensitive to this source of backscatter.
+\paragraph{}
+The layout for the optics which combine the the LO and AS beam is shown in figure \ref{fig:bhdforligochaptersketchoflodelivery}. The beam transmitted by PR2 is used for control of the interferometer, so BHDBS1 is needed to pick off some of this light. The LO beam is steered towards the combining beam splitter BHDBS2. with BHDM1. Two lenses (\textcolor{red}{need names for these}) are used for mode matching the LO beam to the AS beam.  The AS beam is transmitted through the SRM and OFI, and then is steered towards BHDBS2 with OM0. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery}
+	\caption{Sketch of the LO and AS beam paths. The LO beam is obtained from the light transmitted by PR2. Some of this light is needed for control of the interferometer, so BHDBS1 is used to split the light. The LO beam is then directed towards the combining beam splitter BHDBS2 with BHDM1. Two lenses are needed to mode match the LO beam to the AS beam. THe AS beam is transmitted through the SRM, passes through the OFI, and is directed to BHDBS2 via OM0.}
+	\label{fig:bhdforligochaptersketchoflodelivery}
+\end{figure}
+\clearpage
+\subsection{Simulation of the Linear Response Function Between a Differential Strain and the Power at the AS Port}
+The linear response function of the A+ detectors was obtained using \textsc{Finesse}. Since the core optics of the interferometer will not be changing in a way relevant to this calculation, the LLO model\cite{l1_finesse_2014} was used to calculate the response between differential motion of the ETMs and the power transmitted through the OMC. To apply a differential arm signal with \textsc{Finesse}, \verb|fsig| commands were used to apply two signals in antiphase with each other to the ETMs,
+\begin{verbatim}
+fsig sig1 ETMXHR 1 0
+fsig sig2 ETMYHR 1 180.
+\end{verbatim}
+The frequency of this modulation was swept, and the signal produced at the AS port was measured by demodulating the light at the modulation frequency. The commands
+\begin{verbatim}
+xaxis sig1 f log 5 5000 2999
+put P_DC_OMC_probe f1 $x1
+\end{verbatim}
+do this. Since the input modulation is doubled by moving the mirrors differentially the response needs dividing by 2. To account for the ETMs retro-reflecting the light (\textcolor{red}{or is the weird Finesse convention}), the response needs dividing by 2 again. To convert this from phase units to strain units, a factor of $\frac{\lambda}{2\pi L_{\rm{arm}}}$ is needed. Therefore, the output of the the \textsc{Finesse} simulation needs to be multiplied by $\frac{1}{2}\frac{1}{2}\frac{2\pi L_{\rm{arm}}}{\lambda}$ to be in units of $\frac{\rm{W}}{\rm{h}}$. The linear response function between a differential arm strain and the power at the AS port is shown in figure \ref{fig:bhdforligochapterdetectorrepsonse}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/BHD_for_ligo_chapter_detector_repsonse}
+	\caption{The linear response function between strain and light power at the AS port was obtained from a \textsc{Finesse} simulation of the LLO detector\cite{l1_finesse_2014}. The corner frequency at $\approx300$\,Hz comes from the pole of the coupled SRC-arm cavity. The behaviour below $6$\,Hz is due to optical spring effects.}
+	\label{fig:bhdforligochapterdetectorrepsonse}
+\end{figure}
+\subsection{Converting the Sensitivity Curve for A+ into the HRTS requirement}
+\textcolor{red}{The sensitivity curve will be shown in an earlier chapter.}To convert the A+ sensitivity curve into a path length stability requirement for the local oscillator, a few steps are required. First, the sensitivity curve must be expressed in units of $\frac{\rm{W}}{\sqrt{\rm{Hz}}}$. Secondly, the intensity noise of the AS beam needs to be converted into a phase noise. In order for the phase noise of the local oscillator to not limit the performance of the gravitational wave detector, the phase noise of the AS beam must be greater than the phase noise of the LO beam. Finally, a factor of 10 safety margin is required. The HRTS requirement is then obtained by including the number of reflective optics in the LO path.
+\paragraph{}
+The A+ sensitivity\cite{a+curve} curve was multiplied by the function shown in \ref{fig:bhdforligochapterdetectorrepsonse} to convert it from units of $\frac{\rm{h}}{\sqrt{\rm{Hz}}}$ to $\frac{\rm{W}}{\sqrt{\rm{Hz}}}$. This is shown in figure \ref{fig:bhdforligochapterlightnoise}. At frequencies above 1\,kHz, the requirement is flat as this is the region dominated by shot noise. At lower frequencies, the requirement is relaxed as the sensitivity curve becomes dominated by other noise sources.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/BHD_for_ligo_chapter_light_noise}
+	\caption{The intensity noise of the light at the AS port for the A+ detector. This was obtained by deconvolving the detectors sensitivity curve\cite{a+curve} with the function shown in figure \ref{fig:bhdforligochapterdetectorrepsonse}.}
+	\label{fig:bhdforligochapterlightnoise}
+\end{figure}
+\paragraph{}
+The quantum mechanics of this problem have been included in the A+ sensitivity curve \cite{a+curve}, therefore we can approach this with classical physics. When the LO and AS beams interfere at the beam splitter (BHSBS2), the power of the resulting beam is 
+\begin{equation}
+P = |E_s e^{i\omega t} + E_{\rm{LO}} e^{i\omega t + \phi}  |^2 = |E_s|^2 + |E_{\rm{LO}}|^2 + 2|E_sE^\dagger_{\rm{LO}}|\cos(\phi), 
+\end{equation}
+where $E_s$ and $E_{\rm{LO}}$ are the (complex) field amplitude of the signal and local oscillator beams, $\omega$ is the laser frequency, $t$ is time, and $\phi$ is the phase difference between the local oscillator and the signal beam, also known as the homodyne angle. Differentiating with respect to $\phi$ gives the relationship between a change in power and a change in phase between the two beams,
+\begin{equation}
+dP = -2|E_sE^\dagger_{\rm{LO}}|\sin(\phi) d\phi.
+\end{equation}
+and since the homodyne angle is 90\si{\degree}, this becomes
+\begin{equation}
+dP = -2|E_sE^\dagger_{\rm{LO}}|d\phi.
+\end{equation}
+To convert $\phi$ to distance, use
+\begin{equation}
+\frac{\lambda}{2\pi}d\phi = dx.
+\end{equation}
+The light noise curve shown in figure \ref{fig:bhdforligochapterlightnoise} should be multiplied by  $\frac{\lambda}{2\pi}\frac{1}{2|E_sE^\dagger_{\rm{sig}}|}$ to obtain the the noise floor of the interferometer in units of LO path length noise. For a 98\,mW LO beam and a 5\,mW AS beam, the noise floor of the interferometer in units of LO path length is shown in figure \ref{fig:bhdforligochapterhrtsrequirement}.
+\paragraph{}
+The HRTS requirement assumes, based on the current design, that there will be 2 mirrors at 45\si{\degree}  which are used to steer the AS and LO beams. As the optics reflected at 45 degrees, the path length change due to the optics motion is multiplied by$\frac{2}{\sqrt{2}} = \sqrt{2}$. The beams are combined on a beamsplitter, and the notion of this beam splitter needs to be counted twice. A sketch of this is shown in figure \ref{fig:bhdforligochapterbhddoublecounted}. A factor of 10 is then included as a safety margin since there are many uncorrelated noise sources in LIGO. With a 98\,mW LO beam and a 5\,mW AS beam, the requirement for the HRTS optics longitudinal motion at 100\,Hz is $5\times10^{-17} \rm{m}/\sqrt{\rm{Hz}}$.
+A typical motion of the optical benches at 10\,Hz is $10\times10^{-1}\rm{m}/\sqrt{\rm{Hz}}$ \cite{HAM_table_motion}. To achieve this with passive isolation, a triple suspensions will be used. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\linewidth]{Figures/BHD_for_ligo_chapter_bhd_double_counted}
+	\caption{A sketch of the LO and AS beam paths. The LO beam path is shown in blue and the AS beam is shown in red. A dashed line indicates the direction that the recombining beamsplitter, BHDBS2, moves. When this happens, at the point of the beams combining the phase of the AS beam has increased while the phase of the LO beam has decreased. This means that the recombination beamsplitter motion needs to be counted twice.}
+	\label{fig:bhdforligochapterbhddoublecounted}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/BHD_for_ligo_chapter_HRTS_requirement}
+	\caption{The phase noise between the LO and the AS beams causes noise. The sensitivity curve for A+ sets the limit on how much path length noise is acceptable between the AS and LO beams. The blue line shows sensitivity curve is shown in units of path length noise between the AS and LO beams, and the orange line shows the requirement of HRTS mirror motion.}
+	\label{fig:bhdforligochapterhrtsrequirement}
+\end{figure}
 \section{HAM6 layout}
+\section{WS visulations as a tool for understanding mode matching problems}
+\cite{Perreca2020}
+\section{Mode matching with astigmatism}
+discuss astigmatism in detail, derive the result
+\section{Algorithm for calculating optimal 3 lens mode matching solution}
+move to appendix
+talk about sams, the layout, requirements for the layout etc.
+\subsection{AWC requirement}
 \section{Thermal lensing}
 \section{Arm cavity power linked to AWC}
 \section{Conclusion about BHD for A+}

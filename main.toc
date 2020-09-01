@@ -1,13 +1,102 @@
-\contentsline {chapter}{\numberline {1}Balanced Homodyne for LIGO A+}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}BHD versus DC readout for A+}{3}{section.1.1}
-\contentsline {paragraph}{}{3}{section*.2}
-\contentsline {paragraph}{estimate reduction of SRC length noise coupling}{4}{section*.3}
-\contentsline {section}{\numberline {1.2}Derivation of path length stability}{4}{section.1.2}
-\contentsline {paragraph}{}{4}{section*.4}
-\contentsline {section}{\numberline {1.3}WS visulations as a tool for understanding mode matching problems}{5}{section.1.3}
-\contentsline {section}{\numberline {1.4}Mode matching with astigmatism}{5}{section.1.4}
-\contentsline {section}{\numberline {1.5}Algorithm for calculating optimal 3 lens mode matching solution}{5}{section.1.5}
-\contentsline {section}{\numberline {1.6}HAM6 layout}{5}{section.1.6}
-\contentsline {section}{\numberline {1.7}Thermal lensing}{5}{section.1.7}
-\contentsline {section}{\numberline {1.8}Arm cavity power linked to AWC}{5}{section.1.8}
-\contentsline {section}{\numberline {1.9}Conclusion about BHD for A+}{5}{section.1.9}
+\contentsline {chapter}{\numberline {1}Balanced Homodyne for LIGO A+}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}BHD versus DC readout for A+}{5}{section.1.1}
+\contentsline {paragraph}{}{6}{section*.2}
+\contentsline {paragraph}{estimate reduction of SRC length noise coupling}{6}{section*.3}
+\contentsline {paragraph}{Optical spring effect which is porbably not important}{7}{section*.4}
+\contentsline {section}{\numberline {1.2}Local Oscillator Path Length Stability Requirement and HRTS requirement}{8}{section.1.2}
+\contentsline {paragraph}{}{8}{section*.5}
+\contentsline {subsection}{\numberline {1.2.1}Local Oscillator Path}{8}{subsection.1.2.1}
+\contentsline {paragraph}{}{9}{section*.6}
+\contentsline {subsection}{\numberline {1.2.2}Simulation of the Linear Response Function Between a Differential Strain and the Power at the AS Port}{11}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Converting the Sensitivity Curve for A+ into the HRTS requirement}{13}{subsection.1.2.3}
+\contentsline {paragraph}{}{13}{section*.9}
+\contentsline {paragraph}{}{13}{section*.11}
+\contentsline {paragraph}{}{15}{section*.12}
+\contentsline {section}{\numberline {1.3}HAM6 layout}{15}{section.1.3}
+\contentsline {section}{\numberline {1.4}WS visulations as a tool for understanding mode matching problems}{15}{section.1.4}
+\contentsline {section}{\numberline {1.5}Mode matching with astigmatism}{18}{section.1.5}
+\contentsline {section}{\numberline {1.6}Algorithm for calculating optimal 3 lens mode matching solution}{18}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}AWC requirement}{18}{subsection.1.6.1}
+\contentsline {section}{\numberline {1.7}Thermal lensing}{18}{section.1.7}
+\contentsline {section}{\numberline {1.8}Arm cavity power linked to AWC}{18}{section.1.8}
+\contentsline {section}{\numberline {1.9}Conclusion about BHD for A+}{18}{section.1.9}
+\contentsline {chapter}{\numberline {2}The Effect of Radius of Curvature Errors in SR3 and SR2 on the Beam Parameter of the Arm Cavity Mode at the SRM.}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}
+\contentsline {paragraph}{}{20}{section*.15}
+\contentsline {paragraph}{}{20}{section*.16}
+\contentsline {paragraph}{}{20}{section*.17}
+\contentsline {paragraph}{}{21}{section*.18}
+\contentsline {paragraph}{}{22}{section*.19}
+\contentsline {paragraph}{}{22}{section*.20}
+\contentsline {paragraph}{}{22}{section*.21}
+\contentsline {paragraph}{}{23}{section*.22}
+\contentsline {paragraph}{}{23}{section*.23}
+\contentsline {subsection}{\numberline {2.1.1}Measurements of the Mode Matching Between the Arm Cavities and the OMC at LLO Between 2018\hyp {}2019.}{24}{subsection.2.1.1}
+\contentsline {paragraph}{}{24}{section*.24}
+\contentsline {paragraph}{}{25}{section*.25}
+\contentsline {paragraph}{}{25}{section*.26}
+\contentsline {paragraph}{}{26}{section*.27}
+\contentsline {paragraph}{}{26}{section*.28}
+\contentsline {paragraph}{}{27}{section*.29}
+\contentsline {section}{\numberline {2.2}Modelling Interferometers With Mode Mismatches Using \textsc {Finesse}}{27}{section.2.2}
+\contentsline {paragraph}{}{27}{section*.30}
+\contentsline {paragraph}{}{28}{section*.31}
+\contentsline {paragraph}{}{28}{section*.32}
+\contentsline {paragraph}{}{28}{section*.33}
+\contentsline {paragraph}{}{29}{section*.34}
+\contentsline {paragraph}{}{29}{section*.35}
+\contentsline {subsection}{\numberline {2.2.1}Thin and Thick Beamsplitters}{30}{subsection.2.2.1}
+\contentsline {paragraph}{}{30}{section*.36}
+\contentsline {paragraph}{}{30}{section*.37}
+\contentsline {section}{\numberline {2.3}Modelling of Michelson Interferometer With Fabry\hyp {}Perot Arm Cavities and A Signal Recycling Cavity}{32}{section.2.3}
+\contentsline {paragraph}{}{32}{section*.39}
+\contentsline {paragraph}{}{32}{section*.41}
+\contentsline {paragraph}{}{33}{section*.42}
+\contentsline {paragraph}{}{33}{section*.43}
+\contentsline {paragraph}{}{34}{section*.44}
+\contentsline {paragraph}{}{34}{section*.45}
+\contentsline {paragraph}{}{34}{section*.46}
+\contentsline {paragraph}{}{35}{section*.47}
+\contentsline {subsection}{\numberline {2.3.1}Determining Tunings for DC readout}{35}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}The Beam Parameter of the Arm Mode at the SRM}{40}{section.2.4}
+\contentsline {paragraph}{}{40}{section*.52}
+\contentsline {paragraph}{}{41}{section*.55}
+\contentsline {paragraph}{}{43}{section*.56}
+\contentsline {section}{\numberline {2.5}Power Transmitted Through SRM for a Mode Mismatch Between the Arm Cavity and the SRC}{47}{section.2.5}
+\contentsline {paragraph}{}{47}{section*.61}
+\contentsline {paragraph}{}{47}{section*.62}
+\contentsline {paragraph}{}{48}{section*.63}
+\contentsline {paragraph}{}{48}{section*.64}
+\contentsline {subsection}{\numberline {2.5.1}Change of finesse of SRC}{51}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Conclusion}{51}{section.2.6}
+\contentsline {paragraph}{}{52}{section*.68}
+\contentsline {paragraph}{}{52}{section*.69}
+\contentsline {paragraph}{}{53}{section*.70}
+\contentsline {chapter}{\numberline {A}\textsc {Finesse} Simulations}{54}{appendix.A}
+\contentsline {section}{\numberline {A.1}Mode Matching the Laser to the Arm Cavity}{54}{section.A.1}
+\contentsline {paragraph}{}{55}{section*.71}
+\contentsline {section}{\numberline {A.2}Interferometer Parameters}{57}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Radii of Curvature of optical components}{57}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Spacings}{58}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Nominal Simulation}{60}{subsection.A.2.3}
+\contentsline {section}{\numberline {A.3}\textsc {Finesse} Code}{62}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Michelson Interferometers with Thin Beamsplitter}{62}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Michelson Interferometers with Thick Beamsplitter}{62}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Main Simulation}{63}{subsection.A.3.3}
+\contentsline {chapter}{\numberline {B}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{68}{appendix.B}
+\contentsline {paragraph}{}{69}{section*.80}
+\contentsline {paragraph}{}{69}{section*.81}
+\contentsline {subsection}{\numberline {B.0.1}Method}{69}{subsection.B.0.1}
+\contentsline {paragraph}{Define the target mode at the optic 3.}{70}{section*.82}
+\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{70}{section*.83}
+\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{70}{section*.84}
+\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{70}{section*.85}
+\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{70}{section*.86}
+\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{70}{section*.87}
+\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{70}{section*.88}
+\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{70}{section*.89}
+\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{71}{section*.90}
+\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{71}{section*.91}
+\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{71}{section*.92}
+\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{71}{section*.93}
+\contentsline {paragraph}{}{71}{section*.94}

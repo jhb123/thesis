@@ -1,0 +1,36 @@
+\label{sec:algorithm_principle}
+To find a mode matching solutions between the SRM and the OMCs which have 45\si{\degree} phase separation for the AWC optics, an algorithm was developed. To visualise how this algorithm works see figures \ref{fig:algorithmsketch} and \ref{fig:opticallayouts}. Since a beam can be described by two parameters, its defocus $S$ and width $w$, the modes can be shown in a 2-D space \cite{Perreca2020} (figure \ref{fig:algorithmsketch}). The action of a lens or curved mirror is to move the mode in the $S$ direction. It is helpful to define a mode continuum along which $w$ and/or $S$ varies. The principle by which this algorithm works is: The continuum of modes after optic 1 and the continuum of modes just before optic 3 can be easily obtained since they must have a defined beam size, so they only vary in defocus. These two continuum are propagated to optic 2, and then its just a case of finding how to move from one continuum to an other.
+\paragraph{}
+The continua at optic 2 do not necessarily have to have the shape that they are sketched with in figure \ref{fig:algorithmsketch}, however if the blue-green and red-yellow continuum extend far enough they will always wrap around. It is also not guaranteed that every mode in the red-yellow can be reached from the blue-green continuum, and vice versa. Since the mapping between the blue-green and red-yellow continuum is not one to one, there is some choice in you can make. Both `branches' of the continua, where the continuum turns back on itself in the $w$ direction, do not need to be analysed at the same time, but a better solution may be found by looking at different combinations of branches. This is useful in setting a limit on the size of the continuum you search.
+\paragraph{}
+In our implementation of this algorithm, the continua are actually discrete, which means that when finding a mapping at optic two it is not guaranteed that a mode in the red-yellow continuum will have a corresponding mode of the same with in the blue-green continuum. Because of this granularity, if you were to plot optimal values of optic 2 and optic 3 power as a function of optic 1 power, you would see jumps in the optimal lens choices. This is especially bad around where the turning point in the continua is, since the modes defocus changes quickly while their size does not. 
+\subsection{Method}
+This section delineates the method described in section \ref{sec:algorithm_principle} and can be visualised using figure \ref{fig:algorithmsketch}.
+\paragraph{Define the target mode at the optic 3.} In figure \ref{fig:algorithmsketch}, this is mode l at optic three.
+\paragraph{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.} In figure \ref{fig:algorithmsketch}, this is the red-yellow continuum at optic three.
+\paragraph{Propagate the set of modes defined at optic 3 back to the optic 2.} In figure \ref{fig:algorithmsketch}, this is the red-yellow continuum at optic 2.
+\paragraph{Define the initial beam parameter and propagate this to optic 1.} In figure \ref{fig:algorithmsketch}, this is mode i at optic one.
+\paragraph{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.} In figure \ref{fig:algorithmsketch}, this is the blue-green continuum at optic one.
+\paragraph{Propagate the modes defined at the optic 1 to optic 2.} In figure \ref{fig:algorithmsketch}, this is the blue-green continuum at optic two.
+\paragraph{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).} In figure \ref{fig:algorithmsketch}, mode j represents just one possible mode in this continuum. Save this power.
+\paragraph{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.} In figure \ref{fig:algorithmsketch}, there is another possible choice on the red-yellow continua, however only one of them needs to be considered.
+\paragraph{Calculate the difference in optical power between mode j and mode k at optic 2.} Save this power.
+\paragraph{Calculate the difference in optical power mode k and the target mode at optic 3.} Save this power.
+\paragraph{Calculate the Gouy phase separation of optic 2 and optic 3.}
+\paragraph{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si{degree} has been found.}
+\paragraph{}
+The number of modes that are considered and the range of modes in the continua should be tailored for the optical layout that is being considered. Our problem was with metre scale spacings between optics, and with metre scale Rayleigh lengths. It was found that continua with a range of the order 1-10 dioptres were suitable. This does not mean that an adaptive optic would need this actuation range, rather it allowed for the static radii of curvature for each optic that gives optimal Gouy phase separation between the active mode matching elements to be found. Using this algorithm, we were able to rapidly develop many possible HAM6 layouts. This allows for more time to consider various engineering factors (suspension size and the like) and how to adapt the mirror strengths accordingly to accommodate for small changes in a tentative design. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{mode_matching_appendix_optical_layouts}
+	\caption{Top layout: Three lenses used to achieve mode matching to the cavity. These are shown as positive lenses, however negative lenses can also be used when designing mode matching systems. Bottom Layout: A lens and two curved mirrors to achieve mode matching to a cavity. The optics 1,2 and 3 correspond to the ones shown in figure \ref{fig:algorithmsketch}. The initial and target modes are defined in these examples by the laser mode and the cavity mode.}
+	\label{fig:opticallayouts}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{mode_matching_appendix_algorithm_sketch}
+	\caption{Sketch of the WS phase space representations of a Gaussian beams at the three positions along the optical axis where a mirror or a lens could be. Examples of such layouts are shown in figure \ref{fig:opticallayouts}. The optical power of the first optic is given by the difference in the defocus between the initial mode (i) and the second mode (j). The power of the second optic is found by finding the difference in defocus from the blue-green continuum to the red-yellow continuum. There are 2 optical powers that will move the mode j to the red-yellow continuum, and two possible modes in the blue-green continuum that can from which k can be reached, giving 4 possible similar solutions. The algorithm can be set up so that it is only one way of moving between the blue-green and red-yellow continua by limiting their extent. The power of the third optic is found from the difference between the mode k and mode l at optic 3.}
+	\label{fig:algorithmsketch}
+\end{figure}
+\bibliography{C:/bibliography/bibliography.bib}
+\end{document}
