@@ -17,7 +17,7 @@ some useful references:
 \end{itemize}
 \paragraph{}
 Main benefit of BHD is reduction of SRC length noise coupling to AS port. This noise coupling is described in \cite{Izumi2016}, see equation 13. This paper has some coupled cavity maths in it. If this needs explained, look up \href{https://dcc.ligo.org/LIGO-P000013}{Transfer Functions for Fields in a 3-Mirror Nested Cavity}, \cite{Rakhmanov2000}. There is an opto-mechanical coupling between the length of the SRC and arm cavity (due to radiation pressure). Reducing the DC offset reduces the radiation pressure, which reduces this coupling.
-\paragraph{estimate reduction of SRC length noise coupling}
+\paragraph{Estimate reduction of SRC length noise coupling}
 Differential DC offset is $\epsilon$, so this coupling scales with the offset. Since we get the LO from elsewhere, the amount of offset can be reduced. Currently it is  TEM00 is decreased to fringe offset (rms + DC) + 1mW of common mode carrier, currently there is 20mA of photo-current. (shelia dwyer answer in email FW: BHD review committee request \& document PREVIEW). Assume 0.85 A/W (qe = 99\%), this gives 23mW of light. This can be reduced to between 1mW to 5mW, giving a reduction of at most 23, at least 4.6. Need to check this point.
 \paragraph{Optical spring effect which is porbably not important}
 In a large scale gravitational wave detector, the main advantage of BHD versus DC-readout is the ability to reduce the differential arm offset that is required to provide the GW signal a local oscillator field to beat with, as the LO field is provided by other means. SRC length noise scales quadratically with the DC offset \cite{Izumi2016}, so a reduction in the DC offset causes a reduction in this coupling. SRC length noise couples to the output signal via radiation pressure. The change in differential arm length due to a change in length of the SRC scales linearly with the DC offset ($\epsilon = kL_{\rm{offset}}$) due to radiation pressure. \textcolor{red}{Don't know what the current DC offset is. The optomechanical coupling between SRC length and differential arm length is given as
@@ -106,14 +106,11 @@ A typical motion of the optical benches at 10\,Hz is $10\times10^{-1}\rm{m}/\sqr
 	\label{fig:bhdforligochapterhrtsrequirement}
 \end{figure}
 \section{HAM6 layout}
-\section{WS visulations as a tool for understanding mode matching problems}
+\paragraph{2 or 3 paragraphs what is in ham6}
+\paragraph{1 or 2 More specific details about HAM6 AWC}
+\paragraph{Thermal lensing}
+\paragraph{Arm cavity power linked to AWC}
+\section{Simple Astigmatism}
+\section{WS visulations as a tool for understanding mode matching problems (aka results)}
 \cite{Perreca2020}
-\section{Mode matching with astigmatism}
-discuss astigmatism in detail, derive the result
-\section{Algorithm for calculating optimal 3 lens mode matching solution}
-move to appendix
-talk about sams, the layout, requirements for the layout etc.
-\subsection{AWC requirement}
-\section{Thermal lensing}
-\section{Arm cavity power linked to AWC}
 \section{Conclusion about BHD for A+}
