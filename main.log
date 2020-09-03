@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  2 SEP 2020 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  3 SEP 2020 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,7 +1159,7 @@ File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 \c@lstlisting=\count304
 \c__siunitx_mathsf_int=\count305
 \c__siunitx_mathtt_int=\count306
-<Figures/GlaLogo.pdf, id=136, pagebox=cropbox, 1487.5575pt x 544.0325pt>
+<Figures/GlaLogo.pdf, id=160, pagebox=cropbox, 1487.5575pt x 544.0325pt>
 File: Figures/GlaLogo.pdf Graphic file (type pdf)
 <use Figures/GlaLogo.pdf>
 Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 56. on input l
@@ -1171,11 +1171,11 @@ Package pdftex.def Info: Requested size: 213.39568pt x 78.04012pt on input line
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figures/GlaLo
 go.pdf>] (./main.toc [2
 
-])
+] [3])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3] [4]
+ [4]
 Chapter 1.
 (./Chapters/BHD_for_ligo.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
@@ -1205,8 +1205,8 @@ er_sketch_of_LO_delivery-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_sket
 ch_of_LO_delivery.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf, id=25
-3, pagebox=cropbox, 352.31625pt x 628.3475pt>
+<Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf, id=28
+4, pagebox=cropbox, 352.31625pt x 628.3475pt>
 File: Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf>
@@ -1237,7 +1237,7 @@ er_detector_repsonse-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_detector
 _repsonse.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf, id=313, p
+<Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf, id=344, p
 agebox=cropbox, 433.62pt x 289.08pt>
 File: Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1262,7 +1262,7 @@ er_light_noise-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_light_noise.ep
 s>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf, id=365, pagebox
+<Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf, id=396, pagebox
 =cropbox, 433.62pt x 289.08pt>
 File: Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1291,7 +1291,7 @@ er_bhd_double_counted-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_bhd_dou
 ble_counted.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=435, 
+<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=466, 
 pagebox=cropbox, 109.40875pt x 101.37875pt>
 File: Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1313,7 +1313,7 @@ er_HRTS_requirement-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_HRTS_requ
 irement.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=436, pa
+<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=467, pa
 gebox=cropbox, 433.62pt x 289.08pt>
 File: Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1325,22 +1325,22 @@ Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
  [15] [16 <./Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.p
 df>] [17 <./Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf>
 ]
-Overfull \hbox (1.83582pt too wide) in paragraph at lines 114--114
+Overfull \hbox (1.83582pt too wide) in paragraph at lines 123--123
 []\T1/cmr/bx/n/17.28 WS vi-su-la-tions as a tool for un-der-stand-ing mode
  []
 
 <Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf
-, id=531, pagebox=cropbox, 433.62pt x 578.16pt>
+, id=562, pagebox=cropbox, 433.62pt x 578.16pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_succes
 s.pdf Graphic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success
 .pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_m
-ode_matching_success.pdf  used on input line 117. on input line 117.
+ode_matching_success.pdf  used on input line 126. on input line 126.
 Package pdftex.def Info: Requested size: 277.41176pt x 369.89763pt on input lin
-e 117.
+e 126.
 
-LaTeX Warning: Float too large for page by 4.34476pt on input line 121.
+LaTeX Warning: Float too large for page by 4.34476pt on input line 130.
 
 ) [18] [19 <./Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matchin
 g_success.pdf>]
@@ -1377,7 +1377,7 @@ erted-to.pdf>
 s_thick-eps-converted-to.pdf Figures/sim_chapter_thin_vs_thick.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf, id=713, pagebox=cropbo
+<Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf, id=750, pagebox=cropbo
 x, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1397,7 +1397,7 @@ Overfull \hbox (2.94495pt too wide) in paragraph at lines 80--80
 \T1/cmr/bx/n/17.28 Perot Arm Cav-i-ties and A Sig-nal Re-cy-cling Cav-
  []
 
-<Figures/sim_chapter_sketch_of_simulation.pdf, id=776, pagebox=cropbox, 465.572
+<Figures/sim_chapter_sketch_of_simulation.pdf, id=812, pagebox=cropbox, 465.572
 2pt x 287.25394pt>
 File: Figures/sim_chapter_sketch_of_simulation.pdf Graphic file (type pdf)
 <use Figures/sim_chapter_sketch_of_simulation.pdf>
@@ -1424,7 +1424,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ETM_tuning.eps
 n_ETM_tuning-eps-converted-to.pdf Figures/sim_chapter_Zoom_in_ETM_tuning.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf, id=803, pagebox=c
+<Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf, id=839, pagebox=c
 ropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1445,7 +1445,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ITM_tuning.eps
 n_ITM_tuning-eps-converted-to.pdf Figures/sim_chapter_Zoom_in_ITM_tuning.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf, id=804, pagebox=c
+<Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf, id=840, pagebox=c
 ropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1469,7 +1469,7 @@ converted-to.pdf>
 ize_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_beam_size_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf, id=933, pagebox=cr
+<Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf, id=970, pagebox=cr
 opbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1489,7 +1489,7 @@ onverted-to.pdf>
 oc_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_beam_roc_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf, id=936, pagebox=cro
+<Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf, id=973, pagebox=cro
 pbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1516,7 +1516,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_gouy_phase_sr2_sr3.eps
 hase_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_gouy_phase_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf, id=1001, pagebox=
+<Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf, id=1037, pagebox=
 cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1536,7 +1536,7 @@ o.pdf>
 -eps-converted-to.pdf Figures/sim_chapter_ITM_TL.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_ITM_TL-eps-converted-to.pdf, id=1004, pagebox=cropbox, 433
+<Figures/sim_chapter_ITM_TL-eps-converted-to.pdf, id=1040, pagebox=cropbox, 433
 .62pt x 289.08pt>
 File: Figures/sim_chapter_ITM_TL-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/sim_chapter_ITM_TL-eps-converted-to.pdf>
@@ -1556,7 +1556,7 @@ converted-to.pdf>
 _experiment-eps-converted-to.pdf Figures/sim_chapter_maxtem_experiment.eps>
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf, id=1005, pagebox=c
+<Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf, id=1041, pagebox=c
 ropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1578,7 +1578,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf, id=1006, pageb
+<Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf, id=1042, pageb
 ox=cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1604,7 +1604,7 @@ arameter_at_SRM-eps-converted-to.pdf Figures/sim_chapter_beam_parameter_at_SRM.
 eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf, id=1052, pageb
+<Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf, id=1088, pageb
 ox=cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1641,7 +1641,7 @@ verted-to.pdf>
 imulated-eps-converted-to.pdf Figures/sim_chapter_TM00_simulated.eps>
 (epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf, id=1289, pagebox=crop
+<Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf, id=1326, pagebox=crop
 box, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1663,7 +1663,7 @@ wer_simulated-eps-converted-to.pdf Figures/sim_chapter_All_power_simulated.eps>
 
 (epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf, id=1292, pagebox
+<Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf, id=1329, pagebox
 =cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1685,7 +1685,7 @@ verted-to.pdf>
 HG_ratio-eps-converted-to.pdf Figures/sim_chapter_SRM_T_HG_ratio.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf, id=1414, pagebox=crop
+<Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf, id=1450, pagebox=crop
 box, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1714,7 +1714,7 @@ command_fitting-eps-converted-to.pdf Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=1485, pageb
+<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=1521, pageb
 ox=cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1771,7 +1771,7 @@ ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
 l_layouts.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=1826, 
+<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=1862, 
 pagebox=cropbox, 501.875pt x 240.9pt>
 File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1793,7 +1793,7 @@ ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
 ithm_sketch.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=1829,
+<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=1865,
  pagebox=cropbox, 450.68375pt x 253.94875pt>
 File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1802,55 +1802,84 @@ Package pdftex.def Info: Figures/mode_matching_appendix_algorithm_sketch-eps-co
 nverted-to.pdf  used on input line 31. on input line 31.
 Package pdftex.def Info: Requested size: 384.1096pt x 216.44644pt on input line
  31.
- (./main.bbl [73] [74 <./Figures/mode_matching_appendix_optical_layouts-eps-con
-verted-to.pdf>] [75 <./Figures/mode_matching_appendix_algorithm_sketch-eps-conv
-erted-to.pdf>] [76
+) [73] [74 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.p
+df>] [75 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pd
+f>]
+Appendix C.
+(./Chapters/appendix_mode_matching_derivation.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [77] [78])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
+ [76
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [79]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
+Overfull \hbox (56.5019pt too wide) detected at line 80
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81])
+(./main.bbl [82] [83
+
+] [84] [85])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+ [86]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D86CE3437D026290F9157EEBBE5FA641;3039.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
- ) ) 
+(rerunfilecheck)             Checksum: CF2EA69CB296E0AE230CF6E401A79349;3565.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+ ) 
 Here is how much of TeX's memory you used:
- 21077 strings out of 492990
- 391277 string characters out of 6136333
- 604205 words of memory out of 5000000
- 24004 multiletter control sequences out of 15000+600000
- 557468 words of font info for 92 fonts, out of 8000000 for 9000
+ 21159 strings out of 492990
+ 392473 string characters out of 6136333
+ 604501 words of memory out of 5000000
+ 24019 multiletter control sequences out of 15000+600000
+ 558396 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,13n,52p,10357b,2202s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
-/cm-super/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
-sfbx2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfcc1200.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/cm-super/sftt1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
-fxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pf
-b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc2488.pfb>
-Output written on main.pdf (79 pages, 1445489 bytes).
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
+fbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/c
+m-super/sftt1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
+tt1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb
+><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb><c:/texli
+ve/2017/texmf-dist/fonts/type1/public/cm-super/sfxc2488.pfb>
+Output written on main.pdf (86 pages, 1483957 bytes).
 PDF statistics:
- 2156 PDF objects out of 2487 (max. 8388607)
- 1319 compressed objects within 14 object streams
- 409 named destinations out of 1000 (max. 500000)
- 385 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2291 PDF objects out of 2487 (max. 8388607)
+ 1445 compressed objects within 15 object streams
+ 470 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
