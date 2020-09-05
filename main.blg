@@ -51,45 +51,46 @@ Warning--entry type for "l1_finesse_2014" isn't style-file defined
 --line 3599 of file C:/bibliography/bibliography.bib
 Warning--entry type for "HAM_table_motion" isn't style-file defined
 --line 3653 of file C:/bibliography/bibliography.bib
-You've used 32 entries,
+Warning--I didn't find a database entry for "siegman1986lasers"
+You've used 34 entries,
             1791 wiz_defined-function locations,
-            608 strings with 8953 characters,
-and the built_in function-call counts, 5058 in all, are:
-= -- 360
-> -- 292
+            624 strings with 9459 characters,
+and the built_in function-call counts, 5451 in all, are:
+= -- 388
+> -- 322
 < -- 1
-+ -- 112
-- -- 80
-* -- 176
-:= -- 794
-add.period$ -- 97
-call.type$ -- 32
-change.case$ -- 30
++ -- 123
+- -- 89
+* -- 209
+:= -- 869
+add.period$ -- 103
+call.type$ -- 34
+change.case$ -- 31
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 194
-empty$ -- 593
-format.name$ -- 80
-if$ -- 1153
+cite$ -- 34
+duplicate$ -- 210
+empty$ -- 624
+format.name$ -- 89
+if$ -- 1232
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 6
-newline$ -- 163
-num.names$ -- 31
-pop$ -- 224
+int.to.str$ -- 34
+missing$ -- 7
+newline$ -- 173
+num.names$ -- 33
+pop$ -- 227
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 114
+skip$ -- 119
 stack$ -- 0
-substring$ -- 46
-swap$ -- 42
+substring$ -- 55
+swap$ -- 44
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 34
-width$ -- 34
-write$ -- 304
-(There were 24 warnings)
+while$ -- 37
+width$ -- 36
+write$ -- 326
+(There were 25 warnings)

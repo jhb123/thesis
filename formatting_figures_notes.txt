@@ -1,7 +1,7 @@
 Figure style guide
 ------------------
 
-N.B. ask ken about capitalisation.
+Consistency Style guide
 
 Graphs
 ------
@@ -17,7 +17,7 @@ For all figures, the following points should be checked:
 	- Are all lines visible/distinguishable? Changing thickness and linestyle can
 	help.
 	- Are the axis labelled? The label is a sentence, so normal sentence 
-	capitalisation should be used.
+	capitalisation should be used. If its just one word, use a capital letter.
 	- Capitalisation should follow normal grammar rules in the legend.
 	- Do the axis have units? The units should be put in brackets like (m). No 
 	other shape of brackets should be used.
@@ -48,7 +48,11 @@ plt.grid()
 plt.savefig('sim_chapter_Zoom_in_ETM_tuning.eps')
 plt.show()
 
+For 2x1 subplots, use
+plt.figure(figsize=(6, 6), dpi=150)
+
 when there is important issues (i.e. not to do with the legend), save as a pdf.
+
 
 For matlab figures, use the linspecer (from mathworks file exchange) function to 
 generate colours e.g. An example Figures is shown below.

@@ -105,22 +105,142 @@ A typical motion of the optical benches at 10\,Hz is $10\times10^{-1}\rm{m}/\sqr
 	\caption{The phase noise between the LO and the AS beams causes noise. The sensitivity curve for A+ sets the limit on how much path length noise is acceptable between the AS and LO beams. The blue line shows sensitivity curve is shown in units of path length noise between the AS and LO beams, and the orange line shows the requirement of HRTS mirror motion.}
 	\label{fig:bhdforligochapterhrtsrequirement}
 \end{figure}
+\textcolor{red}{make figure showing requirement as a fucntion of AS power?}
+\subsection{HRTS}
+\textcolor{red}{remove references to HRTS in previous section. Refer to the HRTS there as table motion isolation requirements, or something like that. Discuss the HRTS in its own separate section.}
+\section{Alignment of the LO and AS beam}
 \section{HAM6 layout}
-\paragraph{2 or 3 paragraphs what is in ham6}
-\subsection{Overview of HAM6 requirements}
-\paragraph{the requirements of the layout in ham6}
-\paragraph{Role of AWC}
-\paragraph{brief reminder of the beam parameter at the SRM}
-\paragraph{link to Thermal lensing/arm power}
-\paragraph{the concept of the RPS}
-\subsection{Simple Astigmatism}
+Fundamentally, the layout in HAM6 must combine the AS beam and the LO beam, and sense the combined beams to form a balanced homodyne detector. There are several other functionalities required and constraints imposed on the layout of HAM6. The following section will describe these functionalities and constraints and how they guided the design of the HAM6 layout. This work was undertaken by a team including myself, Ken Strain, Russel Jones, Stephen Webster and Mark Barton. 
+\subsection{The Constraints and Requirements of the Layout of HAM6}
+The entry point of the AS and LO beams in principle can be anywhere in HAM6, however in reality they are fixed due to the location of HAM6 with respect to the interferometer, due to the location of the septum windows between HAM5 and HAM6, and due to the many other components of the interferometer that these beams need to avoid. The LO beam is steered with BHDM1 onto BHDBS2, and the AS beam is steered with OM0 onto BHDBS2. This is required to provide the degrees of freedom to co-align the AS and LO beams. There is some freedom in choice for the location of OM0 and BHDBS2, but there is no choice in the location of the AS and LO beams.
+\paragraph{}
+The design beam parameter at the SRM is $q_{\rm{SRM}} = -3.55 + 1.09i\,\rm{m} $, so the design of the HAM6 mode matching optics is based on this number. In reality, the beam parameter could be different to this, as discussed in chapter \ref{chapter:simulation_finesse}). At the SRM, there are two sets of modes we could design the AWC to match to: The arm mode, or the SRC mode. Ideally, these would be the same mode, however geometry errors in the SRC cause the arm and the SRC to be mismatched meaning the radius of curvature and beam size at the SRM will not correspond to the eigenmode of the SRM. This set of likely modes, shown in \ref{fig:sim_chapter_beam_parameter_at_SRM}, was taken into consideration when choosing a layout for the AWC in HAM6.
+\paragraph{}
+After BHDBS2, the layout the optics between OMC input couplers and BHDBS2 must provide the functionality for steering the combined AS and LO beam into the OMC, and provide mode matching for the AS beam to the OMC. In addition to this, sensors in HAM6 are required for targeting the AS and LO beams. Some of these functions will be achieved using beams which are picked off from the main beam path, and so additional mirrors will be required to steer these beams around the chamber. A set of smaller optics will be installed to provide diagnostic beams which can be imaged with CCDs. A shutter will be required to protect the hardware in HAM6 from being damaged by the large amounts of light that can potential be transmitted through the SRM.
+\paragraph{}
+After the AS and LO beams are combined, double stage suspensions will guide the beam from BHDBS2 to the OMC. These suspensions provide active positioning control and active wave front control. In principle, the role of the AWC in HAM6 is to correct for geometry errors of the optics after the SRM such that the mode matching between the Arm mode and the OMC waist is maximised. This assumes that the changes in the interferometers mode, for instance due to a change in thermal state, will be corrected for by other subsystems e.g. the TCS. In practice, operators of the interferometer do what ever improves the SNR of the the gravitational wave signal. For instance, it has been found that TCS can be used to decrease laser intensity noise coupling to the the GW signal channel \textcolor{red}{CHECK}. The AWC in HAM6 was designed with this flexibility in mind. The losses due to components in HAM6 is summarised in table \ref{tab:HAM6_losses} (See \href{https://dcc.ligo.org/E1900385}{E1900385}).
+\paragraph{}
+The goal for mode matching between the arm mode and the OMC mode is is $>98\%$.  The SAMS actuators will provide $\pm100$,\,mD of optical power tuning range, with a bandwidth of the order 100\,Hz. Astigmatism can be considered as a loss, and none-zero angles of incidence (AOI) of beams onto curved optics results in a the beam becoming astigmatic. This prevents designs using large AOI. This is described in detail in section \ref{sec:astigmatism}.
+\paragraph{}
+The current OMC design (with trivial modifications) will be used to remove junk light from the signal beam, so their is no choice in target waist size. The input beam at the SRM is defined in \href{https://dcc.ligo.org/LIGO-T1200410}{T1200410}. The mode matching is designed assuming that the beam at the SRM is the `design mode'. Mode matching between the beam exiting the SRM and the OMC waist will be done with a static lens and 2 active mirrors. The static lens will be placed just after the OFI and its purpose is to provide sufficient Gouy phase separation of the 2 active mirrors. 
+\paragraph{}
+The light transmitted OMCs is used to measure the gravitational wave signal, since the higher order modes are suppressed by a factor of the finesse of the OMC. The OMCs are expected to be the largest contributor of back-scatter from HAM6 back to the interferometer. By having the OMCs after the AS and LO beams are combined, and by having the OFI protect the interferometer, the requirement on the motion of the OMCs is fairly lax. Nevertheless, a single stage suspended platform is required. This will provide isolation down to 4\,Hz.  
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{| l | c |}
+		\hline
+		HAM6 loss Source & Target for O5 \\
+		\hline
+		OMC throughput & $<2\%$ \\
+		OM3 transmission (or equivalent) for sensing & 1--2\% \\
+		PD quantum efficiency &  1\% \\
+		Mode mismatch to the OMC &  $<2\%$ (as low as possible) \\
+		Any other optical loss & $<1\%$\\
+		\hline
+	\end{tabular}
+	\caption{Target for losses in HAM6. Reproduction of \href{https://dcc.ligo.org/E1900385}{E1900385}}
+	\label{tab:HAM6_losses}
+\end{table}
 
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{| l | c |}
+		\hline
+		Space Name & Optical Path Length (mm) \\
+		\hline
+		SRM to OFI lens & 1120 \\
+		OFI lens to HAM6 table edge & 720 \\
+		HAM6 table edge to OM0 &  432 \\
+		OM0 to BHDBS2 &  905 \\
+		BHDBS2 to OMxS & 225\\
+		OMxS to OMx1 & 1240\\
+		OMx1 to OMx2 & 1240\\
+		OMx2 to OMCx waist & 1240\\
+		\hline
+	\end{tabular}
+	\caption{Spacings for the main beam path from the SRM to the OMC waist.}
+	\label{tab:spacings}
+\end{table}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\linewidth]{Figures/BHD_for_ligo_chapter_5f_21}
+	\caption{Place holder graphic. The pentagram layout. CAD will be inserted later.}
+	\label{fig:bhdforligochapterlayout5f}
+\end{figure}
+\subsection{Propagation of a Simple Astigmatic Gaussian Beam Through an Optical layout}
+\textcolor{red}{add some stuff about the electric field, beam parameter etc. Want to capture the idea of HOM as well. Put in bit about astigmatic beam parameter being thought of as seperate q for x and y}
+\label{sec:astigmatism}
+To study how a Gaussian beams width and curvature evolves through an optical set-up, it is useful to define the complex beam parameter $q$ and the ABCD matrices of free spaces and of mirrors. A complex system of lenses and mirrors can be represented as a chain of ABCD matrices multiplied together. This technique was used to analyse the beam as it propagates through the proposed layouts for HAM6.
+\paragraph{}
+A Gaussian beam can be described by the complex beam parameter \cite{Bond2016,siegman1986lasers}, $q$,
+\begin{equation}
+q(z) = z - z_0 + iz_R,
+\end{equation}
+where $z$ is the distance along the optical axis, $z_0$ is the beam waist location, and $z_R$ is the Rayleigh length of the beam. This is a useful way of describing a Gaussian beam because the defocus and width of the beam at any point along $z$ can be calculated from it. Taking the reciprocal of $q(z)$ gives
+\begin{equation}
+\frac{1}{q(z)} = S(z) -i\frac{\lambda}{\pi\omega^2(z)},
+\label{eq:1/q}
+\end{equation}   
+where $S(z)$ is the defocus at $z$, $\lambda$ is the lasers wavelength and $w(z)$ is the width of the beam at $z$. From equation \ref{eq:1/q} we find
+\begin{align}
+S(z) &= \Re\left( \frac{1}{q} \right),\\
+w(z) & =  \sqrt{\frac{\lambda}{-\pi\Im\left(\frac{1}{q}\right)}}.
+\end{align}
+The Gouy phase $\phi$ of a TM00 Gaussian beam is  
+\begin{equation}
+\phi(z) = \arctan\left(\frac{z}{z_R}\right)  = \arctan\left(\frac{\Re(q(z))}{\Im(q(z))}\right).
+\end{equation}
+The Gouy phase accumulated along a space is simply $\phi(z_2) - \phi(z_1)$. The Gouy phase accumulated through an optical system is a continuous function. When the beam interacts with a mirror, the beam parameter changes in a non-continuous way. The jump in the Gouy phase resulting from the sudden change in $q$ should be removed when analysing how the Gouy phase accumulates through the system.
+\paragraph{}
+To calculate how the beam parameter $q_0$ is effected by propagation $\Delta z$ and reflection from a curved mirror with power $S$, the coefficient matrices $\mathbf{P}$ and $\mathbf{R}$ can be applied to give the resultant beam parameter $q_1$
+\begin{align}
+\mathbf{M} = \begin{pmatrix} A &B\\	C &D \end{pmatrix},\quad \mathbf{P} &= \begin{pmatrix} 1 &\Delta z\\	0 &1 \end{pmatrix},\quad \mathbf{R} = \begin{pmatrix} 1 & 0\\	-S & 1 \end{pmatrix},\\
+q_1 &= \frac{Aq_0 + B}{Cq_0 + D}.
+\end{align}
+\paragraph{}
+If a beams angle on incidence on a curved mirror is not zero, the reflected beam with have astigmatism. The location of the beam waist will be different for the tangential plane (plane containing the optical axis of the mirror and the object) and the sagittal (plane perpendicular to the tangential plane). The shape of the mirror can be described by the tangential radius of curvature, $R_t$, and the sagittal radius of curvature, $R_s$. If the beam has an angle of incidence $\theta$ on a mirror with a radius of curvature $R$, then the radius of curvature experienced by the tangential and sagittal beams is \cite{MonkLight,Bond2016,Kochkina:2013bba,siegman1986lasers}
+\begin{align}
+R_t &= R\cos\theta \\
+R_s &= \frac{R}{\cos\theta}
+\end{align}
+so the optical power is changed by
+\begin{align}
+S_t &= \frac{2}{R_t} = \frac{S}{\cos\theta}\\
+S_s &= \frac{2}{R_s} = S\cos\theta.
+\end{align}
+The radius of curvature of a mirror is related to the optical power of the mirror by $S_m= \frac{2}{R_m}$, and the defocus of a wavefront is related to the curvature of the wavefront by $S_w = \frac{1}{R_w}$. 
+\paragraph{}
+An astigmatic beam is describable by two beam parameters in orthogonal planes. The electric field, $E$, of a TM00 Gaussian beam can be written as \textcolor{red}{copied from appendix}
+\begin{equation}
+E(x,y,z) = E_x(x,z)E_y(y,z)
+\end{equation}
+where 
+\begin{align}
+E_x(x,z) = \frac{1}{\sqrt{q_x(z)}}\exp\left(-ik\frac{x^2}{2q_x(z)}\right),\\
+E_y(y,z) = \frac{1}{\sqrt{q_y(z)}}\exp\left(-ik\frac{y^2}{2q_y(z)}\right).
+\end{align}
+For a beam without astigmatism, $x^2 + y^2 = r^2$ and $q_x = q_y = q$ so:
+\begin{equation}
+E(r,z) = \frac{1}{q(z)}\exp\left(-ik\frac{r^2}{2q(z)}\right).
+\end{equation}
 \subsection{Mode Matching and Control}
-\paragraph{definition of mode matching formula}
-\paragraph{Discuss Gouy Phase Separation}
+\textcolor{red}{Hermite Gaussian beams will be explained earlier in the intro chapters, so don't need generic expansion, just use the 2nd order ones. Have a read of \cite{Mueller2000}}.
+\paragraph{}
+The mode-matching between two laser beam modes, or a laser mode and a cavity mode, describes how similar those two modes are. In general, the two modes can be mismatched by being misaligned or by having a different beam shape. Mode matching typically refers to the overlap of the two modes if they were perfectly aligned.
+\paragraph{}
+Mode-matching is usually, to first approximation, thought of as a difference in beam waist size and beam size location. This can be mathematically described by the $\rm{HG}_{20} + \rm{HG}_{02}$ mode. The effect of changing the waist location of the mode is equivalent to an in phase change in HG20 content, whereas an change in waist location is orthogonal to this. \textcolor{red}{read up on this}. Sensing the $\rm{HG}_{20} + \rm{HG}_{02}$ mode therefore gives a measure of the mode-matching between two lasers. As the $\rm{HG}_{20} + \rm{HG}_{02}$ acquires $3\phi$ compared to a plane wave, and $2\phi$ compared to the $\rm{HG}_{00}$ mode, spacing the actuators at $45\si{\degree}$ will give orthogonal control of the mode matching. 
+\paragraph{}
+To correct for mode-mismatch, the optical layout will be such that the AWC can orthogonally actuate on the beam parameter of the arm mode when its reached the OMC. 
+\paragraph{}
+The two mode will not perfectly interfere, and this results in some signal loss. The amount of mode matching $\mathcal{M}$ between two astigmatic modes modes, $q_{1,2}$, is
+\begin{equation}
+\mathcal{M} =\frac{\sqrt{\left(q_{x1}-q_{x1}^*\right)\left(q_{y1}-q_{y1}^*\right)\left(q_{x2}-q_{x2}^*\right)\left(q_{y2}-q_{y2}^*\right)}}{\left|q_{x2} - q_{x1}^*\right|\left|q_{y2} - q_{y1}^*\right|}.
+\end{equation}
+As well as mode matching, the layout in HAM6 should provide orthogonal control for alignment. As the alignment can be described by the  $\rm{HG}_{10} + \rm{HG}_{01}$, the alignment mode aquires an extra $\phi$ of Gouy phase compared to the $\rm{HG}_{00}$ mode. Orthogonal control can be achieved by separating the actuators for this by $90\si{\degree}$.
+\subsection{Chosen Layout}
+Optically, there are many layouts which could have satisfied the above requirements and constraints. It was decided that the two beams after BHDBS2 would have the same path length to reduce the cost of the HAM6 optics. Ultimately the choice of layout for HAM6 was determined by mechanical factors such as table space and number of allowable suspensions. The design that is being taken forward at the time of writing is known as the `pentagram', and is shown in figure \ref{fig:bhdforligochapterlayout5f}.
 \paragraph{Show plots produced by ligo\_layout.py}
-\subsection{Layout Design}
-\section{WS visulations as a tool for understanding mode matching problems (aka results)}
+\subsection{WS visulations as a tool for understanding mode matching problems}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\linewidth]{Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf}
@@ -128,6 +248,5 @@ A typical motion of the optical benches at 10\,Hz is $10\times10^{-1}\rm{m}/\sqr
 	Bottom panel: this shows the same modes as the top panel, except they have been transformed to the plane of the OMC waist. The target region is highlighted with a hatched area.}
 	\label{fig:bhdforligochapterlayout5fmodessrmomcmodematchingsuccess}
 \end{figure}
-
 \cite{Perreca2020}
 \section{Conclusion about BHD for A+}

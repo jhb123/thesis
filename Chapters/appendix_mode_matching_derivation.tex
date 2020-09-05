@@ -1,36 +1,51 @@
 \section{Derivation of Mode Matching TM00 Beams}
-A Gaussian beam can be described by the complex beam parameter \cite{Bond2016}, $q$,
-\begin{equation}
-q(z) = z - z_0 + iz_R,
-\end{equation}
-where $z$ is the distance along the optical axis, $z_0$ is the beam waist location, and $z_R$ is the Rayleigh length of the beam. This is a useful way of describing a Gaussian beam because the defocus and width of the beam at any point along $z$ can be calculated from it. Taking the reciprocal of $q(z)$ gives
-\begin{equation}
-\frac{1}{q(z)} = S(z) -i\frac{\lambda}{\pi\omega^2(z)},
-\label{eq:1/q}
-\end{equation}   
-where $S(z)$ is the defocus at $z$, $\lambda$ is the lasers wavelength and $w(z)$ is the width of the beam at $z$. From equation \ref{eq:1/q} we find
-\begin{align}
-S(z) &= \Re\left( \frac{1}{q} \right),\\
-w(z) & =  \sqrt{\frac{\lambda}{-\pi\Im\left(\frac{1}{q}\right)}}.
-\end{align}
-To calculate how the beam parameter $q_0$ is effected by propagation $\Delta z$ and reflection from a curved mirror with power $S$, the coefficient matrices $\mathbf{P}$ and $\mathbf{R}$ can be applied to give the resultant beam parameter $q_1$
-\begin{align}
-\mathbf{M} = \begin{pmatrix} A &B\\	C &D \end{pmatrix},\quad \mathbf{P} &= \begin{pmatrix} 1 &\Delta z\\	0 &1 \end{pmatrix},\quad \mathbf{R} = \begin{pmatrix} 1 & 0\\	-S & 1 \end{pmatrix},\\
-q_1 &= \frac{Aq_0 + B}{Cq_0 + D}.
-\end{align}
-\paragraph{}
-If a beams angle on incidence on a curved mirror is not zero, the reflected beam with have astigmatism. The location of the beam waist will be different for the tangential plane (plane containing the optical axis of the mirror and the object) and the sagittal (plane perpendicular to the tangential plane). The shape of the mirror can be described by the tangential radius of curvature, $R_t$, and the sagittal radius of curvature, $R_s$. If the beam has an angle of incidence $\theta$ on a mirror with a radius of curvature $R$, then the radius of curvature experienced by the tangential and sagittal beams is \cite{MonkLight,Bond2016}
-\begin{align}
-R_t &= R\cos\theta \\
-R_s &= \frac{R}{\cos\theta}
-\end{align}
-so the optical power is changed by
-\begin{align}
-S_t &= \frac{2}{R_t} = \frac{S}{\cos\theta}\\
-S_s &= \frac{2}{R_s} = S\cos\theta.
-\end{align}
-The radius of curvature of a mirror is related to the optical power of the mirror by $S_m= \frac{2}{R_m}$, and the defocus of a wavefront is related to the curvature of the wavefront by $R_w = \frac{1}{R_w}$.
-\paragraph{}
+%%
+%A Gaussian beam can be described by the complex beam parameter \cite{Bond2016}, $q$,
+%\begin{equation}
+%q(z) = z - z_0 + iz_R,
+%\end{equation}
+%where $z$ is the distance along the optical axis, $z_0$ is the beam waist location, and $z_R$ is the Rayleigh length of the beam. This is a useful way of describing a Gaussian beam because the defocus and width of the beam at any point along $z$ can be calculated from it. Taking the reciprocal of $q(z)$ gives
+%\begin{equation}
+%\frac{1}{q(z)} = S(z) -i\frac{\lambda}{\pi\omega^2(z)},
+%\label{eq:1/q}
+%\end{equation}   
+%where $S(z)$ is the defocus at $z$, $\lambda$ is the lasers wavelength and $w(z)$ is the width of the beam at $z$. From equation \ref{eq:1/q} we find
+%\begin{align}
+%S(z) &= \Re\left( \frac{1}{q} \right),\\
+%w(z) & =  \sqrt{\frac{\lambda}{-\pi\Im\left(\frac{1}{q}\right)}}.
+%\end{align}
+%To calculate how the beam parameter $q_0$ is effected by propagation $\Delta z$ and reflection from a curved mirror with power $S$, the coefficient matrices $\mathbf{P}$ and $\mathbf{R}$ can be applied to give the resultant beam parameter $q_1$
+%\begin{align}
+%\mathbf{M} = \begin{pmatrix} A &B\\	C &D \end{pmatrix},\quad \mathbf{P} &= \begin{pmatrix} 1 &\Delta z\\	0 &1 \end{pmatrix},\quad \mathbf{R} = \begin{pmatrix} 1 & 0\\	-S & 1 \end{pmatrix},\\
+%q_1 &= \frac{Aq_0 + B}{Cq_0 + D}.
+%\end{align}
+%\paragraph{}
+%If a beams angle on incidence on a curved mirror is not zero, the reflected beam with have astigmatism. The location of the beam waist will be different for the tangential plane (plane containing the optical axis of the mirror and the object) and the sagittal (plane perpendicular to the tangential plane). The shape of the mirror can be described by the tangential radius of curvature, $R_t$, and the sagittal radius of curvature, $R_s$. If the beam has an angle of incidence $\theta$ on a mirror with a radius of curvature $R$, then the radius of curvature experienced by the tangential and sagittal beams is \cite{MonkLight,Bond2016}
+%\begin{align}
+%R_t &= R\cos\theta \\
+%R_s &= \frac{R}{\cos\theta}
+%\end{align}
+%so the optical power is changed by
+%\begin{align}
+%S_t &= \frac{2}{R_t} = \frac{S}{\cos\theta}\\
+%S_s &= \frac{2}{R_s} = S\cos\theta.
+%\end{align}
+%The radius of curvature of a mirror is related to the optical power of the mirror by $S_m= \frac{2}{R_m}$, and the defocus of a wavefront is related to the curvature of the wavefront by $R_w = \frac{1}{R_w}$.
+%\paragraph{}
+%The electric field, $E$, of a TM00 Gaussian beam can be written as
+%\begin{equation}
+%E(x,y,z) = E_x(x,z)E_y(y,z)
+%\end{equation}
+%where 
+%\begin{align}
+%E_x(x,z) = \frac{1}{\sqrt{q_x(z)}}\exp\left(-ik\frac{x^2}{2q_x(z)}\right),\\
+%E_y(y,z) = \frac{1}{\sqrt{q_y(z)}}\exp\left(-ik\frac{y^2}{2q_y(z)}\right).
+%\end{align}
+%For a beam without astigmatism, $x^2 + y^2 = r^2$ and $q_x = q_y = q$ so:
+%\begin{equation}
+%E(r,z) = \frac{1}{q(z)}\exp\left(-ik\frac{r^2}{2q(z)}\right).
+%\end{equation}
+%%]
 The electric field, $E$, of a TM00 Gaussian beam can be written as
 \begin{equation}
 E(x,y,z) = E_x(x,z)E_y(y,z)
