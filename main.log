@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  5 SEP 2020 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  7 SEP 2020 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,7 +1159,7 @@ File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 \c@lstlisting=\count304
 \c__siunitx_mathsf_int=\count305
 \c__siunitx_mathtt_int=\count306
-<Figures/GlaLogo.pdf, id=168, pagebox=cropbox, 1487.5575pt x 544.0325pt>
+<Figures/GlaLogo.pdf, id=36, pagebox=cropbox, 1487.5575pt x 544.0325pt>
 File: Figures/GlaLogo.pdf Graphic file (type pdf)
 <use Figures/GlaLogo.pdf>
 Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 56. on input l
@@ -1169,751 +1169,78 @@ Package pdftex.def Info: Requested size: 213.39568pt x 78.04012pt on input line
 [1
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figures/GlaLo
-go.pdf>] (./main.toc [2
-
-] [3])
+go.pdf>] (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [4]
+ [2
+
+]
 Chapter 1.
-(./Chapters/BHD_for_ligo.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+(./Chapters/light_and_gaussian_modes.tex [3
 
-(c:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
- [5
+] [4]
+Underfull \vbox (badness 4242) has occurred while \output is active []
 
-] [6]
+ [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [6]
+Underfull \vbox (badness 6575) has occurred while \output is active []
+
  [7]
-[8]
-Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_sketch_of_LO_
-delivery.eps>
-(epstopdf)                    date: 2020-09-01 16:51:14
-(epstopdf)                    size: 76472 bytes
-(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_sketch_of_LO_
-delivery-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 16:52:28
-(epstopdf)                    size: 27999 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
-er_sketch_of_LO_delivery-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_sket
-ch_of_LO_delivery.eps>
-(epstopdf)             \includegraphics on input line 42.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf, id=29
-5, pagebox=cropbox, 352.31625pt x 628.3475pt>
-File: Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf G
-raphic file (type pdf)
-<use Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps
--converted-to.pdf  used on input line 42. on input line 42.
-Package pdftex.def Info: Requested size: 256.07741pt x 456.70518pt on input lin
-e 42.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Float too large for page by 19.15987pt on input line 45.
-
-[9] [10 <./Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.
-pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 48.
+ [9]
+[10]) (./main.bbl [11]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 24.
  (c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_detector_reps
-onse.eps>
-(epstopdf)                    date: 2020-09-01 14:56:01
-(epstopdf)                    size: 37080 bytes
-(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_detector_reps
-onse-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 15:22:14
-(epstopdf)                    size: 13257 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
-er_detector_repsonse-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_detector
-_repsonse.eps>
-(epstopdf)             \includegraphics on input line 61.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf, id=355, p
-agebox=cropbox, 433.62pt x 289.08pt>
-File: Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf Graph
-ic file (type pdf)
-<use Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_detector_repsonse-eps-con
-verted-to.pdf  used on input line 61. on input line 61.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 61.
- [11
-
-] [12 <./Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_light_noise.e
-ps>
-(epstopdf)                    date: 2020-09-01 14:56:02
-(epstopdf)                    size: 55807 bytes
-(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_light_noise-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 15:22:17
-(epstopdf)                    size: 17354 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
-er_light_noise-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_light_noise.ep
-s>
-(epstopdf)             \includegraphics on input line 71.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf, id=407, pagebox
-=cropbox, 433.62pt x 289.08pt>
-File: Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf Graphic fil
-e (type pdf)
-<use Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_light_noise-eps-converted
--to.pdf  used on input line 71. on input line 71.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 71.
-
-Underfull \vbox (badness 4859) has occurred while \output is active []
-
- [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_bhd_double_co
-unted.eps>
-(epstopdf)                    date: 2020-09-01 14:51:57
-(epstopdf)                    size: 38358 bytes
-(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_bhd_double_co
-unted-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 15:22:19
-(epstopdf)                    size: 14298 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
-er_bhd_double_counted-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_bhd_dou
-ble_counted.eps>
-(epstopdf)             \includegraphics on input line 98.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=477, 
-pagebox=cropbox, 109.40875pt x 101.37875pt>
-File: Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf Grap
-hic file (type pdf)
-<use Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-co
-nverted-to.pdf  used on input line 98. on input line 98.
-Package pdftex.def Info: Requested size: 170.71393pt x 158.18732pt on input lin
-e 98.
-Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_HRTS_requirem
-ent.eps>
-(epstopdf)                    date: 2020-09-01 15:28:29
-(epstopdf)                    size: 46734 bytes
-(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_HRTS_requirem
-ent-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 15:29:53
-(epstopdf)                    size: 20297 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
-er_HRTS_requirement-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_HRTS_requ
-irement.eps>
-(epstopdf)             \includegraphics on input line 104.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=478, pa
-gebox=cropbox, 433.62pt x 289.08pt>
-File: Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf Graphi
-c file (type pdf)
-<use Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-conv
-erted-to.pdf  used on input line 104. on input line 104.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 104.
-
-Underfull \vbox (badness 2443) has occurred while \output is active []
-
- [15]
-[16 <./Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf>]
-[17 <./Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf>]
-Underfull \vbox (badness 7291) has occurred while \output is active []
-
- [18]
-[19] [20]
-<Figures/BHD_for_ligo_chapter_5f_21.png, id=600, 648.92438pt x 592.46344pt>
-File: Figures/BHD_for_ligo_chapter_5f_21.png Graphic file (type png)
-<use Figures/BHD_for_ligo_chapter_5f_21.png>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_5f_21.png  used on input 
-line 166. on input line 166.
-Package pdftex.def Info: Requested size: 277.41176pt x 253.28075pt on input lin
-e 166.
- [21] [22 <./Figures/BHD_for_ligo_chapter_5f_21.png>]
-
-LaTeX Warning: Citation `siegman1986lasers' on page 23 undefined on input line 
-175.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-
-LaTeX Warning: Citation `siegman1986lasers' on page 24 undefined on input line 
-201.
-
-
-Underfull \vbox (badness 4144) has occurred while \output is active []
-
- [24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-[26]
-Overfull \hbox (1.19687pt too wide) in paragraph at lines 243--243
-[]\T1/cmr/bx/n/14.4 WS vi-su-la-tions as a tool for un-der-stand-ing mode match
--
- []
-
-<Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf
-, id=662, pagebox=cropbox, 433.62pt x 578.16pt>
-File: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_succes
-s.pdf Graphic file (type pdf)
-<use Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success
-.pdf>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_m
-ode_matching_success.pdf  used on input line 246. on input line 246.
-Package pdftex.def Info: Requested size: 277.41176pt x 369.89763pt on input lin
-e 246.
-
-LaTeX Warning: Float too large for page by 4.34476pt on input line 250.
-
-) [27] [28 <./Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matchin
-g_success.pdf>] [29]
-Chapter 2.
-(./Chapters/SRC_finesse_investigation.tex [30
-
-] [31] [32] [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 1742) has occurred while \output is active []
-
- [35]
-[36] [37]
-Overfull \hbox (23.85603pt too wide) in paragraph at lines 48--48
-[]\T1/cmr/bx/n/17.28 Modelling In-ter-fer-om-e-ters With Mode Mis-matches
- []
-
-[38]
-Underfull \vbox (badness 3942) has occurred while \output is active []
-
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-Package epstopdf Info: Source file: <Figures/sim_chapter_thin_vs_thick.eps>
-(epstopdf)                    date: 2020-08-20 14:29:13
-(epstopdf)                    size: 33215 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_thin_vs_thick-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2020-08-20 15:50:21
-(epstopdf)                    size: 18002 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_thin_v
-s_thick-eps-converted-to.pdf Figures/sim_chapter_thin_vs_thick.eps>
-(epstopdf)             \includegraphics on input line 75.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf, id=851, pagebox=cropbo
-x, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf Graphic file (type
- pdf)
-<use Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf
-  used on input line 75. on input line 75.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 75.
-
-[41] [42 <./Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf>]
-Overfull \hbox (28.14668pt too wide) in paragraph at lines 80--80
-[]\T1/cmr/bx/n/17.28 Modelling of Michel-son In-ter-fer-om-e-ter With Fabry-
- []
-
-
-Overfull \hbox (2.94495pt too wide) in paragraph at lines 80--80
-\T1/cmr/bx/n/17.28 Perot Arm Cav-i-ties and A Sig-nal Re-cy-cling Cav-
- []
-
-<Figures/sim_chapter_sketch_of_simulation.pdf, id=912, pagebox=cropbox, 465.572
-2pt x 287.25394pt>
-File: Figures/sim_chapter_sketch_of_simulation.pdf Graphic file (type pdf)
-<use Figures/sim_chapter_sketch_of_simulation.pdf>
-Package pdftex.def Info: Figures/sim_chapter_sketch_of_simulation.pdf  used on 
-input line 85. on input line 85.
-Package pdftex.def Info: Requested size: 426.79135pt x 263.33005pt on input lin
-e 85.
-
-Underfull \vbox (badness 1953) has occurred while \output is active []
-
- [43
-
-]
-[44] [45]
-Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ETM_tuning.eps
->
-(epstopdf)                    date: 2020-09-02 11:28:56
-(epstopdf)                    size: 29077 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_Zoom_in_ETM_tuning-eps
--converted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:26:33
-(epstopdf)                    size: 16765 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_Zoom_i
-n_ETM_tuning-eps-converted-to.pdf Figures/sim_chapter_Zoom_in_ETM_tuning.eps>
-(epstopdf)             \includegraphics on input line 113.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf, id=940, pagebox=c
-ropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-t
-o.pdf  used on input line 113. on input line 113.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 113.
-Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ITM_tuning.eps
->
-(epstopdf)                    date: 2020-09-02 11:28:56
-(epstopdf)                    size: 29621 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_Zoom_in_ITM_tuning-eps
--converted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:26:35
-(epstopdf)                    size: 17190 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_Zoom_i
-n_ITM_tuning-eps-converted-to.pdf Figures/sim_chapter_Zoom_in_ITM_tuning.eps>
-(epstopdf)             \includegraphics on input line 132.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf, id=941, pagebox=c
-ropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-t
-o.pdf  used on input line 132. on input line 132.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 132.
- [46] [47] [48 <./Figures/sim_chapter_sketch_of_simulation.pdf>]
-[49 <./Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf>] [50 <./Fig
-ures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/sim_chapter_beam_size_sr2_sr3.eps>
-
-(epstopdf)                    date: 2020-09-02 13:27:44
-(epstopdf)                    size: 104086 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_beam_size_sr2_sr3-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:28:00
-(epstopdf)                    size: 28860 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_beam_s
-ize_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_beam_size_sr2_sr3.eps>
-(epstopdf)             \includegraphics on input line 167.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf, id=1070, pagebox=c
-ropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf Graphic file (
-type pdf)
-<use Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to
-.pdf  used on input line 167. on input line 167.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 167.
-Package epstopdf Info: Source file: <Figures/sim_chapter_beam_roc_sr2_sr3.eps>
-(epstopdf)                    date: 2020-09-02 13:27:44
-(epstopdf)                    size: 115291 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_beam_roc_sr2_sr3-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:28:02
-(epstopdf)                    size: 30261 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_beam_r
-oc_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_beam_roc_sr2_sr3.eps>
-(epstopdf)             \includegraphics on input line 173.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf, id=1073, pagebox=cr
-opbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf Graphic file (t
-ype pdf)
-<use Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.
-pdf  used on input line 173. on input line 173.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 173.
- [51
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [52 <./Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/sim_chapter_gouy_phase_sr2_sr3.eps
->
-(epstopdf)                    date: 2020-09-02 13:27:43
-(epstopdf)                    size: 113555 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_gouy_phase_sr2_sr3-eps
--converted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:28:04
-(epstopdf)                    size: 31032 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_gouy_p
-hase_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_gouy_phase_sr2_sr3.eps>
-(epstopdf)             \includegraphics on input line 183.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf, id=1138, pagebox=
-cropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-t
-o.pdf  used on input line 183. on input line 183.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 183.
-Package epstopdf Info: Source file: <Figures/sim_chapter_ITM_TL.eps>
-(epstopdf)                    date: 2020-09-02 13:27:46
-(epstopdf)                    size: 22893 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_ITM_TL-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2020-09-02 13:28:07
-(epstopdf)                    size: 14445 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_ITM_TL
--eps-converted-to.pdf Figures/sim_chapter_ITM_TL.eps>
-(epstopdf)             \includegraphics on input line 189.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_ITM_TL-eps-converted-to.pdf, id=1141, pagebox=cropbox, 433
-.62pt x 289.08pt>
-File: Figures/sim_chapter_ITM_TL-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/sim_chapter_ITM_TL-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_ITM_TL-eps-converted-to.pdf  used 
-on input line 189. on input line 189.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 189.
-Package epstopdf Info: Source file: <Figures/sim_chapter_maxtem_experiment.eps>
-
-(epstopdf)                    date: 2020-08-20 15:34:33
-(epstopdf)                    size: 54560 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_maxtem_experiment-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 15:50:46
-(epstopdf)                    size: 19334 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_maxtem
-_experiment-eps-converted-to.pdf Figures/sim_chapter_maxtem_experiment.eps>
-(epstopdf)             \includegraphics on input line 195.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf, id=1142, pagebox=c
-ropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf Graphic file (
-type pdf)
-<use Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_maxtem_experiment-eps-converted-to
-.pdf  used on input line 195. on input line 195.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 195.
-Package epstopdf Info: Source file: <Figures/sim_chapter_SR3_SR2_likely_values.
-eps>
-(epstopdf)                    date: 2020-09-02 13:04:04
-(epstopdf)                    size: 382899 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_SR3_SR2_likely_values-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:26:47
-(epstopdf)                    size: 60398 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_SR3_SR
-2_likely_values-eps-converted-to.pdf Figures/sim_chapter_SR3_SR2_likely_values.
-eps>
-(epstopdf)             \includegraphics on input line 201.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf, id=1143, pageb
-ox=cropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_SR3_SR2_likely_values-eps-converte
-d-to.pdf  used on input line 201. on input line 201.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 201.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53 <./Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/sim_chapter_beam_parameter_at_SRM.
-eps>
-(epstopdf)                    date: 2020-09-02 13:51:43
-(epstopdf)                    size: 932838 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_beam_parameter_at_SRM-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-02 14:00:18
-(epstopdf)                    size: 173470 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_beam_p
-arameter_at_SRM-eps-converted-to.pdf Figures/sim_chapter_beam_parameter_at_SRM.
-eps>
-(epstopdf)             \includegraphics on input line 209.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf, id=1188, pageb
-ox=cropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_beam_parameter_at_SRM-eps-converte
-d-to.pdf  used on input line 209. on input line 209.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 209.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54 <./Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55 <./Figures/sim_chapter_ITM_TL-eps-converted-to.pdf>] [56 <./Figures/sim_ch
-apter_maxtem_experiment-eps-converted-to.pdf>] [57 <./Figures/sim_chapter_SR3_S
-R2_likely_values-eps-converted-to.pdf>] [58 <./Figures/sim_chapter_beam_paramet
-er_at_SRM-eps-converted-to.pdf>]
-Overfull \hbox (4.02321pt too wide) in paragraph at lines 215--215
-\T1/cmr/bx/n/17.28 Mis-match Be-tween the Arm Cav-ity and the SRC 
- []
-
-[59
-
-]
-Package epstopdf Info: Source file: <Figures/sim_chapter_TM00_simulated.eps>
-(epstopdf)                    date: 2020-09-02 11:28:26
-(epstopdf)                    size: 44042 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_TM00_simulated-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:26:52
-(epstopdf)                    size: 22935 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_TM00_s
-imulated-eps-converted-to.pdf Figures/sim_chapter_TM00_simulated.eps>
-(epstopdf)             \includegraphics on input line 227.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf, id=1424, pagebox=crop
-box, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf Graphic file (typ
-e pdf)
-<use Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_TM00_simulated-eps-converted-to.pd
-f  used on input line 227. on input line 227.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 227.
-Package epstopdf Info: Source file: <Figures/sim_chapter_All_power_simulated.ep
-s>
-(epstopdf)                    date: 2020-09-02 11:28:26
-(epstopdf)                    size: 57733 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_All_power_simulated-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:26:55
-(epstopdf)                    size: 24806 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_All_po
-wer_simulated-eps-converted-to.pdf Figures/sim_chapter_All_power_simulated.eps>
-
-(epstopdf)             \includegraphics on input line 233.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf, id=1427, pagebox
-=cropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf Graphic file
- (type pdf)
-<use Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_All_power_simulated-eps-converted-
-to.pdf  used on input line 233. on input line 233.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 233.
- [60] [61 <./Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf>]
-[62 <./Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/sim_chapter_SRM_T_HG_ratio.eps>
-(epstopdf)                    date: 2020-09-02 11:28:27
-(epstopdf)                    size: 25502 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_SRM_T_HG_ratio-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2020-09-02 13:26:57
-(epstopdf)                    size: 14853 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_SRM_T_
-HG_ratio-eps-converted-to.pdf Figures/sim_chapter_SRM_T_HG_ratio.eps>
-(epstopdf)             \includegraphics on input line 242.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf, id=1550, pagebox=crop
-box, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf Graphic file (typ
-e pdf)
-<use Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pd
-f  used on input line 242. on input line 242.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 242.
- [63
-
- <./Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf>] [64]) [65]
-Appendix A.
-(./Chapters/appendix_to_SRC_finesse_investigation.tex [66
-
-]
-Package epstopdf Info: Source file: <Figures/sim_chapter_gauss_command_fitting.
-eps>
-(epstopdf)                    date: 2020-09-02 11:28:45
-(epstopdf)                    size: 32868 bytes
-(epstopdf)             Output file: <Figures/sim_chapter_gauss_command_fitting-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-02 16:56:54
-(epstopdf)                    size: 16308 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/sim_chapter_gauss_
-command_fitting-eps-converted-to.pdf Figures/sim_chapter_gauss_command_fitting.
-eps>
-(epstopdf)             \includegraphics on input line 29.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=1620, pageb
-ox=cropbox, 433.62pt x 289.08pt>
-File: Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/sim_chapter_gauss_command_fitting-eps-converte
-d-to.pdf  used on input line 29. on input line 29.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 29.
- [67] [68 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>] [
-69
-
-] [70] [71]
-[72
-
-] [73] [74
-
-] [75]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [78])
-[79]
-Appendix B.
-(./Chapters/appendix_mode_matching_algorithm_3_optics.tex
-Underfull \vbox (badness 1242) has occurred while \output is active []
-
- [80
-
-]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 7.
-
-
-Underfull \vbox (badness 4859) has occurred while \output is active []
-
- [81]
-[82]
-Package epstopdf Info: Source file: <Figures/mode_matching_appendix_optical_lay
-outs.eps>
-(epstopdf)                    date: 2020-09-01 17:09:52
-(epstopdf)                    size: 73608 bytes
-(epstopdf)             Output file: <Figures/mode_matching_appendix_optical_lay
-outs-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 17:15:05
-(epstopdf)                    size: 24352 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/mode_matching_appe
-ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
-l_layouts.eps>
-(epstopdf)             \includegraphics on input line 25.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=1962, 
-pagebox=cropbox, 501.875pt x 240.9pt>
-File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
-ic file (type pdf)
-<use Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/mode_matching_appendix_optical_layouts-eps-con
-verted-to.pdf  used on input line 25. on input line 25.
-Package pdftex.def Info: Requested size: 384.1096pt x 184.38345pt on input line
- 25.
-Package epstopdf Info: Source file: <Figures/mode_matching_appendix_algorithm_s
-ketch.eps>
-(epstopdf)                    date: 2020-09-01 17:11:36
-(epstopdf)                    size: 86827 bytes
-(epstopdf)             Output file: <Figures/mode_matching_appendix_algorithm_s
-ketch-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 17:15:08
-(epstopdf)                    size: 29595 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/mode_matching_appe
-ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
-ithm_sketch.eps>
-(epstopdf)             \includegraphics on input line 31.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=1965,
- pagebox=cropbox, 450.68375pt x 253.94875pt>
-File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
-hic file (type pdf)
-<use Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/mode_matching_appendix_algorithm_sketch-eps-co
-nverted-to.pdf  used on input line 31. on input line 31.
-Package pdftex.def Info: Requested size: 384.1096pt x 216.44644pt on input line
- 31.
-) [83] [84 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.p
-df>] [85 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pd
-f>]
-Appendix C.
-(./Chapters/appendix_mode_matching_derivation.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87]
-Overfull \hbox (56.5019pt too wide) detected at line 95
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [88]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89])
-(./main.bbl [90] [91
-
-] [92] [93] [94])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
- [95]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+[12
+
+] [13] [14] [15])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2B0395B72E6AF018B121FDBB93770CE5;3773.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+(rerunfilecheck)             Checksum: B09556856AB2343E861AEE5C665750F6;557.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 21204 strings out of 492990
- 393231 string characters out of 6136333
- 605510 words of memory out of 5000000
- 24036 multiletter control sequences out of 15000+600000
- 559626 words of font info for 99 fonts, out of 8000000 for 9000
+ 20266 strings out of 492990
+ 375533 string characters out of 6136333
+ 528117 words of memory out of 5000000
+ 23556 multiletter control sequences out of 15000+600000
+ 545971 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,52p,10357b,2202s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,38p,10357b,821s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
-fbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pf
-b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-dist/fonts/type
-1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/c
-m-super/sftt1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
-tt1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb
-><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb><c:/texli
-ve/2017/texmf-dist/fonts/type1/public/cm-super/sfxc2488.pfb>
-Output written on main.pdf (95 pages, 1729190 bytes).
+ype1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist
+/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
+frm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (16 pages, 483146 bytes).
 PDF statistics:
- 2371 PDF objects out of 2487 (max. 8388607)
- 1513 compressed objects within 16 object streams
- 496 named destinations out of 1000 (max. 500000)
- 454 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
