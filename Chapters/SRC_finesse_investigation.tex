@@ -72,7 +72,7 @@ where $I_0$ is the input power.
 The effect of using a thin beamsplitter versus a thick beamsplitter in a \textsc{Finesse} simulation is shown in figure \ref{fig:thinvsthick}. The thin beamsplitter causes there to be constructive interference at the AS port for equal arm lengths, whereas equation \ref{eq:michelson} shows that it should be destructive interference. Using a thick beamsplitter fixes this `bug', as the phase at the beam splitter is properly accounted for.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_thin_vs_thick.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_thin_vs_thick.eps}
 	\caption{The simulation of a Michelson interferometer with thin a beamsplitter is shown in blue. The same simulation was done with a thick beam splitter, this is shown in orange. The analytic behaviour of a Michelson interferometer(equation \ref{eq:michelson}) is shown by dashed black line. The tuning of one of the arm mirrors was changed and the power at the AS port was measured. Comparing the outputs of the simulation to equation \ref{eq:michelson} shows that thick beamsplitters should be used.}
 	\label{fig:thinvsthick}
 \end{figure}
@@ -110,7 +110,7 @@ Both the signal recycling and RSE modes of operation were investigated. The tuni
 To maintain the same SRC finesse seen by the differential mode for each simulation, the interferometer set up so that it was on the dark fringe with 30\,mW of light being transmitted through the SRM. This was achieved by applying a differential tuning to the ETMs for simulations with the arm cavities, and a differential tuning to the ITM for single bounce simulations. The light transmitted through the SRM for an interferometer with arm cavities as a function of differential ETM detuning is shown in figure \ref{fig:zoominetmtuning}. For an interferometer without arm cavities, the power transmitted through the SRM as a function of differential ITM detuning is shown in figure \ref{fig:zoominitmtuning}. The tunings used to operate with 30\,mW of light being transmitted through the SRM are shown in tables \ref{tab:arm_tuning} and \ref{tab:no_arm_cav_tuning}.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_Zoom_in_ETM_tuning.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_Zoom_in_ETM_tuning.eps}
 	\caption{The minimum of the dark fringe is at 0\si{\degree} differential ETM detuning,  as shown by the blue line. A slight offset causes light to be as the AS port. This result was used to determine tunings for simulating what effect focal length errors in SR3 and SR2 have on the beam transmitted through the SRM. The orange and green dashed line show the HOM content of the beam.}
 	\label{fig:zoominetmtuning}
 \end{figure}
@@ -129,7 +129,7 @@ To maintain the same SRC finesse seen by the differential mode for each simulati
 \end{table}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_Zoom_in_ITM_tuning.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_Zoom_in_ITM_tuning.eps}
 	\caption{The minimum of the dark fringe is at 0\si{\degree} differential ITM detuning, as shown by the blue line. A slight offset causes light to be as the AS port. This result was used to determine tunings for simulating what effect focal length errors in SR3 and SR2 have on the beam transmitted through the SRM. The orange and green dashed line show the HOM content of the beam.}
 	\label{fig:zoominitmtuning}
 \end{figure}
@@ -154,7 +154,7 @@ To maintain the same SRC finesse seen by the differential mode for each simulati
 %There are two choices of focal length of SR3 which would mode match the arm to the SRM as a Gaussian beam has a maximum radius of curvature at its Rayleigh range. The two mode matching solutions lie either side of this maximum. . Since the gouy phase separation between SR3 and SR2 is quite far from 45\si{\degree}, an error in the focal length of SR3 has a very similar effect as an error in the focal length of SR2. This can be visualised with a Collins chart, as shown in figure \ref{fig:collinschartsrc}. 
 %\begin{figure}
 %	\centering
-%	\includegraphics[width=0.7\linewidth]{sim_chapter_Collins_chart_src}
+%	\includegraphics[width=0.95\linewidth]{sim_chapter_Collins_chart_src}
 %	\caption{Collins chart showing the behaviour of the $1/q$, the inverse of the beam parameter, along the SRC. The blue spot indicates the beam at the transmitted thorugh ITM. As the beam is very far from the waist, it does not evolve much between the ITM and SR3. Just before reflection from SR3 is shown by the orange spot, and right after is shown by green spot. The red spot is right before reflection from SR2, and purple is from just after reflection from SR2. The brown spot indicates the just before reflection/transmission from the SRM.}
 %	\label{fig:collinschartsrc}
 %\end{figure}
@@ -164,13 +164,13 @@ The mode defined by the arm was measured at the SRM. The beam parameter at the S
 The effect of a focal length error in SR3 and SR2 on the width and RoC of the arm mode at the SRM  is shown in figure \ref{fig:beamsizesimulated}, and \ref{fig:beamrocsimulated}. These figures show that the beam parameter depends mainly on the focal length of SR3, although SR2 has a noticeable effect. When the focal lengths of SR3 and SR2 is at the nominal values, the simulated beam has a width of 2.1\,mm, a RoC of $-4.0\,\rm{m}$ and the Gouy phase accumulated between the ITM and the SRM is 18.7\si{\degree}. There is a slight difference between the RoC found here and the design value of $-3.88\,\rm{m}$, this is because the focal lengths of the LLO SRC optics is not the same as the design values. Measurements of the single bounce beam profile\cite{llo_beam_profile_dcc_2018} suggests that the beam is much larger at the SRM than the design value. This measurement also found the beam to be astigmatic, with $w_{y} = 2.6\rm{\,mm} $ and $w_{x} = 2.4\rm{\,mm}$. This would correspond to a positive error in the focal lengths of SR3, as shown in figure \ref{fig:beamsizesimulated}. If the beam was this large it is unlikely that the SRC would be stable, as shown in figure \ref{fig:maxtemexperiment}. 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_beam_size_sr2_sr3.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_beam_size_sr2_sr3.eps}
 	\caption{The Gaussian width of the beam that is transmitted through the SRM as a function of the error ($\pm3\sigma$) in focal length of SR3 and SR2. The Gaussian beam width is strongly dependent on the error in SR3's focal length, whereas SR2's focal length error is less important. When the SR3 focal length error $>6\,\rm{mm}$ and SR2 error is zero the SRC cavity is unstable (see figure \ref{fig:maxtemexperiment}), so this area of the parameter space is unlikely to correspond to the beam at the SRM at LLO.}
 	\label{fig:beamsizesimulated}
 \end{figure}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_beam_roc_sr2_sr3.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_beam_roc_sr2_sr3.eps}
 	\caption{The RoC of the beam that is transmitted through the SRM as a function of the error ($\pm3\sigma$)  in focal length of SR3 and SR2. If the arm cavities and the SRC are well mode matched, then the RoC of the beam transmitted through the SRM would be $\frac{5.67\rm{m}}{1.45} = 3.91\rm{m}$. When the SR3 focal length error $>6\,\rm{mm}$ and SR2 error is zero the SRC cavity is unstable (see figure \ref{fig:maxtemexperiment}), so this area of the parameter space is unlikely to correspond to the beam at the SRM at LLO.}
 	\label{fig:beamrocsimulated}
 \end{figure}
@@ -180,25 +180,25 @@ The Gouy phase as a function of focal length error in SR3 and SR2 is shown in fi
 The focal length of SR3 and SR2 can be estimated from the Gouy phase measurement. A normal probability density function was used to model the uncertainty in the focal length of SR3 and SR2. This was combined into a 2\hyp{}D normal distribution. Combinations of SR3 and SR2 that result in 21.3\si{\degree} of Gouy phase where found and the value of the 2\hyp{}D normal distribution for those combinations was calculated. The maximum value of the resulting probability density function (which is normal) corresponds to the most likely combination of SR3 and SR2, and one standard deviation corresponds to the error. Figure \ref{fig:sr3sr2likelyvalues} shows the that focal length of SR2 to be $-3.205\pm0.003$\,m and the focal length of SR3 to be $17.971\pm0.002$\,m.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_gouy_phase_sr2_sr3.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_gouy_phase_sr2_sr3.eps}
 	\caption{Gouy phase between the ITMs and the SRM as a function of the error ($\pm3\sigma$) in SR3 and SR2.  When the SR3 focal length error $>6\,\rm{mm}$ and SR2 error is zero the SRC cavity is unstable (see figure \ref{fig:maxtemexperiment}), so this area of the parameter space is unlikely to correspond to the beam at the SRM at LLO.}
 	\label{fig:gouyphasesr2sr3}
 \end{figure}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_ITM_TL.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_ITM_TL.eps}
 	\caption{Gouy phase between the ITMs and the SRM as a function of the thermal lens in the ITMs for nominal values of SR3 and SR2. The nominal ITM thermal lens is $50\,\rm{km}$, and this corresponds to about 19\si{\degree}. More heating results in a greater thermal lens, however at at LIGO this is compensated for by the thermal compensation system (TCS).}
 	\label{fig:itmtl}
 \end{figure}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_maxtem_experiment.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_maxtem_experiment.eps}
 	\caption{The percentage of HG00 light transmitted through the SRM as a function of SR3 focal length for the Michelson interferometer with Fabry\hyp{}Perot cavities in its arms was simulated. Each simulation used a different \texttt{maxtem} command. The focal length of SR3 was changed. For focal lengths with a positive error greater than 7.5\,mm, the cavity becomes unstable and \textsc{Finesse} does not produce reliable results. For a stable SRC, the minimum number of TEM modes for sub 1\% accuracy is six.}
 	\label{fig:maxtemexperiment}
 \end{figure}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_SR3_SR2_likely_values.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_SR3_SR2_likely_values.eps}
 	\caption{The measurement error of SR3 and SR2 follows a normal distribution. These were combined to make a 2\hyp{}D normal distribution. Dark blue corresponds to the least likely combinations of SR3 and SR2, and bright yellow corresponds to the most likely. The measured Gouy phase was 21.3\si{\degree}\cite{SRC_gouy_phase_meas_2018}, this is indicated by the white dashed line. The white circle marks the most likely combination of SR3 and SR2 which gives 21.3\si{\degree} of Gouy phase, and the white crosses show 1 standard deviation from this. The white circle and crosses indicate that the focal length of SR2 is $-3.205\pm0.003$\,m and the focal length of SR3 is $17.971\pm0.002$\,m.}
 	\label{fig:sr3sr2likelyvalues}
 \end{figure}
@@ -206,7 +206,7 @@ The focal length of SR3 and SR2 can be estimated from the Gouy phase measurement
 The beam parameter at the SRM is determined by the focal length of SR3 and SR2. Each beam width and RoC that was computed in this simulation has a probability density associated with it (as this depends on SR3 and SR2, see figure \ref*{fig:sr3sr2likelyvalues}). Therefore, the probability density function for the beam parameter of the arm mode at the SRM can be computed. Based on the measurement of Gouy phase, the beam is likely to have width 1.84\,mm and a defocus of -2.80\,Dioptre . This is shown in figure \ref{fig:sim_chapter_beam_parameter_at_SRM}. This is a slight simplification as the beam parameter cannot be such that the Gouy phase of the cavity becomes too small ($ <\sim17.5\si{\degree}$). IF the Gouy phase is too small the cavity will be unstable, so beam widths of more than 2.25\,mm are very unlikely. The shape of the distribution of the arm mode beam parameter at the SRM is driven mostly by the focal length error of SR3.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_beam_parameter_at_SRM.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_beam_parameter_at_SRM.eps}
 	\caption{The beam parameter at the SRM was calculated for combinations of SR2 and SR3 focal lengths. The associated probability density for these combinations can be calculated (see figure \ref{fig:sr3sr2likelyvalues}), so the probability of the beam parameter having a certain width and defocus can be calculated. The probability density for each pair of beam width and defocus is indicated indicated with the colour bar. The measured Gouy phase of 21.3\si{\degree}\cite{SRC_gouy_phase_meas_2018} is indicated with a green cross (1.84\,mm, -2.80 Dioptre). This is a slightly simplified approach since the beam parameter cannot be such that the SRC is unstable. This means certain combinations of beam width and beam defocus are not possible. Beam parameters with a width$>\sim2.25\,\rm{mm}$ result in an unstable SRC, therefore these beams are very unlikely to be present at the SRM at LLO.}
 	\label{fig:sim_chapter_beam_parameter_at_SRM}
 \end{figure}
@@ -224,13 +224,13 @@ The ratio of the amount of light in the HG00 mode versus the total light depends
 As the SRC gets closer to being unstable, more TEM modes are required to simulate the behaviour of the cavity. The effect of using more TEM modes in the simulation is shown in figure \ref{fig:maxtemexperiment}. For positive errors above 6\,mm in the focal length of SR3, the cavity becomes unstable. As the error in SR3 focal length approaches this, a greater number of TEM modes is required to accurately simulate the behaviour of the interferometer. It was found empirically that six TEM modes is sufficient to simulate the interferometer while it is stable. The greyed out regions of figures \ref{fig:TM00_simulated} and \ref{fig:allpowerout} show where the simulation is not accurate.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_TM00_simulated.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_TM00_simulated.eps}
 	\caption{The percentage of light which is in the HG00 mode as the focal length of SR3 changes compared to the total light power does not depend on whether there are arm cavities. It is determined by the detuning of the SRM. The blue dashed line shows the behaviour of the beam with arm cavities present and with the SRC in signal recycling mode (SRM $\phi = 0\si{\degree}$). The red line shows how the beam changes with focal length error for a single bounce measurement and with the SRC in RSE mode (SRM $\phi = 90\si{\degree}$). The orange dashed line corresponds to the interferometer having arm cavities and being in RSE mode (SRM $\phi = 90\si{\degree}$). The green line shows behaviour of the beam when the interferometer is configured for a single bounce measurement and is in signal recycling mode. The hatched region indicates where the SRC becomes unstable (see figure \ref{fig:maxtemexperiment}), so the behaviour of the interferometer cannot be accurately simulated for these values of focal length.}
 	\label{fig:TM00_simulated}
 \end{figure}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_All_power_simulated.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_All_power_simulated.eps}
 	\caption{The total power transmitted through the SRM for each simulation, is shown in the thick pale lines. The thin solid lines corresponds to the power in the HG00 mode, and the thin dashed lines correspond to the power in the higher order modes. Blue lines show the behaviour when the interferometer has arm cavities and is in signal recycling mode, and the orange lines shows when it is in RSE mode. Green lines show how the power changes when the interferometer is configured for a single bounce measurement and is in signal recycling mode, and the red line shows when its in RSE mode. The hatched region indicates where the SRC is becomes unstable, and so the behaviour of the interferometer cannot be accurately simulated for these values of focal length.}
 	\label{fig:allpowerout}
 \end{figure}
@@ -239,7 +239,7 @@ As the SRC gets closer to being unstable, more TEM modes are required to simulat
 As the transmission of the SRM decreases, the finesse of the cavity increases. A \textsc{Finesse} simulation was run to see the effect of increasing the power transmission of the SRM. The HG00 mode power decreases with lower SRM transmission slightly slower than the power transmitted in the HG20+02 mode. This is shown in figure \ref{fig:srmthgratio}.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{sim_chapter_SRM_T_HG_ratio.eps}
+	\includegraphics[width=0.95\linewidth]{sim_chapter_SRM_T_HG_ratio.eps}
 	\caption{Ratio of HG20+02 to HG00 as the transmission of the SRM is increased for a mode mismatch between the arm cavity and the SRC. The interferometer is in RSE mode. A mode mismatch was introduced by setting the focal length of SR3 to be 12\,mm shorter than the nominal amount.}
 	\label{fig:srmthgratio}
 \end{figure}

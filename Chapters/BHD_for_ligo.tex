@@ -120,7 +120,7 @@ After BHDBS2, the layout the optics between OMC input couplers and BHDBS2 must p
 \paragraph{}
 After the AS and LO beams are combined, double stage suspensions will guide the beam from BHDBS2 to the OMC. These suspensions provide active positioning control and active wave front control. In principle, the role of the AWC in HAM6 is to correct for geometry errors of the optics after the SRM such that the mode matching between the Arm mode and the OMC waist is maximised. This assumes that the changes in the interferometers mode, for instance due to a change in thermal state, will be corrected for by other subsystems e.g. the TCS. In practice, operators of the interferometer do what ever improves the SNR of the the gravitational wave signal. For instance, it has been found that TCS can be used to decrease laser intensity noise coupling to the the GW signal channel \textcolor{red}{CHECK}. The AWC in HAM6 was designed with this flexibility in mind. The losses due to components in HAM6 is summarised in table \ref{tab:HAM6_losses} (See \href{https://dcc.ligo.org/E1900385}{E1900385}).
 \paragraph{}
-The goal for mode matching between the arm mode and the OMC mode is is $>98\%$.  The SAMS actuators will provide $\pm100$,\,mD of optical power tuning range, with a bandwidth of the order 100\,Hz. Astigmatism can be considered as a loss, and none-zero angles of incidence (AOI) of beams onto curved optics results in a the beam becoming astigmatic. This prevents designs using large AOI. This is described in detail in section \ref{sec:astigmatism}.
+The goal for mode matching between the arm mode and the OMC mode is is $>98\%$.  The SAMS actuators will provide $\pm100$,\,mD of optical power tuning range, with a bandwidth of the order 100\,Hz. Astigmatism can be considered as a loss, and none-zero angles of incidence (AOI) of beams onto curved optics results in a the beam becoming astigmatic. This prevents designs using large AOI. This is described in detail in Chapter \ref{sec:light_beams}.
 \paragraph{}
 The current OMC design (with trivial modifications) will be used to remove junk light from the signal beam, so their is no choice in target waist size. The input beam at the SRM is defined in \href{https://dcc.ligo.org/LIGO-T1200410}{T1200410}. The mode matching is designed assuming that the beam at the SRM is the `design mode'. Mode matching between the beam exiting the SRM and the OMC waist will be done with a static lens and 2 active mirrors. The static lens will be placed just after the OFI and its purpose is to provide sufficient Gouy phase separation of the 2 active mirrors. 
 \paragraph{}
@@ -167,62 +167,6 @@ The light transmitted OMCs is used to measure the gravitational wave signal, sin
 	\caption{Place holder graphic. The pentagram layout. CAD will be inserted later.}
 	\label{fig:bhdforligochapterlayout5f}
 \end{figure}
-\subsection{Propagation of a Simple Astigmatic Gaussian Beam Through an Optical layout}
-\textcolor{red}{add some stuff about the electric field, beam parameter etc. Want to capture the idea of HOM as well. Put in bit about astigmatic beam parameter being thought of as seperate q for x and y}
-\label{sec:astigmatism}
-To study how a Gaussian beams width and curvature evolves through an optical set-up, it is useful to define the complex beam parameter $q$ and the ABCD matrices of free spaces and of mirrors. A complex system of lenses and mirrors can be represented as a chain of ABCD matrices multiplied together. This technique was used to analyse the beam as it propagates through the proposed layouts for HAM6.
-\paragraph{}
-A Gaussian beam can be described by the complex beam parameter \cite{Bond2016,siegman1986lasers}, $q$,
-\begin{equation}
-q(z) = z - z_0 + iz_R,
-\end{equation}
-where $z$ is the distance along the optical axis, $z_0$ is the beam waist location, and $z_R$ is the Rayleigh length of the beam. This is a useful way of describing a Gaussian beam because the defocus and width of the beam at any point along $z$ can be calculated from it. Taking the reciprocal of $q(z)$ gives
-\begin{equation}
-\frac{1}{q(z)} = S(z) -i\frac{\lambda}{\pi\omega^2(z)},
-\label{eq:1/q}
-\end{equation}   
-where $S(z)$ is the defocus at $z$, $\lambda$ is the lasers wavelength and $w(z)$ is the width of the beam at $z$. From equation \ref{eq:1/q} we find
-\begin{align}
-S(z) &= \Re\left( \frac{1}{q} \right),\\
-w(z) & =  \sqrt{\frac{\lambda}{-\pi\Im\left(\frac{1}{q}\right)}}.
-\end{align}
-The Gouy phase $\phi$ of a TM00 Gaussian beam is  
-\begin{equation}
-\phi(z) = \arctan\left(\frac{z}{z_R}\right)  = \arctan\left(\frac{\Re(q(z))}{\Im(q(z))}\right).
-\end{equation}
-The Gouy phase accumulated along a space is simply $\phi(z_2) - \phi(z_1)$. The Gouy phase accumulated through an optical system is a continuous function. When the beam interacts with a mirror, the beam parameter changes in a non-continuous way. The jump in the Gouy phase resulting from the sudden change in $q$ should be removed when analysing how the Gouy phase accumulates through the system.
-\paragraph{}
-To calculate how the beam parameter $q_0$ is effected by propagation $\Delta z$ and reflection from a curved mirror with power $S$, the coefficient matrices $\mathbf{P}$ and $\mathbf{R}$ can be applied to give the resultant beam parameter $q_1$
-\begin{align}
-\mathbf{M} = \begin{pmatrix} A &B\\	C &D \end{pmatrix},\quad \mathbf{P} &= \begin{pmatrix} 1 &\Delta z\\	0 &1 \end{pmatrix},\quad \mathbf{R} = \begin{pmatrix} 1 & 0\\	-S & 1 \end{pmatrix},\\
-q_1 &= \frac{Aq_0 + B}{Cq_0 + D}.
-\end{align}
-\paragraph{}
-If a beams angle on incidence on a curved mirror is not zero, the reflected beam with have astigmatism. The location of the beam waist will be different for the tangential plane (plane containing the optical axis of the mirror and the object) and the sagittal (plane perpendicular to the tangential plane). The shape of the mirror can be described by the tangential radius of curvature, $R_t$, and the sagittal radius of curvature, $R_s$. If the beam has an angle of incidence $\theta$ on a mirror with a radius of curvature $R$, then the radius of curvature experienced by the tangential and sagittal beams is \cite{MonkLight,Bond2016,Kochkina:2013bba,siegman1986lasers}
-\begin{align}
-R_t &= R\cos\theta \\
-R_s &= \frac{R}{\cos\theta}
-\end{align}
-so the optical power is changed by
-\begin{align}
-S_t &= \frac{2}{R_t} = \frac{S}{\cos\theta}\\
-S_s &= \frac{2}{R_s} = S\cos\theta.
-\end{align}
-The radius of curvature of a mirror is related to the optical power of the mirror by $S_m= \frac{2}{R_m}$, and the defocus of a wavefront is related to the curvature of the wavefront by $S_w = \frac{1}{R_w}$. 
-\paragraph{}
-An astigmatic beam is describable by two beam parameters in orthogonal planes. The electric field, $E$, of a TM00 Gaussian beam can be written as \textcolor{red}{copied from appendix}
-\begin{equation}
-E(x,y,z) = E_x(x,z)E_y(y,z)
-\end{equation}
-where 
-\begin{align}
-E_x(x,z) = \frac{1}{\sqrt{q_x(z)}}\exp\left(-ik\frac{x^2}{2q_x(z)}\right),\\
-E_y(y,z) = \frac{1}{\sqrt{q_y(z)}}\exp\left(-ik\frac{y^2}{2q_y(z)}\right).
-\end{align}
-For a beam without astigmatism, $x^2 + y^2 = r^2$ and $q_x = q_y = q$ so:
-\begin{equation}
-E(r,z) = \frac{1}{q(z)}\exp\left(-ik\frac{r^2}{2q(z)}\right).
-\end{equation}
 \subsection{Mode Matching and Control}
 \textcolor{red}{Hermite Gaussian beams will be explained earlier in the intro chapters, so don't need generic expansion, just use the 2nd order ones. Have a read of \cite{Mueller2000}}.
 \paragraph{}
@@ -240,6 +184,29 @@ As well as mode matching, the layout in HAM6 should provide orthogonal control f
 \subsection{Chosen Layout}
 Optically, there are many layouts which could have satisfied the above requirements and constraints. It was decided that the two beams after BHDBS2 would have the same path length to reduce the cost of the HAM6 optics. Ultimately the choice of layout for HAM6 was determined by mechanical factors such as table space and number of allowable suspensions. The design that is being taken forward at the time of writing is known as the `pentagram', and is shown in figure \ref{fig:bhdforligochapterlayout5f}.
 \paragraph{Show plots produced by ligo\_layout.py}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\linewidth]{Figures/BHD_for_ligo_chapter_Beamshape}
+	\caption{The radius of the beam as it travels from the SRM (z = 0) to the waist of the OMC.}
+	\label{fig:bhdforligochapterbeamshape}
+\end{figure}
+\begin{table}
+	\centering
+	\begin{tabular}{| c | c | c |}
+		\hline 
+		Optic Name & Distance along optical axis (m) \\
+		\hline
+		SRM & 0.000 \\
+		OFI lens & 1.122 \\
+		OM0 & 2.272 \\
+		BHDBS2 & 3.177 \\
+		OMxS & 3.402 \\
+		OMx1 & 4.642 \\
+		OMx2 & 6.232 \\
+		OMC Waist & 7.452 \\
+		\hline
+	\end{tabular}
+\end{table}
 \subsection{WS visulations as a tool for understanding mode matching problems}
 \begin{figure}
 	\centering

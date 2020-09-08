@@ -1,4 +1,10 @@
+\label{chapter:light_beams}
 This chapter will show the maths...
+\begin{itemize}
+	\item check normalisation constants
+	\item check the formula for the electric fields are actually right!
+	\item change formulas to be in terms of a mode function and something that is to do with its propogational along z, and amplitude.
+\end{itemize}
 \section{Plane Waves}
 Light is electromagnetic radiation. From Maxwell's equations it can be shown that the electric field, $\mathbf{E}$, component of electromagnetic radiation satisfies the wave equation
 \begin{equation}
@@ -10,7 +16,7 @@ A monochromatic, coherent, plane wave solution for $\mathbf{E}$ satisfies equati
 \mathbf{E} = \mathbf{\hat{n}}E \exp\big( i (\omega t - \mathbf{k}.\mathbf{r} + \varphi) \big),
 \label{eq:plane_wave_solution}
 \end{equation}
-where $\mathbf{\hat{u}}$ indicates the polarisation, $E$ is the complex field amplitude, $\omega$ is the angular frequency, $\mathbf(k)$ is the wave vector and $\varphi$ is the absolute phase. The physical amplitude of the electric field oscillation is obtained from the $\Re(E)$. For optical systems is useful to define an optical axis. When the light is travelling along the optical axis, the $ \mathbf{k}.\mathbf{r}$ becomes $kz$. $k$ is known as the wave number and is related to the wavelength of the light,$\lambda$ by 
+where $\mathbf{\hat{u}}$ indicates the polarisation, $E$ is the complex field amplitude, $\omega$ is the angular frequency, $\mathbf{k}$ is the wave vector and $\varphi$ is the absolute phase. The physical amplitude of the electric field oscillation is obtained from the $\Re(E)$. For optical systems is useful to define an optical axis. When the light is travelling along the optical axis, the $ \mathbf{k}.\mathbf{r}$ becomes $kz$. $k$ is known as the wave number and is related to the wavelength of the light,$\lambda$ by 
 \begin{equation}
 k = \frac{2\pi}{\lambda}.
 \end{equation}
@@ -42,7 +48,7 @@ By noticing that either side of the equation (\ref{eq:sep_of_var}) depends on $\
 \frac{\nabla ^2 E}{E} = -k^2.
 \label{eq:helmholtz_equation}
 \end{equation}
-Rewriting $E(\mathbf{r})$ in terms of two functions,
+Rewriting $E(\mathbf{r})$ in terms of two functions, \textcolor{red}{some how remove units from $u(\mathbf{r})$)}
 \begin{equation}
 E(\mathbf{r}) = u(\mathbf{r})\exp\big(-ikz\big),
 \label{eq:generic_mode}
@@ -58,6 +64,8 @@ The paraxial approximation means the $\frac{\partial^2 u}{\partial z^2}$ is negl
 \end{equation} 
 The physical interpretation of $u(\mathbf{r})$ is a function that describes the spatial distribution of the complex amplitude of the light field. \textcolor{red}{reword this so it actually makes sense.}  
 \section{The fundamental Gaussian mode}
+\textcolor{red}{Rewrite $E$ in terms of $u$}.
+\paragraph{}
 The simplest geometry of a laser beam can be described by the fundamental Gaussian mode. This is a mode which has a circular intensity profile that follows a Gaussian distribution, and the surface of constant phase is curved. Substituting the simplest solution to (\ref{eq:paraxial_helmholtz}) into equation (\ref{eq:generic_mode}) produces the fundamental Gaussian mode \textcolor{red}{find out what the amplitude constant is}
 \begin{equation}
 E(\mathbf{r}) = E_0\sqrt{\frac{2}{\pi}} \frac{1}{w(z)} \exp\big(i\phi(z)\big)\exp\left( -ik\frac{x^2 + y^2}{2R_C(z)} - \frac{x^2 + y^2}{w^2(z)}\right)\exp\big(-ikz\big).
@@ -65,7 +73,7 @@ E(\mathbf{r}) = E_0\sqrt{\frac{2}{\pi}} \frac{1}{w(z)} \exp\big(i\phi(z)\big)\ex
 \end{equation}
 This is characterised by a function $w(z)$, which gives the size of the beam at position $z$ the optical axis, by $\phi(z)$, which gives the Gouy Phase of the beam at $z$ along the optical axis, and by $R_c(z)$, which gives radius of curvature of the beam at $z$. The minimum value of $w(z)$ is known as the beam waist, or $w_0$.
 \paragraph{}
-It is useful to express $w(z)$,$\phi(z)$ and $R_c(z)$ in terms of the Rayleigh range $z_{\rm{R}}$. The Rayleigh range characterises how fast the beam will spread out. A beam with a short Rayleigh length will expand quicker than a beam with a longer Rayleigh length. For example, in order for the beam to not be significantly clipped by the aperture of the test masses, the Rayleigh length of the Gaussian beam in the arm cavities at LIGO has to be on the order of kilometres. If the waist of a Gaussian beam at $z = 0 $, the position along the $z$ axis by which the radius has increased by a factor of $\sqrt(2)$ is known as the Rayleigh range $z_{\rm{R}}$, and is given by
+It is useful to express $w(z)$,$\phi(z)$ and $R_c(z)$ in terms of the Rayleigh range $z_{\rm{R}}$. The Rayleigh range characterises how fast the beam will spread out. A beam with a short Rayleigh length will expand quicker than a beam with a longer Rayleigh length. For example, in order for the beam to not be significantly clipped by the aperture of the test masses, the Rayleigh length of the Gaussian beam in the arm cavities at LIGO has to be on the order of kilometres. The size of the waist determines the Rayleigh length, a smaller beam waist corresponds to a shorter Rayleigh length. If the waist of a Gaussian beam at $z = 0 $, the position along the $z$ axis by which the radius has increased by a factor of $\sqrt(2)$ is known as the Rayleigh range $z_{\rm{R}}$, and is given by
 \begin{equation}
 z_{\rm{R}} = \frac{\pi w_0^2}{\lambda}.
 \end{equation} 
@@ -110,22 +118,109 @@ E(\mathbf{r}) = E_0\sqrt{\frac{2}{\pi}} \frac{q_0}{w_0q(z)} \exp\big(i\phi(z)\bi
 \end{equation}
 The radius of the beam, gouy phase, and the defocus at a point $z$ along the optical axis can be calculated from $q(z)$ using
 \begin{align}
-w(z) & =  \sqrt{\frac{\lambda}{-\pi\Im\left(\frac{1}{q(z)}\right)}},\\
-\phi(z) &= \tan^{-1}\left(\frac{\Re\big(q(z)\big)}{\Im\big(q(z)\big)}\right),\\
-S(z) &= \Re\left( \frac{1}{q(z)} \right).
+w(z) & =  \sqrt{\frac{\lambda}{-\pi\Im\left(\frac{1}{q(z)}\right)}},\label{eq:beam_radius}\\
+\phi(z) &= \tan^{-1}\left(\frac{\Re\big(q(z)\big)}{\Im\big(q(z)\big)}\right),\label{eq:beam_gouy}\\
+S(z) &= \Re\left( \frac{1}{q(z)} \right).\label{eq:beam_defocus}
 \end{align}
-\paragraph{}
-
 \paragraph{Mode matching integral}
-\section{Astigmatism}
-\paragraph{Wordy definition of simple astigmatism}
+\subsection{Astigmatism}
+\paragraph{}
+If a beam has an elliptical rather than circular profile, then the beam is astigmatic. For simple astigmatism, a beam can be described with two complex Gaussian beam parameters, one for the yz plane and one for the xz plane. These are referred to as the tangential (xz) and the saggital (xy) planes. A gaussian beam with simple astigmatism will have a different waist size and location in the tangential and sagittal planes. This type of astigmatism arises due to gaussian beams passing through a cylindrical lens or having a non-zero angle of incidence to a mirror. 
+\paragraph{}
+An simple astigmatic gaussian beam can be split up into two orthogonal fields (\textcolor{red}{rewrite in terms of $u(\mathbf{r})$})
+\begin{align}
+E(\mathbf{r}) &= E(x,z)E(y,z) \nonumber\\ &= E_0\sqrt{\frac{2}{\pi}} \sqrt{\frac{q_{x0}}{w_{x0}q_{x}(z)}}\sqrt{\frac{q_{y0}}{w_{y0}q_{y}(z)}} \exp\big(i\phi_{\rm{Av}}(z)\big) \nonumber\\ &\times\exp\left( -ik\frac{x^2}{2q_{x}(z)} -ik\frac{y^2}{2q_{y}(z)}\right)\exp\big(-ikz\big).
+\end{align}
+where $\exp\big(i\phi_{\rm{Av}}(z)\big)$ is the average of the Gouy Phase in the saggital and tangential planes. The equations for waist size, equation (\ref{eq:beam_radius}), Gouy phase, equation (\ref{eq:beam_gouy}) and defocus, equation (\ref{eq:beam_defocus}), remain the same. A beam with simple astigmatism can be though of as two independent beams, and their interaction with the optical layout can be calculated independently.
 \section{Gaussian Beams Traversing optical Layouts}
-\paragraph{talk about the concept of tracing the beam parameter through the optical layout}
-\paragraph{ABCD matrices for optical elements}
+\label{sec:gaussian_beam_tracing}
+As a Gaussian beam propagates through an optical layout, the beam parameter that describes changes. The effect of simple optical components can be modelled with ABCD matrices, and an entire layout can be modelled by multiplying a series of ABCD matrices together. Components that introduce astigmatism to the beam can be modelled as having seperate ABCD matricies for the tangential and saggital planes. This formalism can also be used to compute cavity eigenmodes.
+\paragraph{}
+When a beam interacts with an optical component it is transformed from a mode decribed by $q_1$ to a new mode $q_2$ according to 
+\begin{equation}
+q_2 = \frac{A q_1 +B}{C q_1 + D}
+\end{equation}
+where $n_{1,2}$ are the refractive indicies of the medium $q_{1,2}$ are in. The coefficients $A,B,C,D$ are defined by a coefficient matrix $\mathbf{M}$,
+\begin{equation}
+\mathbf{M} = \begin{pmatrix} A &B\\	C &D \end{pmatrix}.
+\end{equation}
+To compute the coefficient matrix for a series of elements numbered 0 to n, the matrices for each individual element should be multiplied together
+\begin{equation}
+\mathbf{M} = \mathbf{M_n}\mathbf{M_{n-1}}\ldots\mathbf{M_0}.
+\end{equation}
+The ABCD matricies for various components is summarised in table \ref{tab:optical_components_ABCD}.
+\begin{table}
+	\centering
+	\begin{tabular}{|c | c |}
+		\hline 
+		Optical Component & ABCD Matrix \\
+		\hline & \\
+		space & $\begin{pmatrix} 1 & d \\ 0 &1\end{pmatrix}$ \\ & \\
+		\hline & \\
+		Mirror or lens (normal incidence) & $\begin{pmatrix} 1 & 0 \\ -S & 1\end{pmatrix}$\\ & \\
+		Mirror (AOI = $\alpha$, Sagittal Plane) & $\begin{pmatrix} 1 & 0 \\ -\frac{S}{\cos\alpha} & 1\end{pmatrix}$\\ & \\
+		Mirror (AOI = $\alpha$, Tangential Plane) & $\begin{pmatrix} 1 & 0 \\ -S\cos\alpha & 1\end{pmatrix}$\\ & \\
+		\hline
+	\end{tabular}
+		\caption{Table of the ABCD matrices for simple optical components.}
+\label{tab:optical_components_ABCD}
+\end{table}
 \section{Higher Order Modes and optical imperfections}
-\paragraph{wordy description of what a HOM is}
-\paragraph{simple example of misalignment}
-\paragraph{Coupling or Scattering to higher order modes}
-\paragraph{mathematical description of HG modes}
-\paragraph{More general HOM expansion}
-\paragraph{point out Gouy phase}
+The fundemental gaussian mode describes the electric field of a beam in an ideal optical system. Imperfections in the optical layout, such as misalignment and mode-mismatch, results in a different mode shape. If two modes are misaligned slightly, one will see a mode profile that looks like two spots instead of one. A small mode-mismatch results in a ring shaped mode profile. These imperfections in the layout and the resulting beam shapes can be modelled as the optical layout scattering light into higher-order optical modes. 
+\paragraph{}
+There are many solutions to equation \ref{eq:paraxial_helmholtz}. One complete, orthonormal basis set of functions that can be used to construct solutions to \ref{eq:paraxial_helmholtz} are the Hermite-Gaussian (HG) modes. These modes have $xy$ symmetry, and appear as 'square' shaped. These are useful for modelling misalignments, as this type of imperfection can be naturally broken into $xy$ coordinates. Mode-mismatches are best described by the $r\theta$ coordinates, and so its natural to express these in terms of another orthonormal basis set known as the Laguerre-Gauss (LG) modes. However, if the beam is astigmatic then the mode no longer has the symmetry required in order to be modelled by LG modes.
+\paragraph{}
+Equation (\ref{eq:paraxial_helmholtz}) can be solved using HG modes, which have the mathematical form of
+\begin{equation}
+u_{nm}(x,y,z) = u_n(x,z)u_m(y,z).
+\end{equation}
+The functions $u_{n,m}$ have the form
+\begin{align}
+u_n(x,z) = \left(\frac{2}{\pi}\right)^{1/4} \left(\frac{\exp\big(i(2n+1)\phi(z)\big)}{2^nn!w(z)}\right)^{1/2}H_n\left(\frac{\sqrt{2}x}{w(z)}\right)\exp\left(-i\frac{kx^2}{2R_c(z)} - i\frac{x^2}{w^2(z)}\right).
+\end{align}
+where $H_n(x)$ a Hermite polynomial of the order n. By writing $u_{nm}(x,y,z)$ out explicitly,
+\begin{align}
+u_{nm}(x,y,z) = \left(2^(n+m-1)n!m!\pi \right)^{1/2} \frac{1}{w(z)}\exp\big(i(n + m + 1)\phi(z)\big) \nonumber \\ H_n\left(\frac{\sqrt{2}x}{w(z)}\right) H_m\left(\frac{\sqrt{2}x}{w(z)}\right) \exp\left(-ik\frac{x^2+y^2}{2R_c(z)} - i\frac{x^2 + y^2}{w^2(z)}\right),
+\end{align}
+we can see that the higher order mode solutions to equation \ref{eq:paraxial_helmholtz} have the same waist size and radius of curvature to the fundemental mode, but different intensity distributions and additional Gouy phase. If $n$ and $m$ are set to zero, then equation \ref{eq:gaussian_mode} is recovered. These HG modes interact with optical elements in the same way as the fundamental mode.
+\paragraph{}
+The eigen mode of a cavity is determined by its length and the radius of curvature of its end mirrors. The Gaussian mode that is the eigen mode of the cavity will have the same radius of curvature at the end mirrors of the cavity as the mirrors themselves. As higher order modes share the same radius of curvature as the fundamental mode, these modes can also be resonant within the cavity. What separates these modes out in a cavity is the round trip Gouy phase that is acquired. Most cavities are designed such that the round trip Gouy phase is such that only one mode can be resonant at once, and all the other modes destructively interfere. 
+\paragraph{}
+The Gouy phase separation of higher order modes is also important when designing alignment and mode matching control systems, as different types of errors have different phases. For example, angular and translational misalignment are both first order effects. This means they both transfer light from the $HG_{00}$ mode into the $HG_{10}$. However, the complex amplitude of these misalignment situations is separated by $\pi/2$ rad of phase. Having two sensors separated by $\pi/2$ of Gouy phase, one can derive alignment control signals.
+\paragraph{}
+In general, a mode can be written as a superposition of HG modes 
+\begin{equation}
+E(x,y,z) = \sum_{n=0}^{n=\infty}\sum_{m=0}^{m=\infty}A_m u(x)A_n u(y),
+\end{equation}
+where $A$ is the mode amplitude. This form is useful when calculating the coupling between modes. 
+\paragraph{}
+The following example of the amount of power lost due to two arms of an interferometer being misaligned. The field at the AS port of the interferometer can be written as
+\begin{equation}
+E_{\rm{AS}} = \frac{A_0}{\sqrt{2})}\left(\frac{\Delta A_0}{A_{00}}u_0 + \sum_{m=1}^{\infty}\frac{a_mu_m}{A_{00}}\right),
+\end{equation}
+where $A_0$ is the incident field amplitude and $A_{00}$ is the amplitude of the field in the arms. The change in the fundamental power due to an optical imperfection in one of the arms is $\Delta A_0$. $E_{\rm{AS}}$ is normalised to the incoming power at the beam splitter. As the modes are orthogonal by calculating the power in the higher order modes, the power lost from the fundamental mode can be calculated. The amplitude of a mode can be written as
+\begin{equation}
+A_m = \frac{1}{\Gamma(m/2 + 1)2^m\sqrt{\pi}}\int_{-\infty}^{\infty}E(X)u_m(X)e^{-X^2/2}dX
+\label{eq:mode_coupling}
+\end{equation}
+where $\Gamma$ is the Gamma function, $X$ is the normalised distance $\sqrt{2}x/w$ and $E(X)$ is an arbitrary field distribution. For a misaligned beam with a purely angular misalignment $\theta$, a linear phase gradient $\varphi(x) = 2\pi\theta x/\lambda$ must be applied to the regular field distribution. The field distribution at the waist can be written as
+\begin{equation}
+	E(X) = \exp\left(iX\frac{\theta}{\theta_c} - \frac{X^2}{2}\right)
+\end{equation}
+where the critical angle is $\theta_c = \lambda\sqrt{2}/\pi w$. Inserting this $E(X)$ into equation (\ref{eq:mode_coupling}) gives
+\begin{equation}
+A_m = \frac{e^{-(\theta/\theta_c)^2}}{\Gamma(m/2 + 1)2^m\sqrt{\pi}} \int^\infty _{-\infty}e^{-(-X + i\frac{\theta}{\theta_c})^2}u_m(X)dX,
+\end{equation}
+which can be solved analytically by using the relationship 
+\begin{equation}
+	\int^\infty _{-\infty}e^{-( z – t )^2}u_n(t)dt = 2^n \sqrt{\pi} z^n
+\end{equation}
+to give 
+\begin{equation}
+A_m = \frac{(i\frac{\theta}{\theta_c})^m e^{-(\theta/\theta_c)^2}}{\Gamma(m/2 + 1)}.
+\end{equation}
+The fundemental order is reduced by 
+\begin{equation}
+\frac{A_0}{A_{00}} = \exp\big((-\theta/\theta_c)^2\big)
+\end{equation}
+\section{Concluding remarks}
