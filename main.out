@@ -17,10 +17,32 @@
 \BOOKMARK [1][-]{section.2.3}{Alignment of the LO and AS beam}{chapter.2}% 17
 \BOOKMARK [1][-]{section.2.4}{HAM6 layout}{chapter.2}% 18
 \BOOKMARK [2][-]{subsection.2.4.1}{The Constraints and Requirements of the Layout of HAM6}{section.2.4}% 19
-\BOOKMARK [2][-]{subsection.2.4.2}{Mode Matching and Control}{section.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.4.3}{Chosen Layout}{section.2.4}% 21
-\BOOKMARK [2][-]{subsection.2.4.4}{WS visulations as a tool for understanding mode matching problems}{section.2.4}% 22
-\BOOKMARK [1][-]{section.2.5}{Conclusion about BHD for A+}{chapter.2}% 23
-\BOOKMARK [0][-]{appendix.A}{Mode Matching Between 2 Astigmatic Beams}{}% 24
-\BOOKMARK [1][-]{section.A.1}{Derivation of Mode Matching TM00 Beams}{appendix.A}% 25
-\BOOKMARK [1][-]{section.A.2}{Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{appendix.A}% 26
+\BOOKMARK [2][-]{subsection.2.4.2}{Chosen Layout}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.3}{WS visulations as a tool for understanding mode matching problems}{section.2.4}% 21
+\BOOKMARK [1][-]{section.2.5}{Conclusion about BHD for A+}{chapter.2}% 22
+\BOOKMARK [0][-]{chapter.3}{The Effect of Radius of Curvature Errors in SR3 and SR2 on the Beam Parameter of the Arm Cavity Mode at the SRM.}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.1.1}{Measurements of the Mode Matching Between the Arm Cavities and the OMC at LLO Between 2018-2019.}{section.3.1}% 25
+\BOOKMARK [1][-]{section.3.2}{Modelling Interferometers With Mode Mismatches Using Finesse}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Thin and Thick Beamsplitters}{section.3.2}% 27
+\BOOKMARK [1][-]{section.3.3}{Modelling of Michelson Interferometer With Fabry-Perot Arm Cavities and A Signal Recycling Cavity}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.1}{Determining Tunings for DC readout}{section.3.3}% 29
+\BOOKMARK [1][-]{section.3.4}{The Beam Parameter of the Arm Mode at the SRM}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.5}{Power Transmitted Through SRM for a Mode Mismatch Between the Arm Cavity and the SRC}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.5.1}{Change of finesse of SRC}{section.3.5}% 32
+\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 33
+\BOOKMARK [0][-]{appendix.A}{Finesse Simulations}{}% 34
+\BOOKMARK [1][-]{section.A.1}{Mode Matching the Laser to the Arm Cavity}{appendix.A}% 35
+\BOOKMARK [1][-]{section.A.2}{Interferometer Parameters}{appendix.A}% 36
+\BOOKMARK [2][-]{subsection.A.2.1}{Radii of Curvature of optical components}{section.A.2}% 37
+\BOOKMARK [2][-]{subsection.A.2.2}{Spacings}{section.A.2}% 38
+\BOOKMARK [2][-]{subsection.A.2.3}{Nominal Simulation}{section.A.2}% 39
+\BOOKMARK [1][-]{section.A.3}{Finesse Code}{appendix.A}% 40
+\BOOKMARK [2][-]{subsection.A.3.1}{Michelson Interferometers with Thin Beamsplitter}{section.A.3}% 41
+\BOOKMARK [2][-]{subsection.A.3.2}{Michelson Interferometers with Thick Beamsplitter}{section.A.3}% 42
+\BOOKMARK [2][-]{subsection.A.3.3}{Main Simulation}{section.A.3}% 43
+\BOOKMARK [0][-]{appendix.B}{Algorithm For Finding a Three Optic Solution with 45\260 Gouy Phase Separation between two of the Optics}{}% 44
+\BOOKMARK [1][-]{subsection.B.0.1}{Method}{appendix.B}% 45
+\BOOKMARK [0][-]{appendix.C}{Mode Matching Between 2 Astigmatic Beams}{}% 46
+\BOOKMARK [1][-]{section.C.1}{Derivation of Mode Matching TM00 Beams}{appendix.C}% 47
+\BOOKMARK [1][-]{section.C.2}{Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{appendix.C}% 48
