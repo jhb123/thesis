@@ -1,34 +1,21 @@
 \textcolor{red}{There doesn't need to be a discussion about what BHD is, but it is worth briefly mentioning what it is and the other readout methods again}
 Context for BHD upgrade being part of A+. 
 \section{BHD versus DC readout for A+}
-\begin{itemize}
-	\item Reduction of SRC length coupling. Should this be a quantitative analysis or shall I quote the results?
-	\item Reduction of Back scatter from the septum window between ham5 and ham6. Technically this is not to do with BHD, this could, but practically it kind of is?
-	\item Ability to tune homodyne phase is cool but in the context of GW detection, maybe not important. 
-	\item PD SNR is not important.
-	\item There is an optomechanical coupling between SRC cavity length noise and GW signal channel, but as far as I can tell this is well below the noise floor.
-\end{itemize}
-some useful references:
-\begin{itemize}
-	\item \href{https://dcc.ligo.org/G2000962}{G2000962}, DDR CDR presentation A.	
-	\item \href{https://dcc.ligo.org/LIGO-G2001026}{G2001026}, DDR CDR presentation B.
-	\item Ken's notes on BHD benefits compared to DC readout, email on 25/06/2020 11:26
-	\item \href{https://dcc.ligo.org/LIGO-L2000200}{LIGO-L2000200} Q and A. Useful technical points and things people will find confusing/may ask about.
-\end{itemize}
+Different gravitational wave signals carry their information in different frequency bands, and the detector may be optimised to to reflect this. For instance, BNS signals continue to higher frequencies than BBH signals (due to them being smaller) so it may be of interest to optimise the detector around these frequencies to improve the understanding of the properties of BNS.  The current generation of gravitational wave detectors are going to be limited by a combination of of radiation pressure noise and shot noise in their detection bands. These two noise sources are intrinsically linked by the Heisenberg uncertainty principle, and can both be understood as arising due to the number of photons in used to probe the position of the end test masses. This limit in the noise floor is known as the standard quantum limit. A squeezed light field can be used to surpass the noise floor set by an squeezed state. The exact way in which the quantum noise is changed is controlled by the squeezing angle, and to detect these squeezed states the homodyne angle must be correctly set. The effect that controlling the squeezing angle has on the SQL has been demonstrated for at LLO \cite{Yu2020}, however this used a diagnostic BHD set-up which was not intended for providing the low noise required to make gravitational wave detections.
 \paragraph{}
-Main benefit of BHD is reduction of SRC length noise coupling to AS port. This noise coupling is described in \cite{Izumi2016}, see equation 13. This paper has some coupled cavity maths in it. If this needs explained, look up \href{https://dcc.ligo.org/LIGO-P000013}{Transfer Functions for Fields in a 3-Mirror Nested Cavity}, \cite{Rakhmanov2000}. There is an opto-mechanical coupling between the length of the SRC and arm cavity (due to radiation pressure). Reducing the DC offset reduces the radiation pressure, which reduces this coupling.
-\paragraph{Estimate reduction of SRC length noise coupling}
-Differential DC offset is $\epsilon$, so this coupling scales with the offset. Since we get the LO from elsewhere, the amount of offset can be reduced. Currently it is  TEM00 is decreased to fringe offset (rms + DC) + 1mW of common mode carrier, currently there is 20mA of photo-current. (shelia dwyer answer in email FW: BHD review committee request \& document PREVIEW). Assume 0.85 A/W (qe = 99\%), this gives 23mW of light. This can be reduced to between 1mW to 5mW, giving a reduction of at most 23, at least 4.6. Need to check this point.
-\paragraph{Optical spring effect which is porbably not important}
-In a large scale gravitational wave detector, the main advantage of BHD versus DC-readout is the ability to reduce the differential arm offset that is required to provide the GW signal a local oscillator field to beat with, as the LO field is provided by other means. SRC length noise scales quadratically with the DC offset \cite{Izumi2016}, so a reduction in the DC offset causes a reduction in this coupling. SRC length noise couples to the output signal via radiation pressure. The change in differential arm length due to a change in length of the SRC scales linearly with the DC offset ($\epsilon = kL_{\rm{offset}}$) due to radiation pressure. \textcolor{red}{Don't know what the current DC offset is. The optomechanical coupling between SRC length and differential arm length is given as
-\begin{equation}
-\frac{\partial L_-}{\partial l_s} = \frac{16g_s^2r'_a r_s}{ct_s^2s^2_\mu(1+s_{\rm{rse}})}\epsilon kP_a
-\end{equation}
-and the normalised response between the power at the AS port and the SRC length noise is
-\begin{equation}
-	\frac{S_{\rm{as}}}{S_{\rm{dc}}} = 4g_p^2g_s^2r'^2_a\epsilon \left(\frac{\partial L_-}{\partial l_s}\right)\frac{k \Delta l_s}{1+s_{\rm{rse}}}
-\end{equation}
-}
+In addition to being key in shaping the noise curve of the detector, BHD has some practical benefits over DC readout. These benefits revolve around being able to eliminate the DC light required for DC readout to work. The primary benefit is in the reduction in SRC length noise coupling to the gravitational wave signal, and another benefit is being able to reduce the scattering from the septum window between HAM5 and HAM6. While strictly speaking these are not properties of BHD readout, as both could be achieved by other means. For instance, the septum window could be removed and  suspensions with additional stages could be used. These solutions however are not as practical as they sound, and ar not more practical than implemented BHD. The septum window is key to being able to commission the interferometer. The number of times HAM5 and the other chambers connected are vented should be kept low, as each time this is done gas and water vapour enters the system and this will not be removed as this is a large engineering challenge. The design and install of three new suspensions is also a large design task, which ultimately gives less benefit to having a BHD readout scheme.
+\paragraph{}
+DC readout produces a field due to a constant differential offset in the arm lengths. The field due to the differential offset is the local oscillator in DC readout. The local oscillator beats with a field created by a gravitational wave in order to produce a measurable signal. This method of readout has some key advantages, such as there being no phase noise between the local oscillator and the signal carrying field, and the local oscillator and signal being perfectly aligned and mode matched. The BHD system will need to provide sufficiently low phase noise as to not degrade the GW signal. The control over the alignment and mode matching between the LO and the signal is also important, as this will cause light to be scattered back into the interferometer from the OMCs. The new layout for the BHD readout will have to provided these features.
+\paragraph{}
+As the BHD signal is obtained through subtracting the signals from two photodiodes, it is possible to obtain a very low electronic noise floor when designing the transimpedance amplifier by subtracting the currents produced by the photo-diodes rather than having two separate transimpedance amplifiers and subtracting the signals made by these later. This is not really an advantage, as low enough electronic noise can be obtained using other construction techniques that allow for small DC signals while still having signal shaping that gives a large enough SNR in the detection band. Having separate transimpedance amplifiers for each photodiode also has useful diagnostic advantages, such as being able to see the sum of the two photo-diode signals. Therefore, direct subtraction of the photo-diode signals should not be considered an advantage of BHD over DC readout.
+\paragraph{}
+One of the practical outcomes of implementing BHD is the potential to reduce SRC length noise coupling. Noise on the length of the SRC can couple to the gravitational wave signal via two routes. The dominant coupling will arise due to the power entering the SRC, which is proportional to the DC offset. The other coupling arises due the optical spring between the SRC and the arm cavity length, whose strength depends on the DC offset.
+\paragraph{}
+The dominant coupling due to the power entering the SRC can be intuitively understood by considering a Fabry-Perot cavity. For small changes in the cavity length, the light transmitted by the cavity way that length noise may couple to the signal light is due to the dependence on the transmitted light by the SRC on its length and the amount of light entering the cavity. There is a relationship between the length noise and the power transmitted that scales linearly with the DC offset. 
+\paragraph{}
+The second route that SRC length noise may couple to the the signal is by the optomechanical coupling due to an the optical springs between the SRC and the arm cavity. Due to this optical spring effect, a change in length of the SRC will cause the arm cavity length to change as well\cite{Izumi2016}. This effect is much smaller than the first effect, so the estimate for the reduction of SRC length coupling will only considering the first effect.
+\paragraph{}
+SRC length noise is currently too high for LIGO to meet the A+ requirements \href{https://alog.ligo-wa.caltech.edu/aLOG/index.php?callRep=55755}{Shelia Dwyer post}. To estimate the reduction in SRC length noise that BHD may provided, the amount the DC offset that is currently used should be compared to the amount that is proposed for BHD. LIGO currently uses at the AS port there is 23\,mW, with 1\,mW of residual light (light that cannot be removed)\textcolor{red}{(shelia dwyer answer in email FW: BHD review committee request \& document PREVIEW). Assume 0.85 A/W (qe = 99\%)}. The AS power for BHD is between 1 and 5\,mW. Therefore, a conservative estimate would for the factor that the SRC length noise coupling is reduced by is 4.
 \section{Local Oscillator Path Length Stability Requirement and HRTS requirement}
 The requirement for the path length stability of the local oscillator is determined by the sensitivity goal for A+. Deconvolving the strain sensitivity curve for A+ with the linear response function between differential strain, $h$, and power at the AS port gives the noise of the AS beam. This is then converted to an equivalent phase noise between the AS the LO beams. Finally, the requirement for the suspended optics is derived.
 \paragraph{}
@@ -101,14 +88,13 @@ A typical motion of the optical benches at 10\,Hz is $10\times10^{-1}\rm{m}/\sqr
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Figures/BHD_for_ligo_chapter_HRTS_requirement}
-	\caption{The phase noise between the LO and the AS beams causes noise. The sensitivity curve for A+ sets the limit on how much path length noise is acceptable between the AS and LO beams. The blue line shows sensitivity curve is shown in units of path length noise between the AS and LO beams, and the orange line shows the requirement of HRTS mirror motion.}
+	\includegraphics[width=0.9\linewidth]{Figures/BHD_for_ligo_chapter_HRTS_requirement}
+	\caption{The phase noise between the LO and the AS beams causes noise. The sensitivity curve for A+ sets the limit on how much path length noise is acceptable between the AS and LO beams. The blue line shows sensitivity curve is shown in units of path length noise between the AS and LO beams, and the orange line shows the requirement of HRTS mirror motion. \textcolor{red}{Replot, the y axis is shit!}}
 	\label{fig:bhdforligochapterhrtsrequirement}
 \end{figure}
 \textcolor{red}{make figure showing requirement as a fucntion of AS power?}
 \subsection{HRTS}
 \textcolor{red}{remove references to HRTS in previous section. Refer to the HRTS there as table motion isolation requirements, or something like that. Discuss the HRTS in its own separate section.}
-\section{Alignment of the LO and AS beam}
 \section{HAM6 layout}
 Fundamentally, the layout in HAM6 must combine the AS beam and the LO beam, and sense the combined beams to form a balanced homodyne detector. There are several other functionalities required and constraints imposed on the layout of HAM6. The following section will describe these functionalities and constraints and how they guided the design of the HAM6 layout. This work was undertaken by a team including myself, Ken Strain, Russel Jones, Stephen Webster and Mark Barton. 
 \subsection{The Constraints and Requirements of the Layout of HAM6}
@@ -127,6 +113,8 @@ The goal for mode matching between the arm mode and the OMC mode is is $>98\%$. 
 The current OMC design (with trivial modifications) will be used to remove junk light from the signal beam, so their is no choice in target waist size. The input beam at the SRM is defined in \href{https://dcc.ligo.org/LIGO-T1200410}{T1200410}. The mode matching is designed assuming that the beam at the SRM is the `design mode'. Mode matching between the beam exiting the SRM and the OMC waist will be done with a static lens and 2 active mirrors. The static lens will be placed just after the OFI and its purpose is to provide sufficient Gouy phase separation of the 2 active mirrors. 
 \paragraph{}
 The light transmitted by the OMCs is used to measure the gravitational wave signal, since the higher order modes are suppressed by a factor of the finesse of the OMC. The OMCs are expected to be the largest contributor of back-scatter from HAM6 back to the interferometer. By having the OMCs after the AS and LO beams are combined, and by having the OFI protect the interferometer, the requirement on the motion of the OMCs is fairly lax. Nevertheless, a single stage suspended platform is required. This will provide isolation down to 4\,Hz.  
+\paragraph{}
+It was decided that the two beams after BHDBS2 would have the same path length to reduce the cost of the HAM6 optics. This may also improve the common-mode noise rejection ratio.
 \begin{table}[ht]
 	\centering
 	\begin{tabular}{| l | c |}
@@ -143,61 +131,89 @@ The light transmitted by the OMCs is used to measure the gravitational wave sign
 	\caption{Target for losses in HAM6. Reproduction of \href{https://dcc.ligo.org/E1900385}{E1900385}}
 	\label{tab:HAM6_losses}
 \end{table}
-
-\begin{table}[ht]
-	\centering
-	\begin{tabular}{| l | c |}
-		\hline
-		Space Name & Optical Path Length (mm) \\
-		\hline
-		SRM to OFI lens & 1120 \\
-		OFI lens to HAM6 table edge & 720 \\
-		HAM6 table edge to OM0 &  432 \\
-		OM0 to BHDBS2 &  905 \\
-		BHDBS2 to OMxS & 225\\
-		OMxS to OMx1 & 1240\\
-		OMx1 to OMx2 & 1240\\
-		OMx2 to OMCx waist & 1240\\
-		\hline
-	\end{tabular}
-	\caption{Spacings for the main beam path from the SRM to the OMC waist.}
-	\label{tab:spacings}
-\end{table}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\linewidth]{Figures/BHD_for_ligo_chapter_5f_21}
 	\caption{Place holder graphic. The pentagram layout. CAD will be inserted later.}
 	\label{fig:bhdforligochapterlayout5f}
 \end{figure}
-\subsection{Chosen Layout}
-Optically, there are many layouts which could have satisfied the above requirements and constraints. It was decided that the two beams after BHDBS2 would have the same path length to reduce the cost of the HAM6 optics. Ultimately the choice of layout for HAM6 was determined by mechanical factors such as table space and number of allowable suspensions. The design that is being taken forward at the time of writing is known as the `pentagram', and is shown in figure \ref{fig:bhdforligochapterlayout5f}.
-\paragraph{Show plots produced by ligo\_layout.py}
+\section{Chosen Layout}
+Optically, there are many layouts which could have satisfied the above requirements and constraints. Ultimately the choice of layout for HAM6 was determined by mechanical factors such as table space and number of suspensions. The design that is being taken forward at the time of writing is known as the `pentagram', and is shown in figure \ref{fig:bhdforligochapterlayout5f}. The beam size as the a function of position along the optical axis is shown in figure \ref{fig:bhdforligochapterbeamshape}. The astigamtism loss was calculated to be $>0.05\%$. This astigmatism loss was plotted as a function of angle, and above 10\si{\degree} the loss becomes significant. The optical properties of this layout are summarised in table \ref{tab:layout_parameters}.
+\paragraph{}
+The focal lengths of the OFI lens, OMx1 and OMx2 where optimised so that there was a close to $45\si{\degree}$ Gouy phase separation between OMx1 and OMx2 as possilbe. This is shown in figure \ref{fig:bhdforligochapterlenschoice}. With this layout, it was possible to achieve $43\si{\degree}$ Gouy phase separation between OMx1 and OMx2. Other layouts were able to provide exactly $45\si{\degree}$ Gouy phase separation, however the pentagram layout offers many practical benefits over the other considered designs that outweigh an additional $2\si{\degree}$ of Gouy phase separation. This layout also provides good Gouy phase seperation for alignment control, with there being $88\si{\degree}$ between OMxS and OMx2. 
+ \begin{table}
+	\centering
+	\begin{tabular}{| c  | c | c | c | }
+		\hline 
+		Optic & Power (1/m) & Focal length (m) & RoC (m) \\
+		\hline 
+		OFI lens & -0.0583 & -17.1552 & -\\
+		OMx1 & -0.3539 & -2.8290 &  5.6580 (concave)\\
+		OMx2 & -0.8737 & -1.1445 & 2.2891 (concave)\\
+		\hline
+		\multicolumn{4}{c}{}\\
+		\hline
+		\multicolumn{2}{|c|}{Space Name} & \multicolumn{2}{|c|}{Optical Path Length (mm)}\\
+		\hline
+		\multicolumn{2}{|l|}{SRM to OFI lens} & \multicolumn{2}{|c|}{1120}\\
+		\multicolumn{2}{|l|}{OFI lens to HAM6 table edge} & \multicolumn{2}{|c|}{720}\\
+		\multicolumn{2}{|l|}{HAM6 table edge to OM0} & \multicolumn{2}{|c|}{432}\\
+		\multicolumn{2}{|l|}{OM0 to BHDBS2} & \multicolumn{2}{|c|}{905}\\
+		\multicolumn{2}{|l|}{BHDBS2 to OMxS} & \multicolumn{2}{|c|}{225}\\
+		\multicolumn{2}{|l|}{OMxS to OMx1} & \multicolumn{2}{|c|}{1240}\\
+		\multicolumn{2}{|l|}{OMx1 to OMx2} & \multicolumn{2}{|c|}{1590}\\
+		\multicolumn{2}{|l|}{OMx2 to OMCx waist} & \multicolumn{2}{|c|}{1220}\\
+		\hline
+		\multicolumn{4}{c}{}\\
+		\hline
+		\multicolumn{2}{|c|}{Parameter} & \multicolumn{2}{|c|}{Value}\\
+		\hline
+		\multicolumn{2}{|c|}{SRM Complex Beam Parameter} & \multicolumn{2}{|c|}{$q_{\rm{SRM}} = -3.55 + 1.09i\,\rm{m} $}\\
+		\multicolumn{2}{|c|}{OMC waist width} & \multicolumn{2}{|c|}{485\,\si{\micro\meter}}\\
+		\multicolumn{2}{|c|}{OMx1 to OMx2 Gouy phase} & \multicolumn{2}{|c|}{43\,\si{\degree}}\\
+		\multicolumn{2}{|c|}{OMxS to OMx2 Gouy phase} & \multicolumn{2}{|c|}{88\,\si{\degree}}\\
+		\multicolumn{2}{|c|}{OMxS and OMx2 AOI} & \multicolumn{2}{|c|}{10\,\si{\degree}}\\
+		\hline
+	\end{tabular}
+	\caption{Layout properties}
+	\label{tab:layout_parameters}
+\end{table}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.95\linewidth]{Figures/BHD_for_ligo_chapter_Beamshape}
 	\caption{The radius of the beam as it travels from the SRM (z = 0) to the waist of the OMC.}
 	\label{fig:bhdforligochapterbeamshape}
 \end{figure}
-\begin{table}
+\begin{figure}
 	\centering
-	\begin{tabular}{| c | c | c |}
-		\hline 
-		Optic Name & Distance along optical axis (m) \\
-		\hline
-		SRM & 0.000 \\
-		OFI lens & 1.122 \\
-		OM0 & 2.272 \\
-		BHDBS2 & 3.177 \\
-		OMxS & 3.402 \\
-		OMx1 & 4.642 \\
-		OMx2 & 6.232 \\
-		OMCx Waist & 7.452 \\
-		\hline
-	\end{tabular}
-	\caption{A table of the position along the optical axis for each optic between the SRM and the OMC waist. Since there are two identical beam paths after BHDBS2, path A and path B, the names of OMA1, OMB1 etc.~have been written as OMx1 etc. }
-	\label{tab:optics_spacing}
-\end{table}
-\subsection{WS visulations as a tool for understanding mode matching problems}
+	\includegraphics[width=0.95\linewidth]{Figures/BHD_for_ligo_chapter_lens_choice}
+	\caption{OFI lens power effects the optimal combination of OMx1 and OMX2 power required for 100\% mode matching. The best choice of these lenses is the pair which gives the Gouy phase seperation closest to 45\si{\degree}.}
+	\label{fig:bhdforligochapterlenschoice}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/BHD_for_ligo_chapter_astigmatism}
+	\caption{Mode matching degradation as a function of angle of incidence for OMx1 and OMx2.}
+	\label{fig:bhdforligochapterastigmatism}
+\end{figure}
+\section{Sensing and Control}
+\subsection{Longitudinal Control}
+\subsubsection{Homodyne Angle}
+One method of controlling the homodyne angle is using the so called `RF 36` signal. LIGO uses 9\,MHz and 45\,MHz modulations on the light to detect various lengths within the interferometer that need to be controlled. The beat between these two will produce a 36,MHz signal. The homodyne angle determines the amplitude of this signal, and so by demodulating a photodiode measuring the light in reflection from the OMC at 36\,MHz the homodyne angle may be controlled. This is detailed in (Tengs Thesis ref). The actuation may be provided by OM0, BHDBS2 or by BHDM1. Alternatively, a dither signal at a few kHz on OM0 could provide can provide a signal corresponding to the homodyne angle. \textcolor{red}{Cant the homodyne angle be set to 90\si{\degree} by subtracting the photodiode signals and requiring the DC to be zero, as in a Mach zehnder?}
+\subsubsection{OMC Length}
+Keeping the OMC length locked to the combined LO-AS beam can be done by actuating on the length of PZT mirrors in the OMC. A few kHz signal may be created by the modulation on a HRTS in either the LO or AS path, one of the HDS after BHDBS2, or event a dither on the other PZT within the OMC. These modulations will be measurable in transmission of the OMC. Alternatively, a PDH signal may be created by using the 9\,MHz signal may be measured in reflection from the OMC.
+\subsubsection{Squeezing Angle to Measurement Phase}
+The squeezing and measurement phase may be controlled by measuring the 3,MHz signal transmitted through the OMC. This signal originates in the AOM in the squeezer, and the squeezing angle can be controoled with the PZT in the the squeezer layout in HAM7.
+\subsection{Alignment Control}
+\subsubsection{LO and AS alignment}
+The alignment of the signal to the to the AS beam will be done with either OM0 or BHDM1, and BHDBS2. A 36\,MHz signal measured in reflection of the OMC can be used to determine the overlap of the two beams. By having a Gouy Phase telescope in reflection of the the OMC, a signal proportional to displacement and angle may be obtained. Alternatively, a dither at a few Hz can be applied to BHDM1 and BHDBS2, and this signal will appear in the light transmitted by the OMC.
+\subsection{Alignment of the LO-AS beam to the OMC}
+A dither applied to a HRTS in either the LO or AS path will produce a signal in transmission through the OMC. The mirrors OMxS and OMx2 will be used to align the LO beam into the OMC, and as these are separated by $\sim90\si{\degree}$ of Gouy phase, orthogonal control of the input beam alignment will be achievable. 
+\subsubsection{Squeezer to AS beam}
+The pick-off at OM0 will be used to align the squeezer beam to the AS beam. The squeezer light has 42\,MHz sidebands, and so a pair of wavefront sensors separated by $\sim90\si{\degree}$ of Gouy phase can be demodulated at this frequency to derive an alignment error signal. The squeezer beam will be aligned to the AS beam with optics between the filter cavity and the OFI. The signal and squeezer beam will be aligned onto these wavefront sensors using SR2 and a tip tilt in transmission of OM0.
+\subsubsection{Differential Hard Mode}
+The differential hard mode arises due to radiation pressure effects in the arm cavities. As the power in the cavity changes, the dynamics of the test mass changes. These dynamics result from the alignment of the cavity axis to the test masses due radiation pressure. This differential hard mode dynamic must be controlled. This signal will be detected with light that is transmitted through OM0, and actuated on with the test masses.
+\section{WS visulations as a tool for understanding mode matching problems}
 \textcolor{red}{Hermite Gaussian beams will be explained earlier in the intro chapters, so don't need generic expansion, just use the 2nd order ones. Have a read of \cite{Mueller2000}}.
 \paragraph{}
 The mode-matching between two laser beam modes, or a laser mode and a cavity mode, describes how similar those two modes are. In general, the two modes can be mismatched by being misaligned or by having a different beam shape. Mode matching typically refers to the overlap of the two modes if they were perfectly aligned.
@@ -260,3 +276,10 @@ The modes from the SRM that can be matched at to the target is shown in Figure \
 \paragraph{}
 Nevertheless, Figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmodematchingsuccess} is encouraging since it shows that the actuation provided by the OMx1 and OMx2 is very forgiving, so much so that the strict definition of the role of AWC in HAM6 may be relaxed in order for operators to use the AWC here to correct for other errors in the geometry of LIGO.
 \section{Conclusion about BHD for A+}
+One of the major changes to LIGO for A+ will be the implementation of BHD. Combined with frequency dependent squeezing, BHD offers the possibility to optimise the detector for different gravitational wave sources. Along with this, BHD offers a way by which the coupling between the signal recycling cavity length noise and DARM can be reduced.
+\paragraph{}
+BHD presents some technical challenges over DC readout. The LO phase noise must be kept low enough as to not contaminate the signal at the AS port with LO path noise. The requirement for the phase noise is shown in figure \ref{fig:bhdforligochapterhrtsrequirement}. This requirement can be met by using triple suspensions to deliver to local oscillator and AS beams to the beam splitter they are combined on. 
+\paragraph{}
+The functionality required from the BHD layout was discussed, and a proposed layout that satisfies these requirements is shown in figure \ref{fig:bhdforligochapterlayout5f}. The optical properties of this layout were investigated, and by selection of the right combination of mode matching optics, near orthogonal control of the AS-LO beam alignment and mode matching to the OMC was achieved.
+\paragraph{}
+By plotting the $<98\%$ mode matching requirement in WS space, the robustness to changes in the input beam parameter was investigated. The AWC provides a huge amount of mode matching range that the layout can tolerate very large changes in parameter at the SRM. It was found that almost all possible beams will be able to mode matched to the OMC. This is shown in figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmodematchingsuccess}.
