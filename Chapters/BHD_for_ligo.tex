@@ -19,7 +19,7 @@ Consider a coherent state, $ \ket{\alpha_{\rm{ref}}} $ being used as a reference
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\linewidth]{Figures/BHD_for_ligo_chapter_BHD_sketch}
-	\caption{}
+	\caption{A coherent state $\ket{\alpha}$ being combined with a signal $\ket{\Phi}$ on a beam splitter. Two photo-currents are subtracted to produce a signal that is proportional to the general quadrature of the mixed state.}
 	\label{fig:bhdforligochapterbhdsketch}
 \end{figure}
 The two photo-diodes detect 
@@ -99,12 +99,13 @@ The beam path for the LO and AS beams up to the point of recombination will be d
 The local oscillator could have been derived from a separate laser, but to acquire laser light with low frequency and intensity noise the LO will be derived from a point within the interferometer. Two options for the local oscillator options were considered: a beam picked off from the main beam splitters AR coating (BSAR) or the beam transmitted through PR2 \cite{Zhang2019} (POP). The determining factor in choice of LO path was the effect of backscatter, and the POP choice is far superior to the BSAR choice at all frequencies and scatter phases. This is because any backscatter from the BSAR enters only one arm, and therefore is a differential effect. Any back scatter that enters the POP port is common-mode, meaning that the differential arm signal is far less sensitive to this source of backscatter.
 \paragraph{}
 The layout for the optics which combine the the LO and AS beam is shown in figure \ref{fig:bhdforligochaptersketchoflodelivery}. The beam transmitted by PR2 is used for control of the interferometer, so BHDBS1 is needed to pick off some of this light. The LO beam is steered towards the combining beam splitter BHDBS2. with BHDM1. Two lenses (\textcolor{red}{need names for these}) are used for mode matching the LO beam to the AS beam.  The AS beam is transmitted through the SRM and OFI, and then is steered towards BHDBS2 with OM0. 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\linewidth]{Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery}
 	\caption{Sketch of the LO and AS beam paths. The LO beam is obtained from the light transmitted by PR2. Some of this light is needed for control of the interferometer, so BHDBS1 is used to split the light. The LO beam is then directed towards the combining beam splitter BHDBS2 with BHDM1. Two lenses are needed to mode match the LO beam to the AS beam. THe AS beam is transmitted through the SRM, passes through the OFI, and is directed to BHDBS2 via OM0.}
 	\label{fig:bhdforligochaptersketchoflodelivery}
 \end{figure}
+\clearpage
 \subsection{The Linear Response Function Between Differential Strain and Power at the AS Port}
 %\subsection{Simulation of the Linear Response Function Between a Differential Strain and the Power at the AS Port}
 The linear response function of the A+ detectors was obtained using \textsc{Finesse}. Since the core optics of the interferometer will not be changing in a way relevant to this calculation, the LLO model\cite{l1_finesse_2014} was used to calculate the response between differential motion of the ETMs and the power transmitted through the OMC. The effect of the light being transmitted through the OMC has no effect on the linear response function at the frequencies contained in the detection band, and so the OMC has no effect.
@@ -124,7 +125,7 @@ do this.
 For this calculation, the linear response function measured in \textsc{Finesse} needs to be converted into different units. To get the linear response function between arm motion and AS power into units of $\frac{\rm{Power}}{\rm{Strain}}$ (or $\frac{\rm{W}}{\rm{h}}$), several factors of 2 are needed. Since the input modulation is doubled by moving the mirrors differentially the response needs dividing by 2. To account for the ETMs retro-reflecting the light (\textcolor{red}{or is the weird Finesse convention}), the response needs dividing by 2 again. To convert this from phase units to strain units, a factor of $\frac{\lambda}{2\pi L_{\rm{arm}}}$ is needed. Therefore, the output of the the \textsc{Finesse} simulation needs to be multiplied by $\frac{1}{2}\frac{1}{2}\frac{2\pi L_{\rm{arm}}}{\lambda}$ to be in units of $\frac{\rm{W}}{\rm{h}}$. The linear response function between a differential arm strain and the power at the AS port is shown in figure \ref{fig:bhdforligochapterdetectorrepsonse}.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Figures/BHD_for_ligo_chapter_detector_repsonse}
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_detector_repsonse}
 	\caption{The linear response function between strain and light power at the AS port was obtained from a \textsc{Finesse} simulation of the LLO detector\cite{l1_finesse_2014}. The corner frequency at $\approx300$\,Hz comes from the pole of the coupled SRC-arm cavity. The behaviour below $6$\,Hz is due to optical spring effects.}
 	\label{fig:bhdforligochapterdetectorrepsonse}
 \end{figure}
@@ -134,7 +135,7 @@ For this calculation, the linear response function measured in \textsc{Finesse} 
 The A+ sensitivity\cite{a+curve} curve was multiplied by the function shown in \ref{fig:bhdforligochapterdetectorrepsonse} to convert it from units of $\frac{\rm{h}}{\sqrt{\rm{Hz}}}$ to $\frac{\rm{W}}{\sqrt{\rm{Hz}}}$. This is shown in figure \ref{fig:bhdforligochapterlightnoise}. At frequencies above 1\,kHz, the requirement is flat as this is the region dominated by shot noise. At lower frequencies, the requirement is relaxed as the sensitivity curve becomes dominated by other noise sources.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Figures/BHD_for_ligo_chapter_light_noise}
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_light_noise}
 	\caption{The intensity noise of the light at the AS port for the A+ detector. This was obtained by deconvolving the detectors sensitivity curve\cite{a+curve} with the function shown in figure \ref{fig:bhdforligochapterdetectorrepsonse}.}
 	\label{fig:bhdforligochapterlightnoise}
 \end{figure}
@@ -170,8 +171,8 @@ To determine the amount of isolation required, a typical motion of the optical t
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\linewidth]{Figures/BHD_for_ligo_chapter_HRTS_requirement}
-	\caption{The phase noise between the LO and the AS beams causes noise. The sensitivity curve for A+ sets the limit on how much path length noise is acceptable between the AS and LO beams. The blue line shows sensitivity curve is shown in units of path length noise between the AS and LO beams, and the orange line shows the requirement of HRTS mirror motion. \textcolor{red}{Replot, the y axis is shit!}}
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_HRTS_requirement}
+	\caption{The phase noise between the LO and the AS beams causes noise. The sensitivity curve for A+ sets the limit on how much path length noise is acceptable between the AS and LO beams. The blue line shows sensitivity curve is shown in units of path length noise between the AS and LO beams, and the orange line shows the requirement of HRTS mirror motion.}
 	\label{fig:bhdforligochapterhrtsrequirement}
 \end{figure}
 \subsection{Summary of LO path length Stability}
@@ -189,11 +190,11 @@ The entry point of the AS and LO beams in principle can be anywhere in HAM6, how
 \paragraph{}
 The design beam parameter at the SRM is $q_{\rm{SRM}} = -3.55 + 1.09i\,\rm{m} $, so the design of the HAM6 mode matching optics is based on this number. In reality, the beam parameter could be different to this, as discussed in chapter \ref{chapter:simulation_finesse}). At the SRM, there are two sets of modes we could design the AWC to match to: The arm mode, or the SRC mode. Ideally, these would be the same mode, however geometry errors in the SRC cause the arm and the SRC to be mismatched meaning the radius of curvature and beam size at the SRM will not correspond to the eigenmode of the SRM. This set of likely modes, shown in \ref{fig:sim_chapter_beam_parameter_at_SRM}, was taken into consideration when choosing a layout for the AWC in HAM6. 
 \paragraph{}
-The current OMC design (with trivial modifications) will be used to remove junk light from the signal beam, so there is no choice in target waist size. The input beam at the SRM is defined in \href{https://dcc.ligo.org/LIGO-T1200410}{T1200410}. The mode matching is designed assuming that the beam at the SRM is the `design mode'. Mode matching between the beam exiting the SRM and the OMC waist will be done with a static lens and 2 active mirrors. The static lens will be placed just after the OFI and its purpose is to provide sufficient Gouy phase separation of the 2 active mirrors.
+The current OMC design (with trivial modifications) will be used to remove junk light from the signal beam, so there is no choice in target waist size. The input beam at the SRM is defined in \href{https://dcc.ligo.org/LIGO-T1200410}{T1200410}. The mode matching is designed assuming that the beam at the SRM is the `design mode'. Mode matching between the beam exiting the SRM and the OMC waist will be done with a static lens and 2 active mirrors. The static lens will be placed just after the OFI and its purpose is to provide sufficient Gouy phase separation of the two active mirrors.
 \paragraph{}
 It was decided that the two beams after BHDBS2 would have the same path length to reduce the cost of the HAM6 optics. This may also improve the common-mode noise rejection ratio. 
 \paragraph{}
-The requirements for the HAM6 layout are to provide steering for the interferometer beam into the OMC, and mode matching between the interferometer beam and the OMC. The goal for mode matching is $98\%$.  After BHDBS2 the layout must have 2 mirrors separated 90\si{\degree} and 45\si{\degree} of Gouy phase to provide orthogonal control over the beam pointing and mode-matching. The 45\si{\degree} Gouy phase separation requirement is what makes the design of HAM6 none trivial. 
+The requirements for the HAM6 layout are to provide steering for the interferometer beam into the OMC, and mode matching between the interferometer beam and the OMC. The goal for mode matching is $98\%$.  After BHDBS2 the layout must have two mirrors separated 90\si{\degree} and 45\si{\degree} of Gouy phase to provide orthogonal control over the beam pointing and mode-matching. The 45\si{\degree} Gouy phase separation requirement is what makes the design of HAM6 none trivial. 
 \paragraph{}
 The goal for mode matching between the arm mode and the OMC mode is is $>98\%$. The SAMS actuators will provide $\pm100$,\,mD of optical power tuning range, with a bandwidth of the order 100\,Hz. Astigmatism can be considered as a loss, and none-zero angles of incidence (AOI) of beams onto curved optics results in a the beam becoming astigmatic. This prevents designs using large AOI. This is described in detail in Chapter \ref{chapter:light_beams}.
 \paragraph{}
@@ -228,8 +229,8 @@ In summary, the main constraints for the design of HAM6 are where the beams ente
 \end{table}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.65\linewidth]{Figures/BHD_for_ligo_chapter_5f_21}
-	\caption{Place holder graphic. The pentagram layout. CAD will be inserted later.}
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_5f_21}
+	\caption{Place holder graphic. The pentagram layout. CAD with beam path will be inserted later.}
 	\label{fig:bhdforligochapterlayout5f}
 \end{figure}
 \subsection{Chosen Layout}
@@ -281,19 +282,19 @@ In conclusion, a HAM6 layout that fulfils the criteria set in Section \ref{sec:B
 \end{table}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.95\linewidth]{Figures/BHD_for_ligo_chapter_Beamshape}
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_Beamshape}
 	\caption{Top panel: the radius of the beam as it travels from the SRM (z = 0) to the waist of the OMC. Significant points along the axis are marked with vertical lines. Bottom panel: The gouy phase shift accumulated by the beam as it propagates along the optical axis.}
 	\label{fig:bhdforligochapterbeamshape}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.95\linewidth]{Figures/BHD_for_ligo_chapter_lens_choice}
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_lens_choice}
 	\caption{OFI lens power effects the optimal combination of OMx1 and OMX2 power required for 100\% mode matching. The best choice of these lenses is the pair which gives the Gouy phase seperation closest to 45\si{\degree}.}
 	\label{fig:bhdforligochapterlenschoice}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\linewidth]{Figures/BHD_for_ligo_chapter_astigmatism}
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_astigmatism}
 	\caption{Mode matching degradation as a function of angle of incidence for OMx1 and OMx2.}
 	\label{fig:bhdforligochapterastigmatism}
 \end{figure}
@@ -334,36 +335,20 @@ Crudely, the shape of this space can be seen by applying $S_{\rm{OMx2}}\pm\Delta
 	\caption{Sketches of the WS representation for a Guassian beam interacting with different parts of a simple optical layout consisting of two active lenses with powers $S_{1,2} + \Delta S_{1,2}$. The left hand axis shows the WS plane at lens 1. The input beam $q_1$ is indicated by a red dot, and the effect of the lens on $q_1$ is shown by the dark green arrow $S_1$. This results in a new mode $q_2$, which is shown as a blue dot. A light green arrow indicates the actuation of lens 1. The right hand axis shows the WS plane at lens 2. The input mode at lens 2, $q_3$, is shown as a purple dot, and the the output mode , $q_4$, is shown as a pink dot. The static and dynamic power of lens 2 is indicated by the orange and yellow lines. As lens 1 and lens 2 are separated by $45\si{\degree}$ of Gouy Phase, the actuation provided by lens 1 results in a change in the beam parameter which is orthogonal to the actuation provide by lens 2, provided that the actuations are small enough. }
 	\label{fig:bhdforligochapterwssketch}
 \end{figure}
-%fancy figures!
-\clearpage
+
 \begin{figure}
-	\captionsetup{labelformat=empty}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes}
-	\caption{}
-	\label{}
-\end{figure}
-\begin{figure}
-	\captionsetup{labelformat=adja-page}
-	\ContinuedFloat
-	\caption{Top panel: This is the WS space at the OMx2 plane. After reflection from OMx2, a mode must be at least $98\%$ mode matched to the waist as there are no further active mode matching elements in the layout of HAM6. The target modes are shown by the red region. The blue region represents which modes can be reached from the red region by either $S_{\rm{OMx2}}\pm\Delta S$, and was constructed by applying transformations to the modes in the red region. The red region was split into two parts, `upper' and `lower', which approximately corresponds to modes with a defocus greater than 0.6 or less than 0.6. The line that splits the red area into an upper and lower region corresponds to the line that connects the two extremes in width of the region, and does not have to be a horizontal line. To create the lower edge of the blue region, modes in the lower edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}-\Delta S$ applied to them. To construct the upper edge of the blue region, upper edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}+\Delta S$ applied to them. These regions were then joined by a vertical line that connects them.\\
-	Bottom panel: This is the WS space at the OMx1 plane. The pink mode represent the target modes that a mode must be able to reach by being reflected from OMx1. The blue region from the upper panel was propagated back to OMx1 to form the pink region. In a similar way as before, the pink region was split into an upper and lower region, and the green region was constructed from this. Modes in the green region are capable of being transformed to the pink region, which therefore means thy can be transformed to the red region, meaning they satisfy the $98\%$ mode matching requirement. The green region was propagated back to the through the layout to SRM, and this is as the purple region in Figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmodematchingsuccess}.}
+	\caption{This is the WS space at the OMx2 plane. After reflection from OMx2, a mode must be at least $98\%$ mode matched to the waist as there are no further active mode matching elements in the layout of HAM6. The target modes are shown by the red region. The blue region represents which modes can be reached from the red region by either $S_{\rm{OMx2}}\pm\Delta S$, and was constructed by applying transformations to the modes in the red region. The red region was split into two parts, `upper' and `lower', indicated by the dashed line that connects the two extremes in width of the region. To create the lower edge of the blue region, modes in the lower edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}-\Delta S$ applied to them. To construct the upper edge of the blue region, upper edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}+\Delta S$ applied to them.}
 	\label{fig:bhdforligochapterlayout5fomx1omx2planes}
 \end{figure}
-\clearpage
+
 \begin{figure}
-	\captionsetup{labelformat=empty}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf}
-	\caption{}
-\end{figure}
-\begin{figure}
-	\captionsetup{labelformat=adja-page}
-	\ContinuedFloat
-	\caption{Top panel: the set of modes that could be present at the SRM is shown by the purple-blue-green-yellow curve, as described in chapter \ref{chapter:simulation_finesse}.  The purple region shows which modes can reach 98\% mode matching by using the the AWC in HAM6. The orange cross indicates the mode that corresponds to the SRC having a single pass Gouy phase of 21.3\si{\degree}. The contours indicate the mode matching between the arm mode and the OMC mode. Bottom panel: this shows the same modes as the top panel, except they have been transformed to the plane of the OMC waist. The target region is highlighted with a hatched area.}
+	\caption{Left panel: the set of modes that could be present at the SRM is shown by the purple-blue-green-yellow curve, as described in chapter \ref{chapter:simulation_finesse}.  The pink region shows which modes can reach 98\% mode matching by using the the AWC in HAM6. The contours indicate the mode matching between a mode $(W,S)$ and the OMC mode. Right panel: this shows the same modes as the top panel, except they have been transformed to the plane of the OMC waist. The target region is highlighted with a hatched area.}
 	\label{fig:bhdforligochapterlayout5fmodessrmomcmodematchingsuccess}
 \end{figure}
-\clearpage
 \paragraph{}
 The modes from the SRM that can be matched at to the target is shown in Figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmodematchingsuccess}. The visualise how successful the layout is at the handling likely modes from the arm described in Chapter \ref{chapter:simulation_finesse}, these modes were compared to the region of WS phase space from which the $98\%$ mode matching requirement from a starting point of $92\%$ mismatch. It was found that almost all likely modes will be covered by the layout, as the modes near the edge of this continuum are more unlikely to occur than the ones near the centre. 
 \paragraph{}

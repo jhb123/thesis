@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  17 SEP 2020 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  18 SEP 2020 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,25 +1183,25 @@ Chapter 1.
 ] [5]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_BHD_sketch.ep
 s>
-(epstopdf)                    date: 2020-09-17 12:46:45
-(epstopdf)                    size: 59604 bytes
+(epstopdf)                    date: 2020-09-17 15:41:14
+(epstopdf)                    size: 59605 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_BHD_sketch-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2020-09-17 12:46:58
-(epstopdf)                    size: 20110 bytes
+(epstopdf)                    date: 2020-09-17 15:41:32
+(epstopdf)                    size: 20101 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_BHD_sketch-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_BHD_sketch.eps>
 
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf, id=131, pagebox=
-cropbox, 58.2175pt x 45.16875pt>
+cropbox, 59.22125pt x 45.16875pt>
 File: Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-
 to.pdf  used on input line 21. on input line 21.
-Package pdftex.def Info: Requested size: 213.39568pt x 165.60542pt on input lin
+Package pdftex.def Info: Requested size: 213.39568pt x 162.76515pt on input lin
 e 21.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1242,77 +1242,75 @@ e 104.
 LaTeX Warning: Float too large for page by 19.15987pt on input line 107.
 
 
-Overfull \hbox (17.83598pt too wide) in paragraph at lines 108--108
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] [16 <./Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to
+.pdf>]
+Overfull \hbox (17.83598pt too wide) in paragraph at lines 109--109
 []\T1/cmr/bx/n/14.4 The Lin-ear Re-sponse Func-tion Be-tween Dif-fer-en-tial St
 rain
  []
 
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 113.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-[16 <./Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf>
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 112.
-
- (c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+(c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_detector_reps
 onse.eps>
-(epstopdf)                    date: 2020-09-01 14:56:01
-(epstopdf)                    size: 37080 bytes
+(epstopdf)                    date: 2020-09-18 11:57:14
+(epstopdf)                    size: 36377 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_detector_reps
 onse-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 15:22:14
-(epstopdf)                    size: 13257 bytes
+(epstopdf)                    date: 2020-09-18 11:57:27
+(epstopdf)                    size: 13187 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_detector_repsonse-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_detector
 _repsonse.eps>
-(epstopdf)             \includegraphics on input line 127.
+(epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf, id=310, p
-agebox=cropbox, 433.62pt x 289.08pt>
+agebox=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_detector_repsonse-eps-con
-verted-to.pdf  used on input line 127. on input line 127.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 127.
- [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+verted-to.pdf  used on input line 128. on input line 128.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 128.
+ [17
 
- [18 <./Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf>]
+]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_light_noise.e
 ps>
-(epstopdf)                    date: 2020-09-01 14:56:02
-(epstopdf)                    size: 55807 bytes
+(epstopdf)                    date: 2020-09-18 11:57:15
+(epstopdf)                    size: 45315 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_light_noise-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 15:22:17
-(epstopdf)                    size: 17354 bytes
+(epstopdf)                    date: 2020-09-18 11:57:29
+(epstopdf)                    size: 15984 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_light_noise-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_light_noise.ep
 s>
-(epstopdf)             \includegraphics on input line 137.
+(epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf, id=364, pagebox
-=cropbox, 433.62pt x 289.08pt>
+<Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf, id=323, pagebox
+=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_light_noise-eps-converted
--to.pdf  used on input line 137. on input line 137.
-Package pdftex.def Info: Requested size: 298.75264pt x 199.1787pt on input line
- 137.
-
-Underfull \vbox (badness 1168) has occurred while \output is active []
-
- [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+-to.pdf  used on input line 138. on input line 138.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 138.
+ [18] [19 <./Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pd
+f>]
+Underfull \vbox (badness 2512) has occurred while \output is active []
 
  [20 <./Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf>]
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [21]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_bhd_double_co
 unted.eps>
 (epstopdf)                    date: 2020-09-01 14:51:57
@@ -1324,72 +1322,72 @@ unted-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_bhd_double_counted-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_bhd_dou
 ble_counted.eps>
-(epstopdf)             \includegraphics on input line 167.
+(epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=433, 
+<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=439, 
 pagebox=cropbox, 109.40875pt x 101.37875pt>
 File: Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-co
-nverted-to.pdf  used on input line 167. on input line 167.
+nverted-to.pdf  used on input line 168. on input line 168.
 Package pdftex.def Info: Requested size: 170.71393pt x 158.18732pt on input lin
-e 167.
+e 168.
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_HRTS_requirem
 ent.eps>
-(epstopdf)                    date: 2020-09-01 15:28:29
-(epstopdf)                    size: 46734 bytes
+(epstopdf)                    date: 2020-09-18 11:57:16
+(epstopdf)                    size: 50656 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_HRTS_requirem
 ent-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-01 15:29:53
-(epstopdf)                    size: 20297 bytes
+(epstopdf)                    date: 2020-09-18 11:57:32
+(epstopdf)                    size: 20951 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_HRTS_requirement-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_HRTS_requ
 irement.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=434, pa
-gebox=cropbox, 433.62pt x 289.08pt>
+<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=440, pa
+gebox=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-conv
-erted-to.pdf  used on input line 173. on input line 173.
-Package pdftex.def Info: Requested size: 384.1096pt x 256.08499pt on input line
- 173.
- [21] [22 <./Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.p
-df>] [23 <./Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf>
-]
+erted-to.pdf  used on input line 174. on input line 174.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 174.
+
+[22 <./Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf>]
+[23 <./Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
 [25]
 
 LaTeX Warning: Reference `chapter:simulation_finesse' on page 26 undefined on i
-nput line 190.
+nput line 191.
 
 
 LaTeX Warning: Reference `fig:sim_chapter_beam_parameter_at_SRM' on page 26 und
-efined on input line 190.
+efined on input line 191.
 
 [26]
 
 LaTeX Warning: Reference `chapter:light_beams' on page 27 undefined on input li
-ne 198.
+ne 199.
 
 [27] [28]
-<Figures/BHD_for_ligo_chapter_5f_21.png, id=574, 648.92438pt x 592.46344pt>
+<Figures/BHD_for_ligo_chapter_5f_21.png, id=571, 648.92438pt x 592.46344pt>
 File: Figures/BHD_for_ligo_chapter_5f_21.png Graphic file (type png)
 <use Figures/BHD_for_ligo_chapter_5f_21.png>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_5f_21.png  used on input 
-line 231. on input line 231.
-Package pdftex.def Info: Requested size: 277.41176pt x 253.28075pt on input lin
-e 231.
+line 232. on input line 232.
+Package pdftex.def Info: Requested size: 426.79135pt x 389.662pt on input line 
+232.
  [29] [30 <./Figures/BHD_for_ligo_chapter_5f_21.png>]
 Underfull \vbox (badness 2846) has occurred while \output is active []
 
  [31]
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 273.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 274.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
@@ -1397,69 +1395,69 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_Beamshape.eps
 >
-(epstopdf)                    date: 2020-09-16 13:52:55
-(epstopdf)                    size: 55934 bytes
+(epstopdf)                    date: 2020-09-18 15:16:53
+(epstopdf)                    size: 52765 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_Beamshape-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2020-09-16 13:53:32
-(epstopdf)                    size: 21156 bytes
+(epstopdf)                    date: 2020-09-18 15:17:28
+(epstopdf)                    size: 20998 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_Beamshape-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_Beamshape.eps>
-(epstopdf)             \includegraphics on input line 284.
+(epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=603, pagebox=c
-ropbox, 433.62pt x 433.62pt>
+<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=600, pagebox=c
+ropbox, 433.62pt x 361.35pt>
 File: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-t
-o.pdf  used on input line 284. on input line 284.
-Package pdftex.def Info: Requested size: 405.45047pt x 405.47235pt on input lin
-e 284.
+o.pdf  used on input line 285. on input line 285.
+Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
+e 285.
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_lens_choice.e
 ps>
-(epstopdf)                    date: 2020-09-11 18:00:40
-(epstopdf)                    size: 48608 bytes
+(epstopdf)                    date: 2020-09-18 15:16:54
+(epstopdf)                    size: 42781 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_lens_choice-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-11 18:01:40
-(epstopdf)                    size: 19756 bytes
+(epstopdf)                    date: 2020-09-18 15:17:31
+(epstopdf)                    size: 18552 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_lens_choice-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_lens_choice.ep
 s>
-(epstopdf)             \includegraphics on input line 290.
+(epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=604, pagebox
-=cropbox, 433.62pt x 433.62pt>
+<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=601, pagebox
+=cropbox, 433.62pt x 361.35pt>
 File: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted
--to.pdf  used on input line 290. on input line 290.
-Package pdftex.def Info: Requested size: 405.45047pt x 405.47235pt on input lin
-e 290.
+-to.pdf  used on input line 291. on input line 291.
+Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
+e 291.
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_astigmatism.e
 ps>
-(epstopdf)                    date: 2020-09-11 18:07:23
-(epstopdf)                    size: 26412 bytes
+(epstopdf)                    date: 2020-09-18 15:16:49
+(epstopdf)                    size: 25958 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_astigmatism-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-11 18:10:30
-(epstopdf)                    size: 14155 bytes
+(epstopdf)                    date: 2020-09-18 15:17:33
+(epstopdf)                    size: 14256 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_astigmatism-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_astigmatism.ep
 s>
-(epstopdf)             \includegraphics on input line 296.
+(epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=605, pagebox
-=cropbox, 433.62pt x 289.08pt>
+<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=602, pagebox
+=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted
--to.pdf  used on input line 296. on input line 296.
-Package pdftex.def Info: Requested size: 384.1096pt x 256.08499pt on input line
- 296.
+-to.pdf  used on input line 297. on input line 297.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 297.
  [32] [33] [34 <./Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf>]
  [35 <./Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf>] [36 <./
 Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf>] [37
@@ -1467,76 +1465,65 @@ Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf>] [37
 ] [38] [39]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_WS_sketch.eps
 >
-(epstopdf)                    date: 2020-09-09 12:06:23
-(epstopdf)                    size: 106380 bytes
+(epstopdf)                    date: 2020-09-18 15:30:09
+(epstopdf)                    size: 106847 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_WS_sketch-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2020-09-09 12:13:09
-(epstopdf)                    size: 26913 bytes
+(epstopdf)                    date: 2020-09-18 15:30:20
+(epstopdf)                    size: 27048 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_WS_sketch-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_WS_sketch.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=789, pagebox=c
+<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=782, pagebox=c
 ropbox, 195.73125pt x 95.35625pt>
 File: Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-t
-o.pdf  used on input line 333. on input line 333.
+o.pdf  used on input line 334. on input line 334.
 Package pdftex.def Info: Requested size: 405.45047pt x 197.53894pt on input lin
-e 333.
- [40] [41] [42 <./Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>]
-<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf, id=816, pagebox=c
-ropbox, 433.62pt x 578.16pt>
+e 334.
+ [40]
+<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf, id=790, pagebox=c
+ropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf Graphic file 
 (type pdf)
 <use Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_plane
-s.pdf  used on input line 342. on input line 342.
-Package pdftex.def Info: Requested size: 426.79135pt x 569.08073pt on input lin
-e 342.
-
-
-LaTeX Warning: Float too large for page by 11.548pt on input line 345.
-
-
-LaTeX Warning: Float too large for page by 2.00868pt on input line 352.
-
-[43 <./Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf>] [44]
+s.pdf  used on input line 341. on input line 341.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 341.
 <Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf
-, id=875, pagebox=cropbox, 433.62pt x 578.16pt>
+, id=791, pagebox=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_succes
 s.pdf Graphic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success
 .pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_m
-ode_matching_success.pdf  used on input line 357. on input line 357.
-Package pdftex.def Info: Requested size: 426.79135pt x 569.08073pt on input lin
-e 357.
+ode_matching_success.pdf  used on input line 348. on input line 348.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 348.
 
 
-LaTeX Warning: Float too large for page by 11.548pt on input line 359.
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 41 undefined on i
+nput line 349.
 
 
-LaTeX Warning: Reference `chapter:simulation_finesse' on page 45 undefined on i
-nput line 363.
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 41 undefined on i
+nput line 349.
 
 
-LaTeX Warning: Reference `chapter:simulation_finesse' on page 45 undefined on i
-nput line 363.
-
-[45 <./Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_succe
-ss.pdf>] [46]
-
-LaTeX Warning: Reference `chapter:simulation_finesse' on page 47 undefined on i
-nput line 368.
-
-[47
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 41 undefined on i
+nput line 353.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]) [48]
+ [41]
+[42 <./Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>] [43 <./Fig
+ures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf>] [44 <./Figures/BHD_f
+or_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf>]) [45]
 Appendix A.
 (./Chapters/appendix_BHD_for_ligo_sensing_and_control.tex
 
@@ -1546,17 +1533,18 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49
+ [46
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[47]
+Underfull \vbox (badness 5260) has occurred while \output is active []
 
- [50]
-[51]) (./main.bbl [52] [53
+ [48])
+(./main.bbl [49] [50
 
-] [54])
+] [51])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
- [55]
+ [52]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
@@ -1570,13 +1558,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 20532 strings out of 492990
- 382873 string characters out of 6136333
- 551753 words of memory out of 5000000
- 23679 multiletter control sequences out of 15000+600000
+ 20524 strings out of 492990
+ 382763 string characters out of 6136333
+ 535931 words of memory out of 5000000
+ 23676 multiletter control sequences out of 15000+600000
  553884 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,52p,10357b,1118s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,52p,10357b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texmf-dis
@@ -1602,10 +1590,10 @@ b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texl
 ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/t
 exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/
 fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (55 pages, 1253559 bytes).
+Output written on main.pdf (52 pages, 1281568 bytes).
 PDF statistics:
- 1132 PDF objects out of 1200 (max. 8388607)
- 699 compressed objects within 7 object streams
- 197 named destinations out of 1000 (max. 500000)
+ 1112 PDF objects out of 1200 (max. 8388607)
+ 695 compressed objects within 7 object streams
+ 192 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
