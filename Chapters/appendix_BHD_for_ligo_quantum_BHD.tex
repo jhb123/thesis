@@ -1,1 +1,94 @@
 \cite{Steinlechner2015}
+\section{Definitions}
+Beam splitter transforms as
+\begin{align}
+c & = \frac{1}{\sqrt{2}}a + \frac{1}{\sqrt{2}}b\\
+d & = \frac{1}{\sqrt{2}}a - \frac{1}{\sqrt{2}}b\\
+a &= \frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\\
+b &= \frac{1}{\sqrt{2}}c - \frac{1}{\sqrt{2}}d\\
+\end{align}
+Input field is $\ket{\Psi_{\rm{in}}}$, output field is $\ket{\Psi_{\rm{out}}}$. Vacuum = $\ket{\overrightarrow{0}} = \ket{0}_a\ket{0}_b\ket{0}_c\ket{0}_d$. 
+\paragraph{}
+Coherent state:
+\begin{equation}
+	\ket{\alpha}_a = \exp(\alpha a^\dagger - \alpha^*a)\ket{0}_a.
+\end{equation}
+Displacement operator $D(\alpha)= \exp\left(\alpha a^\dagger - \alpha^*a\right)$ 
+\paragraph{}
+Squeezed state:
+\begin{equation}
+\ket{\xi}_a = \exp\left(\frac{1}{2}\xi^* a^2 - \frac{1}{2}\xi a^{\dagger 2} \right)\ket{0}_a.
+\end{equation}
+Squeeze operator $S(\xi) = \exp\left(\frac{1}{2}\xi^* a^2 - \frac{1}{2}\xi a^{\dagger 2} \right)$.
+\section{single photon state and a beam splitter}
+Input field:
+\begin{align}
+\ket{\Psi_{\rm{in}}} = \ket{\Psi_{\rm{in}}} &= \ket{1}_a\ket{0}_b\ket{0}_c\ket{0}_d \\
+ &= a^\dagger\ket{\overrightarrow{0}}.
+\end{align}
+Output field:
+\begin{align}
+\ket{\Psi_{\rm{out}}} &= \left(\frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\right)^\dagger\ket{\overrightarrow{0}}.\\
+&= \ket{0}_a\ket{0}_b\left(\frac{1}{\sqrt{2}}\ket{1}_c\ket{0}_d + \frac{1}{\sqrt{2}}\ket{0}_c\ket{1}_d\right).
+\end{align}
+This is an entangled state. At the beam splitter, the photon has an equal probability of being transmitted or reflected.
+\section{2 Single photon states entering the beam splitter}
+Input field:
+\begin{align}
+\ket{\Psi_{\rm{in}}} = \ket{\Psi_{\rm{in}}} &= \ket{1}_a\ket{1}_b\ket{0}_c\ket{0}_d \\
+&= ab\ket{\overrightarrow{0}}.
+\end{align}
+Output field:
+\begin{align}
+\ket{\Psi_{\rm{out}}} &=  \left( \frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\right)^\dagger\left( \frac{1}{\sqrt{2}}c - \frac{1}{\sqrt{2}}d\right)^\dagger\ket{\overrightarrow{0}}\\
+&= \left( \frac{1}{2}c^{\dagger2} - \frac{1}{2}d^{\dagger2}\right)\ket{\overrightarrow{0}}\\
+&= \ket{0}_a\ket{0}_b\left(\frac{1}{\sqrt{2}}\ket{2}_c\ket{0}d + \frac{1}{\sqrt{2}}\ket{0}_c\ket{2}d \right).
+\end{align}
+This is known as the Hong-Ou-Mandel effect. This is interference between the two ways of making a $\ket{0}_a\ket{0}_b\ket{1}_c\ket{1}_d$ state.
+\section{coherent state and a beam splitter}
+Input field:
+\begin{align}
+\ket{\Psi_{\rm{in}}} &= \ket{\alpha}_a\ket{0}_b\ket{0}_c\ket{0}_d \\
+&= \exp(\alpha a^\dagger - \alpha^*a)\ket{\overrightarrow{0}}.
+\end{align}
+Output field:
+\begin{align}
+\ket{\Psi_{\rm{out}}} &= \exp\left(\alpha \left(\frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\right)^\dagger - \alpha^*\left(\frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\right)\right)\ket{\overrightarrow{0}}\\
+&= \ket{0}_a\Ket{0}_b\Ket{\frac{\alpha}{\sqrt{2}}}_c\Ket{\frac{\alpha}{\sqrt{2}}}_d.
+\end{align}
+This is similar to a classical field. If the initial state was $ \ket{\Psi_{\rm{in}}} =  \ket{0}_a\ket{\beta}_b\ket{0}_c\ket{0}_d $, then the output would be  $\ket{\Psi_{\rm{out}}} = \ket{0}_a\Ket{0}_b\Ket{\frac{\beta}{\sqrt{2}}}_c\Ket{-\frac{\beta}{\sqrt{2}}}_d.$
+\section{2 coherent states and a beam splitter}
+Input field:
+\begin{align}
+\ket{\Psi_{\rm{in}}} &= \ket{\alpha}_a\ket{\beta}_b\ket{0}_c\ket{0}_d \\
+&= \exp(\alpha a^\dagger - \alpha^*a)\exp(\beta b^\dagger - \beta^*b)\ket{\overrightarrow{0}}.
+\end{align}
+Output field:
+\begin{align}
+\ket{\Psi_{\rm{out}}} &= \exp\left(\alpha \left(\frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\right)^\dagger - \alpha^*\left(\frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\right)\right)\\&\times\exp\left(\beta \left(\frac{1}{\sqrt{2}}c - \frac{1}{\sqrt{2}}d\right)^\dagger - \beta^*\left(\frac{1}{\sqrt{2}}c - \frac{1}{\sqrt{2}}d\right)\right)\ket{\overrightarrow{0}}\\
+&= \exp\left( \frac{\alpha + \beta}{2} c^\dagger - \frac{\alpha^* + \beta^*}{2}c\right)\exp\left( \frac{\alpha - \beta}{2} d^\dagger - \frac{\alpha^* - \beta^*}{2}d\right)\ket{\overrightarrow{0}}\\
+&= \ket{0}_a\Ket{0}_b\Ket{\frac{\alpha + \beta}{\sqrt{2}}}_c\Ket{\frac{\alpha - \beta}{\sqrt{2}}}_d.
+\end{align}
+Selecting the phase between $a$ and $b$ controls how much light is at $c$ and $d$. Setting $\alpha = \beta$ results in destructive interference at $d$ and constructive at $c$. Setting $i\alpha = \beta$ maximises the spreads the light evenly in both $c$ and $d$. 
+\section{squeezed state and a beam splitter}
+Input field:
+\begin{align}
+\ket{\Psi_{\rm{in}}} &= \ket{\xi}_a\ket{0}_b\ket{0}_c\ket{0}_d \\
+&= \exp\left(\frac{1}{2}\xi^* a^2 - \frac{1}{2}\xi a^{\dagger 2} \right)\ket{\overrightarrow{0}}.
+\end{align}
+Output field:
+\begin{align}
+\ket{\Psi_{\rm{out}}} &= \exp\left(\frac{1}{2}\xi^* \left(\frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\right)^2 - \frac{1}{2}\xi \left(\frac{1}{\sqrt{2}}c + \frac{1}{\sqrt{2}}d\right)^{\dagger 2} \right)\ket{\overrightarrow{0}}\\
+&= \exp\left(\frac{1}{4}\xi^* c^2 - \frac{1}{4}\xi c^{\dagger 2} \right)\exp\left(\frac{1}{4}\xi^* d^2 - \frac{1}{4}\xi d^{\dagger 2} \right)\\ &\times\exp\left(\frac{1}{2}\xi^* (cd) - \frac{1}{2}\xi (cd)^\dagger\right)\ket{\overrightarrow{0}}\\
+&=S_c\left(\frac{\xi}{2}\right)S_d\left(\frac{\xi}{2}\right)S_{cd}\left(\frac{\xi}{2}\right)\ket{\overrightarrow{0}}
+\end{align}
+This is a combination of single and two photon squeezing.
+\section{coherent state, squeezed state and a beam splitter}
+Input field:
+\begin{equation}
+\ket{\Psi_{\rm{in}}} = \ket{\xi}_a\ket{\beta}_b\ket{0}_c\ket{0}_d.
+\end{equation}
+Output field:
+\begin{align}
+\ket{\Psi_{\rm{out}}} &= S_c\left(\frac{\xi}{2}\right)S_d\left(\frac{\xi}{2}\right)S_{cd}\left(\frac{\xi}{2}\right)D_c\left(\frac{\beta}{2}\right)D_d\left(-\frac{\beta}{2}\right)\ket{\overrightarrow{0}}
+\end{align}
