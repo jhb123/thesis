@@ -14,6 +14,8 @@ Coherent state:
 \begin{equation}
 	\ket{\alpha}_a = \exp(\alpha a^\dagger - \alpha^*a)\ket{0}_a.
 \end{equation}
+Coherent states are not orthogonal, $\braket{\alpha|\beta} \not= \delta(\alpha-\beta)$
+\paragraph{}
 Displacement operator $D(\alpha)= \exp\left(\alpha a^\dagger - \alpha^*a\right)$ 
 \paragraph{}
 Squeezed state:
@@ -23,6 +25,8 @@ Squeezed state:
 Squeeze operator $S(\xi) = \exp\left(\frac{1}{2}\xi^* a^2 - \frac{1}{2}\xi a^{\dagger 2} \right)$.
 \paragraph{}
 Expectation $\langle \hat{O} \rangle = \bra{\Psi}\hat{O}\ket{\Psi}$ and $\Delta O = \sqrt{\langle \hat{O}^2 \rangle - \langle \hat{O} \rangle^2}$.
+\paragraph{}
+Difference operator: $j = c^\dagger c - d^\dagger d $
 \section{single photon state and a beam splitter}
 Input field:
 \begin{align}
@@ -73,6 +77,47 @@ Output field:
 &= \ket{0}_a\Ket{0}_b\Ket{\frac{\alpha + \beta}{\sqrt{2}}}_c\Ket{\frac{\alpha - \beta}{\sqrt{2}}}_d.
 \end{align}
 Selecting the phase between $a$ and $b$ controls how much light is at $c$ and $d$. Setting $\alpha = \beta$ results in destructive interference at $d$ and constructive at $c$. Setting $i\alpha = \beta$ maximises the spreads the light evenly in both $c$ and $d$. 
+\paragraph{}
+THe expectation for $i$ is found by measuring the $c$ port and $d$ port of the beam splitting with photo diodes and subtracting the results:
+\begin{align}
+\bra{\Psi_{\rm{out}}}c^\dagger c - d^\dagger d\ket{\Psi_{\rm{out}}} = &\bra{\Psi_{\rm{out}}} \left(\frac{\alpha + \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha + \beta}{\sqrt{2}} \right)\ket{\Psi_{\rm{out}}}\\ - &\bra{\Psi_{\rm{out}}} \left(\frac{\alpha - \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha - \beta}{\sqrt{2}} \right)\ket{\Psi_{\rm{out}}}\\
+\braket{j} & =\alpha^*\beta + \alpha\beta^*.
+\label{eq:quantum_bhd}
+\end{align}
+The phases can be set such that $\alpha$ is real and $\beta$ can be written as $\left|\beta\right|\exp(i\theta)$. Equation (\ref{eq:quantum_bhd}) may be written as 
+\begin{align}
+\braket{j}  &=\alpha\left|\beta\right|\exp(i\theta) + \alpha\left|\beta\right|\exp(-i\theta)\\
+&= 2\alpha\left|\beta\right|\cos(\theta).
+\end{align}
+Comparing equation (\ref{eq:quantum_bhd}) to equation (\ref{eq:classical_bhd}), $P = 2|E_sE^\dagger_{\rm{LO}}|\cos(\phi)$, we see that the quantum expectation for the BHD signal when two coherent states are used has the same form as its classical counterpart.
+\paragraph{}
+To find $\Delta j$, first we need to calculate $\braket{i^2}$,
+\begin{align}
+\braket{i^2} &= \bra{\Psi_{\rm{out}}}\left(c^\dagger c - d^\dagger d\right)^2\ket{\Psi_{\rm{out}}} \\
+&= \bra{\Psi_{\rm{out}}}c^\dagger c c^\dagger c + d^\dagger dd^\dagger d\ket{\Psi_{\rm{out}}} - 2\bra{\Psi_{\rm{out}}}c^\dagger c d^\dagger d\ket{\Psi_{\rm{out}}}\nonumber \\
+&= \bra{\Psi_{\rm{out}}}c^\dagger (c^\dagger c+1) c + d^\dagger (d^\dagger d+1)  d\ket{\Psi_{\rm{out}}} - 2\bra{\Psi_{\rm{out}}}c^\dagger c d^\dagger d\ket{\Psi_{\rm{out}}}\nonumber \\
+&= \bra{\Psi_{\rm{out}}}c^\dagger (c^\dagger c+1) c + d^\dagger (d^\dagger d+1)  d\ket{\Psi_{\rm{out}}} - 2\bra{\Psi_{\rm{out}}}c^\dagger c d^\dagger d\ket{\Psi_{\rm{out}}}\nonumber\\
+&=  \left\lbrace\left(\frac{\alpha + \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha + \beta}{\sqrt{2}} \right)\right\rbrace^2 + \left(\frac{\alpha + \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha + \beta}{\sqrt{2}} \right) \nonumber\\
+& + \left\lbrace\left(\frac{\alpha - \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha - \beta}{\sqrt{2}} \right)\right\rbrace^2 + \left(\frac{\alpha - \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha - \beta}{\sqrt{2}} \right)\nonumber\\
+& - 2 \left(\frac{\alpha + \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha + \beta}{\sqrt{2}} \right)\left(\frac{\alpha - \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha - \beta}{\sqrt{2}} \right) \nonumber\\
+&= 0, \nonumber 
+\end{align}
+where the substitutions
+\begin{align}
+\left(\frac{\alpha + \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha + \beta}{\sqrt{2}} \right) = \frac{\alpha^2}{2} + \frac{|\beta|^2}{2} + \alpha\left|\beta\right|\cos(\theta) \\ \left(\frac{\alpha - \beta}{\sqrt{2}} \right)^*\left(\frac{\alpha - \beta}{\sqrt{2}} \right) = \frac{\alpha^2}{2} + \frac{|\beta|^2}{2} - \alpha\left|\beta\right|\cos(\theta)
+\end{align}
+are helpful.
+\paragraph{}
+Therefore, the variance of the signal is 
+\begin{equation}
+	\Delta j = i 2\alpha\left|\beta\right|\cos\theta.
+\end{equation}
+The relationship between homodyne phase fluctuations and the noise in the signal is
+\begin{align}
+\Delta \theta &= \Delta j \Bigg/ \left|\frac{\partial \braket{j}}{\partial \theta}\right|\\
+ &= i\cot\theta
+\end{align}
+This seems wrong, will find out why hopefully.
 \section{squeezed state and a beam splitter}
 Input field:
 \begin{align}
