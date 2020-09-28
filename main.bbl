@@ -6,19 +6,10 @@ Haocun Yu, , L.~McCuller, M.~Tse, N.~Kijbunchoo, L.~Barsotti, and N.~Mavalvala.
   {LIGO}.
 \newblock {\em Nature}, 583(7814):43--47, jul 2020.
 
-\bibitem{Kimble2001}
-H.~J. Kimble, Yuri Levin, Andrey~B. Matsko, Kip~S. Thorne, and Sergey~P.
-  Vyatchanin.
-\newblock Conversion of conventional gravitational-wave interferometers into
-  quantum nondemolition interferometers by modifying their input and/or output
-  optics.
-\newblock {\em Physical Review D}, 65(2), dec 2001.
-
-\bibitem{Fritschel2014}
-Peter Fritschel, Matthew Evans, and Valery Frolov.
-\newblock Balanced homodyne readout for quantum limited gravitational wave
-  detectors.
-\newblock {\em Optics Express}, 22(4):4224, feb 2014.
+\bibitem{Danilishin2012}
+Stefan~L. Danilishin and Farid~Ya. Khalili.
+\newblock Quantum measurement theory in gravitational-wave detectors.
+\newblock {\em Living Reviews in Relativity}, 15(1), apr 2012.
 
 \bibitem{Knyazev2018}
 E.~Knyazev, S.~Danilishin, S.~Hild, and F.Ya. Khalili.
@@ -33,6 +24,14 @@ Tobias Eberle, Sebastian Steinlechner, Jöran Bauchrowitz, Vitus Händchen,
   for gravitational wave detection.
 \newblock {\em Physical Review Letters}, 104(25), jun 2010.
 
+\bibitem{Kimble2001}
+H.~J. Kimble, Yuri Levin, Andrey~B. Matsko, Kip~S. Thorne, and Sergey~P.
+  Vyatchanin.
+\newblock Conversion of conventional gravitational-wave interferometers into
+  quantum nondemolition interferometers by modifying their input and/or output
+  optics.
+\newblock {\em Physical Review D}, 65(2), dec 2001.
+
 \bibitem{Zhang2018}
 T.~Zhang, E.~Knyazev, S.~Steinlechner, F.~Y. Khalili, B.~W. Barr, A.~S. Bell,
   P.~Dupej, J.~Briggs, C.~Gräf, J.~Callaghan, J.~S. Hennig, E.~A. Houston,
@@ -41,6 +40,13 @@ T.~Zhang, E.~Knyazev, S.~Steinlechner, F.~Y. Khalili, B.~W. Barr, A.~S. Bell,
 \newblock Quantum noise cancellation in asymmetric speed metres with balanced
   homodyne readout.
 \newblock {\em New journal of physics}, 20(10):103040, 2018.
+
+\bibitem{Stefszky2012}
+M~S Stefszky, C~M Mow-Lowry, S~S~Y Chua, D~A Shaddock, B~C Buchler,
+  H~Vahlbruch, A~Khalaidovski, R~Schnabel, P~K Lam, and D~E McClelland.
+\newblock Balanced homodyne detection of optical quantum states at audio-band
+  frequencies and below.
+\newblock {\em Classical and Quantum Gravity}, 29(14):145015, jun 2012.
 
 \bibitem{Sigg2008}
 Daniel~Sigg and.
@@ -72,6 +78,12 @@ Carlton~M. Caves and Bonny~L. Schumaker.
   squeezed states.
 \newblock {\em Physical Review A}, 31(5):3068--3092, may 1985.
 
+\bibitem{Fritschel2014}
+Peter Fritschel, Matthew Evans, and Valery Frolov.
+\newblock Balanced homodyne readout for quantum limited gravitational wave
+  detectors.
+\newblock {\em Optics Express}, 22(4):4224, feb 2014.
+
 \bibitem{Fricke2012}
 Tobin~T Fricke, Nicol{\'{a}}s~D Smith-Lefebvre, Richard Abbott, Rana Adhikari,
   Katherine~L Dooley, Matthew Evans, Peter Fritschel, Valery~V Frolov, Keita
@@ -85,11 +97,19 @@ Kiwamu Izumi and Daniel Sigg.
   interferometric gravitational wave antenna.
 \newblock {\em Classical and Quantum Gravity}, 34(1):015001, dec 2016.
 
+\bibitem{O3b_noise_budget}
+S.~Dwyer.
+\newblock {O3b noise budget}.
+\newblock \url{https://alog.ligo-wa.caltech.edu/aLOG/index.php?callRep=55755}.
+
 \bibitem{Dwyer_email_2020}
-Hang~Yu Peter~Fritschel, Vivishek~Sudhir.
-\newblock {Exploring the BHD readout sensitivity and requirements}.
-\newblock LIGO DCC Document G1702485-v1.
-\newblock LIGO DCC Document G1702485-v1 \url{https://dcc.ligo.org/G1702485}.
+S.~Dwyer.
+\newblock personal communication.
+
+\bibitem{SRCL_ideas_2020}
+B.~Lantz.
+\newblock {Optical Integration of the aLIGO isolation tables}.
+\newblock LIGO Document G2001539-v2 \url{https://dcc.ligo.org/G2001539}.
 
 \bibitem{McClelland2011}
 D.E. McClelland, N.~Mavalvala, Y.~Chen, and R.~Schnabel.
@@ -109,40 +129,6 @@ L.~McCuller, C.~Whittle, D.~Ganapathy, K.~Komori, M.~Tse, A.~Fernandez-Galiana,
   R.~Mittleman, Haocun Yu, M.{\hspace{0.167em}}E. Zucker, and M.~Evans.
 \newblock Frequency-dependent squeezing for advanced {LIGO}.
 \newblock {\em Physical Review Letters}, 124(17), apr 2020.
-
-\bibitem{Lough2020}
-James Lough, Emil Schreiber, Fabio Bergamin, Hartmut Grote, Moritz Mehmet,
-  Henning Vahlbruch, Christoph Affeldt, Marc Brinkmann, Aparna Bisht, Volker
-  Kringel, Harald Lück, Nikhil Mukund, Séverin Nadji, Borja Sorazu, Kenneth
-  Strain, Michael Weinert, and Karsten Danzmann.
-\newblock First demonstration of 6 db quantum noise reduction in a kilometer
-  scale gravitational wave observatory.
-
-\bibitem{Punturo2010}
-M~Punturo, M~Abernathy, F~Acernese, B~Allen, N~Andersson, K~Arun, F~Barone,
-  B~Barr, M~Barsuglia, M~Beker, N~Beveridge, S~Birindelli, S~Bose, L~Bosi,
-  S~Braccini, C~Bradaschia, T~Bulik, E~Calloni, G~Cella, E~Chassande Mottin,
-  S~Chelkowski, A~Chincarini, J~Clark, E~Coccia, C~Colacino, J~Colas,
-  A~Cumming, L~Cunningham, E~Cuoco, S~Danilishin, K~Danzmann, G~De Luca, R~De
-  Salvo, T~Dent, R~De Rosa, L~Di Fiore, A~Di Virgilio, M~Doets, V~Fafone,
-  P~Falferi, R~Flaminio, J~Franc, F~Frasconi, A~Freise, P~Fulda, J~Gair,
-  G~Gemme, A~Gennai, A~Giazotto, K~Glampedakis, M~Granata, H~Grote, G~Guidi,
-  G~Hammond, M~Hannam, J~Harms, D~Heinert, M~Hendry, I~Heng, E~Hennes, S~Hild,
-  J~Hough, S~Husa, S~Huttner, G~Jones, F~Khalili, K~Kokeyama, K~Kokkotas,
-  B~Krishnan, M~Lorenzini, H~Lück, E~Majorana, I~Mandel, V~Mandic, I~Martin,
-  C~Michel, Y~Minenkov, N~Morgado, S~Mosca, B~Mours,
-  H~Müller{\textendash}Ebhardt, P~Murray, R~Nawrodt, J~Nelson, R~Oshaughnessy,
-  C~D Ott, C~Palomba, A~Paoli, G~Parguez, A~Pasqualetti, R~Passaquieti,
-  D~Passuello, L~Pinard, R~Poggiani, P~Popolizio, M~Prato, P~Puppo, D~Rabeling,
-  P~Rapagnani, J~Read, T~Regimbau, H~Rehbein, S~Reid, L~Rezzolla, F~Ricci,
-  F~Richard, A~Rocchi, S~Rowan, A~Rüdiger, B~Sassolas, B~Sathyaprakash,
-  R~Schnabel, C~Schwarz, P~Seidel, A~Sintes, K~Somiya, F~Speirits, K~Strain,
-  S~Strigin, P~Sutton, S~Tarabrin, A~Thüring, J~van~den Brand, C~van Leewen,
-  M~van Veggel, C~van~den Broeck, A~Vecchio, J~Veitch, F~Vetrano, A~Vicere,
-  S~Vyatchanin, B~Willke, G~Woan, P~Wolfango, and K~Yamamoto.
-\newblock The einstein telescope: a third-generation gravitational wave
-  observatory.
-\newblock {\em Classical and Quantum Gravity}, 27(19):194002, sep 2010.
 
 \bibitem{Zhang2019}
 T.~Zhang.
@@ -182,5 +168,22 @@ A.~Huddart.
 \newblock {A+ HRTS Preliminary Design Document}.
 \newblock LIGO DCC, February 2019.
 \newblock LIGO Document T1900817-v5 \url{https://dcc.ligo.org/LIGO-T1900817}.
+
+\bibitem{AS_port_beam_parameter}
+L.~Barsotti.
+\newblock {aLIGO ISC Anti-symmetric Port: Beam Parameters and Optical Layout}.
+\newblock LIGO Document T1200410-v2
+  \url{https://dcc.ligo.org/LIGO-T1200410/public}.
+
+\bibitem{A+HAM6_design_requirements}
+A.~Brookes, L.~Barsotti, G.~Billingsley, K.A. Strain, and M.~Zucker.
+\newblock A+ o5-ham6 design considerations and requirements.
+\newblock LIGO DCC, April 2020.
+\newblock E1900385-v1.
+
+\bibitem{A+_Output_Faraday_Isolator_Final_Design}
+P.~Fulda, R.~Goetz, A.~Green, R.~Martin, and D.~B. Tanner.
+\newblock {A+ Output Faraday Isolator Final Design}.
+\newblock LIGO Document T1900788-v2 \url{https://dcc.ligo.org/LIGO-T1900788}.
 
 \end{thebibliography}

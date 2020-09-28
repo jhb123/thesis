@@ -2,64 +2,68 @@ This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
+White space in argument---line 50 of file main.aux
+ : \citation{ref
+ :               for this}
+I'm skipping whatever remains of this command
 Database file #1: C:/bibliography/bibliography.bib
-Warning--entry type for "Dwyer_email_2020" isn't style-file defined
---line 2601 of file C:/bibliography/bibliography.bib
 Warning--entry type for "a+curve" isn't style-file defined
 --line 2697 of file C:/bibliography/bibliography.bib
 Warning--entry type for "l1_finesse_2014" isn't style-file defined
 --line 3599 of file C:/bibliography/bibliography.bib
 Warning--entry type for "HAM_table_motion" isn't style-file defined
 --line 3653 of file C:/bibliography/bibliography.bib
-Repeated entry---line 3993 of file C:/bibliography/bibliography.bib
- : @misc{Dwyer_email_2020
- :                       ,
-I'm skipping whatever remains of this entry
 Warning--entry type for "Huddart2019" isn't style-file defined
 --line 4005 of file C:/bibliography/bibliography.bib
 Warning--entry type for "HRTSrequirement" isn't style-file defined
 --line 4027 of file C:/bibliography/bibliography.bib
-Warning--empty journal in Lough2020
-Warning--empty year in Lough2020
-You've used 26 entries,
+Warning--entry type for "O3b_noise_budget" isn't style-file defined
+--line 4039 of file C:/bibliography/bibliography.bib
+Warning--entry type for "AS_port_beam_parameter" isn't style-file defined
+--line 4051 of file C:/bibliography/bibliography.bib
+Warning--entry type for "SRCL_ideas_2020" isn't style-file defined
+--line 4063 of file C:/bibliography/bibliography.bib
+Warning--entry type for "A+_Output_Faraday_Isolator_Final_Design" isn't style-file defined
+--line 4079 of file C:/bibliography/bibliography.bib
+You've used 31 entries,
             1791 wiz_defined-function locations,
-            623 strings with 11196 characters,
-and the built_in function-call counts, 7906 in all, are:
-= -- 431
-> -- 882
+            649 strings with 10011 characters,
+and the built_in function-call counts, 6829 in all, are:
+= -- 482
+> -- 508
 < -- 0
-+ -- 305
-- -- 279
-* -- 810
-:= -- 1484
-add.period$ -- 79
-call.type$ -- 26
-change.case$ -- 24
++ -- 183
+- -- 152
+* -- 553
+:= -- 1182
+add.period$ -- 94
+call.type$ -- 31
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 199
-empty$ -- 520
-format.name$ -- 279
-if$ -- 1532
+cite$ -- 31
+duplicate$ -- 224
+empty$ -- 611
+format.name$ -- 152
+if$ -- 1422
 int.to.chr$ -- 0
-int.to.str$ -- 26
+int.to.str$ -- 31
 missing$ -- 18
-newline$ -- 134
-num.names$ -- 26
-pop$ -- 73
+newline$ -- 159
+num.names$ -- 31
+pop$ -- 104
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 84
+skip$ -- 104
 stack$ -- 0
 substring$ -- 289
-swap$ -- 25
+swap$ -- 31
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 46
-width$ -- 28
-write$ -- 276
+warning$ -- 0
+while$ -- 51
+width$ -- 33
+write$ -- 324
 (There was 1 error message)
