@@ -1,0 +1,188 @@
+
+Fundamentally, the layout in HAM6 must combine the signal beam and the LO beam, and sense the combined beams to form a balanced homodyne detector. The implementation of BHD for LIGO A+ requires a complete redesign of the HAM6 layout. This chapter is comprised of three sections. Section \ref{sec:BHD_for_ligo_layout_requirements} discusses the functionality and design constraints that all candidate HAM6 layouts must satisfy. Section \ref{sec:bhd_for_ligo_chosen_layout} examines the optical properties of the proposed, as of the time of writing, HAM6 layout. Section \ref{sec:BHD_for_ligo_WS_visulations} analyses the active wavefront control (AWC) that will be used to correct for mode mismatches from between the interferometer and the OMC. Section \ref{sec:BHD_for_ligo_conclusion} concludes this Chapter. This work was undertaken by a team including myself, Ken Strain, Russell Jones, Stephen Webster, Mark Barton and Eric Oelker. 
+\section{The Constraints and Requirements of the Layout of HAM6}
+\label{sec:BHD_for_ligo_layout_requirements}
+This Section will discuss the functionality required from the HAM6 layout and describe the practical constraints which are imposed by the existing hardware and infrastructure. HAM6 must contain an optical layout that combines the LO and signal beams as well as providing steering and mode matching between the interferometer and the OMC. The main design challenge was achieving 45\si{\degree} of Gouy phase between the optics for mode matching as this requires a lot of space. There are a few properties of the HAM6 layout that cannot be changed, such as the entry point of beams and size of the optical table.
+\paragraph{}
+The constraints give a starting point for all designs so they will be discussed first\footnote{It could be argued that requirements are a constraint in a design. Here, the constraints are geometric properties which we have no freedom in, such as the input beam shape, the OMC geometry and the layout of the rest of the rest of the interferometer. A requirement, such as the desired minimum mode matching, is a property which does not have a set `physical form'. For instance, while Gouy phase does correspond to a physical distance, not all 45\si{\degree} Gouy phase spaces are the same physical size.}. These include: where beams enter the HAM6 chamber, the size of nominal mode entering HAM6 and the size of the OMC waist. The size of the HAM optical table does restrict the design, however, depending on where it would be needed, table extensions can be made. 
+\paragraph{}
+The entry point of the signal and LO beams in principle can be anywhere in HAM6; however, in reality they are fixed due to the location of HAM6 with respect to the interferometer; due to the location of the septum windows between HAM5 and HAM6 and due to the many other components of the interferometer that these beams need to avoid. The LO beam is steered with BHDM1 onto BHDBS2, and the signal beam is steered with OM0 onto BHDBS2. This is required to provide the degrees of freedom to co-align the signal and LO beams. There is a freedom in choice for the locations of OM0 and BHDBS2, but there is no choice in the entry points into HAM6 for the signal and LO beams.
+\paragraph{}
+The nominal beam parameter at the SRM is $q_{\rm{SRM}} = -3.55 + 1.09i\,\rm{m} $\cite{AS_port_beam_parameter}, so the design of the HAM6 mode matching optics is based on this number. As discussed in Chapter \ref{chapter:simulation_finesse}, the SRM beam parameter could differ from its nominal value. Chapter \ref{chapter:simulation_finesse} describes how geometry errors in the SRC cause the arm cavity and the SRC to be mismatched. This means that the radius of curvature and beam size at the SRM will not correspond to the eigenmode of the SRM, and the beam parameter at the SRM that should be considered corresponds to the arm cavity mode. This set of likely modes, shown in Figure \ref{fig:sim_chapter_beam_parameter_at_SRM}, was taken into consideration when choosing a layout for HAM6 since candidate layouts may have been more or less robust to beam parameter errors at the SRM.  
+\paragraph{}
+The current OMC design, with trivial modifications, will be used to remove junk light from the signal beam, so there is no choice in target waist size. The nominal OMC waist size is \SI{485}{\micro\metre}, and the beam enters the OMC through a flat mirror. There is a negligible amount of astigmatism inherent in the design of the OMC. Mode matching optics therefore have to match the nominal SRM and OMC modes.
+\paragraph{}
+It was decided that the two beams after BHDBS2 would have the same path length to reduce the cost of the HAM6 optics. This may also improve the common-mode noise rejection ratio as asymmetries may cause enhance the effects of noise couplings. To achieve very high levels of common mode noise rejection, both paths should be as similar as possible. Only one path needs to have imperfections for the common mode rejection ratio to be degraded \cite{Stefszky2012}. For instance, it may be a bad design choice to have a path with a mirror whose only purpose is to fold the layout so that a slightly better readout platform can be used. However, it should be noted that the amount of common mode rejection required is related the the classical noise of the laser and its shot noise limit. Since the LO in LIGO A+ will be derived from the PRC it will already be very stable, so very little CMRR will be needed. In addition to this, the layout will be in a very clean environment with a very low amount of residual gas; thus reducing mechanisms whereby imbalances due to path length difference can generate noise. Therefore, the trade-off between mirror number and path length symmetry versus readout platform preference is not necessarily easy to evaluate.   
+\paragraph{}
+The HAM6 layout is required: to provide steering for the interferometer beam into the OMC and mode matching between the interferometer beam and the OMC. The allowable mode-mismatch is $2\%$. After BHDBS2, the layout must have two mirrors separated 90\si{\degree} and 45\si{\degree} of Gouy phase to provide orthogonal control over the beam pointing and mode-matching. The 45\si{\degree} Gouy phase separation requirement makes the design of HAM6 a considerable task. 
+\paragraph{}
+The goal for mode matching between the arm mode and the OMC mode is is $>98\%$. The SAMS actuators will provide $\pm100$,\,mD of optical power tuning range, with a bandwidth of the order 100\,Hz. Astigmatism can be considered as a loss, and non-zero angles of incidence (AOI) of beams onto curved optics results in a the beam becoming astigmatic. This prevents designs using large AOI. This is described in detail in Chapter \ref{chapter:light_beams}.
+\paragraph{}
+Nominally, the role of the AWC in HAM6 is to correct for geometry errors of the optics after the SRM such that the mode matching between the arm mode and the OMC mode is maximised. This assumes that changes in the interferometers mode, for instance due to a change in thermal state, will be corrected for by other subsystems e.g.~the TCS. In practice, operators and commissioners use each tunable aspect of the interferometer to improve its sensitivity to gravitational waves. For instance, it has been found that TCS can be used to decrease laser intensity noise coupling to DARM. The optical layout and AWC functionality in HAM6 were designed with this flexibility in mind. The losses due to components in HAM6 is summarised in Table \ref{tab:HAM6_losses}\cite{A+HAM6_design_requirements}.
+\paragraph{}
+While in principle only two curved mirrors would be required to mode match the beam from the interferometer to the OMC, even a single mirror may be able to do that, a lens in the OFI will be used to provide further Gouy phase separation between the two active mode matching mirrors after BHDBS2. An active lens was considered here, but concerns of OFI assembly heating\cite{A+_Output_Faraday_Isolator_Final_Design} and the unavailability of flint glass meant that this idea was discarded. As well as this, the range of optical powers for the SAMS is large enough that it would be an over-design to implement an active lens in the OFI.
+\paragraph{}
+To provide orthogonal mode matching control two of the mirrors should be separated by \ang{45}. This Gouy phase separation requirement give us a method of generating candidate designs, as this can be interpreted as needing the mode matching mirrors to be as far apart as possible from each other on the HAM table. As the Rayleigh range of the beams is on the order of a meter, and most Gouy phase is accumulated within one Rayleigh range either side of a beam waist, a beam will have to travel a significant distance across the table before it acquires sufficient Gouy phase.
+\paragraph{}
+Additionally, to provide orthogonal alignment control for each beam path after BHDBS2, two of the mirrors in each of the said beam paths are required to be separated by \ang{90} of Gouy phase. For all designs, the two mirrors for alignment were always immediately after BHDBS2 and immediately before the OMC. It was found that placing the first mirror close to BHDBS2 often provided the best layouts. 
+\paragraph{}
+The OMCs are expected to be the largest contributor of back-scatter from HAM6 to the interferometer. By having the OMCs after the AS and LO beams are combined and by having the OFI protect the interferometer, the requirement on the motion of the OMCs is fairly lax. Nevertheless, a single stage suspended platform is required. This will provide isolation down to 4\,Hz. 
+\paragraph{}
+Additional sensors in HAM6 are required for controlling various degrees of freedom within the layout. Some of these degrees of freedom will be monitored using beams which are picked off from the main beam path, so additional mirrors will be required to steer these beams around the chamber. A set of smaller optics will be installed to provide diagnostic beams which can be imaged with CCDs. A shutter will be required to protect the hardware in HAM6 from being damaged by the large amounts of light that can potentially be transmitted through the SRM. Appendix \ref{app:bhd_for_ligo_sensing_and_control} describes how the longitudinal and pointing degrees of freedom associated with BHD may be sensed and controlled.
+\paragraph{}
+In summary, the main constraints for the design of HAM6 are where the beams enter the chamber; the size of the optical bench; the input mode and the OMC design. There must be low amounts of loss; therefore, layouts with large AOI onto curved mirrors should be avoided. The optical layout within HAM6 is constitutes a nontrivial design task is it is desirable to have orthogonal control over the mode matching and beam direction. This requires the optical axis to be of a similar to the length to the maximum spacing permitted by a HAM table. In addition to this, the HAM6 layout needs to leave space for all the other sensors and beams used for control. This means that all designs will use nearly all of the table space.
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{| l | c |}
+		\hline
+		HAM6 loss Source & Target for O5 \\
+		\hline
+		OMC throughput & $<2\%$ \\
+		OM3 transmission (or equivalent) for sensing & 1--2\% \\
+		PD quantum efficiency & 1\% \\
+		Mode mismatch to the OMC & $<2\%$ (as low as possible) \\
+		Any other optical loss & $<1\%$\\
+		\hline
+	\end{tabular}
+	\caption{Target for losses in HAM6. Reproduction of \cite{A+HAM6_design_requirements}}
+	\label{tab:HAM6_losses}
+\end{table}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_5f_21}
+	\caption{Place holder graphic. The pentagram layout. CAD with beam path will be inserted later.}
+	\label{fig:bhdforligochapterlayout5f}
+\end{figure}
+\section{Optical Properties of the HAM6 Layout}
+\label{sec:bhd_for_ligo_chosen_layout}
+The design that is being taken forward at the time of writing, known as `the Pentagram', is shown in Figure \ref{fig:bhdforligochapterlayout5f}. Optically, there are many layouts which could have satisfied the above requirements and constraints. The choice of layout for HAM6 was ultimately determined by mechanical factors such as table space, number of suspensions and readout platform suspension (RPS) design. The optical properties of this layout are summarised in Table \ref{tab:layout_parameters}. The mirrors OMA1,OMB1, OMA2,OMB2 etc.~will be referred to as OMx1 and OMx2 as, usually, it is not important to make a distinction between the A and B paths.
+\paragraph{}
+The beam size and Gouy phase as the a function of position along the optical axis is shown in Figure \ref{fig:bhdforligochapterbeamshape}. Significant points along the optical axis are also shown in this figure. The size of the beam at the final mode matching optic matches the size of the target mode as the size of the beam cannot be changed at a mirrors surface. The beam is always less than 1.2\,mm within HAM6, an important fact to remember when considering how close structures can be to the beam path.
+\paragraph{}
+The astigmatism loss was calculated to be $>0.05\%$. This astigmatism loss is plotted as a function of angle in Figure \ref{fig:bhdforligochapterastigmatism}; above \ang{10} the loss becomes significant. The compromise that is made when choosing a larger AOI is the between the potential for larger Gouy phase separation between OMx1 and OMx2 at the expense of loss due to astigmatism. In reality the IFO and OMC will also have a small amount astigmatism so this calculation will not be entirely correct, however this effect is negligible compared to other losses. Losses of $>0.05\%$ are considered unimportant, especially when compared to the other expected losses, some of which are expected to be at the many percent level, in the readout of the interferometer.
+\paragraph{}
+The focal lengths of the OFI lens, OMx1 and OMx2 where optimised so that there was a close to \ang{45} Gouy phase separation between OMx1 and OMx2 as possible. This is shown in Figure \ref{fig:bhdforligochapterlenschoice}. With this layout, it is possible to achieve \ang{43} Gouy phase separation between OMx1 and OMx2. Other layouts\footnote{such as `Cross-Over'} could provide exactly \ang{45} Gouy phase separation; however, the this layout offers many practical benefits, mainly in relation to the RPS, over the other considered designs that outweigh an additional \ang{2} of Gouy phase separation. This layout also provides good Gouy phase separation for alignment control, with there being \ang{88} between OMxS and OMx2.
+\paragraph{}
+In conclusion, the proposed HAM6 layout that fulfils the criteria set in Section \ref{sec:BHD_for_ligo_layout_requirements} is shown in Figure \ref{fig:bhdforligochapterlayout5f}. Near optimal mode-matching control and alignment control can be achieved with this layout. A summary of the properties of the layout can be found in Table \ref{tab:layout_parameters}. The next stage of development for this layout involves the design and prototyping of parts, and the consideration of fine details such as cable routing.
+\begin{table}
+	\centering
+	\begin{tabular}{| c | c | c | c | }
+		\hline 
+		Optic & Power (1/m) & Focal length (m) & RoC (m) \\
+		\hline 
+		OFI lens & -0.0583 & -17.1552 & -\\
+		OMx1 & -0.3539 & -2.8290 & 5.6580 (concave)\\
+		OMx2 & -0.8737 & -1.1445 & 2.2891 (concave)\\
+		\hline
+		\multicolumn{4}{c}{}\\
+		\hline
+		\multicolumn{2}{|c|}{Space Name} & \multicolumn{2}{|c|}{Optical Path Length (mm)}\\
+		\hline
+		\multicolumn{2}{|l|}{SRM to OFI lens} & \multicolumn{2}{|c|}{1120}\\
+		\multicolumn{2}{|l|}{OFI lens to HAM6 table edge} & \multicolumn{2}{|c|}{720}\\
+		\multicolumn{2}{|l|}{HAM6 table edge to OM0} & \multicolumn{2}{|c|}{432}\\
+		\multicolumn{2}{|l|}{OM0 to BHDBS2} & \multicolumn{2}{|c|}{905}\\
+		\multicolumn{2}{|l|}{BHDBS2 to OMxS} & \multicolumn{2}{|c|}{225}\\
+		\multicolumn{2}{|l|}{OMxS to OMx1} & \multicolumn{2}{|c|}{1240}\\
+		\multicolumn{2}{|l|}{OMx1 to OMx2} & \multicolumn{2}{|c|}{1590}\\
+		\multicolumn{2}{|l|}{OMx2 to OMCx waist} & \multicolumn{2}{|c|}{1220}\\
+		\hline
+		\multicolumn{4}{c}{}\\
+		\hline
+		\multicolumn{2}{|c|}{Parameter} & \multicolumn{2}{|c|}{Value}\\
+		\hline
+		\multicolumn{2}{|c|}{SRM Complex Beam Parameter} & \multicolumn{2}{|c|}{$q_{\rm{SRM}} = -3.55 + 1.09i\,\rm{m} $}\\
+		\multicolumn{2}{|c|}{OMC waist} & \multicolumn{2}{|c|}{485\,\si{\micro\meter}}\\
+		\multicolumn{2}{|c|}{OMx1 to OMx2 Gouy phase} & \multicolumn{2}{|c|}{\ang{43}}\\
+		\multicolumn{2}{|c|}{OMxS to OMx2 Gouy phase} & \multicolumn{2}{|c|}{\ang{88}}\\
+		\multicolumn{2}{|c|}{OMx1 and OMx2 AOI} & \multicolumn{2}{|c|}{A: \ang{10}, B: \ang{6}}\\
+		\hline
+	\end{tabular}
+	\caption{Mechanical and optical properties of the LIGO A+ HAM6 layout.}
+	\label{tab:layout_parameters}
+\end{table}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_Beamshape}
+	\caption{Top panel: the radius of the beam as it travels from the SRM (z = 0) to the waist of the OMC. Significant points along the axis are marked with vertical lines. Less significant, but useful reference points, are marked by dashed vertical lines. Bottom panel: The Gouy phase shift accumulated by the beam as it propagates along the optical axis.}
+	\label{fig:bhdforligochapterbeamshape}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_lens_choice}
+	\caption{Top panel: The choice of OFI lens power affects the combination of OMx1 and OMx2 power required for 100\% mode matching. Bottom panel: The best choice of OFI lens corresponds to where the Gouy phase separation between the pair of OMx1 and OMx2 mirrors that give 100\% mode matching is closest to \ang{45}. The optimal Gouy phase separation between OMx1 and OMX2 achievable by this layout is \ang{43}.}
+	\label{fig:bhdforligochapterlenschoice}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_astigmatism}
+	\caption{Astigmatism is a source of loss. When designing this layout, to explore how sensitive it was to astigmatism, the AOI for the curved mirrors was altered. Using equation (\ref{eq:bhd_for_ligo_mm_loss}), the loss was computed. This effect is negligible up to 10\si{\degree} after which it starts to become significant compared to the losses summarised in Table \ref{tab:HAM6_losses}.}
+	\label{fig:bhdforligochapterastigmatism}
+\end{figure}
+\clearpage
+\section{Visitations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}
+\label{sec:BHD_for_ligo_WS_visulations}
+It is expected that there will be some mismatch between the beam from the interferometer and the OMC due to geometry errors within the interferometer. To visualise the effectiveness of the mode matching control provided by the layout's active optics, it is useful to consider a 2D space representing Gaussian beams. The region of this space that can be mode matched by the layout's mode matching optics and a distribution of modes that those optics may have to correct for can be compared to gain insight into the effectiveness of the layout. It was found that the layout's active mode matching optics will cover the vast majority of expected input beams.
+\paragraph{}
+The mode matching between two laser beam modes, or a laser mode and a cavity mode, describes how similar those two modes are. In general, a combination of misalignment and differing beam shape can be considered to be a mode mismatch. However, mode matching typically refers to the overlap of the two modes if they were co-aligned, thus it is a measure of how similar in shape the two modes are. 
+\paragraph{}
+Mode-matching is usually, to first approximation, thought of as a difference in beam waist size and beam size location. First order mode mismatch can be modelled as the scattering of light from the beam's, or cavity's, fundamental mode into its $\rm{HG}_{20} + \rm{HG}_{02}$ mode. If a cavity is designed such that the fundamental mode will be resonant while the $\rm{HG}_{20} + \rm{HG}_{02}$ mode will be reflected, then the effect of mode mismatch is to decrease the signal light that is transmitted by the cavity since some of the signal carrying light will be scattered into the reflected $\rm{HG}_{20} + \rm{HG}_{02}$ mode. Sensing the $\rm{HG}_{20} + \rm{HG}_{02}$ mode therefore gives a measure of the mode-matching between two lasers.
+\paragraph{}
+A change in waist size is equivalent to an in-phase coupling between the fundamental mode and the $\rm{HG}_{20} + \rm{HG}_{02}$, whereas a change in waist location is a coupling to the $\rm{HG}_{20} + \rm{HG}_{02}$ which is \ang{90} out of phase with the fundamental mode \cite{Morrison1994}. As the $\rm{HG}_{20} + \rm{HG}_{02}$ acquires $3\phi$ compared to a plane wave and $2\phi$ compared to the fundamental mode, spacing beam curvature actuators at $45\si{\degree}$ will give orthogonal basis for control of the mode matching. This means that the beam size and beam waist, or two combinations of them that are orthogonal, can be independently controlled.
+\paragraph{}
+Two perfectly mode matched beams will have identical beam parameters at the same point along the optical axis. The overlap integral between two fields, $E_1$ and $E_2$,
+\begin{equation}
+\mathcal{M} = \frac{\left|\int_{A} E_1^*E_2 dA \right|}{\int_{A} \left|E_1 \right|^2 dA \int_{A} \left|E_2 \right|^2 dA},
+\label{eq:bhd_for_ligo_mode_matching_general}
+\end{equation}
+can be used to determine the amount of mode matching, $\mathcal{M}$, between two astigmatic modes modes. Solving this integral gives
+\begin{equation}
+\mathcal{M} =\frac{\sqrt{\left(q_{x1}-q_{x1}^*\right)\left(q_{y1}-q_{y1}^*\right)\left(q_{x2}-q_{x2}^*\right)\left(q_{y2}-q_{y2}^*\right)}}{\left|q_{x2} - q_{x1}^*\right|\left|q_{y2} - q_{y1}^*\right|},
+\label{eq:bhd_for_ligo_mm_loss}
+\end{equation}
+where $q_{1,2}$ is the beam parameter of the electric field $E_{1,2}$. The solution to equation (\ref{eq:bhd_for_ligo_mm_loss}) is always $0<\mathcal{M} \leq 1$. Alternatively, mode matching may be computed in terms of the amplitude of the higher order modes relative to the fundamental mode \cite{Bayer-Helms1984}. The mode matching can be calculated at any point along the optical axis of the layout as mode matching must be preserved throughout it; however, it makes sense to calculate the mode matching in a physically significant plane such as the input plane, a plane containing a curved optic or the plane containing the waist of the target beam.
+\paragraph{}
+Because a curved mirror can only change the curvature of a beam, at the mirrors surface the beams before and after reflection must have the same size. The process of a Gaussian beam, described by $q_1(S_1,w_1)$, being reflected from a mirror with power $S_{\rm{m}}$ to produce a new Gaussian beam, $q_2$, can be written as
+\begin{equation}
+\frac{1}{q_2} = S_{\rm{m}} + \frac{1}{q_1} = (S_{\rm{m}}+S_1) - i\frac{\lambda}{\pi w_1^2}.
+\end{equation}
+\paragraph{}
+To visualise how a mode is changed by an optical layout, beam parameters can be represented in a `WS space'. This space parametrises a beam in terms of its size, $w$, and it defocus, $S$. This has the advantage of showing the beam in terms of intuitive quantities. The downside to this representation is as the beam propagates through the layout, the path that is traced through the WS space by the mode is fairly complex. 
+\paragraph{}
+There are two other ways that a beam parameter could be graphically represented. Since $q$ is a complex number it could be represented in terms of its real and imaginary components. This makes seeing the effect of propagation straight forward, but the effect of a focussing element is harder to visualise. Alternatively, plotting $1/q$ in terms of $\lambda/\pi w^2$ and $s$ produces plots where the effect of a focussing elements and propagation are easy to visualise. Curved mirrors and lenses result in a change in defocus, and propagated modes follow circular paths. As these figures are being used to visualise mode matching and the effect of actuators on the beam size and defocus, the WS representation was chosen.
+\paragraph{}
+To illustrate how actuators move a mode in WS space, consider two lenses with variable power separated by \ang{45} of Gouy phase. As the two lenses are orthogonal, the waist size and waist location of the mode exiting this layout will orthogonally controllable. In a WS space the orthogonality of two actuators can be seen by the angle between the two vectors that represent each actuation. If the two lenses are orthogonal then the actuation vectors will be orthogonal. Figure \ref{fig:bhdforligochapterwssketch} is a sketch of the WS space representation for a simple optical layout consisting of two active lenses separated by \ang{45} Gouy phase.
+\paragraph{}
+The mode matching requirement between the interferometer and the OMC for LIGO A+ is $>98\%$. It is useful to plot contours of the mode overlap in the WS space between a mode and a target mode. Note that these contours can only tell you about the overlap between a mode and the target mode; the mode matching between two arbitrary modes can not be deduced from these contours. For example two modes may be mismatched by the same amount from the target in orthogonal directions in WS space. They cannot be $100\%$ mode matched as these two modes are different from each other.
+\paragraph{}
+To visualise the effectiveness of the actuation provided by the active elements of the HAM6 layout, the region of the WS space at the SRM from which the target mode matching space achieved was computed. To do this, first the ring of modes in WS space that is $98\%$ mode matched to the OMC after reflection from the second active mirror, OMx2, was considered. If OMx2 had a static radius of curvature then the effect of OMx2 would be to move the ring vertically in the WS plane. However, as OMx2's radius of curvature can be changed the ring can also be stretched in the $S$ direction. This can be seen, crudely, by applying $S_{\rm{OMx2}}\pm\Delta S$ to the original $>98\%$ mode matching ring to produce two new rings separated by $2\Delta S $. 
+\paragraph{}
+To generate the region from which the target region can be reached by OMx2, the target region should be cut by a line which intersects the locations on the ring at the extrema of the beam size. To maximise the amount of WS space covered by the actuator, the upper target region should have $+\Delta S$ applied to it, whereas for the lower region the actuation should be $-\Delta S$. This results in region of WS space which is larger than the initial target region. All modes in the new region can be $98\%$ mode matched to the OMC. The new region was then propagated to the first mirror, OMx1, where the same procedure can be applied to further expanded region. This process shown in Figure \ref{fig:bhdforligochapterlayout5fomx1omx2planes}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\linewidth]{Figures/BHD_for_ligo_chapter_WS_sketch}
+	\caption{Sketches of the WS representation for a Gaussian beam interacting with different parts of a simple optical layout consisting of two active lenses with powers $S_{1,2} + \Delta S_{1,2}$. The left hand axis shows the WS plane at lens 1. The input beam $q_1$ is indicated by a red dot, and the affect of the lens on $q_1$ is shown by the dark green arrow $S_1$. This results in a new mode $q_2$, which is shown as a blue dot. A light green arrow indicates the actuation of lens 1. The right hand axis shows the WS plane at lens 2. The input mode at lens 2, $q_3$, is shown as a purple dot, and the output mode , $q_4$, is shown as a pink dot. The static and dynamic power of lens 2 is indicated by the orange and yellow lines. As lens 1 and lens 2 are separated by $45\si{\degree}$ of Gouy Phase, the actuation provided by lens 1 results in a change in the beam parameter which is orthogonal to the actuation provide by lens 2, provided that the actuations are small enough. }
+	\label{fig:bhdforligochapterwssketch}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes}
+	\caption{This is the WS space at the OMx2 plane. The  affect of OMx2 in the plane of OMx2 is to move a mode vertically in WS space. After reflection from OMx2, a mode must be at least $98\%$ mode matched to the OMC as there are no further active mode matching elements in the layout of HAM6. Modes with at least $98\%$ are shown by the red region. The blue region represents which modes can be reached from the red region by either $S_{\rm{OMx2}}\pm\Delta S$, and was constructed by applying transformations to the modes in the red region. The red region was split into two parts, `upper' and `lower', indicated by the dashed line that connects the two extremes in width of the region. To create the lower edge of the blue region, modes in the lower edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}-\Delta S$ applied to them. To construct the upper edge of the blue region, upper edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}+\Delta S$ applied to them.}
+	\label{fig:bhdforligochapterlayout5fomx1omx2planes}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf}
+	\caption{Left panel: the set of modes that could be present at the SRM is shown by the purple-blue-green-yellow curve, as described in Chapter \ref{chapter:simulation_finesse}. The pink region shows which modes can reach 98\% mode matching by using the AWC in HAM6. The contours indicate the mode matching between a mode $(W,S)$ and the OMC mode. Right panel: this shows the same modes as the top panel, except they have been transformed by the optical layout to the plane of the OMC waist. Modes within the pink region can be actuated on so they move to the goal region, which is indicated with a hatched area.}
+	\label{fig:bhdforligochapterlayout5fmodessrmomcmode matchingsuccess}
+\end{figure}
+\paragraph{}
+The modes from the SRM that can be matched at to the target is shown in Figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmode matchingsuccess}. The visualise how successful the layout is at the handling likely modes from the interferometer, described in Chapter \ref{chapter:simulation_finesse}, the interferometer modes were compared to the region of WS phase space containing modes which can be corrected such that they meet the $>98\%$ mode matching requirement. It was found that almost all likely modes will be covered by the layout, as the modes near the edge of this continuum are more unlikely to occur than the ones near the centre. Its worth noting that the in Figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmode matchingsuccess}, modes at the yellow end of the spectrum may not be physical as they correspond to an unstable SRC.
+\paragraph{}
+For all candidate layouts analysed there were no major difference in the amount of modes that could be mode matched.  In principle, the requirement for having \ang{45} of Gouy Phase separation between OMx1 and OMx2 does not maximise the amount of interferometer modes that can be mode matched. It may be possible to shape the region of WS space covered by the layout to maximise the amount of input modes that are covered by the layout. The shape that the pink region in Figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmode matchingsuccess} is nominal; when HAM6 is constructed the pink regions shape will be altered by geometric errors in OMx1 and OMx2. Nevertheless, Figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmode matchingsuccess} is encouraging since it shows that the actuation provided by the OMx1 and OMx2 is highly tolerant to mode matching errors, so much so that the strict definition of the role of AWC in HAM6 may be relaxed in order for operators to use the AWC in HAM6 to correct for errors in the beam parameter at the SRM.
+\section{Conclusion about BHD for A+}
+\label{sec:BHD_for_ligo_conclusion}
+The functionality required from the BHD layout was discussed, and a proposed layout that satisfies these requirements is shown in Figure \ref{fig:bhdforligochapterlayout5f}. The optical properties of this layout were investigated, and by selection of the right combination of mode matching optics near orthogonal control of the signal-LO mode matching and beam alignment to the OMC was achieved.
+\paragraph{}
+The affect that the AWC had on the region of WS space that contains modes which satisfy the $>98\%$ mode matching requirement in WS space was investigated. Figure \ref{fig:bhdforligochapterlayout5fmodessrmomcmode matchingsuccess} shows that the AWC provides a huge amount of mode matching range. This means that the layout can tolerate large changes in parameter at the SRM.

@@ -1,22 +1,85 @@
-\BOOKMARK [0][-]{chapter.1}{Balanced Homodyne Detection for LIGO A+}{}% 1
-\BOOKMARK [1][-]{section.1.1}{What is BHD}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{BHD versus DC readout for A+}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Local Oscillator Path Length Stability Requirement for A+}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.3.1}{Local Oscillator Path}{section.1.3}% 5
-\BOOKMARK [2][-]{subsection.1.3.2}{The Linear Response Function Between Differential Strain and Power at the AS Port}{section.1.3}% 6
-\BOOKMARK [2][-]{subsection.1.3.3}{Converting the Sensitivity Curve for A+ into a Longitudinal Motion Requirement}{section.1.3}% 7
-\BOOKMARK [2][-]{subsection.1.3.4}{Summary of LO path length Stability}{section.1.3}% 8
-\BOOKMARK [1][-]{section.1.4}{Conclusion}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{Design of the HAM6 layout}{}% 10
-\BOOKMARK [1][-]{section.2.1}{The Constraints and Requirements of the Layout of HAM6}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{The Pentagram as the Chosen Layout }{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{Visulations of the Robustness the Pentagram to Mode Mismatch}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{Conclusion about BHD for A+}{chapter.2}% 14
-\BOOKMARK [0][-]{appendix.A}{Quantum Optics}{}% 15
-\BOOKMARK [1][-]{section.A.1}{Definitions}{appendix.A}% 16
-\BOOKMARK [1][-]{section.A.2}{single photon state and a beam splitter}{appendix.A}% 17
-\BOOKMARK [1][-]{section.A.3}{2 Single photon states entering the beam splitter}{appendix.A}% 18
-\BOOKMARK [1][-]{section.A.4}{coherent state and a beam splitter}{appendix.A}% 19
-\BOOKMARK [1][-]{section.A.5}{2 coherent states and a beam splitter}{appendix.A}% 20
-\BOOKMARK [1][-]{section.A.6}{squeezed state and a beam splitter}{appendix.A}% 21
-\BOOKMARK [1][-]{section.A.7}{coherent state, squeezed state and a beam splitter}{appendix.A}% 22
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Gravitational Wave Interferometers}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Light and Gaussian Modes}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Plane Waves}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Gaussian Modes}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.3}{The Paraxial Wave Equation}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.4}{The fundamental Gaussian mode}{chapter.3}% 7
+\BOOKMARK [2][-]{subsection.3.4.1}{Astigmatism}{section.3.4}% 8
+\BOOKMARK [1][-]{section.3.5}{Gaussian Beams Traversing optical Layouts}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.6}{Higher Order Modes and optical imperfections}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.7}{Concluding remarks}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{High Power Laser Prototype for LIGO}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Requirements}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{OEM solid-state Amplifier}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.4}{Set-up and Layout}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.5}{Frequency Noise}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.6}{Long Term Power Results}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.7}{Conclusion}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Amplitude Stabilisation for High Power Laser at LIGO}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Introduction + Requirements}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Free Running Noise and Noise Hunting}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.3}{AOM Stabilisation}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.4}{Current Shunt Stabilisation}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.5}{Comparison of Two stabilisation Schemes}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.6}{Conclusion}{chapter.5}% 26
+\BOOKMARK [0][-]{chapter.6}{Balanced Homodyne Detection for LIGO A+}{}% 27
+\BOOKMARK [1][-]{section.6.1}{What is BHD}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{BHD versus DC readout for A+}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{Local Oscillator Path Length Stability Requirement for A+}{chapter.6}% 30
+\BOOKMARK [2][-]{subsection.6.3.1}{Local Oscillator Path}{section.6.3}% 31
+\BOOKMARK [2][-]{subsection.6.3.2}{The Linear Response Function Between Differential Strain and Power at the AS Port}{section.6.3}% 32
+\BOOKMARK [2][-]{subsection.6.3.3}{Converting the Sensitivity Curve for A+ into a Longitudinal Motion Requirement}{section.6.3}% 33
+\BOOKMARK [2][-]{subsection.6.3.4}{Summary of LO path length Stability}{section.6.3}% 34
+\BOOKMARK [1][-]{section.6.4}{Conclusion}{chapter.6}% 35
+\BOOKMARK [0][-]{chapter.7}{Design of the LIGO A+ HAM6 layout}{}% 36
+\BOOKMARK [1][-]{section.7.1}{The Constraints and Requirements of the Layout of HAM6}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.2}{Optical Properties of the HAM6 Layout}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.3}{Visitations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.4}{Conclusion about BHD for A+}{chapter.7}% 40
+\BOOKMARK [0][-]{chapter.8}{The Consequence of Radius of Curvature Errors within the SRC on Modes at the SRM.}{}% 41
+\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 42
+\BOOKMARK [2][-]{subsection.8.1.1}{Measurements of the Mode Matching Between the Arm Cavities and the OMC at LLO Between 2018-2019.}{section.8.1}% 43
+\BOOKMARK [1][-]{section.8.2}{Modelling Interferometers With Mode Mismatches Using Finesse}{chapter.8}% 44
+\BOOKMARK [2][-]{subsection.8.2.1}{Thin and Thick Beamsplitters}{section.8.2}% 45
+\BOOKMARK [1][-]{section.8.3}{Modelling of Michelson Interferometer With Fabry-Perot Arm Cavities and A Signal Recycling Cavity}{chapter.8}% 46
+\BOOKMARK [2][-]{subsection.8.3.1}{Determining Tunings for DC readout}{section.8.3}% 47
+\BOOKMARK [1][-]{section.8.4}{The Beam Parameter of the Arm Mode at the SRM}{chapter.8}% 48
+\BOOKMARK [1][-]{section.8.5}{Power Transmitted Through SRM for a Mode Mismatch Between the Arm Cavity and the SRC}{chapter.8}% 49
+\BOOKMARK [2][-]{subsection.8.5.1}{Change of finesse of SRC}{section.8.5}% 50
+\BOOKMARK [1][-]{section.8.6}{Conclusion}{chapter.8}% 51
+\BOOKMARK [0][-]{chapter.9}{In Air BHD experiments}{}% 52
+\BOOKMARK [0][-]{chapter.10}{In-vacuum experiments}{}% 53
+\BOOKMARK [1][-]{section.10.1}{Introduction}{chapter.10}% 54
+\BOOKMARK [0][-]{chapter.11}{Relevent Semiconductor and Photodiode Theory}{}% 55
+\BOOKMARK [0][-]{chapter.12}{Characterisation of InGaAs Photodiodes}{}% 56
+\BOOKMARK [0][-]{chapter.13}{Characterisation of 2um Photodiodes}{}% 57
+\BOOKMARK [0][-]{chapter.14}{Characterisation of InSb Photodiode}{}% 58
+\BOOKMARK [0][-]{chapter.15}{Conclusion}{}% 59
+\BOOKMARK [0][-]{appendix.A}{Finesse Simulations}{}% 60
+\BOOKMARK [1][-]{section.A.1}{Mode Matching the Laser to the Arm Cavity}{appendix.A}% 61
+\BOOKMARK [1][-]{section.A.2}{Interferometer Parameters}{appendix.A}% 62
+\BOOKMARK [2][-]{subsection.A.2.1}{Radii of Curvature of optical components}{section.A.2}% 63
+\BOOKMARK [2][-]{subsection.A.2.2}{Spacings}{section.A.2}% 64
+\BOOKMARK [2][-]{subsection.A.2.3}{Nominal Simulation}{section.A.2}% 65
+\BOOKMARK [1][-]{section.A.3}{Finesse Code}{appendix.A}% 66
+\BOOKMARK [2][-]{subsection.A.3.1}{Michelson Interferometers with Thin Beamsplitter}{section.A.3}% 67
+\BOOKMARK [2][-]{subsection.A.3.2}{Michelson Interferometers with Thick Beamsplitter}{section.A.3}% 68
+\BOOKMARK [2][-]{subsection.A.3.3}{Main Simulation}{section.A.3}% 69
+\BOOKMARK [0][-]{appendix.B}{Algorithm For Finding a Three Optic Solution with 45\260 Gouy Phase Separation between two of the Optics}{}% 70
+\BOOKMARK [1][-]{subsection.B.0.1}{Method}{appendix.B}% 71
+\BOOKMARK [0][-]{appendix.C}{Mode Matching Between 2 Astigmatic Beams}{}% 72
+\BOOKMARK [1][-]{section.C.1}{Derivation of Mode Matching TM00 Beams}{appendix.C}% 73
+\BOOKMARK [1][-]{section.C.2}{Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{appendix.C}% 74
+\BOOKMARK [0][-]{appendix.D}{Sensing and Control in the HAM6 Layout}{}% 75
+\BOOKMARK [1][-]{subsection.D.0.1}{Longitudinal Control}{appendix.D}% 76
+\BOOKMARK [2][-]{subsection.D.0.2}{Alignment Control}{subsection.D.0.1}% 77
+\BOOKMARK [0][-]{appendix.E}{Quantum Optics}{}% 78
+\BOOKMARK [1][-]{section.E.1}{Definitions}{appendix.E}% 79
+\BOOKMARK [1][-]{section.E.2}{single photon state and a beam splitter}{appendix.E}% 80
+\BOOKMARK [1][-]{section.E.3}{2 Single photon states entering the beam splitter}{appendix.E}% 81
+\BOOKMARK [1][-]{section.E.4}{coherent state and a beam splitter}{appendix.E}% 82
+\BOOKMARK [1][-]{section.E.5}{2 coherent states and a beam splitter}{appendix.E}% 83
+\BOOKMARK [1][-]{section.E.6}{squeezed state and a beam splitter}{appendix.E}% 84
+\BOOKMARK [1][-]{section.E.7}{coherent state, squeezed state and a beam splitter}{appendix.E}% 85
