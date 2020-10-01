@@ -1,127 +1,249 @@
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
-\contentsline {chapter}{\numberline {2}Gravitational Wave Interferometers}{8}{chapter.2}
-\contentsline {chapter}{\numberline {3}Light and Gaussian Modes}{9}{chapter.3}
-\contentsline {chapter}{\numberline {4}High Power Laser Prototype for LIGO}{10}{chapter.4}
-\contentsline {chapter}{\numberline {5}Balanced Homodyne Detection for LIGO A+}{11}{chapter.5}
-\contentsline {paragraph}{}{11}{section*.3}
-\contentsline {paragraph}{}{12}{section*.4}
-\contentsline {section}{\numberline {5.1}What is BHD}{12}{section.5.1}
-\contentsline {paragraph}{}{12}{section*.5}
-\contentsline {paragraph}{}{13}{section*.6}
-\contentsline {paragraph}{}{13}{section*.7}
-\contentsline {paragraph}{}{13}{section*.8}
-\contentsline {paragraph}{}{14}{section*.9}
-\contentsline {paragraph}{}{14}{section*.10}
-\contentsline {paragraph}{}{15}{section*.12}
-\contentsline {paragraph}{}{17}{section*.13}
-\contentsline {section}{\numberline {5.2}BHD versus DC readout for A+}{17}{section.5.2}
-\contentsline {paragraph}{}{17}{section*.14}
-\contentsline {paragraph}{}{17}{section*.15}
-\contentsline {paragraph}{}{18}{section*.16}
-\contentsline {paragraph}{}{19}{section*.17}
-\contentsline {paragraph}{}{19}{section*.18}
-\contentsline {paragraph}{}{19}{section*.19}
-\contentsline {paragraph}{}{19}{section*.20}
-\contentsline {paragraph}{}{20}{section*.21}
-\contentsline {paragraph}{}{20}{section*.22}
-\contentsline {paragraph}{}{21}{section*.23}
-\contentsline {paragraph}{}{21}{section*.24}
-\contentsline {paragraph}{}{21}{section*.25}
-\contentsline {paragraph}{}{22}{section*.26}
-\contentsline {section}{\numberline {5.3}Local Oscillator Path Length Stability Requirement for A+}{22}{section.5.3}
-\contentsline {paragraph}{}{23}{section*.27}
-\contentsline {paragraph}{}{23}{section*.28}
-\contentsline {paragraph}{}{23}{section*.29}
-\contentsline {paragraph}{}{24}{section*.30}
-\contentsline {subsection}{\numberline {5.3.1}Local Oscillator Path}{24}{subsection.5.3.1}
-\contentsline {paragraph}{}{24}{section*.31}
-\contentsline {paragraph}{}{25}{section*.32}
-\contentsline {subsection}{\numberline {5.3.2}The Linear Response Function Between Differential Strain and Power at the AS Port}{27}{subsection.5.3.2}
-\contentsline {paragraph}{}{27}{section*.34}
-\contentsline {paragraph}{}{28}{section*.35}
-\contentsline {subsection}{\numberline {5.3.3}Converting the Sensitivity Curve for A+ into a Longitudinal Motion Requirement}{28}{subsection.5.3.3}
-\contentsline {paragraph}{}{28}{section*.38}
-\contentsline {paragraph}{}{30}{section*.39}
-\contentsline {paragraph}{}{31}{section*.40}
-\contentsline {paragraph}{}{31}{section*.41}
-\contentsline {paragraph}{}{31}{section*.42}
-\contentsline {subsection}{\numberline {5.3.4}Summary of LO path length Stability}{32}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Conclusion}{32}{section.5.4}
-\contentsline {paragraph}{}{32}{section*.45}
-\contentsline {chapter}{\numberline {6}Design of the LIGO A+ HAM6 layout}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}The Constraints and Requirements for the Optical Layout Within HAM6}{38}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Constraints}{38}{subsection.6.1.1}
-\contentsline {paragraph}{}{38}{section*.46}
-\contentsline {subsubsection}{\numberline {6.1.1.1}Beam Entry Points}{39}{subsubsection.6.1.1.1}
-\contentsline {subsubsection}{\numberline {6.1.1.2}Input and Target Beam Parameters}{39}{subsubsection.6.1.1.2}
-\contentsline {paragraph}{}{39}{section*.47}
-\contentsline {subsubsection}{\numberline {6.1.1.3}Equal Path Lengths after BHDBS2}{40}{subsubsection.6.1.1.3}
-\contentsline {subsection}{\numberline {6.1.2}Requirements}{41}{subsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.2.1}Mode Mathcing Losses}{41}{subsubsection.6.1.2.1}
-\contentsline {paragraph}{}{41}{section*.48}
-\contentsline {subsubsection}{\numberline {6.1.2.2}Gouy Phase Considerations}{42}{subsubsection.6.1.2.2}
-\contentsline {paragraph}{}{42}{section*.49}
-\contentsline {paragraph}{}{42}{section*.50}
-\contentsline {subsubsection}{\numberline {6.1.2.3}Readout Platform Suspension and Auxillary Components}{43}{subsubsection.6.1.2.3}
-\contentsline {paragraph}{}{43}{section*.51}
-\contentsline {subsection}{\numberline {6.1.3}Summary}{43}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}The Chosen HAM6 Optical Layout}{44}{section.6.2}
-\contentsline {paragraph}{}{44}{section*.54}
-\contentsline {paragraph}{}{46}{section*.55}
-\contentsline {paragraph}{}{46}{section*.56}
-\contentsline {paragraph}{}{47}{section*.57}
-\contentsline {section}{\numberline {6.3}Visitations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{51}{section.6.3}
-\contentsline {paragraph}{}{51}{section*.62}
-\contentsline {subsection}{\numberline {6.3.1}A Description of Mode Matching in Terms of HG Modes}{51}{subsection.6.3.1}
-\contentsline {paragraph}{}{52}{section*.63}
-\contentsline {subsection}{\numberline {6.3.2}Calculating Mode Matching Using The Gaussian Beam Parameter}{52}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}WS Space Visualisations}{53}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {1}Abstract}{11}{chapter.1}
+\contentsline {chapter}{\numberline {2}Introduction}{12}{chapter.2}
+\contentsline {chapter}{\numberline {3}Gravitational Wave Interferometers}{13}{chapter.3}
+\contentsline {chapter}{\numberline {4}Light and Gaussian Modes}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Plane Waves}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Gaussian Modes}{15}{section.4.2}
+\contentsline {paragraph}{}{16}{section*.5}
+\contentsline {paragraph}{}{16}{section*.6}
+\contentsline {section}{\numberline {4.3}The Paraxial Wave Equation}{16}{section.4.3}
+\contentsline {paragraph}{Short intro on what this is}{16}{section*.7}
+\contentsline {paragraph}{}{17}{section*.8}
+\contentsline {section}{\numberline {4.4}The fundamental Gaussian mode}{18}{section.4.4}
+\contentsline {paragraph}{}{18}{section*.9}
+\contentsline {paragraph}{}{18}{section*.10}
+\contentsline {paragraph}{}{19}{section*.11}
+\contentsline {paragraph}{}{19}{section*.12}
+\contentsline {paragraph}{}{20}{section*.13}
+\contentsline {paragraph}{}{20}{section*.14}
+\contentsline {paragraph}{Mode matching integral}{21}{section*.15}
+\contentsline {subsection}{\numberline {4.4.1}Astigmatism}{21}{subsection.4.4.1}
+\contentsline {paragraph}{}{21}{section*.16}
+\contentsline {paragraph}{}{22}{section*.17}
+\contentsline {section}{\numberline {4.5}Gaussian Beams Traversing optical Layouts}{22}{section.4.5}
+\contentsline {paragraph}{}{23}{section*.18}
+\contentsline {section}{\numberline {4.6}Higher Order Modes and optical imperfections}{23}{section.4.6}
+\contentsline {paragraph}{}{24}{section*.20}
+\contentsline {paragraph}{}{25}{section*.21}
+\contentsline {paragraph}{}{25}{section*.22}
+\contentsline {paragraph}{}{26}{section*.23}
+\contentsline {paragraph}{}{26}{section*.24}
+\contentsline {paragraph}{}{26}{section*.25}
+\contentsline {section}{\numberline {4.7}Concluding remarks}{28}{section.4.7}
+\contentsline {chapter}{\numberline {5}High Power Laser Prototype for LIGO}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{29}{section.5.1}
+\contentsline {section}{\numberline {5.2}Requirements}{29}{section.5.2}
+\contentsline {section}{\numberline {5.3}OEM solid-state Amplifier}{30}{section.5.3}
+\contentsline {section}{\numberline {5.4}Set-up and Layout}{30}{section.5.4}
+\contentsline {section}{\numberline {5.5}Frequency Noise}{30}{section.5.5}
+\contentsline {section}{\numberline {5.6}Long Term Power Results}{31}{section.5.6}
+\contentsline {section}{\numberline {5.7}Conclusion}{31}{section.5.7}
+\contentsline {chapter}{\numberline {6}Amplitude Stabilisation for High Power Laser at LIGO}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction + Requirements}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Free Running Noise and Noise Hunting}{33}{section.6.2}
+\contentsline {section}{\numberline {6.3}AOM Stabilisation}{34}{section.6.3}
+\contentsline {section}{\numberline {6.4}Current Shunt Stabilisation}{34}{section.6.4}
+\contentsline {section}{\numberline {6.5}Comparison of Two stabilisation Schemes}{34}{section.6.5}
+\contentsline {section}{\numberline {6.6}Conclusion}{38}{section.6.6}
+\contentsline {chapter}{\numberline {7}The Consequence of Radius of Curvature Errors within the SRC on Modes at the SRM.}{39}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{39}{section.7.1}
+\contentsline {paragraph}{}{40}{section*.33}
+\contentsline {paragraph}{}{40}{section*.34}
+\contentsline {paragraph}{}{40}{section*.35}
+\contentsline {paragraph}{}{41}{section*.36}
+\contentsline {paragraph}{}{42}{section*.37}
+\contentsline {paragraph}{}{42}{section*.38}
+\contentsline {paragraph}{}{42}{section*.39}
+\contentsline {paragraph}{}{43}{section*.40}
+\contentsline {paragraph}{}{43}{section*.41}
+\contentsline {subsection}{\numberline {7.1.1}Measurements of the Mode Matching Between the Arm Cavities and the OMC at LLO Between 2018\hyp {}2019.}{44}{subsection.7.1.1}
+\contentsline {paragraph}{}{44}{section*.42}
+\contentsline {paragraph}{}{45}{section*.43}
+\contentsline {paragraph}{}{45}{section*.44}
+\contentsline {paragraph}{}{46}{section*.45}
+\contentsline {paragraph}{}{46}{section*.46}
+\contentsline {paragraph}{}{47}{section*.47}
+\contentsline {section}{\numberline {7.2}Modelling Interferometers With Mode Mismatches Using \textsc {Finesse}}{47}{section.7.2}
+\contentsline {paragraph}{}{47}{section*.48}
+\contentsline {paragraph}{}{48}{section*.49}
+\contentsline {paragraph}{}{48}{section*.50}
+\contentsline {paragraph}{}{48}{section*.51}
+\contentsline {paragraph}{}{49}{section*.52}
+\contentsline {paragraph}{}{49}{section*.53}
+\contentsline {subsection}{\numberline {7.2.1}Thin and Thick Beamsplitters}{50}{subsection.7.2.1}
+\contentsline {paragraph}{}{50}{section*.54}
+\contentsline {paragraph}{}{50}{section*.55}
+\contentsline {section}{\numberline {7.3}Modelling of Michelson Interferometer With Fabry\hyp {}Perot Arm Cavities and A Signal Recycling Cavity}{52}{section.7.3}
+\contentsline {paragraph}{}{52}{section*.57}
+\contentsline {paragraph}{}{52}{section*.59}
+\contentsline {paragraph}{}{53}{section*.60}
+\contentsline {paragraph}{}{53}{section*.61}
+\contentsline {paragraph}{}{54}{section*.62}
+\contentsline {paragraph}{}{54}{section*.63}
 \contentsline {paragraph}{}{54}{section*.64}
-\contentsline {paragraph}{}{54}{section*.65}
-\contentsline {paragraph}{}{54}{section*.66}
-\contentsline {subsection}{\numberline {6.3.4}Visualising how Active Mode Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{55}{subsection.6.3.4}
-\contentsline {paragraph}{}{55}{section*.67}
-\contentsline {paragraph}{}{56}{section*.71}
-\contentsline {paragraph}{}{56}{section*.72}
-\contentsline {section}{\numberline {6.4}Conclusion}{60}{section.6.4}
-\contentsline {paragraph}{}{60}{section*.73}
-\contentsline {chapter}{\numberline {7}The Consequence of Radius of Curvature Errors within the SRC on Modes at the SRM.}{61}{chapter.7}
-\contentsline {chapter}{\numberline {8}In Air BHD experiments}{62}{chapter.8}
-\contentsline {chapter}{\numberline {9}In-vacuum experiments}{63}{chapter.9}
-\contentsline {chapter}{\numberline {10}Relevent Semiconductor and Photodiode Theory}{64}{chapter.10}
-\contentsline {chapter}{\numberline {11}Characterisation of InGaAs Photodiodes}{65}{chapter.11}
-\contentsline {chapter}{\numberline {12}Characterisation of 2um Photodiodes}{66}{chapter.12}
-\contentsline {chapter}{\numberline {13}Characterisation of InSb Photodiode}{67}{chapter.13}
-\contentsline {chapter}{\numberline {14}Conclusion}{68}{chapter.14}
-\contentsline {chapter}{\numberline {A}\textsc {Finesse} Simulations}{69}{appendix.A}
-\contentsline {chapter}{\numberline {B}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{70}{appendix.B}
-\contentsline {paragraph}{}{71}{section*.74}
-\contentsline {paragraph}{}{71}{section*.75}
-\contentsline {subsection}{\numberline {B.0.1}Method}{71}{subsection.B.0.1}
-\contentsline {paragraph}{Define the target mode at the optic 3.}{72}{section*.76}
-\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{72}{section*.77}
-\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{72}{section*.78}
-\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{72}{section*.79}
-\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{72}{section*.80}
-\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{72}{section*.81}
-\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{72}{section*.82}
-\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{72}{section*.83}
-\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{73}{section*.84}
-\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{73}{section*.85}
-\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{73}{section*.86}
-\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{73}{section*.87}
-\contentsline {paragraph}{}{73}{section*.88}
-\contentsline {chapter}{\numberline {C}Mode Matching Between 2 Astigmatic Beams}{76}{appendix.C}
-\contentsline {section}{\numberline {C.1}Derivation of Mode Matching TM00 Beams}{76}{section.C.1}
-\contentsline {section}{\numberline {C.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{79}{section.C.2}
-\contentsline {chapter}{\numberline {D}Sensing and Control in the HAM6 Layout}{81}{appendix.D}
-\contentsline {subsection}{\numberline {D.0.1}Longitudinal Control}{81}{subsection.D.0.1}
-\contentsline {subsubsection}{\numberline {D.0.1.1}Homodyne Angle}{82}{subsubsection.D.0.1.1}
-\contentsline {subsubsection}{\numberline {D.0.1.2}OMC Length}{82}{subsubsection.D.0.1.2}
-\contentsline {subsubsection}{\numberline {D.0.1.3}Squeezing Angle to Measurement Phase}{82}{subsubsection.D.0.1.3}
-\contentsline {subsection}{\numberline {D.0.2}Alignment Control}{83}{subsection.D.0.2}
-\contentsline {subsubsection}{\numberline {D.0.2.1}LO and AS alignment}{83}{subsubsection.D.0.2.1}
-\contentsline {subsubsection}{\numberline {D.0.2.2}Alignment of the LO-AS beam to the OMC}{83}{subsubsection.D.0.2.2}
-\contentsline {subsubsection}{\numberline {D.0.2.3}Squeezer to AS beam}{84}{subsubsection.D.0.2.3}
-\contentsline {subsubsection}{\numberline {D.0.2.4}Differential Hard Mode}{84}{subsubsection.D.0.2.4}
-\contentsline {chapter}{\numberline {E}Quantum Optics}{85}{appendix.E}
+\contentsline {paragraph}{}{55}{section*.65}
+\contentsline {subsection}{\numberline {7.3.1}Determining Tunings for DC readout}{55}{subsection.7.3.1}
+\contentsline {section}{\numberline {7.4}The Beam Parameter of the Arm Mode at the SRM}{60}{section.7.4}
+\contentsline {paragraph}{}{60}{section*.70}
+\contentsline {paragraph}{}{61}{section*.73}
+\contentsline {paragraph}{}{61}{section*.74}
+\contentsline {paragraph}{}{62}{section*.79}
+\contentsline {section}{\numberline {7.5}Power Transmitted Through SRM for a Mode Mismatch Between the Arm Cavity and the SRC}{70}{section.7.5}
+\contentsline {paragraph}{}{70}{section*.81}
+\contentsline {paragraph}{}{70}{section*.82}
+\contentsline {paragraph}{}{71}{section*.83}
+\contentsline {paragraph}{}{71}{section*.84}
+\contentsline {subsection}{\numberline {7.5.1}Change of finesse of SRC}{74}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Conclusion}{75}{section.7.6}
+\contentsline {paragraph}{}{75}{section*.88}
+\contentsline {paragraph}{}{75}{section*.89}
+\contentsline {paragraph}{}{76}{section*.90}
+\contentsline {chapter}{\numberline {8}Balanced Homodyne Detection for LIGO A+}{77}{chapter.8}
+\contentsline {paragraph}{}{77}{section*.91}
+\contentsline {paragraph}{}{78}{section*.92}
+\contentsline {section}{\numberline {8.1}What is BHD}{78}{section.8.1}
+\contentsline {paragraph}{}{78}{section*.93}
+\contentsline {paragraph}{}{79}{section*.94}
+\contentsline {paragraph}{}{79}{section*.95}
+\contentsline {paragraph}{}{79}{section*.96}
+\contentsline {paragraph}{}{80}{section*.97}
+\contentsline {paragraph}{}{80}{section*.98}
+\contentsline {paragraph}{}{81}{section*.100}
+\contentsline {paragraph}{}{83}{section*.101}
+\contentsline {section}{\numberline {8.2}BHD versus DC readout for A+}{83}{section.8.2}
+\contentsline {paragraph}{}{83}{section*.102}
+\contentsline {paragraph}{}{83}{section*.103}
+\contentsline {paragraph}{}{84}{section*.104}
+\contentsline {paragraph}{}{85}{section*.105}
+\contentsline {paragraph}{}{85}{section*.106}
+\contentsline {paragraph}{}{85}{section*.107}
+\contentsline {paragraph}{}{85}{section*.108}
+\contentsline {paragraph}{}{86}{section*.109}
+\contentsline {paragraph}{}{86}{section*.110}
+\contentsline {paragraph}{}{87}{section*.111}
+\contentsline {paragraph}{}{87}{section*.112}
+\contentsline {paragraph}{}{87}{section*.113}
+\contentsline {paragraph}{}{88}{section*.114}
+\contentsline {section}{\numberline {8.3}Local Oscillator Path Length Stability Requirement for A+}{88}{section.8.3}
+\contentsline {paragraph}{}{89}{section*.115}
+\contentsline {paragraph}{}{89}{section*.116}
+\contentsline {paragraph}{}{89}{section*.117}
+\contentsline {paragraph}{}{90}{section*.118}
+\contentsline {subsection}{\numberline {8.3.1}Local Oscillator Path}{90}{subsection.8.3.1}
+\contentsline {paragraph}{}{90}{section*.119}
+\contentsline {paragraph}{}{91}{section*.120}
+\contentsline {subsection}{\numberline {8.3.2}The Linear Response Function Between Differential Strain and Power at the AS Port}{93}{subsection.8.3.2}
+\contentsline {paragraph}{}{93}{section*.122}
+\contentsline {paragraph}{}{94}{section*.123}
+\contentsline {subsection}{\numberline {8.3.3}Converting the Sensitivity Curve for A+ into a Longitudinal Motion Requirement}{94}{subsection.8.3.3}
+\contentsline {paragraph}{}{94}{section*.126}
+\contentsline {paragraph}{}{96}{section*.127}
+\contentsline {paragraph}{}{97}{section*.128}
+\contentsline {paragraph}{}{97}{section*.129}
+\contentsline {paragraph}{}{97}{section*.130}
+\contentsline {subsection}{\numberline {8.3.4}Summary of LO path length Stability}{98}{subsection.8.3.4}
+\contentsline {section}{\numberline {8.4}Conclusion}{98}{section.8.4}
+\contentsline {paragraph}{}{98}{section*.133}
+\contentsline {chapter}{\numberline {9}Design of the LIGO A+ HAM6 Layout}{103}{chapter.9}
+\contentsline {section}{\numberline {9.1}The Constraints and Requirements for the Optical Layout Within HAM6}{104}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Constraints}{104}{subsection.9.1.1}
+\contentsline {paragraph}{}{104}{section*.134}
+\contentsline {subsubsection}{\numberline {9.1.1.1}Beam Entry Points}{105}{subsubsection.9.1.1.1}
+\contentsline {subsubsection}{\numberline {9.1.1.2}Input and Target Beam Parameters}{105}{subsubsection.9.1.1.2}
+\contentsline {paragraph}{}{105}{section*.135}
+\contentsline {subsubsection}{\numberline {9.1.1.3}Equal Path Lengths after BHDBS2}{106}{subsubsection.9.1.1.3}
+\contentsline {subsection}{\numberline {9.1.2}Requirements}{107}{subsection.9.1.2}
+\contentsline {subsubsection}{\numberline {9.1.2.1}Mode Mathcing Losses}{107}{subsubsection.9.1.2.1}
+\contentsline {paragraph}{}{107}{section*.136}
+\contentsline {subsubsection}{\numberline {9.1.2.2}Gouy Phase Considerations}{108}{subsubsection.9.1.2.2}
+\contentsline {paragraph}{}{108}{section*.137}
+\contentsline {paragraph}{}{108}{section*.138}
+\contentsline {subsubsection}{\numberline {9.1.2.3}Readout Platform Suspension and Auxillary Components}{109}{subsubsection.9.1.2.3}
+\contentsline {paragraph}{}{109}{section*.139}
+\contentsline {subsection}{\numberline {9.1.3}Summary}{110}{subsection.9.1.3}
+\contentsline {section}{\numberline {9.2}The Chosen HAM6 Optical Layout}{110}{section.9.2}
+\contentsline {paragraph}{}{112}{section*.142}
+\contentsline {paragraph}{}{112}{section*.143}
+\contentsline {paragraph}{}{112}{section*.144}
+\contentsline {paragraph}{}{113}{section*.145}
+\contentsline {section}{\numberline {9.3}Visitations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{117}{section.9.3}
+\contentsline {paragraph}{}{117}{section*.150}
+\contentsline {subsection}{\numberline {9.3.1}A Description of Mode-Matching in Terms of HG Modes}{117}{subsection.9.3.1}
+\contentsline {paragraph}{}{118}{section*.151}
+\contentsline {subsection}{\numberline {9.3.2}Calculating Mode-Matching Using The Gaussian Beam Parameter}{118}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}WS Space Visualisations}{119}{subsection.9.3.3}
+\contentsline {paragraph}{}{120}{section*.152}
+\contentsline {paragraph}{}{120}{section*.153}
+\contentsline {paragraph}{}{121}{section*.154}
+\contentsline {subsection}{\numberline {9.3.4}Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{121}{subsection.9.3.4}
+\contentsline {paragraph}{}{122}{section*.155}
+\contentsline {paragraph}{}{122}{section*.159}
+\contentsline {paragraph}{}{122}{section*.160}
+\contentsline {paragraph}{}{126}{section*.161}
+\contentsline {section}{\numberline {9.4}Conclusion}{126}{section.9.4}
+\contentsline {paragraph}{}{126}{section*.162}
+\contentsline {chapter}{\numberline {10}In Air BHD experiments}{128}{chapter.10}
+\contentsline {chapter}{\numberline {11}In-vacuum experiments}{129}{chapter.11}
+\contentsline {section}{\numberline {11.1}Introduction}{129}{section.11.1}
+\contentsline {chapter}{\numberline {12}Relevent Semiconductor and Photodiode Theory}{130}{chapter.12}
+\contentsline {chapter}{\numberline {13}Characterisation of InGaAs Photodiodes}{131}{chapter.13}
+\contentsline {chapter}{\numberline {14}Characterisation of 2um Photodiodes}{132}{chapter.14}
+\contentsline {chapter}{\numberline {15}Characterisation of InSb Photodiode}{133}{chapter.15}
+\contentsline {chapter}{\numberline {16}Conclusion}{134}{chapter.16}
+\contentsline {chapter}{\numberline {A}\textsc {Finesse} Simulations}{135}{appendix.A}
+\contentsline {section}{\numberline {A.1}Mode Matching the Laser to the Arm Cavity}{135}{section.A.1}
+\contentsline {paragraph}{}{136}{section*.163}
+\contentsline {section}{\numberline {A.2}Interferometer Parameters}{139}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Radii of Curvature of optical components}{139}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Spacings}{140}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Nominal Simulation}{142}{subsection.A.2.3}
+\contentsline {section}{\numberline {A.3}\textsc {Finesse} Code}{144}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Michelson Interferometers with Thin Beamsplitter}{144}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Michelson Interferometers with Thick Beamsplitter}{144}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Main Simulation}{145}{subsection.A.3.3}
+\contentsline {chapter}{\numberline {B}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{150}{appendix.B}
+\contentsline {paragraph}{}{151}{section*.172}
+\contentsline {paragraph}{}{151}{section*.173}
+\contentsline {subsection}{\numberline {B.0.1}Method}{151}{subsection.B.0.1}
+\contentsline {paragraph}{Define the target mode at the optic 3.}{152}{section*.174}
+\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{152}{section*.175}
+\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{152}{section*.176}
+\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{152}{section*.177}
+\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{152}{section*.178}
+\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{152}{section*.179}
+\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{152}{section*.180}
+\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{152}{section*.181}
+\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{153}{section*.182}
+\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{153}{section*.183}
+\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{153}{section*.184}
+\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{153}{section*.185}
+\contentsline {paragraph}{}{153}{section*.186}
+\contentsline {chapter}{\numberline {C}Mode Matching Between 2 Astigmatic Beams}{156}{appendix.C}
+\contentsline {section}{\numberline {C.1}Derivation of Mode Matching TM00 Beams}{156}{section.C.1}
+\contentsline {section}{\numberline {C.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{159}{section.C.2}
+\contentsline {chapter}{\numberline {D}Sensing and Control in the HAM6 Layout}{161}{appendix.D}
+\contentsline {subsection}{\numberline {D.0.1}Longitudinal Control}{161}{subsection.D.0.1}
+\contentsline {subsubsection}{\numberline {D.0.1.1}Homodyne Angle}{162}{subsubsection.D.0.1.1}
+\contentsline {subsubsection}{\numberline {D.0.1.2}OMC Length}{162}{subsubsection.D.0.1.2}
+\contentsline {subsubsection}{\numberline {D.0.1.3}Squeezing Angle to Measurement Phase}{162}{subsubsection.D.0.1.3}
+\contentsline {subsection}{\numberline {D.0.2}Alignment Control}{163}{subsection.D.0.2}
+\contentsline {subsubsection}{\numberline {D.0.2.1}LO and AS alignment}{163}{subsubsection.D.0.2.1}
+\contentsline {subsubsection}{\numberline {D.0.2.2}Alignment of the LO-AS beam to the OMC}{163}{subsubsection.D.0.2.2}
+\contentsline {subsubsection}{\numberline {D.0.2.3}Squeezer to AS beam}{164}{subsubsection.D.0.2.3}
+\contentsline {subsubsection}{\numberline {D.0.2.4}Differential Hard Mode}{164}{subsubsection.D.0.2.4}
+\contentsline {chapter}{\numberline {E}Quantum Optics}{165}{appendix.E}
+\contentsline {section}{\numberline {E.1}Definitions}{165}{section.E.1}
+\contentsline {paragraph}{}{166}{section*.189}
+\contentsline {paragraph}{}{166}{section*.190}
+\contentsline {paragraph}{}{166}{section*.191}
+\contentsline {paragraph}{}{166}{section*.192}
+\contentsline {paragraph}{}{166}{section*.193}
+\contentsline {section}{\numberline {E.2}single photon state and a beam splitter}{166}{section.E.2}
+\contentsline {section}{\numberline {E.3}2 Single photon states entering the beam splitter}{167}{section.E.3}
+\contentsline {section}{\numberline {E.4}coherent state and a beam splitter}{168}{section.E.4}
+\contentsline {section}{\numberline {E.5}2 coherent states and a beam splitter}{168}{section.E.5}
+\contentsline {paragraph}{}{169}{section*.194}
+\contentsline {paragraph}{}{170}{section*.195}
+\contentsline {paragraph}{}{171}{section*.196}
+\contentsline {section}{\numberline {E.6}squeezed state and a beam splitter}{171}{section.E.6}
+\contentsline {section}{\numberline {E.7}coherent state, squeezed state and a beam splitter}{172}{section.E.7}
