@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  1 OCT 2020 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  2 OCT 2020 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,7 +1214,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count307
-<Figures/GlaLogo.pdf, id=377, pagebox=cropbox, 1487.5575pt x 544.0325pt>
+<Figures/GlaLogo.pdf, id=389, pagebox=cropbox, 1487.5575pt x 544.0325pt>
 File: Figures/GlaLogo.pdf Graphic file (type pdf)
 <use Figures/GlaLogo.pdf>
 Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 62. on input l
@@ -1227,11 +1227,11 @@ Package pdftex.def Info: Requested size: 213.39568pt x 78.04012pt on input line
 go.pdf>] (./main.toc
 [2
 
-] [3] [4] [5])
+] [3] [4] [5] [6])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [6]
+ [7]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
  (c:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1239,49 +1239,68 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
 
-[7
+[8
 
-] [8] [9
+] [9] [10
 
-] [10
+] [11
 
 ]
 Chapter 1.
-[11
-
-]
-Chapter 2.
 [12
 
 ]
-Chapter 3.
-(./Chapters/Gravitational_Wave_Interferometers.tex) [13
+Chapter 2.
+[13
 
 ]
+Chapter 3.
+(./Chapters/Gravitational_Wave_Interferometers.tex
+Package epstopdf Info: Source file: <Figures/LIGO_layout.eps>
+(epstopdf)                    date: 2020-10-02 16:44:25
+(epstopdf)                    size: 93440 bytes
+(epstopdf)             Output file: <Figures/LIGO_layout-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-02 16:46:32
+(epstopdf)                    size: 24555 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/LIGO_layout-eps-co
+nverted-to.pdf Figures/LIGO_layout.eps>
+(epstopdf)             \includegraphics on input line 33.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/LIGO_layout-eps-converted-to.pdf, id=590, pagebox=cropbox, 576.1525pt 
+x 551.05875pt>
+File: Figures/LIGO_layout-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/LIGO_layout-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/LIGO_layout-eps-converted-to.pdf  used on inpu
+t line 33. on input line 33.
+Package pdftex.def Info: Requested size: 426.79135pt x 408.21432pt on input lin
+e 33.
+) [14
+
+] [15 <./Figures/LIGO_layout-eps-converted-to.pdf>]
 Chapter 4.
-(./Chapters/light_and_gaussian_modes.tex [14
+(./Chapters/light_and_gaussian_modes.tex [16
 
-] [15] [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-[18]
+] [17] [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-[21]
-Underfull \vbox (badness 5802) has occurred while \output is active []
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-Underfull \vbox (badness 1248) has occurred while \output is active []
-
- [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[23]
+Underfull \vbox (badness 5802) has occurred while \output is active []
 
  [24]
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 Overfull \hbox (13.99545pt too wide) detected at line 180
 []
  []
@@ -1289,21 +1308,21 @@ Overfull \hbox (13.99545pt too wide) detected at line 180
 
 Underfull \vbox (badness 4634) has occurred while \output is active []
 
- [25]
-[26]
+ [27]
+[28]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 216.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27])
-[28]
+ [29])
+[30]
 Chapter 5.
-(./Chapters/ligo_laser_chapter.tex [29
+(./Chapters/ligo_laser_chapter.tex [31
 
 ]
-<figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf, id=735, pagebox=cropbox, 
+<figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf, id=767, pagebox=cropbox, 
 13876.34187pt x 4264.43187pt>
 File: figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf Graphic file (type pd
 f)
@@ -1325,7 +1344,7 @@ sfer_function-eps-converted-to.pdf figures/PMC_open_loop_transfer_function.eps>
 
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<figures/PMC_open_loop_transfer_function-eps-converted-to.pdf, id=736, pagebox=
+<figures/PMC_open_loop_transfer_function-eps-converted-to.pdf, id=768, pagebox=
 cropbox, 484.81125pt x 395.4775pt>
 File: figures/PMC_open_loop_transfer_function-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1334,18 +1353,18 @@ Package pdftex.def Info: figures/PMC_open_loop_transfer_function-eps-converted-
 to.pdf  used on input line 37. on input line 37.
 Package pdftex.def Info: Requested size: 298.75264pt x 243.71506pt on input lin
 e 37.
-<figures/mode_scan_comparisons.png, id=737, 1170.62344pt x 883.04906pt>
+<figures/mode_scan_comparisons.png, id=769, 1170.62344pt x 883.04906pt>
 File: figures/mode_scan_comparisons.png Graphic file (type png)
 <use figures/mode_scan_comparisons.png>
 Package pdftex.def Info: figures/mode_scan_comparisons.png  used on input line 
 45. on input line 45.
 Package pdftex.def Info: Requested size: 298.75264pt x 225.35643pt on input lin
 e 45.
- [30 <./figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf>] [31 <./figures/PM
-C_open_loop_transfer_function-eps-converted-to.pdf>] [32 <./figures/mode_scan_c
+ [32 <./figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf>] [33 <./figures/PM
+C_open_loop_transfer_function-eps-converted-to.pdf>] [34 <./figures/mode_scan_c
 omparisons.png (PNG copy)>]
 Chapter 6.
-[33
+[35
 
 ]
 Package epstopdf Info: Source file: <figures/AOM_stabilisation_noise.eps>
@@ -1359,7 +1378,7 @@ ted-to.pdf>
 noise-eps-converted-to.pdf figures/AOM_stabilisation_noise.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
-<figures/AOM_stabilisation_noise-eps-converted-to.pdf, id=773, pagebox=cropbox,
+<figures/AOM_stabilisation_noise-eps-converted-to.pdf, id=804, pagebox=cropbox,
  580.1675pt x 596.2275pt>
 File: figures/AOM_stabilisation_noise-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1379,7 +1398,7 @@ Package epstopdf Info: Source file: <figures/AOM_stabilisation_TF.eps>
 TF-eps-converted-to.pdf figures/AOM_stabilisation_TF.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<figures/AOM_stabilisation_TF-eps-converted-to.pdf, id=774, pagebox=cropbox, 58
+<figures/AOM_stabilisation_TF-eps-converted-to.pdf, id=805, pagebox=cropbox, 58
 0.1675pt x 596.2275pt>
 File: figures/AOM_stabilisation_TF-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1399,7 +1418,7 @@ Package epstopdf Info: Source file: <figures/current_shunt_tfs.eps>
 eps-converted-to.pdf figures/current_shunt_tfs.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<figures/current_shunt_tfs-eps-converted-to.pdf, id=775, pagebox=cropbox, 919.4
+<figures/current_shunt_tfs-eps-converted-to.pdf, id=806, pagebox=cropbox, 919.4
 35pt x 664.4825pt>
 File: figures/current_shunt_tfs-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/current_shunt_tfs-eps-converted-to.pdf>
@@ -1407,32 +1426,32 @@ Package pdftex.def Info: figures/current_shunt_tfs-eps-converted-to.pdf  used o
 n input line 96. on input line 96.
 Package pdftex.def Info: Requested size: 298.75264pt x 215.9137pt on input line
  96.
-<figures/dc_power_all_pd.png, id=776, 554.07pt x 414.8298pt>
+<figures/dc_power_all_pd.png, id=807, 554.07pt x 414.8298pt>
 File: figures/dc_power_all_pd.png Graphic file (type png)
 <use figures/dc_power_all_pd.png>
 Package pdftex.def Info: figures/dc_power_all_pd.png  used on input line 102. o
 n input line 102.
 Package pdftex.def Info: Requested size: 298.75264pt x 223.6756pt on input line
  102.
-) [34] [35 <./figures/AOM_stabilisation_noise-eps-converted-to.pdf>]
-[36 <./figures/AOM_stabilisation_TF-eps-converted-to.pdf>] [37 <./figures/curre
+) [36] [37 <./figures/AOM_stabilisation_noise-eps-converted-to.pdf>]
+[38 <./figures/AOM_stabilisation_TF-eps-converted-to.pdf>] [39 <./figures/curre
 nt_shunt_tfs-eps-converted-to.pdf> <./figures/dc_power_all_pd.png (PNG copy)>]
-[38]
+[40]
 Chapter 7.
-(./Chapters/SRC_finesse_investigation.tex [39
+(./Chapters/SRC_finesse_investigation.tex [41
 
-] [40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-[42]
+] [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
+[44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
- [44]
-[45] [46]
+ [46]
+[47] [48]
 Overfull \hbox (23.85603pt too wide) in paragraph at lines 47--47
 []\T1/cmr/bx/n/17.28 Modelling In-ter-fer-om-e-ters With Mode Mis-matches
  []
@@ -1440,13 +1459,13 @@ Overfull \hbox (23.85603pt too wide) in paragraph at lines 47--47
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 52.
 (c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [47]
+) [49]
 Underfull \vbox (badness 3942) has occurred while \output is active []
 
- [48]
+ [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [51]
 Package epstopdf Info: Source file: <Figures/sim_chapter_thin_vs_thick.eps>
 (epstopdf)                    date: 2020-08-20 14:29:13
 (epstopdf)                    size: 33215 bytes
@@ -1458,7 +1477,7 @@ erted-to.pdf>
 s_thick-eps-converted-to.pdf Figures/sim_chapter_thin_vs_thick.eps>
 (epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf, id=932, pagebox=cropbo
+<Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf, id=963, pagebox=cropbo
 x, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1468,7 +1487,7 @@ Package pdftex.def Info: Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf
 Package pdftex.def Info: Requested size: 405.45047pt x 270.31488pt on input lin
 e 74.
 
-[50] [51 <./Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf>]
+[52] [53 <./Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf>]
 Overfull \hbox (28.14668pt too wide) in paragraph at lines 79--79
 []\T1/cmr/bx/n/17.28 Modelling of Michel-son In-ter-fer-om-e-ter With Fabry-
  []
@@ -1478,8 +1497,8 @@ Overfull \hbox (2.94495pt too wide) in paragraph at lines 79--79
 \T1/cmr/bx/n/17.28 Perot Arm Cav-i-ties and A Sig-nal Re-cy-cling Cav-
  []
 
-<Figures/sim_chapter_sketch_of_simulation.pdf, id=993, pagebox=cropbox, 465.572
-2pt x 287.25394pt>
+<Figures/sim_chapter_sketch_of_simulation.pdf, id=1024, pagebox=cropbox, 465.57
+22pt x 287.25394pt>
 File: Figures/sim_chapter_sketch_of_simulation.pdf Graphic file (type pdf)
 <use Figures/sim_chapter_sketch_of_simulation.pdf>
 Package pdftex.def Info: Figures/sim_chapter_sketch_of_simulation.pdf  used on 
@@ -1489,10 +1508,10 @@ e 84.
 
 Underfull \vbox (badness 1953) has occurred while \output is active []
 
- [52
+ [54
 
 ]
-[53] [54]
+[55] [56]
 Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ETM_tuning.eps
 >
 (epstopdf)                    date: 2020-09-02 11:28:56
@@ -1505,7 +1524,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ETM_tuning.eps
 n_ETM_tuning-eps-converted-to.pdf Figures/sim_chapter_Zoom_in_ETM_tuning.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf, id=1020, pagebox=
+<Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf, id=1053, pagebox=
 cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1526,7 +1545,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ITM_tuning.eps
 n_ITM_tuning-eps-converted-to.pdf Figures/sim_chapter_Zoom_in_ITM_tuning.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf, id=1021, pagebox=
+<Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf, id=1054, pagebox=
 cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1535,8 +1554,8 @@ Package pdftex.def Info: Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-t
 o.pdf  used on input line 131. on input line 131.
 Package pdftex.def Info: Requested size: 405.45047pt x 270.31488pt on input lin
 e 131.
- [55] [56] [57 <./Figures/sim_chapter_sketch_of_simulation.pdf>]
-[58 <./Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf>] [59 <./Fig
+ [57] [58] [59 <./Figures/sim_chapter_sketch_of_simulation.pdf>]
+[60 <./Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf>] [61 <./Fig
 ures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/sim_chapter_beam_size_sr2_sr3.eps>
 
@@ -1550,7 +1569,7 @@ converted-to.pdf>
 ize_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_beam_size_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf, id=1151, pagebox=c
+<Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf, id=1183, pagebox=c
 ropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1570,7 +1589,7 @@ onverted-to.pdf>
 oc_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_beam_roc_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf, id=1154, pagebox=cr
+<Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf, id=1186, pagebox=cr
 opbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1579,7 +1598,7 @@ Package pdftex.def Info: Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.
 pdf  used on input line 172. on input line 172.
 Package pdftex.def Info: Requested size: 405.45047pt x 270.31488pt on input lin
 e 172.
- [60
+ [62
 
 ]
 Package epstopdf Info: Source file: <Figures/sim_chapter_gouy_phase_sr2_sr3.eps
@@ -1594,7 +1613,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_gouy_phase_sr2_sr3.eps
 hase_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_gouy_phase_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf, id=1173, pagebox=
+<Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf, id=1205, pagebox=
 cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1614,7 +1633,7 @@ o.pdf>
 -eps-converted-to.pdf Figures/sim_chapter_ITM_TL.eps>
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_ITM_TL-eps-converted-to.pdf, id=1176, pagebox=cropbox, 433
+<Figures/sim_chapter_ITM_TL-eps-converted-to.pdf, id=1208, pagebox=cropbox, 433
 .62pt x 289.08pt>
 File: Figures/sim_chapter_ITM_TL-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/sim_chapter_ITM_TL-eps-converted-to.pdf>
@@ -1634,7 +1653,7 @@ converted-to.pdf>
 _experiment-eps-converted-to.pdf Figures/sim_chapter_maxtem_experiment.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf, id=1177, pagebox=c
+<Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf, id=1209, pagebox=c
 ropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1656,7 +1675,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf, id=1178, pageb
+<Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf, id=1210, pageb
 ox=cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1678,7 +1697,7 @@ arameter_at_SRM-eps-converted-to.pdf Figures/sim_chapter_beam_parameter_at_SRM.
 eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf, id=1182, pageb
+<Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf, id=1214, pageb
 ox=cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1687,18 +1706,18 @@ Package pdftex.def Info: Figures/sim_chapter_beam_parameter_at_SRM-eps-converte
 d-to.pdf  used on input line 208. on input line 208.
 Package pdftex.def Info: Requested size: 405.45047pt x 270.31488pt on input lin
 e 208.
- [61] [62]
-[63 <./Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf>] [64 <./Figu
-res/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf>] [65 <./Figures/sim_chap
-ter_gouy_phase_sr2_sr3-eps-converted-to.pdf>] [66 <./Figures/sim_chapter_ITM_TL
--eps-converted-to.pdf>] [67 <./Figures/sim_chapter_maxtem_experiment-eps-conver
-ted-to.pdf>] [68 <./Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.
-pdf>] [69 <./Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf>]
+ [63] [64]
+[65 <./Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf>] [66 <./Figu
+res/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf>] [67 <./Figures/sim_chap
+ter_gouy_phase_sr2_sr3-eps-converted-to.pdf>] [68 <./Figures/sim_chapter_ITM_TL
+-eps-converted-to.pdf>] [69 <./Figures/sim_chapter_maxtem_experiment-eps-conver
+ted-to.pdf>] [70 <./Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.
+pdf>] [71 <./Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf>]
 Overfull \hbox (4.02321pt too wide) in paragraph at lines 214--214
 \T1/cmr/bx/n/17.28 Mis-match Be-tween the Arm Cav-ity and the SRC 
  []
 
-[70
+[72
 
 ]
 Package epstopdf Info: Source file: <Figures/sim_chapter_TM00_simulated.eps>
@@ -1712,7 +1731,7 @@ verted-to.pdf>
 imulated-eps-converted-to.pdf Figures/sim_chapter_TM00_simulated.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf, id=1515, pagebox=crop
+<Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf, id=1546, pagebox=crop
 box, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1734,7 +1753,7 @@ wer_simulated-eps-converted-to.pdf Figures/sim_chapter_All_power_simulated.eps>
 
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf, id=1518, pagebox
+<Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf, id=1549, pagebox
 =cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1743,8 +1762,8 @@ Package pdftex.def Info: Figures/sim_chapter_All_power_simulated-eps-converted-
 to.pdf  used on input line 232. on input line 232.
 Package pdftex.def Info: Requested size: 405.45047pt x 270.31488pt on input lin
 e 232.
- [71] [72 <./Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf>]
-[73 <./Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf>]
+ [73] [74 <./Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf>]
+[75 <./Figures/sim_chapter_All_power_simulated-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/sim_chapter_SRM_T_HG_ratio.eps>
 (epstopdf)                    date: 2020-09-02 11:28:27
 (epstopdf)                    size: 25502 bytes
@@ -1756,7 +1775,7 @@ verted-to.pdf>
 HG_ratio-eps-converted-to.pdf Figures/sim_chapter_SRM_T_HG_ratio.eps>
 (epstopdf)             \includegraphics on input line 241.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf, id=1640, pagebox=crop
+<Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf, id=1671, pagebox=crop
 box, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1768,16 +1787,13 @@ e 241.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74
+ [76
 
- <./Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf>] [75]) [76]
+ <./Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf>] [77]) [78]
 Chapter 8.
-(./Chapters/BHD_for_ligo.tex [77
+(./Chapters/BHD_for_ligo.tex [79
 
-] [78] [79]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [80]
+] [80] [81]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_BHD_sketch.ep
 s>
 (epstopdf)                    date: 2020-09-24 13:07:04
@@ -1789,46 +1805,51 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_BHD_sketch-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_BHD_sketch.eps>
 
-(epstopdf)             \includegraphics on input line 63.
+(epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf, id=1761, pagebox
+<Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf, id=1777, pagebox
 =cropbox, 67.25125pt x 50.1875pt>
 File: Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-
-to.pdf  used on input line 63. on input line 63.
+to.pdf  used on input line 32. on input line 32.
 Package pdftex.def Info: Requested size: 213.39568pt x 159.25237pt on input lin
-e 63.
+e 32.
 
 
-LaTeX Warning: Reference `eq:general_quadrature_BHD' on page 81 undefined on in
-put line 63.
+LaTeX Warning: Reference `eq:general_quadrature_BHD' on page 82 undefined on in
+put line 33.
 
 
-LaTeX Warning: Reference `eq:general_quadrature_BHD' on page 81 undefined on in
-put line 63.
+LaTeX Warning: Reference `eq:general_quadrature_BHD' on page 82 undefined on in
+put line 33.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81 <./Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation `ref for this' on page 82 undefined on input line 63.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 8170) has occurred while \output is active []
 
  [82]
-[83]
+[83 <./Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `ref for this' on page 84 undefined on input line 48.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [84]
-[85] [86] [87] [88]
+[85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+[87]
+Underfull \vbox (badness 1354) has occurred while \output is active []
+
+ [88]
+[89] [90]
 Underfull \vbox (badness 1881) has occurred while \output is active []
 
- [89]
-[90]
+ [91]
+[92]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_sketch_of_LO_
 delivery.eps>
 (epstopdf)                    date: 2020-09-01 16:51:14
@@ -1842,8 +1863,8 @@ er_sketch_of_LO_delivery-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_sket
 ch_of_LO_delivery.eps>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf, id=18
-85, pagebox=cropbox, 352.31625pt x 628.3475pt>
+<Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf, id=19
+08, pagebox=cropbox, 352.31625pt x 628.3475pt>
 File: Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf>
@@ -1851,7 +1872,7 @@ Package pdftex.def Info: Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps
 -converted-to.pdf  used on input line 115. on input line 115.
 Package pdftex.def Info: Requested size: 256.07741pt x 456.70518pt on input lin
 e 115.
- [91] [92 <./Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-t
+ [93] [94 <./Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-t
 o.pdf>]
 Overfull \hbox (17.83598pt too wide) in paragraph at lines 120--120
 []\T1/cmr/bx/n/14.4 The Lin-ear Re-sponse Func-tion Be-tween Dif-fer-en-tial St
@@ -1871,7 +1892,7 @@ er_detector_repsonse-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_detector
 _repsonse.eps>
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf, id=1945, 
+<Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf, id=1968, 
 pagebox=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1880,7 +1901,7 @@ Package pdftex.def Info: Figures/BHD_for_ligo_chapter_detector_repsonse-eps-con
 verted-to.pdf  used on input line 140. on input line 140.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
 e 140.
-[93
+[95
 
 ]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_light_noise.e
@@ -1896,7 +1917,7 @@ er_light_noise-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_light_noise.ep
 s>
 (epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf, id=1952, pagebo
+<Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf, id=1975, pagebo
 x=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_light_noise-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1909,11 +1930,11 @@ e 148.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[94] [95 <./Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf
+[96] [97 <./Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96]
+ [98]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_bhd_double_co
 unted.eps>
 (epstopdf)                    date: 2020-09-01 14:51:57
@@ -1927,7 +1948,7 @@ er_bhd_double_counted-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_bhd_dou
 ble_counted.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=2018,
+<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=2041,
  pagebox=cropbox, 109.40875pt x 101.37875pt>
 File: Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1949,7 +1970,7 @@ er_HRTS_requirement-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_HRTS_requ
 irement.eps>
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=2019, p
+<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=2042, p
 agebox=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1959,30 +1980,30 @@ erted-to.pdf  used on input line 195. on input line 195.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
 e 195.
 
-[97]) [98] [99] [100 <./Figures/BHD_for_ligo_chapter_light_noise-eps-converted-
-to.pdf>] [101 <./Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-
-to.pdf>] [102 <./Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to
-.pdf>]
+[99]) [100] [101] [102 <./Figures/BHD_for_ligo_chapter_light_noise-eps-converte
+d-to.pdf>] [103 <./Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converte
+d-to.pdf>] [104 <./Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-
+to.pdf>]
 Chapter 9.
 (./Chapters/BHD_for_ligo_chapter_2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103
+ [105
 
 ]
 Underfull \vbox (badness 7256) has occurred while \output is active []
 
- [104]
+ [106]
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
 
 (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [105]
+) [107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106]
-[107] [108]
-<Figures/BHD_for_ligo_chapter_5f_21.png, id=2245, 648.92438pt x 592.46344pt>
+ [108]
+[109] [110]
+<Figures/BHD_for_ligo_chapter_5f_21.png, id=2268, 648.92438pt x 592.46344pt>
 File: Figures/BHD_for_ligo_chapter_5f_21.png Graphic file (type png)
 <use Figures/BHD_for_ligo_chapter_5f_21.png>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_5f_21.png  used on input 
@@ -1992,8 +2013,8 @@ Package pdftex.def Info: Requested size: 426.79135pt x 389.662pt on input line
 
 Underfull \vbox (badness 1354) has occurred while \output is active []
 
- [109]
-[110] [111 <./Figures/BHD_for_ligo_chapter_5f_21.png>] [112]
+ [111]
+[112] [113 <./Figures/BHD_for_ligo_chapter_5f_21.png>] [114]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_Beamshape.eps
 >
 (epstopdf)                    date: 2020-09-18 15:16:53
@@ -2006,7 +2027,7 @@ Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_Beamshape.eps
 er_Beamshape-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_Beamshape.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=2284, pagebox=
+<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=2306, pagebox=
 cropbox, 433.62pt x 361.35pt>
 File: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2028,7 +2049,7 @@ er_lens_choice-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_lens_choice.ep
 s>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=2285, pagebo
+<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=2307, pagebo
 x=cropbox, 433.62pt x 361.35pt>
 File: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2050,7 +2071,7 @@ er_astigmatism-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_astigmatism.ep
 s>
 (epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=2286, pagebo
+<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=2308, pagebo
 x=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2059,25 +2080,25 @@ Package pdftex.def Info: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted
 -to.pdf  used on input line 123. on input line 123.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
 e 123.
- [113] [114 <./Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf>] [1
-15 <./Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf>] [116 <./F
+ [115] [116 <./Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf>] [1
+17 <./Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf>] [118 <./F
 igures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf>]
 Overfull \hbox (3.40729pt too wide) in paragraph at lines 133--133
 []\T1/cmr/bx/n/14.4 A De-scrip-tion of Mode-Matching in Terms of HG Modes 
  []
 
-[117
+[119
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118]
+ [120]
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
- [119]
+ [121]
 Underfull \vbox (badness 3942) has occurred while \output is active []
 
- [120]
+ [122]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_WS_sketch.eps
 >
 (epstopdf)                    date: 2020-09-18 15:30:09
@@ -2090,7 +2111,7 @@ Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_WS_sketch.eps
 er_WS_sketch-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_WS_sketch.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=2473, pagebox=
+<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=2496, pagebox=
 cropbox, 195.73125pt x 95.35625pt>
 File: Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2102,8 +2123,8 @@ e 168.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121]
-<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf, id=2480, pagebox=
+ [123]
+<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf, id=2502, pagebox=
 cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf Graphic file 
 (type pdf)
@@ -2113,7 +2134,7 @@ s.pdf  used on input line 175. on input line 175.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
 e 175.
 <Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf
-, id=2481, pagebox=cropbox, 433.62pt x 252.945pt>
+, id=2503, pagebox=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_succes
 s.pdf Graphic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success
@@ -2123,40 +2144,40 @@ ode_matching_success.pdf  used on input line 181. on input line 181.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
 e 181.
 
-[122] [123 <./Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>]
-[124 <./Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf>] [125 <./F
+[124] [125 <./Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>]
+[126 <./Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.pdf>] [127 <./F
 igures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf>]
-) [126] [127]
+) [128] [129]
 Chapter 10.
-(./Chapters/table_top_bhd.tex) [128
+(./Chapters/table_top_bhd.tex) [130
 
 ]
 Chapter 11.
-(./Chapters/in_vacuum_mz.tex) [129
+(./Chapters/in_vacuum_mz.tex) [131
 
 ]
 Chapter 12.
-(./Chapters/semiconductor_physics.tex) [130
+(./Chapters/semiconductor_physics.tex) [132
 
 ]
 Chapter 13.
-[131
-
-]
-Chapter 14.
-[132
-
-]
-Chapter 15.
 [133
 
 ]
-Chapter 16.
+Chapter 14.
 [134
 
 ]
+Chapter 15.
+[135
+
+]
+Chapter 16.
+[136
+
+]
 Appendix A.
-(./Chapters/appendix_to_SRC_finesse_investigation.tex [135
+(./Chapters/appendix_to_SRC_finesse_investigation.tex [137
 
 ]
 Package epstopdf Info: Source file: <Figures/sim_chapter_gauss_command_fitting.
@@ -2172,7 +2193,7 @@ command_fitting-eps-converted-to.pdf Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=2680, pageb
+<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=2702, pageb
 ox=cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2181,30 +2202,30 @@ Package pdftex.def Info: Figures/sim_chapter_gauss_command_fitting-eps-converte
 d-to.pdf  used on input line 29. on input line 29.
 Package pdftex.def Info: Requested size: 384.1096pt x 256.08499pt on input line
  29.
- [136] [137]
-[138 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
-[139
+ [138] [139]
+[140 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
+[141
 
-] [140] [141] [142
+] [142] [143] [144
 
-] [143] [144
+] [145] [146
 
-] [145]
+] [147]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [146]
+ [148]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [147]
+ [149]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [148])
-[149]
+ [150])
+[151]
 Appendix B.
 (./Chapters/appendix_mode_matching_algorithm_3_optics.tex
 Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [150
+ [152
 
 ]
 
@@ -2214,8 +2235,8 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 Underfull \vbox (badness 4859) has occurred while \output is active []
 
- [151]
-[152]
+ [153]
+[154]
 Package epstopdf Info: Source file: <Figures/mode_matching_appendix_optical_lay
 outs.eps>
 (epstopdf)                    date: 2020-09-01 17:09:52
@@ -2229,7 +2250,7 @@ ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
 l_layouts.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=3025, 
+<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=3047, 
 pagebox=cropbox, 501.875pt x 240.9pt>
 File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2251,7 +2272,7 @@ ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
 ithm_sketch.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=3028,
+<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=3050,
  pagebox=cropbox, 450.68375pt x 253.94875pt>
 File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2260,19 +2281,19 @@ Package pdftex.def Info: Figures/mode_matching_appendix_algorithm_sketch-eps-co
 nverted-to.pdf  used on input line 31. on input line 31.
 Package pdftex.def Info: Requested size: 384.1096pt x 216.44644pt on input line
  31.
-) [153] [154 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to
-.pdf>] [155 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to
+) [155] [156 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to
+.pdf>] [157 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to
 .pdf>]
 Appendix C.
 (./Chapters/appendix_mode_matching_derivation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [156
+ [158
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [157]
+ [159]
 Overfull \hbox (56.5019pt too wide) detected at line 95
 []
  []
@@ -2280,11 +2301,11 @@ Overfull \hbox (56.5019pt too wide) detected at line 95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [158]
+ [160]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [159])
-[160]
+ [161])
+[162]
 Appendix D.
 (./Chapters/appendix_BHD_for_ligo_sensing_and_control.tex
 
@@ -2294,49 +2315,49 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161
+ [163
 
 ]
-[162]
+[164]
 Underfull \vbox (badness 5260) has occurred while \output is active []
 
- [163])
-[164]
+ [165])
+[166]
 Appendix E.
 (./Chapters/appendix_BHD_for_ligo_quantum_BHD.tex
 Underfull \vbox (badness 4660) has occurred while \output is active []
 
- [165
+ [167
 
 ]
-[166]
+[168]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [167]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [168]
-Underfull \vbox (badness 1303) has occurred while \output is active []
 
  [169]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [170]
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+ [171]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [171])
-(./main.bbl [172] [173
+ [172]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [174] [175] [176] [177] [178] [179] [180])
+ [173])
+(./main.bbl [174] [175
+
+] [176] [177] [178] [179] [180] [181] [182])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
- [181]
+ [183]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
 
 (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 98148F4C4ADD53C3F8BC5910ED0ED09A;7475.
+(rerunfilecheck)             Checksum: 27300D7E1AD7D5ACF1FA71D99F153CA0;7677.
 
 
 LaTeX Warning: There were undefined references.
@@ -2344,10 +2365,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 22133 strings out of 492990
- 410697 string characters out of 6136333
- 622414 words of memory out of 5000000
- 24537 multiletter control sequences out of 15000+600000
+ 22142 strings out of 492990
+ 411014 string characters out of 6136333
+ 622509 words of memory out of 5000000
+ 24545 multiletter control sequences out of 15000+600000
  566138 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,22n,61p,10357b,2202s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2380,10 +2401,10 @@ fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2017/texmf-dist/fonts/type
 m-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
 xc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc2488.pfb
 >
-Output written on main.pdf (181 pages, 2528536 bytes).
+Output written on main.pdf (183 pages, 2550770 bytes).
 PDF statistics:
- 3665 PDF objects out of 4296 (max. 8388607)
- 2539 compressed objects within 26 object streams
+ 3687 PDF objects out of 4296 (max. 8388607)
+ 2556 compressed objects within 26 object streams
  839 named destinations out of 1000 (max. 500000)
- 935 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 964 words of extra memory for PDF output out of 10000 (max. 10000000)
 
