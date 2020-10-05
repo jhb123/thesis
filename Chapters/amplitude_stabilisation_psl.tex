@@ -1,0 +1,76 @@
+\section{Introduction + Requirements}
+\begin{itemize}
+	\item shot noise requirement
+	\item radiation pressure noise setting noise requirement
+	\item inner+outer loop design
+	\item could include calculation for mismatches in the IFO? Point absorbers etc. 
+	\item Patrick Kwee's Thesis. 
+	\item Useful ligo reference \href{https://dcc.ligo.org/cgi-bin/DocDB/ShowDocument?docid=T010075}{T010075}
+\end{itemize}
+\subsection{Intensity Noise}
+\href{https://alog.ligo-wa.caltech.edu/aLOG/uploads/46276_20190107234129_SRCLArmPowerMeas.pdf}{SRC dither measurement explanation}.\href{https://alog.ligo-la.caltech.edu/aLOG/index.php}{Measurement 12/11/2019}. Amount of imbalance  $\sim 3\%$ \href{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=43298}{Terra Intensity noise injection method}. LIGO-T010075-v3 states 1\% arm imbalance for nominal value. LIGO Document T050036-v4 also states 1\%, this is probably a better reference.
+\subsection{Coupling of Intensity Noise}
+In the GW band, laser intensity noise couples via differential arm finesse (i.e. losses) -> difference in arm powers -> radiation pressure fluctuations which look like gw signal. Would be nice to have an equation.
+\paragraph{}
+Power fluctuations in LO light -> can't be distinguished from GW signal. Will be cancelled with BHD.
+\paragraph{}
+PRC passively filters intensity noise of laser. Bandwidth $\approx 1\si{\hertz}$.
+\subsection{Control band fluctations 0.1-10Hz}
+Creates radiation pressure -> GW signal coupling. 
+\subsection{RF noise}
+RF signals used to control the IFO -> Noise at these frequencies degrades SNR -> indirect coupling of noise to GW channel. PMC used for this. IMC cannot be used as EOM before this. NPRO is dominant RF noise source.
+\subsection{Inner Loop}
+
+\subsection{Outer Loop}
+
+\section{Free Running Noise and Noise Hunting}
+\begin{itemize}
+	\item free running noise of the laser
+	\item what dominates the laser noise? NPRO
+	\item noise sources such as mounts 
+	\item noise from PMC offset not being tuned
+	\item 4Hz noise from Beckhoff
+\end{itemize}
+\section{AOM Stabilisation}
+\begin{itemize}
+	\item description of AOM
+	\item AOM TF
+	\item AOM loop TF
+	\item plot of AOM stabilisation working
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/AOM_stabilisation_noise}
+	\caption{Free running and stabilised noise of laser}
+	\label{fig:aomstabilisationnoise}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/AOM_stabilisation_TF}
+	\caption{Transfer functions for parts of the AOM servo}
+	\label{fig:aomstabilisationtf}
+\end{figure}
+\section{Current Shunt Stabilisation}
+\begin{itemize}
+	\item description of CS
+	\item CS TF
+	\item CS loop TF
+	\item plot of CS stabilisation working
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/current_shunt_tfs}
+	\caption{current shunt input to light power transfer function for different diode currents}
+	\label{fig:currentshunttfs}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/dc_power_all_pd}
+	\caption{DC behaviour of current shunt}
+	\label{fig:dcpowerallpd}
+\end{figure}
+\section{Comparison of Two stabilisation Schemes}
+\begin{itemize}
+	\item why I think the AOM is a better choice even though they both work
+\end{itemize}
+\section{Conclusion}
