@@ -11,36 +11,81 @@ There are several ways of stabilising a laser. Modulation of one of the amplifie
 \subsection{Frequency}
 Ultimately, LIGO uses the arm cavity as a frequency reference since $\delta f/f = \delta l/l$, however the PSL must provide a suitably low frequency noise to the interferometer so that it can acquire lock. The PSL uses an ultra low expansion fused silica reference cavity in a Pound-Drever-Hall (PDH) locking scheme to provide this frequency stabilisation \cite{PSL_final_design}.
 \subsection{Beam Shape}
-The PSL produces a high quality TM00 beam by using a cavity known as the `pre mode cleaner' (PMC). This is the last stage of the PSL before the beam is handed off to the rest of the interferometer. The higher order mode content of the beam produced by earlier stages of the PSL is therefore important since higher order modes will be rejected by the PMC.
+The PSL  should produce a high quality TM00 beam. Higher order modes do not enter the interferometer, so while higher order modes at this point of the interferometer do not couple directly to the gravitational wave, they do result in a drop in power. Additionally, reflected light from the interferometer is used to derive control signals, thus unwanted light due to higher order modes from the PSL will contribute to the noise of these signals.
 \subsection{Pointing}
 The pointing noise witnessed at LHO is one of the reasons why single pass amplifiers were chosen as the replacement of the HPO. Pointing noise manifests as intensity noise since a change in beam direction can be modelled as the introduction of higher order modes. These new amplifiers are cooled in such a way that the jitter on the PSL beam is reduced.
 \subsection{Polarisation}
 Highly linear polarised light is essential to the operation of LIGO, since the optical coatings are all optimised for a specific polarisation.
 \subsection{Other Aspects of the PSL}
-There are many practical requirements of the PSL. It is useful to diagnose the PSL remotely, so a diagnostic breadboard (DBB) \cite{kwee_thesis}  capable of making pointing, intensity and frequency noise measurements, as well as mode scans, was integrated into the design of the PSL. Remote operation and monitoring is also required, so slow control is provided by a Beckhoff system.
+It is useful to diagnose the PSL remotely, so a diagnostic breadboard (DBB) \cite{kwee_thesis}  capable of making pointing, intensity and frequency noise measurements, as well as mode scans, was integrated into the design of the PSL. Remote operation and monitoring is also required, so slow control is provided by a Beckhoff system.
 \section{Set-up and Layout}
-\begin{itemize}
-	\item diagram of layout
-	\item description of layout
-	\item use 2 amplifiers and a PMC to get high power gaussian beam
-	\item flow rates and beam quality of amplifiers
-\end{itemize}
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{figures/E1900168-v3_O4laser_TNT_TableLayout_AOM}
 	\caption{e1900168. Layout placeholder}
 	\label{fig:e1900168-v3o4lasertnttablelayoutaom}
 \end{figure}
+\subsection{Concept}
+The new design of the PSL is based on using an NPRO with two single pass amplifiers in series, followed by a cavity to provide 125W of laser light with high spatial purity and low noise. Currently, the PSL is seeded by a 35W laser which is followed by one amplifier \cite{spencer_thesis,InstrumentWhitePaper2019}. Results from the high performance version of this amplifier were promising \cite{Thies2019}, leading to a proposal to construct the PSL out of two of these in series. A similar set up has been constructed \cite{Bode2020}. The cavity can be considered as a reference beam parameter and a hand-off point between the PSL and the rest of the interferometer. This cavity is known as the PMC. The PMC has been redesigned \cite{new_pmc_T1700543}; it is no longer in a vacuum enclosure and it used new mirror mounts. The PSL is housed in an environmentally controlled room so that it is not affected by temperature and humidity changes.
 \subsection{NPRO}
-The first element of the PSL is a non-planar ring oscillator laser \cite{Kane1985,Freitag1995}. This is a signle frequency laser constructed from one Nd:YAG crystal which acts as both the gain medium and the cavity, thus it produces a laser with high amounts of frequency stability.
-\subsection{OEM solid-state Amplifier}
-The Neovan 4
-\begin{itemize}
-	\item why are they better than an HPO in principle
-	\item how they work
-	\item neovan 4S-HP
-\end{itemize}
+The first element of the PSL is a non-planar ring oscillator laser \cite{Kane1985,Freitag1995,Heurs2004}. This is a single frequency laser constructed from one Nd:YAG crystal which acts as both the gain medium and the cavity, thus it produces a laser with high amounts of frequency stability. The NPRO used is a Mephisto laser, built by Coherent, and it can produce to 2W of 1065\,\si{\nano\metre} light.
+\subsection{Neovan 4S-HP solid-state Amplifier}
+The Neovan 4S-HP is a single pass, solid state amplifier  manufactured by Neolase. It is constructed from four $\rm{Nd:YVO_4}$ crystals which are pumped by fibre coupled laser diodes. It should be seeded by s-polarised light at 1064\,nm. It is cooled via a plate with water (or other coolants) flowing through it. This keeps jitter noise low as flowing water is not directly in contact with the gain medium.
+\subsection{Diagnostic Bread Board}
+The diagnostic bread board (DBB) is able to make intensity noise, frequency noise, beam pointing noise and higher order mode content measurement \cite{Kwee2007,kwee_thesis}. The breadboard consists of a cavity, motorised lenses, an automatic alignment system and several photodiodes. It is integrated into the PSL via several pick-off points and can be used to monitor the status of the NPRO, Amp I and Amp II. 
+\subsection{PMC}
+The pre mode cleaner (PMC) is used as the hand-off point between the PSL and the rest of the interferometer. Light transmitted by this cavity is used as the input beam for the interferometer. The PMC is a bow tie cavity with an FSR of 9\,\si{\mega\hertz}, thus it passively filters RF intensity noise. Control side bands are provided after the PMC but before the IMC, meaning that the IMC cannot be used to provide this stabilisation. The PMC is locked to the fundamental mode via a PDH lock, so the beam that is delivered to the rest of the interferometer has a low amount of higher order mode content. This is important as the amplifiers upstream of the PMC produce slightly elliptical beams. The PMC can be considered as a reference point for mode matching, with the intention being that one can work on the PSL and have a set of reference beam parameters to work towards.
+\section{Set up Procedure for the Neovan 4S-HP}
+To ensure that a large portion of the light exiting the amplifier is in the fundamental mode, the alignment, mode matching and polarisation of the input beam must be correctly set. The optimal alignment and mode matching will correspond to the maximum power in the TM00 mode that can be obtained for a given pump diode current, cooling, and input power. This is complicated by thermal lensing effects and by the nature of working with high power beams.
+\subsection{Flow Rates and Cooling}
+The first thing that should be decided is how the cooling will be done. The flow rates of the coolant to the amplifier affects the the amount of thermal lensing. A balance must be struck between the amount of cooling - more is better - and the amount of jitter that can be potentially introduced to the beam via coolant moving through pipes. Due to the jitter noise experience at the Hanford detector that was due to the water cooling in the PSL, the flow rates will be set as low as possible. 
+\paragraph{}
+The cooling scheme that will be used is shown in Figure \ref{fig:ligolaserchapterwatercoolingschematic}. Flow meters which monitor the flow rate of the coolant will be placed on the return side of the system rather than the supply side. By having the flow meters on the return side, they will measure a drop in flow if there is a leak, allowing for the water supply to be cut. 
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_water_cooling_schematic}
+	\caption{Cartoon of the cooling layout for the PSL. The amplifiers are on a seperate lop to the diode boxes so that the flow rates for these can be reduced as much as possible.}
+	\label{fig:ligolaserchapterwatercoolingschematic}
+\end{figure}
+\paragraph{}
+To reduce the amount of thermal lensing in the gain medium of the amplifier, the amplifier is cooled. The thermal lensing in the $\rm{Nd:YVO_4}$ is non-circular, and since they are cooled from below there is a significant temperature gradient across the cyrstals. From a beam quality point of view, it is better to have more cooling as with more cooling, there is less thermal lensing. 
+\paragraph{}
+A different cooling layout was used to test what the appropriate flow rates for the amplifiers and diode boxes could be. The diode box and amplifier head were connected in parallel, and each amplifier was on a separate cooling loop. This has the advantage of being able to change the flow rate through each amplifier independently, meaning that the effect of flow rate on the beam quality can be studied for one amplifier. \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11624}{labbok post}
+\paragraph{}
+The flow rate to the first amplifier was kept high to get as a high a quality beam as possible entering the second amplifier. The second amplifier and diode box flow rate was decreased. The temperature of the diode head was monitored. The higher order mode content and was measured with the DBB and the power was measured with a high-power power meter. The results of this are shown in Figure \ref{fig:ligo_laser_chapter_cooling_pwoer_hom}. As the flow rate was decreased, the temperature of the heads increased. At 22.3\si{\celsius}, the flow rate was $2.05\,\rm{L\,min^{-1}}$. The higher order mode content was $\sim 4.5\%$ and the amount of power in the fundamental mode was $\sim127\,\rm{W}$. It was decided that to keep the amount of power in the fundamental mode high, the diode heads would be operated such that their temperature did not rise above $\sim27$\,\si{\celsius}. In this cooling set-up, this temperature corresponded to a flow rate of $0.75\,\rm{L\,min^{-1}}$.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_cooling_pwoer_hom}
+	\caption{}
+	\label{fig:ligo_laser_chapter_cooling_pwoer_hom}
+\end{figure}
+\subsection{Alignment Procedure}
+\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11516}{lab book post}.
+First, the amplifier should be switched off. This protects it against damage as well as preventing the possibility of unknown beams with several tens of Watts of power being in the lab. The beam path between the NPRO and the exit of the first amplifier were inspected to make sure the beam path was clear and terminated with dumps.
+\paragraph{}
+Next, the NPRO was set to produce 1.3W of light. This power of the light was measured on the input side of the amplifier. Using M03 and M04, the beam was roughly aligned so that the spot would hit the centre of the amplifier's input aperture. The power meter was placed on the exit side of the amplifier, and the input alignment was adjusted until the light exiting the amplifier was the same as the input power. Once this is done, one knows that the beam will be roughly aligned and some amplification will occur when the pump diodes are turned on. Once this was done, the high power attenuator immediately after the amplifier was set to dump all the light. The initial mode matching was based on the manufactures specifications, and the input light was set to s-polarisation.
+\paragraph{}
+The pump diode currents were increased until the amplifier `switched on'. This was at 2\,A of current through each of the pump diodes. The amplifier starts amplifying the input light when there is sufficient pump light to cause enough population inversion that stimulated emission occurs.
+\paragraph{}
+At this threshold, the output power was maximised by optimising the alignment. Then, the mode-matching was adjusted, in tandem with correcting for mis-alignments caused by non-perfect centring of the beam on the mode matching lens, L02, and non-perfect co-alignment of the rail this lens is mounted on to the optical axis. 
+\paragraph{}
+A smaller, faster power meter was used to monitor the power transmitted through the high power attenuator. Care must be taken to ensure the amount of light on this meter does not exceed its damage threshold. Compared to the high-power meter, the low-power meter has less drift and responds to changes in power faster. This gives quicker feedback to the aligner, allowing for easier alignment. 
+\paragraph{}
+A Wincam was set up to monitor the beam profile. If the amplifier is significantly misaligned and mode mismatched, the beam profile will become distorted. Large misalignment will cause the beam profile to look lopsided, and smaller misalignments will cause the beam profile to have shoulders. 
+\paragraph{}
+Once the the amplifier has been optimised for a low pump diode current, the pump diode current should be incremented in small steps of roughly 1-2A. Each time this is done, the thermal lensing will increase. Due to the non-uniform way in which the heating occurs, the input alignment needs to be re-optimised each time as does the input mode-matching. The idea is that by going in small steps of diode current, the optimal alignment can be safely achieved. The amplifier should be operated at high diode currents, $approx 9\si{\ampere}$, so it is not worth spending a huge amount of time perfecting the input alignment and mode-matching at these currents. Its sufficient to be within a few percent of optimal.
+\paragraph{}
+As the thermal lensing of the amplifier changes, the optimal mode matching will as well. As changing the position of the first amplifier's mode matching lens, L02, will cause slight changes in alignment, due to n one should not waste time aligning the input beam perfectly if the input mode matching can be significantly improved. However, the mode matching will change as the pump diode current changes and if the cooling is changed.
 
+\section{Intensity Stabilisation}
+\section{Free Running Noise}
+\subsection{Inner loop and Outer loop}
+\subsection{Inner loop requirements}
+\subsection{Inner loop sensors}
+\subsection{Actuators}
+\subsubsection{AOM}
+\subsubsection{Current Shunt}
+\subsection{Performance of Intensity stabilisation}
 \section{Frequency Noise}
 Need to put together the measurements for frequency noise.
 \begin{figure}

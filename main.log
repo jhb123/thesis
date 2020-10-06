@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  5 OCT 2020 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  6 OCT 2020 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,7 +1214,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count307
-<Figures/GlaLogo.pdf, id=116, pagebox=cropbox, 1487.5575pt x 544.0325pt>
+<Figures/GlaLogo.pdf, id=168, pagebox=cropbox, 1487.5575pt x 544.0325pt>
 File: Figures/GlaLogo.pdf Graphic file (type pdf)
 <use Figures/GlaLogo.pdf>
 Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 62. on input l
@@ -1330,19 +1330,78 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [10]
-Underfull \vbox (badness 5637) has occurred while \output is active []
+Underfull \vbox (badness 1337) has occurred while \output is active []
 
  [11]
-[12]
-<figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf, id=233, pagebox=cropbox, 
+<figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf, id=293, pagebox=cropbox, 
 13876.34187pt x 4264.43187pt>
 File: figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf Graphic file (type pd
 f)
 <use figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf>
 Package pdftex.def Info: figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf  u
-sed on input line 30. on input line 30.
+sed on input line 24. on input line 24.
 Package pdftex.def Info: Requested size: 426.79135pt x 131.11586pt on input lin
-e 30.
+e 24.
+
+[12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf>] [14]
+Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_water_cooling_s
+chematic.eps>
+(epstopdf)                    date: 2020-10-06 16:24:24
+(epstopdf)                    size: 58839 bytes
+(epstopdf)             Output file: <Figures/ligo_laser_chapter_water_cooling_s
+chematic-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 17:30:35
+(epstopdf)                    size: 17633 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
+_water_cooling_schematic-eps-converted-to.pdf Figures/ligo_laser_chapter_water_
+cooling_schematic.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf, id=33
+7, pagebox=cropbox, 553.06625pt x 295.1025pt>
+File: Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf G
+raphic file (type pdf)
+<use Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/ligo_laser_chapter_water_cooling_schematic-eps
+-converted-to.pdf  used on input line 46. on input line 46.
+Package pdftex.def Info: Requested size: 426.79135pt x 227.72493pt on input lin
+e 46.
+ [15] [16 <./Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_cooling_pwoer_h
+om.eps>
+(epstopdf)                    date: 2020-10-06 17:33:33
+(epstopdf)                    size: 34649 bytes
+(epstopdf)             Output file: <Figures/ligo_laser_chapter_cooling_pwoer_h
+om-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 17:37:10
+(epstopdf)                    size: 16206 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
+_cooling_pwoer_hom-eps-converted-to.pdf Figures/ligo_laser_chapter_cooling_pwoe
+r_hom.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf, id=360, pag
+ebox=cropbox, 433.62pt x 433.62pt>
+File: Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-conve
+rted-to.pdf  used on input line 58. on input line 58.
+Package pdftex.def Info: Requested size: 426.79135pt x 426.81056pt on input lin
+e 58.
+
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
+ [17]
+[18 <./Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf>]
+[19]
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [20]
 Package epstopdf Info: Source file: <figures/PMC_open_loop_transfer_function.ep
 s>
 (epstopdf)                    date: 2020-01-06 16:45:24
@@ -1354,34 +1413,34 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figures/PMC_open_loop_tran
 sfer_function-eps-converted-to.pdf figures/PMC_open_loop_transfer_function.eps>
 
-(epstopdf)             \includegraphics on input line 47.
+(epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
-<figures/PMC_open_loop_transfer_function-eps-converted-to.pdf, id=236, pagebox=
+<figures/PMC_open_loop_transfer_function-eps-converted-to.pdf, id=426, pagebox=
 cropbox, 484.81125pt x 395.4775pt>
 File: figures/PMC_open_loop_transfer_function-eps-converted-to.pdf Graphic file
  (type pdf)
 <use figures/PMC_open_loop_transfer_function-eps-converted-to.pdf>
 Package pdftex.def Info: figures/PMC_open_loop_transfer_function-eps-converted-
-to.pdf  used on input line 47. on input line 47.
+to.pdf  used on input line 93. on input line 93.
 Package pdftex.def Info: Requested size: 298.75264pt x 243.71506pt on input lin
-e 47.
-<figures/mode_scan_comparisons.png, id=237, 1170.62344pt x 883.04906pt>
+e 93.
+<figures/mode_scan_comparisons.png, id=427, 1170.62344pt x 883.04906pt>
 File: figures/mode_scan_comparisons.png Graphic file (type png)
 <use figures/mode_scan_comparisons.png>
 Package pdftex.def Info: figures/mode_scan_comparisons.png  used on input line 
-53. on input line 53.
+99. on input line 99.
 Package pdftex.def Info: Requested size: 298.75264pt x 225.35643pt on input lin
-e 53.
-) [13 <./figures/E1900168-v3_O4laser_TNT_TableLayout_AOM.pdf>] [14 <./figures/P
-MC_open_loop_transfer_function-eps-converted-to.pdf> <./figures/mode_scan_compa
-risons.png (PNG copy)>] [15]
+e 99.
+)
+[21] [22 <./figures/PMC_open_loop_transfer_function-eps-converted-to.pdf> <./fi
+gures/mode_scan_comparisons.png (PNG copy)>] [23]
 Chapter 3.
-(./Chapters/amplitude_stabilisation_psl.tex [16
+(./Chapters/amplitude_stabilisation_psl.tex [24
 
 ]
 Underfull \vbox (badness 1701) has occurred while \output is active []
 
- [17]
+ [25]
 Package epstopdf Info: Source file: <figures/AOM_stabilisation_noise.eps>
 (epstopdf)                    date: 2019-12-06 02:09:33
 (epstopdf)                    size: 355827 bytes
@@ -1393,7 +1452,7 @@ ted-to.pdf>
 noise-eps-converted-to.pdf figures/AOM_stabilisation_noise.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<figures/AOM_stabilisation_noise-eps-converted-to.pdf, id=286, pagebox=cropbox,
+<figures/AOM_stabilisation_noise-eps-converted-to.pdf, id=466, pagebox=cropbox,
  580.1675pt x 596.2275pt>
 File: figures/AOM_stabilisation_noise-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1413,7 +1472,7 @@ Package epstopdf Info: Source file: <figures/AOM_stabilisation_TF.eps>
 TF-eps-converted-to.pdf figures/AOM_stabilisation_TF.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
-<figures/AOM_stabilisation_TF-eps-converted-to.pdf, id=287, pagebox=cropbox, 58
+<figures/AOM_stabilisation_TF-eps-converted-to.pdf, id=467, pagebox=cropbox, 58
 0.1675pt x 596.2275pt>
 File: figures/AOM_stabilisation_TF-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1423,7 +1482,7 @@ d on input line 49. on input line 49.
 Package pdftex.def Info: Requested size: 298.75264pt x 307.01965pt on input lin
 e 49.
 
-[18] [19 <./figures/AOM_stabilisation_noise-eps-converted-to.pdf>] [20 <./figur
+[26] [27 <./figures/AOM_stabilisation_noise-eps-converted-to.pdf>] [28 <./figur
 es/AOM_stabilisation_TF-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/current_shunt_tfs.eps>
 (epstopdf)                    date: 2020-01-06 16:26:35
@@ -1436,7 +1495,7 @@ Package epstopdf Info: Source file: <figures/current_shunt_tfs.eps>
 eps-converted-to.pdf figures/current_shunt_tfs.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
-<figures/current_shunt_tfs-eps-converted-to.pdf, id=313, pagebox=cropbox, 919.4
+<figures/current_shunt_tfs-eps-converted-to.pdf, id=492, pagebox=cropbox, 919.4
 35pt x 664.4825pt>
 File: figures/current_shunt_tfs-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/current_shunt_tfs-eps-converted-to.pdf>
@@ -1444,25 +1503,30 @@ Package pdftex.def Info: figures/current_shunt_tfs-eps-converted-to.pdf  used o
 n input line 62. on input line 62.
 Package pdftex.def Info: Requested size: 298.75264pt x 215.9137pt on input line
  62.
-<figures/dc_power_all_pd.png, id=314, 554.07pt x 414.8298pt>
+<figures/dc_power_all_pd.png, id=493, 554.07pt x 414.8298pt>
 File: figures/dc_power_all_pd.png Graphic file (type png)
 <use figures/dc_power_all_pd.png>
 Package pdftex.def Info: figures/dc_power_all_pd.png  used on input line 68. on
  input line 68.
 Package pdftex.def Info: Requested size: 298.75264pt x 223.6756pt on input line
  68.
-) (./main.bbl [21 <./figures/current_shunt_tfs-eps-converted-to.pdf>] [22 <./fi
-gures/dc_power_all_pd.png (PNG copy)>] [23
+) (./main.bbl [29 <./figures/current_shunt_tfs-eps-converted-to.pdf>] [30 <./fi
+gures/dc_power_all_pd.png (PNG copy)>] [31
 
-])
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
+ (c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
- [24]
+ [32]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
- (./main.aux)
+
+(./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3D687B2136E84D58DD2D2D634B216CB6;1917.
+(rerunfilecheck)             Checksum: 50D3BC8AD8004420797F089E17180F44;2871.
 
 
 LaTeX Warning: There were undefined references.
@@ -1470,28 +1534,31 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 20618 strings out of 492990
- 381601 string characters out of 6136333
- 528334 words of memory out of 5000000
- 23875 multiletter control sequences out of 15000+600000
- 550618 words of font info for 80 fonts, out of 8000000 for 9000
+ 20705 strings out of 492990
+ 383765 string characters out of 6136333
+ 530680 words of memory out of 5000000
+ 23916 multiletter control sequences out of 15000+600000
+ 550931 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,7n,39p,10357b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
-/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
-sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (24 pages, 895525 bytes).
+/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
+fbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/c
+m-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
+tt1200.pfb>
+Output written on main.pdf (32 pages, 990448 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 495 compressed objects within 5 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
