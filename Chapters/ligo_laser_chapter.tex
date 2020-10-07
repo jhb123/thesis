@@ -37,7 +37,12 @@ The diagnostic bread board (DBB) is able to make intensity noise, frequency nois
 The pre mode cleaner (PMC) is used as the hand-off point between the PSL and the rest of the interferometer. Light transmitted by this cavity is used as the input beam for the interferometer. The PMC is a bow tie cavity with an FSR of 9\,\si{\mega\hertz}, thus it passively filters RF intensity noise. Control side bands are provided after the PMC but before the IMC, meaning that the IMC cannot be used to provide this stabilisation. The PMC is locked to the fundamental mode via a PDH lock, so the beam that is delivered to the rest of the interferometer has a low amount of higher order mode content. This is important as the amplifiers upstream of the PMC produce slightly elliptical beams. The PMC can be considered as a reference point for mode matching, with the intention being that one can work on the PSL and have a set of reference beam parameters to work towards.
 \section{Set up Procedure for the Neovan 4S-HP}
 To ensure that a large portion of the light exiting the amplifier is in the fundamental mode, the alignment, mode matching and polarisation of the input beam must be correctly set. The optimal alignment and mode matching will correspond to the maximum power in the TM00 mode that can be obtained for a given pump diode current, cooling, and input power. This is complicated by thermal lensing effects and by the nature of working with high power beams.
+\subsection{Balancing all variables to maximise power through the PMC}
+There are six variables that will effect the amount of power that is transmitted through the PMC: the flow rate through the amplifiers heads; the input alignment to each amplifier; the mode matching between to each amplifier; the mode matching to the PMC; the alignment to the PMC; the pump diodes current and the polarisation of the light. These are not all independent of each other. For instance, changing the flow rates will change the thermal lensing in the amplifier. This will change the optimal mode matching and alignment to the amplifier. Changing the the pump diode current effects the thermal lensing as well, meaning increasing it doesn't always lead to an improvement in TM00 power.
+\paragraph{}
+The flow rates to the amplifiers should be decided before spending time optimising the alignment and mode matching. Then the alignment, mode matching and pump diodes should be tweaked in tandem. This is an iterative process, and each time the thermal lensing is changed, in order to properly measure the higher order mode content of the beam the DBB mode matching should be updated. This process takes a long time, as each time a change in either the alignment, mode matching or diode current is made, the DBB mode matching needs fixing. Due to the range of tunability on the DBB mode matching lenses, this took a long time.
 \subsection{Flow Rates and Cooling}
+\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11630}{Water flow example.}
 The first thing that should be decided is how the cooling will be done. The flow rates of the coolant to the amplifier affects the the amount of thermal lensing. A balance must be struck between the amount of cooling - more is better - and the amount of jitter that can be potentially introduced to the beam via coolant moving through pipes. Due to the jitter noise experience at the Hanford detector that was due to the water cooling in the PSL, the flow rates will be set as low as possible. 
 \paragraph{}
 The cooling scheme that will be used is shown in Figure \ref{fig:ligolaserchapterwatercoolingschematic}. Flow meters which monitor the flow rate of the coolant will be placed on the return side of the system rather than the supply side. By having the flow meters on the return side, they will measure a drop in flow if there is a leak, allowing for the water supply to be cut. 
@@ -52,13 +57,17 @@ To reduce the amount of thermal lensing in the gain medium of the amplifier, the
 \paragraph{}
 A different cooling layout was used to test what the appropriate flow rates for the amplifiers and diode boxes could be. The diode box and amplifier head were connected in parallel, and each amplifier was on a separate cooling loop. This has the advantage of being able to change the flow rate through each amplifier independently, meaning that the effect of flow rate on the beam quality can be studied for one amplifier. \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11624}{labbok post}
 \paragraph{}
-The flow rate to the first amplifier was kept high to get as a high a quality beam as possible entering the second amplifier. The second amplifier and diode box flow rate was decreased. The temperature of the diode head was monitored. The higher order mode content and was measured with the DBB and the power was measured with a high-power power meter. The results of this are shown in Figure \ref{fig:ligo_laser_chapter_cooling_pwoer_hom}. As the flow rate was decreased, the temperature of the heads increased. At 22.3\si{\celsius}, the flow rate was $2.05\,\rm{L\,min^{-1}}$. The higher order mode content was $\sim 4.5\%$ and the amount of power in the fundamental mode was $\sim127\,\rm{W}$. It was decided that to keep the amount of power in the fundamental mode high, the diode heads would be operated such that their temperature did not rise above $\sim27$\,\si{\celsius}. In this cooling set-up, this temperature corresponded to a flow rate of $0.75\,\rm{L\,min^{-1}}$.
+The flow rate to the first amplifier was kept high to get as a high a quality beam as possible entering the second amplifier. The HOM content for this beam was 2.8\%. The second amplifier and diode box flow rate was decreased. The temperature of the diode head was monitored. The higher order mode content and was measured with the DBB and the power was measured with a high-power power meter. 
+\paragraph{}
+The results of this are shown in Figure \ref{fig:ligo_laser_chapter_cooling_pwoer_hom}. As the flow rate was decreased, the temperature of the heads increased. At 22.3\si{\celsius} the higher order mode content was $\sim 4.5\%$ and the amount of power in the fundamental mode was $\sim127\,\rm{W}$. It was decided that to keep the amount of power in the fundamental mode high, the diode heads would be operated such that their temperature did not rise above $\sim27$\,\si{\celsius}. %In this cooling set-up, this temperature corresponded to a flow rate of $0.75\,\rm{L\,min^{-1}}$.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_cooling_pwoer_hom}
-	\caption{}
+	\caption{As the amplifier heads temperature increases, so does the higher order mode content. The power in the TM00 mode decreases as the temperature decreases due to two effects: less overall power and more higher order modes.}
 	\label{fig:ligo_laser_chapter_cooling_pwoer_hom}
 \end{figure}
+\paragraph{}
+It was decided that the flow rate for the amplifier heads would be set to $0.75\,\rm{L\,min^{-1}}$, as this corresponds to less than 5\% HOM and $\sim 125\si{\watt}$ of power in the TM00 mode. If a lower flow rate was to be used, the temperature of the amplifiers heads would increase such that the power in the TM00 would fall below $125\si{\watt}$. The flow rate to the diode boxes was set to $1\,\rm{L\,min^{-1}}$; this is as low as possible. If it is much lower then there is a run away heating up effect. 
 \subsection{Alignment Procedure}
 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11516}{lab book post}.
 First, the amplifier should be switched off. This protects it against damage as well as preventing the possibility of unknown beams with several tens of Watts of power being in the lab. The beam path between the NPRO and the exit of the first amplifier were inspected to make sure the beam path was clear and terminated with dumps.
@@ -73,10 +82,47 @@ A smaller, faster power meter was used to monitor the power transmitted through 
 \paragraph{}
 A Wincam was set up to monitor the beam profile. If the amplifier is significantly misaligned and mode mismatched, the beam profile will become distorted. Large misalignment will cause the beam profile to look lopsided, and smaller misalignments will cause the beam profile to have shoulders. 
 \paragraph{}
-Once the the amplifier has been optimised for a low pump diode current, the pump diode current should be incremented in small steps of roughly 1-2A. Each time this is done, the thermal lensing will increase. Due to the non-uniform way in which the heating occurs, the input alignment needs to be re-optimised each time as does the input mode-matching. The idea is that by going in small steps of diode current, the optimal alignment can be safely achieved. The amplifier should be operated at high diode currents, $approx 9\si{\ampere}$, so it is not worth spending a huge amount of time perfecting the input alignment and mode-matching at these currents. Its sufficient to be within a few percent of optimal.
-\paragraph{}
-As the thermal lensing of the amplifier changes, the optimal mode matching will as well. As changing the position of the first amplifier's mode matching lens, L02, will cause slight changes in alignment, due to n one should not waste time aligning the input beam perfectly if the input mode matching can be significantly improved. However, the mode matching will change as the pump diode current changes and if the cooling is changed.
+Once the the amplifier has been optimised for a low pump diode current, the pump diode current should be incremented in small steps of roughly 1-2A. Each time this is done, the thermal lensing will increase. Due to the non-uniform way in which the heating occurs, the input alignment needs to be re-optimised each time as does the input mode-matching. The idea is that by going in small steps of diode current, the optimal alignment can be safely achieved. The amplifier should be operated at high diode currents, $\approx 9\si{\ampere}$, so it is not worth spending a huge amount of time perfecting the input alignment and mode-matching at these currents. Its sufficient to be within a few percent of optimal.  
+%\subsection{Optimising Pump Diode Currents}
+%At some point, increasing the pump diode currents will cause the amount of power in the TM00 mode to decrease as the thermal lensing will become too strong. The pump currents used are shown in table \ref{tab:amp_settings}
+%\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11685}{Amp II table post}
+%\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11690}{Amp I}
+%\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11769}{Both}
+%\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11590}{Amp II pre flow rate decrease}
+%\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11694}{Amp I table post}
+%\begin{table}
+%	\centering
+%	\begin{tabular}{|p{25mm}  | p{25mm} | p{25mm} | p{25mm}  | p{25mm}  |}
+%		\hline
+%		Amplifier & Diodes 1 \& 2 Current (A) & Diodes 3 \& 4 Current (A) & Output Power (W) & HOM content (\%) \\
+%		\hline
+%		Amp II & 10.4 & 9.3 & 67 & 4.8\% \\
+%		Amp I & 9.6 & 8.8 & 134 & 7.5\% 
+%	\end{tabular}
+%\caption{Amplifier settings 09/12/2019. Note that some power will be lost due to the required offset for the AOM.}
+%\label{tab:amp_settings}
+%\end{table}
+\section{Output Power}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_power_plot.pdf}
+	\caption{Starting on 14th November 2019}
+	\label{fig:ligolaserchapterpowerplot}
+\end{figure}
 
+\begin{table}
+	\centering
+	\begin{tabular}{|p{25mm}  | p{25mm} | p{25mm} | p{25mm}  | p{25mm}  |}
+		\hline
+		Amplifier & Diodes 1 \& 2 Current (A) & Diodes 3 \& 4 Current (A) & Output Power (W) & HOM content (\%) \\
+		\hline
+		Amp II & 10.4 & 9.3 & 67 & 4.8\% \\
+		Amp I & 9.5 & 9.2 & 137 & 7.5 ??\%  \\
+		\hline
+	\end{tabular}
+\caption{Amp II: settings on 11/11/2019 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11685}{post}. Amp I: settings on 12/11/2019 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11690}{post}}
+\label{tab:amp_settings}
+\end{table}
 \section{Intensity Stabilisation}
 \section{Free Running Noise}
 \subsection{Inner loop and Outer loop}
