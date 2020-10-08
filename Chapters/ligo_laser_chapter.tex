@@ -82,7 +82,9 @@ A smaller, faster power meter was used to monitor the power transmitted through 
 \paragraph{}
 A Wincam was set up to monitor the beam profile. If the amplifier is significantly misaligned and mode mismatched, the beam profile will become distorted. Large misalignment will cause the beam profile to look lopsided, and smaller misalignments will cause the beam profile to have shoulders. 
 \paragraph{}
-Once the the amplifier has been optimised for a low pump diode current, the pump diode current should be incremented in small steps of roughly 1-2A. Each time this is done, the thermal lensing will increase. Due to the non-uniform way in which the heating occurs, the input alignment needs to be re-optimised each time as does the input mode-matching. The idea is that by going in small steps of diode current, the optimal alignment can be safely achieved. The amplifier should be operated at high diode currents, $\approx 9\si{\ampere}$, so it is not worth spending a huge amount of time perfecting the input alignment and mode-matching at these currents. Its sufficient to be within a few percent of optimal.  
+Once the the amplifier has been optimised for a low pump diode current, the pump diode current should be incremented in small steps of roughly 1-2A. Each time this is done, the thermal lensing will increase. Due to the non-uniform way in which the heating occurs, the input alignment needs to be re-optimised each time as does the input mode-matching. The idea is that by going in small steps of diode current, the optimal alignment can be safely achieved. The amplifier should be operated at high diode currents, $\approx 9\si{\ampere}$, so it is not worth spending a huge amount of time perfecting the input alignment and mode-matching at these currents. Its sufficient to be within a 1\% of optimal. 
+\paragraph{}
+Using mode scans from the DBB, one can determine when the alignment to the amplifier is optimal. Since the beam from the amplifier will have a few percent of higher order modes due to thermal lensing, optimising the mode matching from the amplifier to the DBB is difficult. When optimisng the pump diode currents, the thermal lensing changes, so the mode matching to the DBB needs to be corrected for this. 
 %\subsection{Optimising Pump Diode Currents}
 %At some point, increasing the pump diode currents will cause the amount of power in the TM00 mode to decrease as the thermal lensing will become too strong. The pump currents used are shown in table \ref{tab:amp_settings}
 %\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11685}{Amp II table post}
@@ -105,7 +107,7 @@ Once the the amplifier has been optimised for a low pump diode current, the pump
 \section{Output Power}
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_power_plot.pdf}
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_power_plot.eps}
 	\caption{Starting on 14th November 2019}
 	\label{fig:ligolaserchapterpowerplot}
 \end{figure}
@@ -123,29 +125,90 @@ Once the the amplifier has been optimised for a low pump diode current, the pump
 \caption{Amp II: settings on 11/11/2019 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11685}{post}. Amp I: settings on 12/11/2019 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11690}{post}}
 \label{tab:amp_settings}
 \end{table}
+\clearpage
 \section{Intensity Stabilisation}
-\section{Free Running Noise}
-\subsection{Inner loop and Outer loop}
-\subsection{Inner loop requirements}
-\subsection{Inner loop sensors}
-\subsection{Actuators}
+\href{https://link.springer.com/article/10.1007/s00340-011-4399-1}{Read this! }
+%\subsection{Intensity Stabilisation Concept}
+The PSL must provide intensity stabilised light to the interferometer. The intensity stabilisation of the laser is done in two stages. Before the the IMC is locked, the laser is stabilised by the inner loop to a level required to the lock the IMC. The light used to measure the intensity noise is a small pick-off beam that is transmitted by the PMC. There is $\sim1\,\si{\milli\watt}$ of light in this beam, so the laser cannot be stabilised beyond $\sim2\times10^{-8} \sqrt{\rm{Hz}}^{-1/2}$ with this beam. Once the IMC is locked, a pick-off from the beam entering the interferometer is used to measure the intensity noise of the laser. This beam has enough power to reach the $\sim1\times10^{-9}$ shot noise requirement. As the inner-loop is in-air and is based on rigidly mounted optics, it is unable to remove noise associated with vibrating mounts.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_ISS_concept}
+	\caption{ISS concept}
+	\label{fig:ligolaserchapterissconcept}
+\end{figure}
+\subsection{Actuator}
+The actuator that will be used to provide intensity stabilisation is an AOM. The use of a current shunt integrated into one of the pump diodes for Amp I was investigated as this has the potential to reduce the number of transmissive high power optics.
 \subsubsection{AOM}
+The AOM used is a Crystal Technology 3080-199. An AOM uses a acoustic waves to scatter light into higher order modes. The amount of light that is bragg scattered depends on the intensity of the the acoustic wave. To control the intensity of the acoustic wave an RF driver, gooch and housego r21080-2am-rfx, was used. This driver produces an 80\,MHz signal whose power can be modulated. By modulating the power of this signal, the power in the zeroth order beam can be controlled. The diffraction efficiency of this AOM was found to be 74\%. This means that the AOM can be used for coarse and fine power adjustment. In order to modulate the intensity of a laser beam, some of it must always be scattered into the first order beam. In order to operate linearly, the DC level of the light that is dumped should be about 10\si{\watt}. 
+\paragraph{}
+The transfer function between the amplifier power control of the AOM and the intensity of the zeroth order beam as measured by the ISS photodiode is shown in figure \ref{fig:ligolaserchapteraomtransferfunction}. The schematic for this measurement is shown in Figure \ref{fig:ligolaserchapteraomtfmeasurement}. The signal needs to be linearised before going to the RF amplifier. The transfer function is shown in relative intensity units, i.e. the response was divided by the DC power on the photodiode. This transfer function is flat from 1\si{\hertz} to 100\si{\kilo\hertz}, and above 10\si{\kilo\hertz} there is some phase lag. 
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_AOM_TF_measurement}
+	\caption{}
+	\label{fig:ligolaserchapteraomtfmeasurement}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_AOM_transfer_function}
+	\caption{}
+	\label{fig:ligolaserchapteraomtransferfunction}
+\end{figure}
 \subsubsection{Current Shunt}
+Modulating the current through a laser diode will modulate the intensity of the laser. This is a standard way of implementing intensity control at the 10\si{\watt} level \cite{Abbott2001,Barr2005,Rollins2004,Zawischa2002,Nocera2004}. Using a current shunt as an intensity actuator has been demonstrated in a similar system at the 100\si{\watt} level \cite{Thies2019}.
+\paragraph{}
+The pump diodes current for the laser amplifier heads control the amount of power produced by the amplifier. By modulating the current through them, the power of the laser can be controlled. The current shunt diverts current from the pump diode by pulling it through resistor. This is controlled by a power transistor. 
+\paragraph{}
+The current shunt technique allows for one to have fewer transmissive high power optics in the beam path, which potentially can reduce noise and thermal distortions of the beam. It requires a smaller DC offset compared to an AOM in order for it to work. 
+\paragraph{}
+The transfer function between the diode current input and the ISS photodiode in transmission of the PMC was measured for a variety of different pump diode operating currents. A sketch of this is shown in figure \ref{fig:ligolaserchaptercstfmeasurement}. The transfer function was found to have significant amounts of variation in gain and phase between 1\si{\hertz}-100\si{\kilo\hertz}. It was found that the behaviour of the actuator at low frequencies strongly depended on the DC pump diode current. However, above 10\si{\kilo\hertz} the transfer function was less dependant on the DC pump diode current. This is good, as the unity gain point of the intensity stabilisation servo will be between 10-100\si{\kilo\hertz}, so the servo is more robust to changes in pump diode current. Figure \ref{fig:ligolaserchaptercurrentshunttf} shows the transfer function, in relative intensity units, for the current shunt actuator with a variety of different current shunt offsets. The AOM is a much stronger actuator that the current shunt, by roughly 30 dB. This can be compensated for by changing the servo electronics.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_CS_TF_measurement}
+	\caption{}
+	\label{fig:ligolaserchaptercstfmeasurement}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{ligo_laser_chapter_current_shunt_tf}
+	\caption{}
+	\label{fig:ligolaserchaptercurrentshunttf}
+\end{figure}
+\subsubsection{Reasoning for using the AOM over the Current Shunt}
+While the current shunt offers many advantages over the AOM, it has a major drawback: it cannot reduce the power at the many tens of Watts level. In order to do this, high power attenuation optics would be required, which means putting transmissive optics back in the beam bath and thus undoing the plus points gained by using a current shunt. When the LIGO detectors are able to operate at full power, then the current shunt actuator would be worth revisiting, however at present LIGO operates with between 25-50\si{\watt} of input power from the PSL.
+\subsection{Inner loop Servo Electronics}
+
+
+
 \subsection{Performance of Intensity stabilisation}
-\section{Frequency Noise}
-Need to put together the measurements for frequency noise.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{figures/PMC_open_loop_transfer_function}
-	\caption{Open loop gain of frequency stabilisation loop}
-	\label{fig:pmcopenlooptransferfunction}
+	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_open_loop_transfer_function}
+	\caption{}
+	\label{fig:ligolaserchapteropenlooptransferfunction}
 \end{figure}
+
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{figures/mode_scan_comparisons}
-	\caption{Flow rates affecting the thermal lensing, resulting in increased ellipticity}
-	\label{fig:modescancomparisons}
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_AOM_stabilisation_noise}
+	\caption{}
+	\label{fig:ligolaserchapteraomstabilisationnoise}
 \end{figure}
+
+%\section{Frequency Noise}
+%Need to put together the measurements for frequency noise.
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{figures/PMC_open_loop_transfer_function}
+%	\caption{Open loop gain of frequency stabilisation loop}
+%	\label{fig:pmcopenlooptransferfunction}
+%\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{figures/mode_scan_comparisons}
+%	\caption{Flow rates affecting the thermal lensing, resulting in increased ellipticity}
+%	\label{fig:modescancomparisons}
+%\end{figure}
 
 \section{Conclusion}
 summary of how much power for how long, and how it could be improved slightly with mode matching
