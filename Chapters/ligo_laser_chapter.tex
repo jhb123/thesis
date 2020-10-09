@@ -21,8 +21,8 @@ It is useful to diagnose the PSL remotely, so a diagnostic breadboard (DBB) \cit
 \section{Set-up and Layout}
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{figures/E1900168-v3_O4laser_TNT_TableLayout_AOM}
-	\caption{e1900168. Layout placeholder}
+	\includegraphics[width=0.75\linewidth]{figures/ligo_laser_chapter_intensity_noise_measurement_sketch.eps}
+	\caption{Sketch of PSL}
 	\label{fig:e1900168-v3o4lasertnttablelayoutaom}
 \end{figure}
 \subsection{Concept}
@@ -107,7 +107,7 @@ Using mode scans from the DBB, one can determine when the alignment to the ampli
 \section{Output Power}
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_power_plot.eps}
+	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_power_plot.eps}
 	\caption{Starting on 14th November 2019}
 	\label{fig:ligolaserchapterpowerplot}
 \end{figure}
@@ -129,6 +129,8 @@ Using mode scans from the DBB, one can determine when the alignment to the ampli
 \section{Intensity Stabilisation}
 \href{https://link.springer.com/article/10.1007/s00340-011-4399-1}{Read this! }
 %\subsection{Intensity Stabilisation Concept}
+The intensity noise requirement for the PSL is found in \cite{PSL_requirements}. At low frequencies, the requirement is driven by the need for the intensity noise to be less than the radiation pressure noise induced by the differences in the arm powers. At 10\,Hz, the laser must be stabilised to a level of $\sim1\times10^{-9}$. Above 10\,Hz, the requirement on the intensity noise is relaxed as there is passive filtering of the light by the PRC. The light is passively stabilised by the PMC to provide the required RF intensity noise.
+\paragraph{}
 The PSL must provide intensity stabilised light to the interferometer. The intensity stabilisation of the laser is done in two stages. Before the the IMC is locked, the laser is stabilised by the inner loop to a level required to the lock the IMC. The light used to measure the intensity noise is a small pick-off beam that is transmitted by the PMC. There is $\sim1\,\si{\milli\watt}$ of light in this beam, so the laser cannot be stabilised beyond $\sim2\times10^{-8} \sqrt{\rm{Hz}}^{-1/2}$ with this beam. Once the IMC is locked, a pick-off from the beam entering the interferometer is used to measure the intensity noise of the laser. This beam has enough power to reach the $\sim1\times10^{-9}$ shot noise requirement. As the inner-loop is in-air and is based on rigidly mounted optics, it is unable to remove noise associated with vibrating mounts.
 \begin{figure}
 	\centering
@@ -136,6 +138,24 @@ The PSL must provide intensity stabilised light to the interferometer. The inten
 	\caption{ISS concept}
 	\label{fig:ligolaserchapterissconcept}
 \end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_iss_requirement}
+	\caption{ISS concept}
+	\label{fig:ligolaserchapterissrequirement}
+\end{figure}
+\subsection{Free Running Noise of the TnT Prototype PSL}
+The power noise of the NPRO was measured using the DBB RIN photodiode (Figure \ref{fig:ligolaserchapterfrn}). The TnT NPRO displays a typical noise level that would be expected for this type of laser \cite{Heurs2004}. This was recorded via CDS, so the measurements near 10\,\si{\kilo\hertz} are effects by the anti-aliasing filter. The noise between 100\si{\hertz} and 1\si{\kilo\hertz} has features associated with the motion of the table and the mirror mounts.
+\paragraph{}
+The power noise of Amp II and Amp I were measured using the DBB photodiode, however the noise was measured via a spectrum analyser rather than CDS, allowing for measurements at higher frequencies (Figure \ref{fig:ligolaserchapterfrn}). The noise of these amplifiers is at a similar level to the NPRO. When the amplifiers are saturated, they produce coherent radiation. This means that if the seed laser changes in power, the amplifiers power will change along with it. The amplifiers are linear for these small power fluctuations, and so the noise \emph{should} be dominated by NPRO noise. However, additional noise is introduced. As there are additional components in the beam path for amp I and amp II compared to the NPRO, there are more lines associated with them between  100\si{\hertz} and 10\si{\kilo\hertz}. However, the noise of the amplifiers is covered in a forest of lines that are spaced 4\si{\hertz}, starting from  4\si{\hertz} and continuing up to high frequency. These lines were found to originate in the Beckhoff slow control computer which is used as an interface for the amplifiers. To remove these lines, this control computer needs better electrical isolation between its digital and analogue sections. There are also peaks at 20\si{\hertz}, which can be attributed to the air conditioning. The second amplifier havs lower noise at high frequencies than the first amplifier since the DC gain of the amplifier is not the same as its frequency dependent gain.
+\paragraph{}
+The noise of the laser after the beam is transmitted through the PMC was measured (Figure \ref{fig:ligolaserchapterfrn}). The PMC introduces length to intensity noise coupling via the offset in the PDH loop. This offset changes due to changing levels of RF coupling in the PMC servo electronics. As there was constant activity in the lab, this pick up changed - even moving a wire can cause a different amount of RF coupling. The coupling from length noise of the PMC to intensity noise as much as possible.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_FRN.pdf}
+	\caption{}
+	\label{fig:ligolaserchapterfrn}
+\end{figure} 
 \subsection{Actuator}
 The actuator that will be used to provide intensity stabilisation is an AOM. The use of a current shunt integrated into one of the pump diodes for Amp I was investigated as this has the potential to reduce the number of transmissive high power optics.
 \subsubsection{AOM}
@@ -176,25 +196,32 @@ The transfer function between the diode current input and the ISS photodiode in 
 \end{figure}
 \subsubsection{Reasoning for using the AOM over the Current Shunt}
 While the current shunt offers many advantages over the AOM, it has a major drawback: it cannot reduce the power at the many tens of Watts level. In order to do this, high power attenuation optics would be required, which means putting transmissive optics back in the beam bath and thus undoing the plus points gained by using a current shunt. When the LIGO detectors are able to operate at full power, then the current shunt actuator would be worth revisiting, however at present LIGO operates with between 25-50\si{\watt} of input power from the PSL.
-\subsection{Inner loop Servo Electronics}
-
-
-
-\subsection{Performance of Intensity stabilisation}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_open_loop_transfer_function}
-	\caption{}
-	\label{fig:ligolaserchapteropenlooptransferfunction}
-\end{figure}
-
+\subsection{Stabilised Noise Measurement}
+The loop is required to suppress the free running noise of the laser after the PMC, shown in Figure \ref{fig:ligolaserchapterfrn}, to the inner loop requirement, shown in Figure \ref{fig:ligolaserchapterissrequirement}. Therefore, the unity gain point of this servo must be above 10\,\si{\kilo\hertz}. At 10\,\si{\hertz}, the noise requirement is $2\times10^{-8} 1/\sqrt{\rm{Hz}}$ and the noise is $2\times10^{-5} 1/\sqrt{\rm{Hz}}$, so there needs to be at least 60\,dB of open loop gain at this frequency.
+\paragraph{}
+The stabilised laser noise is shown in Figure \ref{fig:ligolaserchapteraomstabilisationnoise}. The out of loop noise was measured on the `spare' ISS photodiode. A noise budget was created using the measured noise in the loop and the shot noise level of the light used to stabilise the laser. This agrees with the out of loop noise measurement to 10\si{\hertz}. Below 10\si{\hertz}, there is excess noise in the out of loop measurement compared to the noise budget. Possible sources of this noise could be scattered light or dust falling through the ISS beam. Near the unity gain point, due to the open loop transfer function phase and gain, there is a small increase in the stabilised noise compared to the free running noise, however this is out of the requirement frequency band.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_AOM_stabilisation_noise}
 	\caption{}
 	\label{fig:ligolaserchapteraomstabilisationnoise}
 \end{figure}
-
+\subsubsection{Open Loop Transfer function Measurement}
+A sketch of the servo is shown in Figure \ref{fig:ligolaserchapteroltfmeasurement}. The servo features two circuits that add shaping; these are found built into the photodiode circuit and within the rack electronics \textcolor{red}{why..?}. The rack electronics allow for the servo to be controlled via CDS. This gives the user the ability to turn the servo on/off, to vary the overall gain and activate integrators. 
+\paragraph{}
+To measure the open loop transfer function, a swept sine into a times one adding stage of the servo. The signal at the other input to this stage was measured, and the signal immediately after this stage was measured. The ratio of these two gives the open loop transfer function of the servo. For this measurement, the gain in CDS was set to 20\,dB. Once the intensity stabilisation was activated, the integrators were engaged to increase the open loop gain at low frequencies. The light transmitted through the PMC was 100\,W. The open loop transfer function is shown in figure \ref{fig:ligolaserchapteropenlooptransferfunction}. The unity gain point is at 48\,\si{\kilo\hertz} with $\sim 70\si{\degree}$ of phase margin. This servo satisfies the requirements.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_OL_TF_measurement}
+	\caption{}
+	\label{fig:ligolaserchapteroltfmeasurement}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_open_loop_transfer_function}
+	\caption{}
+	\label{fig:ligolaserchapteropenlooptransferfunction}
+\end{figure}
 %\section{Frequency Noise}
 %Need to put together the measurements for frequency noise.
 %\begin{figure}
