@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg32035"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="ligo_laser_chapter_frequency_noise_measurement_maths_sketch.svg">
+  <defs
+     id="defs32029">
+    <radialGradient
+       id="radialGradient4802"
+       cx="14.5474"
+       cy="14.5483"
+       r="14.1729"
+       fx="14.5474"
+       fy="14.5483"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.0056"
+         style="stop-color:#A0A0A0"
+         id="stop4762" />
+      <stop
+         offset="0.2268"
+         style="stop-color:#A3A3A3"
+         id="stop4764" />
+      <stop
+         offset="0.3952"
+         style="stop-color:#ADADAD"
+         id="stop4766" />
+      <stop
+         offset="0.5462"
+         style="stop-color:#BDBDBD"
+         id="stop4768" />
+      <stop
+         offset="0.6869"
+         style="stop-color:#D4D4D4"
+         id="stop4770" />
+      <stop
+         offset="0.8195"
+         style="stop-color:#F1F1F1"
+         id="stop4772" />
+      <stop
+         offset="0.8708"
+         style="stop-color:#FFFFFF"
+         id="stop4774" />
+      <stop
+         offset="0.8855"
+         style="stop-color:#FAFAFA"
+         id="stop4776" />
+      <stop
+         offset="0.9032"
+         style="stop-color:#EBEBEC"
+         id="stop4778" />
+      <stop
+         offset="0.9227"
+         style="stop-color:#D3D2D4"
+         id="stop4780" />
+      <stop
+         offset="0.9433"
+         style="stop-color:#B2B0B3"
+         id="stop4782" />
+      <stop
+         offset="0.9648"
+         style="stop-color:#878489"
+         id="stop4784" />
+      <stop
+         offset="0.9867"
+         style="stop-color:#534F56"
+         id="stop4786" />
+      <stop
+         offset="1"
+         style="stop-color:#302B33"
+         id="stop4788" />
+      <a:midPointStop
+         offset="0.0056"
+         style="stop-color:#A0A0A0" />
+      <a:midPointStop
+         offset="0.7597"
+         style="stop-color:#A0A0A0" />
+      <a:midPointStop
+         offset="0.8708"
+         style="stop-color:#FFFFFF" />
+      <a:midPointStop
+         offset="0.6667"
+         style="stop-color:#FFFFFF" />
+      <a:midPointStop
+         offset="1"
+         style="stop-color:#302B33" />
+    </radialGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="174.23788"
+     inkscape:cy="887.67791"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1203"
+     inkscape:window-height="755"
+     inkscape:window-x="2095"
+     inkscape:window-y="147"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32580" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata32032">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 15.941817,53.591686 h 11.90625"
+       id="path32582"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g32789"
+       transform="translate(-0.07516956,0.03340869)">
+      <circle
+         r="1.1251509"
+         cy="53.563763"
+         cx="29.170984"
+         id="path32715"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.36500001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="29.117598"
+       y="54.279186"
+       id="text32719"><tspan
+         sodipodi:role="line"
+         id="tspan32717"
+         x="29.117598"
+         y="56.827179"
+         style="stroke-width:0.26458332" /></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.36500001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect32721"
+       width="7.9375"
+       height="5.2916665"
+       x="35.71875"
+       y="50.9375"
+       ry="0.26458332" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="39.636082"
+       y="54.094273"
+       id="text32725"><tspan
+         sodipodi:role="line"
+         id="tspan32723"
+         x="39.636082"
+         y="54.094273"
+         style="font-size:2.82222223px;stroke-width:0.26458332">Optics</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.36500001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect32721-0"
+       width="14.552081"
+       height="5.2916679"
+       x="48.947918"
+       y="50.9375"
+       ry="0.26458332" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="56.091286"
+       y="54.372303"
+       id="text32725-8"><tspan
+         sodipodi:role="line"
+         id="tspan32723-3"
+         x="56.091286"
+         y="54.372303"
+         style="stroke-width:0.26458332">Electronics</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 30.3018,53.583334 h 5.291667"
+       id="path32748"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.36500001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect32721-3"
+       width="6.6145835"
+       height="5.2916665"
+       x="44.979168"
+       y="61.520836"
+       ry="0.26458332" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="48.106152"
+       y="64.968491"
+       id="text32771"><tspan
+         sodipodi:role="line"
+         id="tspan32769"
+         x="48.106152"
+         y="64.968491"
+         style="stroke-width:0.26458332">PZT</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 43.656249,53.583334 h 5.291667"
+       id="path32773"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 63.499999,53.583334 h 7.9375"
+       id="path32780"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 67.468749,53.583334 v 10.583333 h -15.875"
+       id="path32782"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 44.979166,64.166667 h -15.875 v -9.260416"
+       id="path32784"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 28.499831,53.583334 h 1.322917"
+       id="path32786"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="17.785843"
+       y="52.006577"
+       id="text32793"><tspan
+         sodipodi:role="line"
+         id="tspan32791"
+         x="17.785843"
+         y="52.006577"
+         style="stroke-width:0.26458332">Laser frequency</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="27.821543"
+       y="66.678864"
+       id="text32797"><tspan
+         sodipodi:role="line"
+         id="tspan32795"
+         x="27.821543"
+         y="66.678864"
+         style="stroke-width:0.26458332">Cavity Frequency</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="78.335571"
+       y="53.77232"
+       id="text32801"><tspan
+         sodipodi:role="line"
+         id="tspan32799"
+         x="78.335571"
+         y="53.77232"
+         style="stroke-width:0.26458332">PZT signal</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.365,0.73;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect32810"
+       width="30.427082"
+       height="7.9375"
+       x="34.395832"
+       y="49.614582"
+       ry="0.26458332" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="48.587307"
+       y="48.959839"
+       id="text32814"><tspan
+         sodipodi:role="line"
+         id="tspan32812"
+         x="48.587307"
+         y="48.959839"
+         style="stroke-width:0.26458332">G</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="47.838882"
+       y="69.338127"
+       id="text32818"><tspan
+         sodipodi:role="line"
+         id="tspan32816"
+         x="47.838882"
+         y="69.338127"
+         style="stroke-width:0.26458332">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="25.376499"
+       y="55.721489"
+       id="text32822"><tspan
+         sodipodi:role="line"
+         id="tspan32820"
+         x="25.376499"
+         y="55.721489"
+         style="stroke-width:0.26458332">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="27.78125"
+       y="58.420708"
+       id="text32826"><tspan
+         sodipodi:role="line"
+         id="tspan32824"
+         x="27.78125"
+         y="58.420708"
+         style="stroke-width:0.26458332">b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="69.125748"
+       y="55.668102"
+       id="text32830"><tspan
+         sodipodi:role="line"
+         id="tspan32828"
+         x="69.125748"
+         y="55.668102"
+         style="stroke-width:0.26458332">c</tspan></text>
+  </g>
+</svg>

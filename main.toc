@@ -2,54 +2,59 @@
 \contentsline {chapter}{\numberline {2}High Power Laser Prototype for LIGO}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
 \contentsline {paragraph}{}{10}{section*.5}
-\contentsline {section}{\numberline {2.2}Properties of the LIGO PSL}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Intensity}{10}{subsection.2.2.1}
-\contentsline {paragraph}{}{11}{section*.6}
-\contentsline {subsection}{\numberline {2.2.2}Frequency}{11}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Beam Shape}{11}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Pointing}{12}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Polarisation}{12}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Other Aspects of the PSL}{12}{subsection.2.2.6}
-\contentsline {section}{\numberline {2.3}Set-up and Layout}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Concept}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}NPRO}{14}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Neovan 4S-HP solid-state Amplifier}{14}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Diagnostic Bread Board}{15}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}PMC}{15}{subsection.2.3.5}
-\contentsline {section}{\numberline {2.4}Set up Procedure for the Neovan 4S-HP}{15}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Balancing all variables to maximise power through the PMC}{16}{subsection.2.4.1}
-\contentsline {paragraph}{}{16}{section*.8}
-\contentsline {subsection}{\numberline {2.4.2}Flow Rates and Cooling}{17}{subsection.2.4.2}
-\contentsline {paragraph}{}{17}{section*.9}
-\contentsline {paragraph}{}{17}{section*.11}
-\contentsline {paragraph}{}{17}{section*.12}
-\contentsline {paragraph}{}{19}{section*.13}
-\contentsline {paragraph}{}{19}{section*.14}
-\contentsline {paragraph}{}{19}{section*.16}
-\contentsline {subsection}{\numberline {2.4.3}Alignment Procedure}{19}{subsection.2.4.3}
-\contentsline {paragraph}{}{21}{section*.17}
-\contentsline {paragraph}{}{21}{section*.18}
-\contentsline {paragraph}{}{21}{section*.19}
-\contentsline {paragraph}{}{22}{section*.20}
+\contentsline {paragraph}{}{10}{section*.6}
+\contentsline {section}{\numberline {2.2}Overview of the LIGO PSL}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Concept}{11}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}NPRO}{11}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Neovan 4S-HP solid-state Amplifier}{11}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.3}PMC}{12}{subsubsection.2.2.1.3}
+\contentsline {subsection}{\numberline {2.2.2}Prototype Layout}{12}{subsection.2.2.2}
+\contentsline {paragraph}{}{14}{section*.9}
+\contentsline {paragraph}{}{14}{section*.10}
+\contentsline {paragraph}{}{14}{section*.11}
+\contentsline {paragraph}{}{15}{section*.12}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Diagnostic Bread Board}{15}{subsubsection.2.2.2.1}
+\contentsline {section}{\numberline {2.3}Set up Procedure for the Neovan 4S-HP}{19}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Balancing all variables to maximise power through the PMC}{19}{subsection.2.3.1}
+\contentsline {paragraph}{}{19}{section*.17}
+\contentsline {subsection}{\numberline {2.3.2}Flow Rates and Cooling}{20}{subsection.2.3.2}
+\contentsline {paragraph}{}{20}{section*.18}
+\contentsline {paragraph}{}{20}{section*.20}
 \contentsline {paragraph}{}{22}{section*.21}
 \contentsline {paragraph}{}{22}{section*.22}
 \contentsline {paragraph}{}{22}{section*.23}
-\contentsline {section}{\numberline {2.5}Output Power}{23}{section.2.5}
-\contentsline {section}{\numberline {2.6}Intensity Stabilisation}{25}{section.2.6}
-\contentsline {paragraph}{}{25}{section*.26}
-\contentsline {subsection}{\numberline {2.6.1}Free Running Noise of the TnT Prototype PSL}{25}{subsection.2.6.1}
-\contentsline {paragraph}{}{27}{section*.29}
-\contentsline {paragraph}{}{27}{section*.30}
-\contentsline {subsection}{\numberline {2.6.2}Actuator}{28}{subsection.2.6.2}
-\contentsline {subsubsection}{\numberline {2.6.2.1}AOM}{29}{subsubsection.2.6.2.1}
-\contentsline {paragraph}{}{29}{section*.32}
-\contentsline {subsubsection}{\numberline {2.6.2.2}Current Shunt}{29}{subsubsection.2.6.2.2}
-\contentsline {paragraph}{}{30}{section*.35}
-\contentsline {paragraph}{}{30}{section*.36}
-\contentsline {paragraph}{}{32}{section*.37}
-\contentsline {subsubsection}{\numberline {2.6.2.3}Reasoning for using the AOM over the Current Shunt}{34}{subsubsection.2.6.2.3}
-\contentsline {subsection}{\numberline {2.6.3}Stabilised Noise Measurement}{34}{subsection.2.6.3}
-\contentsline {paragraph}{}{34}{section*.40}
-\contentsline {subsubsection}{\numberline {2.6.3.1}Open Loop Transfer function Measurement}{35}{subsubsection.2.6.3.1}
-\contentsline {paragraph}{}{36}{section*.42}
-\contentsline {section}{\numberline {2.7}Conclusion}{38}{section.2.7}
+\contentsline {paragraph}{}{22}{section*.25}
+\contentsline {subsection}{\numberline {2.3.3}Alignment Procedure}{24}{subsection.2.3.3}
+\contentsline {paragraph}{}{24}{section*.26}
+\contentsline {paragraph}{}{24}{section*.27}
+\contentsline {paragraph}{}{24}{section*.28}
+\contentsline {paragraph}{}{25}{section*.29}
+\contentsline {paragraph}{}{25}{section*.30}
+\contentsline {paragraph}{}{25}{section*.31}
+\contentsline {paragraph}{}{26}{section*.32}
+\contentsline {section}{\numberline {2.4}Output Power}{26}{section.2.4}
+\contentsline {section}{\numberline {2.5}Intensity Stabilisation}{26}{section.2.5}
+\contentsline {paragraph}{}{28}{section*.35}
+\contentsline {subsection}{\numberline {2.5.1}Free Running Noise of the TnT Prototype PSL}{28}{subsection.2.5.1}
+\contentsline {paragraph}{}{29}{section*.38}
+\contentsline {paragraph}{}{30}{section*.39}
+\contentsline {subsection}{\numberline {2.5.2}Actuator}{30}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}AOM}{30}{subsubsection.2.5.2.1}
+\contentsline {paragraph}{}{32}{section*.41}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Current Shunt}{32}{subsubsection.2.5.2.2}
+\contentsline {paragraph}{}{32}{section*.44}
+\contentsline {paragraph}{}{33}{section*.45}
+\contentsline {paragraph}{}{33}{section*.46}
+\contentsline {subsubsection}{\numberline {2.5.2.3}Reasoning for using the AOM over the Current Shunt}{35}{subsubsection.2.5.2.3}
+\contentsline {subsection}{\numberline {2.5.3}Stabilised Noise Measurement}{37}{subsection.2.5.3}
+\contentsline {paragraph}{}{37}{section*.49}
+\contentsline {subsubsection}{\numberline {2.5.3.1}Open Loop Transfer function Measurement}{37}{subsubsection.2.5.3.1}
+\contentsline {paragraph}{}{39}{section*.51}
+\contentsline {section}{\numberline {2.6}Pointing}{39}{section.2.6}
+\contentsline {paragraph}{}{39}{section*.54}
+\contentsline {paragraph}{}{40}{section*.56}
+\contentsline {section}{\numberline {2.7}Frequency Noise}{43}{section.2.7}
+\contentsline {paragraph}{}{43}{section*.57}
+\contentsline {paragraph}{}{43}{section*.58}
+\contentsline {paragraph}{}{44}{section*.59}
+\contentsline {section}{\numberline {2.8}Conclusion}{49}{section.2.8}

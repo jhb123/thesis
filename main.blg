@@ -5,45 +5,47 @@ The style file: unsrt.bst
 Database file #1: C:/bibliography/bibliography.bib
 Warning--entry type for "new_pmc_T1700543" isn't style-file defined
 --line 4247 of file C:/bibliography/bibliography.bib
-You've used 18 entries,
+Warning--entry type for "PSL_pointing_requirement" isn't style-file defined
+--line 4387 of file C:/bibliography/bibliography.bib
+You've used 20 entries,
             1791 wiz_defined-function locations,
-            570 strings with 6806 characters,
-and the built_in function-call counts, 4031 in all, are:
-= -- 306
-> -- 260
+            583 strings with 7136 characters,
+and the built_in function-call counts, 4382 in all, are:
+= -- 332
+> -- 278
 < -- 0
-+ -- 94
-- -- 76
-* -- 347
-:= -- 695
-add.period$ -- 54
-call.type$ -- 18
-change.case$ -- 16
++ -- 101
+- -- 81
+* -- 369
+:= -- 752
+add.period$ -- 60
+call.type$ -- 20
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 142
-empty$ -- 366
-format.name$ -- 76
-if$ -- 842
+cite$ -- 20
+duplicate$ -- 156
+empty$ -- 405
+format.name$ -- 81
+if$ -- 919
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 12
-newline$ -- 93
-num.names$ -- 18
-pop$ -- 41
+int.to.str$ -- 20
+missing$ -- 13
+newline$ -- 103
+num.names$ -- 20
+pop$ -- 50
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 55
+skip$ -- 61
 stack$ -- 0
-substring$ -- 217
-swap$ -- 18
+substring$ -- 229
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 34
-width$ -- 20
-write$ -- 194
-(There was 1 warning)
+while$ -- 37
+width$ -- 22
+write$ -- 214
+(There were 2 warnings)
