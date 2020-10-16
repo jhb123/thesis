@@ -13,11 +13,73 @@ the LIGO Scientific~Collaboration.
 \newblock Instrument science white paper 2019.
 \newblock LIGO internal document LIGO-T1900409–v3.
 
-\bibitem{spencer_thesis}
-Andrew~P. Spencer.
-\newblock {\em Advanced Techniques in Laser Interferometryfor Current and
-  Future Gravitational WaveDetectors}.
-\newblock PhD thesis, University of Glasgow, August 2019.
+\bibitem{Shcherbakov2013}
+E.~A. Shcherbakov, V.~V. Fomin, A.~A. Abramov, A.~A. Ferin, D.~V. Mochalov, and
+  V.~P. Gapontsev.
+\newblock Industrial grade 100 {kW} power {CW} fiber laser.
+\newblock In {\em Advanced Solid-State Lasers Congress}. {OSA}, 2013.
+
+\bibitem{Lee2019}
+Junsu Lee, Kwang~Hyun Lee, Hwanseong Jeong, Minkyu Park, Ji~Hoon Seung, and
+  Jung~Hwan Lee.
+\newblock 205{\hspace{0.167em}}{\hspace{0.167em}}{kW} all-fiber
+  high-beam-quality fiber amplifier with stimulated brillouin scattering
+  suppression incorporating a narrow-linewidth fiber-bragg-grating-stabilized
+  laser diode seed source.
+\newblock {\em Applied Optics}, 58(23):6251, aug 2019.
+
+\bibitem{Huang2019}
+Yusheng Huang, Ping Yan, Zehui Wang, Jiading Tian, Dan Li, Qirong Xiao, and
+  Mali Gong.
+\newblock 219 {kW} narrow linewidth {FBG}-based {MOPA} configuration fiber
+  laser.
+\newblock {\em Optics Express}, 27(3):3136, jan 2019.
+
+\bibitem{Buikema2019}
+Aaron Buikema, Franklin Jose, Steven~J. Augst, Peter Fritschel, and Nergis
+  Mavalvala.
+\newblock Narrow-linewidth fiber amplifier for gravitational-wave detectors.
+\newblock {\em Optics Letters}, 44(15):3833, jul 2019.
+
+\bibitem{Ma2016}
+Pengfei Ma, Rumao Tao, Rongtao Su, Xiaolin Wang, Pu~Zhou, and Zejin Liu.
+\newblock 189 {kW} all-fiberized and polarization-maintained amplifiers with
+  narrow linewidth and near-diffraction-limited beam quality.
+\newblock {\em Optics Express}, 24(4):4187, feb 2016.
+
+\bibitem{Robin2014}
+Craig Robin, Iyad Dajani, and Benjamin Pulford.
+\newblock Modal instability-suppressing, single-frequency photonic crystal
+  fiber amplifier with 811{\hspace{0.167em}}{\hspace{0.167em}}w output power.
+\newblock {\em Optics Letters}, 39(3):666, jan 2014.
+
+\bibitem{Dixneuf2020}
+Cl{\'{e}}ment Dixneuf, Germain Guiraud, Yves-Vincent Bardin, Quentin Rosa,
+  Mathieu Goeppner, Ad{\`{e}}le Hilico, Christophe Pierre, Johan Boullet,
+  Nicholas Traynor, and Giorgio Santarelli.
+\newblock Ultra-low intensity noise, all fiber 365 w linearly polarized single
+  frequency laser at 1064{\hspace{0.25em}}nm.
+\newblock {\em Optics Express}, 28(8):10960, mar 2020.
+
+\bibitem{Winkelmann2011}
+L.~Winkelmann, O.~Puncken, R.~Kluzik, C.~Veltkamp, P.~Kwee, J.~Poeld, C.~Bogan,
+  B.~Willke, M.~Frede, J.~Neumann, P.~Wessels, and D.~Kracht.
+\newblock Injection-locked single-frequency laser with an output power
+  of~220~w.
+\newblock {\em Applied Physics B}, 102(3):529--538, feb 2011.
+
+\bibitem{Wellmann2019}
+Felix Wellmann, Michael Steinke, Fabian Meylahn, Nina Bode, Benno Willke,
+  Ludger Overmeyer, Jörg Neumann, and Dietmar Kracht.
+\newblock High power, single-frequency, monolithic fiber amplifier for the next
+  generation of gravitational wave detectors.
+\newblock {\em Optics Express}, 27(20):28523, sep 2019.
+
+\bibitem{Bode2020}
+Nina Bode, Fabian Meylahn, and Benno Willke.
+\newblock Sequential high power laser amplifiers for gravitational wave
+  detection.
+\newblock {\em Optics Express}, 28(20):29469, sep 2020.
 
 \bibitem{Thies2019}
 Fabian Thies, Nina Bode, Patrick Oppermann, Maik Frede, Bastian Schulz, and
@@ -26,43 +88,16 @@ Fabian Thies, Nina Bode, Patrick Oppermann, Maik Frede, Bastian Schulz, and
   for second-generation gravitational wave detectors.
 \newblock {\em Optics Letters}, 44(3):719, jan 2019.
 
-\bibitem{Bode2020}
-Nina Bode, Fabian Meylahn, and Benno Willke.
-\newblock Sequential high power laser amplifiers for gravitational wave
-  detection.
-\newblock {\em Optics Express}, 28(20):29469, sep 2020.
+\bibitem{spencer_thesis}
+Andrew~P. Spencer.
+\newblock {\em Advanced Techniques in Laser Interferometryfor Current and
+  Future Gravitational WaveDetectors}.
+\newblock PhD thesis, University of Glasgow, August 2019.
 
 \bibitem{PSL_requirements}
 B.~Willke, P.~King, R.~Savage, and P.~Fritschel.
 \newblock Pre-stabilized laser design requirements.
 \newblock DCC LIGO-T050036-v4, July 2011.
-
-\bibitem{PSL_final_design}
-H.~Kim, P.~King, C.~Kr{\"a}mer, P.~Kwee, J.~P{\"o}ld, R.~Savage, P.~We{\ss}els,
-  and B.~Willke.
-\newblock Psl final design.
-\newblock DCC LIGO T0900649-v4, February 2010.
-
-\bibitem{PSL_pointing_requirement}
-G.~Mueller.
-\newblock {Pointing Requirements for Advanced LIGO}.
-\newblock LIGO Document T0900142-v2 \url{https://dcc.ligo.org/LIGO-T0900142}.
-
-\bibitem{Morrison1994}
-Euan Morrison, Brian~J. Meers, David~I. Robertson, and Henry Ward.
-\newblock Automatic alignment of optical interferometers.
-\newblock {\em Applied Optics}, 33(22):5041, aug 1994.
-
-\bibitem{kwee_thesis}
-P.~Kwee.
-\newblock {\em Laser Characterization and Stabilization for Precision
-  Interferometry}.
-\newblock PhD thesis, Max Planck Institute for Gravitational Physics, 2010.
-
-\bibitem{new_pmc_T1700543}
-J.~Lui, R.~Savage, P.~King, L.~Zhang, and S.~et~al. Appert.
-\newblock {aLIGO all-bolted PMC summary}.
-\newblock LIGO Document T1700543-v2 \url{https://dcc.ligo.org/LIGO-T1700543}.
 
 \bibitem{Kane1985}
 Thomas~J. Kane and Robert~L. Byer.
@@ -82,11 +117,22 @@ Mich{\`{e}}le Heurs, Volker~M. Quetschke, Benno Willke, Karsten Danzmann, and
   nd:{YAG} nonplanar ring oscillator by means of the current-lock technique.
 \newblock {\em Optics Letters}, 29(18):2148, sep 2004.
 
+\bibitem{new_pmc_T1700543}
+J.~Lui, R.~Savage, P.~King, L.~Zhang, and S.~et~al. Appert.
+\newblock {aLIGO all-bolted PMC summary}.
+\newblock LIGO Document T1700543-v2 \url{https://dcc.ligo.org/LIGO-T1700543}.
+
 \bibitem{Kwee2007}
 Patrick Kwee, Frank Seifert, Benno Willke, and Karsten Danzmann.
 \newblock Laser beam quality and pointing measurement with an optical
   resonator.
 \newblock {\em Review of Scientific Instruments}, 78(7):073103, jul 2007.
+
+\bibitem{kwee_thesis}
+P.~Kwee.
+\newblock {\em Laser Characterization and Stabilization for Precision
+  Interferometry}.
+\newblock PhD thesis, Max Planck Institute for Gravitational Physics, 2010.
 
 \bibitem{Abbott2001}
 R.~S. Abbott and P.~J. King.
@@ -116,5 +162,21 @@ I~Zawischa, M~Brendel, K~Danzmann, C~Fallnich, M~Heurs, S~Nagano, V~Quetschke,
 F~Nocera.
 \newblock {LIGO} laser intensity noise suppression.
 \newblock {\em Classical and Quantum Gravity}, 21(5):S481--S485, feb 2004.
+
+\bibitem{PSL_pointing_requirement}
+G.~Mueller.
+\newblock {Pointing Requirements for Advanced LIGO}.
+\newblock LIGO Document T0900142-v2 \url{https://dcc.ligo.org/LIGO-T0900142}.
+
+\bibitem{Morrison1994}
+Euan Morrison, Brian~J. Meers, David~I. Robertson, and Henry Ward.
+\newblock Automatic alignment of optical interferometers.
+\newblock {\em Applied Optics}, 33(22):5041, aug 1994.
+
+\bibitem{PSL_final_design}
+H.~Kim, P.~King, C.~Kr{\"a}mer, P.~Kwee, J.~P{\"o}ld, R.~Savage, P.~We{\ss}els,
+  and B.~Willke.
+\newblock Psl final design.
+\newblock DCC LIGO T0900649-v4, February 2010.
 
 \end{thebibliography}

@@ -1,60 +1,65 @@
 \contentsline {chapter}{\numberline {1}Abstract}{8}{chapter.1}
-\contentsline {chapter}{\numberline {2}High Power Laser Prototype for LIGO}{9}{chapter.2}
+\contentsline {chapter}{\numberline {2}A Prototype High Power Laser for LIGO O4}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
-\contentsline {paragraph}{}{10}{section*.5}
+\contentsline {paragraph}{}{9}{section*.5}
 \contentsline {paragraph}{}{10}{section*.6}
-\contentsline {section}{\numberline {2.2}Overview of the LIGO PSL}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Concept}{11}{subsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.1.1}NPRO}{11}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}Neovan 4S-HP solid-state Amplifier}{11}{subsubsection.2.2.1.2}
-\contentsline {subsubsection}{\numberline {2.2.1.3}PMC}{12}{subsubsection.2.2.1.3}
-\contentsline {subsection}{\numberline {2.2.2}Prototype Layout}{12}{subsection.2.2.2}
-\contentsline {paragraph}{}{14}{section*.9}
-\contentsline {paragraph}{}{14}{section*.10}
-\contentsline {paragraph}{}{14}{section*.11}
+\contentsline {paragraph}{}{10}{section*.7}
+\contentsline {paragraph}{}{11}{section*.8}
+\contentsline {section}{\numberline {2.2}Concept}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}NPRO}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Neovan 4S-HP solid-state Amplifier}{12}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}PMC}{12}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Prototype Layout}{13}{section.2.3}
+\contentsline {paragraph}{}{13}{section*.11}
 \contentsline {paragraph}{}{15}{section*.12}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Diagnostic Bread Board}{15}{subsubsection.2.2.2.1}
-\contentsline {section}{\numberline {2.3}Set up Procedure for the Neovan 4S-HP}{19}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Balancing all variables to maximise power through the PMC}{19}{subsection.2.3.1}
-\contentsline {paragraph}{}{19}{section*.17}
-\contentsline {subsection}{\numberline {2.3.2}Flow Rates and Cooling}{20}{subsection.2.3.2}
-\contentsline {paragraph}{}{20}{section*.18}
-\contentsline {paragraph}{}{20}{section*.20}
-\contentsline {paragraph}{}{22}{section*.21}
-\contentsline {paragraph}{}{22}{section*.22}
-\contentsline {paragraph}{}{22}{section*.23}
-\contentsline {paragraph}{}{22}{section*.25}
-\contentsline {subsection}{\numberline {2.3.3}Alignment Procedure}{24}{subsection.2.3.3}
-\contentsline {paragraph}{}{24}{section*.26}
-\contentsline {paragraph}{}{24}{section*.27}
-\contentsline {paragraph}{}{24}{section*.28}
-\contentsline {paragraph}{}{25}{section*.29}
-\contentsline {paragraph}{}{25}{section*.30}
-\contentsline {paragraph}{}{25}{section*.31}
-\contentsline {paragraph}{}{26}{section*.32}
-\contentsline {section}{\numberline {2.4}Output Power}{26}{section.2.4}
-\contentsline {section}{\numberline {2.5}Intensity Stabilisation}{26}{section.2.5}
-\contentsline {paragraph}{}{28}{section*.35}
+\contentsline {paragraph}{}{15}{section*.13}
+\contentsline {paragraph}{}{15}{section*.14}
+\contentsline {paragraph}{}{15}{section*.15}
+\contentsline {section}{\numberline {2.4}PMC Output Power}{16}{section.2.4}
+\contentsline {paragraph}{}{17}{section*.20}
+\contentsline {paragraph}{}{17}{section*.22}
+\contentsline {subsection}{\numberline {2.4.1}The Effect of Cooling on the Amplifier's Power and Beam Quality}{19}{subsection.2.4.1}
+\contentsline {paragraph}{}{19}{section*.23}
+\contentsline {paragraph}{}{19}{section*.25}
+\contentsline {paragraph}{}{21}{section*.26}
+\contentsline {paragraph}{}{21}{section*.27}
+\contentsline {paragraph}{}{21}{section*.28}
+\contentsline {paragraph}{}{21}{section*.31}
+\contentsline {subsection}{\numberline {2.4.2}Amplifier Alignment Procedure}{23}{subsection.2.4.2}
+\contentsline {paragraph}{}{23}{section*.32}
+\contentsline {paragraph}{}{24}{section*.33}
+\contentsline {paragraph}{}{24}{section*.34}
+\contentsline {paragraph}{}{24}{section*.35}
+\contentsline {paragraph}{}{25}{section*.36}
+\contentsline {paragraph}{}{25}{section*.37}
+\contentsline {paragraph}{}{25}{section*.38}
+\contentsline {section}{\numberline {2.5}Intensity Stabilisation}{25}{section.2.5}
+\contentsline {paragraph}{}{26}{section*.40}
 \contentsline {subsection}{\numberline {2.5.1}Free Running Noise of the TnT Prototype PSL}{28}{subsection.2.5.1}
-\contentsline {paragraph}{}{29}{section*.38}
-\contentsline {paragraph}{}{30}{section*.39}
-\contentsline {subsection}{\numberline {2.5.2}Actuator}{30}{subsection.2.5.2}
+\contentsline {paragraph}{}{28}{section*.43}
+\contentsline {paragraph}{}{29}{section*.44}
+\contentsline {subsection}{\numberline {2.5.2}Actuator}{29}{subsection.2.5.2}
 \contentsline {subsubsection}{\numberline {2.5.2.1}AOM}{30}{subsubsection.2.5.2.1}
-\contentsline {paragraph}{}{32}{section*.41}
-\contentsline {subsubsection}{\numberline {2.5.2.2}Current Shunt}{32}{subsubsection.2.5.2.2}
-\contentsline {paragraph}{}{32}{section*.44}
-\contentsline {paragraph}{}{33}{section*.45}
-\contentsline {paragraph}{}{33}{section*.46}
-\contentsline {subsubsection}{\numberline {2.5.2.3}Reasoning for using the AOM over the Current Shunt}{35}{subsubsection.2.5.2.3}
-\contentsline {subsection}{\numberline {2.5.3}Stabilised Noise Measurement}{37}{subsection.2.5.3}
-\contentsline {paragraph}{}{37}{section*.49}
-\contentsline {subsubsection}{\numberline {2.5.3.1}Open Loop Transfer function Measurement}{37}{subsubsection.2.5.3.1}
-\contentsline {paragraph}{}{39}{section*.51}
-\contentsline {section}{\numberline {2.6}Pointing}{39}{section.2.6}
-\contentsline {paragraph}{}{39}{section*.54}
-\contentsline {paragraph}{}{40}{section*.56}
-\contentsline {section}{\numberline {2.7}Frequency Noise}{43}{section.2.7}
-\contentsline {paragraph}{}{43}{section*.57}
-\contentsline {paragraph}{}{43}{section*.58}
-\contentsline {paragraph}{}{44}{section*.59}
+\contentsline {paragraph}{}{30}{section*.46}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Current Shunt}{31}{subsubsection.2.5.2.2}
+\contentsline {paragraph}{}{31}{section*.49}
+\contentsline {paragraph}{}{33}{section*.50}
+\contentsline {paragraph}{}{33}{section*.51}
+\contentsline {subsubsection}{\numberline {2.5.2.3}Reasoning for using the AOM over the Current Shunt}{33}{subsubsection.2.5.2.3}
+\contentsline {subsection}{\numberline {2.5.3}Open Loop Transfer function Measurement}{34}{subsection.2.5.3}
+\contentsline {paragraph}{}{34}{section*.54}
+\contentsline {subsection}{\numberline {2.5.4}Stabilised Noise Measurement}{36}{subsection.2.5.4}
+\contentsline {paragraph}{}{38}{section*.57}
+\contentsline {section}{\numberline {2.6}Pointing Noise}{38}{section.2.6}
+\contentsline {paragraph}{}{38}{section*.59}
+\contentsline {paragraph}{}{40}{section*.61}
+\contentsline {section}{\numberline {2.7}Frequency Noise}{41}{section.2.7}
+\contentsline {paragraph}{}{41}{section*.62}
+\contentsline {paragraph}{}{41}{section*.64}
+\contentsline {paragraph}{}{43}{section*.65}
+\contentsline {paragraph}{}{43}{section*.67}
+\contentsline {paragraph}{}{44}{section*.69}
+\contentsline {paragraph}{}{44}{section*.71}
+\contentsline {paragraph}{}{48}{section*.73}
+\contentsline {paragraph}{}{48}{section*.75}
 \contentsline {section}{\numberline {2.8}Conclusion}{49}{section.2.8}
