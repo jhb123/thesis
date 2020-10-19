@@ -1,18 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Kwee2012}
-P.~Kwee, C.~Bogan, K.~Danzmann, M.~Frede, H.~Kim, P.~King, J.~Pöld,
-  O.~Puncken, R.~L. Savage, F.~Seifert, P.~Wessels, L.~Winkelmann, and
-  B.~Willke.
-\newblock Stabilized high-power laser system for the gravitational wave
-  detector advanced {LIGO}.
-\newblock {\em Optics Express}, 20(10):10617, apr 2012.
-
-\bibitem{InstrumentWhitePaper2019}
-the LIGO Scientific~Collaboration.
-\newblock Instrument science white paper 2019.
-\newblock LIGO internal document LIGO-T1900409–v3.
-
 \bibitem{Shcherbakov2013}
 E.~A. Shcherbakov, V.~V. Fomin, A.~A. Abramov, A.~A. Ferin, D.~V. Mochalov, and
   V.~P. Gapontsev.
@@ -34,12 +21,6 @@ Yusheng Huang, Ping Yan, Zehui Wang, Jiading Tian, Dan Li, Qirong Xiao, and
 \newblock 219 {kW} narrow linewidth {FBG}-based {MOPA} configuration fiber
   laser.
 \newblock {\em Optics Express}, 27(3):3136, jan 2019.
-
-\bibitem{Buikema2019}
-Aaron Buikema, Franklin Jose, Steven~J. Augst, Peter Fritschel, and Nergis
-  Mavalvala.
-\newblock Narrow-linewidth fiber amplifier for gravitational-wave detectors.
-\newblock {\em Optics Letters}, 44(15):3833, jul 2019.
 
 \bibitem{Ma2016}
 Pengfei Ma, Rumao Tao, Rongtao Su, Xiaolin Wang, Pu~Zhou, and Zejin Liu.
@@ -75,6 +56,12 @@ Felix Wellmann, Michael Steinke, Fabian Meylahn, Nina Bode, Benno Willke,
   generation of gravitational wave detectors.
 \newblock {\em Optics Express}, 27(20):28523, sep 2019.
 
+\bibitem{Buikema2019}
+Aaron Buikema, Franklin Jose, Steven~J. Augst, Peter Fritschel, and Nergis
+  Mavalvala.
+\newblock Narrow-linewidth fiber amplifier for gravitational-wave detectors.
+\newblock {\em Optics Letters}, 44(15):3833, jul 2019.
+
 \bibitem{Bode2020}
 Nina Bode, Fabian Meylahn, and Benno Willke.
 \newblock Sequential high power laser amplifiers for gravitational wave
@@ -88,16 +75,29 @@ Fabian Thies, Nina Bode, Patrick Oppermann, Maik Frede, Bastian Schulz, and
   for second-generation gravitational wave detectors.
 \newblock {\em Optics Letters}, 44(3):719, jan 2019.
 
+\bibitem{PSL_requirements}
+B.~Willke, P.~King, R.~Savage, and P.~Fritschel.
+\newblock Pre-stabilized laser design requirements.
+\newblock DCC LIGO-T050036-v4, July 2011.
+
+\bibitem{Kwee2012}
+P.~Kwee, C.~Bogan, K.~Danzmann, M.~Frede, H.~Kim, P.~King, J.~Pöld,
+  O.~Puncken, R.~L. Savage, F.~Seifert, P.~Wessels, L.~Winkelmann, and
+  B.~Willke.
+\newblock Stabilized high-power laser system for the gravitational wave
+  detector advanced {LIGO}.
+\newblock {\em Optics Express}, 20(10):10617, apr 2012.
+
+\bibitem{InstrumentWhitePaper2019}
+the LIGO Scientific~Collaboration.
+\newblock Instrument science white paper 2019.
+\newblock LIGO internal document LIGO-T1900409–v3.
+
 \bibitem{spencer_thesis}
 Andrew~P. Spencer.
 \newblock {\em Advanced Techniques in Laser Interferometryfor Current and
   Future Gravitational WaveDetectors}.
 \newblock PhD thesis, University of Glasgow, August 2019.
-
-\bibitem{PSL_requirements}
-B.~Willke, P.~King, R.~Savage, and P.~Fritschel.
-\newblock Pre-stabilized laser design requirements.
-\newblock DCC LIGO-T050036-v4, July 2011.
 
 \bibitem{Kane1985}
 Thomas~J. Kane and Robert~L. Byer.

@@ -299,20 +299,39 @@ First the PMC is locked to the NPRO by controlling the length of the PMC. The le
 	\label{fig:ligolaserchapterfrequencynoisemeasurementsketch}
 \end{figure}
 \paragraph{}
-If the cavity length, which at the frequencies of interest is controlled by the PZT, is following the frequency noise of the laser, this cavity length signal is (almost) equivalent to the frequency noise of the laser up to the unity gain point of the PMC length servo. The gain of the length servo affects the uncertainty of the measurement; when the servo has high gain the PZT signal will have less . Above the unity gain point of the servo, the length of the PMC no longer corresponds to the frequency noise of the laser as these fluctuations in frequency are followed by the cavity.
-\paragraph{}
-To use the PZT signal as a measure of the lasers frequency, consider Figure \ref{fig:ligolaserchapterfrequencynoisemeasurementmathssketch}. There are three signals that are important, and three transfer functions that are useful to consider. The three signals, $a$, $b$ and $c$, correspond to the laser frequency, the cavity frequency and the signal applied to the PZT. The difference between $a$ and $b$, is obtained via the PDH locking technique. The signal after the light from the cavity is demodulated is called the `optical' transfer function (despite it including the mixer and low pass filter). The electronics transfer function is used to shape the servo. The transfer function $G$ is the combined optics and the electronics transfer function. The signal that is sent to the PZT, $c$, is directly measurable. This passes through the PZT, modelled as $H$, to turn into a cavity frequency signal. Mathematically, the laser frequency can be expressed in terms of the PZT signal as
+A measurement of the error signal combined with the open loop transfer function will give the frequency noise of the laser. Below the unity gain frequency, a measurement of the control signal will also give the frequency noise. To see how the error signal can give the frequency noise, consider figure \ref{fig:ligolaserchapterfrequencynoisemeasurementmathssketch}. The difference between the laser frequency and the cavity frequency is obtained via the PDH technique. The PZT signal, $c$, is then obtained via the transfer function of the optics, i.e. the frequency to voltage transfer function of the PDH lock, and the electronics transfer function. Together this transfer function is $G$. First, define the error signal
 \begin{equation}
-a = c\left(\frac{1+GH}{H}\right).
-\end{equation} 
+\epsilon = a - b.
+\end{equation}
+Next, express the control signal in terms of $\epsilon$,
+\begin{equation}
+\epsilon G = c.
+\end{equation}
+Expressing the signal $b$ in terms of $c$,
+\begin{equation}
+cH = b,
+\end{equation}
+allows for signal $a$ to be written in terms of the error signal $\epsilon$,
+\begin{equation}
+a = \epsilon(1+GH).
+\label{eq:ligolaserchaptermeasurement_of_frequency_noise}
+\end{equation}
+Equation \ref{fig:ligolaserchaptermeasurement_of_frequency_noise} shows that to measure the frequency noise of the laser, $a$, the error signal should be multipled by the open loop transfer function, $GH$.
+%\paragraph{}
+%If the cavity length, which at the frequencies of interest is controlled by the PZT, is following the frequency noise of the laser, this cavity length signal is (almost) equivalent to the frequency noise of the laser up to the unity gain point of the PMC length servo. The gain of the length servo affects the uncertainty of the measurement; when the servo has high gain the PZT signal will have less . Above the unity gain point of the servo, the length of the PMC no longer corresponds to the frequency noise of the laser as these fluctuations in frequency are followed by the cavity.
+%\paragraph{}
+%To use the PZT signal as a measure of the lasers frequency, consider Figure \ref{fig:ligolaserchapterfrequencynoisemeasurementmathssketch}. There are three signals that are important, and three transfer functions that are useful to consider. The three signals, $a$, $b$ and $c$, correspond to the laser frequency, the cavity frequency and the signal applied to the PZT. The difference between $a$ and $b$, is obtained via the PDH locking technique. The signal after the light from the cavity is demodulated is called the `optical' transfer function (despite it including the mixer and low pass filter). The electronics transfer function is used to shape the servo. The transfer function $G$ is the combined optics and the electronics transfer function. The signal that is sent to the PZT, $c$, is directly measurable. This passes through the PZT, modelled as $H$, to turn into a cavity frequency signal. Mathematically, the laser frequency can be expressed in terms of the PZT signal as
+%\begin{equation}
+%a = c\left(\frac{1+GH}{H}\right).
+%\end{equation} 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch}
 	\caption{}
 	\label{fig:ligolaserchapterfrequencynoisemeasurementmathssketch}
 \end{figure}
-\paragraph{}
-As the cavity is short compared to the frequencies of interest, the optical transfer function is a flat gain factor that converts a difference in frequency to a voltage. A measurement of this can be obtained by measuring the slope of the PDH signal as the frequency of the cavity passes through a resonance. By driving the PZT with a ramp and simultaneously measuring the signal before and after it is demodulated, the optics transfer function can be obtained. Figure \ref{fig:ligolaserchaptermixercalibration} shows this measurement. The time axis can be converted to frequency as the full-width-half-maximum (FWHM) of the reflected light is determined by the optical properties of the PMC. The FWHM for the PMC is 1.19\,\si{\mega\hertz}. The slope of the demodulated signal as the cavity passes through the resonance can be used to give the conversion between difference in frequency of the cavity and laser to voltage after the demodulation electronics. This factor is 0.1366\,\si{\mega\hertz/\volt}.
+%\paragraph{}
+%As the cavity is short compared to the frequencies of interest, the optical transfer function is a flat gain factor that converts a difference in frequency to a voltage. A measurement of this can be obtained by measuring the slope of the PDH signal as the frequency of the cavity passes through a resonance. By driving the PZT with a ramp and simultaneously measuring the signal before and after it is demodulated, the optics transfer function can be obtained. Figure \ref{fig:ligolaserchaptermixercalibration} shows this measurement. The time axis can be converted to frequency as the full-width-half-maximum (FWHM) of the reflected light is determined by the optical properties of the PMC. The FWHM for the PMC is 1.19\,\si{\mega\hertz}. The slope of the demodulated signal as the cavity passes through the resonance can be used to give the conversion between difference in frequency of the cavity and laser to voltage after the demodulation electronics. This factor is 0.1366\,\si{\mega\hertz/\volt}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_Mixer_calibration}
@@ -327,16 +346,16 @@ To measure the transfer function between the PZT and cavity frequency, a ramp wa
 	\caption{}
 	\label{fig:ligolaserchapterpmcscan}
 \end{figure}
-\paragraph{}
-The open loop transfer function, i.e. the optics, electronics and the PZT transfer functions multiplied together, is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The electronics transfer function was modelled with
-\begin{equation}
-E\left(s\right) = \frac{-534.92\left(s+1.257\times10^4\right)\left(s+2325\right)}{\left(s+4.398\times10^5\right)\left(s+1885\right)\left(s+12.57\right)}.
-\end{equation}
-The PZT was modelled as a low pass filter with a corner frequency of 1700\si{\hertz} i.e. $P(s) = 10681/(s+1.068\times10^4)$. The open loop transfer function, $G(s)H(s)$, is then
-\begin{equation}
-G(s)H(s) = E(s)P(s)\frac{42.2870}{ 0.1366}.
-\end{equation}
-This model is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The open loop transfer function was measured, and the model fits quite closely to this measurement. A sketech of how the open loop transfer function was measured is shown in figure \ref{fig:ligolaserchapterfrequencynoisemeasurementsketch}. The unity gain point of the servo is approximately 800\si{\hertz}. 
+%\paragraph{}
+%The open loop transfer function, i.e. the optics, electronics and the PZT transfer functions multiplied together, is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The electronics transfer function was modelled with
+%\begin{equation}
+%E\left(s\right) = \frac{-534.92\left(s+1.257\times10^4\right)\left(s+2325\right)}{\left(s+4.398\times10^5\right)\left(s+1885\right)\left(s+12.57\right)}.
+%\end{equation}
+%The PZT was modelled as a low pass filter with a corner frequency of 1700\si{\hertz} i.e. $P(s) = 10681/(s+1.068\times10^4)$. The open loop transfer function, $G(s)H(s)$, is then
+%\begin{equation}
+%G(s)H(s) = E(s)P(s)\frac{42.2870}{ 0.1366}.
+%\end{equation}
+%This model is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The open loop transfer function was measured, and the model fits quite closely to this measurement. A sketch of how the open loop transfer function was measured is shown in figure \ref{fig:ligolaserchapterfrequencynoisemeasurementsketch}. The unity gain point of the servo is approximately 800\si{\hertz}. 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_pmc_loop_model_tf}
@@ -347,7 +366,7 @@ This model is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The open
 To convert the measurement of PZT signal to frequency noise, the PZT signal must be divided by the closed loop transfer function to correct for the loop shaping. The signal must also be multiplied by the PZT to frequency conversion factor (42.2870\si{\mega\hertz/\volt}). This function is shown in figure \ref{fig:ligolaserchapterpztconversionfactor}.
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_pzt_conversion_factor}
+	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_CLTF}
 	\caption{}
 	\label{fig:ligolaserchapterpztconversionfactor}
 \end{figure}
