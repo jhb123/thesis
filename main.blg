@@ -7,45 +7,45 @@ Warning--entry type for "new_pmc_T1700543" isn't style-file defined
 --line 4247 of file C:/bibliography/bibliography.bib
 Warning--entry type for "PSL_pointing_requirement" isn't style-file defined
 --line 4387 of file C:/bibliography/bibliography.bib
-You've used 29 entries,
+You've used 30 entries,
             1791 wiz_defined-function locations,
-            643 strings with 9498 characters,
-and the built_in function-call counts, 6825 in all, are:
-= -- 493
-> -- 485
+            648 strings with 9655 characters,
+and the built_in function-call counts, 7052 in all, are:
+= -- 505
+> -- 511
 < -- 0
-+ -- 173
-- -- 144
-* -- 616
-:= -- 1186
-add.period$ -- 88
-call.type$ -- 29
-change.case$ -- 27
++ -- 182
+- -- 152
+* -- 634
+:= -- 1227
+add.period$ -- 91
+call.type$ -- 30
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 240
-empty$ -- 602
-format.name$ -- 144
-if$ -- 1419
+cite$ -- 30
+duplicate$ -- 245
+empty$ -- 620
+format.name$ -- 152
+if$ -- 1466
 int.to.chr$ -- 0
-int.to.str$ -- 29
+int.to.str$ -- 30
 missing$ -- 22
-newline$ -- 148
-num.names$ -- 29
-pop$ -- 64
+newline$ -- 153
+num.names$ -- 30
+pop$ -- 70
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 87
+skip$ -- 90
 stack$ -- 0
 substring$ -- 341
-swap$ -- 30
+swap$ -- 31
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 55
-width$ -- 31
-write$ -- 313
+while$ -- 56
+width$ -- 32
+write$ -- 323
 (There were 2 warnings)

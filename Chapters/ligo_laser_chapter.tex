@@ -12,29 +12,29 @@ This chapter will describe the new PSL layout. The beam quality, intensity noise
 %\section{Overview of the PSL}
 %The PSL must provide a beam which satisfies the requirements \cite{PSL_requirements} for each of these properties : intensity, frequency, beam shape, pointing and polarisation. Along with these basic properties of a laser beam, the PSL must also be able to be operated without interruption for timescales of the order 1 year, have remote diagnostic tools, and have a remote interface so that operators can control and monitor the status of the laser. The PSL is housed in an environmentally controlled room so that it is not affected by temperature and humidity changes. The following section 
 \section{Concept}
-The new design of the PSL is based on using an NPRO with two single pass amplifiers in series, followed by a cavity to provide 125W of laser light with high spatial purity and low noise. Currently, the PSL is seeded by a 35W laser which is followed by one amplifier \cite{spencer_thesis,InstrumentWhitePaper2019}. Results from the high performance version of this amplifier were promising \cite{Thies2019}, leading to a proposal to construct the PSL out of two of these in series. A similar set up has been constructed \cite{Bode2020}. 
+The new design of the PSL is based on using an NPRO with two single pass amplifiers in series, followed by a cavity to provide 125W of laser light with high spatial purity and low noise. A seed laser followed by one or more amplifiers is known as a master-oscillator-power-amplifier (MOPA) configuration. Currently, the PSL is seeded by a 35W laser which is followed by one amplifier \cite{spencer_thesis,InstrumentWhitePaper2019}. Results from the high performance version of this amplifier were promising \cite{Thies2019}, leading to a proposal to construct the PSL out of two of these in series. A similar set up has been constructed \cite{Bode2020}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_concept}
-	\caption{}
+	\caption{Conceptually, the PSL will be made up of four components: the NRPO, two Neovan 4S-HP amplifiers and the PMC cavity. The NPRO provides seed light with good noise characteristics. These noise characteristics are preserved by the amplifiers, so the resulting beam will have high power and low noise. The PMC filters junk light so a spatially pure mode can be set to the interferometer.}
 	\label{fig:ligolaserchapterconcept}
 \end{figure}
 \subsection{NPRO}
-The first element of the PSL is a non-planar ring oscillator laser \cite{Kane1985,Freitag1995,Heurs2004}.  The NPRO provides a low noise laser making it a stuitable seed laser in a MOPA laser. This is a single frequency laser constructed from one Nd:YAG crystal which acts as both the gain medium and the cavity, thus it produces a laser with high amounts of frequency stability. The NPRO used is a Mephisto laser, built by Coherent, and it can produce to 2W of 1064\,\si{\nano\metre} light.
+The first element of the PSL is a non-planar ring oscillator laser \cite{Kane1985,Freitag1995,Heurs2004}.  The NPRO provides a low noise laser making it a suitable seed laser in a MOPA laser. This is a single frequency laser constructed from one Nd:YAG crystal which acts as both the gain medium and the cavity, thus it produces a laser with high amounts of frequency stability. The NPRO used is a Mephisto laser, built by Coherent, and it can produce to 2W of 1064\,\si{\nano\metre} light.
 \subsection{Neovan 4S-HP solid-state Amplifier}
-The Neovan 4S-HP is a single pass, solid state amplifier  manufactured by Neolase. It is constructed from four $\rm{Nd:YVO_4}$ crystals which are pumped by fibre coupled laser diodes. It should be seeded by s-polarised light at 1064\,nm. It is cooled via a plate with water (or other coolants) flowing through it. This keeps jitter noise low as flowing water is not directly in contact with the gain medium.
+To amplify the NPRO beam, two Neovan 4S-HP amplifiers will be used. The Neovan 4S-HP is a single pass, solid state amplifier  manufactured by Neolase. It is constructed from four $\rm{Nd:YVO_4}$ crystals which are pumped by fibre coupled laser diodes. It should be seeded by s-polarised light at 1064\,nm. It is cooled via a plate with water (or other coolants) flowing through it. This keeps jitter noise low as flowing water is not directly in contact with the gain medium. As these amplifiers will be seeded by an NPRO, the light produced by them will take on the noise characteristics of the NPRO. 
 \subsection{PMC}
 The pre mode cleaner (PMC) is used as the hand-off point between the PSL and the rest of the interferometer. Light transmitted by this cavity is used as the input beam for the interferometer. The PMC is a bow tie cavity with an FSR of 9\,\si{\mega\hertz}, thus it passively filters RF intensity noise. Control side bands are provided after the PMC but before the IMC, meaning that the IMC cannot be used to provide this stabilisation. The PMC is locked to the fundamental mode via a PDH lock, so the beam that is delivered to the rest of the interferometer has a low amount of higher order mode content. This is important as the amplifiers upstream of the PMC produce slightly elliptical beams. The PMC can be considered as a reference beam parameter and a hand-off point between the PSL and the rest of the interferometer. The PMC has been redesigned \cite{new_pmc_T1700543} to prevent contamination due to glue on its mirrors and to make maintaining the PMC easier. 
 \section{Prototype Layout}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.75\linewidth]{figures/ligo_laser_chapter_intensity_noise_measurement_sketch.eps}
-	\caption{Sketch of PSL}
+	\includegraphics[width=0.8\linewidth]{figures/ligo_laser_chapter_intensity_noise_measurement_sketch.eps}
+	\caption{Sketch of the prototype optical layout that was constructed in the TnT lab. The main beam path and diagnostic beam paths are shown. Key photodiodes are also shown. A to-scale version of this layout is found in \cite{PSL_O4_Layout}. This layout does not include the frequency stabilisation optics that will feature in the PSL.}
 	\label{fig:ligo_layout_chapter_layout}
 \end{figure}
-A schematic for the layout is shown in figure \ref{fig:ligo_layout_chapter_layout}. There are five main parts of the layout: the NPRO, Amp II (the first amplifier), Amp I (the second amplifier), the PMC and the DBB. When commissioned as part of the interferometer, the locations of the chiller for the water cooling system and the electronics for controlling the PSL need to be considered; This is not covered here. The prototype layout did not include the tabletop frequency stabilisation servo (TTFSS) so this has not been included in the layout description; however, there is space for this on the optical table.
+A schematic for the layout is shown in figure \ref{fig:ligo_layout_chapter_layout}. There are five main parts of the layout: the NPRO, Amp II (the first amplifier), Amp I (the second amplifier), the PMC and the diagnostic breadboard (DBB). When commissioned as part of the interferometer, the locations of the chiller for the water cooling system and the electronics for controlling the PSL need to be considered; This is not covered here. The prototype layout did not include the tabletop frequency stabilisation servo (TTFSS) so this has not been included in the layout description however there is space for this on the optical table.
 \paragraph{}
-The starting point of this layout is an NPRO. The NPRO beam passes through some polarisation clean-up optics. Transmission through a steering mirror is used to monitor the power of the NPRO. An EOM is used to produce 35.5\,MHz sidebands for the PDH locking scheme of the PMC. A shutter is placed after this, which is triggered if light on watchdog photodiodes elsewhere on the table drops sufficiently. After the shutter there is a Faraday isolator which ensures light reflected back from the amplifiers does not make its way to the NPRO. The beam passes through a half-wave plate to ensure the polarisation into the first amplifier is set correctly. In this section of the path, a mirror can be inserted to direct the NPRO beam to the DBB, however it is not expected that this beam will need monitoring often. These optics are shown in figure \ref{fig:o191520}.
+The NPRO beam passes through some polarisation clean-up optics. Transmission through a steering mirror is used to monitor the power of the NPRO. An EOM is used to produce 35.5\,MHz sidebands for the PDH locking scheme of the PMC. A shutter is placed after this, which is triggered if light on watchdog photodiodes elsewhere on the table drops sufficiently. After the shutter there is a Faraday isolator which ensures light reflected back from the amplifiers does not make its way to the NPRO. The beam passes through a half-wave plate to ensure the polarisation into the first amplifier is set correctly. In this section of the path, a mirror can be inserted to direct the NPRO beam to the DBB, however it is not expected that this beam will need monitoring often. These optics are shown in figure \ref{fig:o191520}.
 \paragraph{}
 After the first amplifier (named Amp II), the beam passes through a high power attenuation stage, allowing for safe set up and low power operation. When setting up this layout, all the optics must be operated at their full power since the amplifiers produce significant thermal lenses. The high power attenuators are not envisioned being part of the final version of the PSL. The laser then is directed through another Faraday isolator and wave-plate before reaching the second amplifier (named Amp I). The transmission through one of the steering mirrors into Amp I is used for monitoring the beam produced by Amp II. This is shown in figure \ref{fig:o191520}.
 \paragraph{}
@@ -82,39 +82,50 @@ Diagnostic beams are picked off from the main beam. The diagnostic bread board (
 %\subsection{Other Aspects of the PSL}
 %It is useful to diagnose the PSL remotely, so a diagnostic breadboard (DBB) \cite{kwee_thesis}  capable of making pointing, intensity and frequency noise measurements, as well as mode scans, was integrated into the design of the PSL. Remote operation and monitoring is also required, so slow control is provided by a Beckhoff system.
 \section{PMC Output Power}
-The PSL should deliver 125\,W to the interferometer. There are six variables that will effect the amount of power that is transmitted through the PMC: the flow rate through the amplifiers heads; the input alignment to each amplifier; the mode matching between to each amplifier; the mode matching to the PMC; the alignment to the PMC; the pump diodes current and the polarisation of the light that is to be amplified. These are not all independent of each other. For instance, changing the flow rates will change the thermal lensing in the amplifier. This will change the optimal mode matching and alignment to the amplifier. Changing the the pump diode current effects the thermal lensing as well, meaning increasing it doesn't always lead to an improvement in TM00 power.
+The PSL should deliver 125\,W to the interferometer \cite{PSL_requirements}. There are several variables that will effect the amount of power that is transmitted through the PMC: the flow rate through the amplifiers heads; the input alignment to each amplifier; the mode matching to each amplifier; the mode matching to the PMC; the alignment to the PMC; the pump diodes current and the polarisation of the light that is to be amplified. These are not all independent of each other. For instance, changing the flow rates will change the thermal lensing in the amplifier. This will change the optimal mode matching and alignment to the amplifier. Changing the the pump diode current effects the thermal lensing as well, meaning increasing it doesn't always lead to an improvement in TM00 power.
 \paragraph{}
-The prototype layout was able to deliver a maximum of 111\,\si{\watt} through the PMC during the a 55 hour run. The power was measured with recently calibrated power meters. The power dropped to 107\,\si{\watt} through the PMC. Changes in the lab temperature and humidity caused slight alignment changes. This resulted in the power decreasing. As the PSL is in a controlled environment, this effect will be less severe when commissioned for O4. The light produced by the amplifiers was greater than 125\,\si{\watt}. Mode matching between the final amplifier and the PMC could be improved at the percent level.This could be increased by increasing the flow rate and pump diode currents to the amplifier, however concerns of jitter noise meant that the flow rate was kept low. With higher flow rates, an input power of 135\si{\watt} with a higher mode content of 4.6\% was produced (\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11613}{Labbook post}). To actuate on the lasers power, some of the incident light will need to be 'dumped'. This means that the full power will be reduced by $\sim10\,\si{\watt}$ when the intensity stabilisation is implemented. Longer term measurements should be taken, however the results shown in \cite{Bode2020} are promising. 
+The prototype layout was able to deliver a maximum of 111\,\si{\watt} through the PMC during the a 55 hour run. The power was measured with recently calibrated power meters. The power dropped to 107\,\si{\watt} through the PMC. Changes in the lab temperature and humidity caused slight alignment changes. This resulted in the power decreasing. As the PSL is in a controlled environment, this effect will be less severe when commissioned for O4. The light produced by the amplifiers was greater than 125\,\si{\watt}. Mode matching between the final amplifier and the PMC could be improved at the percent level. This power could be increased by increasing the flow rate and pump diode currents to the amplifier, however concerns of jitter noise meant that the flow rate was kept low. With higher flow rates, an input power of 137\si{\watt} with a higher mode content of 4.6\% was produced (\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11613}{Labbook post}). To actuate on the lasers power, some of the incident light will need to be 'dumped'. This means that the full power will be reduced by $\sim10\,\si{\watt}$ when the intensity stabilisation is implemented. Longer term measurements should be taken, however the results shown in \cite{Bode2020} are promising. LIGO Hanford measured the input laser power dropping from 55\,W to 52\,W over the course of one year (cite Ninas new paper); this is likely due to mode mismatches as a result of changes in the set-ups thermal state/.
 %
 %To ensure that a large portion of the light exiting the amplifier is in the fundamental mode, the alignment, mode matching and polarisation of the input beam must be correctly set. The optimal alignment and mode matching will correspond to the maximum power in the TM00 mode that can be obtained for a given pump diode current, cooling, and input power. This is complicated by thermal lensing effects and by the nature of working with high power beams.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_power_plot.eps}
-	\caption{Starting on 14th November 2019}
+	\caption{The top panel shows the power that was incident to the PMC and the power transmitted by the PMC over a 55 hour run. The light produced by the amplifiers did not not change significantly for the duration of this measurement, however the transmitted light through the PMC dropped from 111\,W to, at its lowest, 107\,W. This is likely due to the environmental conditions in the lab changing. The bottom panel shows the humidity of the lab, and changes in the humidity, which can be caused by a temperature change, coincides with changes in the power level of the amplifier.}
 	\label{fig:ligolaserchapterpowerplot}
 \end{figure}
+%\begin{table}
+%	\centering
+%	\begin{tabular}{|p{25mm}  | p{25mm} | p{25mm} | p{25mm}  | p{25mm}  |}
+%		\hline
+%		Amplifier & Diodes 1 \& 2 Current (A) & Diodes 3 \& 4 Current (A) & Output Power (W) & HOM content (\%) \\
+%		\hline
+%		Amp II & 10.4 & 9.3 & 67 & 3.8\% \\
+%		Amp I & 9.5 & 9.2 & 137 & 4.6\%  \\
+%		\hline
+%	\end{tabular}
+%	\caption{Maximum power achieved from each amplifier. Amp II: settings on 11/11/2019 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11685}{post}. Amp I: settings on 12/11/2019 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11690}{post}}
+%	\label{tab:amp_settings}
+%\end{table}
 %\subsection{Balancing all variables to maximise power through the PMC}
-\paragraph{}
-To maximise the power produced by the layout, several aspects of the layout need to be optimised. The flow rates to the amplifiers should be decided before spending time optimising the alignment and mode matching. Then the alignment, mode matching and pump diodes should be tweaked in tandem. This is an iterative process, and each time the thermal lensing is changed, in order to properly measure the higher order mode content of the beam the DBB mode matching should be updated. This process takes a long time, as each time a change in either the alignment, mode matching or diode current is made, the DBB mode matching needs fixing as the thermal lensing may have changed.
+%\paragraph{}
+%To maximise the power produced by the layout, several aspects of the layout need to be optimised. The flow rates to the amplifiers should be decided before spending time optimising the alignment and mode matching. Then the alignment, mode matching and pump diodes should be tweaked in tandem. This is an iterative process, and each time the thermal lensing is changed, in order to properly measure the higher order mode content of the beam the DBB mode matching should be updated. This process takes a long time, as each time a change in either the alignment, mode matching or diode current is made, the DBB mode matching needs fixing as the thermal lensing may have changed.
 \subsection{The Effect of Cooling on the Amplifier's Power and Beam Quality}
 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11630}{Water flow example.}
-The first thing that should be decided is how the cooling will be done. The flow rates of the coolant to the amplifier affects the the amount of thermal lensing. A balance must be struck between the amount of cooling - more is better - and the amount of jitter that can be potentially introduced to the beam via coolant moving through pipes. Due to the jitter noise experience at the Hanford detector that was due to the water cooling in the PSL, the flow rates will be set as low as possible. 
+The first thing that should be decided is how the cooling will be done and what flow rates will be used as the temperature of the amplifier heads will affect alignment and mode matching that is optimal. The flow rates of the coolant to the amplifier affects the the amount of thermal lensing. A balance must be struck between the amount of cooling - more is better - and the amount of jitter that can be potentially introduced to the beam via coolant moving through pipes. Due to the jitter noise experience at the Hanford detector that was due to the water cooling in the PSL, the flow rates will be set as low as possible. The thermal lensing in the $\rm{Nd:YVO_4}$ is non-circular since they are cooled from below there is a significant temperature gradient across the cyrstals. For small amounts of thermal lensing, the beam will become slightly astigmatic. From a beam quality point of view, it is better to have more cooling as with more cooling there is less thermal lensing. 
 \paragraph{}
 The cooling scheme that will be used is shown in Figure \ref{fig:ligolaserchapterwatercoolingschematic}. Flow meters which monitor the flow rate of the coolant will be placed on the return side of the system rather than the supply side. By having the flow meters on the return side, they will measure a drop in flow if there is a leak, allowing for the water supply to be cut. 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_water_cooling_schematic}
-	\caption{Cartoon of the cooling layout for the PSL. The amplifiers are on a seperate lop to the diode boxes so that the flow rates for these can be reduced as much as possible.}
+	\caption{Cartoon of the cooling layout for the PSL. The amplifiers are on a separate loop to the diode boxes so that the flow rates for these can be reduced as much as possible. By placing the flow rate sensors on the return side of the the cooling system, leaks can be detected.}
 	\label{fig:ligolaserchapterwatercoolingschematic}
 \end{figure}
 \paragraph{}
-To reduce the amount of thermal lensing in the gain medium of the amplifier, the amplifier is cooled. The thermal lensing in the $\rm{Nd:YVO_4}$ is non-circular, and since they are cooled from below there is a significant temperature gradient across the cyrstals. From a beam quality point of view, it is better to have more cooling as with more cooling, there is less thermal lensing. 
+A different cooling layout was used to test what the appropriate flow rates for the amplifiers and diode boxes could be. The diode box and amplifier head were connected in parallel, and each amplifier was on a separate cooling loop. This allows for the flow rate through each amplifier independently, meaning that the effect of flow rate on the beam quality can be studied for one amplifier. \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11624}{labbook post}
 \paragraph{}
-A different cooling layout was used to test what the appropriate flow rates for the amplifiers and diode boxes could be. The diode box and amplifier head were connected in parallel, and each amplifier was on a separate cooling loop. This has the advantage of being able to change the flow rate through each amplifier independently, meaning that the effect of flow rate on the beam quality can be studied for one amplifier. \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11624}{labbok post}
+The flow rate to the first amplifier was kept high to get as a high a quality beam as possible entering the second amplifier. The HOM content for this beam was 3.8\%. The second amplifier and diode box flow rate was decreased. The temperature of the diode head was monitored. The higher order mode content and was measured with the DBB and the power was measured with a high-power power meter. 
 \paragraph{}
-The flow rate to the first amplifier was kept high to get as a high a quality beam as possible entering the second amplifier. The HOM content for this beam was 2.8\%. The second amplifier and diode box flow rate was decreased. The temperature of the diode head was monitored. The higher order mode content and was measured with the DBB and the power was measured with a high-power power meter. 
-\paragraph{}
-The results of this are shown in Figure \ref{fig:ligo_laser_chapter_cooling_pwoer_hom}. As the flow rate was decreased, the temperature of the heads increased. At 22.3\si{\celsius} the higher order mode content was $\sim 4.5\%$ and the amount of power in the fundamental mode was $\sim127\,\rm{W}$. It was decided that to keep the amount of power in the fundamental mode high, the diode heads would be operated such that their temperature did not rise above $\sim27$\,\si{\celsius}. %In this cooling set-up, this temperature corresponded to a flow rate of $0.75\,\rm{L\,min^{-1}}$.
+The change in beam quality and output power as a function of amplifier temperature is are shown in Figure \ref{fig:ligo_laser_chapter_cooling_pwoer_hom}. As the flow rate was decreased, the temperature of the heads increased. At 22.3\si{\celsius} the higher order mode content was $\sim 4.5\%$ and the amount of power in the fundamental mode was $\sim127\,\rm{W}$. By making mode scans, the change in higher order mode content was measured. For each amplifier head temperature, sixty mode scans were averaged. This revealed that changes in the second order mode made up the majority of the HOM content change. This is due to the changing in thermal lens focal length and the amount of thermally driven astigmatism of the beam. It was decided that to keep the amount of power in the fundamental mode high, the diode heads would be operated such that their temperature did not rise above $\sim27$\,\si{\celsius}. %In this cooling set-up, this temperature corresponded to a flow rate of $0.75\,\rm{L\,min^{-1}}$.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_cooling_pwoer_hom}
@@ -124,7 +135,7 @@ The results of this are shown in Figure \ref{fig:ligo_laser_chapter_cooling_pwoe
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_mode_scans}
-	\caption{}
+	\caption{Mode scans were performed with the DBB for each amplifier head temperature. The second order mode for this cavity is located at $\sim0.3$ FSR. As the temperature of the amplifier head changes, the second order mode content of the beam changes on the percent level. This second order mode height is shown in the inset. The second order mode can change due changes in the thermal lens focal length or because the beams astigmatism changes.}
 	\label{fig:ligolaserchaptermodescans}
 \end{figure}
 \paragraph{}
@@ -145,7 +156,7 @@ A Wincam was set up to monitor the beam profile. If the amplifier is significant
 \paragraph{}
 Once the the amplifier has been optimised for a low pump diode current, the pump diode current should be incremented in small steps of roughly 1-2A. Each time this is done, the thermal lensing will increase. Due to the non-uniform way in which the heating occurs, the input alignment needs to be re-optimised each time as does the input mode-matching. The idea is that by going in small steps of diode current, the optimal alignment can be safely achieved. The amplifier should be operated at high diode currents, $\approx 9\si{\ampere}$, so it is not worth spending a huge amount of time perfecting the input alignment and mode-matching at these currents. Its sufficient to be within a 1\% of optimal. 
 \paragraph{}
-Using mode scans from the DBB, one can determine when the alignment to the amplifier is optimal. Since the beam from the amplifier will have a few percent of higher order modes due to thermal lensing, optimising the mode matching from the amplifier to the DBB is difficult. When optimising the pump diode currents, the thermal lensing changes, so the mode matching to the DBB needs to be corrected for this. 
+Using measurements of the beam power and mode scans from the DBB, one can determine when the alignment to the amplifier is optimal. Since the beam from the amplifier will have a few percent of higher order modes due to thermal lensing, optimising the mode matching from the amplifier to the DBB is difficult. When optimising the pump diode currents, the thermal lensing changes, so the mode matching to the DBB needs to be corrected for this. 
 %\subsection{Optimising Pump Diode Currents}
 %At some point, increasing the pump diode currents will cause the amount of power in the TM00 mode to decrease as the thermal lensing will become too strong. The pump currents used are shown in table \ref{tab:amp_settings}
 %\href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11685}{Amp II table post}
@@ -165,67 +176,55 @@ Using mode scans from the DBB, one can determine when the alignment to the ampli
 %\caption{Amplifier settings 09/12/2019. Note that some power will be lost due to the required offset for the AOM.}
 %\label{tab:amp_settings}
 %\end{table}
-
-\begin{table}
-	\centering
-	\begin{tabular}{|p{25mm}  | p{25mm} | p{25mm} | p{25mm}  | p{25mm}  |}
-		\hline
-		Amplifier & Diodes 1 \& 2 Current (A) & Diodes 3 \& 4 Current (A) & Output Power (W) & HOM content (\%) \\
-		\hline
-		Amp II & 10.4 & 9.3 & 67 & 4.8\% \\
-		Amp I & 9.5 & 9.2 & 137 & 7.5 ??\%  \\
-		\hline
-	\end{tabular}
-\caption{Amp II: settings on 11/11/2019 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11685}{post}. Amp I: settings on 12/11/2019 \href{https://alog.ligo-la.caltech.edu/TNT/index.php?callRep=11690}{post}}
-\label{tab:amp_settings}
-\end{table}
 \section{Intensity Stabilisation}
 \href{https://link.springer.com/article/10.1007/s00340-011-4399-1}{Read this! }
 %The intensity fluctuations should be lower than the noise generated by radiation pressure noise causing motion of the test masses. The intensity noise should be limited by shot noise around 100\,Hz where radiation pressure noise has dropped off. Above the bandwidth of the cavities, the intensity noise requirement can be relaxed as the interferometer becomes less sensitive to intensity noise. 
 %\subsection{Intensity Stabilisation Concept}
-The intensity noise requirement for the PSL is found in \cite{PSL_requirements}. At low frequencies, the requirement is driven by the need for the intensity noise to be less than the radiation pressure noise induced by the differences in the arm powers. At 10\,Hz, the laser must be stabilised to a level of $\sim1\times10^{-9}$. Above 10\,Hz, the requirement on the intensity noise is relaxed as there is passive filtering of the light by the PRC. The light is passively stabilised by the PMC to provide the required RF intensity noise.
+The PSL must provide intensity stabilised light to the interferometer. The intensity stabilisation of the laser is done in two stages. Before the the IMC is locked, the laser is stabilised by the inner loop to a level required to the lock the IMC. The intensity noise requirement for the PSL is found in \cite{PSL_requirements}. At low frequencies, the requirement is driven by the need for the intensity noise to be less than the radiation pressure noise induced by the differences in the arm powers. At 10\,Hz, the laser must be stabilised to a level of $\sim1\times10^{-9}$. Above 10\,Hz, the requirement on the intensity noise is relaxed as there is passive filtering of the light by the PRC. The light is passively stabilised by the PMC to provide the required RF intensity noise. 
 \paragraph{}
-The PSL must provide intensity stabilised light to the interferometer. The intensity stabilisation of the laser is done in two stages. Before the the IMC is locked, the laser is stabilised by the inner loop to a level required to the lock the IMC. The light used to measure the intensity noise is a small pick-off beam that is transmitted by the PMC. There is $\sim1\,\si{\milli\watt}$ of light in this beam, so the laser cannot be stabilised beyond $\sim2\times10^{-8} \sqrt{\rm{Hz}}^{-1/2}$ with this beam. Once the IMC is locked, a pick-off from the beam entering the interferometer is used to measure the intensity noise of the laser. This beam has enough power to reach the $\sim1\times10^{-9}$ shot noise requirement. As the inner-loop is in-air and is based on rigidly mounted optics, it is unable to remove noise associated with vibrating mounts.
+There are two loops used for intensity stabilisation. To obtain lock of the IMC, the inner loop is required. Once the IMC is locked, the outer loop is used to fulfil the intensity noise requirement for when the interferometer is in observing mode. This concept is shown in figure \ref{fig:ligo_laser_chapter_ISS_concept}. During observation mode, the intensity noise after the IMC is a better signal to use than one from a signal in the PSL.
+\paragraph{}
+The light used to measure the intensity noise for the inner loop is a low power beam that is transmitted by the PMC. There is $\sim1\,\si{\milli\watt}$ of light in this beam, so the laser cannot be stabilised beyond $\sim2\times10^{-8} \sqrt{\rm{Hz}}^{-1/2}$ with this beam. Once the IMC is locked, a pick-off from the beam entering the interferometer is used to measure the intensity noise of the laser. This beam has enough power to reach the $\sim1\times10^{-9}$ shot noise requirement. As the inner-loop is in-air and is based on rigidly mounted optics, it is unable to remove noise associated with vibrating mounts.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_ISS_concept}
-	\caption{ISS concept}
+	\caption{The intensity stabilisation concept involves two loops. The inner loop is responsible for stabilising the laser so that the IMC can lock. The outer loop is used to stabilise the laser for observation mode. The two loops sense the laser intensity noise at different points. The inner loop uses a low power beam transmitted by the PMC. The outer loop uses a pick-off from the main beam. An AOM is use to actuate on the laser's power.}
 	\label{fig:ligolaserchapterissconcept}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_iss_requirement}
-	\caption{ISS concept}
+	\caption{A reproduction of the intensity noise requirement from \cite{PSL_requirements}. The outer loop requirement is shown in blue and the inner loop is shown by the orange dashed line. At frequencies below 10\,Hz, the outer loop requirement is determined by the radiation pressure noise that is expected to arise due to imbalances in the arm power. The requirement is most stringent at 10\,Hz. Due to the PRC cavity pole, the requirement relaxes above 10\,Hz. The inner loop requirement is less extreme than the outer loop as it is only needed to stabilise the laser in the initial locking sequence and not for during an observation run.} 
 	\label{fig:ligolaserchapterissrequirement}
 \end{figure}
 \subsection{Free Running Noise of the TnT Prototype PSL}
-The power noise of the NPRO was measured using the DBB RIN photodiode (Figure \ref{fig:ligolaserchapterfrn}). The TnT NPRO displays a typical noise level that would be expected for this type of laser \cite{Heurs2004}. This was recorded via CDS, so the measurements near 10\,\si{\kilo\hertz} are effects by the anti-aliasing filter. The noise between 100\si{\hertz} and 1\si{\kilo\hertz} has features associated with the motion of the table and the mirror mounts.
+The power noise of the NPRO was measured using the DBB RIN photodiode (Figure \ref{fig:ligolaserchapterfrn}). The TnT NPRO displays a typical noise level that would be expected for this type of laser \cite{Heurs2004}. This was recorded via CDS, so the measurements near 10\,\si{\kilo\hertz} are affected by the anti-aliasing filter. The noise between 100\si{\hertz} and 1\si{\kilo\hertz} has features associated with the motion of the table and the mirror mounts.
 \paragraph{}
-The power noise of Amp II and Amp I were measured using the DBB photodiode, however the noise was measured via a spectrum analyser rather than CDS, allowing for measurements at higher frequencies (Figure \ref{fig:ligolaserchapterfrn}). The noise of these amplifiers is at a similar level to the NPRO. When the amplifiers are saturated, they produce coherent radiation. This means that if the seed laser changes in power, the amplifiers power will change along with it. The amplifiers are linear for these small power fluctuations, and so the noise \emph{should} be dominated by NPRO noise. However, additional noise is introduced. As there are additional components in the beam path for amp I and amp II compared to the NPRO, there are more lines associated with them between  100\si{\hertz} and 10\si{\kilo\hertz}. However, the noise of the amplifiers is covered in a forest of lines that are spaced 4\si{\hertz}, starting from  4\si{\hertz} and continuing up to high frequency. These lines were found to originate in the Beckhoff slow control computer which is used as an interface for the amplifiers. To remove these lines, this control computer needs better electrical isolation between its digital and analogue sections. There are also peaks at 20\si{\hertz}, which can be attributed to the air conditioning. The second amplifier havs lower noise at high frequencies than the first amplifier since the DC gain of the amplifier is not the same as its frequency dependent gain.
+The power noise of Amp II and Amp I were measured using the DBB photodiode, however the noise was measured with a spectrum analyser rather than CDS, allowing for measurements at higher frequencies (Figure \ref{fig:ligolaserchapterfrn}). As the amplifiers are pumped with low noise diodes and are operating in their saturated regimes the RIN is expected to decrease after each amplifier. When an amplifier is saturated, the amplifier will not behave linearly and instead will add a fixed amount of input power regardless of its seed power. As, expected, at frequencies above 10\,kHz the RIN after the second amplifier is less than the RIN after the first amplifier. However, the noise of the amplifiers is covered in a forest of lines that are spaced 4\si{\hertz}, starting from  4\si{\hertz} and continuing up to high frequency. These lines were found to originate in the Beckhoff slow control computer which is used as an interface for the amplifiers. To remove these lines, this control computer needs better electrical isolation between its digital and analogue sections. There are also peaks at 20\si{\hertz}, which can be attributed to the air conditioning. 
 \paragraph{}
 The noise of the laser after the beam is transmitted through the PMC was measured (Figure \ref{fig:ligolaserchapterfrn}). The PMC introduces length to intensity noise coupling via the offset in the PDH loop. This offset changes due to changing levels of RF coupling in the PMC servo electronics. As there was constant activity in the lab, this pick up changed - even moving a wire can cause a different amount of RF coupling. The coupling from length noise of the PMC to intensity noise as much as possible.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_FRN.pdf}
-	\caption{}
+	\caption{The free running noise of the NPRO and each amplifier is shown. The noise after the PMC was also measured. There is a forest of 4\,Hz lines due to the Beckhoff control computer in the amplifier and PMC noise curves. Due to the non linear nature of the saturated amplifiers, at high frequencies the output beam intensity noise decreases relative to the input beam. The PMC couples length noise to intensity noise between 100\,Hz and 10\,kHz. This excess can be tuned away in the PDH servo.}
 	\label{fig:ligolaserchapterfrn}
 \end{figure} 
 \subsection{Actuator}
-The actuator that will be used to provide intensity stabilisation is an AOM. The use of a current shunt integrated into one of the pump diodes for Amp I was investigated as this has the potential to reduce the number of transmissive high power optics.
+The actuator that will be used to provide intensity stabilisation will be an AOM. The use of a current shunt integrated into one of the pump diodes for Amp I was investigated as this has the potential to reduce the number of transmissive high power optics. To use the current shunt, the servo electronics should be redesigned to accommodate for the difference in the actuation strength of the current shunt.
 \subsubsection{AOM}
-The AOM used is a Crystal Technology 3080-199. An AOM uses a acoustic waves to scatter light into higher order modes. The amount of light that is bragg scattered depends on the intensity of the the acoustic wave. To control the intensity of the acoustic wave an RF driver, gooch and housego r21080-2am-rfx, was used. This driver produces an 80\,MHz signal whose power can be modulated. By modulating the power of this signal, the power in the zeroth order beam can be controlled. The diffraction efficiency of this AOM was found to be 74\%. This means that the AOM can be used for coarse and fine power adjustment. In order to modulate the intensity of a laser beam, some of it must always be scattered into the first order beam. In order to operate linearly, the DC level of the light that is dumped should be about 10\si{\watt}. 
+An AOM uses a acoustic waves to scatter light into higher order modes. The amount of light that is bragg scattered depends on the intensity of the the acoustic wave. The AOM used is a Crystal Technology 3080-199.  To control the intensity of the acoustic wave an RF driver, gooch and housego r21080-2am-rfx, was used. This driver produces an 80\,MHz signal whose power can be modulated. By modulating the power of this signal, the power in the zeroth order beam can be controlled. The diffraction efficiency of this AOM was found to be 74\%. This means that the AOM can be used for coarse and fine power adjustment. In order to modulate the intensity of a laser beam, some of it must always be scattered into the first order beam. In order to operate linearly, the DC level of the light that is dumped should be about 10\si{\watt}. 
 \paragraph{}
-The transfer function between the amplifier power control of the AOM and the intensity of the zeroth order beam as measured by the ISS photodiode is shown in figure \ref{fig:ligolaserchapteraomtransferfunction}. The schematic for this measurement is shown in Figure \ref{fig:ligolaserchapteraomtfmeasurement}. The signal needs to be linearised before going to the RF amplifier. The transfer function is shown in relative intensity units, i.e. the response was divided by the DC power on the photodiode. This transfer function is flat from 1\si{\hertz} to 100\si{\kilo\hertz}, and above 10\si{\kilo\hertz} there is some phase lag. 
+The transfer function, in relative intensity units, between the amplifier power control of the AOM and the intensity of the zeroth order beam as measured by the ISS photodiode is shown in figure \ref{fig:ligolaserchapteraomtransferfunction}. The schematic for this measurement is shown in Figure \ref{fig:ligolaserchapteraomtfmeasurement}. The signal needs to be linearised before going to the RF amplifier. This transfer function is flat from 1\si{\hertz} to 100\si{\kilo\hertz}, and above 10\si{\kilo\hertz} there is some phase lag. 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_AOM_TF_measurement}
-	\caption{}
+	\caption{A sketch of how the AOM transfer function was measured. The components of the intensity stabilisation servo has also been shown. The PMC was locked and a signal analyser was used to perform a swept sine measurement. A chip that performs a square root operation to an input signal was used to linearise the AOM. The transfer function was measured between the input to this chip and the photodiode used for the intensity stabilisation. The servo electronics are detailed in D1001985 and D1001998.}
 	\label{fig:ligolaserchapteraomtfmeasurement}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_AOM_transfer_function}
-	\caption{}
+	\caption{Using the layout shown in figure \ref{fig:ligolaserchapteraomtfmeasurement}, the transfer function of the input to the linearisation stage before the AOM to light power change on the ISS photodiode was measured. The response was normalised by dividing by the DC power on the photodiode. The transfer function is flat over the region where there open loop gain needs to be greater than one ($\sim 10\,\si{\kilo\hertz}$), There is a small amount of phase lag at higher frequencies.}
 	\label{fig:ligolaserchapteraomtransferfunction}
 \end{figure}
 \subsubsection{Current Shunt}
@@ -239,41 +238,41 @@ The transfer function between the diode current input and the ISS photodiode in 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_CS_TF_measurement}
-	\caption{}
+	\caption{A sketch of how the current shunt transfer function was measured. The PMC was locked and a signal analyser was used to perform a swept sine measurement. The current of one of the pump diodes in the second amplifier was modulated by applying a signal to a current shunt. The transfer function was measured between the input to the current shunt electronics and the photodiode used for the intensity stabilisation.}
 	\label{fig:ligolaserchaptercstfmeasurement}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{ligo_laser_chapter_current_shunt_tf}
-	\caption{}
+	\caption{Using the layout shown in Figure \ref{fig:ligolaserchaptercstfmeasurement}, the transfer function between the current shunt input electronics and the intensity stabilisation photodiode was measured. The transfer function was normalised by dividing by the DC power on the photodiode. At 10\,Hz, where the noise requirement is hardest to meet, the gain of transfer function changes significantly depending on the pump diode DC current. The phase at this frequency does not matter, as it is not near the unity gain point of the servo.}
 	\label{fig:ligolaserchaptercurrentshunttf}
 \end{figure}
 \subsubsection{Reasoning for using the AOM over the Current Shunt}
-While the current shunt offers many advantages over the AOM, it has a major drawback: it cannot reduce the power at the many tens of Watts level. In order to do this, high power attenuation optics would be required, which means putting transmissive optics back in the beam bath and thus undoing the plus points gained by using a current shunt. When the LIGO detectors are able to operate at full power, then the current shunt actuator would be worth revisiting, however at present LIGO operates with between 25-50\si{\watt} of input power from the PSL.
-\subsection{Open Loop Transfer function Measurement}
-A sketch of the servo is shown in Figure \ref{fig:ligolaserchapteroltfmeasurement}. The servo features two circuits that add shaping; these are found built into the photodiode circuit and within the rack electronics. The rack electronics allow for the servo to be controlled via CDS. This gives the user the ability to turn the servo on/off, to vary the overall gain and activate integrators. 
+While the current shunt offers some advantages over the AOM, it cannot reduce the power at the many tens of Watts level which is a functionality that LIGO would likely need. LIGO has never operated at full power due to point absorbers in the test masses. To reduce the power by many tens of Watts the pump diode DC current would have to be reduced. This would affect the noise of the laser and the open loop transfer function of the servo. These amplifiers work best in their saturated regimes and the RIN may be increased if the pump diode currents are decreased significantly. The transfer function of the current shunt heavily depends on the pump diode DC current at 10\,Hz, this is where the requirement of the intensity stabilisation is most stringent. Alternatively, high power attenuation optics would be required, which means putting transmissive optics back in the beam bath and thus undoing the plus points gained by using a current shunt. When the LIGO detectors are able to operate at full power, then the current shunt actuator would be worth revisiting, however at present LIGO operates with between 25-50\si{\watt} of input power from the PSL.
+\subsection{Open Loop Transfer Function}
+The free running noise of the laser transmitted by the PMC is shown in figure \ref{fig:ligolaserchapterfrn} and the requirement is shown in figure \ref{fig:ligolaserchapterissrequirement}. Based on the noise and the requirement, the unity gain point of this servo must be above 10\,\si{\kilo\hertz}. At 10\,\si{\hertz}, the noise requirement is $2\times10^{-8} 1/\sqrt{\rm{Hz}}$ and the noise is $2\times10^{-5} 1/\sqrt{\rm{Hz}}$, so there needs to be at least 60\,dB of open loop gain at this frequency.
 \paragraph{}
-To measure the open loop transfer function, a swept sine into a times one adding stage of the servo. The signal at the other input to this stage was measured, and the signal immediately after this stage was measured. The ratio of these two gives the open loop transfer function of the servo. For this measurement, the gain in CDS was set to 20\,dB. Once the intensity stabilisation was activated, the integrators were engaged to increase the open loop gain at low frequencies. The light transmitted through the PMC was 100\,W. The open loop transfer function is shown in figure \ref{fig:ligolaserchapteropenlooptransferfunction}. The unity gain point is at 48\,\si{\kilo\hertz} with $\sim 70\si{\degree}$ of phase margin. This servo satisfies the requirements.
+A sketch of the servo is shown in Figure \ref{fig:ligolaserchapteroltfmeasurement}. The servo features two circuits that add shaping; these are found built into the photodiode circuit and within the rack electronics. The inner loop ISS features two photodiodes, on for in loop measurements and one for out of loop measurements. The rack electronics allow for the servo to be controlled via CDS. This gives the user the ability to turn the servo on/off, to vary the overall gain and activate integrators.
+\paragraph{}
+To measure the open loop transfer function, a swept sine is applied at a times one adding stage of the servo. The signal at the other input to this stage was measured and the signal immediately after this stage was measured. The ratio of these two gives the open loop transfer function of the servo. For this measurement, the gain in CDS was set to 20\,dB. Once the intensity stabilisation was activated, the integrators were engaged to increase the open loop gain at low frequencies. The light transmitted through the PMC was 100\,W. The open loop transfer function is shown in figure \ref{fig:ligolaserchapteropenlooptransferfunction}. The unity gain point is at 48\,\si{\kilo\hertz} with $\sim 70\si{\degree}$ of phase margin. This servo satisfies the requirements.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_OL_TF_measurement}
-	\caption{}
+	\caption{The open loop transfer function of the servo was measured by injecting a signal at a times one adding stage. The points immediately before and after this sate were measured, and the ratio of these two stages gives the open loop transfer function of the servo.}
 	\label{fig:ligolaserchapteroltfmeasurement}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_OL_transfer_function}
-	\caption{}
+	\caption{The open loop transfer function was measured using the layout shown in Figure \ref{fig:ligolaserchapteroltfmeasurement}. The unity gain point is at 48\,\si{\kilo\hertz} with 70\si{\degree} of phase margin. The shaping of the servo is $1/f$ at the unity gain point, but to achieve the higher gain required at low frequency, the servo has a $1/f^2$ slope below the unity gain point. The measurement saturated below 100\,Hz.}
 	\label{fig:ligolaserchapteropenlooptransferfunction}
 \end{figure}
 \subsection{Stabilised Noise Measurement}
-The loop is required to suppress the free running noise of the laser after the PMC, shown in Figure \ref{fig:ligolaserchapterfrn}, to the inner loop requirement, shown in Figure \ref{fig:ligolaserchapterissrequirement}. Therefore, the unity gain point of this servo must be above 10\,\si{\kilo\hertz}. At 10\,\si{\hertz}, the noise requirement is $2\times10^{-8} 1/\sqrt{\rm{Hz}}$ and the noise is $2\times10^{-5} 1/\sqrt{\rm{Hz}}$, so there needs to be at least 60\,dB of open loop gain at this frequency.
-\paragraph{}
-The stabilised laser noise is shown in Figure \ref{fig:ligolaserchapteraomstabilisationnoise}. The out of loop noise was measured on the `spare' ISS photodiode. A noise budget was created using the measured noise in the loop and the shot noise level of the light used to stabilise the laser. This agrees with the out of loop noise measurement to 10\si{\hertz}. Below 10\si{\hertz}, there is excess noise in the out of loop measurement compared to the noise budget. Possible sources of this noise could be scattered light or dust falling through the ISS beam. Near the unity gain point, due to the open loop transfer function phase and gain, there is a small increase in the stabilised noise compared to the free running noise, however this is out of the requirement frequency band.
+The stabilised laser noise is shown in Figure \ref{fig:ligolaserchapteraomstabilisationnoise}. A noise budget was created using the measured noise in the loop and the shot noise level of the light used to stabilise the laser. This agrees with the out of loop noise measurement above 10\si{\hertz}. Below 10\si{\hertz}, there is excess noise in the out of loop measurement compared to the noise budget. Possible sources of this noise could be scattered light or dust falling through the ISS beam. Near the unity gain point, due to the open loop transfer function phase and gain, there is a small increase in the stabilised noise compared to the free running noise, however this is out of the requirement frequency band.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_AOM_stabilisation_noise}
-	\caption{}
+	\caption{The Free running noise of the laser is shown in red. The noise of the light transmitted by the PMC is shown in blue; this meets the requirement that is shown by the dashed black line. The noise level is determined by the in loop noise, shown in green, the shot noise and other technical noise sources. The sum of these is shown by the dotted brown line. Below 100\,H\, the noise is shot noise limited. There is a discrepancy between the noise budget and the measured noise. This is likely due to dust falling through the beam or scattered light. Near the unity gain point of the servo, the noise is enhanced by the servo due to gain peaking.}
 	\label{fig:ligolaserchapteraomstabilisationnoise}
 \end{figure}
 \section{Pointing Noise}
@@ -283,40 +282,30 @@ The pointing noise was measured using the DBB. The laser is locked the the DBB c
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_pointing_noise}
-	\caption{}
+	\caption{The four relative pointing noise degrees of freedom for the the beam into the PMC was measured with the DBB. The requirement \cite{PSL_pointing_requirement} is shown in light blue. The pointing noise is above the requirement, however the TnT lab has a higher amount of environmental noise, this pointing noise will be less in the PSL. Measurements below 100\,Hz may be affected by scattering.}
 	\label{fig:ligolaserchapterpointingnoise}
 \end{figure}
 \paragraph{}
 The pointing noise  measurement shows that this layout is close to fulfilling requirement. More time could be used to improve the water cooling, as this can introduce jitter. The noise at low below 100\,Hz may be coming from the environmental control in the TnT lab. The ligo PSL table is different, so this data may not reflect how quiet this layout will be in the main lab.
 \section{Frequency Noise}
-Ultimately, LIGO uses the arm cavity as a frequency reference since $\delta f/f = \delta l/l$, however the PSL must provide a suitably low frequency noise to the interferometer so that it can acquire lock. The PSL uses an ultra low expansion fused silica reference cavity in a Pound-Drever-Hall (PDH) locking scheme to provide this frequency stabilisation \cite{PSL_final_design}. As the PMC is a more stable reference frequency than the NPRO is, the PMC can be used to measure the frequency noise of the NPRO.
+LIGO has a multi-stage frequency stabilisation system. Ultimately, LIGO uses the arm cavity as a frequency reference since $\delta f/f = \delta l/l$, however the PSL must provide a suitably low frequency noise to the interferometer so that it can lock the first elements of the interferometer. The PSL uses an ultra low expansion fused silica reference cavity in a Pound-Drever-Hall (PDH) locking scheme to provide this frequency stabilisation \cite{PSL_final_design}. 
 \paragraph{}
-First the PMC is locked to the NPRO by controlling the length of the PMC. The length of the PMC is controlled with two actuators: a PZT attached to one its mirrors and a heater which can be used to control the thermal expansion of the PMC. The PZT provides the fast control, whereas the heater controls the length of the cavity on time-scales of minutes. The Pond-Drever-Hall technique is used to sense the length of the cavity. RF frequency side-bands are applied to the laser via an EOM. The light that is reflected from the PMC is demodulated at the same frequency as the RF side bands. When the cavity is near resonance the demodulated signal is proportional to the difference between the laser frequency and the frequency corresponding to the cavity length. A sketch of the PMC length control servo is shown in figure \ref{fig:ligolaserchapterfrequencynoisemeasurementsketch}.
+The PMC can be used to measure the frequency noise of the PSL beam. The beam's frequency will be determined by the length noise of the PMC and the frequency noise fo the NPRO. The signals used to control the PMC can be converted into a measurement of the systems frequency noise. The control signal which is sent to the PZT in the PMC can give the frequency noise of the system where there is sufficient open loop gain. Around the unity gain point, the servos response needs to be factored in. Alternatively, the error signal and the open loop gain can be used to measure the frequency noise of the system.
+\paragraph{}
+The NPRO is locked to the PMC by controlling the length of the PMC. The length of the PMC is controlled with two actuators: a PZT attached to one its mirrors and a heater which can be used to control the thermal expansion of the PMC. The PZT provides the fast control, whereas the heater controls the length of the cavity on time-scales of minutes. The Pond-Drever-Hall technique is used to sense the length of the cavity. RF frequency side-bands are applied to the laser via an EOM. The light that is reflected from the PMC is demodulated at the same frequency as the RF side bands. When the cavity is near resonance the demodulated signal is proportional to the difference between the laser frequency and the frequency corresponding to the cavity length. A sketch of the PMC length control servo is shown in figure \ref{fig:ligolaserchapterfrequencynoisemeasurementsketch}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_frequency_noise_measurement_sketch}
-	\caption{}
+	\caption{A sketch of the frequency stabilisation servo. An EOM produces 35\,MHz sidebands which are used to produce a PDH locking signal. A PZT controls the lenght of the cavity at high frequencies. A heater and a digital loop is used to provide slow control so that the PZT can operate around its mid point. The open loop transfer function was measured using signals at A and B, and the frequency noise was measured using the error point and control signals marked by C and D.}
 	\label{fig:ligolaserchapterfrequencynoisemeasurementsketch}
 \end{figure}
 \paragraph{}
-A measurement of the error signal combined with the open loop transfer function will give the frequency noise of the laser. Below the unity gain frequency, a measurement of the control signal will also give the frequency noise. To see how the error signal can give the frequency noise, consider figure \ref{fig:ligolaserchapterfrequencynoisemeasurementmathssketch}. The difference between the laser frequency and the cavity frequency is obtained via the PDH technique. The PZT signal, $c$, is then obtained via the transfer function of the optics, i.e. the frequency to voltage transfer function of the PDH lock, and the electronics transfer function. Together this transfer function is $G$. First, define the error signal
-\begin{equation}
-\epsilon = a - b.
-\end{equation}
-Next, express the control signal in terms of $\epsilon$,
-\begin{equation}
-\epsilon G = c.
-\end{equation}
-Expressing the signal $b$ in terms of $c$,
-\begin{equation}
-cH = b,
-\end{equation}
-allows for signal $a$ to be written in terms of the error signal $\epsilon$,
+To see how the error signal used to lock the cavity can give the frequency noise, consider figure \ref{fig:ligolaserchapterfrequencynoisemeasurementmathssketch}. The difference between the laser frequency and the cavity frequency is obtained via the PDH technique. The PZT signal, $c$, is then obtained via the transfer function of the optics, i.e. the frequency to voltage transfer function of the PDH lock, and the electronics transfer function. Together this transfer function is $G$. First, define the error signal $\epsilon = a - b$.  Next, express the control signal in terms of the error signal, $\epsilon G = c$. Expressing the signal $b$ in terms of $c$ allows for signal $a$ to be written in terms of the error signal $\epsilon$,
 \begin{equation}
 a = \epsilon(1+GH).
 \label{eq:ligolaserchaptermeasurement_of_frequency_noise}
 \end{equation}
-Equation \ref{fig:ligolaserchaptermeasurement_of_frequency_noise} shows that to measure the frequency noise of the laser, $a$, the error signal should be multipled by the open loop transfer function, $GH$.
+Equation \ref{fig:ligolaserchaptermeasurement_of_frequency_noise} shows that to measure the frequency noise of the laser, $a$, the error signal should be multiplied by the open loop transfer function, $GH$.
 %\paragraph{}
 %If the cavity length, which at the frequencies of interest is controlled by the PZT, is following the frequency noise of the laser, this cavity length signal is (almost) equivalent to the frequency noise of the laser up to the unity gain point of the PMC length servo. The gain of the length servo affects the uncertainty of the measurement; when the servo has high gain the PZT signal will have less . Above the unity gain point of the servo, the length of the PMC no longer corresponds to the frequency noise of the laser as these fluctuations in frequency are followed by the cavity.
 %\paragraph{}
@@ -327,56 +316,56 @@ Equation \ref{fig:ligolaserchaptermeasurement_of_frequency_noise} shows that to 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch}
-	\caption{}
+	\caption{The servo can be considered as being made of three parts: the optics, the shaping electronics and the PZT. The optics block waht is obtained after the photodiode signal is demodulated. When at resonance, this is a flat transfer function that is proportional to the difference in frequency, although at MHz frequencies the cavity pole will affect this. The electronics transfer function includes everything after the mixer up to and including the final high power OP amp. The PZT tranfer function converts a voltage to a cavity frequency. The PZT acts as a low pass filter due to it having capacitance.}
 	\label{fig:ligolaserchapterfrequencynoisemeasurementmathssketch}
 \end{figure}
-%\paragraph{}
-%As the cavity is short compared to the frequencies of interest, the optical transfer function is a flat gain factor that converts a difference in frequency to a voltage. A measurement of this can be obtained by measuring the slope of the PDH signal as the frequency of the cavity passes through a resonance. By driving the PZT with a ramp and simultaneously measuring the signal before and after it is demodulated, the optics transfer function can be obtained. Figure \ref{fig:ligolaserchaptermixercalibration} shows this measurement. The time axis can be converted to frequency as the full-width-half-maximum (FWHM) of the reflected light is determined by the optical properties of the PMC. The FWHM for the PMC is 1.19\,\si{\mega\hertz}. The slope of the demodulated signal as the cavity passes through the resonance can be used to give the conversion between difference in frequency of the cavity and laser to voltage after the demodulation electronics. This factor is 0.1366\,\si{\mega\hertz/\volt}.
+\subsection{Modelling the Open Loop Transfer Function}
+As the cavity is short compared to the frequencies of interest, the transfer function that converts a difference in NPRO and PMC frequency to a voltage is a flat gain factor. A measurement of this can be obtained by measuring the slope of the PDH signal as the frequency of the cavity passes through a resonance. By driving the PZT with a ramp and simultaneously measuring the signal before and after it is demodulated, the optics transfer function can be obtained. Figure \ref{fig:ligolaserchaptermixercalibration} shows this measurement. The time axis can be converted to frequency as the full-width-half-maximum (FWHM) of the reflected light is determined by the optical properties of the PMC. The FWHM for the PMC is 1.19\,\si{\mega\hertz}. The slope of the demodulated signal as the cavity passes through the resonance can be used to give the conversion between difference in frequency of the cavity and laser to voltage after the demodulation electronics. This factor is 0.1364\,\si{\mega\hertz/\volt}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_Mixer_calibration}
-	\caption{}
+	\caption{A ramp was applied to the PZT and photodiode signal was measured before and after demodulation. The demodulated photodiode signal is shown in blue. The photodiode signal is shown in red. Around the peak of the photodiode signal the slope of the demodulated signal gives the gain of the `optics' transfer function. This can be expressed in units of MHz/V by converting the time axis to a frequency axis. This is done by using the full-width-half-maximum of the photodiode signal as a reference frequency.}
 	\label{fig:ligolaserchaptermixercalibration}
 \end{figure}
 \paragraph{}
-To measure the transfer function between the PZT and cavity frequency, a ramp was applied to the PZT and the spacing between two resonances was measured. The difference in ramp voltage between the two resonances corresponds the FSR of the cavity. This is shown in figure \ref{fig:ligolaserchapterpmcscan}. The FSR for the PMC is 148.529\,\si{\mega\hertz}, so the PZT to frequency transfer function is 42.2870\,\si{\mega\hertz/\volt}. The PZT forms a low pass filter, as it has capacitance; this must be included when modelling the servo. The corner frequency of the PZT is above the unity gain frequency of the PMC locking servo.
+To convert the PZT voltage to the cavity frequency at low frequencies, a ramp was applied to the PZT and the spacing between two resonances was measured. The difference in ramp voltage between the two resonances corresponds the FSR of the cavity. This is shown in figure \ref{fig:ligolaserchapterpmcscan}. The FSR for the PMC is 148.529\,\si{\mega\hertz}, so the PZT to frequency transfer function is 42.2870\,\si{\mega\hertz/\volt}. The PZT forms a low pass filter, as it has capacitance; this must be included when modelling the servo. The corner frequency of the PZT is above the unity gain frequency of the PMC locking servo.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_pmc_scan.png}
-	\caption{}
+	\caption{A ramp was applied to the PZT and the reflected light from the cavity was measured. The FSR of the cavity is knwon, so the the time in this measurement can be converted to frequency giving the PZT transfer function at low frequencies. The ramp signal is shown in blue and the reflected light is shown in red.}
 	\label{fig:ligolaserchapterpmcscan}
 \end{figure}
-%\paragraph{}
-%The open loop transfer function, i.e. the optics, electronics and the PZT transfer functions multiplied together, is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The electronics transfer function was modelled with
-%\begin{equation}
-%E\left(s\right) = \frac{-534.92\left(s+1.257\times10^4\right)\left(s+2325\right)}{\left(s+4.398\times10^5\right)\left(s+1885\right)\left(s+12.57\right)}.
-%\end{equation}
-%The PZT was modelled as a low pass filter with a corner frequency of 1700\si{\hertz} i.e. $P(s) = 10681/(s+1.068\times10^4)$. The open loop transfer function, $G(s)H(s)$, is then
-%\begin{equation}
-%G(s)H(s) = E(s)P(s)\frac{42.2870}{ 0.1366}.
-%\end{equation}
-%This model is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The open loop transfer function was measured, and the model fits quite closely to this measurement. A sketch of how the open loop transfer function was measured is shown in figure \ref{fig:ligolaserchapterfrequencynoisemeasurementsketch}. The unity gain point of the servo is approximately 800\si{\hertz}. 
+\paragraph{}
+The open loop transfer function, i.e. the optics, electronics and the PZT transfer functions multiplied together, is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The PZT was modelled as a low pass filter with a corner frequency of 1700\si{\hertz}. The open loop transfer function model is shown in figure \ref{fig:ligolaserchapterpmcloopmodeltf}. The open loop transfer function was measured, and the model is within 2\,dB of the measurement. A sketch of how the open loop transfer function was measured is shown in figure \ref{fig:ligolaserchapterfrequencynoisemeasurementsketch}. The unity gain point of the servo was measured to be at approximately 800\si{\hertz}. 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_pmc_loop_model_tf}
-	\caption{}
+	\caption{The open loop transfer function was measured using the layout shown in figure \ref{fig:ligolaserchapterfrequencynoisemeasurementsketch}. This is shown in red. The electronics transfer function, without the `boost' provided by an extra integrator stage, was measured and is shown in blue. The model of this is shown in orange. The boosted electronics model is shown in purple. The green line shows the expected servo gain based on the bossted electronics model and the measurements shown in Figures \ref{fig:ligolaserchaptermixercalibration} and \ref{fig:ligolaserchapterpmcscan}. This model is within 2\,dB of the measurement. The unity gain point was measured to be at $\sim 800$\,Hz.}
 	\label{fig:ligolaserchapterpmcloopmodeltf}
 \end{figure}
-\paragraph{}
-To convert the measurement of PZT signal to frequency noise, the PZT signal must be divided by the closed loop transfer function to correct for the loop shaping. The signal must also be multiplied by the PZT to frequency conversion factor (42.2870\si{\mega\hertz/\volt}). This function is shown in figure \ref{fig:ligolaserchapterpztconversionfactor}.
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_CLTF}
-	\caption{}
-	\label{fig:ligolaserchapterpztconversionfactor}
-\end{figure}
-\paragraph{}
-The frequency noise is shown in figure \ref{fig:ligolaserchapterfrequencynoise}. The loop-corrected PZT signal is equivalent to the frequency noise of the laser. This frequency noise is a typical level expected from an NPRO. A signal at 1111\si{\hertz} was applied to the PZT to calibrate the measurement. As this frequency is above the unity gain frequency of the servo, this modulation will not be suppressed by the loop. The peak in the mixer signal and the loop-corrected PZT signal are within 25\% of each other, so the error in this frequency noise measurement will be of the same order. At 1111\,\si{\hertz}, the loop model and the loop measurement fit very closely. The source of error may be due to the optical values used for calibrating the PZT and mixer signals, as these were based on the nominal values. These could not be directly measured with this set-up, to do this a broadband EOM could be used to directly measure them. 
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_CLTF}
+%	\caption{}
+%	\label{fig:ligolaserchapterpztconversionfactor}
+%\end{figure}
+\subsection{Frequency Noise Measurement}
+The frequency noise is shown in figure \ref{fig:ligolaserchapterfrequencynoise}. Below the unity gain point, as the PZT response is flat, the PZT signal can be converted into frequency noise. The mixer signal and the open loop transfer function $\epsilon(1+GH)$ gives the frequency noise. These two measurements are within a factor of 2 of each other. Above the unity gain point of the servo, a signal applied to the PZT will not be suprressed by the loop, and so a signal measured at the error point will be equivalent to the frequency noise. A peak was used to check the calibration of the loop. The discrepancy between the blue and red traces in Figure \ref{ligolaserchapterfrequencynoise} may be due to the optical values used for the PMC, as these were not measured. To measure these, a broadband EOM could be used to sweep the frequency of the laser. The noise of a typical NPRO is shown. The measured noise follows this closely, it is likely that with a more accurate calibration, the PZT and error signal measurements would be be closer to the expected level for NRPO noise. The 2\,dB difference in the measured and modelled loop gain shows that the modelling of the loop is imperfect. The peak at 1111\,Hz should overlap. The red trace below the unity gain point is better calibrated since the FSR doesn't depend on the cleanliness of mirrors. between 100\,Hz to 1000\,Hz, there is a bulge in the frequency noise. This comes from the HEPA filter generating acoustic noise combined with non perfect offsetting in the PDH loop. below 100\,Hz and above 1\,kHz, the frequency noise of the laser is determined by the NPRO. Near the UGP, there is gain peaking which will ehnhance the noise. 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_frequency_noise}
-	\caption{}
+	\caption{The mixer signal combined with the open loop transfer function is shown in red. This is equivalent to the frequency noise of the system. The PZT signal should agree with this measurement below the unity gain point ($\sim 800$\,Hz). A signal was applied to the PZT at 1111\,Hz. This is below the corner frequency of the PZT and above the unity gain point for the servo. This should match with the mixer signal There is a factor of two between these two measurements. This can be attributed to imperfect calibration due to nominal parameters of the PMC being used. The typical noise expected from an NPRO is shown by the dashed black line. Between 100\,Hz and 1000\,Hz, there is a bulge in the frequency noise. This is likely due to acoustically driven length noise of the PMC as the PMC is not vacuum sealed.}
 	\label{fig:ligolaserchapterfrequencynoise}
 \end{figure}
 \section{Conclusion}
-summary of how much power for how long, and how it could be improved slightly with mode matching
+The PSL has undergone a major redesign due to the jitter noise introduced by the cooling for the HPO. The new layout consists of an NPRO and two solid state amplifiers followed by the PMC. A prototype of this new design was constructed and tested. The set-up procedure was established and a cooling scheme was trialled. 
+\paragraph{}
+The output power was measured over two days and was found to drop from a peak of 111\,W to 107\,W. This was due to the changes the lab temperature affecting the alignment. Higher output power could be achieved if more pump diode current and cooling was used. Additionally, more power could be coupled to the PMC if more time is spent on optimising the mode matching between the second amplifier and the PMC.
+\paragraph{}
+The frequency noise of the beam transmitted by the PMC was investigated using signals in the PMC control loop. The laser is dominated by NPRO noise at frequencies below $\sim100\si{\hertz}$ and above $\sim1\si{\kilo\hertz}$  As the PMC is not shielded from acoustic vibrations, the PMC introduce noise between these two frequencies. 
+\paragraph{}
+The jitter noise was measured and it was found to be close to the requirements. As the PSL is in a quieter environment than the lab this layout was tested in, this may not be a problem. To reduce the jitter noise further, the flow rates being reduced may help, however this reduce the output power. Active alignment could be implemented using the light that is reflected from the PMC
+\paragraph{}
+The free running intensity noise of the beam transmitted by the PMC was measured and the inner loop intensity stabilisation was tested. Two actuators were considered, a current shunt or an AOM. The AOM was chosen as this offers the most flexibility in terms of loop gains and operating power. The inner loop noise requirement was met with this set-up. 
+\paragraph{}
+Future iterations of the PSL may use fibre lasers and fibre amplifiers. These have been demonstrated at the power levels required for LIGO. Coherent power addition is another technique that can be used to obtain high beam powers. When long term operation has been demonstrated these technologies may be a viable replacement for the current PSL design.
