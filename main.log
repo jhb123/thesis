@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  22 OCT 2020 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  26 OCT 2020 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1252,10 +1252,10 @@ Chapter 1.
 Chapter 2.
 (./Chapters/Gravitational_Wave_Interferometers.tex
 Package epstopdf Info: Source file: <Figures/LIGO_layout.eps>
-(epstopdf)                    date: 2020-10-02 16:44:25
+(epstopdf)                    date: 2020-10-02 15:44:25
 (epstopdf)                    size: 93440 bytes
 (epstopdf)             Output file: <Figures/LIGO_layout-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-02 16:46:32
+(epstopdf)                    date: 2020-10-02 15:46:32
 (epstopdf)                    size: 24555 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/LIGO_layout-eps-co
 nverted-to.pdf Figures/LIGO_layout.eps>
@@ -1285,15 +1285,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 [11]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_concept.eps>
-(epstopdf)                    date: 2020-10-12 14:45:04
+(epstopdf)                    date: 2020-10-12 13:45:04
 (epstopdf)                    size: 125855 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_concept-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2020-10-12 14:46:59
+(epstopdf)                    date: 2020-10-12 13:46:59
 (epstopdf)                    size: 143970 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _concept-eps-converted-to.pdf Figures/ligo_laser_chapter_concept.eps>
-(epstopdf)             \includegraphics on input line 20.
+(epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/ligo_laser_chapter_concept-eps-converted-to.pdf, id=266, pagebox=cropb
 ox, 375.4025pt x 96.36pt>
@@ -1301,9 +1301,9 @@ File: Figures/ligo_laser_chapter_concept-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use Figures/ligo_laser_chapter_concept-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_concept-eps-converted-to.pd
-f  used on input line 20. on input line 20.
+f  used on input line 21. on input line 21.
 Package pdftex.def Info: Requested size: 426.79135pt x 109.55745pt on input lin
-e 20.
+e 21.
 
 Underfull \vbox (badness 2221) has occurred while \output is active []
 
@@ -1311,565 +1311,589 @@ Underfull \vbox (badness 2221) has occurred while \output is active []
 [13 <./Figures/ligo_laser_chapter_concept-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/ligo_laser_chapter_intensity_noise
 _measurement_sketch.eps>
-(epstopdf)                    date: 2020-10-20 15:10:33
-(epstopdf)                    size: 222517 bytes
+(epstopdf)                    date: 2020-10-26 15:37:26
+(epstopdf)                    size: 735797 bytes
 (epstopdf)             Output file: <figures/ligo_laser_chapter_intensity_noise
 _measurement_sketch-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-20 15:10:40
-(epstopdf)                    size: 62439 bytes
+(epstopdf)                    date: 2020-10-26 15:37:43
+(epstopdf)                    size: 618127 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ligo_laser_chapter
 _intensity_noise_measurement_sketch-eps-converted-to.pdf figures/ligo_laser_cha
 pter_intensity_noise_measurement_sketch.eps>
-(epstopdf)             \includegraphics on input line 33.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 <figures/ligo_laser_chapter_intensity_noise_measurement_sketch-eps-converted-to
-.pdf, id=304, pagebox=cropbox, 421.575pt x 493.845pt>
+.pdf, id=304, pagebox=cropbox, 421.575pt x 505.89pt>
 File: figures/ligo_laser_chapter_intensity_noise_measurement_sketch-eps-convert
 ed-to.pdf Graphic file (type pdf)
 <use figures/ligo_laser_chapter_intensity_noise_measurement_sketch-eps-converte
 d-to.pdf>
 Package pdftex.def Info: figures/ligo_laser_chapter_intensity_noise_measurement
-_sketch-eps-converted-to.pdf  used on input line 33. on input line 33.
-Package pdftex.def Info: Requested size: 341.43437pt x 399.97458pt on input lin
-e 33.
- [14] [15 <./figures/ligo_laser_chapter_intensity_noise_measurement_sketch-eps-
-converted-to.pdf>] [16]
-<figures/_O191520.jpg, id=544, 1325.9136pt x 758.3532pt>
+_sketch-eps-converted-to.pdf  used on input line 35. on input line 35.
+Package pdftex.def Info: Requested size: 426.79135pt x 512.15677pt on input lin
+e 35.
+
+
+LaTeX Warning: Float too large for page by 2.619pt on input line 39.
+
+[14] [15 <./figures/ligo_laser_chapter_intensity_noise_measurement_sketch-eps-c
+onverted-to.pdf>] [16]
+<figures/_O191520.jpg, id=552, 1325.9136pt x 758.3532pt>
 File: figures/_O191520.jpg Graphic file (type jpg)
 <use figures/_O191520.jpg>
-Package pdftex.def Info: figures/_O191520.jpg  used on input line 51. on input 
-line 51.
+Package pdftex.def Info: figures/_O191520.jpg  used on input line 62. on input 
+line 62.
 Package pdftex.def Info: Requested size: 426.79135pt x 244.10127pt on input lin
-e 51.
- [17] [18 <./figures/_O191520.jpg>]
+e 62.
+<figures/_O191525.jpg, id=553, 1413.1194pt x 764.3757pt>
+File: figures/_O191525.jpg Graphic file (type jpg)
+<use figures/_O191525.jpg>
+Package pdftex.def Info: figures/_O191525.jpg  used on input line 68. on input 
+line 68.
+Package pdftex.def Info: Requested size: 426.79135pt x 230.85405pt on input lin
+e 68.
+<figures/_O191531.jpg, id=556, 1160.1744pt x 636.6987pt>
+File: figures/_O191531.jpg Graphic file (type jpg)
+<use figures/_O191531.jpg>
+Package pdftex.def Info: figures/_O191531.jpg  used on input line 74. on input 
+line 74.
+Package pdftex.def Info: Requested size: 426.79135pt x 234.21469pt on input lin
+e 74.
+<figures/_O191542.jpg, id=557, 1187.1552pt x 570.4512pt>
+File: figures/_O191542.jpg Graphic file (type jpg)
+<use figures/_O191542.jpg>
+Package pdftex.def Info: figures/_O191542.jpg  used on input line 80. on input 
+line 80.
+Package pdftex.def Info: Requested size: 426.79135pt x 205.08372pt on input lin
+e 80.
+ [17] [18 <./figures/_O191520.jpg>] [19 <./figures/_O191525.jpg>] [20 <./figure
+s/_O191531.jpg>] [21 <./figures/_O191542.jpg>]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_power_plot.eps>
 
-(epstopdf)                    date: 2020-10-08 10:28:58
+(epstopdf)                    date: 2020-10-08 09:28:58
 (epstopdf)                    size: 196272 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_power_plot-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2020-10-08 10:29:15
+(epstopdf)                    date: 2020-10-08 09:29:15
 (epstopdf)                    size: 60641 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _power_plot-eps-converted-to.pdf Figures/ligo_laser_chapter_power_plot.eps>
-(epstopdf)             \includegraphics on input line 96.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_power_plot-eps-converted-to.pdf, id=563, pagebox=cr
+<Figures/ligo_laser_chapter_power_plot-eps-converted-to.pdf, id=591, pagebox=cr
 opbox, 412.54124pt x 365.365pt>
 File: Figures/ligo_laser_chapter_power_plot-eps-converted-to.pdf Graphic file (
 type pdf)
 <use Figures/ligo_laser_chapter_power_plot-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_power_plot-eps-converted-to
-.pdf  used on input line 96. on input line 96.
+.pdf  used on input line 107. on input line 107.
 Package pdftex.def Info: Requested size: 384.1096pt x 340.18733pt on input line
- 96.
- [19
+ 107.
+ [22
 
 ]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_water_cooling_s
 chematic.eps>
-(epstopdf)                    date: 2020-10-06 16:24:24
+(epstopdf)                    date: 2020-10-06 15:24:24
 (epstopdf)                    size: 58839 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_water_cooling_s
 chematic-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-06 17:30:35
+(epstopdf)                    date: 2020-10-06 16:30:35
 (epstopdf)                    size: 17633 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _water_cooling_schematic-eps-converted-to.pdf Figures/ligo_laser_chapter_water_
 cooling_schematic.eps>
-(epstopdf)             \includegraphics on input line 123.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf, id=57
-3, pagebox=cropbox, 553.06625pt x 295.1025pt>
+<Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf, id=60
+0, pagebox=cropbox, 553.06625pt x 295.1025pt>
 File: Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_water_cooling_schematic-eps
--converted-to.pdf  used on input line 123. on input line 123.
+-converted-to.pdf  used on input line 134. on input line 134.
 Package pdftex.def Info: Requested size: 426.79135pt x 227.72493pt on input lin
-e 123.
+e 134.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
-[21 <./Figures/ligo_laser_chapter_power_plot-eps-converted-to.pdf>] [22 <./Figu
-res/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf>]
+[23] [24 <./Figures/ligo_laser_chapter_power_plot-eps-converted-to.pdf>]
+[25 <./Figures/ligo_laser_chapter_water_cooling_schematic-eps-converted-to.pdf>
+]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_cooling_pwoer_h
 om.eps>
-(epstopdf)                    date: 2020-10-21 10:58:04
+(epstopdf)                    date: 2020-10-21 09:58:04
 (epstopdf)                    size: 32386 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_cooling_pwoer_h
 om-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-21 10:58:30
+(epstopdf)                    date: 2020-10-21 09:58:30
 (epstopdf)                    size: 15907 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _cooling_pwoer_hom-eps-converted-to.pdf Figures/ligo_laser_chapter_cooling_pwoe
 r_hom.eps>
-(epstopdf)             \includegraphics on input line 135.
+(epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf, id=606, pag
+<Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf, id=636, pag
 ebox=cropbox, 433.62pt x 289.08pt>
 File: Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-conve
-rted-to.pdf  used on input line 135. on input line 135.
+rted-to.pdf  used on input line 146. on input line 146.
 Package pdftex.def Info: Requested size: 426.79135pt x 284.54036pt on input lin
-e 135.
+e 146.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_mode_scans.eps>
 
-(epstopdf)                    date: 2020-10-20 15:26:49
+(epstopdf)                    date: 2020-10-20 14:26:49
 (epstopdf)                    size: 1669104 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_mode_scans-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2020-10-20 15:27:15
+(epstopdf)                    date: 2020-10-20 14:27:15
 (epstopdf)                    size: 535797 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _mode_scans-eps-converted-to.pdf Figures/ligo_laser_chapter_mode_scans.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_mode_scans-eps-converted-to.pdf, id=607, pagebox=cr
+<Figures/ligo_laser_chapter_mode_scans-eps-converted-to.pdf, id=637, pagebox=cr
 opbox, 459.7175pt x 279.0425pt>
 File: Figures/ligo_laser_chapter_mode_scans-eps-converted-to.pdf Graphic file (
 type pdf)
 <use Figures/ligo_laser_chapter_mode_scans-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_mode_scans-eps-converted-to
-.pdf  used on input line 141. on input line 141.
+.pdf  used on input line 152. on input line 152.
 Package pdftex.def Info: Requested size: 426.79135pt x 259.07253pt on input lin
-e 141.
+e 152.
 
-Overfull \hbox (6.60971pt too wide) in paragraph at lines 146--147
+Overfull \hbox (6.60971pt too wide) in paragraph at lines 157--158
  [][] \T1/cmr/m/n/12 It was de-cided that the flow rate for the am-pli-fier hea
 ds would be set to $\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 75 []$\T
 1/cmr/m/n/12 ,
  []
 
 
-Underfull \vbox (badness 3942) has occurred while \output is active []
-
- [23]
-[24 <./Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf>]
-[25 <./Figures/ligo_laser_chapter_mode_scans-eps-converted-to.pdf>]
-Underfull \vbox (badness 6658) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-[27]
+[27 <./Figures/ligo_laser_chapter_cooling_pwoer_hom-eps-converted-to.pdf>]
+[28 <./Figures/ligo_laser_chapter_mode_scans-eps-converted-to.pdf>]
+Underfull \vbox (badness 6658) has occurred while \output is active []
+
+ [29]
+[30]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95827pt
-(hyperref)                removed on input line 185.
+(hyperref)                removed on input line 196.
 
-[28]
+[31]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_ISS_concept.eps
 >
-(epstopdf)                    date: 2020-10-08 12:25:11
+(epstopdf)                    date: 2020-10-08 11:25:11
 (epstopdf)                    size: 69651 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_ISS_concept-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2020-10-08 12:25:24
+(epstopdf)                    date: 2020-10-08 11:25:24
 (epstopdf)                    size: 26779 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _ISS_concept-eps-converted-to.pdf Figures/ligo_laser_chapter_ISS_concept.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_ISS_concept-eps-converted-to.pdf, id=695, pagebox=c
+<Figures/ligo_laser_chapter_ISS_concept-eps-converted-to.pdf, id=722, pagebox=c
 ropbox, 542.025pt x 156.585pt>
 File: Figures/ligo_laser_chapter_ISS_concept-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/ligo_laser_chapter_ISS_concept-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_ISS_concept-eps-converted-t
-o.pdf  used on input line 196. on input line 196.
+o.pdf  used on input line 207. on input line 207.
 Package pdftex.def Info: Requested size: 426.79135pt x 123.29938pt on input lin
-e 196.
+e 207.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_iss_requirement
 .eps>
-(epstopdf)                    date: 2020-10-09 12:39:01
+(epstopdf)                    date: 2020-10-09 11:39:01
 (epstopdf)                    size: 48406 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_iss_requirement
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-09 12:58:55
+(epstopdf)                    date: 2020-10-09 11:58:55
 (epstopdf)                    size: 17867 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _iss_requirement-eps-converted-to.pdf Figures/ligo_laser_chapter_iss_requiremen
 t.eps>
-(epstopdf)             \includegraphics on input line 202.
+(epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_iss_requirement-eps-converted-to.pdf, id=696, pageb
+<Figures/ligo_laser_chapter_iss_requirement-eps-converted-to.pdf, id=723, pageb
 ox=cropbox, 433.62pt x 252.945pt>
 File: Figures/ligo_laser_chapter_iss_requirement-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use Figures/ligo_laser_chapter_iss_requirement-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_iss_requirement-eps-convert
-ed-to.pdf  used on input line 202. on input line 202.
+ed-to.pdf  used on input line 213. on input line 213.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
-e 202.
- [29]
+e 213.
+ [32]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_FRN.eps>
-(epstopdf)                    date: 2020-10-21 10:37:34
+(epstopdf)                    date: 2020-10-21 09:37:34
 (epstopdf)                    size: 232014 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_FRN-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2020-10-21 13:31:41
+(epstopdf)                    date: 2020-10-21 12:31:41
 (epstopdf)                    size: 84144 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _FRN-eps-converted-to.pdf Figures/ligo_laser_chapter_FRN.eps>
-(epstopdf)             \includegraphics on input line 214.
+(epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_FRN-eps-converted-to.pdf, id=714, pagebox=cropbox, 
+<Figures/ligo_laser_chapter_FRN-eps-converted-to.pdf, id=741, pagebox=cropbox, 
 416.55624pt x 301.125pt>
 File: Figures/ligo_laser_chapter_FRN-eps-converted-to.pdf Graphic file (type pd
 f)
 <use Figures/ligo_laser_chapter_FRN-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_FRN-eps-converted-to.pdf  u
-sed on input line 214. on input line 214.
+sed on input line 225. on input line 225.
 Package pdftex.def Info: Requested size: 426.79135pt x 308.54024pt on input lin
-e 214.
+e 225.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./Figures/ligo_laser_chapter_ISS_concept-eps-converted-to.pdf>] [31 <./Fi
-gures/ligo_laser_chapter_iss_requirement-eps-converted-to.pdf>] [32] [33 <./Fig
+ [33 <./Figures/ligo_laser_chapter_ISS_concept-eps-converted-to.pdf>] [34 <./Fi
+gures/ligo_laser_chapter_iss_requirement-eps-converted-to.pdf>] [35] [36 <./Fig
 ures/ligo_laser_chapter_FRN-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_AOM_TF_measurem
 ent.eps>
-(epstopdf)                    date: 2020-10-08 16:23:24
+(epstopdf)                    date: 2020-10-08 15:23:24
 (epstopdf)                    size: 147586 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_AOM_TF_measurem
 ent-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-08 16:26:16
+(epstopdf)                    date: 2020-10-08 15:26:16
 (epstopdf)                    size: 39424 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _AOM_TF_measurement-eps-converted-to.pdf Figures/ligo_laser_chapter_AOM_TF_meas
 urement.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 237.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_AOM_TF_measurement-eps-converted-to.pdf, id=871, pa
+<Figures/ligo_laser_chapter_AOM_TF_measurement-eps-converted-to.pdf, id=897, pa
 gebox=cropbox, 399.4925pt x 239.89626pt>
 File: Figures/ligo_laser_chapter_AOM_TF_measurement-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use Figures/ligo_laser_chapter_AOM_TF_measurement-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_AOM_TF_measurement-eps-conv
-erted-to.pdf  used on input line 226. on input line 226.
+erted-to.pdf  used on input line 237. on input line 237.
 Package pdftex.def Info: Requested size: 426.79135pt x 256.3021pt on input line
- 226.
+ 237.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_AOM_transfer_fu
 nction.eps>
-(epstopdf)                    date: 2020-10-20 16:16:06
+(epstopdf)                    date: 2020-10-20 15:16:06
 (epstopdf)                    size: 80998 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_AOM_transfer_fu
 nction-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-20 16:16:55
+(epstopdf)                    date: 2020-10-20 15:16:55
 (epstopdf)                    size: 19394 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _AOM_transfer_function-eps-converted-to.pdf Figures/ligo_laser_chapter_AOM_tran
 sfer_function.eps>
-(epstopdf)             \includegraphics on input line 232.
+(epstopdf)             \includegraphics on input line 243.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_AOM_transfer_function-eps-converted-to.pdf, id=872,
+<Figures/ligo_laser_chapter_AOM_transfer_function-eps-converted-to.pdf, id=898,
  pagebox=cropbox, 418.56375pt x 368.37625pt>
 File: Figures/ligo_laser_chapter_AOM_transfer_function-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Figures/ligo_laser_chapter_AOM_transfer_function-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_AOM_transfer_function-eps-c
-onverted-to.pdf  used on input line 232. on input line 232.
+onverted-to.pdf  used on input line 243. on input line 243.
 Package pdftex.def Info: Requested size: 384.1096pt x 338.05025pt on input line
- 232.
+ 243.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_CS_TF_measureme
 nt.eps>
-(epstopdf)                    date: 2020-10-08 17:18:03
+(epstopdf)                    date: 2020-10-08 16:18:03
 (epstopdf)                    size: 89462 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_CS_TF_measureme
 nt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-08 17:18:18
+(epstopdf)                    date: 2020-10-08 16:18:18
 (epstopdf)                    size: 24144 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _CS_TF_measurement-eps-converted-to.pdf Figures/ligo_laser_chapter_CS_TF_measur
 ement.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_CS_TF_measurement-eps-converted-to.pdf, id=880, pag
+<Figures/ligo_laser_chapter_CS_TF_measurement-eps-converted-to.pdf, id=906, pag
 ebox=cropbox, 307.1475pt x 174.6525pt>
 File: Figures/ligo_laser_chapter_CS_TF_measurement-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Figures/ligo_laser_chapter_CS_TF_measurement-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_CS_TF_measurement-eps-conve
-rted-to.pdf  used on input line 246. on input line 246.
+rted-to.pdf  used on input line 257. on input line 257.
 Package pdftex.def Info: Requested size: 384.1096pt x 218.42967pt on input line
- 246.
+ 257.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_current_shunt_t
 f.eps>
-(epstopdf)                    date: 2020-10-20 16:24:33
+(epstopdf)                    date: 2020-10-20 15:24:33
 (epstopdf)                    size: 75197 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_current_shunt_t
 f-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-20 16:25:03
+(epstopdf)                    date: 2020-10-20 15:25:03
 (epstopdf)                    size: 17195 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _current_shunt_tf-eps-converted-to.pdf Figures/ligo_laser_chapter_current_shunt
 _tf.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_current_shunt_tf-eps-converted-to.pdf, id=881, page
+<Figures/ligo_laser_chapter_current_shunt_tf-eps-converted-to.pdf, id=907, page
 box=cropbox, 419.5675pt x 368.37625pt>
 File: Figures/ligo_laser_chapter_current_shunt_tf-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use Figures/ligo_laser_chapter_current_shunt_tf-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_current_shunt_tf-eps-conver
-ted-to.pdf  used on input line 252. on input line 252.
+ted-to.pdf  used on input line 263. on input line 263.
 Package pdftex.def Info: Requested size: 384.1096pt x 337.24644pt on input line
- 252.
- [34] [35 <./Figures/ligo_laser_chapter_AOM_TF_measurement-eps-converted-to.pdf
->] [36 <./Figures/ligo_laser_chapter_AOM_transfer_function-eps-converted-to.pdf
->] [37] [38 <./Figures/ligo_laser_chapter_CS_TF_measurement-eps-converted-to.pd
-f>] [39 <./Figures/ligo_laser_chapter_current_shunt_tf-eps-converted-to.pdf>]
+ 263.
+ [37] [38 <./Figures/ligo_laser_chapter_AOM_TF_measurement-eps-converted-to.pdf
+>] [39 <./Figures/ligo_laser_chapter_AOM_transfer_function-eps-converted-to.pdf
+>] [40] [41 <./Figures/ligo_laser_chapter_CS_TF_measurement-eps-converted-to.pd
+f>] [42 <./Figures/ligo_laser_chapter_current_shunt_tf-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_OL_TF_measureme
 nt.eps>
-(epstopdf)                    date: 2020-10-09 11:10:12
+(epstopdf)                    date: 2020-10-09 10:10:12
 (epstopdf)                    size: 146631 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_OL_TF_measureme
 nt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-09 11:30:06
+(epstopdf)                    date: 2020-10-09 10:30:06
 (epstopdf)                    size: 39097 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _OL_TF_measurement-eps-converted-to.pdf Figures/ligo_laser_chapter_OL_TF_measur
 ement.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 277.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf, id=1073, pa
+<Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf, id=1099, pa
 gebox=cropbox, 399.4925pt x 239.89626pt>
 File: Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_OL_TF_measurement-eps-conve
-rted-to.pdf  used on input line 266. on input line 266.
+rted-to.pdf  used on input line 277. on input line 277.
 Package pdftex.def Info: Requested size: 426.79135pt x 256.3021pt on input line
- 266.
+ 277.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_OL_transfer_fun
 ction.eps>
-(epstopdf)                    date: 2020-10-20 16:16:09
+(epstopdf)                    date: 2020-10-20 15:16:09
 (epstopdf)                    size: 58867 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_OL_transfer_fun
 ction-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-20 16:16:57
+(epstopdf)                    date: 2020-10-20 15:16:57
 (epstopdf)                    size: 10422 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _OL_transfer_function-eps-converted-to.pdf Figures/ligo_laser_chapter_OL_transf
 er_function.eps>
-(epstopdf)             \includegraphics on input line 272.
+(epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf, id=1074,
+<Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf, id=1100,
  pagebox=cropbox, 425.59pt x 365.365pt>
 File: Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_OL_transfer_function-eps-co
-nverted-to.pdf  used on input line 272. on input line 272.
+nverted-to.pdf  used on input line 283. on input line 283.
 Package pdftex.def Info: Requested size: 384.1096pt x 329.77321pt on input line
- 272.
- [40]
+ 283.
+ [43]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95827pt
-(hyperref)                removed on input line 276.
+(hyperref)                removed on input line 287.
 
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_AOM_stabilisati
 on_noise.eps>
-(epstopdf)                    date: 2020-10-20 16:16:00
+(epstopdf)                    date: 2020-10-20 15:16:00
 (epstopdf)                    size: 459032 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_AOM_stabilisati
 on_noise-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-20 16:17:01
+(epstopdf)                    date: 2020-10-20 15:17:01
 (epstopdf)                    size: 162410 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _AOM_stabilisation_noise-eps-converted-to.pdf Figures/ligo_laser_chapter_AOM_st
 abilisation_noise.eps>
-(epstopdf)             \includegraphics on input line 280.
+(epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf, id=10
-85, pagebox=cropbox, 425.59pt x 301.125pt>
+<Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf, id=11
+12, pagebox=cropbox, 425.59pt x 301.125pt>
 File: Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps
--converted-to.pdf  used on input line 280. on input line 280.
+-converted-to.pdf  used on input line 291. on input line 291.
 Package pdftex.def Info: Requested size: 426.79135pt x 301.99266pt on input lin
-e 280.
+e 291.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41 <./Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf>] [42
- <./Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf>] [43]
- [44 <./Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf
+ [44 <./Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf>] [45
+ <./Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf>] [46]
+ [47 <./Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf
 >]
 
-LaTeX Warning: Reference `fig:ig:ligolaserchapterpointingnoise' on page 45 unde
-fined on input line 288.
+LaTeX Warning: Reference `fig:ig:ligolaserchapterpointingnoise' on page 48 unde
+fined on input line 299.
 
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_pointing_noise.
 eps>
-(epstopdf)                    date: 2020-10-20 16:40:57
+(epstopdf)                    date: 2020-10-20 15:40:57
 (epstopdf)                    size: 223217 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_pointing_noise-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-20 16:53:38
+(epstopdf)                    date: 2020-10-20 15:53:38
 (epstopdf)                    size: 75085 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _pointing_noise-eps-converted-to.pdf Figures/ligo_laser_chapter_pointing_noise.
 eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf, id=1218, pageb
+<Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf, id=1244, pageb
 ox=cropbox, 424.58624pt x 301.125pt>
 File: Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_pointing_noise-eps-converte
-d-to.pdf  used on input line 291. on input line 291.
+d-to.pdf  used on input line 302. on input line 302.
 Package pdftex.def Info: Requested size: 426.79135pt x 302.70485pt on input lin
-e 291.
-[45
+e 302.
+[48
 
-] [46 <./Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf>]
+] [49 <./Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_frequency_noise
 _measurement_sketch.eps>
-(epstopdf)                    date: 2020-10-21 10:57:30
+(epstopdf)                    date: 2020-10-21 09:57:30
 (epstopdf)                    size: 145776 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_frequency_noise
 _measurement_sketch-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-21 10:58:32
+(epstopdf)                    date: 2020-10-21 09:58:32
 (epstopdf)                    size: 39527 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _frequency_noise_measurement_sketch-eps-converted-to.pdf Figures/ligo_laser_cha
 pter_frequency_noise_measurement_sketch.eps>
-(epstopdf)             \includegraphics on input line 305.
+(epstopdf)             \includegraphics on input line 316.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/ligo_laser_chapter_frequency_noise_measurement_sketch-eps-converted-to
-.pdf, id=1241, pagebox=cropbox, 416.55624pt x 314.17375pt>
+.pdf, id=1268, pagebox=cropbox, 416.55624pt x 314.17375pt>
 File: Figures/ligo_laser_chapter_frequency_noise_measurement_sketch-eps-convert
 ed-to.pdf Graphic file (type pdf)
 <use Figures/ligo_laser_chapter_frequency_noise_measurement_sketch-eps-converte
 d-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_frequency_noise_measurement
-_sketch-eps-converted-to.pdf  used on input line 305. on input line 305.
+_sketch-eps-converted-to.pdf  used on input line 316. on input line 316.
 Package pdftex.def Info: Requested size: 426.79135pt x 321.91032pt on input lin
-e 305.
+e 316.
 
-[47]
+[50]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_frequency_noise
 _measurement_maths_sketch.eps>
-(epstopdf)                    date: 2020-10-21 10:50:24
+(epstopdf)                    date: 2020-10-21 09:50:24
 (epstopdf)                    size: 48103 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_frequency_noise
 _measurement_maths_sketch-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-21 10:58:34
+(epstopdf)                    date: 2020-10-21 09:58:34
 (epstopdf)                    size: 17046 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _frequency_noise_measurement_maths_sketch-eps-converted-to.pdf Figures/ligo_las
 er_chapter_frequency_noise_measurement_maths_sketch.eps>
-(epstopdf)             \includegraphics on input line 325.
+(epstopdf)             \includegraphics on input line 336.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch-eps-conver
-ted-to.pdf, id=1255, pagebox=cropbox, 217.81375pt x 64.24pt>
+ted-to.pdf, id=1283, pagebox=cropbox, 217.81375pt x 64.24pt>
 File: Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch-eps-c
 onverted-to.pdf Graphic file (type pdf)
 <use Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch-eps-co
 nverted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_frequency_noise_measurement
-_maths_sketch-eps-converted-to.pdf  used on input line 325. on input line 325.
+_maths_sketch-eps-converted-to.pdf  used on input line 336. on input line 336.
 Package pdftex.def Info: Requested size: 426.79135pt x 125.87424pt on input lin
-e 325.
+e 336.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_Mixer_calibrati
 on.eps>
-(epstopdf)                    date: 2020-10-13 11:14:51
+(epstopdf)                    date: 2020-10-13 10:14:51
 (epstopdf)                    size: 184292 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_Mixer_calibrati
 on-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-13 21:08:24
+(epstopdf)                    date: 2020-10-13 20:08:24
 (epstopdf)                    size: 50005 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _Mixer_calibration-eps-converted-to.pdf Figures/ligo_laser_chapter_Mixer_calibr
 ation.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf, id=1257, pa
+<Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf, id=1285, pa
 gebox=cropbox, 478.78876pt x 298.11375pt>
 File: Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_Mixer_calibration-eps-conve
-rted-to.pdf  used on input line 333. on input line 333.
+rted-to.pdf  used on input line 344. on input line 344.
 Package pdftex.def Info: Requested size: 426.79135pt x 265.73889pt on input lin
-e 333.
- [48] [49 <./Figures/ligo_laser_chapter_frequency_noise_measurement_sketch-eps-
-converted-to.pdf>] [50 <./Figures/ligo_laser_chapter_frequency_noise_measuremen
+e 344.
+ [51] [52 <./Figures/ligo_laser_chapter_frequency_noise_measurement_sketch-eps-
+converted-to.pdf>] [53 <./Figures/ligo_laser_chapter_frequency_noise_measuremen
 t_maths_sketch-eps-converted-to.pdf>]
-<Figures/ligo_laser_chapter_pmc_scan.png, id=1378, 476.982pt x 278.2395pt>
+<Figures/ligo_laser_chapter_pmc_scan.png, id=1405, 476.982pt x 278.2395pt>
 File: Figures/ligo_laser_chapter_pmc_scan.png Graphic file (type png)
 <use Figures/ligo_laser_chapter_pmc_scan.png>
 Package pdftex.def Info: Figures/ligo_laser_chapter_pmc_scan.png  used on input
- line 341. on input line 341.
+ line 352. on input line 352.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.96548pt on input lin
-e 341.
+e 352.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_pmc_loop_model_
 tf.eps>
-(epstopdf)                    date: 2020-10-19 16:55:12
+(epstopdf)                    date: 2020-10-19 15:55:12
 (epstopdf)                    size: 185952 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_pmc_loop_model_
 tf-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-19 17:07:45
+(epstopdf)                    date: 2020-10-19 16:07:45
 (epstopdf)                    size: 55495 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _pmc_loop_model_tf-eps-converted-to.pdf Figures/ligo_laser_chapter_pmc_loop_mod
 el_tf.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf, id=1382, pa
+<Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf, id=1409, pa
 gebox=cropbox, 425.59pt x 365.365pt>
 File: Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-conve
-rted-to.pdf  used on input line 349. on input line 349.
+rted-to.pdf  used on input line 360. on input line 360.
 Package pdftex.def Info: Requested size: 426.79135pt x 366.41777pt on input lin
-e 349.
+e 360.
 
 
-LaTeX Warning: Reference `ligolaserchapterfrequencynoise' on page 51 undefined 
-on input line 360.
+LaTeX Warning: Reference `ligolaserchapterfrequencynoise' on page 54 undefined 
+on input line 371.
 
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_frequency_noise
 .eps>
-(epstopdf)                    date: 2020-10-19 17:05:51
+(epstopdf)                    date: 2020-10-19 16:05:51
 (epstopdf)                    size: 68638 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_frequency_noise
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-19 17:07:51
+(epstopdf)                    date: 2020-10-19 16:07:51
 (epstopdf)                    size: 23355 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _frequency_noise-eps-converted-to.pdf Figures/ligo_laser_chapter_frequency_nois
 e.eps>
-(epstopdf)             \includegraphics on input line 363.
+(epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf, id=1390, page
+<Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf, id=1417, page
 box=cropbox, 421.575pt x 257.96375pt>
 File: Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_frequency_noise-eps-convert
-ed-to.pdf  used on input line 363. on input line 363.
+ed-to.pdf  used on input line 374. on input line 374.
 Package pdftex.def Info: Requested size: 426.79135pt x 261.1593pt on input line
- 363.
-[51] [52 <./Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf>]
-[53 <./Figures/ligo_laser_chapter_pmc_scan.png (PNG copy)>] [54 <./Figures/ligo
+ 374.
+[54] [55 <./Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf>]
+[56 <./Figures/ligo_laser_chapter_pmc_scan.png (PNG copy)>] [57 <./Figures/ligo
 _laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
-[56 <./Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf>]
-[57]) (./main.bbl [58]
+ [58]
+[59 <./Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf>]
+[60]) (./main.bbl [61]
 Underfull \vbox (badness 2529) has occurred while \output is active []
 
- [59
+ [62
 
 ]
 Underfull \hbox (badness 1406) in paragraph at lines 39--43
@@ -1877,21 +1901,21 @@ Underfull \hbox (badness 1406) in paragraph at lines 39--43
 ability-
  []
 
-[60] [61]
+[63] [64]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 130.
 
  (c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [62])
+) [65])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
- [63]
+ [66]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
 
 (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 83AF2945C6735DA9E2F05E638050F039;2654.
+(rerunfilecheck)             Checksum: C743A519CE99F9334B068DC7C3483499;2648.
 
 
 LaTeX Warning: There were undefined references.
@@ -1899,10 +1923,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 21006 strings out of 492990
- 392545 string characters out of 6136333
- 554176 words of memory out of 5000000
- 24104 multiletter control sequences out of 15000+600000
+ 21025 strings out of 492990
+ 392931 string characters out of 6136333
+ 556353 words of memory out of 5000000
+ 24117 multiletter control sequences out of 15000+600000
  552952 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,52p,10357b,1105s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1924,10 +1948,10 @@ bx2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
 ve/2017/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/f
 onts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (63 pages, 13922735 bytes).
+Output written on main.pdf (66 pages, 40693157 bytes).
 PDF statistics:
- 1601 PDF objects out of 1728 (max. 8388607)
- 1358 compressed objects within 14 object streams
- 209 named destinations out of 1000 (max. 500000)
- 387 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1629 PDF objects out of 1728 (max. 8388607)
+ 1379 compressed objects within 14 object streams
+ 212 named destinations out of 1000 (max. 500000)
+ 402 words of extra memory for PDF output out of 10000 (max. 10000000)
 
