@@ -2,6 +2,10 @@ This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
+White space in argument---line 135 of file main.aux
+ : \citation{Horowitz_and_Hill,Chapters
+ :                                      2 and 3}
+I'm skipping whatever remains of this command
 Database file #1: C:/bibliography/bibliography.bib
 Warning--entry type for "new_pmc_T1700543" isn't style-file defined
 --line 4247 of file C:/bibliography/bibliography.bib
@@ -9,30 +13,30 @@ Warning--entry type for "PSL_pointing_requirement" isn't style-file defined
 --line 4387 of file C:/bibliography/bibliography.bib
 You've used 31 entries,
             1791 wiz_defined-function locations,
-            655 strings with 10018 characters,
-and the built_in function-call counts, 7353 in all, are:
-= -- 518
-> -- 552
+            656 strings with 9970 characters,
+and the built_in function-call counts, 7290 in all, are:
+= -- 519
+> -- 534
 < -- 0
-+ -- 196
-- -- 165
-* -- 668
-:= -- 1288
++ -- 190
+- -- 159
+* -- 655
+:= -- 1273
 add.period$ -- 94
 call.type$ -- 31
-change.case$ -- 29
+change.case$ -- 28
 chr.to.int$ -- 0
 cite$ -- 31
-duplicate$ -- 253
-empty$ -- 635
-format.name$ -- 165
-if$ -- 1522
+duplicate$ -- 258
+empty$ -- 636
+format.name$ -- 159
+if$ -- 1514
 int.to.chr$ -- 0
 int.to.str$ -- 31
-missing$ -- 23
+missing$ -- 25
 newline$ -- 158
 num.names$ -- 31
-pop$ -- 71
+pop$ -- 72
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
@@ -48,4 +52,4 @@ warning$ -- 0
 while$ -- 57
 width$ -- 33
 write$ -- 334
-(There were 2 warnings)
+(There was 1 error message)
