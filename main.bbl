@@ -175,6 +175,18 @@ P.~Horowitz and W.~Hill.
 \newblock {\em The Art of Electronics}.
 \newblock Cambridge University Pr., 2015.
 
+\bibitem{ISS_inner_loop_photodiode}
+P.~Kwee.
+\newblock {aLIGO PSL ISS inner-loop photodiode}.
+\newblock LIGO Document D1001998-v2
+  \url{https://dcc.ligo.org/LIGO-D1001998/public}.
+
+\bibitem{ISS_inner_loop_rack}
+C.~Bogan.
+\newblock {Intensity Stabilization Servo Module (inner loop)}.
+\newblock LIGO Document D1001985-v2
+  \url{https://dcc.ligo.org/LIGO-D1001985/public}.
+
 \bibitem{PSL_pointing_requirement}
 G.~Mueller.
 \newblock {Pointing Requirements for Advanced LIGO}.
@@ -190,5 +202,12 @@ H.~Kim, P.~King, C.~Kr{\"a}mer, P.~Kwee, J.~P{\"o}ld, R.~Savage, P.~We{\ss}els,
   and B.~Willke.
 \newblock Psl final design.
 \newblock DCC LIGO T0900649-v4, February 2010.
+
+\bibitem{Uehara1995}
+N.~Uehara and K.~Ueda.
+\newblock Accurate measurement of the radius of curvature of a concave mirror
+  and the power dependence in a high-finesse fabry{\textendash}perot
+  interferometer.
+\newblock {\em Applied Optics}, 34(25):5611, sep 1995.
 
 \end{thebibliography}
