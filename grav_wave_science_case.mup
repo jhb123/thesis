@@ -1,0 +1,248 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Science case for O4 + O5. i.e. improving range of the detectors by factor of 2 causing the detection rate to increase by a factor of 10.",
+      "id": 1,
+      "attr": {
+        "position": [
+          -245,
+          443.01249408721924,
+          1
+        ],
+        "style": {
+          "text": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Good for bayesian studies which use evidence from multiple detections",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "Catalogue allows for studies of NS and BH masses. Can investigate the upper and lowwer mass gap",
+              "id": 8,
+              "ideas": {
+                "1": {
+                  "title": "GW190521: Pair-instability leads to supernova and prevents intermediate mass black holes (IMBH). One was detected, how did this happen? direct collapse or heirachical collapse?",
+                  "id": 11
+                },
+                "2": {
+                  "title": "GW190814: An object that could have been a NS or a BH. Mass of one object was 2.6 solar mass, which is very near the mass gap (3-5 solar mass).",
+                  "id": 12
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "test no hair theorem. Does Kerr solution work or is our understanding gravity wrong? ",
+          "id": 9
+        },
+        "3": {
+          "title": "Tests of GR: e.g. GW190412 displays harmonics predicted by GR.",
+          "id": 19
+        },
+        "-1": {
+          "title": "Increase chance of seeing rare source",
+          "id": 7
+        },
+        "-2": {
+          "title": "Better sky localisation. This is good for EM follow up and vice versa. Also helpful in neutrino emission related detections).",
+          "id": 10
+        },
+        "-3": {
+          "title": "BNS detections",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "Speed of gravity",
+              "id": 15
+            },
+            "2": {
+              "title": "Formation of heavy elements",
+              "id": 16
+            },
+            "3": {
+              "title": "NS Equation of state. All physics happens at once (thermodynamcis, nuclear, quantum, gravity etc.)",
+              "id": 17
+            },
+            "4": {
+              "title": "Measurement of Hubble constant.",
+              "id": 13,
+              "attr": {}
+            },
+            "3.5": {
+              "title": "Use as standard sirens. Properties of GW determined by intrisnic properties of the system and not disance.",
+              "id": 42,
+              "attr": {
+                "position": [
+                  108,
+                  33.0250244140625,
+                  1
+                ]
+              }
+            }
+          },
+          "attr": {}
+        }
+      }
+    },
+    "2": {
+      "title": "Detections of note",
+      "id": 20,
+      "attr": {
+        "position": [
+          -589,
+          -242.98750591278076,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#333333",
+          "text": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "GWTC-1",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "GW150914: BBH. First gravitational wave that was directly measured. Won a Nobel Prize",
+              "id": 22
+            },
+            "2": {
+              "title": "GW170817: First BNS with EM counter part. Confirms speed of gravity, hubble constant, formation of heavy elements, gamma ray burst source.",
+              "id": 23
+            }
+          }
+        },
+        "2": {
+          "title": "Hulse Taylor. Binary + neutron star. Orbit decay in agreement with GW, but not a direct observation of GW. Won a Nobel prize.",
+          "id": 32
+        },
+        "-1": {
+          "title": "GWTC-2",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "GW190412: BBH. Displays harmonics as predicted by GR. Very different masses between the two black holes",
+              "id": 25
+            },
+            "2": {
+              "title": "GW190425: BNS (no EM): has greater mass than known galatic binaries",
+              "id": 26
+            },
+            "3": {
+              "title": "GW190814: NSBH or BBH? one object was 2.6 solar mass. still unanswered questions here. No EM counter part. ",
+              "id": 27
+            },
+            "4": {
+              "title": "GW190521: BBH. Detection of upper mass gap object.",
+              "id": 28
+            },
+            "5": {
+              "title": "GW190426_152155: NSBH (6 solar mass BH + NS)",
+              "id": 29
+            },
+            "6": {
+              "title": "GW190924_ 021846: lightest system with both components above 3 solar masses. ",
+              "id": 31,
+              "attr": {
+                "position": [
+                  82,
+                  232.01251220703125,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "title": "Science case for the 3rd generation of detectors i.e. even more range",
+      "id": 33,
+      "attr": {
+        "position": [
+          -12,
+          -242.98750591278076,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#339966",
+          "text": {
+            "color": "#FFFFFF"
+          }
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Test GR. Does GW go at c and have 2 polarisations? If not, alternative theories of gravity might be needed e.g Brans-Dicke",
+          "id": 35
+        },
+        "2": {
+          "title": "Test string theory. Some theories sau that we experience a 4d brane that is situated within a higher dimsional bulk universe with extra space dimensions. Gravity would still propagate in the bulk; this would be why gravity is weak",
+          "id": 37
+        },
+        "3": {
+          "title": "Model populations at large redshift. From this we can learn about cosmological formation of sources, history of stars and its dependence of matter content of the universe",
+          "id": 40
+        },
+        "4": {
+          "title": "Dark matter and dark energy. CBC can be used as standard candle. With MM astronomy, the red shift can be measured, From this, the Hubble constant, dark matter and dark energy density can be parameterised.",
+          "id": 43
+        },
+        "5": {
+          "title": "Lower frequency cut-off -> can detect much heavier black holes. LIGO ~ 200 solar mass, ET 10^2 - 10^4 solar mass.",
+          "id": 45
+        },
+        "6": {
+          "title": "Supernova: test all physics at once...",
+          "id": 50
+        },
+        "-1": {
+          "title": "Test the no hair theorem. Can black holes be classified by mass, spin and charge? Same as testing Kerr solution.",
+          "id": 36
+        },
+        "-2": {
+          "title": "How did the supermassive black hole at the centre of the galaxy form? Population of stellar mass and IMBH as a function of redshift can give BH demographics, distribution and growth",
+          "id": 38
+        },
+        "-3": {
+          "title": "GW background allows us to see closer to the big bang than the CMB. CMB goes to 375000 years, GW background not affected by matter so can go much further",
+          "id": 41
+        },
+        "-4": {
+          "title": "May detect cosmic strings. This occur during phase transitions (as a result of cosmological inflation) of the unverive and are predicted by QFT + string theory. ",
+          "id": 44
+        },
+        "-5": {
+          "title": "Neutron stars",
+          "id": 46,
+          "ideas": {
+            "1": {
+              "title": "Maximum mass of NS",
+              "id": 47
+            },
+            "2": {
+              "title": "NS crust, pular glitches and magnetar flares",
+              "id": 48
+            },
+            "3": {
+              "title": "continuous waves: whats in a neutron star?",
+              "id": 49
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Science case for O4 + O5. i.e. improving range of the detectors by factor of 2 causing the detection rate to increase by a factor of 10.",
+  "links": []
+}
