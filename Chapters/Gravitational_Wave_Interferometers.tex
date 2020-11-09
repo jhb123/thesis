@@ -3,10 +3,20 @@
 The aim of this chapter is to outline some things about our universe we would like to know, how a gravitation wave allows this to be known, how an interferometer can be used to measure gravitational waves, the fundemental noise sources these detectors face. These noise sources can be reduced by making changes to the readout of the LIGO detector and by building new interferometers that use new technology. In this thesis, power of the laser and BHD is explored. Third generation detectors may operate at 2um, and so 2um detectors were characterised.
 \section{Measuring Gravitational Waves}
 \paragraph{general relativity (L shaped IFO)}
+Einstein's general theory of relativity accurately describes the gravitational waves measured with the LIGO and Virgo gravitational wave detectors \cite{Collaboration2020}. Gravitational waves are propagating longitudinal perturbations in the curvature of space-time, and can be split into a basis set containing two polarisations, plus and cross (reference gravitation). 
+\paragraph{}
+The effect these waves have, in the local lorentz frame, on test masses on Earth is to move them by a small amount. To detect plus polarised gravitational waves, the end mirrors of a michelson interferometer can be used as the test masses. In the local Lorentz frame of the beam splitter, for any feasible Earth based detector, the effect of a gravitational wave on the wavelength of the light is negligible compared to its effect on the positions of the test masses. \footnote{Alternatively, in the traceless-transverse gauge, the position of the test masses is fixed and the gravitational wave changes the wavelength of the light.}\footnote{This is due to the strong equivalence principle. This states that `All physical laws that are expressible as a tensor equation in special relativity have the exact same form in a local lorentz frame of a curved space time'. In the local Lorentz frame of a gravitational wave detector, the metric has the form $g_{\alpha\beta} = \eta_{\alpha\beta} + \mathcal{0}(h)$, where $\eta_{\alpha\beta}$ is the minkowski space-time metric and $\mathcal{0}(h)$ is a perturbation of the order $\frac{2\pi L}{\lambda_{\rm{EM}}}^2h$. The minkowski space-time metric is flat, so in the local lorentz frame the metric is, essentially, flat and the gravitational waves cause the test masses to move by $\Delta L = \frac{1}{2}hL$. Maxwell's equations, due to the strong equivalence principle, are modified by a term that is of the $\frac{\delta \lambda_{\rm{EM}}}{\lambda_{\rm{EM}}} \sim \frac{2\pi L}{\lambda_{\rm{EM}}}^2h$, and so if $\frac{2\pi L}{\lambda_{\rm{EM}}}$ is sufficiently small, as it would be for an Earth based interferometer, then the effect of the gravitational wave on the light is much smaller than the effect of the gravitational wave on the test masses. (reference kip thornes lecture? (\url{https://www.youtube.com/watch?v=JwLZ_1joqC8&feature=youtu.be}).}
 \paragraph{sources of GW}
+Gravitational waves are emitted by mass quadrupoles. They are only detectable from systems with high amounts of mass, such as a binary pair of black holes (BBH). T
 \paragraph{observation runs and discoveries (detector hierarchy)}
 \paragraph{The need for increasing detections...}
 \section{Sources of noise when detecting gravitational waves}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/detector_chapter_design_sensitivity_curves}
+	\caption{The Strain Sensitivity of the aLIGO and A+ detectors. The noise due to radiation pressure and photon shot noise is shown in dark-blue (aLIGO) and dark-red (A+). Above 10\,Hz, quantum effects are one of the limiting sources of noise; with the other being the noise due to Brownian motion of the mirror's coating. Below 10\,Hz, classical sources of noise, such as seismic motion, limit the sensitivity of both interferometers... figure out what is important to say here!}
+	\label{fig:detectorchapterdesignsensitivitycurves}
+\end{figure}
 \paragraph{shot noise and laser power}
 \paragraph{quantum efficiency}
 \paragraph{power recycling}
@@ -17,6 +27,7 @@ The aim of this chapter is to outline some things about our universe we would li
 \paragraph{other topologies of detectors}
 \paragraph{other noise sources}
 \section{The future of gravitational wave detectors}
+\paragraph{new science that can be done with these detectors? could be in the first section}
 \paragraph{cyro}
 \paragraph{silicon}
 \paragraph{2um or 1550}

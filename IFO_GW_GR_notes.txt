@@ -1,0 +1,125 @@
+text book: https://archive.org/details/Gravitation_201803/page/n943/mode/2up
+
+https://www.youtube.com/watch?v=mGdbI24FvXQ&feature=youtu.be
+---LIGO type detectors
+how to monitor test mass position?
+h/2 ~ delta/L 
+cgs units. 4x10^5cm ~ 1e6cm = arm length
+delta 10^-22*1e6 = 10e-16 cm
+lambda = 10e-4 cm
+challenge: use light to measure delta delta L/ lamdba = 10e-12
+---
+basic concept of IFO. simple maths
+gravitational wave length: f ~100Hz, so lambda_g = c/f = 3e5km.s^-1/100 Hz = 3000 km
+how long to make the IFO arms? 1/4 of wavelength would be good ~ 1000 km.
+desired wavelength is too long.
+
+solution, store the GW in the arm in a fabret perot cavity.
+number of round trips = 1000km/4 ~ 200 round trips
+delay lines impractical -> reason seems weird, but still true.
+FP cavity, increase the bounces with a statisical factor.
+
+phase shift:  delta phi = 4pi L/lambda B.h (B = number of bounces, h = strain)
+numerically ~ 10^-9. We need to measure 10^-9 rad !!!
+
+can't store the single for longer due to gravity wavelength.
+
+interferometer changes phase to intensity, can measure this with PD.
+---
+energetic quantum limit:
+amount of light = how accurately you measure phase shift of light.
+Upperbound.
+
+Energy-time uncertainty relation of QM.
+Energy is an observabel,time is a parameter and not an observable in QM (unlike x an p, which are observables)
+-landau pyrles 1930's
+if you have a clock and you measure time with an oscillatory behaviour of the clock (e.g. atomic clock)
+IFO, the osc behaviour is the light cycle.
+If you measure time with this clock, and the clock has an energy, then
+delta T . delta E = hbar.
+incoming wavetrain.
+time of zero crossing is what we want to know. 
+
+w_light = rad freq of light.
+
+w_light*delta t = delta phase
+
+measure phase by averaging over a long period of time. PD measured over some duration of time.
+measure ovre 1/2 a gravity wave period. 
+
+f = gravity wave period
+
+Energy in beam = intensity_of_laser*1/(2f) = hbar*w_light*N_photon
+
+N_photon = number of photons for the averaging time.
+light in laser is in coherent state-> delta N_photon = sqrt(N_photon)
+delta E = delta N_photon * hbar * w_light
+
+try to measure a time, or try to measure the phase by averaging over some cycles. The energy of the cycles gives an uncertainty
+
+delta t * delta E = delta_phase/w_light sqrt(N_photon) * hbar w_light > hbar
+
+hbars and omega cancel.
+
+accuracy at which you can measure the phase, energetic quantum limit, delta_phi > 1/sqrt(N_photon)
+
+this gives a minimum number photons. need 10^18 photons.
+
+Intensity of light, I_0 = N_photon*hbar*w_light/(1/2f) = 2f* N_photon*hbar*w_light
+
+I_0 ~ 100W (initial LIGO).
+
+---
+To get this power, we need power recycling. adjust the PRM so that the phase of the light coming from the IFO is inphase with the laser.
+GW goes out the AS port, the common mode goes to the laser.
+
+e.g. laser power = 5W, required power = 100W, recycling factor = 20.
+----------------------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=JwLZ_1joqC8&feature=youtu.be
+
+local lorentz frame to measure gw, we are in an accelerated frame.
+
+Reference frame to be used (i.e. the coords) for a GR analysis of GW.
+two ways: local lorentz frame (LLF) -> free falling. 
+metric = flat metric +  O(Reimann * chi^2)
+Riemann-> reimann tensor of GW, chi = distance from observer to origin of coordinates
+Reimann -> d^2 h/dt^2 = 2pi/lambda h (c = 1), work in LLF of BS. 
+chi squared -> is arm length^2
+lambda = light wavelength.
+metric ~ (2*pi*l/lamda)^2 h
+tidal forces move the test mass back and forth. LLF is close to minkowski. 
+GW modifes maxwells equations by an amount of the order of the change in metric. 
+LLF-> masses move by delta L. Light is infulenced by fractional change in lambda of the order the pertubation of the metric, which is really small.
+delta lambda/lambda = (2*pi*l/lamda)^2 h = 10^-4 * h.
+influence of GW on test mass ~ h.
+based on the SNR arguement, light correction doesn't matter. TT guage agrees.
+
+g_ab = metric
+n_ab = minkowski
+h_ab = gravity wave
+
+TT gauge -> g_ab = n_ab + h_ab
+masses don't move, unaffect by GW. The light is influenced by ~h.
+
+N.B. LISA can't use LLF. TT guage workds.
+
+advantage of LLF, only moves test masses so this is used by Kip Thorne.
+Transform from LLF to LLF accelerated by 1 earth gravity -> Proper reference frame of the BS.
+
+z = upwards direction
+g = earths gravity
+ds^2 = -(1+2gz)dt^2 + (1+hplus(t-z))dx^2 + (1-hplus(t-z))dy^2 + dz^2
+
+can change to g.xhat, the wave comes from z and the BS is oriented not to z. 
+
+the proper reference frame just makes the test masses move back and forth with regular gravity making its affects.
+-------------------------------
+gaussian beams are good because:
+	minimal spread due to uncertainty principle
+	spherical wavefronts -> easy to make mirrors for.
+----------------------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=BkOwOALmP54&feature=youtu.be
+
+propagator of gaussian beam obtained from huygens principle
+helmholtz kirchoff formula.
+
