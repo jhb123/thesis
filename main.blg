@@ -3,50 +3,53 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: C:/bibliography/bibliography.bib
+Warning--I didn't find a database entry for "Harry2006"
 Warning--I didn't find a database entry for "bibid"
 Warning--empty journal in Abbott2020
 Warning--empty year in Abbott2020
+Warning--empty journal in Abdikamalov2020
+Warning--empty year in Abdikamalov2020
 Warning--empty journal in Collaboration2020
 Warning--empty year in Collaboration2020
-You've used 3 entries,
+You've used 19 entries,
             1791 wiz_defined-function locations,
-            462 strings with 4106 characters,
-and the built_in function-call counts, 461 in all, are:
-= -- 32
-> -- 16
+            568 strings with 6799 characters,
+and the built_in function-call counts, 3261 in all, are:
+= -- 256
+> -- 139
 < -- 0
-+ -- 7
-- -- 4
-* -- 30
-:= -- 83
-add.period$ -- 7
-call.type$ -- 3
-change.case$ -- 3
++ -- 57
+- -- 38
+* -- 224
+:= -- 564
+add.period$ -- 54
+call.type$ -- 19
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 25
-empty$ -- 49
-format.name$ -- 4
-if$ -- 93
+cite$ -- 25
+duplicate$ -- 161
+empty$ -- 341
+format.name$ -- 38
+if$ -- 697
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 16
-num.names$ -- 3
-pop$ -- 13
+int.to.str$ -- 19
+missing$ -- 18
+newline$ -- 94
+num.names$ -- 19
+pop$ -- 52
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 10
+skip$ -- 61
 stack$ -- 0
-substring$ -- 9
-swap$ -- 1
+substring$ -- 102
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 4
-width$ -- 4
-write$ -- 27
-(There were 5 warnings)
+warning$ -- 6
+while$ -- 26
+width$ -- 21
+write$ -- 195
+(There were 8 warnings)

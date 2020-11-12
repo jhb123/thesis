@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  10 NOV 2020 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  12 NOV 2020 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1249,19 +1249,41 @@ go.pdf>] (./main.toc)
 Chapter 1.
 (./Chapters/Gravitational_Wave_Interferometers.tex [6
 
-]
-Overfull \hbox (36.109pt too wide) in paragraph at lines 16--28
+] [7]
+Overfull \hbox (36.109pt too wide) in paragraph at lines 17--29
  [][] 
  []
 
 
-Underfull \vbox (badness 1931) has occurred while \output is active []
-
- [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
+Package epstopdf Info: Source file: <Figures/detector_chapter_simple_layout.eps
+>
+(epstopdf)                    date: 2020-11-12 14:10:19
+(epstopdf)                    size: 77016 bytes
+(epstopdf)             Output file: <Figures/detector_chapter_simple_layout-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-11-12 14:11:30
+(epstopdf)                    size: 20137 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/detector_chapter_s
+imple_layout-eps-converted-to.pdf Figures/detector_chapter_simple_layout.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/detector_chapter_simple_layout-eps-converted-to.pdf, id=153, pagebox=c
+ropbox, 206.7725pt x 206.7725pt>
+File: Figures/detector_chapter_simple_layout-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use Figures/detector_chapter_simple_layout-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/detector_chapter_simple_layout-eps-converted-t
+o.pdf  used on input line 43. on input line 43.
+Package pdftex.def Info: Requested size: 298.75264pt x 298.78387pt on input lin
+e 43.
+
 [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./Figures/detector_chapter_simple_layout-eps-converted-to.pdf>] [11]
 Package epstopdf Info: Source file: <Figures/detector_chapter_design_sensitivit
 y_curves.eps>
 (epstopdf)                    date: 2020-11-09 13:48:24
@@ -1273,34 +1295,40 @@ y_curves-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/detector_chapter_d
 esign_sensitivity_curves-eps-converted-to.pdf Figures/detector_chapter_design_s
 ensitivity_curves.eps>
-(epstopdf)             \includegraphics on input line 43.
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf, id=13
-4, pagebox=cropbox, 423.5825pt x 301.125pt>
+<Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf, id=20
+3, pagebox=cropbox, 423.5825pt x 301.125pt>
 File: Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/detector_chapter_design_sensitivity_curves-eps
--converted-to.pdf  used on input line 43. on input line 43.
+-converted-to.pdf  used on input line 58. on input line 58.
 Package pdftex.def Info: Requested size: 426.79135pt x 303.41705pt on input lin
-e 43.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
- [11]
-[12 <./Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf>
-]
-
-LaTeX Warning: Citation `bibid' on page 13 undefined on input line 59.
+e 58.
 
 
-Underfull \vbox (badness 2951) has occurred while \output is active []
+LaTeX Warning: Citation `Harry2006' on page 12 undefined on input line 67.
 
- [13]
+[12] [13 <./Figures/detector_chapter_design_sensitivity_curves-eps-converted-to
+.pdf>]
+
+LaTeX Warning: Citation `reference' on page 14 undefined on input line 80.
+
+
+LaTeX Warning: Citation `bibid' on page 14 undefined on input line 80.
+
 [14]
+Underfull \vbox (badness 6461) has occurred while \output is active []
+
+ [15]
+[16] [17]
+Overfull \hbox (0.67378pt too wide) in paragraph at lines 113--114
+\T1/cmr/m/n/12 noise that is ex-pe-ri-enced when squeezed light is used, a freq
+uency-dependent squeezer
+ []
+
+[18] [19]
 Package epstopdf Info: Source file: <Figures/LIGO_layout.eps>
 (epstopdf)                    date: 2020-10-02 15:44:25
 (epstopdf)                    size: 93440 bytes
@@ -1309,22 +1337,28 @@ Package epstopdf Info: Source file: <Figures/LIGO_layout.eps>
 (epstopdf)                    size: 24555 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/LIGO_layout-eps-co
 nverted-to.pdf Figures/LIGO_layout.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/LIGO_layout-eps-converted-to.pdf, id=182, pagebox=cropbox, 576.1525pt 
+<Figures/LIGO_layout-eps-converted-to.pdf, id=277, pagebox=cropbox, 576.1525pt 
 x 551.05875pt>
 File: Figures/LIGO_layout-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/LIGO_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/LIGO_layout-eps-converted-to.pdf  used on inpu
-t line 79. on input line 79.
+t line 124. on input line 124.
 Package pdftex.def Info: Requested size: 426.79135pt x 408.21432pt on input lin
-e 79.
-) (./main.bbl [15] [16 <./Figures/LIGO_layout-eps-converted-to.pdf>])
+e 124.
+) (./main.bbl [20] [21 <./Figures/LIGO_layout-eps-converted-to.pdf>]
+[22
+
+] [23]
+Underfull \hbox (badness 1584) in paragraph at lines 101--104
+[]\T1/cmr/m/n/12 Gerhard Heinzel.  Ad-vanced op-ti-cal tech-niques for laser-in
+terferometric
+ []
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-
-[17
-
-]
+ [24]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
@@ -1338,39 +1372,40 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 20637 strings out of 492990
- 380632 string characters out of 6136333
- 532786 words of memory out of 5000000
- 23912 multiletter control sequences out of 15000+600000
+ 20694 strings out of 492990
+ 381689 string characters out of 6136333
+ 533448 words of memory out of 5000000
+ 23936 multiletter control sequences out of 15000+600000
  552149 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,39p,10357b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,39p,10357b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-su
-per/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx14
-40.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:
-/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2
-017/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2017/texmf-
-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts
-/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/pub
-lic/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm207
-4.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (17 pages, 623490 bytes).
+ype1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx12
+00.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:
+/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2
+017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2017/texmf-
+dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2017/texmf-dist/fonts
+/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm144
+0.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/
+texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (24 pages, 670182 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 344 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
