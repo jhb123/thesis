@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  13 NOV 2020 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  16 NOV 2020 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,7 +1223,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 62.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count307
-<Figures/GlaLogo.pdf, id=68, pagebox=cropbox, 1487.5575pt x 544.0325pt>
+<Figures/GlaLogo.pdf, id=72, pagebox=cropbox, 1487.5575pt x 544.0325pt>
 File: Figures/GlaLogo.pdf Graphic file (type pdf)
 <use Figures/GlaLogo.pdf>
 Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 64. on input l
@@ -1239,28 +1239,22 @@ go.pdf>] (./main.toc)
 
 [2
 
-] [3
-
-] [4
+] [3] [4
 
 ] [5
 
+] [6
+
 ]
 Chapter 1.
-(./Chapters/Gravitational_Wave_Interferometers.tex [6
+(./Chapters/Gravitational_Wave_Interferometers.tex [7
 
 ]
-Overfull \hbox (18.52713pt too wide) in paragraph at lines 8--9
-\T1/cmr/m/n/12 grav-i-ta-tional wave de-tec-tors [[]16[]]. Grav-i-ta-tional wav
-es are emit-ted from mass quadrupole
- []
-
-[7]
-Overfull \hbox (36.109pt too wide) in paragraph at lines 15--27
+Overfull \hbox (36.109pt too wide) in paragraph at lines 14--26
  [][] 
  []
 
-[8] [9]
+[8] [9] [10]
 Package epstopdf Info: Source file: <Figures/detector_chapter_simple_layout.eps
 >
 (epstopdf)                    date: 2020-11-13 10:53:09
@@ -1271,24 +1265,24 @@ Package epstopdf Info: Source file: <Figures/detector_chapter_simple_layout.eps
 (epstopdf)                    size: 24053 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/detector_chapter_s
 imple_layout-eps-converted-to.pdf Figures/detector_chapter_simple_layout.eps>
-(epstopdf)             \includegraphics on input line 64.
+(epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/detector_chapter_simple_layout-eps-converted-to.pdf, id=204, pagebox=c
+<Figures/detector_chapter_simple_layout-eps-converted-to.pdf, id=213, pagebox=c
 ropbox, 425.59pt x 224.84pt>
 File: Figures/detector_chapter_simple_layout-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/detector_chapter_simple_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/detector_chapter_simple_layout-eps-converted-t
-o.pdf  used on input line 64. on input line 64.
+o.pdf  used on input line 63. on input line 63.
 Package pdftex.def Info: Requested size: 426.79135pt x 225.48785pt on input lin
-e 64.
+e 63.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-[11 <./Figures/detector_chapter_simple_layout-eps-converted-to.pdf>]
+ [11]
+[12 <./Figures/detector_chapter_simple_layout-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 77.
+LaTeX Warning: Reference `' on page 13 undefined on input line 76.
 
 Package epstopdf Info: Source file: <Figures/detector_chapter_fabry_vs_mirror.e
 ps>
@@ -1301,17 +1295,44 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/detector_chapter_f
 abry_vs_mirror-eps-converted-to.pdf Figures/detector_chapter_fabry_vs_mirror.ep
 s>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/detector_chapter_fabry_vs_mirror-eps-converted-to.pdf, id=262, pagebox
+<Figures/detector_chapter_fabry_vs_mirror-eps-converted-to.pdf, id=271, pagebox
 =cropbox, 433.62pt x 252.945pt>
 File: Figures/detector_chapter_fabry_vs_mirror-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Figures/detector_chapter_fabry_vs_mirror-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/detector_chapter_fabry_vs_mirror-eps-converted
--to.pdf  used on input line 80. on input line 80.
+-to.pdf  used on input line 79. on input line 79.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
-e 80.
+e 79.
+[13] [14 <./Figures/detector_chapter_fabry_vs_mirror-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+
+LaTeX Warning: Citation `bibid' on page 16 undefined on input line 113.
+
+
+LaTeX Warning: Citation `bibid' on page 16 undefined on input line 113.
+
+
+LaTeX Warning: Citation `bibid' on page 16 undefined on input line 113.
+
+[16] [17] [18]
+
+LaTeX Warning: Reference `sec:BHD_for_ligo_what_is_bhd' on page 19 undefined on
+ input line 123.
+
+[19]
+Overfull \hbox (12.65042pt too wide) in paragraph at lines 128--128
+[]\T1/cmr/bx/n/17.28 Interferometry Tech-niques to beat Quan-tum Lim-
+ []
+
+[20] [21]
+Underfull \vbox (badness 5203) has occurred while \output is active []
+
+ [22]
 Package epstopdf Info: Source file: <Figures/detector_chapter_design_sensitivit
 y_curves.eps>
 (epstopdf)                    date: 2020-11-09 13:48:24
@@ -1323,48 +1344,17 @@ y_curves-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/detector_chapter_d
 esign_sensitivity_curves-eps-converted-to.pdf Figures/detector_chapter_design_s
 ensitivity_curves.eps>
-(epstopdf)             \includegraphics on input line 89.
+(epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf, id=26
-3, pagebox=cropbox, 423.5825pt x 301.125pt>
+<Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf, id=40
+2, pagebox=cropbox, 423.5825pt x 301.125pt>
 File: Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/detector_chapter_design_sensitivity_curves-eps
--converted-to.pdf  used on input line 89. on input line 89.
+-converted-to.pdf  used on input line 152. on input line 152.
 Package pdftex.def Info: Requested size: 426.79135pt x 303.41705pt on input lin
-e 89.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-[13 <./Figures/detector_chapter_fabry_vs_mirror-eps-converted-to.pdf>] [14]
-[15 <./Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf>
-]
-
-LaTeX Warning: Citation `bibid' on page 16 undefined on input line 122.
-
-
-LaTeX Warning: Citation `bibid' on page 16 undefined on input line 122.
-
-
-LaTeX Warning: Citation `bibid' on page 16 undefined on input line 122.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-[17] [18]
-Overfull \hbox (0.67378pt too wide) in paragraph at lines 135--136
-\T1/cmr/m/n/12 noise that is ex-pe-ri-enced when squeezed light is used, a freq
-uency-dependent squeezer
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-[20]
+e 152.
 Package epstopdf Info: Source file: <Figures/LIGO_layout.eps>
 (epstopdf)                    date: 2020-10-02 15:44:25
 (epstopdf)                    size: 93440 bytes
@@ -1373,34 +1363,39 @@ Package epstopdf Info: Source file: <Figures/LIGO_layout.eps>
 (epstopdf)                    size: 24555 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/LIGO_layout-eps-co
 nverted-to.pdf Figures/LIGO_layout.eps>
-(epstopdf)             \includegraphics on input line 152.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/LIGO_layout-eps-converted-to.pdf, id=387, pagebox=cropbox, 576.1525pt 
+<Figures/LIGO_layout-eps-converted-to.pdf, id=403, pagebox=cropbox, 576.1525pt 
 x 551.05875pt>
 File: Figures/LIGO_layout-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/LIGO_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/LIGO_layout-eps-converted-to.pdf  used on inpu
-t line 152. on input line 152.
+t line 158. on input line 158.
 Package pdftex.def Info: Requested size: 426.79135pt x 408.21432pt on input lin
-e 152.
-) (./main.bbl [21] [22 <./Figures/LIGO_layout-eps-converted-to.pdf>]
-[23
+e 158.
 
-] [24]
-Underfull \hbox (badness 1584) in paragraph at lines 101--104
+Underfull \vbox (badness 2875) has occurred while \output is active []
+
+ [23]
+[24 <./Figures/detector_chapter_design_sensitivity_curves-eps-converted-to.pdf>
+] [25 <./Figures/LIGO_layout-eps-converted-to.pdf>]) (./main.bbl [26] [27
+
+]
+[28]
+Underfull \hbox (badness 1584) in paragraph at lines 112--115
 []\T1/cmr/m/n/12 Gerhard Heinzel.  Ad-vanced op-ti-cal tech-niques for laser-in
 terferometric
  []
 
-)
+[29])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
- [25]
+ [30]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 57FB2EBB867A4748E4A75B2D39E50F9A;1388.
+(rerunfilecheck)             Checksum: 20841C506B8042881A6E221F24C70FC3;1513.
 
 
 LaTeX Warning: There were undefined references.
@@ -1408,10 +1403,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 20730 strings out of 492990
- 382631 string characters out of 6136333
- 534635 words of memory out of 5000000
- 23954 multiletter control sequences out of 15000+600000
+ 20744 strings out of 492990
+ 382743 string characters out of 6136333
+ 535738 words of memory out of 5000000
+ 23959 multiletter control sequences out of 15000+600000
  552925 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,52p,10357b,1095s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1440,10 +1435,10 @@ r/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000
 exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/201
 7/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-di
 st/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (25 pages, 753979 bytes).
+Output written on main.pdf (30 pages, 764389 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 419 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
