@@ -10,45 +10,45 @@ Warning--empty journal in Collaboration2020
 Warning--empty year in Collaboration2020
 Warning--empty journal in Abdikamalov2020
 Warning--empty year in Abdikamalov2020
-You've used 24 entries,
+You've used 29 entries,
             1791 wiz_defined-function locations,
-            608 strings with 7999 characters,
-and the built_in function-call counts, 4699 in all, are:
-= -- 367
-> -- 243
+            640 strings with 9085 characters,
+and the built_in function-call counts, 5985 in all, are:
+= -- 475
+> -- 322
 < -- 0
-+ -- 94
-- -- 70
-* -- 368
-:= -- 810
-add.period$ -- 69
-call.type$ -- 24
-change.case$ -- 22
++ -- 122
+- -- 93
+* -- 491
+:= -- 1024
+add.period$ -- 84
+call.type$ -- 29
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 205
-empty$ -- 456
-format.name$ -- 70
-if$ -- 987
+cite$ -- 35
+duplicate$ -- 249
+empty$ -- 566
+format.name$ -- 93
+if$ -- 1253
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 23
-newline$ -- 119
-num.names$ -- 24
-pop$ -- 57
+int.to.str$ -- 29
+missing$ -- 28
+newline$ -- 144
+num.names$ -- 29
+pop$ -- 62
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 79
+skip$ -- 97
 stack$ -- 0
-substring$ -- 214
-swap$ -- 22
+substring$ -- 311
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 39
-width$ -- 26
-write$ -- 250
+while$ -- 52
+width$ -- 31
+write$ -- 305
 (There were 7 warnings)
