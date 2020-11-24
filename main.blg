@@ -3,11 +3,32 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: C:/bibliography/bibliography.bib
-Repeated entry---line 5487 of file C:/bibliography/bibliography.bib
- : @article{Abbott2016c
- :                     ,
+Warning--entry type for "a+curve" isn't style-file defined
+--line 2697 of file C:/bibliography/bibliography.bib
+Warning--entry type for "aligo_layout_h1" isn't style-file defined
+--line 3575 of file C:/bibliography/bibliography.bib
+Repeated entry---line 3971 of file C:/bibliography/bibliography.bib
+ : @article{
+ :          ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "bibid"
+Repeated entry---line 5335 of file C:/bibliography/bibliography.bib
+ : @article{
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5637 of file C:/bibliography/bibliography.bib
+ : @inbook{Drever1983
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5693 of file C:/bibliography/bibliography.bib
+ : @dcc{Weiss1972
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5867 of file C:/bibliography/bibliography.bib
+ : @dcc{McCuller2020
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "aligocurve" isn't style-file defined
+--line 5879 of file C:/bibliography/bibliography.bib
 Warning--empty journal in Abbott2020
 Warning--empty year in Abbott2020
 Warning--empty journal in Collaboration2020
@@ -17,47 +38,61 @@ Warning--empty year in Abdikamalov2020
 Warning--empty journal in Zhang2020
 Warning--empty year in Zhang2020
 Warning--empty journal in Collaboration2013
+Warning--empty author and editor in 
+Warning--empty title in 
+Warning--empty publisher in 
+Warning--empty year in 
 Warning--empty journal in Ganapathy2020
 Warning--empty year in Ganapathy2020
-You've used 45 entries,
+Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry OMC_ligo
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry OMC_ligo
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in Lough2020
+Warning--empty year in Lough2020
+Name 2 in "Barsotti, L. and Gras. S, and Evans, M. and Fritschel, P." has a comma at the end for entry aligocurve
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in Reitze2019
+Warning--empty year in Reitze2019
+You've used 78 entries,
             1791 wiz_defined-function locations,
-            723 strings with 16309 characters,
-and the built_in function-call counts, 11778 in all, are:
-= -- 701
-> -- 1136
+            907 strings with 31450 characters,
+and the built_in function-call counts, 25909 in all, are:
+= -- 1226
+> -- 3234
 < -- 0
-+ -- 401
-- -- 356
-* -- 1160
-:= -- 2191
-add.period$ -- 130
-call.type$ -- 45
-change.case$ -- 42
++ -- 1113
+- -- 1035
+* -- 2852
+:= -- 5020
+add.period$ -- 227
+call.type$ -- 78
+change.case$ -- 73
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 385
-empty$ -- 849
-format.name$ -- 356
-if$ -- 2312
+cite$ -- 97
+duplicate$ -- 649
+empty$ -- 1491
+format.name$ -- 1035
+if$ -- 4881
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 45
-newline$ -- 222
-num.names$ -- 45
-pop$ -- 98
+int.to.str$ -- 78
+missing$ -- 72
+newline$ -- 385
+num.names$ -- 77
+pop$ -- 184
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 151
+skip$ -- 265
 stack$ -- 0
-substring$ -- 408
-swap$ -- 40
+substring$ -- 726
+swap$ -- 70
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 75
-width$ -- 47
-write$ -- 470
-(There was 1 error message)
+warning$ -- 19
+while$ -- 128
+width$ -- 80
+write$ -- 813
+(There were 8 error messages)
