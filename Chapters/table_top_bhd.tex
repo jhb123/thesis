@@ -1,31 +1,65 @@
-This chapter is pedagogical in style, where the MZ is used to demonstrate shot noise being related to the wavelength of light. The in air MZ had unequal arm powers to create a signal LO interference style signal. From this chapter, will show shot noise limited measurement in terms of metres, and discuss various noise sources in the lab. By introducing a peak . The experiment was modelled, and there is a calculation based analysis as well.
-%\paragraph{Thoughts on 50:50ness of beam splitter}
-%\begin{itemize}
-%	\item total light the same regardless of splitting ratio
-%	\item contrast of MZ worse with unequal splitting ratio
-%	\item worse contrast = lower signal
-%	\item same total light
-%	\item so SNR lower
-%	\item Potential circuit improvement for BHD, better electronic noise potential from higher TIA gain
-%\end{itemize}
-%\section{Introduction}
-%\section{Theory of MZ related to BHD}
-%\subsection{Link 50:50 ness of beam splitter to SNR}
-%\subsection{Link photodiode loss to SNR}
-%\subsection{Link LO LIGO phase noise to this experiment}
-%\subsection{Could think about loss at the beamsplitter, havent done that before}
-%\section{Apparatus}
-%\subsection{CDS and whitening/dewhitening}
-%\subsection{Servo}
-%\section{Measurement Procedure}
-%explanation of how the apparatus was set up to take the measurement.
-%\subsection{Calibration}
-%Calibration of MZ to get from counts to metres:\newline
-%\url{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/03/08/changed-injection-signal-to-mz-hooked-up-mic-and-power-monitor-photodiode/}.\newline
-%Calibration of arm powers can be obtained from here (since relationship between contrast and arm power difference is known): \newline
-%\url{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/02/26/re-alignment-of-mach-zehnder-and-taking-test-data/}
-%\newline
-%ND filter note
-%\url{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/02/13/mz-nd-filter-install-servo-and-sends-saturating/}
-%\section{Results and analysis}
-%\section{Conclusion}
+An interferometer converts a change in optical path length into a change in intensity of light. One of the fundamental limits to how precisely the path light takes within an interferometer is the shot noise level of the light. In other words, as shot noise manifests as intensity fluctuations of the light, this is indistinguishable from fluctuations in the differential phase acquired by two interfering beams...
+\section{`Theory'}
+The power of the light on each photodiode, as the reflectivity, $R$ and transitivity, $T$, of the beamsplitter were measured to both be $0.5\pm0.01$, is
+\begin{align}
+%P_A = E^*_A E_A = \left(\frac{E^*_{LO}}{\sqrt{2}}e^{-i\pi} + \frac{E^*_{sig}}{\sqrt{2}}\right)\left(\frac{E_{\rm{LO}}}{\sqrt{2}}e^{i\pi} + \frac{E_{\rm{sig}}}{\sqrt{2}}\right)\\
+P_A &= \frac{P_{\rm{LO}}}{2} + \frac{P_{\rm{sig}}}{2} + \sqrt{P_{\rm{sig}}P_{\rm{LO}}}\cos\left(\phi\right),\\
+P_B &= \frac{P_{\rm{LO}}}{2} + \frac{P_{\rm{sig}}}{2} + \sqrt{P_{\rm{sig}}P_{\rm{LO}}}\cos\left(\phi + \pi\right),
+\end{align}
+where $P_{\rm{sig}}$ and $P_{\rm{sig}}$ are the powers of the local oscillator and signal beams and $\phi$ is the phase difference between the local oscillator and signal. Subtracting the two photodiode signals gives  
+\begin{equation}
+S = P_B-P_A = 2\sqrt{P_{\rm{sig}}P_{\rm{LO}}}\cos\left(\phi\right).
+\label{eq:MZ_chapter_base_equation}
+\end{equation}
+This signal is analogous to the one obtained from a balanced homodyne readout attached to a Michelson interferometer. In another interferometer configuration whose transfer function is $H(f)$, $E_{\rm{sig}}$ would be replaced by $E_{\rm{sig}}/H(f)$.
+\paragraph{}
+The relationship between optical path length change, $\Delta x$ and a change in power, $\Delta P$, measured by subtracting the Mach-Zehnder's photodiode signals is 
+\begin{equation}
+\Delta z = \frac{\lambda}{2\pi}\frac{1}{2\sqrt{P_{\rm{sig}}P_{\rm{LO}}}}\Delta S.
+\label{eq:MZ_chapter_transfer_function}
+\end{equation}
+For shot noise, $\Delta S = \sqrt{2\hbar\omega_{\rm{EM}}}$. The level of shot noise comes from the total power on each photodiode.
+\section{Apparatus}
+The in-air mach-zehnder is shown in Figure \ref{fig:mzchapterinairmz} and Figure \ref{fig:mzchapterinairsketch}. It was constructed from highly stable rigid mounts to reduce the amount of mount-vibration noise. The MZ was mounted on a thick aluminium base-plate which was isolated from the optical table by rubber dampeners. The MZ was acoustically shielded with a plastic box of a few mm thickness. As the beam size within the MZ was suffieicnetly small,  the light power in one arm was attenuated with an ND filter as surface roughness of the ND filter did not matter. One of the corner mirrors in the MZ was glued to a PZT to allow for the length of one of the paths to be controlled. The light that emerged from the MZ was measured with the photodiode circuit shown in Appendix \ref{photodiode circuit.}. The response of this photodiode circuit is flat at all frequencies of interest and is 390\,V/W at DC.
+\paragraph{}
+A half wave-plate and polarised beam splitter were used to control the power entering the MZ and the polarisation of the light entering the MZ. The input laser power was monitored with a photodiode. A microphone were used to monitor the environmental noise sources.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/MZ_chapter_in_air_MZ}
+	\caption{Photograph of the Mach-Zehnder base plate. The polarising beam splitters were part of an earlier design; they were removed when the measurements with this apparatus were made. }
+	\label{fig:mzchapterinairmz}
+\end{figure} 
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/MZ_chapter_in_air_sketch}
+	\caption{Sketch of the optical layout. The laser was a farady-isolated NPRO beam. The power of the laser was monitored using a photodiode immediately after the laser. Beam power and polarisation control was situated immediately upstream pf the Mach-zehnder. The . A microphone and a humidity sensor where placed near the MZ.}
+	\label{fig:mzchapterinairsketch}
+\end{figure}
+\subsection{Calibration of In-Air Mach-Zehnder}
+The shot noise level can can be found by summing $P_A$ and $P_B$. The power was  measured to be 11\,mW, so $\Delta S = 5.4\times10^{-11}\,\rm{W}/\sqrt{\rm{Hz}}$(\href{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/03/14/sum-and-difference-spectral-densities/}{labbook post with data}).
+%\subsection{Calibration using measurements of $P_{\rm{sig}}$ and $P_{\rm{sig}}$}
+\paragraph{}
+The Mach-Zehnder can be calibrated by measuring $P_{\rm{sig}}$ and $P_{\rm{LO}}$. The power in the LO path was measured to be 20\,mW (\href{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/03/08/changed-injection-signal-to-mz-hooked-up-mic-and-power-monitor-photodiode/}{LO and Sig power measurement labbook post}), and the power in the lower path before the beam passed through the ND filter was measured to be 17\,mW. After the ND filter (\href{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/02/13/mz-nd-filter-install-servo-and-sends-saturating/}{ND filter labbook post}), the power would be 0.1\,mW. This is shown in figure \ref{fig:mzchapterinaircalibration}.
+\paragraph{}
+Alternatively, the Mach-Zehnder can be calibrated by measuring $\Delta S/\Delta z$ by applying a ramp signal to the PZT. The ramp signal and the photodiode signals were recorded on an oscilloscope. The photodiode signals can were then plotted against the measured ramp signal, and data was fit with Equation \ref{eq:MZ_chapter_base_equation}. This is shown in figure \ref{fig:mzchapterinaircalibration}.
+\paragraph{}
+Although there is a 20\% descrepency between the two calibrations, both methods of calibrating the response of the Mach-Zehnder give consistent results within margin of error determined by the quantisation noise associated with the oscilloscope and the uncertainty of the signal beam's power.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/MZ_chapter_in_air_calibration}
+	\caption{There are two ways of calibrating the photodiode signal that will be generated by a change in optical path length between the two paths in the Mach-Zehnder. Method (a) is to apply a ramp signal to the PZT while simultaneously measuring the photodiode signals. The measurement of this is shown by the blue crosses, and the fit to this data is shown by the blue line. Method (b) is to measure the power in the local oscillator and signal beams when they are not interfering. From this, Equation \ref{eq:MZ_chapter_base_equation} can be used to get the response of the Mach-Zehnder. This is shown by the red line. The blue and red data are independent of each other, within 20\% of each other and are in agreement with each other. The gradient of $V_{BHD}$ is used to get the conversion factor for beam power to path length change.}
+	\label{fig:mzchapterinaircalibration}
+\end{figure}
+\subsection{Locking Servo}
+To keep the path length difference between the two arms fixed, a control signal was applied to the PZT. This was implemented with the circuit shown in Figure \ref{}. The servo shaping was a low pass filter with a corner frequency of 1\,Hz. The overall gain of the circuit was controlled with a potentiometer.
+\section{Shot noise measurement}
+The MZ was locked and the noise measured by both photodiodes was recorded via CDS (see appendix \ref{}). To keep the measured signal above the digitisation noise inherent to the analogue to digital converters used in CDS,  Whitening filters are required. This is a circuit which boosts the AC components of a signal while keeping the DC level of the signal small enough to not saturate the ADC. This filter must be corrected for in post processing. In addition to this, CDS features an anti-aliasing filter which will effect measurements that are made near the Nyquist frequency of the ADC. To send signals long distances across the lab, differential send-recieves circuits are used to remove common-mode noise that may be picked up by the cable. 
+\paragraph{}
+Show figure ...
+\section{In-Vacuum work}
+To measure shot noise at frequencies around 100\,Hz, the frequency band of interest in a gravitational wave detector, the acoustic and seismic noise noise which shake the mirrors need to be reduced. This can be achieved by using suspened optics and performing the experiement in-vacuum. There was an opportunity to perform this experiment in-vacuum with left-over apparatus from a previous experiment....
+\subsection{Apparatus}
+\subsection{Servo calibration}
+\subsection{Misalignment section}
+\section{Conclusion}
+this experiment nearly ruined my PhD!
