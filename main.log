@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  30 NOV 2020 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  1 DEC 2020 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,7 +1223,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 62.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count307
-<Figures/GlaLogo.pdf, id=48, pagebox=cropbox, 1487.5575pt x 544.0325pt>
+<Figures/GlaLogo.pdf, id=44, pagebox=cropbox, 1487.5575pt x 544.0325pt>
 File: Figures/GlaLogo.pdf Graphic file (type pdf)
 <use Figures/GlaLogo.pdf>
 Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 64. on input l
@@ -1295,16 +1295,43 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 LaTeX Warning: Reference `photodiode circuit.' on page 5 undefined on input lin
-e 23.
+e 27.
 
 [5]
-<Figures/MZ_chapter_in_air_MZ.jpg, id=108, 2783.39874pt x 2092.81876pt>
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 31.
+
+Package epstopdf Info: Source file: <Figures/MZ_chapter_CDS_noise.eps>
+(epstopdf)                    date: 2020-12-01 16:52:38
+(epstopdf)                    size: 46206 bytes
+(epstopdf)             Output file: <Figures/MZ_chapter_CDS_noise-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2020-12-01 16:57:23
+(epstopdf)                    size: 14754 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_CDS_noi
+se-eps-converted-to.pdf Figures/MZ_chapter_CDS_noise.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=106, pagebox=cropbox, 42
+5.59pt x 151.56625pt>
+File: Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf  use
+d on input line 36. on input line 36.
+Package pdftex.def Info: Requested size: 426.79135pt x 152.00296pt on input lin
+e 36.
+[6]
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 41.
+
+<Figures/MZ_chapter_in_air_MZ.jpg, id=114, 2783.39874pt x 2092.81876pt>
 File: Figures/MZ_chapter_in_air_MZ.jpg Graphic file (type jpg)
 <use Figures/MZ_chapter_in_air_MZ.jpg>
-Package pdftex.def Info: Figures/MZ_chapter_in_air_MZ.jpg  used on input line 2
-8. on input line 28.
+Package pdftex.def Info: Figures/MZ_chapter_in_air_MZ.jpg  used on input line 4
+4. on input line 44.
 Package pdftex.def Info: Requested size: 298.75264pt x 224.62236pt on input lin
-e 28.
+e 44.
 Package epstopdf Info: Source file: <Figures/MZ_chapter_in_air_sketch.eps>
 (epstopdf)                    date: 2020-11-30 15:10:50
 (epstopdf)                    size: 324675 bytes
@@ -1314,22 +1341,19 @@ rted-to.pdf>
 (epstopdf)                    size: 248953 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_in_air_
 sketch-eps-converted-to.pdf Figures/MZ_chapter_in_air_sketch.eps>
-(epstopdf)             \includegraphics on input line 34.
+(epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf, id=109, pagebox=cropbox
+<Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf, id=115, pagebox=cropbox
 , 462.72874pt x 161.60374pt>
 File: Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf 
- used on input line 34. on input line 34.
+ used on input line 50. on input line 50.
 Package pdftex.def Info: Requested size: 426.79135pt x 149.05452pt on input lin
-e 34.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./Figures/MZ_chapter_in_air_MZ.jpg>] [7 <./Figures/MZ_chapter_in_air_sketc
-h-eps-converted-to.pdf>]
+e 50.
+[7 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>] [8 <./Figures/MZ_chap
+ter_in_air_MZ.jpg>]
 Package epstopdf Info: Source file: <Figures/MZ_chapter_in_air_calibration.eps>
 
 (epstopdf)                    date: 2020-11-30 13:59:42
@@ -1340,32 +1364,54 @@ converted-to.pdf>
 (epstopdf)                    size: 37862 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_in_air_
 calibration-eps-converted-to.pdf Figures/MZ_chapter_in_air_calibration.eps>
-(epstopdf)             \includegraphics on input line 49.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf, id=200, pagebox=cr
+<Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf, id=140, pagebox=cr
 opbox, 416.55624pt x 284.06125pt>
 File: Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf Graphic file (
 type pdf)
 <use Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/MZ_chapter_in_air_calibration-eps-converted-to
-.pdf  used on input line 49. on input line 49.
+.pdf  used on input line 65. on input line 65.
 Package pdftex.def Info: Requested size: 426.79135pt x 291.05627pt on input lin
-e 49.
+e 65.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 54.
+ [9 <./Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/MZ_chapter_full_noise_spectrum.eps
+>
+(epstopdf)                    date: 2020-12-01 11:57:20
+(epstopdf)                    size: 61333 bytes
+(epstopdf)             Output file: <Figures/MZ_chapter_full_noise_spectrum-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-12-01 11:58:43
+(epstopdf)                    size: 15724 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_full_no
+ise_spectrum-eps-converted-to.pdf Figures/MZ_chapter_full_noise_spectrum.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf, id=221, pagebox=c
+ropbox, 440.64626pt x 301.125pt>
+File: Figures/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use Figures/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/MZ_chapter_full_noise_spectrum-eps-converted-t
+o.pdf  used on input line 87. on input line 87.
+Package pdftex.def Info: Requested size: 426.79135pt x 291.66817pt on input lin
+e 87.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 56.
-
-[8] [9 <./Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf>])
-(./main.bbl [10]
+ [10]
+[11 <./Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf>] [12 <./Figu
+res/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf>]) (./main.bbl [13]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
- [11
+ [14
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
@@ -1373,7 +1419,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 246E4D291E46EF9C6234E6A5B36A569E;720.
+(rerunfilecheck)             Checksum: 8407B08CD6C776D05FA066728ECEE0E9;653.
 
 
 LaTeX Warning: There were undefined references.
@@ -1381,10 +1427,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 20627 strings out of 492990
- 380856 string characters out of 6136333
- 530573 words of memory out of 5000000
- 23930 multiletter control sequences out of 15000+600000
+ 20648 strings out of 492990
+ 381609 string characters out of 6136333
+ 532884 words of memory out of 5000000
+ 23941 multiletter control sequences out of 15000+600000
  547291 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,10n,39p,10357b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1403,10 +1449,10 @@ ts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
 ublic/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm2
 074.pfb>
-Output written on main.pdf (11 pages, 878770 bytes).
+Output written on main.pdf (14 pages, 910385 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 320 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
