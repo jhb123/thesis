@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  1 DEC 2020 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  2 DEC 2020 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1293,14 +1293,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [4
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `photodiode circuit.' on page 5 undefined on input lin
+ [5]
+
+LaTeX Warning: Reference `photodiode circuit.' on page 6 undefined on input lin
 e 27.
 
-[5]
 
 LaTeX Warning: Reference `' on page 6 undefined on input line 31.
 
+[6]
 Package epstopdf Info: Source file: <Figures/MZ_chapter_CDS_noise.eps>
 (epstopdf)                    date: 2020-12-01 16:52:38
 (epstopdf)                    size: 46206 bytes
@@ -1312,7 +1315,7 @@ Package epstopdf Info: Source file: <Figures/MZ_chapter_CDS_noise.eps>
 se-eps-converted-to.pdf Figures/MZ_chapter_CDS_noise.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=106, pagebox=cropbox, 42
+<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=112, pagebox=cropbox, 42
 5.59pt x 151.56625pt>
 File: Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1321,11 +1324,11 @@ Package pdftex.def Info: Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf  use
 d on input line 36. on input line 36.
 Package pdftex.def Info: Requested size: 426.79135pt x 152.00296pt on input lin
 e 36.
-[6]
+
 
 LaTeX Warning: Reference `' on page 7 undefined on input line 41.
 
-<Figures/MZ_chapter_in_air_MZ.jpg, id=114, 2783.39874pt x 2092.81876pt>
+<Figures/MZ_chapter_in_air_MZ.jpg, id=113, 2783.39874pt x 2092.81876pt>
 File: Figures/MZ_chapter_in_air_MZ.jpg Graphic file (type jpg)
 <use Figures/MZ_chapter_in_air_MZ.jpg>
 Package pdftex.def Info: Figures/MZ_chapter_in_air_MZ.jpg  used on input line 4
@@ -1343,7 +1346,7 @@ rted-to.pdf>
 sketch-eps-converted-to.pdf Figures/MZ_chapter_in_air_sketch.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf, id=115, pagebox=cropbox
+<Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf, id=114, pagebox=cropbox
 , 462.72874pt x 161.60374pt>
 File: Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1352,8 +1355,17 @@ Package pdftex.def Info: Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf
  used on input line 50. on input line 50.
 Package pdftex.def Info: Requested size: 426.79135pt x 149.05452pt on input lin
 e 50.
-[7 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>] [8 <./Figures/MZ_chap
-ter_in_air_MZ.jpg>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 55.
+
+
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+ [8 <./Figures/MZ_chapter_in_air_MZ.jpg>]
 Package epstopdf Info: Source file: <Figures/MZ_chapter_in_air_calibration.eps>
 
 (epstopdf)                    date: 2020-11-30 13:59:42
@@ -1405,13 +1417,110 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
 [11 <./Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf>] [12 <./Figu
-res/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf>]) (./main.bbl [13]
+res/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `' on page 13 undefined on input line 98.
+
+
+LaTeX Warning: Citation `Jans thesis' on page 13 undefined on input line 98.
+
+[13]
+Package epstopdf Info: Source file: <Figures/MZ_chapter_flow_diagram_in_vacuum_
+servo.eps>
+(epstopdf)                    date: 2020-12-02 18:19:07
+(epstopdf)                    size: 212931 bytes
+(epstopdf)             Output file: <Figures/MZ_chapter_flow_diagram_in_vacuum_
+servo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-12-02 18:20:22
+(epstopdf)                    size: 113322 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_flow_di
+agram_in_vacuum_servo-eps-converted-to.pdf Figures/MZ_chapter_flow_diagram_in_v
+acuum_servo.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/MZ_chapter_flow_diagram_in_vacuum_servo-eps-converted-to.pdf, id=255, 
+pagebox=cropbox, 587.19376pt x 213.79875pt>
+File: Figures/MZ_chapter_flow_diagram_in_vacuum_servo-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use Figures/MZ_chapter_flow_diagram_in_vacuum_servo-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/MZ_chapter_flow_diagram_in_vacuum_servo-eps-co
+nverted-to.pdf  used on input line 105. on input line 105.
+Package pdftex.def Info: Requested size: 426.79135pt x 155.39648pt on input lin
+e 105.
+Package epstopdf Info: Source file: <Figures/MZ_chapter_servo_transfer_function
+_cali_combo.eps>
+(epstopdf)                    date: 2020-12-02 17:46:18
+(epstopdf)                    size: 166488 bytes
+(epstopdf)             Output file: <Figures/MZ_chapter_servo_transfer_function
+_cali_combo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-12-02 17:46:34
+(epstopdf)                    size: 46036 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_servo_t
+ransfer_function_cali_combo-eps-converted-to.pdf Figures/MZ_chapter_servo_trans
+fer_function_cali_combo.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/MZ_chapter_servo_transfer_function_cali_combo-eps-converted-to.pdf, id
+=256, pagebox=cropbox, 672.5125pt x 411.5375pt>
+File: Figures/MZ_chapter_servo_transfer_function_cali_combo-eps-converted-to.pd
+f Graphic file (type pdf)
+<use Figures/MZ_chapter_servo_transfer_function_cali_combo-eps-converted-to.pdf
+>
+Package pdftex.def Info: Figures/MZ_chapter_servo_transfer_function_cali_combo-
+eps-converted-to.pdf  used on input line 113. on input line 113.
+Package pdftex.def Info: Requested size: 426.79135pt x 261.1727pt on input line
+ 113.
+Package epstopdf Info: Source file: <Figures/MZ_chapter_suspended_diff_arm.eps>
+
+(epstopdf)                    date: 2020-12-02 15:16:04
+(epstopdf)                    size: 85564 bytes
+(epstopdf)             Output file: <Figures/MZ_chapter_suspended_diff_arm-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2020-12-02 15:17:22
+(epstopdf)                    size: 19827 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_suspend
+ed_diff_arm-eps-converted-to.pdf Figures/MZ_chapter_suspended_diff_arm.eps>
+(epstopdf)             \includegraphics on input line 119.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/MZ_chapter_suspended_diff_arm-eps-converted-to.pdf, id=257, pagebox=cr
+opbox, 441.65pt x 302.12875pt>
+File: Figures/MZ_chapter_suspended_diff_arm-eps-converted-to.pdf Graphic file (
+type pdf)
+<use Figures/MZ_chapter_suspended_diff_arm-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/MZ_chapter_suspended_diff_arm-eps-converted-to
+.pdf  used on input line 119. on input line 119.
+Package pdftex.def Info: Requested size: 426.79135pt x 291.97655pt on input lin
+e 119.
+Package epstopdf Info: Source file: <Figures/MZ_chapter_misalignment_plot.eps>
+(epstopdf)                    date: 2020-12-02 12:40:08
+(epstopdf)                    size: 47588 bytes
+(epstopdf)             Output file: <Figures/MZ_chapter_misalignment_plot-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-12-02 12:44:45
+(epstopdf)                    size: 12872 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_misalig
+nment_plot-eps-converted-to.pdf Figures/MZ_chapter_misalignment_plot.eps>
+(epstopdf)             \includegraphics on input line 126.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/MZ_chapter_misalignment_plot-eps-converted-to.pdf, id=258, pagebox=cro
+pbox, 411.5375pt x 310.15875pt>
+File: Figures/MZ_chapter_misalignment_plot-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use Figures/MZ_chapter_misalignment_plot-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/MZ_chapter_misalignment_plot-eps-converted-to.
+pdf  used on input line 126. on input line 126.
+Package pdftex.def Info: Requested size: 426.79135pt x 321.65828pt on input lin
+e 126.
+) (./main.bbl [14] [15 <./Figures/MZ_chapter_flow_diagram_in_vacuum_servo-eps-c
+onverted-to.pdf> <./Figures/MZ_chapter_servo_transfer_function_cali_combo-eps-c
+onverted-to.pdf>] [16 <./Figures/MZ_chapter_suspended_diff_arm-eps-converted-to
+.pdf>] [17 <./Figures/MZ_chapter_misalignment_plot-eps-converted-to.pdf>]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
- [14
+ [18
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
@@ -1427,32 +1536,33 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 20648 strings out of 492990
- 381609 string characters out of 6136333
- 532884 words of memory out of 5000000
- 23941 multiletter control sequences out of 15000+600000
+ 20683 strings out of 492990
+ 383237 string characters out of 6136333
+ 533024 words of memory out of 5000000
+ 23962 multiletter control sequences out of 15000+600000
  547291 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,10n,39p,10357b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,39p,10357b,739s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
-c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive
-/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texm
-f-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fon
-ts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
-ublic/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm2
-074.pfb>
-Output written on main.pdf (14 pages, 910385 bytes).
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/pu
+blic/cm-super/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-su
+per/sfbx2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm12
+00.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:
+/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on main.pdf (18 pages, 1112401 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
