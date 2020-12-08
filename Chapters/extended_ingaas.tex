@@ -1,0 +1,66 @@
+\section{Introduction}
+The current generation of gravitational will be limited by the thermal noise due to brownian motion of the molecules that make up the mirror coatings. Since these thermally driven fluctuations are a limiting source of noise \cite{InstrumentWhitePaper2018}, proposed future gravitational wave detectors such as the Einstein Telescope \cite{Punturo2010} and LIGO Cosmic Explorer \cite{Abbott2017e} will use cryogenically cooled mirrors.
+\paragraph{}
+Howerver, cryogenically cooled mirror coatings will not be compatible with the current laser wavelength, which is 1\,\si{\micro\metre}, and so future gravitational wave detectors may use either a 1.5\,\si{\micro\metre} or 2\,\si{\micro\metre} wavelength laser. Currently, 2\,\si{\micro\metre} is of interest as there have been promising designs for low noise mirror coatings that are optimised for this wavelength.
+\paragraph{}
+Currently, as InGaAs is widely used semiconductor for detecting 1-1.6\si{\micro\metre} light and thus suitable InGaAs photodiodes were available for detecting the gravitational-wave-signal-containing laser beam that emerges from the OMC. These photodiodes are low noise, linear, can detect many tens of milliwatts of light, and have a high quantum efficiency. Additionally, InGaAs is a popular material to use as it can be operated at room temperature.
+\paragraph{}
+As the current InGaAs photodiodes are not sensitive to 2\,\si{\micro\metre} light, `extended' InGaAs photodiodes may be used instead. These diodes are extended in the sense that their cut-off wavelengths are above 2\,\si{\micro\metre}. To achieve this longer cut-off wavelength, extended InGaAs contains a higher percentage of indium than normal; however, this extra indium comes at the expense of the structural integrity of the lattice structure. This causes the quality of the photodiode to be degraded. Previous experiments have been limited by the quantum efficiency of the extended InGaAs photodiode that was used \cite{Mansell2018a,Yap2019}. To obtain low enough electronic noise, the authors of \cite{Mansell2018a} used the photodiodes without a bias.
+\paragraph{}
+Alternative materials that could be used include MgCdTe and InSb. MgCdTe has potential, however there are still technical challenges to overcome in creating diodes that work at\ref{}. The properties of an InSb detector with a high reported QE is reported in chapter \ref{}, however this detector would not be suitable for use in a gravitational wave detector.
+\paragraph{}
+In this chapter, the relationship between quantum efficiency, reverse bias and noise in Extended InGaAs Photodoides is explored. A selection of extended InGaAs photodiodes were tested with the aim of understanding general trends in the behaviour of extended InGaAs diodes. It was found that to get a high quantum efficiency and linearity, the diodes must be operated with a bias. However, if the diodes were used with a high bias then the dark noise of the diode would exceed the shot noise level of the detected light. The dark noise could be reduced significantly by cooling the diodes and so future detectors may feature cooled read-out diodes. Generally speaking, the longer the cut-off wavelength, the worse the diodes noise was. Future work may include investigating the growth conditions for extended InGaAs photodiodes as it has been shown that the dark noise of a diode made from extended InGaAs can be reduced by orders of magnitudes by optimising this. However, at the time of writing (2020), commercially available InGaAs photodiodes for detecting 2\,\si{\micro\metre} light that are suitable for use in a gravitational wave detector do not exist. 
+\section{What is an Extended InGaAs Photodiode}
+\section{What is Needed from the Read-out Photodiode in a Gravitational Wave detector}
+\section{The Relationship Between a Diode's Bias Voltage, Quantum Efficiency and Linearity}
+\section{Dark Current and Dark Noise in Extended InGaAs Photodiodes}
+\section{Discussion}
+\section{Conclusion}
+
+\section{Notes about the Diodes Tested}
+This is a candid (for now) set of notes about each diode to help me know what evidence I actually have. I only measured the dependence of quantum efficiency on reverse bias with one photodiode -- FD10D. If a diode was shown to be non-linear for a low photocurrent then testing with it stopped.
+\subsection{FD10D}
+peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
+\\\par
+This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.6V is a `suitable' bias voltage to use at room temperature.
+\\\par
+With a 0.6V reverse bias, the diode was linear up to 16mA. This wasn't measured until it became non-linear.  The spot size could have been made bigger, but 16mA is a good amount of photocurrent.
+\\\par
+The quantum efficiency as a function of bias was measured. This was calibrated against a power meter at 0.6V reverse bias. It was found that the QE was 73\%. The photocurrent was shown to be shot noise limited, and so we can say this was a real increase in shot noise. 
+\\\par
+The impedance of the photodiode was measured. It depended on the light level, and exhibited a `negative capacitance' effect -- although this is not really well understood.
+\subsection{IG19x1000S4i}
+As this diode has a cut-off slightly out of the range of interest, not a lot of experiments were done with it. This diode has a cut-off at 1.9um. The QE is about 80\% from about 1.2 to 1.7um. This dark current has been measured as a function of bias. The dark noise has been measured as a function of bias. It was found that that measurements up to 20mA of photocurrent could be made without saturating. The reverse bias could be turned all the way up to 1V.
+\subsection{IG22x1000S4i}
+peak QE wavelength = $\sim1.8\si{\micro\metre}$, cut off wavelength = 2.15\si{\micro\metre}
+\\\par
+The dark noise and dark current were measured for this diode at room temperature. In order to keep 1/f noise low, the reverse bias voltage must be less than 0.06V. This is probably due to the size of the diode. The diode needs to have a bias greater than this to be linear. For this reason, no more measurements were made with it. Additionally, this diode appears to have broken at some point and so further experiments with it cannot be made.
+\subsection{IG24x500S4i}
+peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.35\si{\micro\metre}
+\\\par
+This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.275V is a `suitable' bias voltage to use at room temperature. Cooling it down from 30\si{\degreeCelsius} to -40\si{\degreeCelsius} reduced the noise by a factor of 3.
+\\\par
+The forward voltage characteristics of this diode were used to see what the ideality factor of the diode was. This was found to be close to 1 (i.e.~it is ideal).
+\\\par
+This diode was found to be produce a excess white noise even with low amounts of power on it. It is likely that this was due to saturation. Regardless, this diode was found to be unsuitable for making shot noise limited measurements.
+\subsection{IG26x500S4i}
+peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.45\si{\micro\metre}
+This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.167V is a `suitable' bias voltage to use at room temperature. Cooling it down from 20\si{\degreeCelsius} to -40\si{\degreeCelsius} reduced the noise by a factor of 3.
+\\\par
+This diode was only linear up to a very low amount of photocurrent (<1mA). Further tests on this diode were vetoed because of this. 
+\subsection{G12182-010k}
+peak QE wavelength = $\sim1.7\si{\micro\metre}$, cut off wavelength = 2.1\si{\micro\metre}
+\\\par
+This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable at all bias voltages.
+\subsection{G12182-005k}
+peak QE wavelength = $\sim1.7\si{\micro\metre}$, cut off wavelength = 2.1\si{\micro\metre}
+\\\par
+This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable at all bias voltages.
+\subsection{G12183-010k}
+peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
+\\\par
+This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable up to 0.1V bias voltage at room temperature. Cooling it to -40\si{\degreeCelsius} made it usable up to 1V reverse bias. 
+\subsection{G12183-005k}
+peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
+\\\par
+This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable up to 0.6V bias voltage at room temperature. Cooling it to -30\si{\degreeCelsius} made it usable up to 1V reverse bias. 
