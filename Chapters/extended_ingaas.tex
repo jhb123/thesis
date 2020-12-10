@@ -32,16 +32,70 @@ To further increase the width of the depletion region, a layer of intrinsic semi
 InGaAs is a widely used semiconductor for making photodiodes. Typically, the indium content is around 53\%, sometimes this is made clear by writing $\rm{In_{0.53}Ga_{0.47}As}$, so that the InGaAs can be lattice matched to InP subtrate on which the photodiode is grown on. At this level of indium doping, the InGaAs photodiode will be suffer from few mechanical defects and so the diodes created with it will be of high quality. Typically they are sensitive up to wavelengths around 1.6\,\si{\micro\metre}.
 \paragraph{}
 Longer wavelength sensitivity can be achieved by increasing the amount of indium doping. These photodiodes are often called `extended' and can be sensitive for wavelengths up to 2.6\,\si{\micro\metre}. One of the main issues faced when creating an extended InGaAs photodiode is the lattice mismatch between the InGaAs and the InP substrate on which its grown. Lattice mismatching can arise due to a strained crystal structure, and since the extra indium in an extended InGaAs photodiode causes this \cite{Gendry1992} it is hard to fabricate a low noise extended InGaAs photodiode \cite{Martinelli1988}. Above 53\% indium, a buffer layer of InGaAs with less indium in between the absorbing layer and the substrate can be used to mitigate the lattice mismatch slightly, but the dislocations still give rise to trap states which cause the generation and recombination of charge carriers \cite{Zimmermann2003}. Lattice mismatching is the source of the large amounts of dark current found in extended InGaAs as well as the $1/f$ noise.
-\section{What is Needed from the Read-out Photodiode in a Gravitational Wave detector}
-Current gravitational wave detectors operate in the 1-10\,mW range at the output \cite{Prijatelj2012} to ensure that the junk light from other modes is a small portion of the total signal. Thus, any new photodiode should be able to produce $\sim$10\,mA of photo-current. 
 \paragraph{}
+similar circuit model?
+\section{What is Needed from the Read-out Photodiode in a Gravitational Wave detector}
 The photodiodes used in the readout of a gravitational wave interferometer should have a quantum efficiency of more than 99\%. The reason for having such a high quantum efficiency requirement is that to achieve the baseline level of $\sim$10\,dB of squeezed light that future gravitational wave detectors will use, losses in the interferometer have to be extremely low as losses degrade the amount of squeezing achieved.
 \paragraph{}
 Photodiodes for gravitational wave detectors should have low $1/f$ dark noise so that they are not limited in the detection band by electronic noise. Third generation ground based gravitational wave detectors will be quantum noise limited down to about 10\,Hz \cite{Harry2010}, so the $1/f$ noise must be below the shot noise of the photo-current above this frequency. 
 \paragraph{}
 The $1/f$ noise could be avoided by using a heterodyne detection, however the shot noise would increase if the mixing of the modulation and demodulation waveforms was not time independent \cite{Meers1991} and this limits the choice of waveforms. These schemes recover increase the SNR by increasing the signal, however the use of squeezing means that this approach would still not be sufficient as the noise would still be enhanced compared to a homodyne readout. However, it has been proposed that the increase in noise associated with heterodyne readout could be avoided by the use of a broadband squeezer \cite{Zhang2020a}.
-\section{The Relationship Between a Diode's Bias Voltage, Quantum Efficiency and Linearity}
+\paragraph{}
+Current gravitational wave detectors operate in the 1-10\,mW range at the output \cite{Prijatelj2012} to ensure that the junk light from other modes is a small portion of the total signal. Thus, any new photodiode should be able to produce $\sim$10\,mA of photo-current. 
+\paragraph{}
+The properties were investigated in a selection commercially available photodiodes. The photodiodes that were tested are listed in table \ref{tab}. According to each of the diodes datasheets, none of them have 99\% quantum efficiency; however, the quantum efficiency of a diode can be improved by increasing the bias voltage (see Section \ref{}). Increasing the bias increases the dark current and dark noise of the photodiode and so for each diode a maximum reverse bias voltage was found. The bias voltage also affects the saturation limit of the photodiode. If a diode was found to have a low saturation threshold ($\sim1\,\si{\milli\ampere}$), then the diode is not fit for use in a gravitational wave detector. 
+\section{The effect of reverse bias on an Extended InGaAs Photodiode}
+To demonstrate the effect that reverse bias has on the quantum efficiency of a diode, the Thorlabs FD10D was used. The FD10D was exposed to a variety of beams so that saturation effects would be visible. Two styles of measurements were used: One where the reverse bias and the response of the diode were measured at DC, and a lock-in style measurement where the quantity $\frac{\Delta \eta}{\Delta V_B}$ was measured. The quantum efficiency should be independent of frequency if the diode is operating in a linear regime, and so the two styles of measurements should yield the same outcome. To prove that the increase in signal is a result of increasing quantum efficiency an not some other mechanism, for instance an avalanche effect, the noise of the photocurrent was compared to the level expected for shot noise at a bias voltage the yielded an acceptable level of dark noise (see Section \ref{} for details.).
+\subsection{Apparatus}
+To test the dependence of the quantum efficiency of a photodiode as a function of reverse bias, a photodiode circuit with an externally supplied bias was used. This is shown in Figure \ref{fig:pdchapterqetestcircuit}. A DC bias was created by low-passed bench-top lab power supply. An AC component could be added onto the bias via a summing OP-amp. The FD10D was connected to a transimpedance amplifier that whose electronic noise was below the shot noise level for $\sim10\,\si{\milli\ampere}$ currents. 
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_qe_test_circuit}
+	\caption{}
+	\label{fig:pdchapterqetestcircuit}
+\end{figure}
+\paragraph{}
+A 1550\,nm wavelength laser (Pure Photonics PPL) was used to illuminate the photodiode (FD10D). The beam was split by a balanced beam splitter so that the light could be amplitude stabilised. The in-loop diode was a high performance InGaAs photodiode (C3061GH), and the out-of-loop diode was the diode under test. The laser was amplitude stabilised by actuating on the laser diode's current. Shot noise limited measurements could be made above 1\,kHz. A half waveplate and polarising beam splitter were used to control the power level of the light incident on the FD10D, and a lens was used to set the size of the beam.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_shot_noise_test_set_up}
+	\caption{}
+	\label{fig:pdchaptershotnoisetestsetup}
+\end{figure}
+\subsection{Method}
+The FD10D was exposed to a variety of different beams to investigate the possibility that current density related phenomena could affect the results. This was done by changing the beam size and beam power. As the FD10D is 1\,mm, the maximum beam width would be around $330\,\si{\micro\metre}$ in order for less than 1\% clipping losses. The powers used were in the milliwatt range as these types of beam powers are the ones that a gravitational wave detector would operated with. The methods in this section can only be used to measure relative increases in quantum efficiency, measurements of absolute quantum efficiency require \textcolor{red}{find ref \ref{}} additional apparatus.
+\paragraph{}
+To measure the effect that changing the reverse bias voltage has on the quantum efficiency of a photodiode, two approaches were used. By measuring the increase in photocurrent at DC it is straight forward to determined the increase in quantum efficiency. Alternatively, one can perform a lock-in style measurement. If the quantum efficiency depends on the reverse bias of the photodiode, then modulating the reverse bias, $V_B$ at a frequency $f$ will result in $\eta$ modulating at $f$, and so the measurement will be of $\Delta\eta/\Delta V_B$. The input modulation $\Delta V_{\rm{in}} = \Delta V_B$ and the output modulation $\Delta V_{\rm{out}}\cos\theta = \Delta \eta V_{\rm{TIA}}(V_B)$, where $V_{\rm{TIA}}(V_B)$ is the DC signal from the photodiode at a reverse bias $V_B$ and $\theta$ is the phase between the input and output modulation.
+\paragraph{}
+As 0.6\,V reverse bias was the highest bias that gave an acceptable level of dark noise (see section \ref{}), the noise of the photocurrent was measured at a region where the noise of the laser was limited by shot noise. This was done to ensure that the increase in photocurrent was due to a real increase in quantum efficiency and not due to another mechanism e.g.~an avalanche process. The expected level of noise, $n$, of the photocurrent, in units of $\rm{A_{rms}/\sqrt{Hz}}$, is
+\begin{equation}
+n = \sqrt{2qI_{\rm{OOL}} + 2qI_{\rm{IL}} + n_{\rm{IL\,dark}}^2 +   n_{\rm{OOL\,dark}}^2 + n_{\rm{loop}}^2 + n^2_{\rm{analyser}}}
+\end{equation}
+where $q$ is the charge of the electron, $I_{\rm{OOL/IL}}$ is the current through the out-of-loop and in-loop photodiodes, $n_{\rm{OOL/IL\,dark}}$ is the dark noise of the out-of-loop diodes and in-loop photodiode, $n_{\rm{loop}}$ is the electronic noise of the loop and $n^2_{\rm{analyser}}$ is the noise of the analyser. By tracking the height of an intensity modulation in the light for a series of powers up to 16\,mW, the linearity of the diode could be investigated.
+\paragraph{}
+At this bias, the quantum efficiency was calibrated using two other power meters. The power incident onto the photodiode was measured and the power reflected by the window at small angles was measured.
+\subsection{Results}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_QE_as_fn_of_bias}
+	\caption{}
+	\label{fig:pdchapterfd10dqeasfnofbias}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_fd10d_AC_DC}
+	\caption{}
+	\label{fig:pdchapterfd10dacdc}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_fd10d_noise_test}
+	\caption{}
+	\label{fig:pdchapterfd10dnoisetest}
+\end{figure}
 \section{Dark Current and Dark Noise in Extended InGaAs Photodiodes}
+formulas etc.
+\section{The Relationship Between a Diode's Bias Voltage, Quantum Efficiency and Linearity}
 \section{Discussion}
 \section{Conclusion}
 
