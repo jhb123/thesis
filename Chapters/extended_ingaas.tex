@@ -13,7 +13,7 @@ Currently, as InGaAs is widely used semiconductor for detecting 1-1.6\si{\micro\
 \paragraph{}
 As the current InGaAs photodiodes are not sensitive to 2\,\si{\micro\metre} light, `extended' InGaAs photodiodes may be used instead. These diodes are extended in the sense that their cut-off wavelengths are above 2\,\si{\micro\metre}. To achieve this longer cut-off wavelength, extended InGaAs contains a higher percentage of indium than normal; however, this extra indium comes at the expense of the structural integrity of the lattice structure. This can cause the quality of the photodiode to be degraded. Previous experiments have been limited by the quantum efficiency of the extended InGaAs photodiode that was used \cite{Mansell2018a,Yap2019}. To obtain low enough electronic noise, the authors of \cite{Mansell2018a} used the photodiodes without a bias. A photodiode with a quantum efficiency of up to 95\% has been reported. 
 \paragraph{}
-Alternative materials that could be used include MgCdTe and InSb. MgCdTe has potential, however there are still technical challenges to overcome in creating diodes that work at\ref{}. The properties of an InSb detector with a high reported QE is reported in chapter \ref{}, however this detector would not be suitable for use in a gravitational wave detector.
+Alternative materials that could be used include HgCdTe and InSb. HgCdTe has potential, however there are still technical challenges to overcome in creating diodes that work at\ref{}. The properties of an InSb detector with a high reported QE is reported in chapter \ref{}, however this detector would not be suitable for use in a gravitational wave detector.
 \paragraph{}
 In this chapter, the relationship between quantum efficiency, reverse bias and noise in Extended InGaAs Photodoides is explored. A selection of extended InGaAs photodiodes were tested with the aim of understanding general trends in the behaviour of extended InGaAs diodes. It was found that to get a high quantum efficiency and linearity, the diodes must be operated with a bias. However, if the diodes were used with a high bias then the dark noise of the diode would exceed the shot noise level of the detected light. The dark noise could be reduced significantly by cooling the diodes and so future detectors may feature cooled read-out diodes. Generally speaking, the longer the cut-off wavelength, the worse the diodes noise was. Future work may include investigating the growth conditions for extended InGaAs photodiodes as it has been shown that the dark noise of a diode made from extended InGaAs can be reduced by orders of magnitudes by optimising this. However, at the time of writing (2020), commercially available InGaAs photodiodes for detecting 2\,\si{\micro\metre} light that are suitable for use in a gravitational wave detector do not exist. 
 \section{What is an Extended InGaAs Photodiode}
@@ -44,7 +44,7 @@ The $1/f$ noise could be avoided by using a heterodyne detection, however the sh
 Current gravitational wave detectors operate in the 1-10\,mW range at the output \cite{Prijatelj2012} to ensure that the junk light from other modes is a small portion of the total signal. Thus, any new photodiode should be able to produce $\sim$10\,mA of photo-current. 
 \paragraph{}
 The properties were investigated in a selection commercially available photodiodes. The photodiodes that were tested are listed in table \ref{tab}. According to each of the diodes datasheets, none of them have 99\% quantum efficiency; however, the quantum efficiency of a diode can be improved by increasing the bias voltage (see Section \ref{}). Increasing the bias increases the dark current and dark noise of the photodiode and so for each diode a maximum reverse bias voltage was found. The bias voltage also affects the saturation limit of the photodiode. If a diode was found to have a low saturation threshold ($\sim1\,\si{\milli\ampere}$), then the diode is not fit for use in a gravitational wave detector. 
-\section{The effect of reverse bias on an Extended InGaAs Photodiode}
+\section{The effect of reverse bias on an Extended InGaAs Photodiode -FD10D}
 To demonstrate the effect that reverse bias has on the quantum efficiency of a diode, the Thorlabs FD10D was used. The FD10D was exposed to a variety of beams so that saturation effects would be visible. Two styles of measurements were used: One where the reverse bias and the response of the diode were measured at DC, and a lock-in style measurement where the quantity $\frac{\Delta \eta}{\Delta V_B}$ was measured. The quantum efficiency should be independent of frequency if the diode is operating in a linear regime, and so the two styles of measurements should yield the same outcome. To prove that the increase in signal is a result of increasing quantum efficiency an not some other mechanism, for instance an avalanche effect, the noise of the photocurrent was compared to the level expected for shot noise at a bias voltage the yielded an acceptable level of dark noise (see Section \ref{} for details.).
 \subsection{Apparatus}
 To test the dependence of the quantum efficiency of a photodiode as a function of reverse bias, a photodiode circuit with an externally supplied bias was used. This is shown in Figure \ref{fig:pdchapterqetestcircuit}. A DC bias was created by low-passed bench-top lab power supply. An AC component could be added onto the bias via a summing OP-amp. The FD10D was connected to a transimpedance amplifier that whose electronic noise was below the shot noise level for $\sim10\,\si{\milli\ampere}$ currents. 
@@ -70,16 +70,26 @@ To measure the effect that changing the reverse bias voltage has on the quantum 
 As 0.6\,V reverse bias was the highest bias that gave an acceptable level of dark noise (see section \ref{}), the noise of the photocurrent was measured at a region where the noise of the laser was limited by shot noise. This was done to ensure that the increase in photocurrent was due to a real increase in quantum efficiency and not due to another mechanism e.g.~an avalanche process. The expected level of noise, $n$, of the photocurrent, in units of $\rm{A_{rms}/\sqrt{Hz}}$, is
 \begin{equation}
 n = \sqrt{2qI_{\rm{OOL}} + 2qI_{\rm{IL}} + n_{\rm{IL\,dark}}^2 +   n_{\rm{OOL\,dark}}^2 + n_{\rm{loop}}^2 + n^2_{\rm{analyser}}}
+\label{eq:pd_chapter_noise_budget}
 \end{equation}
 where $q$ is the charge of the electron, $I_{\rm{OOL/IL}}$ is the current through the out-of-loop and in-loop photodiodes, $n_{\rm{OOL/IL\,dark}}$ is the dark noise of the out-of-loop diodes and in-loop photodiode, $n_{\rm{loop}}$ is the electronic noise of the loop and $n^2_{\rm{analyser}}$ is the noise of the analyser. By tracking the height of an intensity modulation in the light for a series of powers up to 16\,mW, the linearity of the diode could be investigated.
 \paragraph{}
 At this bias, the quantum efficiency was calibrated using two other power meters. The power incident onto the photodiode was measured and the power reflected by the window at small angles was measured.
 \subsection{Results}
+The effect of increasing the reverse bias on the quantum efficiency of the FD10D is shown in Figure \ref{fig:pdchapterfd10dqeasfnofbias}. For all beams intensities that the photodiode was exposed to, the increase in quantum efficiency was $\sim15\%$ as the reverse bias went from 0\,V to 1.8\,V, the stated maximum reverse bias in the datasheet of the FD10D. There may be a saturation related effect at the 1\% level, beams with a lower intensity experienced a greater increase in $\eta$ than beams with a higher intensity, however the quantum efficiency may not be uniform over the diode -- near the edges $\eta$ is greater. The difference between the DC and AC response could only be described by a non-linear process. These effects are small, and Figure \ref{fig:pdchapterfd10dqeasfnofbias} gives a clear incentive to increase the bias voltage.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_QE_as_fn_of_bias}
 	\caption{}
 	\label{fig:pdchapterfd10dqeasfnofbias}
+\end{figure}
+\paragraph{}
+Figure \ref{fig:pdchapterfd10dnoisetest} shows the photocurrent measured has the noise level predicted by Equation \ref{eq:pd_chapter_noise_budget}, meaning that the increase in photocurrent at a reverse bias voltage of 0.6V is, without doubt, an increase in quantum efficiency. This measurement was performed with 4 different photocurrents, ranging from 7.5\,mA to 15.5\,mA, and over this range there was a 2\% change in the ratio between the DC and AC measurement, this is shown in Figure \ref{fig:pdchapterfd10dacdc}. The SNR of this measurement is limited to the 1\% level due to the difference between the calibration peak applied at 1111\,Hz and the level of shot noise.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_fd10d_noise_test}
+	\caption{}
+	\label{fig:pdchapterfd10dnoisetest}
 \end{figure}
 \begin{figure}
 	\centering
@@ -87,11 +97,13 @@ At this bias, the quantum efficiency was calibrated using two other power meters
 	\caption{}
 	\label{fig:pdchapterfd10dacdc}
 \end{figure}
+\subsection{Saturation Limit for some laser components photodiodes}
+The laser components photodiodes were exposed to a light signal of RIN = 12e-6. Their bias was set to the maximum that was compatible with 1/f noise being below shot noise (see Section \ref{}). The power of the light was increased, and the decrease in the relative intensity of the AC modulation was recorded. This is shown in Figure \ref{fig:pdchapterlasercomponentsratio}. A decrease in AC signal indicates that the diode is saturating. These diodes cannot handle the power levels required by for use in an GW interferometer. This problem was not evident in the FD10D (see figure \ref{fig:pdchapterfd10dacdc}).
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{Figures/PD_chapter_fd10d_noise_test}
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_laser_components_ratio}
 	\caption{}
-	\label{fig:pdchapterfd10dnoisetest}
+	\label{fig:pdchapterlasercomponentsratio}
 \end{figure}
 \section{Dark Current and Dark Noise in Extended InGaAs Photodiodes}
 formulas etc.
