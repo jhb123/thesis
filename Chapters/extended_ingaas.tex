@@ -106,55 +106,128 @@ The laser components photodiodes were exposed to a light signal of RIN = 12e-6. 
 	\label{fig:pdchapterlasercomponentsratio}
 \end{figure}
 \section{Dark Current and Dark Noise in Extended InGaAs Photodiodes}
-formulas etc.
-\section{The Relationship Between a Diode's Bias Voltage, Quantum Efficiency and Linearity}
+The dark current and dark noise of extended InGaAs photodiodes has been a limiting factor in previous quantum optics experiments \cite{Mansell2018a,Yap2019}. The dark current of these photodiodes depends on their reverse bias. The larger the reverse bias, the higher the dark current. The dark current of extended InGaAs photodiodes is high because of the relatively large amounts of dislocations due to lattice mismatch between the InGaAs and the substrate that it is grown on.
+\paragraph{}
+There is a balance to strike between the quantum efficiency and dark noise. It is desirable to have as large a reverse bias as possible as this increases the quantum efficiency and saturation limit of the photodiode (see section \ref{} or figure \ref{}). The dark noise of the photodiode should be below the shot noise level of the light that will be detected. As a bench mark, the dark noise of the photodiodes at \textcolor{red}{10\,Hz} is compared to the dark noise of 10\,mA of photocurrent. 
+\subsection{Dark Noise Measurement Circuit}
+To measure small amounts of current noise, a transimpedance amplifier with a large gain is needed. As the dark current for these diodes is of the order of 1\si{\milli\ampere}, the gain of the transimpedance amplifier was chosen to be $1\times10^6$ so that signals of the order 1\,V would be produced. Operation amplifiers have current noise at their inputs, voltage noise at the their outputs and the feedback resistor will generate Johnson-Nyquist noise (e.g.~\cite[Figure 8.58]{Horowitz_and_Hill}). Designers of OP amps, generally, improve the OP amps output voltage noise at the expense of the input current noise or vice versa and so there is not one-size-fits-all op amp. In this application, as the current noise that is to be measured is small and the feedback resistor is large, a TL071, a JFET style op amp with low input current noise, was selected.
+\paragraph{}
+A circuit which allowed for the photodiode under test to be easily changed was constructed. To ensure that this design would not introduce noise, the circuit was tested against a low-noise version.
+ 
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_photodiode_dark_noise_test_circuits}
+	\caption{}
+	\label{fig:pdchapterphotodiodedarknoisetestcircuits}
+\end{figure}
+\subsection{Room Temperature}
+\subsubsection{FD10D dark current and Dark noise}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_dark_current}
+	\caption{FD10D dark current and dark noise}
+	\label{fig:pdchapterfd10ddarkcurrent}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_dark_noise}
+	\caption{FD10D dark noise}
+	\label{fig:pdchapterfd10ddarknoise}
+\end{figure}
+\subsubsection{FD10D Cross check with quiet reverse bias} 
+To ensure that the bias voltage noise was not dominating the dark noise measurements, a measurement of the dark noise a low noise bias was used 
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_bias_cross_check}
+	\caption{}
+	\label{fig:pdchapterbiascrosscheck}
+\end{figure}
+\subsubsection{Comparison between different In Doping: Case Study of IG24 and IG26 Laser Components photodiodes}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_compare_laser_components_dark_current}
+	\caption{The IG26x500S4i has an order of magnitude more dark current in compared to the IG24x500S4i at similar reverse biases. The measurement at 1V reverse bias for the IG26 saturated the transimpedance amplifier.}
+	\label{fig:pdchaptercomparelasercomponentsdarkcurrent}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_laser_components_dark_noise}
+	\caption{}
+	\label{fig:pdchapterlasercomponentsdarknoise}
+\end{figure}
+\subsection{Variability between 'identical' Hammamatsu Diodes}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_g12182-010k_noise_compare}
+	\caption{}
+	\label{fig:pdchapterg12182-010knoisecompare}
+\end{figure}
+\subsection{Cooling Results}
+See appendix \ref{} for dark noise as a function of bias. The dark current as function of reverse bias voltage is shown in Figure \ref{fig:pdchapterdarkcurrenttermperaturealldiodes}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_dark_current_termperature_all_diodes}
+	\caption{}
+	\label{fig:pdchapterdarkcurrenttermperaturealldiodes}
+\end{figure}
+\subsection{Forward Bias Characteristics of IG24}
+The ideality factor of a photodiode will
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_forward_bias_IV}
+	\caption{$I_0 = (360\pm10)\,\si{nA}$, $n = 1.02\pm0.01$}
+	\label{fig:pdchapterforwardbiasiv}
+\end{figure}
+
+\section{InSb testing}
+
 \section{Discussion}
 \section{Conclusion}
 
-\section{Notes about the Diodes Tested}
-This is a candid (for now) set of notes about each diode to help me know what evidence I actually have. I only measured the dependence of quantum efficiency on reverse bias with one photodiode -- FD10D. If a diode was shown to be non-linear for a low photocurrent then testing with it stopped.
-\subsection{FD10D}
-peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
-\\\par
-This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.6V is a `suitable' bias voltage to use at room temperature.
-\\\par
-With a 0.6V reverse bias, the diode was linear up to 16mA. This wasn't measured until it became non-linear.  The spot size could have been made bigger, but 16mA is a good amount of photocurrent.
-\\\par
-The quantum efficiency as a function of bias was measured. This was calibrated against a power meter at 0.6V reverse bias. It was found that the QE was 73\%. The photocurrent was shown to be shot noise limited, and so we can say this was a real increase in shot noise. 
-\\\par
-The impedance of the photodiode was measured. It depended on the light level, and exhibited a `negative capacitance' effect -- although this is not really well understood.
-\subsection{IG19x1000S4i}
-As this diode has a cut-off slightly out of the range of interest, not a lot of experiments were done with it. This diode has a cut-off at 1.9um. The QE is about 80\% from about 1.2 to 1.7um. This dark current has been measured as a function of bias. The dark noise has been measured as a function of bias. It was found that that measurements up to 20mA of photocurrent could be made without saturating. The reverse bias could be turned all the way up to 1V.
-\subsection{IG22x1000S4i}
-peak QE wavelength = $\sim1.8\si{\micro\metre}$, cut off wavelength = 2.15\si{\micro\metre}
-\\\par
-The dark noise and dark current were measured for this diode at room temperature. In order to keep 1/f noise low, the reverse bias voltage must be less than 0.06V. This is probably due to the size of the diode. The diode needs to have a bias greater than this to be linear. For this reason, no more measurements were made with it. Additionally, this diode appears to have broken at some point and so further experiments with it cannot be made.
-\subsection{IG24x500S4i}
-peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.35\si{\micro\metre}
-\\\par
-This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.275V is a `suitable' bias voltage to use at room temperature. Cooling it down from 30\si{\degreeCelsius} to -40\si{\degreeCelsius} reduced the noise by a factor of 3.
-\\\par
-The forward voltage characteristics of this diode were used to see what the ideality factor of the diode was. This was found to be close to 1 (i.e.~it is ideal).
-\\\par
-This diode was found to be produce a excess white noise even with low amounts of power on it. It is likely that this was due to saturation. Regardless, this diode was found to be unsuitable for making shot noise limited measurements.
-\subsection{IG26x500S4i}
-peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.45\si{\micro\metre}
-This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.167V is a `suitable' bias voltage to use at room temperature. Cooling it down from 20\si{\degreeCelsius} to -40\si{\degreeCelsius} reduced the noise by a factor of 3.
-\\\par
-This diode was only linear up to a very low amount of photocurrent (<1mA). Further tests on this diode were vetoed because of this. 
-\subsection{G12182-010k}
-peak QE wavelength = $\sim1.7\si{\micro\metre}$, cut off wavelength = 2.1\si{\micro\metre}
-\\\par
-This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable at all bias voltages.
-\subsection{G12182-005k}
-peak QE wavelength = $\sim1.7\si{\micro\metre}$, cut off wavelength = 2.1\si{\micro\metre}
-\\\par
-This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable at all bias voltages.
-\subsection{G12183-010k}
-peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
-\\\par
-This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable up to 0.1V bias voltage at room temperature. Cooling it to -40\si{\degreeCelsius} made it usable up to 1V reverse bias. 
-\subsection{G12183-005k}
-peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
-\\\par
-This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable up to 0.6V bias voltage at room temperature. Cooling it to -30\si{\degreeCelsius} made it usable up to 1V reverse bias. 
+%\section{Notes about the Diodes Tested}
+%This is a candid (for now) set of notes about each diode to help me know what evidence I actually have. I only measured the dependence of quantum efficiency on reverse bias with one photodiode -- FD10D. If a diode was shown to be non-linear for a low photocurrent then testing with it stopped.
+%\subsection{FD10D}
+%peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
+%\\\par
+%This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.6V is a `suitable' bias voltage to use at room temperature.
+%\\\par
+%With a 0.6V reverse bias, the diode was linear up to 16mA. This wasn't measured until it became non-linear.  The spot size could have been made bigger, but 16mA is a good amount of photocurrent.
+%\\\par
+%The quantum efficiency as a function of bias was measured. This was calibrated against a power meter at 0.6V reverse bias. It was found that the QE was 73\%. The photocurrent was shown to be shot noise limited, and so we can say this was a real increase in shot noise. 
+%\\\par
+%The impedance of the photodiode was measured. It depended on the light level, and exhibited a `negative capacitance' effect -- although this is not really well understood.
+%\subsection{IG19x1000S4i}
+%As this diode has a cut-off slightly out of the range of interest, not a lot of experiments were done with it. This diode has a cut-off at 1.9um. The QE is about 80\% from about 1.2 to 1.7um. This dark current has been measured as a function of bias. The dark noise has been measured as a function of bias. It was found that that measurements up to 20mA of photocurrent could be made without saturating. The reverse bias could be turned all the way up to 1V.
+%\subsection{IG22x1000S4i}
+%peak QE wavelength = $\sim1.8\si{\micro\metre}$, cut off wavelength = 2.15\si{\micro\metre}
+%\\\par
+%The dark noise and dark current were measured for this diode at room temperature. In order to keep 1/f noise low, the reverse bias voltage must be less than 0.06V. This is probably due to the size of the diode. The diode needs to have a bias greater than this to be linear. For this reason, no more measurements were made with it. Additionally, this diode appears to have broken at some point and so further experiments with it cannot be made.
+%\subsection{IG24x500S4i}
+%peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.35\si{\micro\metre}
+%\\\par
+%This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.275V is a `suitable' bias voltage to use at room temperature. Cooling it down from 30\si{\degreeCelsius} to -40\si{\degreeCelsius} reduced the noise by a factor of 3.
+%\\\par
+%The forward voltage characteristics of this diode were used to see what the ideality factor of the diode was. This was found to be close to 1 (i.e.~it is ideal).
+%\\\par
+%This diode was found to be produce a excess white noise even with low amounts of power on it. It is likely that this was due to saturation. Regardless, this diode was found to be unsuitable for making shot noise limited measurements.
+%\subsection{IG26x500S4i}
+%peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.45\si{\micro\metre}
+%This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was found that 0.167V is a `suitable' bias voltage to use at room temperature. Cooling it down from 20\si{\degreeCelsius} to -40\si{\degreeCelsius} reduced the noise by a factor of 3.
+%\\\par
+%This diode was only linear up to a very low amount of photocurrent (<1mA). Further tests on this diode were vetoed because of this. 
+%\subsection{G12182-010k}
+%peak QE wavelength = $\sim1.7\si{\micro\metre}$, cut off wavelength = 2.1\si{\micro\metre}
+%\\\par
+%This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable at all bias voltages.
+%\subsection{G12182-005k}
+%peak QE wavelength = $\sim1.7\si{\micro\metre}$, cut off wavelength = 2.1\si{\micro\metre}
+%\\\par
+%This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable at all bias voltages.
+%\subsection{G12183-010k}
+%peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
+%\\\par
+%This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable up to 0.1V bias voltage at room temperature. Cooling it to -40\si{\degreeCelsius} made it usable up to 1V reverse bias. 
+%\subsection{G12183-005k}
+%peak QE wavelength = $\sim2\si{\micro\metre}$, cut off wavelength = 2.6\si{\micro\metre}
+%\\\par
+%This dark current has been measured as a function of temperature and as a function of bias. The dark noise has been measured as a function of temperature and bias. It was usable up to 0.6V bias voltage at room temperature. Cooling it to -30\si{\degreeCelsius} made it usable up to 1V reverse bias. 
