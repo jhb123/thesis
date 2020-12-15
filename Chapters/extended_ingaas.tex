@@ -47,13 +47,6 @@ The properties were investigated in a selection commercially available photodiod
 \section{The effect of reverse bias on an Extended InGaAs Photodiode -FD10D}
 To demonstrate the effect that reverse bias has on the quantum efficiency of a diode, the Thorlabs FD10D was used. The FD10D was exposed to a variety of beams so that saturation effects would be visible. Two styles of measurements were used: One where the reverse bias and the response of the diode were measured at DC, and a lock-in style measurement where the quantity $\frac{\Delta \eta}{\Delta V_B}$ was measured. The quantum efficiency should be independent of frequency if the diode is operating in a linear regime, and so the two styles of measurements should yield the same outcome. To prove that the increase in signal is a result of increasing quantum efficiency an not some other mechanism, for instance an avalanche effect, the noise of the photocurrent was compared to the level expected for shot noise at a bias voltage the yielded an acceptable level of dark noise (see Section \ref{} for details.).
 \subsection{Apparatus}
-To test the dependence of the quantum efficiency of a photodiode as a function of reverse bias, a photodiode circuit with an externally supplied bias was used. This is shown in Figure \ref{fig:pdchapterqetestcircuit}. A DC bias was created by low-passed bench-top lab power supply. An AC component could be added onto the bias via a summing OP-amp. The FD10D was connected to a transimpedance amplifier that whose electronic noise was below the shot noise level for $\sim10\,\si{\milli\ampere}$ currents. 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{Figures/PD_chapter_qe_test_circuit}
-	\caption{}
-	\label{fig:pdchapterqetestcircuit}
-\end{figure}
 \paragraph{}
 A 1550\,nm wavelength laser (Pure Photonics PPL) was used to illuminate the photodiode (FD10D). The beam was split by a balanced beam splitter so that the light could be amplitude stabilised. The in-loop diode was a high performance InGaAs photodiode (C3061GH), and the out-of-loop diode was the diode under test. The laser was amplitude stabilised by actuating on the laser diode's current. Shot noise limited measurements could be made above 1\,kHz. A half waveplate and polarising beam splitter were used to control the power level of the light incident on the FD10D, and a lens was used to set the size of the beam.
 \begin{figure}
@@ -109,17 +102,6 @@ The laser components photodiodes were exposed to a light signal of RIN = 12e-6. 
 The dark current and dark noise of extended InGaAs photodiodes has been a limiting factor in previous quantum optics experiments \cite{Mansell2018a,Yap2019}. The dark current of these photodiodes depends on their reverse bias. The larger the reverse bias, the higher the dark current. The dark current of extended InGaAs photodiodes is high because of the relatively large amounts of dislocations due to lattice mismatch between the InGaAs and the substrate that it is grown on.
 \paragraph{}
 There is a balance to strike between the quantum efficiency and dark noise. It is desirable to have as large a reverse bias as possible as this increases the quantum efficiency and saturation limit of the photodiode (see section \ref{} or figure \ref{}). The dark noise of the photodiode should be below the shot noise level of the light that will be detected. As a bench mark, the dark noise of the photodiodes at \textcolor{red}{10\,Hz} is compared to the dark noise of 10\,mA of photocurrent. 
-\subsection{Dark Noise Measurement Circuit}
-To measure small amounts of current noise, a transimpedance amplifier with a large gain is needed. As the dark current for these diodes is of the order of 1\si{\milli\ampere}, the gain of the transimpedance amplifier was chosen to be $1\times10^6$ so that signals of the order 1\,V would be produced. Operation amplifiers have current noise at their inputs, voltage noise at the their outputs and the feedback resistor will generate Johnson-Nyquist noise (e.g.~\cite[Figure 8.58]{Horowitz_and_Hill}). Designers of OP amps, generally, improve the OP amps output voltage noise at the expense of the input current noise or vice versa and so there is not one-size-fits-all op amp. In this application, as the current noise that is to be measured is small and the feedback resistor is large, a TL071, a JFET style op amp with low input current noise, was selected.
-\paragraph{}
-A circuit which allowed for the photodiode under test to be easily changed was constructed. To ensure that this design would not introduce noise, the circuit was tested against a low-noise version.
- 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{Figures/PD_chapter_photodiode_dark_noise_test_circuits}
-	\caption{}
-	\label{fig:pdchapterphotodiodedarknoisetestcircuits}
-\end{figure}
 \subsection{Room Temperature}
 \subsubsection{FD10D dark current and Dark noise}
 \begin{figure}
@@ -133,14 +115,6 @@ A circuit which allowed for the photodiode under test to be easily changed was c
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_dark_noise}
 	\caption{FD10D dark noise}
 	\label{fig:pdchapterfd10ddarknoise}
-\end{figure}
-\subsubsection{FD10D Cross check with quiet reverse bias} 
-To ensure that the bias voltage noise was not dominating the dark noise measurements, a measurement of the dark noise a low noise bias was used 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{Figures/PD_chapter_bias_cross_check}
-	\caption{}
-	\label{fig:pdchapterbiascrosscheck}
 \end{figure}
 \subsubsection{Comparison between different In Doping: Case Study of IG24 and IG26 Laser Components photodiodes}
 \begin{figure}
@@ -162,7 +136,15 @@ To ensure that the bias voltage noise was not dominating the dark noise measurem
 	\caption{}
 	\label{fig:pdchapterg12182-010knoisecompare}
 \end{figure}
-\subsection{Cooling Results}
+\subsection{Cooling Experiment}
+The typical low temperature damage threshold for extended InGaAs photodiodes is \SI{-40}{\degreeCelsius}. To provide controlled cooling to the photodiode, the photodiode was glued (using Cryo-Varnish) to a block of aluminium, shown in figure \ref{fig:pdchaptercoolingapparatusphotos}. This block has a copper rod with a diameter of a few mm soldered to it, and this rod was inserted into a liquid nitrogen bath. The block of aluminium had power resistors to provide heating so that temperature of the diode could be controlled. The block is shown in figure \ref{fig:pdchaptercoolingapparatusphotos}. A PID loop was implemented using a pt1000 temperature sensor and a multimeter (keithley 2000) configured to make a 4 wire resistance measurement. A labview program read this signal and performed calculated the error signal to be sent to a programmable power supply (Temna 72-2540) connected to the power resistors.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/PD_chapter_cooling_apparatus_photos}
+	\caption{}
+	\label{fig:pdchaptercoolingapparatusphotos}
+\end{figure}
+
 See appendix \ref{} for dark noise as a function of bias. The dark current as function of reverse bias voltage is shown in Figure \ref{fig:pdchapterdarkcurrenttermperaturealldiodes}.
 \begin{figure}
 	\centering
