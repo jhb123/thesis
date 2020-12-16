@@ -102,6 +102,12 @@ The laser components photodiodes were exposed to a light signal of RIN = 12e-6. 
 The dark current and dark noise of extended InGaAs photodiodes has been a limiting factor in previous quantum optics experiments \cite{Mansell2018a,Yap2019}. The dark current of these photodiodes depends on their reverse bias. The larger the reverse bias, the higher the dark current. The dark current of extended InGaAs photodiodes is high because of the relatively large amounts of dislocations due to lattice mismatch between the InGaAs and the substrate that it is grown on.
 \paragraph{}
 There is a balance to strike between the quantum efficiency and dark noise. It is desirable to have as large a reverse bias as possible as this increases the quantum efficiency and saturation limit of the photodiode (see section \ref{} or figure \ref{}). The dark noise of the photodiode should be below the shot noise level of the light that will be detected. As a bench mark, the dark noise of the photodiodes at \textcolor{red}{10\,Hz} is compared to the dark noise of 10\,mA of photocurrent. 
+\subsection{Noise in photodiodes}
+The noise of the current made by the photodiode can be modelled as
+\begin{equation}
+i_{\rm{rms}} = \sqrt{ 2qi + \frac{4k_BT}{R} + \left(\frac{i_t}{f^{\alpha}}\right)^2 }
+\end{equation}
+
 \subsection{Room Temperature}
 \subsubsection{FD10D dark current and Dark noise}
 \begin{figure}
@@ -116,20 +122,27 @@ There is a balance to strike between the quantum efficiency and dark noise. It i
 	\caption{FD10D dark noise}
 	\label{fig:pdchapterfd10ddarknoise}
 \end{figure}
-\subsubsection{Comparison between different In Doping: Case Study of IG24 and IG26 Laser Components photodiodes}
+\subsubsection{Comparisson of all the InGaAs Photodiodes}
+To compare different photodiodes, consult figure \ref{fig:pdchapterdarkcurrentmegaplot}.
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{Figures/PD_chapter_compare_laser_components_dark_current}
-	\caption{The IG26x500S4i has an order of magnitude more dark current in compared to the IG24x500S4i at similar reverse biases. The measurement at 1V reverse bias for the IG26 saturated the transimpedance amplifier.}
-	\label{fig:pdchaptercomparelasercomponentsdarkcurrent}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{Figures/PD_chapter_laser_components_dark_noise}
+	\includegraphics[width=1\linewidth]{PD_chapter_dark_current_mega_plot}
 	\caption{}
-	\label{fig:pdchapterlasercomponentsdarknoise}
+	\label{fig:pdchapterdarkcurrentmegaplot}
 \end{figure}
-\subsection{Variability between 'identical' Hammamatsu Diodes}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1\linewidth]{Figures/PD_chapter_compare_laser_components_dark_current}
+%	\caption{The IG26x500S4i has an order of magnitude more dark current in compared to the IG24x500S4i at similar reverse biases. The measurement at 1V reverse bias for the IG26 saturated the transimpedance amplifier.}
+%	\label{fig:pdchaptercomparelasercomponentsdarkcurrent}
+%\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1\linewidth]{Figures/PD_chapter_laser_components_dark_noise}
+%	\caption{}
+%	\label{fig:pdchapterlasercomponentsdarknoise}
+%\end{figure}
+\subsubsection{Variability between `identical' Hammamatsu Diodes}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_g12182-010k_noise_compare}
