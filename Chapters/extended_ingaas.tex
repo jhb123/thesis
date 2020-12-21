@@ -44,11 +44,13 @@ The $1/f$ noise could be avoided by using a heterodyne detection, however the sh
 Current gravitational wave detectors operate in the 1-10\,mW range at the output \cite{Prijatelj2012} to ensure that the junk light from other modes is a small portion of the total signal. Thus, any new photodiode should be able to produce $\sim$10\,mA of photo-current. 
 \paragraph{}
 The properties were investigated in a selection commercially available photodiodes. The photodiodes that were tested are listed in table \ref{tab}. According to each of the diodes datasheets, none of them have 99\% quantum efficiency; however, the quantum efficiency of a diode can be improved by increasing the bias voltage (see Section \ref{}). Increasing the bias increases the dark current and dark noise of the photodiode and so for each diode a maximum reverse bias voltage was found. The bias voltage also affects the saturation limit of the photodiode. If a diode was found to have a low saturation threshold ($\sim1\,\si{\milli\ampere}$), then the diode is not fit for use in a gravitational wave detector. 
-\section{The effect of reverse bias on an Extended InGaAs Photodiode -FD10D}
-To demonstrate the effect that reverse bias has on the quantum efficiency of a diode, the Thorlabs FD10D was used. The FD10D was exposed to a variety of beams so that saturation effects would be visible. Two styles of measurements were used: One where the reverse bias and the response of the diode were measured at DC, and a lock-in style measurement where the quantity $\frac{\Delta \eta}{\Delta V_B}$ was measured. The quantum efficiency should be independent of frequency if the diode is operating in a linear regime, and so the two styles of measurements should yield the same outcome. To prove that the increase in signal is a result of increasing quantum efficiency an not some other mechanism, for instance an avalanche effect, the noise of the photocurrent was compared to the level expected for shot noise at a bias voltage the yielded an acceptable level of dark noise (see Section \ref{} for details.).
+\subsection{Benchmark for Photodiodes}
+bias that keeps noise below 10mA shot noise -> light level test. 
+\section{Reverse Bias and the Quantum Efficiency of an Extended InGaAs Photodiode - FD10D}
+To demonstrate the effect that reverse bias has on the quantum efficiency of a diode, the Thorlabs FD10D was used. The FD10D was exposed to a variety of beams so that saturation effects would be visible. Two styles of measurements were used: One where the reverse bias and the response of the diode were measured at DC, and a lock-in style measurement where the quantity $\frac{\Delta \eta}{\Delta V_B}$ was measured. The quantum efficiency should be independent of frequency if the diode is operating in a non-saturating regime, and so the two styles of measurements should yield the same outcome. To prove that the increase in signal is a result of increasing quantum efficiency an not some other mechanism, for instance an avalanche effect, the noise of the photocurrent was compared to the level expected for shot noise at a bias voltage the yielded an acceptable level of dark noise (see Section \ref{} for details.).
 \subsection{Apparatus}
 \paragraph{}
-A 1550\,nm wavelength laser (Pure Photonics PPL) was used to illuminate the photodiode (FD10D). The beam was split by a balanced beam splitter so that the light could be amplitude stabilised. The in-loop diode was a high performance InGaAs photodiode (C3061GH), and the out-of-loop diode was the diode under test. The laser was amplitude stabilised by actuating on the laser diode's current. Shot noise limited measurements could be made above 1\,kHz. A half waveplate and polarising beam splitter were used to control the power level of the light incident on the FD10D, and a lens was used to set the size of the beam.
+A 1550\,nm wavelength laser (Pure Photonics PPL) was used to illuminate the photodiode (FD10D). The photodiode circuit allowed for the reverse bias of the photodiode to be altered; see Appendix \ref{sec:circuits_appendix_variable_bias_ad797}. The beam was split by a 50:50 beam splitter so that the light could be amplitude stabilised. The in-loop diode was a high performance InGaAs photodiode (C3061GH), and the out-of-loop diode was the diode under test. The laser was amplitude stabilised by actuating on the laser diode's current. Shot noise limited measurements could be made above 1\,kHz. A half waveplate and polarising beam splitter were used to control the power level of the light incident on the FD10D, and a lens was used to set the size of the beam.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_shot_noise_test_set_up}
@@ -110,12 +112,12 @@ i_{\rm{rms}} = \sqrt{ 2qi + \frac{4k_BT}{R} + \left(\frac{i_t}{f^{\alpha}}\right
 
 \subsection{Room Temperature}
 \subsubsection{FD10D dark current and Dark noise}
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_dark_current}
-	\caption{FD10D dark current and dark noise}
-	\label{fig:pdchapterfd10ddarkcurrent}
-\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_dark_current}
+%	\caption{FD10D dark current and dark noise}
+%	\label{fig:pdchapterfd10ddarkcurrent}
+%\end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_dark_noise}
