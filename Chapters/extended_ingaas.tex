@@ -46,6 +46,7 @@ Current gravitational wave detectors operate in the 1-10\,mW range at the output
 \paragraph{}
 The properties were investigated in a selection commercially available photodiodes. The photodiodes that were tested are listed in table \ref{tab}. According to each of the diodes datasheets, none of them have 99\% quantum efficiency; however, the quantum efficiency of a diode can be improved by increasing the bias voltage (see Section \ref{}). Increasing the bias increases the dark current and dark noise of the photodiode and so for each diode a maximum reverse bias voltage was found. The benchmark dark noise used was the photodiode's dark noise at 10\,Hz; the cut-off bias was determined by the voltage where the dark noise was equal to the shot noise of a 10\,mA current. The bias voltage also affects the saturation limit of the photodiode. If a diode was found to have a low saturation threshold ($\sim1\,\si{\milli\ampere}$), then the diode is not fit for use in a gravitational wave detector. 
 \section{Reverse Bias and the Quantum Efficiency of an Extended InGaAs Photodiode}
+\label{sec:pd_chapter_reverse_bias_qe}
 To demonstrate the effect that reverse bias has on the quantum efficiency of a diode, the Thorlabs FD10D was used. The FD10D was exposed to a variety of beams so that saturation effects would be visible. Two styles of measurements were used: One where the reverse bias and the response of the diode were measured at DC, and a lock-in style measurement where the quantity $\frac{\Delta \eta}{\Delta V_B}$ was measured. The quantum efficiency should be independent of frequency if the diode is operating in a non-saturating regime, and so the two styles of measurements should yield the same outcome. To prove that the increase in signal is a result of increasing quantum efficiency an not some other mechanism, for instance an avalanche effect, the noise of the photocurrent was compared to the level expected for shot noise at a bias voltage the yielded an acceptable level of dark noise (see Section \ref{} for details.).
 \subsection{Method}
 To measure the photocurrent produced by the photodiode, a transimpedance amplifier that would be shot noise limited for 10\,mA of photocurrent was used. This circuit is shown in Appendix \ref{sec:circuits_appendix_variable_bias_ad797}. The photodiode circuit allowed for the reverse bias of the photodiode to be altered. 
@@ -54,7 +55,7 @@ A 1550\,nm wavelength laser (Pure Photonics PPL) was used to illuminate the phot
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_shot_noise_test_set_up}
-	\caption{}
+	\caption{Optical layout used for measuring the effect that increasing the reverse bias of a photodiode has on its quantum efficiency and saturation limit. The out-of-loop photodiode, $\rm{PD_{OOL}}$, was the photodiode under test. A 1550\,nm laser (PPCL300) was used to test the optical properties of the photodiode. A combination of half wave plate (HWP) and polarised beam splitter (PBS) allowed for the power of the beam to be set and a lens was used to set the size of the beam on the photodiode under test. Amplitude stabilised light was needed to ensure the increase in photocurrent seen when the bias increased was due to an increase in quantum efficiency. The photodiode circuit (see Appendix \ref{sec:circuits_appendix_variable_bias_ad797}) allowed for shot noise limited measurements of currents around 10\,mA and for the bias to be selected.}
 	\label{fig:pdchaptershotnoisetestsetup}
 \end{figure}
 \paragraph{}
@@ -74,8 +75,8 @@ At this bias, the quantum efficiency was calibrated using two other power meters
 The effect of increasing the reverse bias on the quantum efficiency of the FD10D is shown in Figure \ref{fig:pdchapterfd10dqeasfnofbias}. For all beams intensities that the photodiode was exposed to, the increase in quantum efficiency was $\sim15\%$ as the reverse bias went from 0\,V to 1.8\,V, the stated maximum reverse bias in the datasheet of the FD10D. There may be a saturation related effect at the 1\% level, beams with a lower intensity experienced a greater increase in $\eta$ than beams with a higher intensity, however the quantum efficiency may not be uniform over the diode -- near the edges $\eta$ is greater. The difference between the DC and AC response could only be described by a non-linear process. These effects are small, and Figure \ref{fig:pdchapterfd10dqeasfnofbias} gives a clear incentive to increase the bias voltage.
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_QE_as_fn_of_bias}
-	\caption{}
+	\includegraphics[width=0.9\linewidth]{Figures/PD_chapter_FD10D_QE_as_fn_of_bias}
+	\caption{The FD10D's quantum efficiency depends on its reverse bias; the increase in quantum efficiency was at the $\sim15\%$ level when the bias was increased to its maximum datasheet value. Two types of measurement were used to determine the increase in quantum efficiency as the bias was increased. The first was to measure the DC response and the corresponding results are shown as circles. The second method involved modulating the bias and measuring the resulting modulation in the photocurrent, i.e.~an AC measurement, and these are shown by the stars. Each set of measurements was done with a different intensity by changing either the beam's width or power.}
 	\label{fig:pdchapterfd10dqeasfnofbias}
 \end{figure}
 \paragraph{}
@@ -83,15 +84,16 @@ Figure \ref{fig:pdchapterfd10dnoisetest} shows the photocurrent measured has the
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_fd10d_noise_test}
-	\caption{}
+	\caption{The bias of the FD10D was set to 0.6\,V and  it was exposed to light\textcolor{red}{\ref{}find values}. The noise of the photocurrent produced by the FD10D (blue line) corresponds to the Equation \ref{eq:pd_chapter_noise_budget} (orange line) meaning that that the quantum efficiency of the FD10D did increase rather than the increase in photocurrent being the result of an avalanche process. The in-loop signal (red line) was used to cross-check the calibration of the measurement. }
 	\label{fig:pdchapterfd10dnoisetest}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_fd10d_AC_DC}
-	\caption{}
+	\caption{The bias of the FD10D was set to 0.6\,V and it was exposed to a series of different power levels to check at what photocurrent the diode would saturate at. This was done by measuring the height of the calibration peak; if this peak decreased in size relative to the DC signal then this would indicate the AC signal was saturating. This peak could only be measured to within 1\%, and so the FD10D showed no sign of saturation under these conditions.}
 	\label{fig:pdchapterfd10dacdc}
 \end{figure}
+\clearpage
 \section{Dark Current and Dark Noise in Extended InGaAs Photodiodes}
 The dark current and dark noise of extended InGaAs photodiodes has been a limiting factor in previous quantum optics experiments \cite{Mansell2018a,Yap2019}. The dark current of these photodiodes depends on their reverse bias. The larger the reverse bias, the higher the dark current. The dark current of extended InGaAs photodiodes is high because of the relatively large amounts of dislocations due to lattice mismatch between the InGaAs and the substrate that it is grown on.
 \paragraph{}
@@ -101,7 +103,7 @@ The noise of the current made by the photodiode can be modelled as
 \begin{equation}
 i_{\rm{rms}} = \sqrt{ 2qi + \frac{4k_BT}{R_{\rm{PD}}} + \left(\frac{i_t}{f^{\beta}}\right)^2 }.
 \end{equation}
-The first term under the square-root, $2qi$, is the shot noise associated with the DC current $i$. The second term, $ \frac{4k_BT}{R_{\rm{PD}}}$ is the Johnson-Nyquist noise due to the shunt resistance of the photodiode, $R_{\rm{PD}}$; this term can become significant when the shunt resistance is low as it is in some extended InGaAs photodiodes. The final term is is Hooge's law of noise in semiconductors; $\beta$ is usually close to 0.5.
+The first term under the square-root, $2qi$, is the shot noise associated with the DC current $i$. The second term, $ \frac{4k_BT}{R_{\rm{PD}}}$ is the Johnson-Nyquist noise due to the shunt resistance of the photodiode, $R_{\rm{PD}}$; this term can become significant when the shunt resistance is low as it is in some extended InGaAs photodiodes. The final term is is Hooge's law of noise in semiconductors; $i_t$ is the noise level and $\beta$ is usually close to 0.5.
 \paragraph{}
 To measure the dark noise produced by the extended InGaAs photodiodes, a transimpedance amplifier with high gain was used. The photodiodes were placed in a light tight box while the measurement was being made.
 \subsection{Room Temperature}
@@ -119,19 +121,19 @@ Where there were duplicate diodes to choose from, the superior diode was selecte
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_FD10D_dark_noise}
-	\caption{FD10D dark noise}
+	\caption{The dark noise of the FD10D increases as the reverse bias is increased. Above 0.6\,V, the dark noise of the FD10D would limit the noise of a 10\,mA current. As the noise spectral densities have no knees, the function $i_t/f^{\beta}$ can be fitted to the it. See appendix \ref{sec:pd_appendix_bias_dark_noise} for the dark noise spectra of other photodiodes. Below 0.9\,V reverse bias, the spectra fall as $f^{-0.45}$ which is typical for `1/f' noise. Above 0.9\,V bias the spectra fall as $f^{-0.4}$. This data is shown along side the results for the other diodes tested in Figure \ref{fig:pdchapterdarkcurrentmegaplot}.}
 	\label{fig:pdchapterfd10ddarknoise}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{PD_chapter_dark_current_mega_plot}
-	\caption{}
+	\caption{Left panel: the dark current for each diode was measured. Diodes of a similar cut-off wavelength share the same marker shape. The 1\,mm photodiodes have larger markers than the 0.5\,mm photodiodes. Right panel: the dark noise at 10\,Hz for each diode. The dashed line indicates the level of shot noise for a 10\,mA current.}
 	\label{fig:pdchapterdarkcurrentmegaplot}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_g12182-010k_noise_compare}
-	\caption{}
+	\caption{The difference in dark noise between two Hamamatsu photodiodes (g12182-010k) of the same kind under identical operating conditions (room temperature at 1\,V bias). Diode 2 performs nearly 100 times better than diode 1. }
 	\label{fig:pdchapterg12182-010knoisecompare}
 \end{figure}
 \subsection{Cooling Experiment}
@@ -141,13 +143,13 @@ The dark noise and dark current for each diode in Table \ref{} was measured at t
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Figures/PD_chapter_cooling_apparatus_photos}
-	\caption{}
+	\caption{(a) The photodiode was affixed to this aluminium block. The power resistors provided heating to the block and the copper rod provided a thermal link between the liquid nitrogen dewar and the block. (b) A photodiode glued to the block such that a large proportion of the photodiode was in contact with it.}
 	\label{fig:pdchaptercoolingapparatusphotos}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_dark_current_termperature_all_diodes}
-	\caption{}
+	\caption{Left panel: the dark current of each photodiode at their maximum datasheet specified reverse bias as a function of temperature. The apparatus limited dark current measurements to a couple of nanoamps. Exponentials were fitted to the data. Diodes with similar cut-off wavelengths share marker shapes, and 1\,mm diodes have larger markers than the 0.5\,mm ones. Right panel: the dark noise of each diode was measured as a function of temperature. The black dashed line indicates the shot noise level for a 10\,mA current. At 10\,Hz, the measurements for the IG24x500S4i did not change much as the temperature changed, there was a knee around this frequency (see Figure \ref{fig:pdappendixig24temperaturenoisecurrent}); the noise of the IG24x500S4i was   $600-700\,\si{\pico\ampere/\sqrt{\hertz}}$ at 10\,Hz.}
 	\label{fig:pdchapterdarkcurrenttermperaturealldiodes}
 \end{figure}
 \section{The Saturation Limit of Some Laser Components Extended InGaAs Photodiodes}
@@ -155,7 +157,7 @@ The laser components diodes were found to saturate at low powers if they were bi
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_laser_components_ratio}
-	\caption{}
+	\caption{The saturation limit of three Laser Components photodiodes was measured. The photodiodes were biased so that their noise at 10\,Hz was equal to the shot noise of a 10\,mA current. The IG24x500S4i and IG26x500S4i were exposed to a beam whose $3\sigma$ width was 220\,\si{\micro\metre} and the IG22x1000S4i was exposed to a beam whose $3\sigma$ width was 1000\,\si{\micro\metre}. The size of the a light modulation whose relative size was known was tracked as the DC photocurrent was increased; the more saturated a photodiode is, the smaller the amount of signal was detected. These diodes had low saturations limits compared to the FD10D, which showed no signs of saturation up to 16.5\,mA (see Figure \ref{fig:PD_chapter_fd10d_AC_DC}).}
 	\label{fig:pdchapterlasercomponentsratio}
 \end{figure}
 \section{Excess Noise in the IG24x500S4i}
@@ -165,13 +167,13 @@ To rule out bias noise causing this, a noise projection measurement was made. Th
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/pd_chapter_shot_noise_problem_ig24}
-	\caption{}
+	\caption{The noise of a 1.3\,mA of photocurrent made by the IG24x500S4i (blue) exceeded the expected amount (red) based on Equation \ref{eq:pd_chapter_noise_budget} by a factor of $1.75$. This beam was not saturating the diode as the height of the 1111\,Hz signal was the the right level. This excess noise was also found at 0.25\,mA of photocurrent.}
 	\label{fig:pdchaptershotnoiseproblemig24}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/pd_chapter_noise_projection}
-	\caption{}
+	\caption{A noise projection measurement was performed to determine if the excess noise in the photocurrent produced by the IG24x500S4i (see Figure \ref{fig:pdchaptershotnoiseproblemig24}) was due to bias noise. The left hand panels show the bode plot of the transfer function between the photodiode's cathode and the output of the transmipedance amplifier when the photodiode was producing 1.3\,mA of photocurrent. The right hand panel shows the effect of subtracting bias noise from the signal at the output of the transimpedance amplifier. The peak at 1121\,Hz was a modulation applied to the photodiode's cathode; 42.5\,dB of this signal was removed by using the noise projection technique which is in close agreement with the amount expected from the measured transfer function. However, the level of the broadband noise remained unchanged thus indicating that the excess noise witnessed in the photocurrent produced by the IG24x500S4i was not due to bias noise.}
 	\label{fig:pdchapternoiseprojection}
 \end{figure}
 \paragraph{}
@@ -180,17 +182,17 @@ The ideality factor of the IG24 was investigated. The equation of a diode is
 I = I_p + I_s \left(\exp\left(-\frac{qV_b}{nk_BT}\right) - 1 \right),
 \label{eq:pd_chapter_ideality_factor}
 \end{equation}
-where $I_p$ is the photocurrent,$I_s$ is the saturation current of the diode, $q$ is the charge of the electron, $V_b$ is the bias of the diode, $n$ is the ideality factor, $k_B$ is Boltzmann's constant and $T$ is the temperature of the diode. If $n$ differs significantly from $1$, then it indicates that additional behaviour that was not described in Section \ref{sec:pd_chapter_diode_intro} occurring within the diode. However, the diode was found to have $n\simeq1$. To verify Equation \ref{eq:pd_chapter_ideality_factor}, light was shone onto the diode. This is shown in figure \ref{fig:pdchapterforwardbiasmodelwithlight}.
+where $I_p$ is the photocurrent,$I_s$ is the saturation current of the diode, $q$ is the charge of the electron, $V_b$ is the bias of the diode, $n$ is the ideality factor, $k_B$ is Boltzmann's constant and $T$ is the temperature of the diode. If $n$ differs significantly from $1$, then it indicates that additional behaviour that was not described in Section \ref{sec:pd_chapter_diode_intro} occurring within the diode. The current flowing through the diode as a function of forward bias was measured and is shown in figure \ref{fig:pdchapterforwardbiasiv}. The SciPy python function \verb|scipy.optimize.curve_fit| was used to do an unweighted fit of the data to Equation \ref{eq:pd_chapter_ideality_factor}. The diode was found to have $n\simeq1$. To verify Equation \ref{eq:pd_chapter_ideality_factor}, light was shone onto the diode. This is shown in figure \ref{fig:pdchapterforwardbiasmodelwithlight}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_forward_bias_IV}
-	\caption{$I_0 = (360\pm10)\,\si{nA}$, $n = 1.02\pm0.01$}
+	\caption{To investigate possible reasons why there was excess noise in the photocurrent produced by the IG24x500S4i, its ideality factor was measured (red points). Equation \ref{eq:pd_chapter_ideality_factor} was used to do an unweighed fit to the data ($I_0 = (360\pm10)\,\si{nA}$ and $n = 1.02\pm0.01$). The IG24x500S4i was found to be close to ideal, as $n$ was close to 1, and so this does not provide clues to the source of excess noise in the photocurrent.}
 	\label{fig:pdchapterforwardbiasiv}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/pd_chapter_forward_bias_model_with_light}
-	\caption{}
+	\caption{Different levels light levels were shone onto the photodiode and the current produced at 0.05\,V reverse bias was recorded. These measurements are shown by the stars. Based on the model obtained from the data shown in Figure \ref{fig:pdchapterforwardbiasiv}, the current flowing through the diode was predicted (indicated by the lines). The model and the measurements are in agreement with each other although the diode may have been saturating for the 3.3\,mW measurement.}
 	\label{fig:pdchapterforwardbiasmodelwithlight}
 \end{figure}
 
@@ -199,7 +201,7 @@ An InSb detector was tested as its data sheet showed it had high quantum efficie
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_P5968_noise}
-	\caption{}
+	\caption{The P5968 had its cathode grounded and the noise of the photocurrent due to the blackbody radiation produced by room temperature aluminium was measured (red). The noise level of the photocurrent corresponds to shot noise (green). The noise of the transimpedance amplifier (blue) is well below the noise of photocurrents noise.}
 	\label{fig:pdchapterp5968noise}
 \end{figure}
 \paragraph{}
@@ -207,10 +209,13 @@ A reverse bias was applied to the device. This generated $1/f$ noise.... Full da
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_insb_biased}
-	\caption{}
+	\caption{Left panel: the DC dark current of the P5968 as a function of bias. Middle panel: $1/f$ noise rose as the bias of the P5968 was increased (see Figure \ref{fig:pdchapterinsbnoiseasfunctionofbias}). Right panel: At a frequency where $1/f$ was not present, the noise of the photocurrent was measured. The excess noise factor is the multiplicative factor that the shot noise corresponding to the DC photocurrent needs to be multiplied by get the noise level that was measured.}
 	\label{fig:pdchapterinsbbiased}
 \end{figure}
 \section{Discussion}
+None of the photodiodes tested have the quantum efficiency required for third generation gravitational wave detectors.
+\paragraph{}
+Section \ref{sec:pd_chapter_reverse_bias_qe} shows the effect that biasing an extended InGaAs photodiode can have on its quantum efficiency. The quantum efficiency of the FD10D was increased by $15\%$ when its bias was set to its maximum value. This motivates using increasing the bias of a photodiode as the quantum efficiency can be greatly increased.
 \section{Conclusion}
 
 %\section{Notes about the Diodes Tested}
