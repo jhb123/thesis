@@ -35,6 +35,26 @@ InGaAs is a widely used semiconductor for making photodiodes. Typically, the ind
 Longer wavelength sensitivity can be achieved by increasing the amount of indium doping. These photodiodes are often called `extended' and can be sensitive for wavelengths up to 2.6\,\si{\micro\metre}. One of the main issues faced when creating an extended InGaAs photodiode is the lattice mismatch between the InGaAs and the InP substrate on which its grown. Lattice mismatching can arise due to a strained crystal structure, and since the extra indium in an extended InGaAs photodiode causes this \cite{Gendry1992} it is hard to fabricate a low noise extended InGaAs photodiode \cite{Martinelli1988}. Above 53\% indium, a buffer layer of InGaAs with less indium in between the absorbing layer and the substrate can be used to mitigate the lattice mismatch slightly, but the dislocations still give rise to trap states which cause the generation and recombination of charge carriers \cite{Zimmermann2003}. Lattice mismatching is the source of the large amounts of dark current found in extended InGaAs as well as the $1/f$ noise.
 \paragraph{}
 similar circuit model?
+\begin{table}
+	\begin{center}
+		\begin{tabular}{| c | c | c | c |}
+			\hline
+			Photodiode & Peak quantum efficiency (\%) & Cut-off wavelength$^a$ (\si{\micro\meter}) & Diameter (\si{\milli\metre})\\
+			\hline
+			FD10D & $80^b$ & 2.5 & 1 \\
+			G12183-010k & $77^b$ & 2.5 & 1\\
+			G12183-005k & $77^b$ & 2.5 & 0.5\\
+			IG26x500S4i & $86^c$ & 2.5& 0.5\\
+			IG24x500S4i & $84^c$ & 2.4& 0.5\\
+			G12182-005k & $84^d$ & 2.1& 0.5\\
+			G12182-010k & $84^d$ & 2.1& 1.0\\
+			\hline
+		\end{tabular}
+	\end{center}	
+\footnotesize{$^a\,\lambda_{\rm{EM}}\,\text{for}\,\eta = 50\%\quad^b\,\lambda_{\rm{EM}} = 1.9\si{\micro\metre}\quad^c\,\lambda_{\rm{EM}} = 2.0\si{\micro\metre}\quad^d\,\lambda_{\rm{EM}} = 1.6\si{\micro\metre}  $}
+\caption{Photodiodes tested}
+\label{tab:pd_chapter_photodiodes_tested}
+\end{table}
 \section{What is Needed from the Read-out Photodiode in a Gravitational Wave detector}
 The photodiodes used in the readout of a gravitational wave interferometer should have a quantum efficiency of more than 99\%. The reason for having such a high quantum efficiency requirement is that to achieve the baseline level of $\sim$10\,dB of squeezed light that future gravitational wave detectors will use, losses in the interferometer have to be extremely low as losses degrade the amount of squeezing achieved.
 \paragraph{}
@@ -213,7 +233,7 @@ A reverse bias was applied to the device. This generated $1/f$ noise.... Full da
 	\label{fig:pdchapterinsbbiased}
 \end{figure}
 \section{Discussion}
-None of the photodiodes tested have the quantum efficiency required for third generation gravitational wave detectors.
+
 \paragraph{}
 Section \ref{sec:pd_chapter_reverse_bias_qe} shows the effect that biasing an extended InGaAs photodiode can have on its quantum efficiency. The quantum efficiency of the FD10D was increased by $15\%$ when its bias was set to its maximum value. This motivates using increasing the bias of a photodiode as the quantum efficiency can be greatly increased.
 \section{Conclusion}
