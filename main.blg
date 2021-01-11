@@ -8,45 +8,45 @@ Warning--empty year in Reitze2019
 Warning--empty journal in Hall2020
 Warning--empty journal in Schroeter2007
 Warning--empty year in Schroeter2007
-You've used 43 entries,
+You've used 46 entries,
             1791 wiz_defined-function locations,
-            735 strings with 14868 characters,
-and the built_in function-call counts, 12517 in all, are:
-= -- 761
-> -- 1232
+            752 strings with 17202 characters,
+and the built_in function-call counts, 14932 in all, are:
+= -- 814
+> -- 1672
 < -- 0
-+ -- 428
-- -- 385
-* -- 1234
-:= -- 2276
-add.period$ -- 131
-call.type$ -- 43
-change.case$ -- 35
++ -- 576
+- -- 530
+* -- 1558
+:= -- 2787
+add.period$ -- 139
+call.type$ -- 46
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 373
-empty$ -- 922
-format.name$ -- 385
-if$ -- 2500
+cite$ -- 51
+duplicate$ -- 396
+empty$ -- 989
+format.name$ -- 530
+if$ -- 2912
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 40
-newline$ -- 216
-num.names$ -- 45
-pop$ -- 125
+int.to.str$ -- 46
+missing$ -- 42
+newline$ -- 230
+num.names$ -- 48
+pop$ -- 132
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 130
+skip$ -- 142
 stack$ -- 0
-substring$ -- 535
-swap$ -- 43
+substring$ -- 584
+swap$ -- 46
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 81
-width$ -- 45
-write$ -- 455
+while$ -- 87
+width$ -- 48
+write$ -- 484
 (There were 5 warnings)
