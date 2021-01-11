@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  11 JAN 2021 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  11 JAN 2021 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1311,7 +1311,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 63.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count307
-<Figures/GlaLogo.pdf, id=112, pagebox=cropbox, 1487.5575pt x 544.0325pt>
+<Figures/GlaLogo.pdf, id=68, pagebox=cropbox, 1487.5575pt x 544.0325pt>
 File: Figures/GlaLogo.pdf Graphic file (type pdf)
 <use Figures/GlaLogo.pdf>
 Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 65. on input l
@@ -1346,10 +1346,6 @@ LaTeX Warning: Reference `chapter:BHD_for_ligo_1' on page 4 undefined on input
 line 73.
 
 
-LaTeX Warning: Reference `chapter:BHD_for_ligo_2' on page 4 undefined on input 
-line 74.
-
-
 LaTeX Warning: Reference `chapter:simulation_finesse' on page 4 undefined on in
 put line 75.
 
@@ -1357,1013 +1353,371 @@ put line 75.
 LaTeX Warning: Reference `chapter:in_vac_MZ' on page 4 undefined on input line 
 76.
 
+
+LaTeX Warning: Reference `chapter:2um_photoiode_chapter' on page 4 undefined on
+ input line 77.
+
+
+LaTeX Warning: Reference `chapter:Conclusion' on page 4 undefined on input line
+ 78.
+
 [4
 
 ]
 Chapter 1.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 106.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 106.
-
-(./Chapters/extended_ingaas.tex [5
-
-]
-Underfull \vbox (badness 1881) has occurred while \output is active []
-
- [6]
-[7] [8]
-Underfull \vbox (badness 6775) has occurred while \output is active []
-
- [9]
-Underfull \vbox (badness 1924) has occurred while \output is active []
-
- [10]
-[11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\T1/cmr/m/n/12 Peak quan-tum
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\T1/cmr/m/n/12 Cut-off
- []
-
-
-Underfull \vbox (badness 5563) has occurred while \output is active []
-
- [14]
+(./Chapters/BHD_for_ligo_chapter_2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
-Package epstopdf Info: Source file: <Figures/PD_chapter_shot_noise_test_set_up.
-eps>
-(epstopdf)                    date: 2021-01-11 10:54:48
-(epstopdf)                    size: 144068 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_shot_noise_test_set_up-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-11 12:03:45
-(epstopdf)                    size: 60980 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_shot_no
-ise_test_set_up-eps-converted-to.pdf Figures/PD_chapter_shot_noise_test_set_up.
-eps>
-(epstopdf)             \includegraphics on input line 99.
+ [5
+
+]
+[6]
+<Figures/BHD_for_ligo_chapter_5f_21.png, id=151, 648.92438pt x 592.46344pt>
+File: Figures/BHD_for_ligo_chapter_5f_21.png Graphic file (type png)
+<use Figures/BHD_for_ligo_chapter_5f_21.png>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_5f_21.png  used on input 
+line 15. on input line 15.
+Package pdftex.def Info: Requested size: 426.79135pt x 389.662pt on input line 
+15.
+Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_Beamshape.eps
+>
+(epstopdf)                    date: 2021-01-11 16:20:00
+(epstopdf)                    size: 55878 bytes
+(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_Beamshape-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2021-01-11 16:20:55
+(epstopdf)                    size: 21024 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
+er_Beamshape-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_Beamshape.eps>
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf, id=378, pagebo
-x=cropbox, 442.65375pt x 207.77625pt>
-File: Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_shot_noise_test_set_up-eps-converte
-d-to.pdf  used on input line 99. on input line 99.
-Package pdftex.def Info: Requested size: 426.79135pt x 200.34111pt on input lin
-e 99.
+<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=152, pagebox=c
+ropbox, 433.62pt x 361.35pt>
+File: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-t
+o.pdf  used on input line 58. on input line 58.
+Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
+e 58.
+Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_lens_choice.e
+ps>
+(epstopdf)                    date: 2021-01-11 16:20:00
+(epstopdf)                    size: 44327 bytes
+(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_lens_choice-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-11 16:20:57
+(epstopdf)                    size: 18752 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
+er_lens_choice-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_lens_choice.ep
+s>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=153, pagebox
+=cropbox, 433.62pt x 361.35pt>
+File: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted
+-to.pdf  used on input line 64. on input line 64.
+Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
+e 64.
+Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_astigmatism.e
+ps>
+(epstopdf)                    date: 2021-01-11 16:19:57
+(epstopdf)                    size: 26649 bytes
+(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_astigmatism-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-11 16:20:59
+(epstopdf)                    size: 14258 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
+er_astigmatism-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_astigmatism.ep
+s>
+(epstopdf)             \includegraphics on input line 70.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=154, pagebox
+=cropbox, 433.62pt x 252.945pt>
+File: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted
+-to.pdf  used on input line 70. on input line 70.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 70.
+ [7] [8 <./Figures/BHD_for_ligo_chapter_5f_21.png>] [9] [10 <./Figures/BHD_for_
+ligo_chapter_Beamshape-eps-converted-to.pdf>] [11 <./Figures/BHD_for_ligo_chapt
+er_lens_choice-eps-converted-to.pdf>] [12 <./Figures/BHD_for_ligo_chapter_astig
+matism-eps-converted-to.pdf>]
+Overfull \hbox (6.34218pt too wide) in paragraph at lines 75--75
+[]\T1/cmr/bx/n/17.28 The Re-quire-ments for the Op-ti-cal Lay-out Within
+ []
 
-[16]
 
-LaTeX Warning: Reference `' on page 17 undefined on input line 104.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13
+
+]
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
+ [14]
+
+LaTeX Warning: Citation `Barsotti2010' on page 15 undefined on input line 97.
+
+
+LaTeX Warning: Reference `bhdforligochapterlayout5f' on page 15 undefined on in
+put line 97.
 
 
 Underfull \vbox (badness 3942) has occurred while \output is active []
 
- [17]
-[18 <./Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/PD_chapter_FD10D_QE_as_fn_of_bias.
-eps>
-(epstopdf)                    date: 2020-12-10 13:04:29
-(epstopdf)                    size: 42282 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_FD10D_QE_as_fn_of_bias-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-10 13:06:10
-(epstopdf)                    size: 16810 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_FD10D_Q
-E_as_fn_of_bias-eps-converted-to.pdf Figures/PD_chapter_FD10D_QE_as_fn_of_bias.
-eps>
-(epstopdf)             \includegraphics on input line 120.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_FD10D_QE_as_fn_of_bias-eps-converted-to.pdf, id=511, pagebo
-x=cropbox, 412.54124pt x 298.11375pt>
-File: Figures/PD_chapter_FD10D_QE_as_fn_of_bias-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use Figures/PD_chapter_FD10D_QE_as_fn_of_bias-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_FD10D_QE_as_fn_of_bias-eps-converte
-d-to.pdf  used on input line 120. on input line 120.
-Package pdftex.def Info: Requested size: 384.1096pt x 277.57043pt on input line
- 120.
+ [15]
 
-[19]
-Package epstopdf Info: Source file: <Figures/PD_chapter_fd10d_noise_test.eps>
-(epstopdf)                    date: 2020-12-10 17:03:36
-(epstopdf)                    size: 77122 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_fd10d_noise_test-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2020-12-10 17:04:36
-(epstopdf)                    size: 24032 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_fd10d_n
-oise_test-eps-converted-to.pdf Figures/PD_chapter_fd10d_noise_test.eps>
-(epstopdf)             \includegraphics on input line 130.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_fd10d_noise_test-eps-converted-to.pdf, id=525, pagebox=crop
-box, 429.605pt x 295.1025pt>
-File: Figures/PD_chapter_fd10d_noise_test-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/PD_chapter_fd10d_noise_test-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_fd10d_noise_test-eps-converted-to.p
-df  used on input line 130. on input line 130.
-Package pdftex.def Info: Requested size: 426.79135pt x 293.17451pt on input lin
-e 130.
-Package epstopdf Info: Source file: <Figures/PD_chapter_fd10d_AC_DC.eps>
-(epstopdf)                    date: 2020-12-10 17:18:52
-(epstopdf)                    size: 17095 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_fd10d_AC_DC-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2020-12-10 17:21:00
-(epstopdf)                    size: 6837 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_fd10d_A
-C_DC-eps-converted-to.pdf Figures/PD_chapter_fd10d_AC_DC.eps>
-(epstopdf)             \includegraphics on input line 136.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf, id=528, pagebox=cropbox, 
-432.61626pt x 224.84pt>
-File: Figures/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf Graphic file (type pd
-f)
-<use Figures/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf  u
-sed on input line 136. on input line 136.
-Package pdftex.def Info: Requested size: 426.79135pt x 221.82036pt on input lin
-e 136.
- [20] [21 <./Figures/PD_chapter_FD10D_QE_as_fn_of_bias-eps-converted-to.pdf>] [
-22 <./Figures/PD_chapter_fd10d_noise_test-eps-converted-to.pdf>] [23 <./Figures
-/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf>]
-Overfull \hbox (20.31888pt too wide) in paragraph at lines 141--141
-[]\T1/cmr/bx/n/17.28 Dark Cur-rent and Dark Noise in Ex-tendedInGaAs
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 16 undefined on i
+nput line 101.
+
+
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 16 undefined on i
+nput line 101.
+
+
+LaTeX Warning: Reference `fig:sim_chapter_beam_parameter_at_SRM' on page 16 und
+efined on input line 101.
+
+[16] [17]
+Overfull \hbox (3.40729pt too wide) in paragraph at lines 130--130
+[]\T1/cmr/bx/n/14.4 A De-scrip-tion of Mode-Matching in Terms of HG Modes 
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 1.95827pt
-(hyperref)                removed on input line 141.
-
-
-LaTeX Warning: Reference `pd_chapter_grav_wave_ifo_requirments' on page 24 unde
-fined on input line 145.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24
-
-]
-Package epstopdf Info: Source file: <Figures/PD_chapter_FD10D_dark_noise.eps>
-(epstopdf)                    date: 2020-12-14 11:57:29
-(epstopdf)                    size: 244965 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_FD10D_dark_noise-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2020-12-14 12:39:17
-(epstopdf)                    size: 74058 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_FD10D_d
-ark_noise-eps-converted-to.pdf Figures/PD_chapter_FD10D_dark_noise.eps>
-(epstopdf)             \includegraphics on input line 162.
+[18] [19] [20] [21]
+Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_WS_sketch.eps
+>
+(epstopdf)                    date: 2020-09-18 14:30:09
+(epstopdf)                    size: 106847 bytes
+(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_WS_sketch-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-09-18 14:30:20
+(epstopdf)                    size: 27048 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
+er_WS_sketch-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_WS_sketch.eps>
+(epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf, id=581, pagebox=crop
-box, 515.9275pt x 272.01625pt>
-File: Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.p
-df  used on input line 162. on input line 162.
-Package pdftex.def Info: Requested size: 426.79135pt x 225.0263pt on input line
- 162.
-Package epstopdf Info: Source file: <Figures/PD_chapter_dark_current_mega_plot.
-eps>
-(epstopdf)                    date: 2020-12-16 13:50:30
-(epstopdf)                    size: 55924 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_dark_current_mega_plot-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 13:51:23
-(epstopdf)                    size: 14432 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_dark_cu
-rrent_mega_plot-eps-converted-to.pdf Figures/PD_chapter_dark_current_mega_plot.
-eps>
-(epstopdf)             \includegraphics on input line 168.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf, id=588, pagebo
-x=cropbox, 540.0175pt x 432.61626pt>
-File: Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_dark_current_mega_plot-eps-converte
-d-to.pdf  used on input line 168. on input line 168.
-Package pdftex.def Info: Requested size: 426.79135pt x 341.91493pt on input lin
-e 168.
-Package epstopdf Info: Source file: <Figures/PD_chapter_g12182-010k_noise_compa
-re.eps>
-(epstopdf)                    date: 2020-12-14 15:49:32
-(epstopdf)                    size: 63346 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_g12182-010k_noise_compa
-re-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 15:52:17
-(epstopdf)                    size: 18301 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_g12182-
-010k_noise_compare-eps-converted-to.pdf Figures/PD_chapter_g12182-010k_noise_co
-mpare.eps>
-(epstopdf)             \includegraphics on input line 174.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf, id=589, pag
-ebox=cropbox, 428.60126pt x 258.9675pt>
-File: Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf Graphic
- file (type pdf)
-<use Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_g12182-010k_noise_compare-eps-conve
-rted-to.pdf  used on input line 174. on input line 174.
-Package pdftex.def Info: Requested size: 426.79135pt x 257.87622pt on input lin
-e 174.
-
-[25] [26 <./Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf>] [27 <./F
-igures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf>] [28 <./Figures/
-PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/PD_chapter_cooling_apparatus_photo
-s.eps>
-(epstopdf)                    date: 2020-12-15 12:00:23
-(epstopdf)                    size: 2026189 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_cooling_apparatus_photo
-s-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-15 12:00:59
-(epstopdf)                    size: 88899 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_cooling
-_apparatus_photos-eps-converted-to.pdf Figures/PD_chapter_cooling_apparatus_pho
-tos.eps>
-(epstopdf)             \includegraphics on input line 187.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_cooling_apparatus_photos-eps-converted-to.pdf, id=631, page
-box=cropbox, 142.5325pt x 66.2475pt>
-File: Figures/PD_chapter_cooling_apparatus_photos-eps-converted-to.pdf Graphic 
-file (type pdf)
-<use Figures/PD_chapter_cooling_apparatus_photos-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_cooling_apparatus_photos-eps-conver
-ted-to.pdf  used on input line 187. on input line 187.
-Package pdftex.def Info: Requested size: 298.75264pt x 138.85696pt on input lin
-e 187.
-Package epstopdf Info: Source file: <Figures/PD_chapter_dark_current_termperatu
-re_all_diodes.eps>
-(epstopdf)                    date: 2021-01-02 11:14:26
-(epstopdf)                    size: 69847 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_dark_current_termperatu
-re_all_diodes-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-02 13:57:52
-(epstopdf)                    size: 18594 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_dark_cu
-rrent_termperature_all_diodes-eps-converted-to.pdf Figures/PD_chapter_dark_curr
-ent_termperature_all_diodes.eps>
-(epstopdf)             \includegraphics on input line 193.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_dark_current_termperature_all_diodes-eps-converted-to.pdf, 
-id=632, pagebox=cropbox, 547.04375pt x 432.61626pt>
-File: Figures/PD_chapter_dark_current_termperature_all_diodes-eps-converted-to.
-pdf Graphic file (type pdf)
-<use Figures/PD_chapter_dark_current_termperature_all_diodes-eps-converted-to.p
-df>
-Package pdftex.def Info: Figures/PD_chapter_dark_current_termperature_all_diode
-s-eps-converted-to.pdf  used on input line 193. on input line 193.
-Package pdftex.def Info: Requested size: 426.79135pt x 337.51854pt on input lin
-e 193.
-
-
-LaTeX Warning: Float too large for page by 19.96063pt on input line 196.
-
-[29
-
-]
-Package epstopdf Info: Source file: <Figures/PD_chapter_laser_components_ratio.
-eps>
-(epstopdf)                    date: 2020-12-11 15:16:23
-(epstopdf)                    size: 18833 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_laser_components_ratio-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-11 15:17:31
-(epstopdf)                    size: 8177 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_laser_c
-omponents_ratio-eps-converted-to.pdf Figures/PD_chapter_laser_components_ratio.
-eps>
-(epstopdf)             \includegraphics on input line 202.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_laser_components_ratio-eps-converted-to.pdf, id=645, pagebo
-x=cropbox, 418.56375pt x 224.84pt>
-File: Figures/PD_chapter_laser_components_ratio-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use Figures/PD_chapter_laser_components_ratio-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_laser_components_ratio-eps-converte
-d-to.pdf  used on input line 202. on input line 202.
-Package pdftex.def Info: Requested size: 426.79135pt x 229.25829pt on input lin
-e 202.
- [30 <./Figures/PD_chapter_cooling_apparatus_photos-eps-converted-to.pdf>]
-[31 <./Figures/PD_chapter_dark_current_termperature_all_diodes-eps-converted-to
-.pdf>] [32 <./Figures/PD_chapter_laser_components_ratio-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/pd_chapter_shot_noise_problem_ig24
-.eps>
-(epstopdf)                    date: 2020-12-22 14:51:45
-(epstopdf)                    size: 43855 bytes
-(epstopdf)             Output file: <Figures/pd_chapter_shot_noise_problem_ig24
--eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-22 14:58:17
-(epstopdf)                    size: 13870 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/pd_chapter_shot_no
-ise_problem_ig24-eps-converted-to.pdf Figures/pd_chapter_shot_noise_problem_ig2
-4.eps>
-(epstopdf)             \includegraphics on input line 212.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/pd_chapter_shot_noise_problem_ig24-eps-converted-to.pdf, id=685, pageb
-ox=cropbox, 490.83376pt x 263.98625pt>
-File: Figures/pd_chapter_shot_noise_problem_ig24-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use Figures/pd_chapter_shot_noise_problem_ig24-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/pd_chapter_shot_noise_problem_ig24-eps-convert
-ed-to.pdf  used on input line 212. on input line 212.
-Package pdftex.def Info: Requested size: 426.79135pt x 229.54936pt on input lin
-e 212.
-Package epstopdf Info: Source file: <Figures/pd_chapter_noise_projection.eps>
-(epstopdf)                    date: 2020-12-22 15:45:10
-(epstopdf)                    size: 129847 bytes
-(epstopdf)             Output file: <Figures/pd_chapter_noise_projection-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2020-12-22 15:47:00
-(epstopdf)                    size: 34275 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/pd_chapter_noise_p
-rojection-eps-converted-to.pdf Figures/pd_chapter_noise_projection.eps>
-(epstopdf)             \includegraphics on input line 218.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/pd_chapter_noise_projection-eps-converted-to.pdf, id=688, pagebox=crop
-box, 556.0775pt x 279.0425pt>
-File: Figures/pd_chapter_noise_projection-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/pd_chapter_noise_projection-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/pd_chapter_noise_projection-eps-converted-to.p
-df  used on input line 218. on input line 218.
-Package pdftex.def Info: Requested size: 426.79135pt x 214.16934pt on input lin
-e 218.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 228.
-
-
-(c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package epstopdf Info: Source file: <Figures/PD_chapter_forward_bias_IV.eps>
-(epstopdf)                    date: 2020-12-14 17:51:22
-(epstopdf)                    size: 32666 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_forward_bias_IV-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:53:12
-(epstopdf)                    size: 18703 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_forward
-_bias_IV-eps-converted-to.pdf Figures/PD_chapter_forward_bias_IV.eps>
-(epstopdf)             \includegraphics on input line 231.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_forward_bias_IV-eps-converted-to.pdf, id=696, pagebox=cropb
-ox, 433.62pt x 252.945pt>
-File: Figures/PD_chapter_forward_bias_IV-eps-converted-to.pdf Graphic file (typ
-e pdf)
-<use Figures/PD_chapter_forward_bias_IV-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_forward_bias_IV-eps-converted-to.pd
-f  used on input line 231. on input line 231.
+<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=425, pagebox=c
+ropbox, 195.73125pt x 95.35625pt>
+File: Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-t
+o.pdf  used on input line 165. on input line 165.
+Package pdftex.def Info: Requested size: 405.45047pt x 197.53894pt on input lin
+e 165.
+ [22]
+<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png, id=431, 433.62pt 
+x 252.945pt>
+File: Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png Graphic file 
+(type png)
+<use Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_plane
+s.png  used on input line 172. on input line 172.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
-e 231.
-Package epstopdf Info: Source file: <Figures/pd_chapter_forward_bias_model_with
-_light.eps>
-(epstopdf)                    date: 2020-12-22 16:23:05
-(epstopdf)                    size: 34093 bytes
-(epstopdf)             Output file: <Figures/pd_chapter_forward_bias_model_with
-_light-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-22 16:23:49
-(epstopdf)                    size: 9776 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/pd_chapter_forward
-_bias_model_with_light-eps-converted-to.pdf Figures/pd_chapter_forward_bias_mod
-el_with_light.eps>
-(epstopdf)             \includegraphics on input line 237.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/pd_chapter_forward_bias_model_with_light-eps-converted-to.pdf, id=699,
- pagebox=cropbox, 482.80376pt x 263.98625pt>
-File: Figures/pd_chapter_forward_bias_model_with_light-eps-converted-to.pdf Gra
-phic file (type pdf)
-<use Figures/pd_chapter_forward_bias_model_with_light-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/pd_chapter_forward_bias_model_with_light-eps-c
-onverted-to.pdf  used on input line 237. on input line 237.
-Package pdftex.def Info: Requested size: 426.79135pt x 233.368pt on input line 
-237.
+e 172.
+<Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf
+, id=433, pagebox=cropbox, 433.62pt x 252.945pt>
+File: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_succes
+s.pdf Graphic file (type pdf)
+<use Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success
+.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_m
+ode_matching_success.pdf  used on input line 178. on input line 178.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 178.
 
-Underfull \vbox (badness 2229) has occurred while \output is active []
 
- [33]
-[34 <./Figures/pd_chapter_shot_noise_problem_ig24-eps-converted-to.pdf>]
-[35 <./Figures/pd_chapter_noise_projection-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/PD_chapter_P5968_noise.eps>
-(epstopdf)                    date: 2020-12-22 17:12:31
-(epstopdf)                    size: 128623 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_P5968_noise-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2020-12-22 17:31:36
-(epstopdf)                    size: 37909 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_P5968_n
-oise-eps-converted-to.pdf Figures/PD_chapter_P5968_noise.eps>
-(epstopdf)             \includegraphics on input line 249.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_P5968_noise-eps-converted-to.pdf, id=736, pagebox=cropbox, 
-497.86pt x 257.96375pt>
-File: Figures/PD_chapter_P5968_noise-eps-converted-to.pdf Graphic file (type pd
-f)
-<use Figures/PD_chapter_P5968_noise-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_P5968_noise-eps-converted-to.pdf  u
-sed on input line 249. on input line 249.
-Package pdftex.def Info: Requested size: 426.79135pt x 221.14384pt on input lin
-e 249.
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 23 undefined on i
+nput line 179.
 
-Underfull \vbox (badness 2221) has occurred while \output is active []
 
- [36]
-[37 <./Figures/PD_chapter_forward_bias_IV-eps-converted-to.pdf>] [38 <./Figures
-/pd_chapter_forward_bias_model_with_light-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/PD_chapter_insb_biased.eps>
-(epstopdf)                    date: 2020-12-28 11:21:07
-(epstopdf)                    size: 36739 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_insb_biased-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2020-12-28 11:37:55
-(epstopdf)                    size: 12533 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_insb_bi
-ased-eps-converted-to.pdf Figures/PD_chapter_insb_biased.eps>
-(epstopdf)             \includegraphics on input line 257.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_insb_biased-eps-converted-to.pdf, id=799, pagebox=cropbox, 
-525.965pt x 260.975pt>
-File: Figures/PD_chapter_insb_biased-eps-converted-to.pdf Graphic file (type pd
-f)
-<use Figures/PD_chapter_insb_biased-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_insb_biased-eps-converted-to.pdf  u
-sed on input line 257. on input line 257.
-Package pdftex.def Info: Requested size: 426.79135pt x 211.77486pt on input lin
-e 257.
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 23 undefined on i
+nput line 179.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./Figures/PD_chapter_P5968_noise-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 23 undefined on i
+nput line 183.
 
- [40 <./Figures/PD_chapter_insb_biased-eps-converted-to.pdf>] [41] [42] [43] [4
-4])
-[45]
+[23] [24 <./Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>]
+[25 <./Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png>] [26 <./Fig
+ures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf>]
+
+LaTeX Warning: Reference `fig:beamsizesimulated' on page 27 undefined on input 
+line 191.
+
+
+LaTeX Warning: Reference `fig:beamrocsimulated' on page 27 undefined on input l
+ine 191.
+
+<Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf, id=521, pagebox=cro
+pbox, 433.62pt x 252.945pt>
+File: Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf Graphic file (t
+ype pdf)
+<use Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.
+pdf  used on input line 198. on input line 198.
+Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
+e 198.
+
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 27 undefined on i
+nput line 199.
+
+
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 27 undefined on i
+nput line 199.
+
+[27]) [28] [29 <./Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf>]
 Appendix A.
-(./Chapters/appendix_cooled_diodes_dark_noise.tex
-Package epstopdf Info: Source file: <Figures/PD_appendix_ig24_dark_noise_rt.eps
->
-(epstopdf)                    date: 2020-12-16 14:29:21
-(epstopdf)                    size: 113580 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_ig24_dark_noise_rt-eps
--converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 14:30:09
-(epstopdf)                    size: 31674 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_ig24_d
-ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig24_dark_noise_rt.eps>
-(epstopdf)             \includegraphics on input line 6.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf, id=874, pagebox=c
-ropbox, 497.86pt x 258.9675pt>
-File: Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-t
-o.pdf  used on input line 6. on input line 6.
-Package pdftex.def Info: Requested size: 426.79135pt x 222.00432pt on input lin
-e 6.
-Package epstopdf Info: Source file: <Figures/PD_appendix_ig26_dark_noise_rt.eps
->
-(epstopdf)                    date: 2020-12-16 14:29:00
-(epstopdf)                    size: 113308 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_ig26_dark_noise_rt-eps
--converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 14:30:12
-(epstopdf)                    size: 32170 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_ig26_d
-ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig26_dark_noise_rt.eps>
-(epstopdf)             \includegraphics on input line 12.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf, id=875, pagebox=c
-ropbox, 497.86pt x 263.98625pt>
-File: Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-t
-o.pdf  used on input line 12. on input line 12.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
-e 12.
-Package epstopdf Info: Source file: <Figures/PD_appendix_ig22_dark_noise_rt.eps
->
-(epstopdf)                    date: 2020-12-16 14:43:20
-(epstopdf)                    size: 144533 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_ig22_dark_noise_rt-eps
--converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 14:43:57
-(epstopdf)                    size: 42761 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_ig22_d
-ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig22_dark_noise_rt.eps>
-(epstopdf)             \includegraphics on input line 18.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf, id=876, pagebox=c
-ropbox, 497.86pt x 263.98625pt>
-File: Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-t
-o.pdf  used on input line 18. on input line 18.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
-e 18.
-Package epstopdf Info: Source file: <Figures/PD_appendix_g12183-010k_dark_noise
-_rt.eps>
-(epstopdf)                    date: 2020-12-16 15:42:19
-(epstopdf)                    size: 122469 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_g12183-010k_dark_noise
-_rt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 15:43:54
-(epstopdf)                    size: 34866 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12183
--010k_dark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_g12183-010k_dark_n
-oise_rt.eps>
-(epstopdf)             \includegraphics on input line 24.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf, id=877, pa
-gebox=cropbox, 497.86pt x 257.96375pt>
-File: Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf Graphi
-c file (type pdf)
-<use Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-conv
-erted-to.pdf  used on input line 24. on input line 24.
-Package pdftex.def Info: Requested size: 426.79135pt x 221.14384pt on input lin
-e 24.
-Package epstopdf Info: Source file: <Figures/PD_appendix_g12183-005k_dark_noise
-_rt.eps>
-(epstopdf)                    date: 2020-12-16 15:46:31
-(epstopdf)                    size: 136671 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_g12183-005k_dark_noise
-_rt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 15:48:19
-(epstopdf)                    size: 37854 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12183
--005k_dark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_g12183-005k_dark_n
-oise_rt.eps>
-(epstopdf)             \includegraphics on input line 30.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf, id=878, pa
-gebox=cropbox, 497.86pt x 263.98625pt>
-File: Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf Graphi
-c file (type pdf)
-<use Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-conv
-erted-to.pdf  used on input line 30. on input line 30.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
-e 30.
-Package epstopdf Info: Source file: <Figures/PD_appendix_g12182-010k_dark_noise
-_rt.eps>
-(epstopdf)                    date: 2020-12-16 15:53:50
-(epstopdf)                    size: 135099 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_g12182-010k_dark_noise
-_rt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 16:01:01
-(epstopdf)                    size: 37051 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12182
--010k_dark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_g12182-010k_dark_n
-oise_rt.eps>
-(epstopdf)             \includegraphics on input line 36.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf, id=879, pa
-gebox=cropbox, 497.86pt x 263.98625pt>
-File: Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf Graphi
-c file (type pdf)
-<use Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-conv
-erted-to.pdf  used on input line 36. on input line 36.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
-e 36.
-Package epstopdf Info: Source file: <Figures/PD_appendix_g12182-005k_dark_noise
-_rt.eps>
-(epstopdf)                    date: 2020-12-16 15:59:53
-(epstopdf)                    size: 124011 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_g12182-005k_dark_noise
-_rt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 16:01:04
-(epstopdf)                    size: 37945 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12182
--005k_dark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_g12182-005k_dark_n
-oise_rt.eps>
-(epstopdf)             \includegraphics on input line 42.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf, id=880, pa
-gebox=cropbox, 497.86pt x 263.98625pt>
-File: Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf Graphi
-c file (type pdf)
-<use Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-conv
-erted-to.pdf  used on input line 42. on input line 42.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
-e 42.
- [46
+(./Chapters/appendix_mode_matching_algorithm_3_optics.tex
+Underfull \vbox (badness 1242) has occurred while \output is active []
 
-] [47 <./Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf> <./Figure
-s/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf>] [48 <./Figures/PD_appen
-dix_ig22_dark_noise_rt-eps-converted-to.pdf> <./Figures/PD_appendix_g12183-010k
-_dark_noise_rt-eps-converted-to.pdf>] [49 <./Figures/PD_appendix_g12183-005k_da
-rk_noise_rt-eps-converted-to.pdf> <./Figures/PD_appendix_g12182-010k_dark_noise
-_rt-eps-converted-to.pdf>] [50 <./Figures/PD_appendix_g12182-005k_dark_noise_rt
--eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/PD_appendix_FD10D_temperature_nois
-e_current.eps>
-(epstopdf)                    date: 2020-12-14 17:06:22
-(epstopdf)                    size: 145475 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_FD10D_temperature_nois
-e_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:06:45
-(epstopdf)                    size: 44483 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_FD10D_
-temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_FD10D_temper
-ature_noise_current.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf, id=9
-44, pagebox=cropbox, 497.86pt x 263.98625pt>
-File: Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf 
-Graphic file (type pdf)
-<use Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_FD10D_temperature_noise_current-ep
-s-converted-to.pdf  used on input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
-e 52.
-Package epstopdf Info: Source file: <Figures/PD_appendix_g12183010k_temperature
-_noise_current.eps>
-(epstopdf)                    date: 2020-12-14 17:12:13
-(epstopdf)                    size: 163463 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_g12183010k_temperature
-_noise_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:15:27
-(epstopdf)                    size: 51928 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12183
-010k_temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_g121830
-10k_temperature_noise_current.eps>
-(epstopdf)             \includegraphics on input line 58.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to.pdf,
- id=945, pagebox=cropbox, 489.83pt x 263.98625pt>
-File: Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to
-.pdf Graphic file (type pdf)
-<use Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to.
-pdf>
-Package pdftex.def Info: Figures/PD_appendix_g12183010k_temperature_noise_curre
-nt-eps-converted-to.pdf  used on input line 58. on input line 58.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
-e 58.
-Package epstopdf Info: Source file: <Figures/PD_appendix_g12183005k_temperature
-_noise_current.eps>
-(epstopdf)                    date: 2020-12-14 17:16:16
-(epstopdf)                    size: 150855 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_g12183005k_temperature
-_noise_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:16:42
-(epstopdf)                    size: 45565 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12183
-005k_temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_g121830
-05k_temperature_noise_current.eps>
-(epstopdf)             \includegraphics on input line 64.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to.pdf,
- id=946, pagebox=cropbox, 489.83pt x 263.98625pt>
-File: Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to
-.pdf Graphic file (type pdf)
-<use Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to.
-pdf>
-Package pdftex.def Info: Figures/PD_appendix_g12183005k_temperature_noise_curre
-nt-eps-converted-to.pdf  used on input line 64. on input line 64.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
-e 64.
-Package epstopdf Info: Source file: <Figures/PD_appendix_g12182010k_temperature
-_noise_current.eps>
-(epstopdf)                    date: 2020-12-14 17:24:11
-(epstopdf)                    size: 183669 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_g12182010k_temperature
-_noise_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:25:43
-(epstopdf)                    size: 56092 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12182
-010k_temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_g121820
-10k_temperature_noise_current.eps>
-(epstopdf)             \includegraphics on input line 70.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to.pdf,
- id=947, pagebox=cropbox, 489.83pt x 263.98625pt>
-File: Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to
-.pdf Graphic file (type pdf)
-<use Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to.
-pdf>
-Package pdftex.def Info: Figures/PD_appendix_g12182010k_temperature_noise_curre
-nt-eps-converted-to.pdf  used on input line 70. on input line 70.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
-e 70.
-Package epstopdf Info: Source file: <Figures/PD_appendix_g12182005k_temperature
-_noise_current.eps>
-(epstopdf)                    date: 2020-12-14 17:29:07
-(epstopdf)                    size: 165414 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_g12182005k_temperature
-_noise_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:29:35
-(epstopdf)                    size: 52218 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12182
-005k_temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_g121820
-05k_temperature_noise_current.eps>
-(epstopdf)             \includegraphics on input line 76.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to.pdf,
- id=948, pagebox=cropbox, 489.83pt x 257.96375pt>
-File: Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to
-.pdf Graphic file (type pdf)
-<use Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to.
-pdf>
-Package pdftex.def Info: Figures/PD_appendix_g12182005k_temperature_noise_curre
-nt-eps-converted-to.pdf  used on input line 76. on input line 76.
-Package pdftex.def Info: Requested size: 426.79135pt x 224.76909pt on input lin
-e 76.
-Package epstopdf Info: Source file: <Figures/PD_appendix_IG24_temperature_noise
-_current.eps>
-(epstopdf)                    date: 2020-12-14 17:32:32
-(epstopdf)                    size: 165033 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_IG24_temperature_noise
-_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:33:16
-(epstopdf)                    size: 49671 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_IG24_t
-emperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_IG24_temperat
-ure_noise_current.eps>
-(epstopdf)             \includegraphics on input line 82.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf, id=94
-9, pagebox=cropbox, 489.83pt x 263.98625pt>
-File: Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf G
-raphic file (type pdf)
-<use Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_IG24_temperature_noise_current-eps
--converted-to.pdf  used on input line 82. on input line 82.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
-e 82.
-Package epstopdf Info: Source file: <Figures/PD_appendix_IG26_temperature_noise
-_current.eps>
-(epstopdf)                    date: 2020-12-14 17:35:25
-(epstopdf)                    size: 150551 bytes
-(epstopdf)             Output file: <Figures/PD_appendix_IG26_temperature_noise
-_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:36:18
-(epstopdf)                    size: 45172 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_IG26_t
-emperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_IG26_temperat
-ure_noise_current.eps>
-(epstopdf)             \includegraphics on input line 88.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf, id=95
-0, pagebox=cropbox, 489.83pt x 263.98625pt>
-File: Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf G
-raphic file (type pdf)
-<use Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_appendix_IG26_temperature_noise_current-eps
--converted-to.pdf  used on input line 88. on input line 88.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
-e 88.
-Package epstopdf Info: Source file: <Figures/PD_chapter_insb_noise_as_function_
-of_bias.eps>
-(epstopdf)                    date: 2020-12-22 17:28:01
-(epstopdf)                    size: 192116 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_insb_noise_as_function_
-of_bias-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-22 17:31:41
-(epstopdf)                    size: 58528 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_insb_no
-ise_as_function_of_bias-eps-converted-to.pdf Figures/PD_chapter_insb_noise_as_f
-unction_of_bias.eps>
-(epstopdf)             \includegraphics on input line 96.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf, id=951
-, pagebox=cropbox, 489.83pt x 258.9675pt>
-File: Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf Gr
-aphic file (type pdf)
-<use Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_insb_noise_as_function_of_bias-eps-
-converted-to.pdf  used on input line 96. on input line 96.
-Package pdftex.def Info: Requested size: 426.79135pt x 225.64366pt on input lin
-e 96.
-)
-[51
-
- <./Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf>] 
-[52 <./Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-t
-o.pdf> <./Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converte
-d-to.pdf>] [53 <./Figures/PD_appendix_g12182010k_temperature_noise_current-eps-
-converted-to.pdf> <./Figures/PD_appendix_g12182005k_temperature_noise_current-e
-ps-converted-to.pdf>] [54 <./Figures/PD_appendix_IG24_temperature_noise_current
--eps-converted-to.pdf> <./Figures/PD_appendix_IG26_temperature_noise_current-ep
-s-converted-to.pdf>] [55 <./Figures/PD_chapter_insb_noise_as_function_of_bias-e
-ps-converted-to.pdf>]
-Appendix B.
-(./Chapters/appendix_circuits.tex [56
+ [30
 
 ]
-<Figures/Circuit_appendix_dark_noise_test_box_1.png, id=1029, 204.95772pt x 94.
-24008pt>
-File: Figures/Circuit_appendix_dark_noise_test_box_1.png Graphic file (type png
-)
-<use Figures/Circuit_appendix_dark_noise_test_box_1.png>
-Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_1.png  us
-ed on input line 10. on input line 10.
-Package pdftex.def Info: Requested size: 298.75264pt x 137.37941pt on input lin
-e 10.
-<Figures/Circuit_appendix_dark_noise_test_box_2.png, id=1030, 384.7173pt x 180.
-1932pt>
-File: Figures/Circuit_appendix_dark_noise_test_box_2.png Graphic file (type png
-)
-<use Figures/Circuit_appendix_dark_noise_test_box_2.png>
-Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_2.png  us
-ed on input line 16. on input line 16.
-Package pdftex.def Info: Requested size: 426.79135pt x 199.91232pt on input lin
-e 16.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 7.
 
 
-LaTeX Warning: Reference `' on page 57 undefined on input line 21.
+Underfull \vbox (badness 4859) has occurred while \output is active []
 
-<Figures/Circuit_appendix_dark_noise_test_box_3.png, id=1035, 357.88104pt x 114
-.9093pt>
-File: Figures/Circuit_appendix_dark_noise_test_box_3.png Graphic file (type png
-)
-<use Figures/Circuit_appendix_dark_noise_test_box_3.png>
-Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_3.png  us
-ed on input line 24. on input line 24.
-Package pdftex.def Info: Requested size: 426.79135pt x 137.03656pt on input lin
-e 24.
-Package epstopdf Info: Source file: <Figures/PD_chapter_bias_cross_check.eps>
-(epstopdf)                    date: 2020-12-14 13:52:16
-(epstopdf)                    size: 48100 bytes
-(epstopdf)             Output file: <Figures/PD_chapter_bias_cross_check-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2020-12-14 13:53:51
-(epstopdf)                    size: 16207 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_bias_cr
-oss_check-eps-converted-to.pdf Figures/PD_chapter_bias_cross_check.eps>
-(epstopdf)             \includegraphics on input line 30.
+ [31]
+[32]
+Package epstopdf Info: Source file: <Figures/mode_matching_appendix_optical_lay
+outs.eps>
+(epstopdf)                    date: 2020-09-01 16:09:52
+(epstopdf)                    size: 73608 bytes
+(epstopdf)             Output file: <Figures/mode_matching_appendix_optical_lay
+outs-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-01 16:15:05
+(epstopdf)                    size: 24352 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/mode_matching_appe
+ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
+l_layouts.eps>
+(epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf, id=1038, pagebox=cro
-pbox, 428.60126pt x 258.9675pt>
-File: Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PD_chapter_bias_cross_check-eps-converted-to.p
-df  used on input line 30. on input line 30.
-Package pdftex.def Info: Requested size: 426.79135pt x 257.87622pt on input lin
-e 30.
-[57 <./Figures/Circuit_appendix_dark_noise_test_box_1.png (PNG copy)>] [58 <./F
-igures/Circuit_appendix_dark_noise_test_box_2.png (PNG copy)>]
-
-LaTeX Warning: Reference `labcircuitappendixtransimpedanceamplifiertfel' on pag
-e 59 undefined on input line 35.
-
-Package epstopdf Info: Source file: <Figures/Circuit_appendix_transimpedance_am
-plifier_TF.eps>
-(epstopdf)                    date: 2020-12-15 13:29:52
-(epstopdf)                    size: 367901 bytes
-(epstopdf)             Output file: <Figures/Circuit_appendix_transimpedance_am
-plifier_TF-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-15 13:33:36
-(epstopdf)                    size: 95653 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/Circuit_appendix_t
-ransimpedance_amplifier_TF-eps-converted-to.pdf Figures/Circuit_appendix_transi
-mpedance_amplifier_TF.eps>
-(epstopdf)             \includegraphics on input line 38.
+<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=630, p
+agebox=cropbox, 501.875pt x 240.9pt>
+File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
+ic file (type pdf)
+<use Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/mode_matching_appendix_optical_layouts-eps-con
+verted-to.pdf  used on input line 25. on input line 25.
+Package pdftex.def Info: Requested size: 384.1096pt x 184.38345pt on input line
+ 25.
+Package epstopdf Info: Source file: <Figures/mode_matching_appendix_algorithm_s
+ketch.eps>
+(epstopdf)                    date: 2020-09-01 16:11:36
+(epstopdf)                    size: 86827 bytes
+(epstopdf)             Output file: <Figures/mode_matching_appendix_algorithm_s
+ketch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-01 16:15:08
+(epstopdf)                    size: 29595 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/mode_matching_appe
+ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
+ithm_sketch.eps>
+(epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf, id=
-1060, pagebox=cropbox, 420.57124pt x 362.35374pt>
-File: Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf
- Graphic file (type pdf)
-<use Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf>
+<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=633, 
+pagebox=cropbox, 450.68375pt x 253.94875pt>
+File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/mode_matching_appendix_algorithm_sketch-eps-co
+nverted-to.pdf  used on input line 31. on input line 31.
+Package pdftex.def Info: Requested size: 384.1096pt x 216.44644pt on input line
+ 31.
+) [33] [34 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.p
+df>] [35 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pd
+f>]
+Appendix B.
+(./Chapters/appendix_mode_matching_derivation.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package pdftex.def Info: Figures/Circuit_appendix_transimpedance_amplifier_TF-e
-ps-converted-to.pdf  used on input line 38. on input line 38.
-Package pdftex.def Info: Requested size: 426.79135pt x 367.71605pt on input lin
-e 38.
+ [36
 
-Underfull \vbox (badness 1028) has occurred while \output is active []
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59 <./Figures/Circuit_appendix_dark_noise_test_box_3.png (PNG copy)>] [60 <./
-Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/Circuit_appendix_dark_noise_box_no
-ise.eps>
-(epstopdf)                    date: 2020-12-15 12:31:27
-(epstopdf)                    size: 135534 bytes
-(epstopdf)             Output file: <Figures/Circuit_appendix_dark_noise_box_no
-ise-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-15 13:01:25
-(epstopdf)                    size: 42686 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/Circuit_appendix_d
-ark_noise_box_noise-eps-converted-to.pdf Figures/Circuit_appendix_dark_noise_bo
-x_noise.eps>
-(epstopdf)             \includegraphics on input line 46.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf, id=1086, p
-agebox=cropbox, 492.84125pt x 263.98625pt>
-File: Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf Graphi
-c file (type pdf)
-<use Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_box_noise-eps-conv
-erted-to.pdf  used on input line 46. on input line 46.
-Package pdftex.def Info: Requested size: 426.79135pt x 228.61887pt on input lin
-e 46.
-
-Overfull \hbox (16.164pt too wide) in paragraph at lines 50--50
-[]\T1/cmr/bx/n/17.28 Transimpedance Am-pli-fier for Mak-ing Shot Noise
+ [37]
+Overfull \hbox (56.5019pt too wide) detected at line 95
+[]
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 1.95827pt
-(hyperref)                removed on input line 50.
-
-<Figures/PD_chapter_qe_test_circuit.png, id=1094, 346.75146pt x 118.5228pt>
-File: Figures/PD_chapter_qe_test_circuit.png Graphic file (type png)
-<use Figures/PD_chapter_qe_test_circuit.png>
-Package pdftex.def Info: Figures/PD_chapter_qe_test_circuit.png  used on input 
-line 55. on input line 55.
-Package pdftex.def Info: Requested size: 426.79135pt x 145.8798pt on input line
- 55.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-[62 <./Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pd
-f>] [63 <./Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf> 
-<./Figures/PD_chapter_qe_test_circuit.png (PNG copy)>] [64]) (./main.bbl
-[65] [66
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [67]
-Underfull \vbox (badness 4341) has occurred while \output is active []
+ [39])
+(./main.bbl [40]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 26.
+ (c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [41
 
- [68]
-[69] [70] [71] [72] [73])
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
- [74]
+
+[42]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4EEE1E9386C4443652DA006CACF95285;2379.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 8B00D4886BBD6BE9FA9DAEB5EBA22736;1501
+(rerunfilecheck)             After:  D67FE9B0E3A7C4D3F2B8E075C0164D5D;1522.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 21890 strings out of 492990
- 407952 string characters out of 6136333
- 613563 words of memory out of 5000000
- 24887 multiletter control sequences out of 15000+600000
- 566692 words of font info for 124 fonts, out of 8000000 for 9000
+ 21298 strings out of 492990
+ 393804 string characters out of 6136333
+ 548310 words of memory out of 5000000
+ 24437 multiletter control sequences out of 15000+600000
+ 561666 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,17n,45p,10357b,1088s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,15n,61p,10357b,1107s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type
-1/public/cm-super/sfbx2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/c
-m-super/sfcc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
-rm0700.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
-><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texli
-ve/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/f
-onts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-dist/fonts/type1
-/public/cm-super/sfrm2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm
--super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sft
-t1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-<c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb>
-Output written on main.pdf (74 pages, 1964773 bytes).
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist
+/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+cm-super/sfbx2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
+frm0700.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sfrm2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/c
+m-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
+tt1200.pfb>
+Output written on main.pdf (42 pages, 1276078 bytes).
 PDF statistics:
- 1356 PDF objects out of 1440 (max. 8388607)
- 1098 compressed objects within 11 object streams
- 269 named destinations out of 1000 (max. 500000)
- 412 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 915 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
