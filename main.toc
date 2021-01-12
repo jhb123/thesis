@@ -1,58 +1,56 @@
 \contentsline {chapter}{\numberline {1}Design of the LIGO A+ HAM6 Layout}{5}{chapter.1}
+\contentsline {paragraph}{}{5}{section*.3}
 \contentsline {section}{\numberline {1.1}The Chosen HAM6 Optical Layout}{6}{section.1.1}
-\contentsline {paragraph}{}{6}{section*.3}
 \contentsline {paragraph}{}{6}{section*.4}
 \contentsline {paragraph}{}{7}{section*.5}
 \contentsline {paragraph}{}{7}{section*.6}
+\contentsline {paragraph}{}{8}{section*.7}
 \contentsline {section}{\numberline {1.2}The Requirements for the Optical Layout Within HAM6}{13}{section.1.2}
-\contentsline {paragraph}{}{13}{section*.12}
-\contentsline {paragraph}{}{14}{section*.13}
-\contentsline {paragraph}{}{14}{section*.14}
-\contentsline {paragraph}{}{14}{section*.15}
-\contentsline {paragraph}{}{15}{section*.16}
-\contentsline {paragraph}{}{15}{section*.17}
-\contentsline {paragraph}{}{15}{section*.18}
-\contentsline {paragraph}{}{16}{section*.19}
-\contentsline {subsection}{\numberline {1.2.1}Constraints}{16}{subsection.1.2.1}
-\contentsline {paragraph}{}{16}{section*.20}
-\contentsline {paragraph}{}{17}{section*.21}
-\contentsline {section}{\numberline {1.3}Visitations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{17}{section.1.3}
-\contentsline {paragraph}{}{18}{section*.23}
+\contentsline {paragraph}{}{13}{section*.14}
+\contentsline {paragraph}{}{13}{section*.15}
+\contentsline {paragraph}{}{14}{section*.16}
+\contentsline {paragraph}{}{14}{section*.17}
+\contentsline {paragraph}{}{14}{section*.18}
+\contentsline {paragraph}{}{15}{section*.19}
+\contentsline {paragraph}{}{15}{section*.20}
+\contentsline {subsection}{\numberline {1.2.1}Fixed properties of the HAM6 Optical Layout}{15}{subsection.1.2.1}
+\contentsline {paragraph}{}{16}{section*.21}
+\contentsline {paragraph}{}{16}{section*.22}
+\contentsline {section}{\numberline {1.3}Visualisations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{17}{section.1.3}
+\contentsline {paragraph}{}{17}{section*.24}
 \contentsline {subsection}{\numberline {1.3.1}A Description of Mode-Matching in Terms of HG Modes}{18}{subsection.1.3.1}
-\contentsline {paragraph}{}{19}{section*.24}
+\contentsline {paragraph}{}{18}{section*.25}
+\contentsline {paragraph}{}{18}{section*.26}
 \contentsline {subsection}{\numberline {1.3.2}Calculating Mode-Matching Using The Gaussian Beam Parameter}{19}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}WS Space Visualisations}{20}{subsection.1.3.3}
-\contentsline {paragraph}{}{20}{section*.25}
-\contentsline {paragraph}{}{21}{section*.26}
-\contentsline {paragraph}{}{21}{section*.27}
-\contentsline {subsection}{\numberline {1.3.4}Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{22}{subsection.1.3.4}
-\contentsline {paragraph}{}{22}{section*.28}
-\contentsline {paragraph}{}{23}{section*.32}
-\contentsline {paragraph}{}{23}{section*.33}
-\contentsline {paragraph}{}{23}{section*.34}
-\contentsline {subsection}{\numberline {1.3.5}Optimising WS Space Coverage With a Super Actuator}{27}{subsection.1.3.5}
-\contentsline {paragraph}{}{27}{section*.35}
+\contentsline {paragraph}{}{20}{section*.27}
+\contentsline {paragraph}{}{21}{section*.28}
+\contentsline {paragraph}{}{21}{section*.30}
+\contentsline {subsection}{\numberline {1.3.4}Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{23}{subsection.1.3.4}
+\contentsline {paragraph}{}{23}{section*.31}
+\contentsline {paragraph}{}{26}{section*.34}
+\contentsline {paragraph}{}{26}{section*.35}
+\contentsline {subsection}{\numberline {1.3.5}Optimising WS Space Coverage in Favour of Expected Mode Errors}{26}{subsection.1.3.5}
 \contentsline {paragraph}{}{27}{section*.36}
-\contentsline {paragraph}{}{28}{section*.37}
-\contentsline {section}{\numberline {1.4}Conclusion}{28}{section.1.4}
-\contentsline {paragraph}{}{28}{section*.39}
-\contentsline {chapter}{\numberline {A}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{30}{appendix.A}
-\contentsline {paragraph}{}{31}{section*.40}
-\contentsline {paragraph}{}{31}{section*.41}
-\contentsline {subsection}{\numberline {A.0.1}Method}{31}{subsection.A.0.1}
-\contentsline {paragraph}{Define the target mode at the optic 3.}{32}{section*.42}
-\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{32}{section*.43}
-\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{32}{section*.44}
-\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{32}{section*.45}
-\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{32}{section*.46}
-\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{32}{section*.47}
-\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{32}{section*.48}
-\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{32}{section*.49}
-\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{33}{section*.50}
-\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{33}{section*.51}
-\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{33}{section*.52}
-\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{33}{section*.53}
-\contentsline {paragraph}{}{33}{section*.54}
-\contentsline {chapter}{\numberline {B}Mode Matching Between 2 Astigmatic Beams}{36}{appendix.B}
-\contentsline {section}{\numberline {B.1}Derivation of Mode Matching TM00 Beams}{36}{section.B.1}
-\contentsline {section}{\numberline {B.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{39}{section.B.2}
+\contentsline {section}{\numberline {1.4}Conclusion}{30}{section.1.4}
+\contentsline {paragraph}{}{30}{section*.39}
+\contentsline {chapter}{\numberline {A}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{31}{appendix.A}
+\contentsline {paragraph}{}{32}{section*.40}
+\contentsline {paragraph}{}{32}{section*.41}
+\contentsline {subsection}{\numberline {A.0.1}Method}{32}{subsection.A.0.1}
+\contentsline {paragraph}{Define the target mode at the optic 3.}{33}{section*.42}
+\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{33}{section*.43}
+\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{33}{section*.44}
+\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{33}{section*.45}
+\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{33}{section*.46}
+\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{33}{section*.47}
+\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{33}{section*.48}
+\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{33}{section*.49}
+\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{34}{section*.50}
+\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{34}{section*.51}
+\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{34}{section*.52}
+\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{34}{section*.53}
+\contentsline {paragraph}{}{34}{section*.54}
+\contentsline {chapter}{\numberline {B}Mode Matching Between 2 Astigmatic Beams}{37}{appendix.B}
+\contentsline {section}{\numberline {B.1}Derivation of Mode Matching TM00 Beams}{37}{section.B.1}
+\contentsline {section}{\numberline {B.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{40}{section.B.2}

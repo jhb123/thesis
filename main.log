@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  11 JAN 2021 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  12 JAN 2021 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,27 +1159,27 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 64.
 
 (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    ... okay on input line 64.
 
 (c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1217,7 +1217,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: sidecap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 63.
+Package hyperref Info: Link coloring OFF on input line 64.
 
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1227,9 +1227,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1301,11 +1301,11 @@ File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 
 \c@lstlisting=\count305
 \c__siunitx_mathsf_int=\count306
-LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1314,10 +1314,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Figures/GlaLogo.pdf, id=68, pagebox=cropbox, 1487.5575pt x 544.0325pt>
 File: Figures/GlaLogo.pdf Graphic file (type pdf)
 <use Figures/GlaLogo.pdf>
-Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 65. on input l
-ine 65.
+Package pdftex.def Info: Figures/GlaLogo.pdf  used on input line 66. on input l
+ine 66.
 Package pdftex.def Info: Requested size: 213.39568pt x 78.04012pt on input line
- 65.
+ 66.
  [1
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figures/GlaLo
@@ -1331,97 +1331,88 @@ go.pdf>] (./main.toc
  [3]
 
 LaTeX Warning: Reference `chapter:Introduction' on page 4 undefined on input li
-ne 70.
+ne 71.
 
 
 LaTeX Warning: Reference `chapter:Gravitational_wave_interferometers' on page 4
- undefined on input line 71.
+ undefined on input line 72.
 
 
 LaTeX Warning: Reference `chapter:TnT_lab_work' on page 4 undefined on input li
-ne 72.
+ne 73.
 
 
 LaTeX Warning: Reference `chapter:BHD_for_ligo_1' on page 4 undefined on input 
-line 73.
+line 74.
 
 
 LaTeX Warning: Reference `chapter:simulation_finesse' on page 4 undefined on in
-put line 75.
+put line 76.
 
 
 LaTeX Warning: Reference `chapter:in_vac_MZ' on page 4 undefined on input line 
-76.
+77.
 
 
 LaTeX Warning: Reference `chapter:2um_photoiode_chapter' on page 4 undefined on
- input line 77.
+ input line 78.
 
 
 LaTeX Warning: Reference `chapter:Conclusion' on page 4 undefined on input line
- 78.
+ 79.
 
 [4
 
 ]
 Chapter 1.
 (./Chapters/BHD_for_ligo_chapter_2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+LaTeX Warning: Reference `fig:ligolayout' on page 5 undefined on input line 1.
+
+[5
 
 ]
-[6]
-<Figures/BHD_for_ligo_chapter_5f_21.png, id=151, 648.92438pt x 592.46344pt>
-File: Figures/BHD_for_ligo_chapter_5f_21.png Graphic file (type png)
-<use Figures/BHD_for_ligo_chapter_5f_21.png>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_5f_21.png  used on input 
-line 15. on input line 15.
-Package pdftex.def Info: Requested size: 426.79135pt x 389.662pt on input line 
-15.
-Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_Beamshape.eps
->
-(epstopdf)                    date: 2021-01-11 16:20:00
-(epstopdf)                    size: 55878 bytes
-(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_Beamshape-eps
--converted-to.pdf>
-(epstopdf)                    date: 2021-01-11 16:20:55
-(epstopdf)                    size: 21024 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
-er_Beamshape-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_Beamshape.eps>
-(epstopdf)             \includegraphics on input line 58.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=152, pagebox=c
-ropbox, 433.62pt x 361.35pt>
-File: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-t
-o.pdf  used on input line 58. on input line 58.
-Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
-e 58.
-Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_lens_choice.e
+Underfull \vbox (badness 2662) has occurred while \output is active []
+
+ [6]
+Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_HAM6_layout.e
 ps>
-(epstopdf)                    date: 2021-01-11 16:20:00
-(epstopdf)                    size: 44327 bytes
-(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_lens_choice-e
+(epstopdf)                    date: 2021-01-12 16:04:00
+(epstopdf)                    size: 814148 bytes
+(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_HAM6_layout-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-11 16:20:57
-(epstopdf)                    size: 18752 bytes
+(epstopdf)                    date: 2021-01-12 16:04:11
+(epstopdf)                    size: 546418 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
-er_lens_choice-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_lens_choice.ep
+er_HAM6_layout-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_HAM6_layout.ep
 s>
-(epstopdf)             \includegraphics on input line 64.
+(epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=153, pagebox
-=cropbox, 433.62pt x 361.35pt>
-File: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf Graphic fil
+<Figures/BHD_for_ligo_chapter_HAM6_layout-eps-converted-to.pdf, id=157, pagebox
+=cropbox, 602.25pt x 494.84875pt>
+File: Figures/BHD_for_ligo_chapter_HAM6_layout-eps-converted-to.pdf Graphic fil
 e (type pdf)
-<use Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted
--to.pdf  used on input line 64. on input line 64.
-Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
-e 64.
+<use Figures/BHD_for_ligo_chapter_HAM6_layout-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_HAM6_layout-eps-converted
+-to.pdf  used on input line 17. on input line 17.
+Package pdftex.def Info: Requested size: 426.79135pt x 350.69571pt on input lin
+e 17.
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 18.
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 18.
+
+
+LaTeX Warning: Float too large for page by 9.14032pt on input line 20.
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 23.
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 23.
+
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_astigmatism.e
 ps>
 (epstopdf)                    date: 2021-01-11 16:19:57
@@ -1433,63 +1424,113 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_astigmatism-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_astigmatism.ep
 s>
-(epstopdf)             \includegraphics on input line 70.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=154, pagebox
+<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=158, pagebox
 =cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted
--to.pdf  used on input line 70. on input line 70.
+-to.pdf  used on input line 27. on input line 27.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
-e 70.
- [7] [8 <./Figures/BHD_for_ligo_chapter_5f_21.png>] [9] [10 <./Figures/BHD_for_
-ligo_chapter_Beamshape-eps-converted-to.pdf>] [11 <./Figures/BHD_for_ligo_chapt
-er_lens_choice-eps-converted-to.pdf>] [12 <./Figures/BHD_for_ligo_chapter_astig
-matism-eps-converted-to.pdf>]
-Overfull \hbox (6.34218pt too wide) in paragraph at lines 75--75
+e 27.
+Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_Beamshape.eps
+>
+(epstopdf)                    date: 2021-01-11 16:20:00
+(epstopdf)                    size: 55878 bytes
+(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_Beamshape-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2021-01-11 16:20:55
+(epstopdf)                    size: 21024 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
+er_Beamshape-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_Beamshape.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=165, pagebox=c
+ropbox, 433.62pt x 361.35pt>
+File: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-t
+o.pdf  used on input line 71. on input line 71.
+Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
+e 71.
+Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_lens_choice.e
+ps>
+(epstopdf)                    date: 2021-01-11 16:20:00
+(epstopdf)                    size: 44327 bytes
+(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_lens_choice-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-11 16:20:57
+(epstopdf)                    size: 18752 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
+er_lens_choice-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_lens_choice.ep
+s>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=166, pagebox
+=cropbox, 433.62pt x 361.35pt>
+File: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted
+-to.pdf  used on input line 77. on input line 77.
+Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
+e 77.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+[8] [9 <./Figures/BHD_for_ligo_chapter_HAM6_layout-eps-converted-to.pdf>]
+[10 <./Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf>] [11 <./F
+igures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf>] [12 <./Figures/BHD
+_for_ligo_chapter_lens_choice-eps-converted-to.pdf>]
+Overfull \hbox (6.34218pt too wide) in paragraph at lines 82--82
 []\T1/cmr/bx/n/17.28 The Re-quire-ments for the Op-ti-cal Lay-out Within
  []
+
+[13
+
+] [14] [15]
+
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 16 undefined on i
+nput line 108.
+
+
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 16 undefined on i
+nput line 108.
+
+
+LaTeX Warning: Reference `fig:sim_chapter_beam_parameter_at_SRM' on page 16 und
+efined on input line 108.
+
+
+Overfull \hbox (15.79259pt too wide) in paragraph at lines 132--132
+[]\T1/cmr/bx/n/17.28 Visualisations of the Ro-bust-ness of the A+ HAM6
+ []
+
+
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 16 undefined on i
+nput line 134.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
-
-]
-Underfull \vbox (badness 3942) has occurred while \output is active []
-
- [14]
-
-LaTeX Warning: Citation `Barsotti2010' on page 15 undefined on input line 97.
-
-
-LaTeX Warning: Reference `bhdforligochapterlayout5f' on page 15 undefined on in
-put line 97.
-
-
-Underfull \vbox (badness 3942) has occurred while \output is active []
-
- [15]
-
-LaTeX Warning: Reference `chapter:simulation_finesse' on page 16 undefined on i
-nput line 101.
-
-
-LaTeX Warning: Reference `chapter:simulation_finesse' on page 16 undefined on i
-nput line 101.
-
-
-LaTeX Warning: Reference `fig:sim_chapter_beam_parameter_at_SRM' on page 16 und
-efined on input line 101.
-
-[16] [17]
-Overfull \hbox (3.40729pt too wide) in paragraph at lines 130--130
+ [16]
+Overfull \hbox (3.40729pt too wide) in paragraph at lines 137--137
 []\T1/cmr/bx/n/14.4 A De-scrip-tion of Mode-Matching in Terms of HG Modes 
  []
 
-[18] [19] [20] [21]
+
+Underfull \vbox (badness 4492) has occurred while \output is active []
+
+ [17]
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+[20]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_WS_sketch.eps
 >
 (epstopdf)                    date: 2020-09-18 14:30:09
@@ -1500,84 +1541,119 @@ Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_WS_sketch.eps
 (epstopdf)                    size: 27048 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_WS_sketch-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_WS_sketch.eps>
-(epstopdf)             \includegraphics on input line 165.
+(epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=425, pagebox=c
+<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=434, pagebox=c
 ropbox, 195.73125pt x 95.35625pt>
 File: Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-t
-o.pdf  used on input line 165. on input line 165.
+o.pdf  used on input line 168. on input line 168.
 Package pdftex.def Info: Requested size: 405.45047pt x 197.53894pt on input lin
-e 165.
- [22]
-<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png, id=431, 433.62pt 
+e 168.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+[22 <./Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>]
+<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png, id=458, 433.62pt 
 x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png Graphic file 
 (type png)
 <use Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_plane
-s.png  used on input line 172. on input line 172.
+s.png  used on input line 180. on input line 180.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
-e 172.
+e 180.
 <Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf
-, id=433, pagebox=cropbox, 433.62pt x 252.945pt>
+, id=460, pagebox=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_succes
 s.pdf Graphic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success
 .pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_m
-ode_matching_success.pdf  used on input line 178. on input line 178.
+ode_matching_success.pdf  used on input line 186. on input line 186.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
-e 178.
+e 186.
 
 
 LaTeX Warning: Reference `chapter:simulation_finesse' on page 23 undefined on i
-nput line 179.
+nput line 187.
 
 
 LaTeX Warning: Reference `chapter:simulation_finesse' on page 23 undefined on i
-nput line 179.
+nput line 187.
 
 
 LaTeX Warning: Reference `chapter:simulation_finesse' on page 23 undefined on i
-nput line 183.
+nput line 191.
 
-[23] [24 <./Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>]
-[25 <./Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png>] [26 <./Fig
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+[24 <./Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png>] [25 <./Fig
 ures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf>]
 
-LaTeX Warning: Reference `fig:beamsizesimulated' on page 27 undefined on input 
-line 191.
+LaTeX Warning: Reference `fig:beamsizesimulated' on page 26 undefined on input 
+line 198.
 
 
-LaTeX Warning: Reference `fig:beamrocsimulated' on page 27 undefined on input l
-ine 191.
+LaTeX Warning: Reference `fig:beamrocsimulated' on page 26 undefined on input l
+ine 198.
 
-<Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf, id=521, pagebox=cro
+[26]
+<Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf, id=540, pagebox=cro
 pbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf Graphic file (t
 ype pdf)
 <use Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf>
 Package pdftex.def Info: Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.
-pdf  used on input line 198. on input line 198.
+pdf  used on input line 203. on input line 203.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
-e 198.
-
-LaTeX Warning: Reference `chapter:simulation_finesse' on page 27 undefined on i
-nput line 199.
+e 203.
 
 
 LaTeX Warning: Reference `chapter:simulation_finesse' on page 27 undefined on i
-nput line 199.
+nput line 204.
 
-[27]) [28] [29 <./Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf>]
+
+LaTeX Warning: Reference `chapter:simulation_finesse' on page 27 undefined on i
+nput line 204.
+
+Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_Beamshape_SA.
+eps>
+(epstopdf)                    date: 2021-01-12 13:53:48
+(epstopdf)                    size: 55310 bytes
+(epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_Beamshape_SA-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2021-01-12 15:23:32
+(epstopdf)                    size: 20860 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
+er_Beamshape_SA-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_Beamshape_SA.
+eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/BHD_for_ligo_chapter_Beamshape_SA-eps-converted-to.pdf, id=541, pagebo
+x=cropbox, 433.62pt x 361.35pt>
+File: Figures/BHD_for_ligo_chapter_Beamshape_SA-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use Figures/BHD_for_ligo_chapter_Beamshape_SA-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/BHD_for_ligo_chapter_Beamshape_SA-eps-converte
+d-to.pdf  used on input line 209. on input line 209.
+Package pdftex.def Info: Requested size: 426.79135pt x 355.67546pt on input lin
+e 209.
+[27] [28 <./Figures/BHD_for_ligo_chapter_layout_5f_super_Actuator.pdf>]
+[29 <./Figures/BHD_for_ligo_chapter_Beamshape_SA-eps-converted-to.pdf>])
+[30
+
+]
 Appendix A.
 (./Chapters/appendix_mode_matching_algorithm_3_optics.tex
 Underfull \vbox (badness 1242) has occurred while \output is active []
 
- [30
+ [31
 
 ]
 
@@ -1587,8 +1663,8 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 Underfull \vbox (badness 4859) has occurred while \output is active []
 
- [31]
-[32]
+ [32]
+[33]
 Package epstopdf Info: Source file: <Figures/mode_matching_appendix_optical_lay
 outs.eps>
 (epstopdf)                    date: 2020-09-01 16:09:52
@@ -1602,7 +1678,7 @@ ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
 l_layouts.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=630, p
+<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=706, p
 agebox=cropbox, 501.875pt x 240.9pt>
 File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1624,7 +1700,7 @@ ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
 ithm_sketch.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=633, 
+<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=709, 
 pagebox=cropbox, 450.68375pt x 253.94875pt>
 File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1633,19 +1709,19 @@ Package pdftex.def Info: Figures/mode_matching_appendix_algorithm_sketch-eps-co
 nverted-to.pdf  used on input line 31. on input line 31.
 Package pdftex.def Info: Requested size: 384.1096pt x 216.44644pt on input line
  31.
-) [33] [34 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.p
-df>] [35 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pd
+) [34] [35 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.p
+df>] [36 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pd
 f>]
 Appendix B.
 (./Chapters/appendix_mode_matching_derivation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36
+ [37
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [38]
 Overfull \hbox (56.5019pt too wide) detected at line 95
 []
  []
@@ -1653,46 +1729,40 @@ Overfull \hbox (56.5019pt too wide) detected at line 95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39])
-(./main.bbl [40]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 26.
+ [40])
+(./main.bbl [41]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
  (c:/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [41
+) [42
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-
-[42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+]
+[43])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+ [44]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B1850A0C5AAEB305C217308A2FF14D68;1569.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 8B00D4886BBD6BE9FA9DAEB5EBA22736;1501
-(rerunfilecheck)             After:  D67FE9B0E3A7C4D3F2B8E075C0164D5D;1522.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 21298 strings out of 492990
- 393804 string characters out of 6136333
- 548310 words of memory out of 5000000
- 24437 multiletter control sequences out of 15000+600000
+ 21309 strings out of 492990
+ 394350 string characters out of 6136333
+ 552897 words of memory out of 5000000
+ 24444 multiletter control sequences out of 15000+600000
  561666 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,15n,61p,10357b,1107s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,15n,61p,10357b,1105s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dis
@@ -1714,10 +1784,10 @@ fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2017/texmf-dist/fonts/type
 1/public/cm-super/sfrm2488.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/c
 m-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
 tt1200.pfb>
-Output written on main.pdf (42 pages, 1276078 bytes).
+Output written on main.pdf (44 pages, 1615803 bytes).
 PDF statistics:
- 915 PDF objects out of 1000 (max. 8388607)
- 622 compressed objects within 7 object streams
- 164 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 998 PDF objects out of 1000 (max. 8388607)
+ 650 compressed objects within 7 object streams
+ 167 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
