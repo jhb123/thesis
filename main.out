@@ -14,47 +14,47 @@
 \BOOKMARK [1][-]{section.2.5}{Reducing Shot Noise with Non-Classical States of Light}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.6}{Interferometry Techniques to Beat Quantum Limits}{chapter.2}% 15
 \BOOKMARK [1][-]{section.2.7}{The Effect Losses Have on Measuring Quantum States of Light}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.8}{Overview of the LIGO Detector}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.9}{The Future of Ground Based Gravitational Wave Detectors}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.10}{Conclusion}{chapter.2}% 19
-\BOOKMARK [0][-]{chapter.3}{A Prototype High Power Laser for LIGO's Fourth Observation Run}{}% 20
-\BOOKMARK [0][-]{chapter.4}{The Consequence of Radius of Curvature Errors within the SRC on Modes at the SRM.}{}% 21
-\BOOKMARK [0][-]{chapter.5}{Balanced Homodyne Detection for LIGO A+}{}% 22
-\BOOKMARK [1][-]{section.5.1}{What is Balanced Homodyne Detection?}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.1.1}{Motivation for Implementing BHD in LIGO A+}{section.5.1}% 24
-\BOOKMARK [1][-]{section.5.2}{Local Oscillator Path Length Stability Requirement for A+}{chapter.5}% 25
-\BOOKMARK [2][-]{subsection.5.2.1}{Local Oscillator Path}{section.5.2}% 26
-\BOOKMARK [2][-]{subsection.5.2.2}{The Linear Response Function Between Differential Strain and Power at the AS Port}{section.5.2}% 27
-\BOOKMARK [2][-]{subsection.5.2.3}{Converting the Sensitivity Curve for A+ into a Longitudinal Motion Requirement}{section.5.2}% 28
-\BOOKMARK [1][-]{section.5.3}{Conclusion}{chapter.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Design of the LIGO A+ HAM6 Layout}{}% 30
-\BOOKMARK [1][-]{section.6.1}{The Chosen HAM6 Optical Layout}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.2}{The Requirements for the Optical Layout Within HAM6}{chapter.6}% 32
-\BOOKMARK [2][-]{subsection.6.2.1}{Fixed properties of the HAM6 Optical Layout}{section.6.2}% 33
-\BOOKMARK [1][-]{section.6.3}{Visualisations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{chapter.6}% 34
-\BOOKMARK [2][-]{subsection.6.3.1}{A Description of Mode-Matching in Terms of HG Modes}{section.6.3}% 35
-\BOOKMARK [2][-]{subsection.6.3.2}{Calculating Mode-Matching Using The Gaussian Beam Parameter}{section.6.3}% 36
-\BOOKMARK [2][-]{subsection.6.3.3}{WS Space Visualisations}{section.6.3}% 37
-\BOOKMARK [2][-]{subsection.6.3.4}{Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{section.6.3}% 38
-\BOOKMARK [2][-]{subsection.6.3.5}{Optimising WS Space Coverage in Favour of Expected Mode Errors}{section.6.3}% 39
-\BOOKMARK [1][-]{section.6.4}{Conclusion}{chapter.6}% 40
-\BOOKMARK [0][-]{chapter.7}{Experimental MZ}{}% 41
-\BOOKMARK [0][-]{chapter.8}{Characterisation of InGaAs Photodiodes for detecting 2\265m Light}{}% 42
-\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.2}{What is an Extended InGaAs Photodiode}{chapter.8}% 44
-\BOOKMARK [1][-]{section.8.3}{Requirements for the Readout Photodiodes in a Gravitational Wave detector}{chapter.8}% 45
-\BOOKMARK [1][-]{section.8.4}{Selected Off-the-shelf Extended InGaAs Photodiodes}{chapter.8}% 46
-\BOOKMARK [1][-]{section.8.5}{The Effect of Reverse Bias on the Quantum Efficiency of an Extended InGaAs Photodiode}{chapter.8}% 47
-\BOOKMARK [2][-]{subsection.8.5.1}{Method}{section.8.5}% 48
-\BOOKMARK [2][-]{subsection.8.5.2}{Results}{section.8.5}% 49
-\BOOKMARK [1][-]{section.8.6}{Dark Current and Dark Noise in ExtendedInGaAs Photodiodes}{chapter.8}% 50
-\BOOKMARK [2][-]{subsection.8.6.1}{The Dependence of Dark Noise and Dark Current on Reverse Bias in Extended InGaAs Photodiodes}{section.8.6}% 51
-\BOOKMARK [2][-]{subsection.8.6.2}{The Dependence of Dark Noise and Dark Current on Temperature in Extended InGaAs Photodiodes}{section.8.6}% 52
-\BOOKMARK [1][-]{section.8.7}{The Saturation Limit of Some Laser Components Extended InGaAs Photodiodes}{chapter.8}% 53
-\BOOKMARK [1][-]{section.8.8}{Excess Noise in the Photocurrent made by the IG24x500S4i}{chapter.8}% 54
-\BOOKMARK [1][-]{section.8.9}{Properties of an InSb detector}{chapter.8}% 55
-\BOOKMARK [1][-]{section.8.10}{Discussion}{chapter.8}% 56
-\BOOKMARK [1][-]{section.8.11}{Conclusion}{chapter.8}% 57
+\BOOKMARK [1][-]{section.2.8}{Photodiodes}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.9}{Overview of the LIGO Detector}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.10}{The Future of Ground Based Gravitational Wave Detectors}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.11}{Conclusion}{chapter.2}% 20
+\BOOKMARK [0][-]{chapter.3}{A Prototype High Power Laser for LIGO's Fourth Observation Run}{}% 21
+\BOOKMARK [0][-]{chapter.4}{The Consequence of Radius of Curvature Errors within the SRC on Modes at the SRM.}{}% 22
+\BOOKMARK [0][-]{chapter.5}{Balanced Homodyne Detection for LIGO A+}{}% 23
+\BOOKMARK [1][-]{section.5.1}{What is Balanced Homodyne Detection?}{chapter.5}% 24
+\BOOKMARK [2][-]{subsection.5.1.1}{Motivation for Implementing BHD in LIGO A+}{section.5.1}% 25
+\BOOKMARK [1][-]{section.5.2}{Local Oscillator Path Length Stability Requirement for A+}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.2.1}{Local Oscillator Path}{section.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.2.2}{The Linear Response Function Between Differential Strain and Power at the AS Port}{section.5.2}% 28
+\BOOKMARK [2][-]{subsection.5.2.3}{Converting the Sensitivity Curve for A+ into a Longitudinal Motion Requirement}{section.5.2}% 29
+\BOOKMARK [1][-]{section.5.3}{Conclusion}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Design of the LIGO A+ HAM6 Layout}{}% 31
+\BOOKMARK [1][-]{section.6.1}{The Chosen HAM6 Optical Layout}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.2}{The Requirements for the Optical Layout Within HAM6}{chapter.6}% 33
+\BOOKMARK [2][-]{subsection.6.2.1}{Fixed properties of the HAM6 Optical Layout}{section.6.2}% 34
+\BOOKMARK [1][-]{section.6.3}{Visualisations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{chapter.6}% 35
+\BOOKMARK [2][-]{subsection.6.3.1}{A Description of Mode-Matching in Terms of HG Modes}{section.6.3}% 36
+\BOOKMARK [2][-]{subsection.6.3.2}{Calculating Mode-Matching Using The Gaussian Beam Parameter}{section.6.3}% 37
+\BOOKMARK [2][-]{subsection.6.3.3}{WS Space Visualisations}{section.6.3}% 38
+\BOOKMARK [2][-]{subsection.6.3.4}{Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{section.6.3}% 39
+\BOOKMARK [2][-]{subsection.6.3.5}{Optimising WS Space Coverage in Favour of Expected Mode Errors}{section.6.3}% 40
+\BOOKMARK [1][-]{section.6.4}{Conclusion}{chapter.6}% 41
+\BOOKMARK [0][-]{chapter.7}{Experimental MZ}{}% 42
+\BOOKMARK [0][-]{chapter.8}{Characterisation of InGaAs Photodiodes for detecting 2\265m Light}{}% 43
+\BOOKMARK [1][-]{section.8.1}{Requirements for the Readout Photodiodes in a Gravitational Wave detector}{chapter.8}% 44
+\BOOKMARK [1][-]{section.8.2}{What is an Extended InGaAs Photodiode}{chapter.8}% 45
+\BOOKMARK [1][-]{section.8.3}{Selected Off-the-shelf Extended InGaAs Photodiodes}{chapter.8}% 46
+\BOOKMARK [1][-]{section.8.4}{The Effect of Reverse Bias on the Quantum Efficiency of an Extended InGaAs Photodiode}{chapter.8}% 47
+\BOOKMARK [2][-]{subsection.8.4.1}{Method}{section.8.4}% 48
+\BOOKMARK [2][-]{subsection.8.4.2}{Results}{section.8.4}% 49
+\BOOKMARK [1][-]{section.8.5}{Dark Current and Dark Noise in ExtendedInGaAs Photodiodes}{chapter.8}% 50
+\BOOKMARK [2][-]{subsection.8.5.1}{The Dependence of Dark Noise and Dark Current on Reverse Bias in Extended InGaAs Photodiodes}{section.8.5}% 51
+\BOOKMARK [2][-]{subsection.8.5.2}{The Dependence of Dark Noise and Dark Current on Temperature in Extended InGaAs Photodiodes}{section.8.5}% 52
+\BOOKMARK [1][-]{section.8.6}{The Saturation Limit of Some Laser Components Extended InGaAs Photodiodes}{chapter.8}% 53
+\BOOKMARK [1][-]{section.8.7}{Excess Noise in the Photocurrent made by the IG24x500S4i}{chapter.8}% 54
+\BOOKMARK [1][-]{section.8.8}{Properties of an InSb detector}{chapter.8}% 55
+\BOOKMARK [1][-]{section.8.9}{Discussion}{chapter.8}% 56
+\BOOKMARK [1][-]{section.8.10}{Conclusion}{chapter.8}% 57
 \BOOKMARK [0][-]{appendix.A}{Extended InGaAs Diodes Noise Spectrums}{}% 58
 \BOOKMARK [0][-]{appendix.B}{Photodiode Circuits}{}% 59
 \BOOKMARK [0][-]{appendix.C}{Finesse Simulations}{}% 60
