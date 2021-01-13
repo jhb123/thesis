@@ -1,56 +1,211 @@
-\contentsline {chapter}{\numberline {1}Design of the LIGO A+ HAM6 Layout}{5}{chapter.1}
-\contentsline {paragraph}{}{5}{section*.3}
-\contentsline {section}{\numberline {1.1}The Chosen HAM6 Optical Layout}{6}{section.1.1}
-\contentsline {paragraph}{}{6}{section*.4}
-\contentsline {paragraph}{}{7}{section*.5}
-\contentsline {paragraph}{}{7}{section*.6}
-\contentsline {paragraph}{}{8}{section*.7}
-\contentsline {section}{\numberline {1.2}The Requirements for the Optical Layout Within HAM6}{13}{section.1.2}
-\contentsline {paragraph}{}{13}{section*.14}
-\contentsline {paragraph}{}{13}{section*.15}
-\contentsline {paragraph}{}{14}{section*.16}
-\contentsline {paragraph}{}{14}{section*.17}
-\contentsline {paragraph}{}{14}{section*.18}
-\contentsline {paragraph}{}{15}{section*.19}
-\contentsline {paragraph}{}{15}{section*.20}
-\contentsline {subsection}{\numberline {1.2.1}Fixed properties of the HAM6 Optical Layout}{15}{subsection.1.2.1}
-\contentsline {paragraph}{}{16}{section*.21}
-\contentsline {paragraph}{}{16}{section*.22}
-\contentsline {section}{\numberline {1.3}Visualisations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{17}{section.1.3}
-\contentsline {paragraph}{}{17}{section*.24}
-\contentsline {subsection}{\numberline {1.3.1}A Description of Mode-Matching in Terms of HG Modes}{18}{subsection.1.3.1}
-\contentsline {paragraph}{}{18}{section*.25}
-\contentsline {paragraph}{}{18}{section*.26}
-\contentsline {subsection}{\numberline {1.3.2}Calculating Mode-Matching Using The Gaussian Beam Parameter}{19}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}WS Space Visualisations}{20}{subsection.1.3.3}
-\contentsline {paragraph}{}{20}{section*.27}
-\contentsline {paragraph}{}{21}{section*.28}
-\contentsline {paragraph}{}{21}{section*.30}
-\contentsline {subsection}{\numberline {1.3.4}Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{23}{subsection.1.3.4}
-\contentsline {paragraph}{}{23}{section*.31}
-\contentsline {paragraph}{}{26}{section*.34}
-\contentsline {paragraph}{}{26}{section*.35}
-\contentsline {subsection}{\numberline {1.3.5}Optimising WS Space Coverage in Favour of Expected Mode Errors}{26}{subsection.1.3.5}
-\contentsline {paragraph}{}{27}{section*.36}
-\contentsline {section}{\numberline {1.4}Conclusion}{30}{section.1.4}
-\contentsline {paragraph}{}{30}{section*.39}
-\contentsline {chapter}{\numberline {A}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{31}{appendix.A}
-\contentsline {paragraph}{}{32}{section*.40}
-\contentsline {paragraph}{}{32}{section*.41}
-\contentsline {subsection}{\numberline {A.0.1}Method}{32}{subsection.A.0.1}
-\contentsline {paragraph}{Define the target mode at the optic 3.}{33}{section*.42}
-\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{33}{section*.43}
-\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{33}{section*.44}
-\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{33}{section*.45}
-\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{33}{section*.46}
-\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{33}{section*.47}
-\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{33}{section*.48}
-\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{33}{section*.49}
-\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{34}{section*.50}
-\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{34}{section*.51}
-\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{34}{section*.52}
-\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{34}{section*.53}
-\contentsline {paragraph}{}{34}{section*.54}
-\contentsline {chapter}{\numberline {B}Mode Matching Between 2 Astigmatic Beams}{37}{appendix.B}
-\contentsline {section}{\numberline {B.1}Derivation of Mode Matching TM00 Beams}{37}{section.B.1}
-\contentsline {section}{\numberline {B.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{40}{section.B.2}
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {chapter}{\numberline {2}The Fundamentals of Gravitational Wave Interferometers}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{8}{section.2.1}
+\contentsline {paragraph}{}{9}{section*.3}
+\contentsline {section}{\numberline {2.2}The Astrophysical Origins of Gravitational Waves}{9}{section.2.2}
+\contentsline {paragraph}{}{9}{section*.4}
+\contentsline {paragraph}{}{10}{section*.5}
+\contentsline {paragraph}{}{10}{section*.6}
+\contentsline {section}{\numberline {2.3}Measuring Gravitational Waves with an Interferometer}{11}{section.2.3}
+\contentsline {paragraph}{}{11}{section*.8}
+\contentsline {paragraph}{}{12}{section*.9}
+\contentsline {paragraph}{}{13}{section*.10}
+\contentsline {subsection}{\numberline {2.3.1}Using Fabry-Perot Cavities in the Arms of a Michelson Interferometer to Enhance Its Sensitivity}{15}{subsection.2.3.1}
+\contentsline {paragraph}{}{15}{section*.12}
+\contentsline {paragraph}{}{15}{section*.13}
+\contentsline {section}{\numberline {2.4}Sources of Noise in Gravitational Wave Interferometers.}{16}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Laser Power and Shot Noise}{16}{subsection.2.4.1}
+\contentsline {paragraph}{}{18}{section*.15}
+\contentsline {paragraph}{}{18}{section*.16}
+\contentsline {paragraph}{}{20}{section*.18}
+\contentsline {subsection}{\numberline {2.4.2}Using Power Recycling to Reduce Shot Noise}{20}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Using Signal Recycling to Shape Quantum noise}{20}{subsection.2.4.3}
+\contentsline {paragraph}{}{21}{section*.19}
+\contentsline {paragraph}{}{21}{section*.20}
+\contentsline {subsection}{\numberline {2.4.4}Reducing Shot Noise by Removing Junk Light with a Mode Cleaner Cavity.}{22}{subsection.2.4.4}
+\contentsline {paragraph}{}{22}{section*.21}
+\contentsline {subsection}{\numberline {2.4.5}Radiation Pressure Noise and the Standard Quantum Limit}{23}{subsection.2.4.5}
+\contentsline {paragraph}{}{23}{section*.22}
+\contentsline {paragraph}{}{24}{section*.23}
+\contentsline {subsection}{\numberline {2.4.6}Coating Thermal Noise and Other Noise Sources}{24}{subsection.2.4.6}
+\contentsline {section}{\numberline {2.5}Reducing Shot Noise with Non-Classical States of Light}{24}{section.2.5}
+\contentsline {paragraph}{}{25}{section*.24}
+\contentsline {paragraph}{}{26}{section*.25}
+\contentsline {paragraph}{}{26}{section*.26}
+\contentsline {section}{\numberline {2.6}Interferometry Techniques to Beat Quantum Limits}{26}{section.2.6}
+\contentsline {paragraph}{}{27}{section*.27}
+\contentsline {paragraph}{}{27}{section*.28}
+\contentsline {paragraph}{}{28}{section*.29}
+\contentsline {paragraph}{}{28}{section*.30}
+\contentsline {section}{\numberline {2.7}The Effect Losses Have on Measuring Quantum States of Light}{28}{section.2.7}
+\contentsline {paragraph}{}{29}{section*.31}
+\contentsline {paragraph}{}{29}{section*.32}
+\contentsline {section}{\numberline {2.8}Overview of the LIGO Detector}{29}{section.2.8}
+\contentsline {paragraph}{}{30}{section*.33}
+\contentsline {section}{\numberline {2.9}The Future of Ground Based Gravitational Wave Detectors}{30}{section.2.9}
+\contentsline {paragraph}{}{32}{section*.35}
+\contentsline {paragraph}{}{32}{section*.36}
+\contentsline {section}{\numberline {2.10}Conclusion}{32}{section.2.10}
+\contentsline {paragraph}{}{33}{section*.37}
+\contentsline {chapter}{\numberline {3}A Prototype High Power Laser for LIGO's Fourth Observation Run}{34}{chapter.3}
+\contentsline {chapter}{\numberline {4}The Consequence of Radius of Curvature Errors within the SRC on Modes at the SRM.}{35}{chapter.4}
+\contentsline {chapter}{\numberline {5}Balanced Homodyne Detection for LIGO A+}{36}{chapter.5}
+\contentsline {paragraph}{}{36}{section*.38}
+\contentsline {paragraph}{}{37}{section*.39}
+\contentsline {section}{\numberline {5.1}What is Balanced Homodyne Detection?}{37}{section.5.1}
+\contentsline {paragraph}{}{37}{section*.40}
+\contentsline {paragraph}{}{38}{section*.41}
+\contentsline {paragraph}{}{38}{section*.42}
+\contentsline {paragraph}{}{38}{section*.43}
+\contentsline {paragraph}{}{39}{section*.45}
+\contentsline {subsection}{\numberline {5.1.1}Motivation for Implementing BHD in LIGO A+}{41}{subsection.5.1.1}
+\contentsline {paragraph}{}{41}{section*.46}
+\contentsline {paragraph}{}{41}{section*.47}
+\contentsline {paragraph}{}{42}{section*.48}
+\contentsline {paragraph}{}{42}{section*.49}
+\contentsline {section}{\numberline {5.2}Local Oscillator Path Length Stability Requirement for A+}{43}{section.5.2}
+\contentsline {paragraph}{}{43}{section*.50}
+\contentsline {paragraph}{}{43}{section*.51}
+\contentsline {paragraph}{}{44}{section*.52}
+\contentsline {paragraph}{}{44}{section*.53}
+\contentsline {subsection}{\numberline {5.2.1}Local Oscillator Path}{44}{subsection.5.2.1}
+\contentsline {paragraph}{}{45}{section*.54}
+\contentsline {subsection}{\numberline {5.2.2}The Linear Response Function Between Differential Strain and Power at the AS Port}{47}{subsection.5.2.2}
+\contentsline {paragraph}{}{47}{section*.56}
+\contentsline {paragraph}{}{47}{section*.57}
+\contentsline {subsection}{\numberline {5.2.3}Converting the Sensitivity Curve for A+ into a Longitudinal Motion Requirement}{48}{subsection.5.2.3}
+\contentsline {paragraph}{}{50}{section*.60}
+\contentsline {paragraph}{}{50}{section*.61}
+\contentsline {paragraph}{}{51}{section*.62}
+\contentsline {paragraph}{}{51}{section*.63}
+\contentsline {paragraph}{}{52}{section*.64}
+\contentsline {section}{\numberline {5.3}Conclusion}{52}{section.5.3}
+\contentsline {paragraph}{}{54}{section*.67}
+\contentsline {chapter}{\numberline {6}Design of the LIGO A+ HAM6 Layout}{55}{chapter.6}
+\contentsline {paragraph}{}{55}{section*.68}
+\contentsline {section}{\numberline {6.1}The Chosen HAM6 Optical Layout}{56}{section.6.1}
+\contentsline {paragraph}{}{56}{section*.69}
+\contentsline {paragraph}{}{57}{section*.70}
+\contentsline {paragraph}{}{57}{section*.71}
+\contentsline {paragraph}{}{58}{section*.72}
+\contentsline {section}{\numberline {6.2}The Requirements for the Optical Layout Within HAM6}{63}{section.6.2}
+\contentsline {paragraph}{}{63}{section*.79}
+\contentsline {paragraph}{}{63}{section*.80}
+\contentsline {paragraph}{}{64}{section*.81}
+\contentsline {paragraph}{}{64}{section*.82}
+\contentsline {paragraph}{}{64}{section*.83}
+\contentsline {paragraph}{}{65}{section*.84}
+\contentsline {paragraph}{}{65}{section*.85}
+\contentsline {subsection}{\numberline {6.2.1}Fixed properties of the HAM6 Optical Layout}{65}{subsection.6.2.1}
+\contentsline {paragraph}{}{66}{section*.86}
+\contentsline {paragraph}{}{66}{section*.87}
+\contentsline {section}{\numberline {6.3}Visualisations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{67}{section.6.3}
+\contentsline {paragraph}{}{67}{section*.89}
+\contentsline {subsection}{\numberline {6.3.1}A Description of Mode-Matching in Terms of HG Modes}{68}{subsection.6.3.1}
+\contentsline {paragraph}{}{68}{section*.90}
+\contentsline {paragraph}{}{68}{section*.91}
+\contentsline {subsection}{\numberline {6.3.2}Calculating Mode-Matching Using The Gaussian Beam Parameter}{69}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}WS Space Visualisations}{70}{subsection.6.3.3}
+\contentsline {paragraph}{}{70}{section*.92}
+\contentsline {paragraph}{}{71}{section*.93}
+\contentsline {paragraph}{}{71}{section*.95}
+\contentsline {subsection}{\numberline {6.3.4}Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{73}{subsection.6.3.4}
+\contentsline {paragraph}{}{73}{section*.96}
+\contentsline {paragraph}{}{76}{section*.99}
+\contentsline {paragraph}{}{76}{section*.100}
+\contentsline {subsection}{\numberline {6.3.5}Optimising WS Space Coverage in Favour of Expected Mode Errors}{76}{subsection.6.3.5}
+\contentsline {paragraph}{}{77}{section*.101}
+\contentsline {section}{\numberline {6.4}Conclusion}{80}{section.6.4}
+\contentsline {paragraph}{}{80}{section*.104}
+\contentsline {chapter}{\numberline {7}Experimental MZ}{81}{chapter.7}
+\contentsline {chapter}{\numberline {8}Characterisation of InGaAs Photodiodes for detecting $2\si {\micro \metre }$ Light}{82}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{82}{section.8.1}
+\contentsline {paragraph}{}{83}{section*.105}
+\contentsline {paragraph}{}{83}{section*.106}
+\contentsline {paragraph}{}{83}{section*.107}
+\contentsline {paragraph}{}{84}{section*.108}
+\contentsline {paragraph}{}{84}{section*.109}
+\contentsline {section}{\numberline {8.2}What is an Extended InGaAs Photodiode}{84}{section.8.2}
+\contentsline {paragraph}{}{85}{section*.110}
+\contentsline {paragraph}{}{85}{section*.111}
+\contentsline {paragraph}{}{85}{section*.112}
+\contentsline {paragraph}{}{86}{section*.113}
+\contentsline {paragraph}{}{86}{section*.114}
+\contentsline {paragraph}{}{87}{section*.115}
+\contentsline {paragraph}{}{87}{section*.116}
+\contentsline {paragraph}{}{87}{section*.117}
+\contentsline {paragraph}{}{88}{section*.118}
+\contentsline {paragraph}{}{88}{section*.119}
+\contentsline {paragraph}{}{88}{section*.120}
+\contentsline {paragraph}{}{89}{section*.121}
+\contentsline {section}{\numberline {8.3}Requirements for the Readout Photodiodes in a Gravitational Wave detector}{89}{section.8.3}
+\contentsline {paragraph}{}{89}{section*.122}
+\contentsline {paragraph}{}{90}{section*.123}
+\contentsline {paragraph}{}{90}{section*.124}
+\contentsline {paragraph}{}{90}{section*.125}
+\contentsline {section}{\numberline {8.4}Selected Off-the-shelf Extended InGaAs Photodiodes}{91}{section.8.4}
+\contentsline {paragraph}{}{92}{section*.126}
+\contentsline {section}{\numberline {8.5}The Effect of Reverse Bias on the Quantum Efficiency of an Extended InGaAs Photodiode}{93}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Method}{93}{subsection.8.5.1}
+\contentsline {paragraph}{}{93}{section*.128}
+\contentsline {paragraph}{}{94}{section*.130}
+\contentsline {paragraph}{}{94}{section*.131}
+\contentsline {paragraph}{}{96}{section*.132}
+\contentsline {paragraph}{}{96}{section*.133}
+\contentsline {subsection}{\numberline {8.5.2}Results}{96}{subsection.8.5.2}
+\contentsline {paragraph}{}{97}{section*.135}
+\contentsline {paragraph}{}{97}{section*.136}
+\contentsline {section}{\numberline {8.6}Dark Current and Dark Noise in Extended\tmspace +\thinmuskip {.1667em}InGaAs Photodiodes}{101}{section.8.6}
+\contentsline {paragraph}{}{101}{section*.139}
+\contentsline {paragraph}{}{101}{section*.140}
+\contentsline {subsection}{\numberline {8.6.1}The Dependence of Dark Noise and Dark Current on Reverse Bias in Extended InGaAs Photodiodes}{102}{subsection.8.6.1}
+\contentsline {paragraph}{}{102}{section*.141}
+\contentsline {paragraph}{}{102}{section*.142}
+\contentsline {subsection}{\numberline {8.6.2}The Dependence of Dark Noise and Dark Current on Temperature in Extended InGaAs Photodiodes}{106}{subsection.8.6.2}
+\contentsline {paragraph}{}{106}{section*.146}
+\contentsline {paragraph}{}{106}{section*.147}
+\contentsline {section}{\numberline {8.7}The Saturation Limit of Some Laser Components Extended InGaAs Photodiodes}{107}{section.8.7}
+\contentsline {section}{\numberline {8.8}Excess Noise in the Photocurrent made by the IG24x500S4i}{110}{section.8.8}
+\contentsline {paragraph}{}{110}{section*.151}
+\contentsline {paragraph}{}{110}{section*.154}
+\contentsline {paragraph}{}{113}{section*.157}
+\contentsline {section}{\numberline {8.9}Properties of an InSb detector}{113}{section.8.9}
+\contentsline {paragraph}{}{116}{section*.158}
+\contentsline {paragraph}{}{117}{section*.160}
+\contentsline {section}{\numberline {8.10}Discussion}{118}{section.8.10}
+\contentsline {paragraph}{}{118}{section*.162}
+\contentsline {paragraph}{}{118}{section*.163}
+\contentsline {paragraph}{}{119}{section*.164}
+\contentsline {paragraph}{}{119}{section*.165}
+\contentsline {paragraph}{}{119}{section*.166}
+\contentsline {paragraph}{}{120}{section*.167}
+\contentsline {paragraph}{}{120}{section*.168}
+\contentsline {section}{\numberline {8.11}Conclusion}{120}{section.8.11}
+\contentsline {paragraph}{}{121}{section*.169}
+\contentsline {paragraph}{}{121}{section*.170}
+\contentsline {paragraph}{}{121}{section*.171}
+\contentsline {paragraph}{}{122}{section*.172}
+\contentsline {chapter}{\numberline {A}Extended InGaAs Diodes Noise Spectrums}{123}{appendix.A}
+\contentsline {chapter}{\numberline {B}Photodiode Circuits}{124}{appendix.B}
+\contentsline {chapter}{\numberline {C}\textsc {Finesse} Simulations}{125}{appendix.C}
+\contentsline {chapter}{\numberline {D}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{126}{appendix.D}
+\contentsline {paragraph}{}{127}{section*.173}
+\contentsline {paragraph}{}{127}{section*.174}
+\contentsline {subsection}{\numberline {D.0.1}Method}{127}{subsection.D.0.1}
+\contentsline {paragraph}{Define the target mode at the optic 3.}{128}{section*.175}
+\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{128}{section*.176}
+\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{128}{section*.177}
+\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{128}{section*.178}
+\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{128}{section*.179}
+\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{128}{section*.180}
+\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{128}{section*.181}
+\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{128}{section*.182}
+\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{129}{section*.183}
+\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{129}{section*.184}
+\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{129}{section*.185}
+\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{129}{section*.186}
+\contentsline {paragraph}{}{129}{section*.187}
+\contentsline {chapter}{\numberline {E}Mode Matching Between 2 Astigmatic Beams}{132}{appendix.E}
+\contentsline {section}{\numberline {E.1}Derivation of Mode Matching TM00 Beams}{132}{section.E.1}
+\contentsline {section}{\numberline {E.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{135}{section.E.2}
+\contentsline {chapter}{\numberline {F}Light and Gaussian Modes}{137}{appendix.F}

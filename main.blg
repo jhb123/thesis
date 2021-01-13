@@ -3,60 +3,110 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: C:/bibliography/bibliography.bib
+Warning--entry type for "a+curve" isn't style-file defined
+--line 2697 of file C:/bibliography/bibliography.bib
+Warning--entry type for "aligo_layout_h1" isn't style-file defined
+--line 3553 of file C:/bibliography/bibliography.bib
+Warning--entry type for "l1_finesse_2014" isn't style-file defined
+--line 3577 of file C:/bibliography/bibliography.bib
+Warning--entry type for "HAM_table_motion" isn't style-file defined
+--line 3631 of file C:/bibliography/bibliography.bib
+Repeated entry---line 3949 of file C:/bibliography/bibliography.bib
+ : @article{
+ :          ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Huddart2019" isn't style-file defined
+--line 3991 of file C:/bibliography/bibliography.bib
+Warning--entry type for "HRTSrequirement" isn't style-file defined
+--line 4013 of file C:/bibliography/bibliography.bib
 Warning--entry type for "AS_port_beam_parameter" isn't style-file defined
 --line 4037 of file C:/bibliography/bibliography.bib
 Warning--entry type for "A+_Output_Faraday_Isolator_Final_Design" isn't style-file defined
 --line 4065 of file C:/bibliography/bibliography.bib
 Warning--entry type for "BHD_ISC_requirements" isn't style-file defined
 --line 4089 of file C:/bibliography/bibliography.bib
+Repeated entry---line 5313 of file C:/bibliography/bibliography.bib
+ : @article{
+ :          ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "aligocurve" isn't style-file defined
+--line 5845 of file C:/bibliography/bibliography.bib
 Warning--entry type for "Webster2020" isn't style-file defined
 --line 6433 of file C:/bibliography/bibliography.bib
 Warning--entry type for "CDR_BHD" isn't style-file defined
 --line 6471 of file C:/bibliography/bibliography.bib
+Warning--empty journal in Abbott2020
+Warning--empty year in Abbott2020
+Warning--empty journal in Collaboration2020
+Warning--empty year in Collaboration2020
+Warning--empty journal in Abdikamalov2020
+Warning--empty year in Abdikamalov2020
+Warning--empty journal in Zhang2020
+Warning--empty year in Zhang2020
+Warning--empty journal in Collaboration2013
+Warning--empty author and editor in 
+Warning--empty title in 
+Warning--empty publisher in 
+Warning--empty year in 
+Warning--empty journal in Ganapathy2020
+Warning--empty year in Ganapathy2020
+Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry OMC_ligo
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry OMC_ligo
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in Lough2020
+Warning--empty year in Lough2020
+Name 2 in "Barsotti, L. and Gras. S, and Evans, M. and Fritschel, P." has a comma at the end for entry aligocurve
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in Reitze2019
+Warning--empty year in Reitze2019
 Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry Arai2013
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry Arai2013
 while executing---line 944 of file unsrt.bst
 Warning--can't use both author and editor fields in lasers1986
-You've used 15 entries,
+Warning--empty journal in Hall2020
+Warning--empty journal in Schroeter2007
+Warning--empty year in Schroeter2007
+You've used 148 entries,
             1791 wiz_defined-function locations,
-            539 strings with 6382 characters,
-and the built_in function-call counts, 2696 in all, are:
-= -- 189
-> -- 180
+            1291 strings with 46930 characters,
+and the built_in function-call counts, 43338 in all, are:
+= -- 2377
+> -- 4727
 < -- 0
-+ -- 67
-- -- 52
-* -- 161
-:= -- 459
-add.period$ -- 45
-call.type$ -- 15
-change.case$ -- 11
++ -- 1641
+- -- 1493
+* -- 4399
+:= -- 8090
+add.period$ -- 438
+call.type$ -- 148
+change.case$ -- 129
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 97
-empty$ -- 276
-format.name$ -- 52
-if$ -- 582
+cite$ -- 171
+duplicate$ -- 1204
+empty$ -- 2937
+format.name$ -- 1493
+if$ -- 8457
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 6
-newline$ -- 78
-num.names$ -- 15
-pop$ -- 74
+int.to.str$ -- 148
+missing$ -- 123
+newline$ -- 732
+num.names$ -- 149
+pop$ -- 414
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 47
+skip$ -- 487
 stack$ -- 0
-substring$ -- 55
-swap$ -- 16
+substring$ -- 1476
+swap$ -- 142
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 19
-width$ -- 17
-write$ -- 150
-(There were 2 error messages)
+warning$ -- 23
+while$ -- 251
+width$ -- 151
+write$ -- 1537
+(There were 7 error messages)
