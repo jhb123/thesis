@@ -49,15 +49,29 @@ The dark noise of the circuits described in Section \ref{sec:appendix_dark_noise
 \end{figure}
 \section{Transimpedance Amplifier for Making Shot Noise limited Measurements of 10\,mA Photocurrents}
 \label{sec:circuits_appendix_variable_bias_ad797}
-A photodiode circuit which is shot noise limited over a up to several 100\,kHz is shown in Figure \ref{fig:pdchapterqetestcircuit}. A DC bias was created by low-passed bench-top lab power supply. An AC component could be added onto the bias via a summing OP-amp. The FD10D was connected to a transimpedance amplifier that whose electronic noise was below the shot noise level for $\sim10\,\si{\milli\ampere}$ currents. 
+A photodiode circuit with electronic noise $\sim25$ times lower than the shot noise of a 10\,mA current at frequencies between 100\,Hz to several 1\,MHz is shown in Figure \ref{fig:pdchapterqetestcircuit}. Below 100\,Hz, the noise rises as 1/f, and it equals the shot noise of a 10\,mA current at 0.1\,Hz. The noise for this circuit is shown in Figure \ref{fig:pdchapterqetestcircuitnois} and the transfer function is shown in Figure \ref{fig:pdchapterqetestcircuitf}. While Figure \ref{fig:pdchapterqetestcircuit} is specific to the experiment described in Section\ref{sec:pd_chapter_reverse_bias_qe}, the design of the transimpedance part of this circuit (the AD797 and accompanying parts) was also used Chapter \ref{chapter:in_air_MZ}. 
+\paragraph{}
+To avoid oscillations due to unusually large output impedance of the AD797, in similar circuits to one shown in Figure \ref{fig:pdchapterqetestcircuit}, the feedback capacitor may need a resistor in series with it (see \cite[p.14]{AD797}); in this circuit, one was not required. Additionally, if the photodiode is not biased or has a large area, this circuit may oscillate at a frequency between 10\,MHz-100\,MHz due to the capacitance of the photodiode. Every time a version of this circuit was made, an oscilloscope was used to check for such oscillations as LISO does not model this behaviour. 
+\paragraph{}	
+For convenience, the circuit shown in Figure \ref{fig:pdchapterqetestcircuit} allowed for the bias to be externally set. A DC bias was created by low-passed bench-top lab power supply. This low pass filter has two poles at 16\,Hz. An AC component could be added onto the bias via a summing OP-amp.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/PD_chapter_qe_test_circuit}
-	\caption{}
+	\caption{The AD797 stage of the circuit (right) is a transimpedance amplifier for measuring the shot noise of 10\,mA photocurrents. The left hand stage of the circuit is used to provide the bias for the photodiode. One input of this stage is a two pole low-pass filter. A bench-top power supply would be connected to the input of this (V\_BIAS). The other input, (V\_MOD), was used to provide a modulation to the bias voltage.}
 	\label{fig:pdchapterqetestcircuit}
 \end{figure}
-The noise of this circuit is shown in ...
-the transfer function of this circuit is shown in...
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_qe_test_circuit_noise}
+	\caption{LISO simulation of the noise of the circuit shown in Figure \ref{fig:pdchapterqetestcircuit}. }
+	\label{fig:pdchapterqetestcircuitnoise}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Figures/PD_chapter_qe_test_circuit_TF}
+	\caption{LISO simulation of the transfer function of the circuit shown in Figure \ref{fig:pdchapterqetestcircuit}.}
+	\label{fig:pdchapterqetestcircuittf}
+\end{figure}
 \section{Simulations with \textsc{Liso}}
 The behaviour of circuits was simulated using \textsc{Liso}. This software performs a nodal analysis to calculate the voltages at each point within a circuit. \textsc{Liso} can calculate the noise and transfer function of circuits that include op amps. \textsc{Liso} has a wide variety of op amps in its op amp library and this can be easily expanded by specifying the noise properties, open loop gain and gain-bandwidth frequency.
 \section{Transfer Function Calculation With \textsc{Matlab}}
