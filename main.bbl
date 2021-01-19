@@ -1114,17 +1114,10 @@ P.~Fritschel and S.~Hild.
 \newblock {Requirements for the HAM Relay Triple Suspension (HRTS)}.
 \newblock LIGO Document T1800413-v1 \url{https://dcc.ligo.org/LIGO-T1900817}.
 
-\bibitem{l1_finesse_2014}
-C.~Bond, P.~Fulda, A.~Freise, D.~Brown, K.~Kokeyama, L.~Carbone, and
-  A.~Perreca.
-\newblock {Finesse Input Files for the L1 Interferometer}.
-\newblock LIGO Document T1300901-v5 \url{https://dcc.ligo.org/LIGO-T1300901}.
-
-\bibitem{Huddart2019}
-A.~Huddart.
-\newblock {A+ HRTS Preliminary Design Document}.
-\newblock LIGO DCC, February 2019.
-\newblock LIGO Document T1900817-v5 \url{https://dcc.ligo.org/LIGO-T1900817}.
+\bibitem{HRTS_pre_concept}
+R.~Jones K.A.~Strain.
+\newblock Ham relay-optics suspension: pre-conceptual design.
+\newblock LIGO-T1900036-v5 \url{https://dcc.ligo.org/LIGO-T1900036}.
 
 \bibitem{HAM_table_motion}
 B.~Lantz, R.~Mittleman, J.~Kissel, J.~Warner, and A.~Pele.
@@ -1384,5 +1377,11 @@ G.~Billingsley.
 M.~Smith and D.~Coyne.
 \newblock {Advanced LIGO L1 Optical Layout, ZEMAX}.
 \newblock LIGO Document D0902216-v8 \url{https://dcc.ligo.org/LIGO-D0902216}.
+
+\bibitem{l1_finesse_2014}
+C.~Bond, P.~Fulda, A.~Freise, D.~Brown, K.~Kokeyama, L.~Carbone, and
+  A.~Perreca.
+\newblock {Finesse Input Files for the L1 Interferometer}.
+\newblock LIGO Document T1300901-v5 \url{https://dcc.ligo.org/LIGO-T1300901}.
 
 \end{thebibliography}

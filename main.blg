@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
-White space in argument---line 682 of file main.aux
+White space in argument---line 675 of file main.aux
  : \citation{Jans
  :                thesis}
 I'm skipping whatever remains of this command
@@ -59,8 +59,6 @@ Repeated entry---line 3949 of file C:/bibliography/bibliography.bib
  : @article{
  :          ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "Huddart2019" isn't style-file defined
---line 3991 of file C:/bibliography/bibliography.bib
 Warning--entry type for "HRTSrequirement" isn't style-file defined
 --line 4013 of file C:/bibliography/bibliography.bib
 Warning--entry type for "AS_port_beam_parameter" isn't style-file defined
@@ -89,6 +87,8 @@ Warning--entry type for "CDR_BHD" isn't style-file defined
 --line 6471 of file C:/bibliography/bibliography.bib
 Warning--entry type for "BHD_angle_2020" isn't style-file defined
 --line 6483 of file C:/bibliography/bibliography.bib
+Warning--entry type for "HRTS_pre_concept" isn't style-file defined
+--line 6507 of file C:/bibliography/bibliography.bib
 Warning--empty journal in Abbott2020
 Warning--empty year in Abbott2020
 Warning--empty journal in Collaboration2020
@@ -124,16 +124,16 @@ while executing---line 944 of file unsrt.bst
 Warning--can't use both author and editor fields in lasers1986
 You've used 204 entries,
             1791 wiz_defined-function locations,
-            1558 strings with 56812 characters,
-and the built_in function-call counts, 53724 in all, are:
-= -- 3113
+            1558 strings with 56837 characters,
+and the built_in function-call counts, 53707 in all, are:
+= -- 3109
 > -- 5406
 < -- 0
 + -- 1892
 - -- 1688
-* -- 5062
-:= -- 9801
-add.period$ -- 605
+* -- 5059
+:= -- 9797
+add.period$ -- 604
 call.type$ -- 204
 change.case$ -- 180
 chr.to.int$ -- 0
@@ -141,17 +141,17 @@ cite$ -- 227
 duplicate$ -- 1581
 empty$ -- 4012
 format.name$ -- 1688
-if$ -- 10713
+if$ -- 10709
 int.to.chr$ -- 0
 int.to.str$ -- 204
 missing$ -- 146
-newline$ -- 1010
+newline$ -- 1009
 num.names$ -- 203
-pop$ -- 693
+pop$ -- 695
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 663
+skip$ -- 664
 stack$ -- 0
 substring$ -- 1786
 swap$ -- 199
@@ -162,5 +162,5 @@ type$ -- 0
 warning$ -- 23
 while$ -- 329
 width$ -- 207
-write$ -- 2088
+write$ -- 2085
 (There were 8 error messages)
