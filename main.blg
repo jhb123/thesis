@@ -79,6 +79,8 @@ Repeated entry---line 5313 of file C:/bibliography/bibliography.bib
  : @article{
  :          ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "McCuller2020a" isn't style-file defined
+--line 5833 of file C:/bibliography/bibliography.bib
 Warning--entry type for "aligocurve" isn't style-file defined
 --line 5845 of file C:/bibliography/bibliography.bib
 Warning--entry type for "Webster2020" isn't style-file defined
@@ -122,45 +124,45 @@ while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry Arai2013
 while executing---line 944 of file unsrt.bst
 Warning--can't use both author and editor fields in lasers1986
-You've used 204 entries,
+You've used 203 entries,
             1791 wiz_defined-function locations,
-            1558 strings with 56837 characters,
-and the built_in function-call counts, 53707 in all, are:
-= -- 3109
-> -- 5406
+            1553 strings with 56389 characters,
+and the built_in function-call counts, 53308 in all, are:
+= -- 3081
+> -- 5364
 < -- 0
-+ -- 1892
-- -- 1688
-* -- 5059
-:= -- 9797
-add.period$ -- 604
-call.type$ -- 204
-change.case$ -- 180
++ -- 1878
+- -- 1675
+* -- 5007
+:= -- 9721
+add.period$ -- 601
+call.type$ -- 203
+change.case$ -- 179
 chr.to.int$ -- 0
-cite$ -- 227
-duplicate$ -- 1581
-empty$ -- 4012
-format.name$ -- 1688
-if$ -- 10709
+cite$ -- 226
+duplicate$ -- 1570
+empty$ -- 3993
+format.name$ -- 1675
+if$ -- 10634
 int.to.chr$ -- 0
-int.to.str$ -- 204
-missing$ -- 146
-newline$ -- 1009
-num.names$ -- 203
-pop$ -- 695
+int.to.str$ -- 203
+missing$ -- 144
+newline$ -- 1004
+num.names$ -- 202
+pop$ -- 701
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 664
+skip$ -- 659
 stack$ -- 0
-substring$ -- 1786
-swap$ -- 199
+substring$ -- 1761
+swap$ -- 198
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 23
-while$ -- 329
-width$ -- 207
-write$ -- 2085
+while$ -- 327
+width$ -- 206
+write$ -- 2072
 (There were 8 error messages)

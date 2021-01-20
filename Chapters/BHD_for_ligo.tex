@@ -126,11 +126,11 @@ The first step is to express the A+ sensitivity curve in units of $\si{\watt/\sq
 H(f) = \frac{H_0}{1 - if/f_c},
 \label{eq:bhdforligochapter_linear_response_fn}
 \end{equation}
-where $H_0$ is a gain factor, $f$ is the frequency and $f_c$ is the corner frequency of the SRC-arm cavity. For the LIGO detectors, $f_c = 380\,\si{\hertz}$~\cite{Izumi2016}. This linear response function does not include optical spring effects, but these are small and not important for this calculation. $H_0$ can be calculated by dividing the expected level of shot noise, $s_{\rm{A+}}$, by the product of the A+ sensitivity curve (see Figure~\ref{fig:detectorchapterdesignsensitivitycurves}) and $1/(1 - if/f_c) $ at a frequency where the detector will be shot noise limited. The level of shot noise, in units of $\si{\watt/\sqrt{\hertz}}$, is given by
+where $H_0$ is a gain factor, $f$ is the frequency and $f_c$ is the corner frequency of the SRC-arm cavity. For the LIGO detectors, $f_c = 380\,\si{\hertz}$~\cite{Izumi2016}. This linear response function does not include optical spring effects, but these are small and not important for this calculation. $H_0$ can be calculated by dividing the level of shot noise of the local oscillator, $s_{\rm{LO}}$, by the product of the A+ sensitivity curve (see Figure~\ref{fig:detectorchapterdesignsensitivitycurves}) and $1/(1 - if/f_c) $ at a frequency where the detector will be shot noise limited. The level of shot noise, in units of $\si{\watt/\sqrt{\hertz}}$, is given by
 \begin{equation}
-	s_{\rm{A+}} = \sqrt{2h\nu P}\times 10^{-\xi/20},
+	s_{\rm{LO}} = \sqrt{2h\nu P_{\rm{LO}}},
 \end{equation}
-where $h$ is Planck's constant, $\nu$ is the frequency of the light, $P = P_{\rm{LO}} + P_{\rm{sig}}$ is the power of the light that is being detected and $\xi$ is the amount of squeezing in decibels. For A+, $P_{\rm{LO}} = 100\rm{mW}$, $P_{\rm{sig}} = 5\rm{mW}$ and $\xi = 12\,\rm{dB}$. The linear response function is shown in Figure~\ref{fig:bhdforligochapterdetectorrepsonse}. To express the A+ sensitivity curve in units of $\si{\watt/\sqrt{Hz}}$, the sensitivity curve should be divided by the linear response function shown in Figure~\ref{fig:bhdforligochapterdetectorrepsonse}.
+where $h$ is Planck's constant, $\nu$ is the frequency of the light and $P_{\rm{LO}}$ is the power of the oscillator. For A+, $P_{\rm{LO}} = 100\rm{mW}$. The linear response function is shown in Figure~\ref{fig:bhdforligochapterdetectorrepsonse}. To express the A+ sensitivity curve in units of $\si{\watt/\sqrt{Hz}}$, the sensitivity curve should be divided by the linear response function shown in Figure~\ref{fig:bhdforligochapterdetectorrepsonse}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_detector_repsonse}
@@ -146,7 +146,7 @@ and
 \begin{equation}
 P_d = \left|\frac{1}{\sqrt{2}}E_s e^{i\omega t} - \frac{1}{\sqrt{2}}E_{\rm{LO}} e^{i\omega t + \phi}  \right|^2 = \frac{|E_s|^2}{2} + \frac{|E_{\rm{LO}}|^2}{2} - |E_sE^\dagger_{\rm{LO}}|\cos(\phi),
 \end{equation}
-where $E_s$ and $E_{\rm{LO}}$ are the complex field amplitudes of the signal and LO beams; $\omega$ is the laser frequency; $t$ is time and $\phi$ is the homodyne angle. The difference in $P_c$ and $P_d$ signals gives the BHD signal,
+where $E_s$ and $E_{\rm{LO}}$ are the complex field amplitudes of the signal and LO beams; $\omega$ is the laser frequency; $t$ is time and $\phi$ is the homodyne angle. The power of signal beam will be $P_s = 5\,\si{\milli\watt}$. The difference in $P_c$ and $P_d$ signals gives the BHD signal,
 \begin{equation}
 P = 2|E_sE^\dagger_{\rm{LO}}|\cos(\phi).
 \label{eq:classical_bhd}
@@ -164,7 +164,7 @@ Using Equation~(\ref{eq:bhdforligo_interference_at_a_beam_splitter}), the A+ sen
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_phase_noise}
-	\caption{The sensitivity curve for the A+ detectors expressed in units of $\si{\radian_{\rm{rms}}/\sqrt{Hz}}$. At frequencies above 1\,kHz the noise is flat as it is dominated by shot noise. The red line shows the level of shot noise; this is $1.1\times10^{-9}\si{\radian_{\rm{rms}}/\sqrt{\hertz}}$. At lower frequencies, the noise is increased relative to shot noise due to radiation pressure, coating thermal noise and other noise sources. At 5\si{\hertz}, the noise is $2.6\times10^{-9}\si{\radian_{\rm{rms}}/\sqrt{\hertz}}$.}
+	\caption{The sensitivity curve for the A+ detectors expressed in units of $\si{\radian_{\rm{rms}}/\sqrt{Hz}}$. At frequencies above 1\,kHz the noise is flat as it is dominated by shot noise. The red line shows the level of shot noise; this is $4.4\times10^{-9}\,\si{\radian_{\rm{rms}}/\sqrt{\hertz}}$. At lower frequencies, the noise is increased relative to shot noise due to radiation pressure, coating thermal noise and other noise sources. At 5\,\si{\hertz}, the noise is $1\times10^{-4}\,\si{\radian_{\rm{rms}}/\sqrt{\hertz}}$.}
 	\label{fig:bhdforligochapterphasenoise}
 \end{figure}
 \paragraph{}
@@ -172,7 +172,7 @@ To express phase in terms of optical path length, the phase needs to be multipli
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_HRTS_requirement}
-	\caption{The sensitivity curve for A+ sets the limit on how much path length noise is acceptable between the AS and LO beams. The blue line shows sensitivity curve in units of path length noise between the AS and LO beams, and the orange line shows the longitudinal motion requirement for the optics which combine the LO and signal beam. At 5\,Hz, the longitudinal motion requirement for the optics is $1.5\times10^{-13}\si{\metre_{\rm{rms}}/\sqrt{\hertz}}$. The red line shows the level of shot noise; this is $6.7\times10^{-18}\si{\metre_{\rm{rms}}/\sqrt{\hertz}}$.} 
+	\caption{The sensitivity curve for A+ sets the limit on how much path length noise is acceptable between the AS and LO beams. The blue line shows sensitivity curve in units of path length noise between the AS and LO beams, and the orange line shows the longitudinal motion requirement for the optics which combine the LO and signal beam. At 5\,Hz, the longitudinal motion requirement for the optics is $6.3\times10^{-13}\,\si{\metre_{\rm{rms}}/\sqrt{\hertz}}$. The red line shows the level of shot noise; this is $2.6\times10^{-17}\,\si{\metre_{\rm{rms}}/\sqrt{\hertz}}$.} 
 	\label{fig:bhdforligochapterhrtsrequirement}
 \end{figure}
 \begin{figure}[b]
