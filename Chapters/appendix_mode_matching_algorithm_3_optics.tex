@@ -1,8 +1,8 @@
 \label{sec:algorithm_principle}
 To find a mode matching solutions between the SRM and the OMCs which have 45\si{\degree} phase separation for the AWC optics, an algorithm was developed. To visualise how this algorithm works see figures \ref{fig:algorithmsketch} and \ref{fig:opticallayouts}. Since a beam can be described by two parameters, its defocus $S$ and width $w$, the modes can be shown in a 2-D space \cite{Perreca2020} (figure \ref{fig:algorithmsketch}). The action of a lens or curved mirror is to move the mode in the $S$ direction. It is helpful to define a mode continuum along which $w$ and/or $S$ varies. The principle by which this algorithm works is: The continuum of modes after optic 1 and the continuum of modes just before optic 3 can be easily obtained since they must have a defined beam size, so they only vary in defocus. These two continuum are propagated to optic 2, and then its just a case of finding how to move from one continuum to an other.
-\paragraph{}
+\par
 The continua at optic 2 do not necessarily have to have the shape that they are sketched with in figure \ref{fig:algorithmsketch}, however if the blue-green and red-yellow continuum extend far enough they will always wrap around. It is also not guaranteed that every mode in the red-yellow can be reached from the blue-green continuum, and vice versa. Since the mapping between the blue-green and red-yellow continuum is not one to one, there is some choice in you can make. Both `branches' of the continua, where the continuum turns back on itself in the $w$ direction, do not need to be analysed at the same time, but a better solution may be found by looking at different combinations of branches. This is useful in setting a limit on the size of the continuum you search.
-\paragraph{}
+\par
 In our implementation of this algorithm, the continua are actually discrete, which means that when finding a mapping at optic two it is not guaranteed that a mode in the red-yellow continuum will have a corresponding mode of the same with in the blue-green continuum. Because of this granularity, if you were to plot optimal values of optic 2 and optic 3 power as a function of optic 1 power, you would see jumps in the optimal lens choices. This is especially bad around where the turning point in the continua is, since the modes defocus changes quickly while their size does not. 
 \subsection{Method}
 This section delineates the method described in section \ref{sec:algorithm_principle} and can be visualised using figure \ref{fig:algorithmsketch}.
@@ -18,7 +18,7 @@ This section delineates the method described in section \ref{sec:algorithm_princ
 \paragraph{Calculate the difference in optical power mode k and the target mode at optic 3.} Save this power.
 \paragraph{Calculate the Gouy phase separation of optic 2 and optic 3.}
 \paragraph{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si{degree} has been found.}
-\paragraph{}
+\par
 The number of modes that are considered and the range of modes in the continua should be tailored for the optical layout that is being considered. Our problem was with metre scale spacings between optics, and with metre scale Rayleigh lengths. It was found that continua with a range of the order 1-10 dioptres were suitable. This does not mean that an adaptive optic would need this actuation range, rather it allowed for the static radii of curvature for each optic that gives optimal Gouy phase separation between the active mode matching elements to be found. Using this algorithm, we were able to rapidly develop many possible HAM6 layouts. This allows for more time to consider various engineering factors (suspension size and the like) and how to adapt the mirror strengths accordingly to accommodate for small changes in a tentative design. 
 \begin{figure}
 	\centering

@@ -5,9 +5,9 @@ https://www.youtube.com/watch?v=mGdbI24FvXQ&feature=youtu.be
 how to monitor test mass position?
 h/2 ~ delta/L 
 cgs units. 4x10^5cm ~ 1e6cm = arm length
-delta 10^-22*1e6 = 10e-16 cm
+delta L 10^-22*1e6 = 10e-16 cm
 lambda = 10e-4 cm
-challenge: use light to measure delta delta L/ lamdba = 10e-12
+challenge: use light to measure delta L/ lamdba = 10e-12
 ---
 basic concept of IFO. simple maths
 gravitational wave length: f ~100Hz, so lambda_g = c/f = 3e5km.s^-1/100 Hz = 3000 km
@@ -22,7 +22,7 @@ FP cavity, increase the bounces with a statisical factor.
 phase shift:  delta phi = 4pi L/lambda B.h (B = number of bounces, h = strain)
 numerically ~ 10^-9. We need to measure 10^-9 rad !!!
 
-can't store the single for longer due to gravity wavelength.
+can't store the signal for longer due to gravity wavelength.
 
 interferometer changes phase to intensity, can measure this with PD.
 ---
@@ -123,3 +123,105 @@ https://www.youtube.com/watch?v=BkOwOALmP54&feature=youtu.be
 propagator of gaussian beam obtained from huygens principle
 helmholtz kirchoff formula.
 
+
+FSR of LIGO arm cavity is much larger than the frequency of the gravitational wave
+4k arm -> FRS = 37kHz. Frequency of grav wave ~ 100Hz.
+
+width of mode cleaning FSR -> FWHM = FSR/finesse. selects light with right gouy phase.
+mode cleaner filters signal y(t)_out = int_-infty^infty K(t'-t)y(t')dt'
+output is linear in the input.
+
+arm cavity -> measure the phase of the light refelcted from it.
+psi_out = psi_in*exp(i*phi_ref)
+refelcted phase makes a stair case, with the steps at the resonances. 
+highly reflective end mirror, finite reflectivity input mirror.
+The sharp rise -> phi_ref = 4/(1-r^2) 2*k delta L at the step. The 4/(1-r^2) is the bounces factor B.
+----------------------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=p0_yXJpSJQc&feature=youtu.be
+
+Spectral densities.
+has random noise on signal y
+E_x is electric field, and can have noise on phase or amplitude
+I(t) is the intensity. 
+y(t) = E_x or I(t)
+
+Intensity of the light coming to the photodetector.
+Its vairations are caused by the vairations in the light at the beam splitter->interpretted as change in arm length.
+Can infer a gravitational field based on the noise.
+
+I(t) -> h(t), as I(t) has noise, h(t) has noise.
+y(t) = radnom process + signal.
+N.B signals are real.
+the random process->remove the mean (its not time varying).
+
+compute fourier transform:
+
+y~(f) = int_-infty^infty exp(i 2pi f t) y(t) dt
+y(t) = int_-infty^infty exp(-i 2pi f t) y~(f) df
+
+Parsevals theorem: 
+
+int_-infty^infty (y(t))^2 = int_-infty^infty |y~(f)|^2 
+as y(t) is real, y~(f) = - y~(-f)
+we can fold the frequencies
+2*int_0^infty |y~(f)|^2 = int_-infty^infty |y~(f)|^2 
+
+N.B not useful for random process (as the fourier transform would diverge), talk about timescales that are long compared to the frequency of interest.
+i.e. we look at the laser power over an hour. truncate signal, y_T(t):
+
+y_T(t) = 0 for t >  |T/2| or y(t) < |T/2| 
+
+int_-infty^infty (y_T(t))^2 = 2*int_0^infty |y_T~(f)|^2
+
+this is proportional to T. Need to normalise by diving by T.
+
+1/T int_-infty^infty (y_T(t))^2 = 2/T*int_0^infty |y_T~(f)|^2
+
+the LHS is the means. Mean of y vanishes (as it was chosen), so we get the mean square of the oscillation on the LHS.
+RHS tells you what noise at various frequencies you have.
+
+define the RHS quantity that is integrated over -> 2/T |int_-T/2^T/2 exp(i 2pi f t) y(t) dt|^2 = S_y(f)
+
+S_y(f) is the spectral density of the signal y_T
+by parsevals, int_0^infty S_y = means square(y).
+This is a power/Hz.
+over a frequency band, the rms noise is
+delta y = sqrt(S_y(f) delta f)
+
+any linear process can be written as a filter, and by convolution theorem we can study how spectral density changes with filtering.
+
+Photon shot noise
+-----------------
+
+gravity wave signal + noise cairred by light intensity measured by PD.
+
+h(t) -> I(t) is proportional to h(t). theres a filter function that describes the ifo.
+if we know photon shot noise, we can find spectral density of h(t) as we know the filter function of the IFO.
+
+each photon turns to an electron: so,
+
+I(t) consists of pulses caused by photon->electron with duration tau with arival time t_j. tau is small compared to 1/grav wave frequency.
+
+fourier transform of the pulse is long compared t, dies out at 1/tau pulse. Huge compared to grav wave f.
+
+I(t) = sum_j I_j(t-tj)
+first truncate 
+I(t) -> I_T(t)
+take fourier transform
+
+|I_T~(f)|^2 = sum_jk I_j~(f) exp(i2piftj) I_k~(f) exp(-i2piftk)
+different pulses are not correlated, all product where j not k cancel.
+
+|I_T~(f)|^2 = sum_j |I_j~(f)|^2 
+as we are interest at low frequencies near 0.
+|I_T~(f)|^2 = sum_j |I_j~(0)|^2 
+
+I_j~(0) = int(I_y exp(i2pift)dt = energy of one pulse = hbar omega_e
+so the sum is just adding the pulses
+|I_T~(f)|^2 = sum_j |I_j~(0)|^2  = N (hbar omega_e)^2
+
+spectral density -> S_i = 2/T * (N hbar omega_e)^2 , 2/T* N = twice the rate of incoming photons = R
+S_i = 2 R (hbar omega_e)^2
+	= 2 I_0/hbar_omega_e (hbar omega_e)^2
+	= 2I_0 hbar omega_e
+standard result for quantised shots of energy where the pulse duration is short compared to the measurement time.

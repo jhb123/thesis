@@ -7,7 +7,7 @@ A sketch of a Mach-Zehnder interferometer is shown in figure \ref{}. At the seco
 	\caption{}
 	\label{fig:mzchaptermzsketch}
 \end{figure}
-\paragraph{}
+\par
 The power of the light on each photodiode, as the reflectivity, $R$ and transitivity, $T$, of the beamsplitter were measured to both be $0.5\pm0.01$, is
 \begin{align}
 %P_A = E^*_A E_A = \left(\frac{E^*_{LO}}{\sqrt{2}}e^{-i\pi} + \frac{E^*_{sig}}{\sqrt{2}}\right)\left(\frac{E_{\rm{LO}}}{\sqrt{2}}e^{i\pi} + \frac{E_{\rm{sig}}}{\sqrt{2}}\right)\\
@@ -20,7 +20,7 @@ S = P_B-P_A = 2\sqrt{P_{\rm{sig}}P_{\rm{LO}}}\cos\left(\phi\right).
 \label{eq:MZ_chapter_base_equation}
 \end{equation}
 This signal is analogous to the one obtained from a balanced homodyne readout attached to a Michelson interferometer. In another interferometer configuration whose transfer function is $H(f)$, $P_{\rm{sig}}$ would be replaced by $P_{\rm{sig}}/H(f)$.
-\paragraph{}
+\par
 The relationship between optical path length change, $\Delta x$ and a change in power, $\Delta P$, measured by subtracting the Mach-Zehnder's photodiode signals is 
 \begin{equation}
 \Delta z = \frac{\lambda}{2\pi}\frac{1}{2\sqrt{P_{\rm{sig}}P_{\rm{LO}}}}\Delta S.
@@ -34,11 +34,11 @@ The shot noise of a beam with power $P$ is $\Delta S = \sqrt{2\hbar\omega_{\rm{E
 This means that the local oscillators path length stability depends only on the power of the signal beam and the sensitivity of the interferometer will not be affected by the local oscillators power.
 \subsection{Apparatus for the In-Air Mach-Zehnder.}
 The in-air mach-zehnder is shown in Figure \ref{fig:mzchapterinairmz} and Figure \ref{fig:mzchapterinairsketch}. It was constructed from highly stable rigid mounts to reduce the amount of mount-vibration noise. The MZ was mounted on a thick aluminium base-plate which was isolated from the optical table by rubber dampeners. The MZ was acoustically shielded with a plastic box of a few mm thickness. As the beam size within the MZ was suffieicnetly small,  the light power in one arm was attenuated with an ND filter as surface roughness of the ND filter did not matter. One of the corner mirrors in the MZ was glued to a PZT to allow for the length of one of the paths to be controlled. The light that emerged from the MZ was measured with the photodiode circuit shown in Appendix \ref{photodiode circuit.}. The response of this photodiode circuit is flat at all frequencies of interest and is 390\,V/W at DC.
-\paragraph{}
+\par
 A half wave-plate and polarised beam splitter were used to control the power entering the MZ and the polarisation of the light entering the MZ. The input laser power was monitored with a photodiode. A microphone were used to monitor the environmental noise sources.
-\paragraph{}
+\par
 The photodiode signals were recorded with CDS (see Appendix \ref{}). To send signals long distances across the lab, differential send-recieves circuits, constructed with the THAT range of IC, were used to remove common-mode noise that may be picked up along cable. The overall factor which converts the recorded digital signal into a voltage is determined by the number of bits used in the ADC (16), the peak-to-peak voltage that the ADC can record, 20\,V, and the factor of 2 that comes from the differential send-receive circuit: the factor is therefore $20/(2\times65536)$.
-\paragraph{}
+\par
 To keep the measured signal above the digitisation noise inherent to the analogue to digital converters used in CDS,  whitening filters are required. This is a circuit which boosts the AC components of a signal while keeping the DC level of the signal small enough as to not saturate the ADC. A dewhitening filter is a digital filter whose transfer function is the reciprocal of the whitening filter's. In addition to this, CDS features an anti-aliasing filter which will effect measurements that are made near the Nyquist frequency of the ADC. This response of the AA filter can be seen in figure \ref{fig:mzchaptercdsnoise}. CDS noise is shown in figure \ref{fig:mzchaptercdsnoise}. For this photodiode circuit, the level of shot noise due to 20\,mW of light is  $\sim3\times10^{-8}\,\rm{V_{rms}/\sqrt{Hz}}$ and so the whitening filter needs to boost the photodiode signal by a factor of 100.
 \begin{figure}
 	\centering
@@ -46,7 +46,7 @@ To keep the measured signal above the digitisation noise inherent to the analogu
 	\caption{}
 	\label{fig:mzchaptercdsnoise}
 \end{figure}
-\paragraph{}
+\par
 To keep the path length difference between the two arms fixed, a control signal was applied to the PZT. This was implemented with the circuit shown in Figure \ref{}. The servo shaping was a low pass filter with a corner frequency of 1\,Hz. The PZT acts as a low pass filter with a corner frequency that is determined by its capacitance. To prevent oscillations due to the servo being unstable, the overall gain of the servo was controlled with a potentiometer.
 \begin{figure}
 	\centering
@@ -63,11 +63,11 @@ To keep the path length difference between the two arms fixed, a control signal 
 \subsection{Calibration of In-Air Mach-Zehnder}
 The shot noise level can can be found by summing $P_A$ and $P_B$. The power was  measured to be 11\,mW, so shot noise is... \ref{} (\href{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/03/14/sum-and-difference-spectral-densities/}{labbook post with data}).
 %\subsection{Calibration using measurements of $P_{\rm{sig}}$ and $P_{\rm{sig}}$}
-\paragraph{}
+\par
 The Mach-Zehnder can be calibrated by measuring $P_{\rm{sig}}$ and $P_{\rm{LO}}$. The power in the LO path was measured to be 20\,mW (\href{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/03/08/changed-injection-signal-to-mz-hooked-up-mic-and-power-monitor-photodiode/}{LO and Sig power measurement labbook post}), and the power in the lower path before the beam passed through the ND filter was measured to be 17\,mW. After the ND filter (\href{https://arran.physics.gla.ac.uk/wp/qnd-readout/2019/02/13/mz-nd-filter-install-servo-and-sends-saturating/}{ND filter labbook post}), the power would be 0.1\,mW. This is shown in figure \ref{fig:mzchapterinaircalibration}.
-\paragraph{}
+\par
 Alternatively, the Mach-Zehnder can be calibrated by measuring $\Delta S/\Delta z$ by applying a ramp signal to the PZT. The ramp signal and the photodiode signals were recorded on an oscilloscope. The photodiode signals can were then plotted against the measured ramp signal, and data was fit with Equation \ref{eq:MZ_chapter_base_equation}. This is shown in figure \ref{fig:mzchapterinaircalibration}.
-\paragraph{}
+\par
 Although there is a 20\% descrepency between the two calibrations, both methods of calibrating the response of the Mach-Zehnder give consistent results within margin of error determined by the quantisation noise associated with the oscilloscope and the uncertainty of the signal beam's power.
 \begin{figure}
 	\centering
@@ -115,11 +115,11 @@ A mach zehnder was constructed from suspended optics and placed in vacuum; this 
 \end{figure}
 \subsection{Calibration and Locking of the In-Vacuum Mach-Zehnder}
 The differential arm length needed controlling below the suspension main resonance, ~ $\sim1$\,Hz as the optics moved on the order of one wavelength at these frequencies. Due to the design of the of the balanced homodyne readout, there are lots of suspension-related modes that couple to the longitudinal signal at around 30\,Hz. Additionally, the optical bench moved around a large amount due to poor seismic isolation. This meant that the differential arm length noise was at a similar level at $\sim30\,Hz$ as it was at $\sim1\,Hz$. 
-\paragraph{}
+\par
 The suspended mirror was actuated on with a magnet+coil to lock the MZ arm length. The coil acted on a magnet glued to the bottom stage of the pendulum meaning that its strength fell as $1/f^2$ above the suspensions resonance. Thus, the coil would need to drive a large signal at $1$\,Hz, as well as one that was $~1000$ times greater at $\sim30$\,Hz. The magnet+coil strength was limited by geometry, e.g~ the size of the mirror, size of the magnet, size of the coil, amount of current that the coil could have etc., and so was not strong enough to do this. Therefore, the unity gain point needed a large gain at $\sim1$\,Hz while having a unity gain point limited to being below and $10$\,Hz by the suspension/coil driver actuator. To get the required gain, resonant gain filters were implemented in CDS, and to compensate for the phase problems these caused, phase compensation filters were made. \textcolor{red}{more detail?}
-\paragraph{}
+\par
 The transfer function of the servo is shown in Figure \ref{fig:mzchapterflowdiagraminvacuumservo} and a sketch of the servo is shown in Figure \ref{fig:mzchapterflowdiagraminvacuumservo}. The servo consists of five logical blocks: the coil-driven suspended mirror, the `optical transfer function' that represents a change in differential arm length and the power of the recombined beam, the photodiode circuit, the analogue to digital/digital to analogue converters, and the digital filtering. The dewhitening filters were inverses of the whitening filter, and so they have no effect on the shape of the loop. As the transfer function of the suspension was simulated using the model developed in \ref{} and the digital filters just add shaping, to calibrate the loop, the conversion factors for the electronics and optics needed to be measured; this is summarised in table \ref{tab:MZ_chapter_servo_model}. 
-\paragraph{}
+\par
 By injecting and measuring a signal across a `times one' block in the digital part of the servo, as the ratio of the two signals sizes gives the loop gain, the model's calibration was independently verified . This is shown in figure \ref{fig:mzchapterservotransferfunction}. This calibration ties up to within 0.1\,dB. Therefore, the unity gain point of the servo was at 5.5\,Hz with 15\si{\degree} of phase margin. 
 \begin{table}
 	\centering
