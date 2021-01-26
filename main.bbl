@@ -877,6 +877,18 @@ P.~Kwee.
   Interferometry}.
 \newblock PhD thesis, Max Planck Institute for Gravitational Physics, 2010.
 
+\bibitem{ISS_inner_loop_rack}
+C.~Bogan.
+\newblock {Intensity Stabilization Servo Module (inner loop)}.
+\newblock LIGO Document D1001985-v2
+  \url{https://dcc.ligo.org/LIGO-D1001985/public}.
+
+\bibitem{ISS_inner_loop_photodiode}
+P.~Kwee.
+\newblock {aLIGO PSL ISS inner-loop photodiode}.
+\newblock LIGO Document D1001998-v2
+  \url{https://dcc.ligo.org/LIGO-D1001998/public}.
+
 \bibitem{Abbott2001}
 R.~S. Abbott and P.~J. King.
 \newblock Diode-pumped nd:{YAG} laser intensity noise suppression using a
@@ -911,18 +923,6 @@ P.~Horowitz and W.~Hill.
 \newblock {\em The Art of Electronics}.
 \newblock Cambridge University Pr., 2015.
 
-\bibitem{ISS_inner_loop_photodiode}
-P.~Kwee.
-\newblock {aLIGO PSL ISS inner-loop photodiode}.
-\newblock LIGO Document D1001998-v2
-  \url{https://dcc.ligo.org/LIGO-D1001998/public}.
-
-\bibitem{ISS_inner_loop_rack}
-C.~Bogan.
-\newblock {Intensity Stabilization Servo Module (inner loop)}.
-\newblock LIGO Document D1001985-v2
-  \url{https://dcc.ligo.org/LIGO-D1001985/public}.
-
 \bibitem{PSL_pointing_requirement}
 G.~Mueller.
 \newblock {Pointing Requirements for Advanced LIGO}.
@@ -946,6 +946,19 @@ N.~Uehara and K.~Ueda.
   interferometer.
 \newblock {\em Applied Optics}, 34(25):5611, sep 1995.
 
+\bibitem{Tuennermann2011}
+Henrik Tünnermann, Jan~Hendrik Pöld, Jörg Neumann, Dietmar Kracht, Benno
+  Willke, and Peter We{\ss}els.
+\newblock Beam quality and noise properties of coherently combined ytterbium
+  doped single frequency fiber amplifiers.
+\newblock {\em Optics Express}, 19(20):19600, sep 2011.
+
+\bibitem{Wei2016}
+Li-Wei Wei, Fr{\'{e}}d{\'{e}}ric Cleva, and Catherine~Nary Man.
+\newblock Coherently combined master oscillator fiber power amplifiers for
+  advanced virgo.
+\newblock {\em Optics Letters}, 41(24):5817, dec 2016.
+
 \bibitem{LLO_optical_losses_2018}
 V.~Frolov.
 \newblock {DARM Optical Gain and Losses}.
@@ -957,6 +970,11 @@ L.~McCuller.
   by Radiation Pressure}.
 \newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=52718}.
 
+\bibitem{McCuller2020a}
+L.~McCuller.
+\newblock {Squeezing with Mode Mismatch Observations in LIGO }.
+\newblock LIGO Document G2001503-v1 \url{https://dcc.ligo.org/LIGO-G2001503}.
+
 \bibitem{McCuller2020_dcc}
 L.~McCuller.
 \newblock {Frequency Dependent Squeezing effects in the LIGO Intererometers}.
@@ -967,11 +985,6 @@ V.~Frolov.
 \newblock {Arm Cavity Power, Power Recycling Gain, IFO Reflectivity and Arm
   Cavity Losses}.
 \newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=42639}.
-
-\bibitem{SRC_gouy_phase_meas_2018}
-J.~Richardson, M.~Tse, and C.~Austin.
-\newblock {Measurement of SRC Gouy Phase}.
-\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=39779}.
 
 \bibitem{10W_omc_scans_2018}
 C.~Blair.
@@ -1032,6 +1045,11 @@ Daniel~David Brown and Andreas Freise.
 C.~Blair.
 \newblock {PRC Gouy phase measurement}.
 \newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=49409}.
+
+\bibitem{SRC_gouy_phase_meas_2018}
+J.~Richardson, M.~Tse, and C.~Austin.
+\newblock {Measurement of SRC Gouy Phase}.
+\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=39779}.
 
 \bibitem{Stefszky2012}
 M~S Stefszky, C~M Mow-Lowry, S~S~Y Chua, D~A Shaddock, B~C Buchler,
@@ -1128,11 +1146,6 @@ A.~Brookes, L.~Barsotti, G.~Billingsley, K.A. Strain, and M.~Zucker.
 \newblock LIGO DCC, April 2020.
 \newblock E1900385-v1.
 
-\bibitem{McCuller2020a}
-L.~McCuller.
-\newblock {Squeezing with Mode Mismatch Observations in LIGO }.
-\newblock LIGO Document G2001503-v1 \url{https://dcc.ligo.org/LIGO-G2001503}.
-
 \bibitem{SAMS_DesignRequirementsDocument}
 A.~Brookes, P.~Fritschel, F.~Matichard, L.~McCuller, M.~Noh, and C.~Torrie.
 \newblock Sams design requirements document.
@@ -1191,11 +1204,6 @@ Antonio Perreca, Aidan~F. Brooks, Jonathan~W. Richardson, Daniel Töyrä, and
 A.E. Siegman.
 \newblock {\em lasers}.
 \newblock University Science Books, 1986.
-
-\bibitem{Harry2010}
-Gregory~M Harry and the LIGO Scientific~Collaboration.
-\newblock Advanced {LIGO}: the next generation of gravitational wave detectors.
-\newblock {\em Classical and Quantum Gravity}, 27(8):084006, apr 2010.
 
 \bibitem{Schnupp_shot_noise}
 L.~Schnupp.
@@ -1309,11 +1317,33 @@ S.~Forrest.
 \newblock {\em {IEEE} Journal of Quantum Electronics}, 17(2):217--226, feb
   1981.
 
+\bibitem{Vahlbruch_2016}
+Henning Vahlbruch, Moritz Mehmet, Karsten Danzmann, and Roman Schnabel.
+\newblock Detection of 15~{dB} squeezed states of light and their application
+  for the absolute calibration of photoelectric quantum efficiency.
+\newblock {\em Physical Review Letters}, 117(11), sep 2016.
+
 \bibitem{L_pez_2010}
 M.~L{\'{o}}pez, J.~C. Molina, H.~Hofer, A.~Sperling, and S.~Kück.
 \newblock Measurement of the nonlinearity of ge-and {InGaAs}-photodiodes at
   high irradiance levels.
 \newblock {\em {MAPAN}}, 25(1):47--52, mar 2010.
+
+\bibitem{Smith2005}
+J~R Smith, P~Ajith, H~Grote, M~Hewitson, S~Hild, H~Lück, K~A Strain, B~Willke,
+  J~Hough, and K~Danzmann.
+\newblock Linear projection of technical noise for interferometric
+  gravitational-wave detectors.
+\newblock {\em Classical and Quantum Gravity}, 23(2):527--537, dec 2005.
+
+\bibitem{Hodapp2003}
+Klaus~W. Hodapp, Joseph~B. Jensen, Everett~M. Irwin, Hubert Yamada, Randolph
+  Chung, Kent Fletcher, Louis Robertson, Joseph~L. Hora, Douglas~A. Simons,
+  Wendy Mays, Robert Nolan, Matthieu Bec, Michael Merrill, and Albert~M.
+  Fowler.
+\newblock The gemini near-infrared imager ({NIRI}).
+\newblock {\em Publications of the Astronomical Society of the Pacific},
+  115(814):1388--1406, dec 2003.
 
 \bibitem{Beattie1962}
 Alan~R. Beattie.

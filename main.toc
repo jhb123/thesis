@@ -88,72 +88,72 @@
 \contentsline {subsection}{\numberline {7.2.4}The Effect of Misalignment on the Size of a Signal in an Interferometer}{209}{subsection.7.2.4}
 \contentsline {section}{\numberline {7.3}Conclusion}{211}{section.7.3}
 \contentsline {chapter}{\numberline {8}Characterisation of InGaAs Photodiodes for detecting $2\si {\micro \metre }$ Light}{213}{chapter.8}
-\contentsline {section}{\numberline {8.1}Quantum efficiency, Power Handling and Dark Noise Requirements for Photodiodes in a Gravitational Wave detector}{214}{section.8.1}
+\contentsline {section}{\numberline {8.1}Quantum Efficiency, Power Handling and Dark Noise Requirements for Photodiodes in a Gravitational Wave detector}{214}{section.8.1}
 \contentsline {section}{\numberline {8.2}What is an Extended InGaAs Photodiode?}{216}{section.8.2}
 \contentsline {section}{\numberline {8.3}Selection of Off-the-shelf Extended InGaAs Photodiodes}{221}{section.8.3}
-\contentsline {section}{\numberline {8.4}The Effect of Reverse Bias on the Quantum Efficiency of an Extended InGaAs Photodiode}{223}{section.8.4}
+\contentsline {section}{\numberline {8.4}The Effect of Reverse Bias on the Quantum Efficiency of an Extended InGaAs Photodiode}{222}{section.8.4}
 \contentsline {subsection}{\numberline {8.4.1}Method}{223}{subsection.8.4.1}
 \contentsline {subsection}{\numberline {8.4.2}Results}{227}{subsection.8.4.2}
 \contentsline {section}{\numberline {8.5}Dark Current and Dark Noise in Extended\tmspace +\thinmuskip {.1667em}InGaAs Photodiodes}{229}{section.8.5}
 \contentsline {subsection}{\numberline {8.5.1}The Dependence of Dark Noise and Dark Current on Reverse Bias in Extended InGaAs Photodiodes}{232}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}The Dependence of Dark Noise and Dark Current on Temperature in Extended InGaAs Photodiodes}{236}{subsection.8.5.2}
-\contentsline {section}{\numberline {8.6}The Saturation Limit of the IG24x500S4i and IG26x500S4i}{237}{section.8.6}
-\contentsline {section}{\numberline {8.7}Excess Noise in the Photocurrent made by the IG24x500S4i}{239}{section.8.7}
-\contentsline {section}{\numberline {8.8}Measurements of Noise of in an InSb detector}{246}{section.8.8}
-\contentsline {section}{\numberline {8.9}Discussion}{249}{section.8.9}
-\contentsline {section}{\numberline {8.10}Conclusion}{252}{section.8.10}
-\contentsline {chapter}{\numberline {9}Conclusion}{254}{chapter.9}
-\contentsline {chapter}{\numberline {A}Extended InGaAs Diodes Noise Spectra}{255}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bias Section}{255}{section.A.1}
-\contentsline {section}{\numberline {A.2}Temperature Section}{260}{section.A.2}
-\contentsline {section}{\numberline {A.3}InSb}{260}{section.A.3}
-\contentsline {chapter}{\numberline {B}Photodiode Circuits}{265}{appendix.B}
-\contentsline {section}{\numberline {B.1}Transimpedance Amplifier for Measuring the Dark Noise of Photodiodes}{265}{section.B.1}
-\contentsline {paragraph}{}{266}{section*.117}
-\contentsline {paragraph}{}{266}{section*.118}
-\contentsline {paragraph}{}{266}{section*.121}
-\contentsline {subsection}{\numberline {B.1.1}Transfer function}{268}{subsection.B.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Noise measurement}{270}{subsection.B.1.2}
-\contentsline {section}{\numberline {B.2}Transimpedance Amplifier for Making Shot Noise limited Measurements of 10\tmspace +\thinmuskip {.1667em}mA Photocurrents}{270}{section.B.2}
-\contentsline {paragraph}{}{273}{section*.126}
-\contentsline {paragraph}{}{273}{section*.127}
-\contentsline {section}{\numberline {B.3}Simulations with \textsc {Liso}}{273}{section.B.3}
-\contentsline {section}{\numberline {B.4}Transfer Function Calculation With \textsc {Matlab}}{275}{section.B.4}
-\contentsline {chapter}{\numberline {C}\textsc {Finesse} Simulations}{279}{appendix.C}
-\contentsline {section}{\numberline {C.1}Mode Matching the Laser to the Arm Cavity}{279}{section.C.1}
-\contentsline {section}{\numberline {C.2}Interferometer Parameters}{283}{section.C.2}
-\contentsline {subsection}{\numberline {C.2.1}Radii of Curvature of optical components}{283}{subsection.C.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Spacings}{284}{subsection.C.2.2}
-\contentsline {subsection}{\numberline {C.2.3}Nominal Simulation}{286}{subsection.C.2.3}
-\contentsline {section}{\numberline {C.3}\textsc {Finesse} Code}{288}{section.C.3}
-\contentsline {subsection}{\numberline {C.3.1}Michelson Interferometers with Thin Beamsplitter}{288}{subsection.C.3.1}
-\contentsline {subsection}{\numberline {C.3.2}Michelson Interferometers with Thick Beamsplitter}{289}{subsection.C.3.2}
-\contentsline {subsection}{\numberline {C.3.3}Main Simulation}{290}{subsection.C.3.3}
-\contentsline {chapter}{\numberline {D}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{295}{appendix.D}
-\contentsline {subsection}{\numberline {D.0.1}Method}{297}{subsection.D.0.1}
-\contentsline {paragraph}{Define the target mode at the optic 3.}{297}{section*.139}
-\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{297}{section*.140}
-\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{297}{section*.141}
-\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{297}{section*.142}
-\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{297}{section*.143}
-\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{298}{section*.144}
-\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{298}{section*.145}
-\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{298}{section*.146}
-\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{298}{section*.147}
-\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{298}{section*.148}
-\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{298}{section*.149}
-\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{298}{section*.150}
-\contentsline {chapter}{\numberline {E}Mode Matching Between 2 Astigmatic Beams}{302}{appendix.E}
-\contentsline {section}{\numberline {E.1}Derivation of Mode Matching TM00 Beams}{302}{section.E.1}
-\contentsline {section}{\numberline {E.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{306}{section.E.2}
-\contentsline {chapter}{\numberline {F}Light and Gaussian Modes}{308}{appendix.F}
-\contentsline {section}{\numberline {F.1}Plane Waves}{309}{section.F.1}
-\contentsline {section}{\numberline {F.2}Gaussian Modes}{310}{section.F.2}
-\contentsline {section}{\numberline {F.3}The Paraxial Wave Equation}{311}{section.F.3}
-\contentsline {paragraph}{Short intro on what this is}{311}{section*.153}
-\contentsline {section}{\numberline {F.4}The fundamental Gaussian mode}{312}{section.F.4}
-\contentsline {paragraph}{Mode matching integral}{316}{section*.154}
-\contentsline {subsection}{\numberline {F.4.1}Astigmatism}{316}{subsection.F.4.1}
-\contentsline {section}{\numberline {F.5}Gaussian Beams Traversing optical Layouts}{317}{section.F.5}
-\contentsline {section}{\numberline {F.6}Higher Order Modes and optical imperfections}{318}{section.F.6}
-\contentsline {section}{\numberline {F.7}Concluding remarks}{323}{section.F.7}
+\contentsline {subsection}{\numberline {8.5.2}The Dependence of Dark Noise and Dark Current on Temperature in Extended InGaAs Photodiodes}{237}{subsection.8.5.2}
+\contentsline {section}{\numberline {8.6}The Saturation Limit of the IG22x1000S4i, IG24x500S4i and IG26x500S4i}{238}{section.8.6}
+\contentsline {section}{\numberline {8.7}Excess Noise in the Photocurrent made by the IG24x500S4i}{240}{section.8.7}
+\contentsline {section}{\numberline {8.8}Noise Properties of an InSb Detector}{248}{section.8.8}
+\contentsline {section}{\numberline {8.9}Discussion}{251}{section.8.9}
+\contentsline {section}{\numberline {8.10}Conclusion}{254}{section.8.10}
+\contentsline {chapter}{\numberline {9}Conclusion}{256}{chapter.9}
+\contentsline {chapter}{\numberline {A}Extended InGaAs Diodes Noise Spectra}{257}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bias Section}{257}{section.A.1}
+\contentsline {section}{\numberline {A.2}Temperature Section}{262}{section.A.2}
+\contentsline {section}{\numberline {A.3}InSb}{262}{section.A.3}
+\contentsline {chapter}{\numberline {B}Photodiode Circuits}{267}{appendix.B}
+\contentsline {section}{\numberline {B.1}Transimpedance Amplifier for Measuring the Dark Noise of Photodiodes}{267}{section.B.1}
+\contentsline {paragraph}{}{268}{section*.117}
+\contentsline {paragraph}{}{268}{section*.118}
+\contentsline {paragraph}{}{268}{section*.121}
+\contentsline {subsection}{\numberline {B.1.1}Transfer function}{270}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Noise measurement}{272}{subsection.B.1.2}
+\contentsline {section}{\numberline {B.2}Transimpedance Amplifier for Making Shot Noise limited Measurements of 10\tmspace +\thinmuskip {.1667em}mA Photocurrents}{272}{section.B.2}
+\contentsline {paragraph}{}{275}{section*.126}
+\contentsline {paragraph}{}{275}{section*.127}
+\contentsline {section}{\numberline {B.3}Simulations with \textsc {Liso}}{275}{section.B.3}
+\contentsline {section}{\numberline {B.4}Transfer Function Calculation With \textsc {Matlab}}{277}{section.B.4}
+\contentsline {chapter}{\numberline {C}\textsc {Finesse} Simulations}{281}{appendix.C}
+\contentsline {section}{\numberline {C.1}Mode Matching the Laser to the Arm Cavity}{281}{section.C.1}
+\contentsline {section}{\numberline {C.2}Interferometer Parameters}{285}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Radii of Curvature of optical components}{285}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Spacings}{286}{subsection.C.2.2}
+\contentsline {subsection}{\numberline {C.2.3}Nominal Simulation}{288}{subsection.C.2.3}
+\contentsline {section}{\numberline {C.3}\textsc {Finesse} Code}{290}{section.C.3}
+\contentsline {subsection}{\numberline {C.3.1}Michelson Interferometers with Thin Beamsplitter}{290}{subsection.C.3.1}
+\contentsline {subsection}{\numberline {C.3.2}Michelson Interferometers with Thick Beamsplitter}{291}{subsection.C.3.2}
+\contentsline {subsection}{\numberline {C.3.3}Main Simulation}{292}{subsection.C.3.3}
+\contentsline {chapter}{\numberline {D}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{297}{appendix.D}
+\contentsline {subsection}{\numberline {D.0.1}Method}{299}{subsection.D.0.1}
+\contentsline {paragraph}{Define the target mode at the optic 3.}{299}{section*.139}
+\contentsline {paragraph}{Define a set of modes which share the same beam size as the target mode at optic 3 but have varying radii of curvature.}{299}{section*.140}
+\contentsline {paragraph}{Propagate the set of modes defined at optic 3 back to the optic 2.}{299}{section*.141}
+\contentsline {paragraph}{Define the initial beam parameter and propagate this to optic 1.}{299}{section*.142}
+\contentsline {paragraph}{Define a set of modes that have the same beam size as the initial beam at optic 1 but differ in defocus.}{299}{section*.143}
+\contentsline {paragraph}{Propagate the modes defined at the optic 1 to optic 2.}{300}{section*.144}
+\contentsline {paragraph}{Calculate the difference in optical power between mode i and a mode in the blue-green continuum (e.g. mode j).}{300}{section*.145}
+\contentsline {paragraph}{Find a mode in the red-yellow continuum which is closest in size to mode j, call this mode k.}{300}{section*.146}
+\contentsline {paragraph}{Calculate the difference in optical power between mode j and mode k at optic 2.}{300}{section*.147}
+\contentsline {paragraph}{Calculate the difference in optical power mode k and the target mode at optic 3.}{300}{section*.148}
+\contentsline {paragraph}{Calculate the Gouy phase separation of optic 2 and optic 3.}{300}{section*.149}
+\contentsline {paragraph}{Repeat for every mode in the blue-green continuum, or until a gouy phase separation of 45\si {degree} has been found.}{300}{section*.150}
+\contentsline {chapter}{\numberline {E}Mode Matching Between 2 Astigmatic Beams}{304}{appendix.E}
+\contentsline {section}{\numberline {E.1}Derivation of Mode Matching TM00 Beams}{304}{section.E.1}
+\contentsline {section}{\numberline {E.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{308}{section.E.2}
+\contentsline {chapter}{\numberline {F}Light and Gaussian Modes}{310}{appendix.F}
+\contentsline {section}{\numberline {F.1}Plane Waves}{311}{section.F.1}
+\contentsline {section}{\numberline {F.2}Gaussian Modes}{312}{section.F.2}
+\contentsline {section}{\numberline {F.3}The Paraxial Wave Equation}{313}{section.F.3}
+\contentsline {paragraph}{Short intro on what this is}{313}{section*.153}
+\contentsline {section}{\numberline {F.4}The fundamental Gaussian mode}{314}{section.F.4}
+\contentsline {paragraph}{Mode matching integral}{318}{section*.154}
+\contentsline {subsection}{\numberline {F.4.1}Astigmatism}{318}{subsection.F.4.1}
+\contentsline {section}{\numberline {F.5}Gaussian Beams Traversing optical Layouts}{319}{section.F.5}
+\contentsline {section}{\numberline {F.6}Higher Order Modes and optical imperfections}{320}{section.F.6}
+\contentsline {section}{\numberline {F.7}Concluding remarks}{325}{section.F.7}

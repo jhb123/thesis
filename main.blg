@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
-White space in argument---line 675 of file main.aux
+White space in argument---line 527 of file main.aux
  : \citation{Jans
  :                thesis}
 I'm skipping whatever remains of this command
@@ -91,6 +91,10 @@ Warning--entry type for "BHD_angle_2020" isn't style-file defined
 --line 6483 of file C:/bibliography/bibliography.bib
 Warning--entry type for "HRTS_pre_concept" isn't style-file defined
 --line 6507 of file C:/bibliography/bibliography.bib
+Repeated entry---line 6545 of file C:/bibliography/bibliography.bib
+ : @conference{
+ :             ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Abbott2020
 Warning--empty year in Abbott2020
 Warning--empty journal in Collaboration2020
@@ -110,6 +114,7 @@ Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry OMC_ligo
 while executing---line 944 of file unsrt.bst
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty journal in Lough2020
 Warning--empty year in Lough2020
 Name 2 in "Barsotti, L. and Gras. S, and Evans, M. and Fritschel, P." has a comma at the end for entry aligocurve
@@ -124,45 +129,45 @@ while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry Arai2013
 while executing---line 944 of file unsrt.bst
 Warning--can't use both author and editor fields in lasers1986
-You've used 203 entries,
+You've used 207 entries,
             1791 wiz_defined-function locations,
-            1553 strings with 56389 characters,
-and the built_in function-call counts, 53308 in all, are:
-= -- 3081
-> -- 5364
+            1576 strings with 57529 characters,
+and the built_in function-call counts, 54512 in all, are:
+= -- 3160
+> -- 5477
 < -- 0
-+ -- 1878
-- -- 1675
-* -- 5007
-:= -- 9721
-add.period$ -- 601
-call.type$ -- 203
-change.case$ -- 179
++ -- 1917
+- -- 1710
+* -- 5137
+:= -- 9938
+add.period$ -- 613
+call.type$ -- 207
+change.case$ -- 183
 chr.to.int$ -- 0
-cite$ -- 226
-duplicate$ -- 1570
-empty$ -- 3993
-format.name$ -- 1675
-if$ -- 10634
+cite$ -- 230
+duplicate$ -- 1605
+empty$ -- 4078
+format.name$ -- 1710
+if$ -- 10872
 int.to.chr$ -- 0
-int.to.str$ -- 203
-missing$ -- 144
-newline$ -- 1004
-num.names$ -- 202
-pop$ -- 701
+int.to.str$ -- 207
+missing$ -- 148
+newline$ -- 1024
+num.names$ -- 206
+pop$ -- 705
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 659
+skip$ -- 671
 stack$ -- 0
-substring$ -- 1761
-swap$ -- 198
+substring$ -- 1826
+swap$ -- 202
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 23
-while$ -- 327
-width$ -- 206
-write$ -- 2072
-(There were 8 error messages)
+while$ -- 336
+width$ -- 210
+write$ -- 2116
+(There were 9 error messages)
