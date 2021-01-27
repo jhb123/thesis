@@ -129,45 +129,45 @@ while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry Arai2013
 while executing---line 944 of file unsrt.bst
 Warning--can't use both author and editor fields in lasers1986
-You've used 207 entries,
+You've used 213 entries,
             1791 wiz_defined-function locations,
-            1576 strings with 57529 characters,
-and the built_in function-call counts, 54512 in all, are:
-= -- 3160
-> -- 5477
+            1596 strings with 58054 characters,
+and the built_in function-call counts, 55221 in all, are:
+= -- 3213
+> -- 5498
 < -- 0
-+ -- 1917
-- -- 1710
-* -- 5137
-:= -- 9938
-add.period$ -- 613
-call.type$ -- 207
-change.case$ -- 183
++ -- 1928
+- -- 1715
+* -- 5148
+:= -- 10039
+add.period$ -- 629
+call.type$ -- 213
+change.case$ -- 188
 chr.to.int$ -- 0
-cite$ -- 230
-duplicate$ -- 1605
-empty$ -- 4078
-format.name$ -- 1710
-if$ -- 10872
+cite$ -- 236
+duplicate$ -- 1636
+empty$ -- 4181
+format.name$ -- 1715
+if$ -- 11039
 int.to.chr$ -- 0
-int.to.str$ -- 207
+int.to.str$ -- 213
 missing$ -- 148
-newline$ -- 1024
-num.names$ -- 206
-pop$ -- 705
+newline$ -- 1052
+num.names$ -- 211
+pop$ -- 745
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 671
+skip$ -- 690
 stack$ -- 0
 substring$ -- 1826
-swap$ -- 202
+swap$ -- 208
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 23
-while$ -- 336
-width$ -- 210
-write$ -- 2116
+while$ -- 341
+width$ -- 216
+write$ -- 2169
 (There were 9 error messages)
