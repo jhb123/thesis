@@ -48,7 +48,6 @@
 
 \captionsetup{font=doublespacing}
 \doublespacing
-\setlength{\parskip}{2em}
 \setcounter{secnumdepth}{3}
 
 \graphicspath{ {Figures/} }
@@ -66,17 +65,18 @@
 \maketitle
 \tableofcontents
 
+\setlength{\parskip}{2em}
 \chapter*{Status of Thesis}
 Note: red = pre first edit, orange = pre second edit and beyond, green = ready to send to Harry
 \begin{itemize}
 	\item \textcolor{red}{Introduction Chapter (\ref{chapter:Introduction}): Not started. Will write last/almost last}
-	\item \textcolor{green}{IFO Chapter (\ref{chapter:Gravitational_wave_interferometers}): Made first set of Ken's edits.}
-	\item \textcolor{green}{PSL Chapter (\ref{chapter:TnT_lab_work}): Done?}
-	\item \textcolor{orange}{BHD Chapter (\ref{chapter:BHD_for_ligo_1}): Editing resulted in this chapter being almost completely rewritten.}
-	\item \textcolor{orange}{BHD Chapter (\ref{chapter:BHD_for_ligo_2}): Edited, need more comments.}
-	\item \textcolor{orange}{SRM beam parameter Chapter (\ref{chapter:simulation_finesse}): Needs basic grammar check, all structure and style changes have been made}
-	\item \textcolor{red}{MZ chapter Chapter (\ref{chapter:in_vac_MZ}): Not written, vaguely planned}
-	\item \textcolor{orange}{Photodiode Chapter (\ref{chapter:2um_photoiode_chapter}): Need to finish adding references.}
+	\item \textcolor{green}{IFO Chapter (\ref{chapter:Gravitational_wave_interferometers})}
+	\item \textcolor{green}{PSL Chapter (\ref{chapter:TnT_lab_work})}
+	\item \textcolor{green}{SRM beam parameter Chapter (\ref{chapter:simulation_finesse})}
+	\item \textcolor{green}{BHD Chapter (\ref{chapter:BHD_for_ligo_1}): Note, editing resulted in this chapter being almost completely rewritten.}
+	\item \textcolor{green}{Layout of HAM6 Chapter (\ref{chapter:BHD_for_ligo_2})}
+	\item \textcolor{red}{MZ chapter Chapter (\ref{chapter:in_air_MZ}): Not written, vaguely planned}
+	\item \textcolor{green}{Photodiode Chapter (\ref{chapter:2um_photoiode_chapter})}
 	\item \textcolor{red}{Conclusion Chapter (\ref{chapter:Conclusion}): Not started. Will write last/almost last}
 \end{itemize}
 %\chapter*{Dedication}
@@ -117,6 +117,9 @@ Note: red = pre first edit, orange = pre second edit and beyond, green = ready t
 \input{Chapters/appendix_cooled_diodes_dark_noise}
 \chapter{Photodiode Circuits}
 \input{Chapters/appendix_circuits}
+\chapter{CDS}
+\label{app:CDS}
+\input{Chapters/appendix_CDS}
 \chapter{\textsc{Finesse} Simulations} 
 \label{app:appendix_to_SRC_finesse_investigation}
 \input{Chapters/appendix_to_SRC_finesse_investigation}

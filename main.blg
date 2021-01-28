@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
-White space in argument---line 527 of file main.aux
+White space in argument---line 528 of file main.aux
  : \citation{Jans
  :                thesis}
 I'm skipping whatever remains of this command
@@ -129,45 +129,45 @@ while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Koji Arai, Sam Barnum, Peter Fritschel, Jeff Lewis, Sam Waldman" for entry Arai2013
 while executing---line 944 of file unsrt.bst
 Warning--can't use both author and editor fields in lasers1986
-You've used 213 entries,
+You've used 214 entries,
             1791 wiz_defined-function locations,
-            1596 strings with 58054 characters,
-and the built_in function-call counts, 55221 in all, are:
-= -- 3213
-> -- 5498
+            1601 strings with 58515 characters,
+and the built_in function-call counts, 55561 in all, are:
+= -- 3226
+> -- 5548
 < -- 0
-+ -- 1928
-- -- 1715
-* -- 5148
-:= -- 10039
-add.period$ -- 629
-call.type$ -- 213
-change.case$ -- 188
++ -- 1945
+- -- 1731
+* -- 5188
+:= -- 10109
+add.period$ -- 632
+call.type$ -- 214
+change.case$ -- 189
 chr.to.int$ -- 0
-cite$ -- 236
-duplicate$ -- 1636
-empty$ -- 4181
-format.name$ -- 1715
-if$ -- 11039
+cite$ -- 237
+duplicate$ -- 1644
+empty$ -- 4196
+format.name$ -- 1731
+if$ -- 11101
 int.to.chr$ -- 0
-int.to.str$ -- 213
-missing$ -- 148
-newline$ -- 1052
-num.names$ -- 211
-pop$ -- 745
+int.to.str$ -- 214
+missing$ -- 149
+newline$ -- 1057
+num.names$ -- 212
+pop$ -- 746
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 690
+skip$ -- 694
 stack$ -- 0
 substring$ -- 1826
-swap$ -- 208
+swap$ -- 209
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 23
-while$ -- 341
-width$ -- 216
-write$ -- 2169
+while$ -- 342
+width$ -- 217
+write$ -- 2180
 (There were 9 error messages)
