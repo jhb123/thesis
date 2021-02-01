@@ -1,147 +1,146 @@
-\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}
-\contentsline {chapter}{\numberline {2}The Fundamentals of Gravitational Wave Interferometers}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}
-\contentsline {section}{\numberline {2.2}The Astrophysical Origins of Gravitational Waves}{13}{section.2.2}
-\contentsline {section}{\numberline {2.3}Measuring Gravitational Waves with an Interferometer}{15}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Using Fabry-Perot Cavities in the Arms of a Michelson Interferometer to Enhance Its Sensitivity}{18}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Sources of Noise in Gravitational Wave Interferometers.}{20}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Laser Power and Shot Noise}{22}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Using Power Recycling to Reduce Shot Noise}{25}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Using Signal Recycling to Shape Quantum noise}{25}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Reducing Shot Noise by Removing Junk Light with a Mode Cleaner Cavity.}{27}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Radiation Pressure Noise and the Standard Quantum Limit}{28}{subsection.2.4.5}
-\contentsline {subsection}{\numberline {2.4.6}Coating Thermal Noise and Other Noise Sources}{29}{subsection.2.4.6}
-\contentsline {section}{\numberline {2.5}Reducing Shot Noise with Non-Classical States of Light}{30}{section.2.5}
-\contentsline {section}{\numberline {2.6}Interferometry Techniques to Beat Quantum Limits}{32}{section.2.6}
-\contentsline {section}{\numberline {2.7}The Effect Losses Have on Measuring Quantum States of Light}{34}{section.2.7}
-\contentsline {section}{\numberline {2.8}Photodiodes}{35}{section.2.8}
-\contentsline {section}{\numberline {2.9}Overview of the LIGO Detectors}{37}{section.2.9}
-\contentsline {section}{\numberline {2.10}The Future of Ground Based Gravitational Wave Detectors}{39}{section.2.10}
-\contentsline {section}{\numberline {2.11}Conclusion}{40}{section.2.11}
-\contentsline {chapter}{\numberline {3}A Prototype High Power Laser for LIGO's Fourth Observation Run}{42}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{42}{section.3.1}
-\contentsline {section}{\numberline {3.2}Concept for LIGO's New Laser}{45}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Non-Planar Ring Oscillators}{46}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The neoVAN-4S-HP Solid-State Amplifier}{46}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}The Pre Mode Cleaner Cavity}{47}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Layout of the Prototype Laser System}{47}{section.3.3}
-\contentsline {section}{\numberline {3.4}The Power Transmitted by the PMC}{55}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}The Effect of Cooling on the Amplifier's Power and Beam Quality}{57}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Amplifier Alignment Procedure}{59}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Intensity Stabilisation of a 100\tmspace +\thinmuskip {.1667em}\si {\watt } Beam}{64}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}The Concept and Requirements for Intensity Stabilisation Servo}{64}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Free Running Noise of the Prototype Laser}{65}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Power Control Actuators}{68}{subsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.3.1}Acousto-Optic Modulator}{70}{subsubsection.3.5.3.1}
-\contentsline {subsubsection}{\numberline {3.5.3.2}Current Shunt}{71}{subsubsection.3.5.3.2}
-\contentsline {subsubsection}{\numberline {3.5.3.3}The Reason for Choosing the AOM Instead of the Current Shunt}{76}{subsubsection.3.5.3.3}
-\contentsline {subsection}{\numberline {3.5.4}Open Loop Transfer Function of the Intensity Stabilisation Servo}{76}{subsection.3.5.4}
-\contentsline {subsubsection}{\numberline {3.5.4.1}Model of the Open-Loop Transfer Function}{80}{subsubsection.3.5.4.1}
-\contentsline {subsection}{\numberline {3.5.5}Measurement of the Intensity Stabilisation of a 100\tmspace +\thinmuskip {.1667em}\si {\watt } Beam to the Inner Loop Requirement}{80}{subsection.3.5.5}
-\contentsline {section}{\numberline {3.6}Pointing Noise of the Beam Entering the PMC}{82}{section.3.6}
-\contentsline {section}{\numberline {3.7}Free Running Frequency Noise of the Prototype Laser System}{84}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Calibrating the Mixer Signal, the PZT and Modelling the Open Loop Transfer Function for Locking the PMC}{88}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Frequency Noise Measurement}{94}{subsection.3.7.2}
-\contentsline {section}{\numberline {3.8}Conclusion}{95}{section.3.8}
-\contentsline {chapter}{\numberline {4}Junk Light Generated by the Signal Recycling Cavity}{99}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{99}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Mode Matching the Arm Cavities, the SRC, and the OMC}{101}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Losses due to Mode Mismatch}{102}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Measurements of the Mode Matching Between the Arm Cavities and the OMC at the LLO Detector Between 2018-2019.}{103}{section.4.2}
-\contentsline {section}{\numberline {4.3}Modelling Interferometers With Mode Mismatches Using \textsc {Finesse}}{107}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Thin and Thick Beam Splitters}{109}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Modelling of a Michelson Interferometer With Fabry-Perot Arm Cavities and a Signal Recycling Cavity}{113}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Determining Tunings for DC readout}{117}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}The Beam Parameter of the Arm Mode at the SRM}{121}{section.4.5}
-\contentsline {section}{\numberline {4.6}Power Transmitted Through the SRM for a Mode Mismatch Between the Arm Cavity and the SRC}{131}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Change of finesse of SRC}{135}{subsection.4.6.1}
-\contentsline {section}{\numberline {4.7}Conclusion}{136}{section.4.7}
-\contentsline {chapter}{\numberline {5}Balanced Homodyne Detection for LIGO A+}{139}{chapter.5}
-\contentsline {section}{\numberline {5.1}The Principles of and Motivations for Balanced Homodyne Detection}{140}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Alternatives to BHD}{142}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Quantum Mechanical Description of BHD}{143}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Other Motivations for Implementing BHD in LIGO A+}{145}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}The Local Oscillator Path}{146}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}The Local Oscillator Path Length Stability Requirement}{147}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Conclusion}{154}{section.5.3}
-\contentsline {chapter}{\numberline {6}Design of the LIGO A+ HAM6 Layout}{156}{chapter.6}
-\contentsline {section}{\numberline {6.1}The Chosen HAM6 Optical Layout}{157}{section.6.1}
-\contentsline {section}{\numberline {6.2}The Requirements for the Optical Layout Within HAM6}{165}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Fixed properties of the HAM6 Optical Layout}{168}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Visualisations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{169}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}A Description of Mode-Matching in Terms of HG Modes}{170}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Calculating Mode-Matching Using The Gaussian Beam Parameter}{171}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}WS Space Visualisations}{172}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{175}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Optimising WS Space Coverage in Favour of Expected Mode Errors}{179}{subsection.6.3.5}
-\contentsline {section}{\numberline {6.4}Conclusion}{183}{section.6.4}
-\contentsline {chapter}{\numberline {7}An Experimental Demonstration of the Relationship between the Shot Noise of Light and the Motion of a Mirror in an Interferometer}{184}{chapter.7}
-\contentsline {section}{\numberline {7.1}Shot Noise in a Mach-Zehnder Interferometer}{185}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Apparatus for the In-Air Mach-Zehnder.}{186}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Calibration}{192}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Measurement of Shot Noise}{192}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Noise in an In-Vacuum Mach-Zehnder Interferometer and the Effect of Misalignment the Local Oscillator and Signal Beam}{194}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Apparatus for the In-Vacuum Mach-Zehnder}{196}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Calibration and Locking of the In-Vacuum Mach-Zehnder}{196}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Measurement of the Differential Arm Signal}{203}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}The Effect of Misalignment on the Size of a Signal in an Interferometer}{203}{subsection.7.2.4}
-\contentsline {section}{\numberline {7.3}Conclusion}{205}{section.7.3}
-\contentsline {chapter}{\numberline {8}Characterisation of InGaAs Photodiodes for detecting $2\si {\micro \metre }$ Light}{208}{chapter.8}
-\contentsline {section}{\numberline {8.1}Quantum Efficiency, Power Handling and Dark Noise Requirements for Photodiodes in a Gravitational Wave detector}{209}{section.8.1}
-\contentsline {section}{\numberline {8.2}What is an Extended InGaAs Photodiode?}{211}{section.8.2}
-\contentsline {section}{\numberline {8.3}Selection of Off-the-shelf Extended InGaAs Photodiodes}{216}{section.8.3}
-\contentsline {section}{\numberline {8.4}The Effect of Reverse Bias on the Quantum Efficiency of an Extended InGaAs Photodiode}{217}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Method}{218}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Results}{222}{subsection.8.4.2}
-\contentsline {section}{\numberline {8.5}Dark Current and Dark Noise in Extended\tmspace +\thinmuskip {.1667em}InGaAs Photodiodes}{224}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}The Dependence of Dark Noise and Dark Current on Reverse Bias in Extended InGaAs Photodiodes}{227}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}The Dependence of Dark Noise and Dark Current on Temperature in Extended InGaAs Photodiodes}{232}{subsection.8.5.2}
-\contentsline {section}{\numberline {8.6}The Saturation Limit of the IG22x1000S4i, IG24x500S4i and IG26x500S4i}{233}{section.8.6}
-\contentsline {section}{\numberline {8.7}Excess Noise in the Photocurrent made by the IG24x500S4i}{235}{section.8.7}
-\contentsline {section}{\numberline {8.8}Noise Properties of an InSb Detector}{243}{section.8.8}
-\contentsline {section}{\numberline {8.9}Discussion}{246}{section.8.9}
-\contentsline {section}{\numberline {8.10}Conclusion}{249}{section.8.10}
-\contentsline {chapter}{\numberline {9}Conclusion}{251}{chapter.9}
-\contentsline {chapter}{\numberline {A}Dark Noise Spectra of Photodiodes}{252}{appendix.A}
-\contentsline {section}{\numberline {A.1}Dark Noise as a Function of Reverse Bias}{252}{section.A.1}
-\contentsline {section}{\numberline {A.2}Dark Noise as a Function of Temperature}{257}{section.A.2}
-\contentsline {section}{\numberline {A.3}Noise of a photocurrent Generated by an InSb Detector as a Function of Bias}{261}{section.A.3}
-\contentsline {chapter}{\numberline {B}Photodiode Circuits}{263}{appendix.B}
-\contentsline {section}{\numberline {B.1}Transimpedance Amplifier for Measuring the Dark Noise of Photodiodes}{263}{section.B.1}
-\contentsline {paragraph}{}{264}{section*.117}
-\contentsline {paragraph}{}{264}{section*.118}
-\contentsline {paragraph}{}{264}{section*.121}
-\contentsline {subsection}{\numberline {B.1.1}Transfer function}{266}{subsection.B.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Noise measurement}{268}{subsection.B.1.2}
-\contentsline {section}{\numberline {B.2}Transimpedance Amplifier for Making Shot Noise limited Measurements of 10\tmspace +\thinmuskip {.1667em}mA Photocurrents}{268}{section.B.2}
-\contentsline {paragraph}{}{271}{section*.126}
-\contentsline {paragraph}{}{271}{section*.127}
-\contentsline {section}{\numberline {B.3}Simulations with \textsc {Liso}}{271}{section.B.3}
-\contentsline {section}{\numberline {B.4}Transfer Function Calculation With \textsc {Matlab}}{273}{section.B.4}
-\contentsline {chapter}{\numberline {C}CDS}{277}{appendix.C}
-\contentsline {chapter}{\numberline {D}\textsc {Finesse} Simulations}{279}{appendix.D}
-\contentsline {section}{\numberline {D.1}Mode Matching the Laser to the Arm Cavity}{279}{section.D.1}
-\contentsline {section}{\numberline {D.2}Interferometer Parameters}{283}{section.D.2}
-\contentsline {subsection}{\numberline {D.2.1}Radii of Curvature of optical components}{283}{subsection.D.2.1}
-\contentsline {subsection}{\numberline {D.2.2}Spacings}{284}{subsection.D.2.2}
-\contentsline {subsection}{\numberline {D.2.3}Nominal Simulation}{286}{subsection.D.2.3}
-\contentsline {section}{\numberline {D.3}\textsc {Finesse} Code}{288}{section.D.3}
-\contentsline {subsection}{\numberline {D.3.1}Michelson Interferometers with Thin Beamsplitter}{288}{subsection.D.3.1}
-\contentsline {subsection}{\numberline {D.3.2}Michelson Interferometers with Thick Beamsplitter}{289}{subsection.D.3.2}
-\contentsline {subsection}{\numberline {D.3.3}Main Simulation}{290}{subsection.D.3.3}
-\contentsline {chapter}{\numberline {E}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{295}{appendix.E}
-\contentsline {section}{\numberline {E.1}Method}{297}{section.E.1}
-\contentsline {chapter}{\numberline {F}Mode Matching Between 2 Astigmatic Beams}{301}{appendix.F}
-\contentsline {section}{\numberline {F.1}Derivation of Mode Matching TM00 Beams}{301}{section.F.1}
-\contentsline {section}{\numberline {F.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{305}{section.F.2}
-\contentsline {chapter}{\numberline {G}Light and Gaussian Modes}{307}{appendix.G}
-\contentsline {section}{\numberline {G.1}Plane Waves}{308}{section.G.1}
-\contentsline {section}{\numberline {G.2}Gaussian Modes}{309}{section.G.2}
-\contentsline {section}{\numberline {G.3}The Paraxial Wave Equation}{310}{section.G.3}
-\contentsline {paragraph}{Short intro on what this is}{310}{section*.142}
-\contentsline {section}{\numberline {G.4}The fundamental Gaussian mode}{311}{section.G.4}
-\contentsline {paragraph}{Mode matching integral}{315}{section*.143}
-\contentsline {subsection}{\numberline {G.4.1}Astigmatism}{315}{subsection.G.4.1}
-\contentsline {section}{\numberline {G.5}Gaussian Beams Traversing optical Layouts}{316}{section.G.5}
-\contentsline {section}{\numberline {G.6}Higher Order Modes and optical imperfections}{317}{section.G.6}
-\contentsline {section}{\numberline {G.7}Concluding remarks}{322}{section.G.7}
+\contentsline {chapter}{\numberline {1}The Fundamentals of Gravitational Wave Interferometers}{14}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{14}{section.1.1}
+\contentsline {section}{\numberline {1.2}The Astrophysical Origins of Gravitational Waves}{15}{section.1.2}
+\contentsline {section}{\numberline {1.3}Measuring Gravitational Waves with an Interferometer}{17}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Using Fabry-Perot Cavities in the Arms of a Michelson Interferometer to Enhance Its Sensitivity}{20}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.4}Sources of Noise in Gravitational Wave Interferometers.}{22}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Laser Power and Shot Noise}{24}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Using Power Recycling to Reduce Shot Noise}{27}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Using Signal Recycling to Shape Quantum noise}{27}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}Reducing Shot Noise by Removing Junk Light with a Mode Cleaner Cavity.}{29}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.5}Radiation Pressure Noise and the Standard Quantum Limit}{30}{subsection.1.4.5}
+\contentsline {subsection}{\numberline {1.4.6}Coating Thermal Noise and Other Noise Sources}{31}{subsection.1.4.6}
+\contentsline {section}{\numberline {1.5}Reducing Shot Noise with Non-Classical States of Light}{32}{section.1.5}
+\contentsline {section}{\numberline {1.6}Interferometry Techniques to Beat Quantum Limits}{34}{section.1.6}
+\contentsline {section}{\numberline {1.7}The Effect Losses Have on Measuring Quantum States of Light}{36}{section.1.7}
+\contentsline {section}{\numberline {1.8}Photodiodes}{37}{section.1.8}
+\contentsline {section}{\numberline {1.9}Overview of the LIGO Detectors}{39}{section.1.9}
+\contentsline {section}{\numberline {1.10}The Future of Ground Based Gravitational Wave Detectors}{41}{section.1.10}
+\contentsline {section}{\numberline {1.11}Conclusion}{42}{section.1.11}
+\contentsline {chapter}{\numberline {2}A Prototype High Power Laser for LIGO's Fourth Observation Run}{44}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{44}{section.2.1}
+\contentsline {section}{\numberline {2.2}Concept for LIGO's New Laser}{47}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Non-Planar Ring Oscillators}{48}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The neoVAN-4S-HP Solid-State Amplifier}{48}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The Pre Mode Cleaner Cavity}{49}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Layout of the Prototype Laser System}{49}{section.2.3}
+\contentsline {section}{\numberline {2.4}The Power Transmitted by the PMC}{57}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}The Effect of Cooling on the Amplifier's Power and Beam Quality}{59}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Amplifier Alignment Procedure}{61}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Intensity Stabilisation of a 100\tmspace +\thinmuskip {.1667em}\si {\watt } Beam}{66}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}The Concept and Requirements for Intensity Stabilisation Servo}{66}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Free Running Noise of the Prototype Laser}{67}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Power Control Actuators}{70}{subsection.2.5.3}
+\contentsline {subsubsection}{\numberline {2.5.3.1}Acousto-Optic Modulator}{72}{subsubsection.2.5.3.1}
+\contentsline {subsubsection}{\numberline {2.5.3.2}Current Shunt}{73}{subsubsection.2.5.3.2}
+\contentsline {subsubsection}{\numberline {2.5.3.3}The Reason for Choosing the AOM Instead of the Current Shunt}{78}{subsubsection.2.5.3.3}
+\contentsline {subsection}{\numberline {2.5.4}Open Loop Transfer Function of the Intensity Stabilisation Servo}{78}{subsection.2.5.4}
+\contentsline {subsubsection}{\numberline {2.5.4.1}Model of the Open-Loop Transfer Function}{82}{subsubsection.2.5.4.1}
+\contentsline {subsection}{\numberline {2.5.5}Measurement of the Intensity Stabilisation of a 100\tmspace +\thinmuskip {.1667em}\si {\watt } Beam to the Inner Loop Requirement}{82}{subsection.2.5.5}
+\contentsline {section}{\numberline {2.6}Pointing Noise of the Beam Entering the PMC}{84}{section.2.6}
+\contentsline {section}{\numberline {2.7}Free Running Frequency Noise of the Prototype Laser System}{86}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Calibrating the Mixer Signal, the PZT and Modelling the Open Loop Transfer Function for Locking the PMC}{90}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Frequency Noise Measurement}{96}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Conclusion}{97}{section.2.8}
+\contentsline {chapter}{\numberline {3}Junk Light Generated by the Signal Recycling Cavity}{101}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{101}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Mode Matching the Arm Cavities, the SRC, and the OMC}{103}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Losses due to Mode Mismatch}{104}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Measurements of the Mode Matching Between the Arm Cavities and the OMC at the LLO Detector Between 2018-2019.}{105}{section.3.2}
+\contentsline {section}{\numberline {3.3}Modelling Interferometers With Mode Mismatches Using \textsc {Finesse}}{109}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Thin and Thick Beam Splitters}{111}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Modelling of a Michelson Interferometer With Fabry-Perot Arm Cavities and a Signal Recycling Cavity}{115}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Determining Tunings for DC readout}{119}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}The Beam Parameter of the Arm Mode at the SRM}{123}{section.3.5}
+\contentsline {section}{\numberline {3.6}Power Transmitted Through the SRM for a Mode Mismatch Between the Arm Cavity and the SRC}{133}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Change of finesse of SRC}{137}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.7}Conclusion}{138}{section.3.7}
+\contentsline {chapter}{\numberline {4}Balanced Homodyne Detection for LIGO A+}{141}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Principles of and Motivations for Balanced Homodyne Detection}{142}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Alternatives to BHD}{144}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Quantum Mechanical Description of BHD}{145}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Other Motivations for Implementing BHD in LIGO A+}{147}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}The Local Oscillator Path}{148}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}The Local Oscillator Path Length Stability Requirement}{149}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Conclusion}{156}{section.4.3}
+\contentsline {chapter}{\numberline {5}Design of the LIGO A+ HAM6 Layout}{158}{chapter.5}
+\contentsline {section}{\numberline {5.1}The Chosen HAM6 Optical Layout}{159}{section.5.1}
+\contentsline {section}{\numberline {5.2}The Requirements for the Optical Layout Within HAM6}{167}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Fixed properties of the HAM6 Optical Layout}{170}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Visualisations of the Robustness of the A+ HAM6 Layout to Mode Mismatch}{171}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}A Description of Mode-Matching in Terms of HG Modes}{172}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Calculating Mode-Matching Using The Gaussian Beam Parameter}{173}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}WS Space Visualisations}{174}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Visualising how Active Mode-Matching Optics Expand the Area of WS Space Representing Acceptable Input Modes}{177}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Optimising WS Space Coverage in Favour of Expected Mode Errors}{181}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Conclusion}{185}{section.5.4}
+\contentsline {chapter}{\numberline {6}Characterisation of InGaAs Photodiodes for detecting $2\si {\micro \metre }$ Light}{186}{chapter.6}
+\contentsline {section}{\numberline {6.1}Quantum Efficiency, Power Handling and Dark Noise Requirements for Photodiodes in a Gravitational Wave detector}{187}{section.6.1}
+\contentsline {section}{\numberline {6.2}What is an Extended InGaAs Photodiode?}{189}{section.6.2}
+\contentsline {section}{\numberline {6.3}Selection of Off-the-shelf Extended InGaAs Photodiodes}{194}{section.6.3}
+\contentsline {section}{\numberline {6.4}The Effect of Reverse Bias on the Quantum Efficiency of an Extended InGaAs Photodiode}{195}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Method}{196}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Results}{200}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Dark Current and Dark Noise in Extended\tmspace +\thinmuskip {.1667em}InGaAs Photodiodes}{202}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}The Dependence of Dark Noise and Dark Current on Reverse Bias in Extended InGaAs Photodiodes}{205}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}The Dependence of Dark Noise and Dark Current on Temperature in Extended InGaAs Photodiodes}{210}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}The Saturation Limit of the IG22x1000S4i,\\ IG24x500S4i and IG26x500S4i}{211}{section.6.6}
+\contentsline {section}{\numberline {6.7}Excess Noise in the Photocurrent made by the IG24x500S4i}{213}{section.6.7}
+\contentsline {section}{\numberline {6.8}Noise Properties of an InSb Detector}{221}{section.6.8}
+\contentsline {section}{\numberline {6.9}Discussion}{224}{section.6.9}
+\contentsline {section}{\numberline {6.10}Conclusion}{227}{section.6.10}
+\contentsline {chapter}{\numberline {7}An Experimental Demonstration of the Relationship between the Shot Noise of Light and the Motion of a Mirror in an Interferometer}{229}{chapter.7}
+\contentsline {section}{\numberline {7.1}Shot Noise in a Mach-Zehnder Interferometer}{230}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Apparatus for the In-Air Mach-Zehnder.}{231}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Calibration}{237}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Measurement of Shot Noise}{237}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Noise in an In-Vacuum Mach-Zehnder Interferometer and the Effect of Misalignment the Local Oscillator and Signal Beam}{239}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Apparatus for the In-Vacuum Mach-Zehnder}{241}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Calibration and Locking of the In-Vacuum Mach-Zehnder}{241}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Measurement of the Differential Arm Signal}{248}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}The Effect of Misalignment on the Size of a Signal in an Interferometer}{248}{subsection.7.2.4}
+\contentsline {section}{\numberline {7.3}Conclusion}{250}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusion}{253}{chapter.8}
+\contentsline {chapter}{\numberline {A}Dark Noise Spectra of Photodiodes}{254}{appendix.A}
+\contentsline {section}{\numberline {A.1}Dark Noise as a Function of Reverse Bias}{254}{section.A.1}
+\contentsline {section}{\numberline {A.2}Dark Noise as a Function of Temperature}{259}{section.A.2}
+\contentsline {section}{\numberline {A.3}Noise of a photocurrent Generated by an InSb Detector as a Function of Bias}{263}{section.A.3}
+\contentsline {chapter}{\numberline {B}Photodiode Circuits}{265}{appendix.B}
+\contentsline {section}{\numberline {B.1}Transimpedance Amplifier for Measuring the Dark Noise of Photodiodes}{265}{section.B.1}
+\contentsline {paragraph}{}{266}{section*.117}
+\contentsline {paragraph}{}{266}{section*.118}
+\contentsline {paragraph}{}{266}{section*.121}
+\contentsline {subsection}{\numberline {B.1.1}Transfer function}{268}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Noise measurement}{270}{subsection.B.1.2}
+\contentsline {section}{\numberline {B.2}Transimpedance Amplifier for Making Shot Noise limited Measurements of 10\tmspace +\thinmuskip {.1667em}mA Photocurrents}{270}{section.B.2}
+\contentsline {paragraph}{}{273}{section*.126}
+\contentsline {paragraph}{}{273}{section*.127}
+\contentsline {section}{\numberline {B.3}Simulations with \textsc {Liso}}{273}{section.B.3}
+\contentsline {section}{\numberline {B.4}Transfer Function Calculation With \textsc {Matlab}}{275}{section.B.4}
+\contentsline {chapter}{\numberline {C}CDS}{279}{appendix.C}
+\contentsline {chapter}{\numberline {D}\textsc {Finesse} Simulations}{281}{appendix.D}
+\contentsline {section}{\numberline {D.1}Mode Matching the Laser to the Arm Cavity}{281}{section.D.1}
+\contentsline {section}{\numberline {D.2}Interferometer Parameters}{285}{section.D.2}
+\contentsline {subsection}{\numberline {D.2.1}Radii of Curvature of optical components}{285}{subsection.D.2.1}
+\contentsline {subsection}{\numberline {D.2.2}Spacings}{286}{subsection.D.2.2}
+\contentsline {subsection}{\numberline {D.2.3}Nominal Simulation}{288}{subsection.D.2.3}
+\contentsline {section}{\numberline {D.3}\textsc {Finesse} Code}{290}{section.D.3}
+\contentsline {subsection}{\numberline {D.3.1}Michelson Interferometers with Thin Beamsplitter}{290}{subsection.D.3.1}
+\contentsline {subsection}{\numberline {D.3.2}Michelson Interferometers with Thick Beamsplitter}{291}{subsection.D.3.2}
+\contentsline {subsection}{\numberline {D.3.3}Main Simulation}{292}{subsection.D.3.3}
+\contentsline {chapter}{\numberline {E}Algorithm For Finding a Three Optic Solution with 45\si {\degree } Gouy Phase Separation between two of the Optics}{297}{appendix.E}
+\contentsline {section}{\numberline {E.1}Method}{299}{section.E.1}
+\contentsline {chapter}{\numberline {F}Mode Matching Between 2 Astigmatic Beams}{303}{appendix.F}
+\contentsline {section}{\numberline {F.1}Derivation of Mode Matching TM00 Beams}{303}{section.F.1}
+\contentsline {section}{\numberline {F.2}Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}{307}{section.F.2}
+\contentsline {chapter}{\numberline {G}Light and Gaussian Modes}{309}{appendix.G}
+\contentsline {section}{\numberline {G.1}Plane Waves}{310}{section.G.1}
+\contentsline {section}{\numberline {G.2}Gaussian Modes}{311}{section.G.2}
+\contentsline {section}{\numberline {G.3}The Paraxial Wave Equation}{312}{section.G.3}
+\contentsline {paragraph}{Short intro on what this is}{312}{section*.142}
+\contentsline {section}{\numberline {G.4}The fundamental Gaussian mode}{313}{section.G.4}
+\contentsline {paragraph}{Mode matching integral}{317}{section*.143}
+\contentsline {subsection}{\numberline {G.4.1}Astigmatism}{317}{subsection.G.4.1}
+\contentsline {section}{\numberline {G.5}Gaussian Beams Traversing optical Layouts}{318}{section.G.5}
+\contentsline {section}{\numberline {G.6}Higher Order Modes and optical imperfections}{319}{section.G.6}
+\contentsline {section}{\numberline {G.7}Concluding remarks}{324}{section.G.7}
