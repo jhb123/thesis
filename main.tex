@@ -1,4 +1,4 @@
-\documentclass[12pt,twoside]{report}
+\documentclass[12pt,twoside, openright]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -54,7 +54,8 @@
 \bibliographystyle{unsrt}
 
 \title{
-	{Title}\\
+	{Working title: Upgrades to the Hardware Required for Lowering the Quantum Noise of Gravitational Wave Detectors}\\
+%	{}\\
 	{\large University of Glasgow}\\
 	{\includegraphics[width=0.5\textwidth]{GlaLogo}}
 }
@@ -64,12 +65,20 @@
 \begin{document}
 \maketitle
 \setlength{\parskip}{2em}
+%\frontmatter
 \chapter*{Abstract}
-\label{chapter:Introduction}
-\input{Chapters/Introduction}
+\input{Chapters/abstract}
+\chapter*{Acknowledgements}
+\input{Chapters/Acknowledgements}
+\chapter*{Declaration}
+\input{Chapters/Declaration}
 \setlength{\parskip}{0.2em}
 \tableofcontents
 \setlength{\parskip}{2em}
+%\mainmatter
+\chapter{Introduction}
+\label{chapter:Introduction}
+\input{Chapters/Introduction}
 \chapter{The Fundamentals of Gravitational Wave Interferometers}
 \label{chapter:Gravitational_wave_interferometers}
 \input{Chapters/Gravitational_Wave_Interferometers}
@@ -96,6 +105,7 @@
 %\label{chapter:InSb_photoiode_chapter}
 \chapter{Conclusion}
 \label{chapter:Conclusion}
+\input{Chapters/conculsion}
 \appendix
 \chapter{Dark Noise Spectra of Photodiodes}
 \input{Chapters/appendix_cooled_diodes_dark_noise}

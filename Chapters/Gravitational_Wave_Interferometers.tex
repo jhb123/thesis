@@ -44,14 +44,14 @@ Interferometers are sensitive to arm length changes that are on the order of one
 \end{equation}
 $\Delta \phi$ is known as the \emph{differential phase}, and differential effects result in the light acquiring differential phase. The wavelength current interferometers operate with, $\lambda_{\rm{EM}} = 1064\,\si{\nano\meter}$, was selected because test masses with low noise and mirror coatings with low loss and low thermal noise can be fabricated for this wavelength~\cite{Harry2006}.
 \par
-The gravitational wave strain is converted into intensity fluctuations of light at the \emph{antisymmetric} (AS) port due to the two light fields from the arms interfering at the beam splitter (see Figure~\ref{fig:detectorchaptersimplelayout}). When on the \emph{dark fringe}, there is a small amount of light at the AS port for the signal light to beat with and so the variation in the intensity of the light depends linearly on the gravitational wave strain. The interferometer is set to operate on the dark fringe by introducing a small static differential offset, $\phi_0$, in the arm lengths. This technique is known as DC readout~\cite{Hild2009,Fricke2012}. At the beam splitter, the electric field, $\Psi_{\rm{AS}}$, emerging from the AS port due to the interference of the beams returning from the ETMs, $\Psi_{\rm{y}}$ and $\Psi_{\rm{x}}$, due to a differential phase, $\Delta\phi = \phi_0 + \frac{4\pi}{\lambda_{\rm{EM}}} Lh$, is
+The gravitational wave strain is converted into intensity fluctuations of light at the \emph{antisymmetric} (AS) port due to the two light fields from the arms interfering at the beam splitter (see Figure~\ref{fig:detectorchaptersimplelayout}). When on the \emph{dark fringe}, there is a small amount of light at the AS port for the signal light to beat with and so the variation in the intensity of the light depends linearly on the gravitational wave strain. The interferometer is set to operate on the dark fringe by introducing a small static differential offset, $\phi_0$, in the arm lengths. This technique is known as DC readout~\cite{Hild2009,Fricke2012}. At the beam splitter, the electric field, $E_{\rm{AS}}$, emerging from the AS port due to the interference of the beams returning from the ETMs, $E_{\rm{y}}$ and $E_{\rm{x}}$, due to a differential phase, $\Delta\phi = \phi_0 + \frac{4\pi}{\lambda_{\rm{EM}}} Lh$, is
 \begin{align}
-\Psi_{\rm{AS}} &= \frac{\Psi_{\rm{y}}}{\sqrt{2}} - \frac{\Psi_{\rm{x}}}{\sqrt{2}}, \\
+E_{\rm{AS}} &= \frac{E_{\rm{y}}}{\sqrt{2}} - \frac{E_{\rm{x}}}{\sqrt{2}}, \\
 & = \sqrt{\frac{I_0}{2}} \left( \frac{e^{ i\Delta\phi/2 }}{\sqrt{2}} -  \frac{e^{ -i\Delta\phi/2 }}{\sqrt{2}} \right),
 \end{align}
 where $I_0$ is the power of the beam injected into the beam splitter by the laser. The intensity of the beam at the AS port, $I_{\rm{AS}}$, is 
 \begin{align}
-I_{\rm{AS}} & =\Psi_{\rm{AS}}^*\Psi_{\rm{AS}},\\
+I_{\rm{AS}} & =E_{\rm{AS}}^*E_{\rm{AS}},\\
 % &\simeq I_0\phi_0^2 + 2I_0\phi_0\Delta\phi,\\
  &\simeq \frac{I_0\phi_0^2}{4} +\frac{I_0\phi_0}{2}\frac{4\pi}{\lambda_{\rm{EM}}} Lh .
  \label{eq:dector_chapter_AS_port_light}
