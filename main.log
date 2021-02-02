@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  2 FEB 2021 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  2 FEB 2021 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3839,8 +3839,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [264]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [265])
-[266]
+ [265]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [266])
+[267] [268
+
+]
 Appendix A.
 (./Chapters/appendix_cooled_diodes_dark_noise.tex
 Package epstopdf Info: Source file: <Figures/PD_appendix_ig24_dark_noise_rt.eps
@@ -3855,7 +3860,7 @@ Package epstopdf Info: Source file: <Figures/PD_appendix_ig24_dark_noise_rt.eps
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig24_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf, id=5422, pagebox=
+<Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf, id=5430, pagebox=
 cropbox, 497.86pt x 258.9675pt>
 File: Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3876,7 +3881,7 @@ Package epstopdf Info: Source file: <Figures/PD_appendix_ig26_dark_noise_rt.eps
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig26_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf, id=5423, pagebox=
+<Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf, id=5431, pagebox=
 cropbox, 497.86pt x 263.98625pt>
 File: Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3897,7 +3902,7 @@ Package epstopdf Info: Source file: <Figures/PD_appendix_ig22_dark_noise_rt.eps
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig22_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf, id=5424, pagebox=
+<Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf, id=5432, pagebox=
 cropbox, 497.86pt x 263.98625pt>
 File: Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3919,7 +3924,7 @@ _rt-eps-converted-to.pdf>
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf, id=5425, p
+<Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf, id=5433, p
 agebox=cropbox, 497.86pt x 257.96375pt>
 File: Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3941,7 +3946,7 @@ _rt-eps-converted-to.pdf>
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf, id=5426, p
+<Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf, id=5434, p
 agebox=cropbox, 497.86pt x 263.98625pt>
 File: Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3963,7 +3968,7 @@ _rt-eps-converted-to.pdf>
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf, id=5427, p
+<Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf, id=5435, p
 agebox=cropbox, 497.86pt x 263.98625pt>
 File: Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3985,7 +3990,7 @@ _rt-eps-converted-to.pdf>
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf, id=5428, p
+<Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf, id=5436, p
 agebox=cropbox, 497.86pt x 263.98625pt>
 File: Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -3994,15 +3999,13 @@ Package pdftex.def Info: Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-conv
 erted-to.pdf  used on input line 43. on input line 43.
 Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
 e 43.
- [267
-
-] [268 <./Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf> <./Figur
-es/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf>] [269 <./Figures/PD_app
-endix_ig22_dark_noise_rt-eps-converted-to.pdf> <./Figures/PD_appendix_g12183-01
-0k_dark_noise_rt-eps-converted-to.pdf>] [270 <./Figures/PD_appendix_g12183-005k
-_dark_noise_rt-eps-converted-to.pdf> <./Figures/PD_appendix_g12182-010k_dark_no
-ise_rt-eps-converted-to.pdf>] [271 <./Figures/PD_appendix_g12182-005k_dark_nois
-e_rt-eps-converted-to.pdf>]
+ [269] [270 <./Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf> <./
+Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf>] [271 <./Figures/P
+D_appendix_ig22_dark_noise_rt-eps-converted-to.pdf> <./Figures/PD_appendix_g121
+83-010k_dark_noise_rt-eps-converted-to.pdf>] [272 <./Figures/PD_appendix_g12183
+-005k_dark_noise_rt-eps-converted-to.pdf> <./Figures/PD_appendix_g12182-010k_da
+rk_noise_rt-eps-converted-to.pdf>] [273 <./Figures/PD_appendix_g12182-005k_dark
+_noise_rt-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/PD_appendix_FD10D_temperature_nois
 e_current.eps>
 (epstopdf)                    date: 2020-12-14 17:06:22
@@ -4017,7 +4020,7 @@ ature_noise_current.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf, id=5
-492, pagebox=cropbox, 497.86pt x 263.98625pt>
+501, pagebox=cropbox, 497.86pt x 263.98625pt>
 File: Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf>
@@ -4039,7 +4042,7 @@ _noise_current-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to.pdf,
- id=5493, pagebox=cropbox, 489.83pt x 263.98625pt>
+ id=5502, pagebox=cropbox, 489.83pt x 263.98625pt>
 File: Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to.
@@ -4062,7 +4065,7 @@ _noise_current-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to.pdf,
- id=5494, pagebox=cropbox, 489.83pt x 263.98625pt>
+ id=5503, pagebox=cropbox, 489.83pt x 263.98625pt>
 File: Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to.
@@ -4085,7 +4088,7 @@ _noise_current-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to.pdf,
- id=5495, pagebox=cropbox, 489.83pt x 263.98625pt>
+ id=5504, pagebox=cropbox, 489.83pt x 263.98625pt>
 File: Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to.
@@ -4108,7 +4111,7 @@ _noise_current-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to.pdf,
- id=5496, pagebox=cropbox, 489.83pt x 257.96375pt>
+ id=5505, pagebox=cropbox, 489.83pt x 257.96375pt>
 File: Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to.
@@ -4130,8 +4133,8 @@ emperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_IG24_temperat
 ure_noise_current.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf, id=54
-97, pagebox=cropbox, 489.83pt x 263.98625pt>
+<Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf, id=55
+06, pagebox=cropbox, 489.83pt x 263.98625pt>
 File: Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf>
@@ -4152,8 +4155,8 @@ emperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_IG26_temperat
 ure_noise_current.eps>
 (epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf, id=54
-98, pagebox=cropbox, 489.83pt x 263.98625pt>
+<Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf, id=55
+07, pagebox=cropbox, 489.83pt x 263.98625pt>
 File: Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf>
@@ -4161,14 +4164,14 @@ Package pdftex.def Info: Figures/PD_appendix_IG26_temperature_noise_current-eps
 -converted-to.pdf  used on input line 89. on input line 89.
 Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
 e 89.
- [272
+ [274
 
  <./Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf>] 
-[273 <./Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-
+[275 <./Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-
 to.pdf> <./Figures/PD_appendix_g12183005k_temperature_noise_current-eps-convert
-ed-to.pdf>] [274 <./Figures/PD_appendix_g12182010k_temperature_noise_current-ep
+ed-to.pdf>] [276 <./Figures/PD_appendix_g12182010k_temperature_noise_current-ep
 s-converted-to.pdf> <./Figures/PD_appendix_g12182005k_temperature_noise_current
--eps-converted-to.pdf>] [275 <./Figures/PD_appendix_IG24_temperature_noise_curr
+-eps-converted-to.pdf>] [277 <./Figures/PD_appendix_IG24_temperature_noise_curr
 ent-eps-converted-to.pdf> <./Figures/PD_appendix_IG26_temperature_noise_current
 -eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/PD_chapter_insb_noise_as_function_
@@ -4184,8 +4187,8 @@ ise_as_function_of_bias-eps-converted-to.pdf Figures/PD_chapter_insb_noise_as_f
 unction_of_bias.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf, id=555
-7, pagebox=cropbox, 489.83pt x 258.9675pt>
+<Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf, id=556
+6, pagebox=cropbox, 489.83pt x 258.9675pt>
 File: Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf>
@@ -4193,18 +4196,18 @@ Package pdftex.def Info: Figures/PD_chapter_insb_noise_as_function_of_bias-eps-
 converted-to.pdf  used on input line 98. on input line 98.
 Package pdftex.def Info: Requested size: 426.79135pt x 225.64366pt on input lin
 e 98.
-) [276
+) [278
 
-] [277 <./Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pd
-f>] [278
+] [279 <./Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pd
+f>] [280
 
 ]
 Appendix B.
 (./Chapters/appendix_circuits.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [279]
-<Figures/Circuit_appendix_dark_noise_test_box_1.png, id=5583, 204.95772pt x 94.
+ [281]
+<Figures/Circuit_appendix_dark_noise_test_box_1.png, id=5591, 204.95772pt x 94.
 24008pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_1.png Graphic file (type png
 )
@@ -4213,7 +4216,7 @@ Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_1.png  us
 ed on input line 10. on input line 10.
 Package pdftex.def Info: Requested size: 298.75264pt x 137.37941pt on input lin
 e 10.
-<Figures/Circuit_appendix_dark_noise_test_box_2.png, id=5584, 384.7173pt x 180.
+<Figures/Circuit_appendix_dark_noise_test_box_2.png, id=5592, 384.7173pt x 180.
 1932pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_2.png Graphic file (type png
 )
@@ -4222,7 +4225,7 @@ Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_2.png  us
 ed on input line 16. on input line 16.
 Package pdftex.def Info: Requested size: 426.79135pt x 199.91232pt on input lin
 e 16.
-<Figures/Circuit_appendix_dark_noise_test_box_3.png, id=5589, 357.88104pt x 114
+<Figures/Circuit_appendix_dark_noise_test_box_3.png, id=5597, 357.88104pt x 114
 .9093pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_3.png Graphic file (type png
 )
@@ -4242,7 +4245,7 @@ nverted-to.pdf>
 oss_check-eps-converted-to.pdf Figures/PD_chapter_bias_cross_check.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf, id=5592, pagebox=cro
+<Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf, id=5600, pagebox=cro
 pbox, 428.60126pt x 258.9675pt>
 File: Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4265,7 +4268,7 @@ mpedance_amplifier_TF.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf, id=
-5603, pagebox=cropbox, 420.57124pt x 362.35374pt>
+5611, pagebox=cropbox, 420.57124pt x 362.35374pt>
 File: Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf>
@@ -4277,8 +4280,8 @@ e 38.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [280]
-[281 <./Figures/Circuit_appendix_dark_noise_test_box_1.png (PNG copy)> <./Figur
+ [282]
+[283 <./Figures/Circuit_appendix_dark_noise_test_box_1.png (PNG copy)> <./Figur
 es/Circuit_appendix_dark_noise_test_box_2.png (PNG copy)>]
 Package epstopdf Info: Source file: <Figures/Circuit_appendix_dark_noise_box_no
 ise.eps>
@@ -4293,7 +4296,7 @@ ark_noise_box_noise-eps-converted-to.pdf Figures/Circuit_appendix_dark_noise_bo
 x_noise.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf, id=5628, p
+<Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf, id=5637, p
 agebox=cropbox, 492.84125pt x 263.98625pt>
 File: Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -4305,8 +4308,8 @@ e 46.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [282 <./Figures/Circuit_appendix_dark_noise_test_box_3.png (PNG copy)>] [283 <
-./Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>] [284 <./Figures/Ci
+ [284 <./Figures/Circuit_appendix_dark_noise_test_box_3.png (PNG copy)>] [285 <
+./Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>] [286 <./Figures/Ci
 rcuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf>]
 Overfull \hbox (16.164pt too wide) in paragraph at lines 50--50
 []\T1/cmr/bx/n/17.28 Transimpedance Am-pli-fier for Mak-ing Shot Noise
@@ -4320,8 +4323,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [285 <./Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>]
-<Figures/PD_chapter_qe_test_circuit.png, id=5680, 346.75146pt x 118.5228pt>
+ [287 <./Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>]
+<Figures/PD_chapter_qe_test_circuit.png, id=5688, 346.75146pt x 118.5228pt>
 File: Figures/PD_chapter_qe_test_circuit.png Graphic file (type png)
 <use Figures/PD_chapter_qe_test_circuit.png>
 Package pdftex.def Info: Figures/PD_chapter_qe_test_circuit.png  used on input 
@@ -4341,7 +4344,7 @@ _circuit_noise-eps-converted-to.pdf Figures/PD_chapter_qe_test_circuit_noise.ep
 s>
 (epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf, id=5681, pagebo
+<Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf, id=5689, pagebo
 x=cropbox, 433.62pt x 262.9825pt>
 File: Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4362,7 +4365,7 @@ converted-to.pdf>
 _circuit_TF-eps-converted-to.pdf Figures/PD_chapter_qe_test_circuit_TF.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf, id=5684, pagebox=c
+<Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf, id=5692, pagebox=c
 ropbox, 418.56375pt x 291.0875pt>
 File: Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -4371,18 +4374,18 @@ Package pdftex.def Info: Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to
 .pdf  used on input line 71. on input line 71.
 Package pdftex.def Info: Requested size: 426.79135pt x 296.80759pt on input lin
 e 71.
- [286]
+ [288]
 Underfull \vbox (badness 3302) has occurred while \output is active []
 
- [287 <./Figures/PD_chapter_qe_test_circuit.png (PNG copy)>]
+ [289 <./Figures/PD_chapter_qe_test_circuit.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [288 <./Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf>] [289 <
+ [290 <./Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf>] [291 <
 ./Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [290])
-[291] [292
+ [292])
+[293] [294
 
 ]
 Appendix C.
@@ -4398,7 +4401,7 @@ Package epstopdf Info: Source file: <Figures/MZ_chapter_CDS_noise.eps>
 se-eps-converted-to.pdf Figures/MZ_chapter_CDS_noise.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=5752, pagebox=cropbox, 4
+<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=5761, pagebox=cropbox, 4
 25.59pt x 151.56625pt>
 File: Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -4407,15 +4410,15 @@ Package pdftex.def Info: Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf  use
 d on input line 4. on input line 4.
 Package pdftex.def Info: Requested size: 426.79135pt x 152.00296pt on input lin
 e 4.
-) [293] [294 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>]
+) [295] [296 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>]
 Appendix D.
 (./Chapters/appendix_to_SRC_finesse_investigation.tex
 Underfull \vbox (badness 2608) has occurred while \output is active []
 
- [295
+ [297
 
 ]
-[296]
+[298]
 Package epstopdf Info: Source file: <Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)                    date: 2021-01-21 12:39:02
@@ -4429,7 +4432,7 @@ command_fitting-eps-converted-to.pdf Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=5784, pageb
+<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=5792, pageb
 ox=cropbox, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4438,45 +4441,45 @@ Package pdftex.def Info: Figures/sim_chapter_gauss_command_fitting-eps-converte
 d-to.pdf  used on input line 29. on input line 29.
 Package pdftex.def Info: Requested size: 384.1096pt x 224.07439pt on input line
  29.
- [297] [298 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
+ [299] [300 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [299
+ [301
 
 ]
-[300] [301] [302
+[302] [303] [304
 
-] [303]
+] [305]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [304
+ [306
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [305]
-[306]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [307]
+[308]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [308]
+ [309]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [309])
-[310]
+ [310]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [311])
+[312]
 Appendix E.
 (./Chapters/appendix_mode_matching_algorithm_3_optics.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [311
+ [313
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [312]
+ [314]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -4501,7 +4504,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[313]
+[315]
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
@@ -4539,7 +4542,7 @@ ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
 l_layouts.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=6123, 
+<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=6131, 
 pagebox=cropbox, 501.875pt x 240.9pt>
 File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -4561,7 +4564,7 @@ ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
 ithm_sketch.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=6126,
+<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=6134,
  pagebox=cropbox, 450.68375pt x 253.94875pt>
 File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4570,19 +4573,19 @@ Package pdftex.def Info: Figures/mode_matching_appendix_algorithm_sketch-eps-co
 nverted-to.pdf  used on input line 33. on input line 33.
 Package pdftex.def Info: Requested size: 384.1096pt x 216.44644pt on input line
  33.
-) [314] [315 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to
-.pdf>] [316 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to
+) [316] [317 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to
+.pdf>] [318 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to
 .pdf>]
 Appendix F.
 (./Chapters/appendix_mode_matching_derivation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [317
+ [319
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [318]
+ [320]
 Overfull \hbox (56.5019pt too wide) detected at line 95
 []
  []
@@ -4590,50 +4593,50 @@ Overfull \hbox (56.5019pt too wide) detected at line 95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [319]
+ [321]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [320]
+ [322]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [321])
-[322]
+ [323])
+[324]
 Appendix G.
 (./Chapters/light_and_gaussian_modes.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [323
+ [325
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [324]
-[325]
-Underfull \vbox (badness 6188) has occurred while \output is active []
-
  [326]
 [327]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6188) has occurred while \output is active []
 
  [328]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [329]
+[329]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [330]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [331]
-Underfull \vbox (badness 7308) has occurred while \output is active []
-
- [332]
-Underfull \vbox (badness 3375) has occurred while \output is active []
-
- [333]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [332]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [333]
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
  [334]
+Underfull \vbox (badness 3375) has occurred while \output is active []
+
+ [335]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [336]
 Overfull \hbox (13.99545pt too wide) detected at line 180
 []
  []
@@ -4641,48 +4644,48 @@ Overfull \hbox (13.99545pt too wide) detected at line 180
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [335]
+ [337]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [336]
+ [338]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 216.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [337])
-(./main.bbl [338] [339
+ [339])
+(./main.bbl [340] [341
 
-] [340] [341]
+] [342] [343]
 Underfull \hbox (badness 1436) in paragraph at lines 152--156
 []\T1/cmr/m/n/12 Yoichi Aso, Yuta Michimura, Ken-taro Somiya, Masaki Ando, Os-a
 mu
  []
 
-[342] [343] [344] [345] [346]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [347]
-[348]
+[344] [345] [346] [347] [348]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [349]
-[350] [351] [352]
+[350]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [351]
+[352] [353] [354]
 Underfull \vbox (badness 4341) has occurred while \output is active []
 
- [353]
+ [355]
 Underfull \vbox (badness 4341) has occurred while \output is active []
 
- [354]
-[355] [356] [357] [358] [359] [360] [361] [362] [363] [364] [365] [366]
-[367] [368] [369]
+ [356]
+[357] [358] [359] [360] [361] [362] [363] [364] [365] [366] [367] [368]
+[369] [370] [371]
 Underfull \hbox (badness 2318) in paragraph at lines 1315--1320
 []\T1/cmr/m/n/12 Lars Zim-mer-mann, Joachim John, Ste-fan De-g-roote, Gus-taaf 
 Borghs,
  []
 
-[370]
+[372]
 Underfull \hbox (badness 2142) in paragraph at lines 1358--1362
 []\T1/cmr/m/n/12 Laser Com-po-nents.  Ex-tended in-gaas pho-to-di-odes ig26 se-
 ries.  Ac-
@@ -4694,9 +4697,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1358--1362
 ents . com / uk / product /
  []
 
-[371] [372])
+[373] [374])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
- [373]
+ [375]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
@@ -4706,8 +4709,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 23745 strings out of 492990
- 456328 string characters out of 6136333
+ 23747 strings out of 492990
+ 456344 string characters out of 6136333
  679243 words of memory out of 5000000
  25689 multiletter control sequences out of 15000+600000
  571154 words of font info for 136 fonts, out of 8000000 for 9000
@@ -4749,10 +4752,10 @@ type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc2488
 .pfb>
-Output written on main.pdf (373 pages, 14219293 bytes).
+Output written on main.pdf (375 pages, 14219590 bytes).
 PDF statistics:
- 7029 PDF objects out of 7423 (max. 8388607)
- 5230 compressed objects within 53 object streams
- 1185 named destinations out of 1200 (max. 500000)
+ 7037 PDF objects out of 7423 (max. 8388607)
+ 5236 compressed objects within 53 object streams
+ 1187 named destinations out of 1200 (max. 500000)
  1684 words of extra memory for PDF output out of 10000 (max. 10000000)
 
