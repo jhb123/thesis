@@ -1,4 +1,4 @@
-\section{Derivation of Mode Matching TM00 Beams}
+%\section{Derivation of Mode Matching TM00 Beams}
 %%
 %A Gaussian beam can be described by the complex beam parameter \cite{Bond2016}, $q$,
 %\begin{equation}
@@ -9,7 +9,7 @@
 %\frac{1}{q(z)} = S(z) -i\frac{\lambda}{\pi\omega^2(z)},
 %\label{eq:1/q}
 %\end{equation}   
-%where $S(z)$ is the defocus at $z$, $\lambda$ is the lasers wavelength and $w(z)$ is the width of the beam at $z$. From equation \ref{eq:1/q} we find
+%where $S(z)$ is the defocus at $z$, $\lambda$ is the lasers wavelength and $w(z)$ is the width of the beam at $z$. From Equation~\ref{eq:1/q} we find
 %\begin{align}
 %S(z) &= \Re\left( \frac{1}{q} \right),\\
 %w(z) & =  \sqrt{\frac{\lambda}{-\pi\Im\left(\frac{1}{q}\right)}}.
@@ -46,85 +46,91 @@
 %E(r,z) = \frac{1}{q(z)}\exp\left(-ik\frac{r^2}{2q(z)}\right).
 %\end{equation}
 %%]
-The \textcolor{red}{check this naming} electric field, $E$, of a TM00 Gaussian beam can be written as
+The electric field, $E$, of a Gaussian beam can be written as
 \begin{equation}
-E(x,y,z) = E_x(x,z)E_y(y,z)
+E(x,y,z) = E_x(x,z)E_y(y,z),
 \end{equation}
 where 
 \begin{align}
-E_x(x,z) = \frac{1}{\sqrt{q_x(z)}}\exp\left(-ik\frac{x^2}{2q_x(z)}\right),\\
-E_y(y,z) = \frac{1}{\sqrt{q_y(z)}}\exp\left(-ik\frac{y^2}{2q_y(z)}\right).
+E_x(x,z) = \frac{E_0}{\sqrt{q_x(z)}}\exp\left(-ik\frac{x^2}{2q_x(z)}\right),\\
+E_y(y,z) = \frac{E_0}{\sqrt{q_y(z)}}\exp\left(-ik\frac{y^2}{2q_y(z)}\right).
 \end{align}
-For a beam without astigmatism, $x^2 + y^2 = r^2$ and $q_x = q_y = q$ so:
+The constant $E_0$ is such that the units of $E^*E$ are $\si{\watt\metre^{-2}}$. Mode matching depends only on the shape of the modes, denoted with $\Psi$, so the units of the electric field not feature in this calculation.
+\par
+For a beam without astigmatism, $x^2 + y^2 = r^2$ and $q_x = q_y = q$, so the shape of the mode can be expressed as
 \begin{equation}
-E(r,z) = \frac{1}{q(z)}\exp\left(-ik\frac{r^2}{2q(z)}\right).
+\Psi(r,z) = \frac{1}{q(z)}\exp\left(-ik\frac{r^2}{2q(z)}\right).
 \end{equation}
-The mode matching, $\mathcal{M}$, of two beams can be expressed by overlap of the two fields
+The mode matching, $\mathcal{M}$, of two beams is determined by the overlap of the shapes their fields. This can be calculated with
 \begin{equation}
-\mathcal{M} = \frac{\left|\int_{A} E_1^*E_2 dA \right|}{\int_{A} \left|E_1 \right|^2 dA \int_{A} \left|E_2 \right|^2 dA}.
+\mathcal{M} = \frac{\left|\int_{A} \Psi_1^*\Psi_2 dA \right|}{\int_{A} \left|\Psi_1 \right|^2 dA \int_{A} \left|\Psi_2 \right|^2 dA}.
 \label{eq:mode_matching_general}
 \end{equation}
-The numerator of equation \ref{eq:mode_matching_general} for TM00 beams can be written as:
+The numerator of Equation~(\ref{eq:mode_matching_general}) for beams can be written as
 \begin{align}
-\left|\int_{A} E_1^*E_2 dA \right| &= \int_{A} E_1^*E_2 dA\int_{A} E_1E_2^* dA \\
-&= \int^{-\infty}_{-\infty} E_{x1}^*E_{x2} dx \int^{-\infty}_{-\infty} E_{y1}^*E_{y2} dy \int^{-\infty}_{-\infty} E_{x1}E_{x2}^* dx \int^{-\infty}_{-\infty} E_{y1}E_{y2}^* dy.
+\left|\int_{A} \Psi_1^*\Psi_2 dA \right| &= \int_{A} \Psi_1^*\Psi_2 dA\int_{A} \Psi_1\Psi_2^* dA \\
+&= \int^{-\infty}_{-\infty} \Psi_{x1}^*\Psi_{x2} dx \int^{-\infty}_{-\infty} \Psi_{y1}^*\Psi_{y2} dy \int^{-\infty}_{-\infty} \Psi_{x1}\Psi_{x2}^* dx \int^{-\infty}_{-\infty} \Psi_{y1}\Psi_{y2}^* dy.
 \label{eq:numerator}
 \end{align}
-Since the calculation is the same for the $x$ and $y$ coordinates, we only need to show the solution for the $x$. The $x$ terms of equation \ref{eq:numerator} can be written as:
+Since this calculation is the same for the $x$ and $y$ coordinates, we only need to show the method for simplifying the $x$ terms. The $x$ terms of Equation~(\ref{eq:numerator}) can be written as
+\begin{multline}
+\int^{-\infty}_{-\infty} \Psi_{x1}^*\Psi_{x2} dx \int^{-\infty}_{-\infty} \Psi_{x1}\Psi_{x2}^* dx = \\ \int_{-\infty}^{\infty} \frac{1}{\sqrt{q_{x1}^*}}\exp\left(\frac{ikx^2}{2q_{x1}^*}\right)\frac{1}{\sqrt{q_{x2}}}\exp\left(\frac{-ikx^2}{2q_{x2}}\right)dx \\
+\times\int_{-\infty}^{\infty} \frac{1}{\sqrt{q_{x1}}}\exp\left(\frac{-ikx^2}{2q_{x1}}\right)\frac{1}{\sqrt{q_{x2}^*}}\exp\left(\frac{ikx^2}{2q_{x2}^*}\right)dx,
+\end{multline}
 \begin{align}
-\int^{-\infty}_{-\infty} E_{x1}^*E_{x2} dx &\int^{-\infty}_{-\infty} E_{x1}E_{x2}^* dx = \int_{-\infty}^{\infty} \frac{1}{\sqrt{q_{x1}^*}}\exp\left(\frac{ikx^2}{2q_{x1}^*}\right)\frac{1}{\sqrt{q_{x2}}}\exp\left(\frac{-ikx^2}{2q_{x2}}\right)dx\\
-&\times\int_{-\infty}^{\infty} \frac{1}{\sqrt{q_{x1}}}\exp\left(\frac{-ikx^2}{2q_{x1}}\right)\frac{1}{\sqrt{q_{x2}^*}}\exp\left(\frac{ikx^2}{2q_{x2}^*}\right)dx\\
-&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left(\int_{-\infty}^{\infty}\exp\left(\frac{ikx^2}{2q_{x1}^*}\right)\exp\left(\frac{-ikx^2}{2q_{x2}^*}\right)dx \times c.c.\right) \\
-&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2}{2q_{x1}^*} -  \frac{-ikx^2}{2q_{x2}^*}\right) dx \times c.c.\right) \\
-&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2\left(q_{x2} - q{x1}^*\right)}{2q_{x1}^*q_{x2}}\right) dx \times c.c.\right).
+&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left(\int_{-\infty}^{\infty}\exp\left(\frac{ikx^2}{2q_{x1}^*}\right)\exp\left(\frac{-ikx^2}{2q_{x2}}\right)dx\right) \times \rm{\rm{c.c}}., \nonumber\\
+%&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2}{2q_{x1}^*} -  \frac{-ikx^2}{2q_{x2}}\right) dx \times \rm{\rm{c.c}}.\right),  \nonumber\\
+&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2\left(q_{x2} - q_{x1}^*\right)}{2q_{x1}^*q_{x2}}\right) dx\right) \times \rm{\rm{c.c}}.,
 \label{eq:numerator_x_coords}
 \end{align}
+where c.c. is shorthand for the complex conjugate of the preceding expression.
+\par
 Using the identity
 \begin{equation}
 \mathcal{I} = \int_{-\infty}^{\infty} \exp\left(iax^2\right)dx = \frac{i\pi}{a}
 \end{equation}
 and labelling 
 \begin{equation}
-a = \frac{k\left(q_{x2} - q_{x1}*\right)}{2q_{x1}^*q_{x2}}
+a = \frac{k\left(q_{x2} - q_{x1}^*\right)}{2q_{x1}^*q_{x2}}
 \end{equation}
-allows equation \ref{eq:numerator_x_coords} to be simplified to 
-\begin{align}
-\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2\left(q_{x2} - q{x1}^*\right)}{2q_{x1}^*q_{x2}}\right) dx \times c.c.\right) &= \frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\sqrt{\frac{i\pi\left(2q_{x1}^*q_{x2}\right)}{k\left(q_{x2} - q_{x1}^*\right)}}\sqrt{\frac{-i\pi\left(2q_{x1}q_{x2}^*\right)}{k\left(q_{x2}^* - q_{x1}\right)}}\\
-& = \frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|} \sqrt{ \frac{4\pi\left|q_{x1}\right|^2\left|q_{x2}\right|^2}{k^2\left|q_{x2} - q_{x1}^*\right|^2} } \\
-&= \frac{2\pi}{k}\frac{1}{\left|q_{x2} - q_{x1}^*\right|}.
-\end{align}
-This means that the numerator of equation \ref{eq:mode_matching_general} is
+allows Equation~(\ref{eq:numerator_x_coords}) to be simplified to 
+\begin{equation}
+\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\sqrt{\frac{i\pi\left(2q_{x1}^*q_{x2}\right)}{k\left(q_{x2} - q_{x1}^*\right)}}\sqrt{\frac{-i\pi\left(2q_{x1}q_{x2}^*\right)}{k\left(q_{x2}^* - q_{x1}\right)}}
+= \frac{2\pi}{k}\frac{1}{\left|q_{x2} - q_{x1}^*\right|}.
+\end{equation}
+Thus, the numerator of Equation~(\ref{eq:mode_matching_general}) is
 \begin{equation}
 \frac{4\pi^2}{k^2}\frac{1}{\left|q_{x2} - q_{x1}^*\right|\left|q_{y2} - q_{y1}^*\right|}.
 \end{equation}
-Since $E_x$ and $E_y$ are orthogonal, $\left|E\right|^2 = \left|E_x\right|^2\left|E_y\right|^2 $, an expression for the denominator of equation \ref{eq:mode_matching_general} can be found by:
+\par
+Since $\Psi_x$ and $\Psi_y$ are orthogonal, $\left|\Psi\right|^2 = \left|\Psi_x\right|^2\left|\Psi_y\right|^2 $. An expression for the denominator of Equation~(\ref{eq:mode_matching_general}) can be found as follows
 \begin{align}
-\int_A \left|E\right|^2 dA &= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \left|E_x\right|^2\left|E_y\right|^2 dx dy \\
+\int_A \left|\Psi\right|^2 dA &= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \left|\Psi_x\right|^2\left|\Psi_y\right|^2 dx dy \\
 &= \int_{-\infty}^{\infty} \frac{1}{\left|q_x\right|}\exp\left(\frac{ikx^2\left(q_x - q_x^*\right)}{2q_xq_x^*}\right) \times \text{y term}.
 \end{align}
-Using a similar approach as in the calculation of the numerator terms:
+A similar approach to the calculation of the denominator can be used for the calculation of the numerator terms. The numerator terms take the form
 \begin{align}
-\int_A \left|E\right|^2 dA &= \frac{1}{\left|q_x\right|}\sqrt{\frac{i2\pi\left|q_x\right|^2}{k\left(q_x-q_x^*\right)}}\frac{1}{\left|q_y\right|}\sqrt{\frac{i2\pi\left|q_y\right|^2}{k\left(q_y-q_y^*\right)}} \\
-&=-\frac{2\pi}{k}\frac{1}{\sqrt{\left(q_x-q_x^*\right)\left(q_y-q_y^*\right)}}
+\int_A \left|\Psi\right|^2 dA &= \frac{1}{\left|q_x\right|}\sqrt{\frac{i2\pi\left|q_x\right|^2}{k\left(q_x-q_x^*\right)}}\frac{1}{\left|q_y\right|}\sqrt{\frac{i2\pi\left|q_y\right|^2}{k\left(q_y-q_y^*\right)}} \\
+&=-\frac{2\pi}{k}\frac{1}{\sqrt{\left(q_x-q_x^*\right)\left(q_y-q_y^*\right)}}.
 \end{align}
-we get the mode matching $\mathcal{M}$ to be
-\begin{align}
-\mathcal{M} &= \frac{\frac{4\pi}{k^2}}{-\frac{2\pi}{k}\times-\frac{2\pi}{k}}\frac{\sqrt{\left(q_{x1}-q_{x1}^*\right)\left(q_{y1}-q_{y1}^*\right)}\sqrt{\left(q_{x2}-q_{x2}^*\right)\left(q_{y2}-q_{y2}^*\right)}}{\left|q_{x2} - q_{x1}^*\right|\left|q_{y2} - q_{y1}^*\right|}\\
-&=\frac{\sqrt{\left(q_{x1}-q_{x1}^*\right)\left(q_{y1}-q_{y1}^*\right)\left(q_{x2}-q_{x2}^*\right)\left(q_{y2}-q_{y2}^*\right)}}{\left|q_{x2} - q_{x1}^*\right|\left|q_{y2} - q_{y1}^*\right|}.
-\end{align}
-\section{Effect of Error in the Radius of Curvature of a Mirror on the defocus of a Beam}
-The error in the optical power of a mirror due to an error in the radius of curvature of is
-\begin{align}
-S &= \frac{2}{R_m}\\
-dS &= \frac{-2}{R_m^2}dR.
-\end{align}
-The error in the beams defocus is the same as the error in the radius of curvature of the the mirror. The effect this has on the beam parameter $q$ can be found by defining a contour of modes distance $dq$ from $q$ i.e. $q + \left|dq\right|e^{i\theta}$, where $dq$ is
-\begin{align}
-q &= \frac{q_i}{Sq_i + 1} \\
-dq &= \frac{q_i^2}{(-Sq_i + 1)^2} dS.
-\end{align}
-This gives you a family of modes which will contain the modes due to an error in the radius of curvature of the mirror, but since $q$ is a complex number the contour you need to define to encapsulate the concept of an error in $q$ also contains modes which are have different beam sizes as well as different defocuses. To do the calculation this way is cumbersome, it is much more straight forward to compute the effect of having a mirror ROC error by evaluating at every mirror
+\par
+Thus, we get the mode matching $\mathcal{M}$ to be
 \begin{equation}
-\begin{pmatrix} 1 & 0\\	\pm dS &1 \end{pmatrix} \begin{pmatrix} 1 & 0\\	-S &1 \end{pmatrix} \begin{pmatrix} q \\	1 \end{pmatrix} = \begin{pmatrix} q \\(S\pm dS)q + 1 \end{pmatrix} 
+\mathcal{M} = \frac{\sqrt{\left(q_{x1}-q_{x1}^*\right)\left(q_{y1}-q_{y1}^*\right)\left(q_{x2}-q_{x2}^*\right)\left(q_{y2}-q_{y2}^*\right)}}{\left|q_{x2} - q_{x1}^*\right|\left|q_{y2} - q_{y1}^*\right|}.
 \end{equation}
-and then divide the top and bottom entries of the $\begin{pmatrix} q \\	(S\pm dS)q + 1 \end{pmatrix} $ vector. 
+%\section{\Psiffect of \Psirror in the Radius of Curvature of a Mirror on the defocus of a Beam}
+%The error in the optical power of a mirror due to an error in the radius of curvature of is
+%\begin{align}
+%S &= \frac{2}{R_m}\\
+%dS &= \frac{-2}{R_m^2}dR.
+%\end{align}
+%The error in the beams defocus is the same as the error in the radius of curvature of the the mirror. The effect this has on the beam parameter $q$ can be found by defining a contour of modes distance $dq$ from $q$ i.e. $q + \left|dq\right|e^{i\theta}$, where $dq$ is
+%\begin{align}
+%q &= \frac{q_i}{Sq_i + 1} \\
+%dq &= \frac{q_i^2}{(-Sq_i + 1)^2} dS.
+%\end{align}
+%This gives you a family of modes which will contain the modes due to an error in the radius of curvature of the mirror, but since $q$ is a complex number the contour you need to define to encapsulate the concept of an error in $q$ also contains modes which are have different beam sizes as well as different defocuses. To do the calculation this way is cumbersome, it is much more straight forward to compute the effect of having a mirror ROC error by evaluating at every mirror
+%\begin{equation}
+%\begin{pmatrix} 1 & 0\\	\pm dS &1 \end{pmatrix} \begin{pmatrix} 1 & 0\\	-S &1 \end{pmatrix} \begin{pmatrix} q \\	1 \end{pmatrix} = \begin{pmatrix} q \\(S\pm dS)q + 1 \end{pmatrix} 
+%\end{equation}
+%and then divide the top and bottom entries of the $\begin{pmatrix} q \\	(S\pm dS)q + 1 \end{pmatrix} $ vector. 
