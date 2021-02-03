@@ -1,12 +1,12 @@
-The following simulations where used in chapter \ref{chapter:simulation_finesse}. Section \ref{sec:mode_match_to_arm} shows how the input beam parameter was determined so that single bounce simulations and simulations with arm cavities had the same beam parameters. Section \ref{sec:sim_interferometer_params} contains tables of the spacings and properties of the optics for the LLO interferometer.
+The following simulations where used in Chapter~\ref{chapter:simulation_finesse}. Section~\ref{sec:mode_match_to_arm} shows how the input beam parameter was determined so that single bounce simulations and simulations with arm cavities had the beam parameter of the input laser remained the same. Section~\cite{sec:sim_interferometer_params} contains tables of the spacings and properties of the optics for the LLO interferometer. Without a \texttt{cav} command, \textsc{Finesse} will default to using a 2mm beam with its waist at $z = 0$ with respect to the node at the laser.
 \section{Mode Matching the Laser to the Arm Cavity}
 \label{sec:mode_match_to_arm}
-To find suitable numbers to use for the \texttt{gauss} command in the simulation of single bounce and locked arm beam measurements (see section \ref{sec:finesse_code} and figure \ref{fig:diagramofsim2}), the following simulation was run. It uses the same Y arm and beam splitter as the main simulation from section \ref{sec:finesse_code}, however it does not have an X arm or the SRC. Without the \texttt{cav} command, finesse will default to using a 2mm beam with its waist at $z = 0$ with respect to the the node at the laser. The following beam parameters were found with a \texttt{bp} detector placed at the lasers node:
+To find suitable numbers to use for the \texttt{gauss} command in the simulations of single-bounce and locked-arm measurements (see Section~\ref{sec:finesse_code} and Figure~\ref{fig:diagramofsim2}), the following test was performed. The main simulation from Section~\ref{sec:finesse_code} was modified so that it did not have an X arm or the SRC. The following beam parameters were found with a \texttt{bp} detector placed at the lasers node:
 \begin{itemize}
 	\item $w_0 = 0.00864064287177005$ m
 	\item $z = 1339.83530090614$ m
 \end{itemize}
-To figure out if the sign of z is correct, consider what happens if the beam parameter detector is moved 1m towards the cavity to \verb|bs_a|:
+To determine if the sign of z is correct, consider what happens if the beam parameter detector is moved 1m towards the cavity to \verb|bs_a|:
 \begin{itemize}
 	\item $w_0 = 0.00864064287177005 $
 	\item $z = 1338.83530090614$ m
@@ -18,36 +18,36 @@ However, setting the beam parameter at the laser with the first set of numbers g
 pd HOM bs_d 
 mask HOM 0 0 0
 \end{verbatim}
-was placed at \verb|bs_d| , which has the beam reflected from the arm cavity in it. The value of $z$ for the \texttt{gauss}  was varied and the power incident on \texttt{HOM}  was measured. To check that enough HOM were being used, the simulation was repeated with several \texttt{maxtem}  commands. The results had a quadratic fitted to them, and the minimum was taken as the optimal value. This is shown in figure \ref{fig:gausscommandfitting}. The values: 
+was placed at \verb|bs_d| , which has the beam reflected from the arm cavity in it. The value of $z$ for the \texttt{gauss}  was varied and the power incident on \texttt{HOM}  was measured. To check that enough HOM were being used, the simulation was repeated with several \texttt{maxtem}  commands. The results had a quadratic fitted to them, and the minimum was taken as the optimal value. This is shown in Figure~\ref{fig:gausscommandfitting}. The values: 
 \begin{itemize}
 	\item $w_0 = 0.00864064287177005$ m
 	\item $z = -1339.83683935$ m
 \end{itemize}
-give more than 99.99999\% mode matching, which for this work is plenty. This is close to the original values that we obtained, except for a minus sign. This is due to the way \textsc{Finesse} computes the beam parameter. 
+give more than 99.99999\% mode matching, which is plenty for for this work. This is close to the original values that we obtained, except for a minus sign. This is due to the way \textsc{Finesse} computes the beam parameter. 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{sim_chapter_gauss_command_fitting}
-	\caption{Optimisation of parameters used in the \texttt{gauss} command to mode match the laser to the arms in the simulations described in chapter \ref{chapter:simulation_finesse} and section \ref{sec:finesse_code}. The blue, green and orange lines show how the mode matching changes as the beam waist location is changed. As the mode matching becomes larger, more HOM are required, as the blue and green/orange lines diverge. A quadratic was fitted to the data highlighted in red, and the minimum value was used as the waist location parameter for the \texttt{gauss} command.}
+	\caption{Optimisation of the parameters used in the \texttt{gauss} command to mode match the laser to the arms in the simulations described in Chapter~\ref{chapter:simulation_finesse} and Section~\cite{sec:finesse_code}. The blue, green and orange lines show how the mode matching changes as the beam waist location is changed. As the mode mismatch became larger, more HOM were required; this is why the blue and green/orange lines diverge. A quadratic was fitted to the data highlighted in red, and the minimum value was used as the waist location parameter for the \texttt{gauss} command.}
 	\label{fig:gausscommandfitting}
 \end{figure}
 \clearpage
 \section{Interferometer Parameters}
 \label{sec:sim_interferometer_params}
-The simulated interferometer uses `design' arms and the LLO SRC. The simulated arm cavity geometry is based on the design values to avoid contrast defects. The following subsections contain tables specifying the design and measured values for each component of the simulation. 
+The simulated interferometer uses nominal values for the LIGO arms cavities and the LLO SRC. The simulated arm cavity geometry is based on the design values to avoid contrast defects. The following sections contain tables specifying the design and measured values for each component of the simulation. 
 \subsection{Radii of Curvature of optical components}
-The optics in the SRC are simulated with the values from table \ref{tab:measured_vals_RoCs}. The arm cavity optics have been simulated using the values from table \ref{tab:desgin_vals_RoCs}.
+The optics in the SRC were simulated with the values from Table~\cite{tab:measured_vals_RoCs}. The arm cavity optics have been simulated using the values from Table~\cite{tab:desgin_vals_RoCs}.
 \begin{table}[ht]
 	\centering
 	\begin{tabular}[h]{ c | c | c | c }
 		Optic Name & RoC (m) & Focal length (m) & Reference \\
 		\hline
-		SRM &  $-5.6938$ &  $-2.8469$ & \cite{Muzammil2016} \\
-		SR2 &  $-6.427$ &  $-3.2135$ & \cite{Muzammil2016} \\
-		SR3 & $36$ &  $18$ & \cite{Muzammil2016} \\
-		ITM &  $1934$ &  $967.0$ & \cite{Muzammil2016} \\
-		ETM &  $2245$ &  $1122.5$ & \cite{Muzammil2016} \\
+		SRM &  $-5.6938$ &  $-2.8469$ &~\cite{Muzammil2016} \\
+		SR2 &  $-6.427$ &  $-3.2135$ &~\cite{Muzammil2016} \\
+		SR3 & $36$ &  $18$ &~\cite{Muzammil2016} \\
+		ITM &  $1934$ &  $967.0$ &~\cite{Muzammil2016} \\
+		ETM &  $2245$ &  $1122.5$ &~\cite{Muzammil2016} \\
 	\end{tabular}
-	\caption{The aLIGO design values of the RoC of the optics inside the SRC and the arm.}
+	\caption{The aLIGO design values of the RoC of the optics inside the SRC and the arms.}
 	\label{tab:desgin_vals_RoCs}
 \end{table}
 \begin{table}[ht]
@@ -55,17 +55,17 @@ The optics in the SRC are simulated with the values from table \ref{tab:measured
 	\begin{tabular}[h]{ c | c | c | c }
 		Optic Name & RoC (m) & Focal length (m) & Reference \\
 		\hline
-		SRM\hyp{}02 &  $-5.673 \pm 0.002$ & $-2.8365 \pm 0.001 $ & \cite{galaxy_optics} \\
-		SR2\hyp{}04 &  $-6.406 \pm 0.006 $ &  $-3.203 \pm 0.003 $ & \cite{SR2_04_measurement},\cite{galaxy_optics} \\
-		SR3\hyp{}01 & $35.97 \pm 0.012 $ &  $17.985 \pm 0.006$ & \cite{SR3_01_figure_measurement}, \cite{galaxy_optics} \\
-		ITM\hyp{}08 &  $1938.44$ &  $969.22$  & \cite{galaxy_optics} \\
-		ETM\hyp{}15 &  $2245.4$ & $1122.7$ & \cite{galaxy_optics} \\
+		SRM-02 &  $-5.673 \pm 0.002$ & $-2.8365 \pm 0.001 $ &~\cite{galaxy_optics} \\
+		SR2-04 &  $-6.406 \pm 0.006 $ &  $-3.203 \pm 0.003 $ &~\cite{SR2_04_measurement},\cite{galaxy_optics} \\
+		SR3-01 & $35.97 \pm 0.012 $ &  $17.985 \pm 0.006$ &~\cite{SR3_01_figure_measurement},~\cite{galaxy_optics} \\
+		ITM-08 &  $1938.44$ &  $969.22$  &~\cite{galaxy_optics} \\
+		ETM-15 &  $2245.4$ & $1122.7$ &~\cite{galaxy_optics} \\
 	\end{tabular}
-	\caption{The measured values of the RoC of the optics at LLO that are inside the SRC and the arm.}
+	\caption{The measured values of the RoC of the optics at LLO that make up the SRC and the arms.}
 	\label{tab:measured_vals_RoCs}
 \end{table}
 \subsection{Spacings}
-The nominal values with a diagram can be found in \cite{aligo_layout_h1} for the H1/L1 spacings. This information is also in \cite{Muzammil2016}. The L1 Zemax parameters are found in \cite{Zeemax_L1}. Table \ref{tab:zeemax_spacings} contains the distances derived from the Zemax coordinates. Most spacings do not require sub mm accuracy, however SR3 to SR2 does since the Rayleigh range of this beam is very small (about 4\,cm). The design value spacings are shown in table \ref{tab:design_spacings}. The values used in an earlier \textsc{Finesse} model of LLO \cite{l1_finesse_2014} are shown in table \ref{tab:finesse_spacings}. The thickness of each optic is found in table \ref{tab:optic_thickness}.
+The nominal values for the spacing between the optics at LHO/LLO, with a diagram, can be found in~\cite{aligo_layout_h1}. This information is also in~\cite{Muzammil2016}. The L1 Zemax parameters are found in~\cite{Zeemax_L1}. Table~\cite{tab:zeemax_spacings} contains the distances derived from the Zemax coordinates. Most spacings do not require sub mm accuracy, however SR3 to SR2 does since the Rayleigh range of this beam is about 4\,cm. The design value for the spacings are shown in Table~\cite{tab:design_spacings}. The values used in an earlier \textsc{Finesse} model of LLO~\cite{l1_finesse_2014} are shown in Table~\cite{tab:finesse_spacings}. The thickness of each optic is found in Table~\cite{tab:optic_thickness}.
 \begin{table}[ht]
 	\centering
 	\begin{tabular}{ c | c }
@@ -78,7 +78,7 @@ The nominal values with a diagram can be found in \cite{aligo_layout_h1} for the
 		SR3 to SR2 & $15.4435$ \\
 		SR2 to SRM & $15.7562$ \\
 	\end{tabular}
-\caption{Measured spacings between optics at LLO\cite{Zeemax_L1}}
+\caption{Measured spacings between the optics at LLO\cite{Zeemax_L1}.}
 \label{tab:zeemax_spacings}
 \end{table}
 \begin{table}[ht]
@@ -93,7 +93,7 @@ The nominal values with a diagram can be found in \cite{aligo_layout_h1} for the
 		SR3 to SR2 & $15.4607$ \\
 		SR2 to SRM & $15.726$ \\
 	\end{tabular}
-	\caption{Design value for spacings\cite{aligo_layout_h1}}
+	\caption{Design value for spacings\cite{aligo_layout_h1}.}
 	\label{tab:design_spacings}
 \end{table}
 \begin{table}[ht]
@@ -108,7 +108,7 @@ The nominal values with a diagram can be found in \cite{aligo_layout_h1} for the
 		SR3 to SR2 & $15.4435$ \\
 		SR2 to SRM &  $15.7566$ \\
 	\end{tabular}
-	\caption{Values used in an earlier \textsc{Finesse} model of LLO  \cite{l1_finesse_2014}}
+	\caption{Values used in an earlier \textsc{Finesse} model of LLO ~\cite{l1_finesse_2014}.}
 	\label{tab:finesse_spacings}
 \end{table}
 \begin{table}[ht]
@@ -121,43 +121,43 @@ The nominal values with a diagram can be found in \cite{aligo_layout_h1} for the
 		BS & $0.0685$ \\
 		Angled BS & $0.1202$ \\
 	\end{tabular}
-	\caption{Thickness of optics between the ITM and the SRM.}
+	\caption{Thickness of the optics between the ITM and the SRM.}
 	\label{tab:optic_thickness}
 \end{table}
 \clearpage
-\subsection{Nominal Simulation}
-The nominal simulation values is shown in table \ref{tab:nominal simulation}.
+\subsection{Parameters used in Main Simulation}
+The parameters used in the main simulation were a combination of design values and measured values. The arm cavities were simulated using the design values to remove the contrast defect that would occur otherwise, and the SRC was simulated using measurements taken from LLO. The ITMs that were simulated have a thickness of 0.1\,m and a refractive index of 1.45. The thermal lens is implemented as shown in Figure~\ref{fig:diagramofsim2}. The parameters used are shown in Table~\ref{tab:nominal simulation}. 
 \begin{table}[ht]
 	\centering
 	\begin{tabular}[h]{ c | c | p{45mm}  }
 		Parameter & Value & Description \\
 		\hline
-		SRM RoC &  $-5.673\rm{m}$ &  Measured RoC of SRM\hyp{}02 installed at LLO   \\
-		SR2 focal length &  $-3.203\,\rm{m}$ &  Measured focal length of SR2\hyp{}04 installed at LLO \\
-		SR3 focal length & $17.985\,\rm{m}$ &  Measured focal length of SR3\hyp{}01 installed at LLO \\
-		ITM RoC &  $1934\rm{m}$ &  Design Value \\
-		ETM RoC &  $2245\rm{m}$ &   Design Value \\
-		ITM thermal lens &  $50\,\rm{km}$ &  \\
-		ITM to ETM distance & $3994.5\rm{m}$& Design Value \\
-		ITM to BS Y &  $4.8471\rm{m}$ & As\hyp{}built Value for Y arm \\
-		ITM to BS X &  $4.8471\rm{m}$ & As\hyp{}built Value for Y arm \\
-		BS to SR3 & $19.3659\rm{m}$ & As\hyp{}built Value \\
-		SR3 to SR2 & $15.4435\rm{m}$ & As\hyp{}built Value \\
-		SR2 to SRM & $15.7562\rm{m}$ & As\hyp{}built Value \\
+		SRM RoC &  $-5.673\rm{m}$ &  Measured RoC of SRM-02 installed at LLO   \\
+		SR2 focal length &  $-3.203\,\rm{m}$ &  Measured focal length of SR2-04 installed at LLO \\
+		SR3 focal length & $17.985\,\rm{m}$ &  Measured focal length of SR3-01 installed at LLO \\
+		ITM RoC &  $1934\,\rm{m}$ &  Design value \\
+		ETM RoC &  $2245\,\rm{m}$ &  Design value \\
+		ITM thermal lens &  $50\,\rm{km}$ & Design value \\
+		ITM to ETM distance & $3994.5\,\rm{m}$& Design value \\
+		ITM to BS Y &  $4.8471\,\rm{m}$ & As-built value for Y arm \\
+		ITM to BS X &  $4.8471\,\rm{m}$ & As-built value for Y arm \\
+		BS to SR3 & $19.3659\,\rm{m}$ & As-built value \\
+		SR3 to SR2 & $15.4435\,\rm{m}$ & As-built value \\
+		SR2 to SRM & $15.7562\,\rm{m}$ & As-built value \\
 		ITM T & $0.0148$ & Power transmission\newline coefficient \\
 		SRM T & $0.324$ & Power transmission \newline coefficient \\
 		ITM L & $10\,\rm{ppm}$ & Scatter loss of ITM HR surface \\
 		ETM L & $10\,\rm{ppm}$ & Scatter loss of ETM HR surface
 	\end{tabular}
-	\caption{Nominal values for the major components of the simulation. Design values were used for the arms to remove the contrast defect that would occur otherwise. The as-built values for the SRC were used to replicate the behaviour of the SRC at LLO more closely. The ITMs that are simulated have a thickness of 0.1\,m and a refractive index of 1.45. The thermal lens is implemented as shown in figure \ref{fig:diagramofsim2} .}
+	\caption{Values for the major components of the simulation.}
 	\label{tab:nominal simulation}
 \end{table}
 \clearpage
 \section{\textsc{Finesse} Code}
-This section contains the \textsc{Finesse} code used in chapter \ref{chapter:simulation_finesse}.
+This section contains the \textsc{Finesse} code used in Chapter~\ref{chapter:simulation_finesse}.
 \label{sec:finesse_code}
 \subsection{Michelson Interferometers with Thin Beamsplitter}
-This \textsc{Finesse} code describes a Michelson interferometer where the beam splitter is implemented with a single \texttt{bs} command. This simulation will produce an incorrect result as the phase at the beamsplitter is not properly accounted for.
+This \textsc{Finesse} code describes a Michelson interferometer where the beam splitter is implemented with a single \texttt{bs} command. This simulation will produce an incorrect result as the phase at the beam splitter is not properly accounted for.
 \begin{lstlisting}[breaklines]
 l l1 1 0 n1 
 s sin 1 n1 na 
@@ -175,7 +175,7 @@ pd AS nd
 xaxis Xmirror phi lin 0 180 100
 \end{lstlisting}
 \subsection{Michelson Interferometers with Thick Beamsplitter}
-This \textsc{Finesse} code describes a Michelson interferometer where the beam splitter is implemented with 3 \texttt{bs} and 2 \texttt{space} commands. This is the proper way to implement a beamsplitter in \textsc{Finesse}.
+This \textsc{Finesse} code describes a Michelson interferometer where the beam splitter is implemented with three \texttt{bs} and two \texttt{space} commands. This is the correct way to implement a beam splitter in \textsc{Finesse}.
 \begin{lstlisting}[breaklines]
 l l1 1 0 n1 
 s sin 1 n1 na 

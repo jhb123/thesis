@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  3 FEB 2021 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  3 FEB 2021 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4422,7 +4422,12 @@ e 14.
 ]
 Appendix D.
 (./Chapters/appendix_to_SRC_finesse_investigation.tex
-Underfull \vbox (badness 2608) has occurred while \output is active []
+
+LaTeX Warning: Citation `sec:sim_interferometer_params' on page 299 undefined o
+n input line 1.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [299]
 [300]
@@ -4439,7 +4444,7 @@ command_fitting-eps-converted-to.pdf Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=5808, pageb
+<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=5807, pageb
 ox=cropbox, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4448,7 +4453,40 @@ Package pdftex.def Info: Figures/sim_chapter_gauss_command_fitting-eps-converte
 d-to.pdf  used on input line 29. on input line 29.
 Package pdftex.def Info: Requested size: 384.1096pt x 224.07439pt on input line
  29.
- [301] [302 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Citation `sec:finesse_code' on page 301 undefined on input line 
+30.
+
+
+LaTeX Warning: Citation `sec:finesse_code' on page 301 undefined on input line 
+30.
+
+[301] [302 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `tab:measured_vals_RoCs' on page 303 undefined on input
+ line 38.
+
+
+LaTeX Warning: Citation `tab:desgin_vals_RoCs' on page 303 undefined on input l
+ine 38.
+
+
+LaTeX Warning: Citation `tab:zeemax_spacings' on page 303 undefined on input li
+ne 68.
+
+
+LaTeX Warning: Citation `tab:design_spacings' on page 303 undefined on input li
+ne 68.
+
+
+LaTeX Warning: Citation `tab:finesse_spacings' on page 303 undefined on input l
+ine 68.
+
+
+LaTeX Warning: Citation `tab:optic_thickness' on page 303 undefined on input li
+ne 68.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4457,33 +4495,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 [304] [305] [306
 
-] [307]
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [308
+ [307
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [309]
-[310]
+ [308]
+[309]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [310]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [311]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [312]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [312])
+[313] [314
 
- [313])
-[314]
+]
 Appendix E.
 (./Chapters/appendix_mode_matching_algorithm_3_optics.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [315
-
-]
+ [315]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [316]
@@ -4549,7 +4587,7 @@ ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
 l_layouts.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=6147, 
+<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=6137, 
 pagebox=cropbox, 501.875pt x 240.9pt>
 File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -4571,7 +4609,7 @@ ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
 ithm_sketch.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=6150,
+<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=6140,
  pagebox=cropbox, 450.68375pt x 253.94875pt>
 File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4712,14 +4750,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1BBC5C90BBE8B30D9E6AC5708D276E92;12516.
+(rerunfilecheck)             Checksum: 158FC87BF78FEF85A626DD5FAEB58482;12532.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 23757 strings out of 492990
- 456547 string characters out of 6136333
- 686896 words of memory out of 5000000
- 25695 multiletter control sequences out of 15000+600000
+ 23765 strings out of 492990
+ 456727 string characters out of 6136333
+ 686556 words of memory out of 5000000
+ 25703 multiletter control sequences out of 15000+600000
  571154 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,18n,61p,10357b,2202s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4759,10 +4801,10 @@ type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfxc2488
 .pfb>
-Output written on main.pdf (377 pages, 14249120 bytes).
+Output written on main.pdf (377 pages, 14249061 bytes).
 PDF statistics:
- 7055 PDF objects out of 7423 (max. 8388607)
- 5251 compressed objects within 53 object streams
+ 7045 PDF objects out of 7423 (max. 8388607)
+ 5243 compressed objects within 53 object streams
  1190 named destinations out of 1200 (max. 500000)
  1689 words of extra memory for PDF output out of 10000 (max. 10000000)
 
