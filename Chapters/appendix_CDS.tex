@@ -1,7 +1,17 @@
-CDS is ...
+The LIGO interferometers use the control and data system (CDS) to acquire data and control the interferometer. As CDS is a digital system, complex servo shaping can be implemented with relative ease, e.g.~the servo shown in Figure~\ref{fig:mzchapterservotransferfunction} was created with CDS. Additionally, processes such as locking a cavity can be automated with digital logic as signals can be monitored to trigger events. CDS can interface with a suite of software that makes interacting with an experiment easier; an example of CDS being used with the Motif Editor and Display Manager (MEDM) software to lock the PMC (see Chapter~\ref{chapter:TnT_lab_work}) is shown in Figure~\ref{fig:medmscreen}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/medm_screen}
+	\caption{The MEDM screen for locking the PMC.}
+	\label{fig:medmscreen}
+\end{figure}
+\par
+Analogue signals which are measured with CDS must be digitised, and this is done with analogue-to-digital converters (ADC). An ADC measures a voltage, and the smallest voltage that it can measure is ultimately determined by the number of bits it uses. The smallest voltage measurable with the ADC corresponds to one count within CDS. 
+\par
+The Glasgow CDS uses 16 bit ADCs with a voltage range of $\pm10\,\si{\volt}$, and the sample rate of the ADCs is 65\,kHz. As digitally measured signals can be aliased if they exceed the bandwidth of the ADCs, signals that are measured with CDS are low passed at 9\,kHz with a third order filter. The noise of the ADCs used in the Glasgow CDS is shown in Figure~\ref{fig:mzchaptercdsnoise}.   
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/MZ_chapter_CDS_noise}
-	\caption{Voltage noise at the input of the Glasgow CDS system }
+	\caption{Voltage noise at the input of the Glasgow CDS.}
 	\label{fig:mzchaptercdsnoise}
 \end{figure}
