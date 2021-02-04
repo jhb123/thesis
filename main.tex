@@ -1,4 +1,4 @@
-\documentclass[12pt,twoside, openright]{report}
+\documentclass[12pt,twoside, openright]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -17,6 +17,8 @@
 \usepackage{comment}
 \usepackage{cite}
 \usepackage{textcomp}
+\usepackage{datetime}
+\usepackage{fancyhdr}
 %\usepackage[CaptionAfterwards]{fltpage}
 \DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
 
@@ -53,17 +55,27 @@
 \graphicspath{ {Figures/} }
 \bibliographystyle{unsrt}
 
-\title{
-	{Working title: Upgrades to the Hardware Required for Lowering the Quantum Noise of Gravitational Wave Detectors}\\
+\pagestyle{fancy}
+%\lhead[\leftmark]{}
+%\rhead[]{\rightmark}
+\fancyhf{}
+\fancyhead[LE]{\nouppercase\leftmark}
+\fancyhead[RO]{\nouppercase\rightmark}
+\cfoot{\thepage}
+
+%\title{
+%	{Working title: Upgrades to the Hardware Required for Lowering the Quantum Noise of Gravitational Wave Detectors}\\
 %	{}\\
-	{\large University of Glasgow}\\
-	{\includegraphics[width=0.5\textwidth]{GlaLogo}}
-}
-\author{Joseph Henry Briggs}
-\date{Day Month Year}
+%	{\large University of Glasgow}\\
+%	{\includegraphics[width=0.5\textwidth]{GlaLogo}}
+%}
+%\author{Joseph Henry Briggs}
+%\date{Day Month Year}
 
 \begin{document}
-\maketitle
+%\maketitle
+\input{title}
+\pagenumbering{roman}
 \setlength{\parskip}{2em}
 %\frontmatter
 \chapter*{Abstract}
@@ -77,6 +89,7 @@
 \setlength{\parskip}{2em}
 %\mainmatter
 \chapter{Introduction}
+\pagenumbering{arabic}
 \label{chapter:Introduction}
 \input{Chapters/Introduction}
 \chapter{The Fundamentals of Gravitational Wave Interferometers}
@@ -94,7 +107,7 @@
 \chapter{Design of the LIGO A+ HAM6 Layout}
 \label{chapter:BHD_for_ligo_2}
 \input{Chapters/BHD_for_ligo_chapter_2}
-\chapter{Characterisation of InGaAs Photodiodes for detecting $2\si{\micro\metre}$ Light}
+\chapter{Characterisation of InGaAs Photodiodes for Detecting $2\si{\micro\metre}$ Light}
 \label{chapter:2um_photoiode_chapter}
 \input{Chapters/extended_ingaas}
 \chapter{An Experimental Demonstration of the Relationship between the Shot Noise of Light and the Motion of a Mirror in an Interferometer}
@@ -136,6 +149,6 @@
 %\chapter{Caltech characterisation of OMC}
 %Short bit of work, could be a chapter, but the experiment was not something new. This was a learning experience really however there was a new result which was needing higher quality mirrors for the OMC.
 %\chapter{mode matching python implementation}
-\setlength{\parskip}{0.5em}
+\setlength{\parskip}{0.2em}
 \bibliography{C:/bibliography/bibliography}
 \end{document}

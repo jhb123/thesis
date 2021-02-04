@@ -1,4 +1,4 @@
-The following simulations where used in Chapter~\ref{chapter:simulation_finesse}. Section~\ref{sec:mode_match_to_arm} shows how the input beam parameter was determined so that single bounce simulations and simulations with arm cavities had the beam parameter of the input laser remained the same. Section~\cite{sec:sim_interferometer_params} contains tables of the spacings and properties of the optics for the LLO interferometer. Without a \texttt{cav} command, \textsc{Finesse} will default to using a 2mm beam with its waist at $z = 0$ with respect to the node at the laser.
+The following simulations where used in Chapter~\ref{chapter:simulation_finesse}. Section~\ref{sec:mode_match_to_arm} shows how the input beam parameter was determined so that single bounce simulations and simulations with arm cavities had the beam parameter of the input laser remained the same. Section~\ref{sec:sim_interferometer_params} contains tables of the spacings and properties of the optics for the LLO interferometer. Without a \texttt{cav} command, \textsc{Finesse} will default to using a 2mm beam with its waist at $z = 0$ with respect to the node at the laser.
 \section{Mode Matching the Laser to the Arm Cavity}
 \label{sec:mode_match_to_arm}
 To find suitable numbers to use for the \texttt{gauss} command in the simulations of single-bounce and locked-arm measurements (see Section~\ref{sec:finesse_code} and Figure~\ref{fig:diagramofsim2}), the following test was performed. The main simulation from Section~\ref{sec:finesse_code} was modified so that it did not have an X arm or the SRC. The following beam parameters were found with a \texttt{bp} detector placed at the lasers node:
@@ -27,7 +27,7 @@ give more than 99.99999\% mode matching, which is plenty for for this work. This
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{sim_chapter_gauss_command_fitting}
-	\caption{Optimisation of the parameters used in the \texttt{gauss} command to mode match the laser to the arms in the simulations described in Chapter~\ref{chapter:simulation_finesse} and Section~\cite{sec:finesse_code}. The blue, green and orange lines show how the mode matching changes as the beam waist location is changed. As the mode mismatch became larger, more HOM were required; this is why the blue and green/orange lines diverge. A quadratic was fitted to the data highlighted in red, and the minimum value was used as the waist location parameter for the \texttt{gauss} command.}
+	\caption{Optimisation of the parameters used in the \texttt{gauss} command to mode match the laser to the arms in the simulations described in Chapter~\ref{chapter:simulation_finesse} and Section~\ref{sec:finesse_code}. The blue, green and orange lines show how the mode matching changes as the beam waist location is changed. As the mode mismatch became larger, more HOM were required; this is why the blue and green/orange lines diverge. A quadratic was fitted to the data highlighted in red, and the minimum value was used as the waist location parameter for the \texttt{gauss} command.}
 	\label{fig:gausscommandfitting}
 \end{figure}
 \clearpage
@@ -35,7 +35,7 @@ give more than 99.99999\% mode matching, which is plenty for for this work. This
 \label{sec:sim_interferometer_params}
 The simulated interferometer uses nominal values for the LIGO arms cavities and the LLO SRC. The simulated arm cavity geometry is based on the design values to avoid contrast defects. The following sections contain tables specifying the design and measured values for each component of the simulation. 
 \subsection{Radii of Curvature of optical components}
-The optics in the SRC were simulated with the values from Table~\cite{tab:measured_vals_RoCs}. The arm cavity optics have been simulated using the values from Table~\cite{tab:desgin_vals_RoCs}.
+The optics in the SRC were simulated with the values from Table~\ref{tab:measured_vals_RoCs}. The arm cavity optics have been simulated using the values from Table~\ref{tab:desgin_vals_RoCs}.
 \begin{table}[ht]
 	\centering
 	\begin{tabular}[h]{ c | c | c | c }
@@ -65,7 +65,7 @@ The optics in the SRC were simulated with the values from Table~\cite{tab:measur
 	\label{tab:measured_vals_RoCs}
 \end{table}
 \subsection{Spacings}
-The nominal values for the spacing between the optics at LHO/LLO, with a diagram, can be found in~\cite{aligo_layout_h1}. This information is also in~\cite{Muzammil2016}. The L1 Zemax parameters are found in~\cite{Zeemax_L1}. Table~\cite{tab:zeemax_spacings} contains the distances derived from the Zemax coordinates. Most spacings do not require sub mm accuracy, however SR3 to SR2 does since the Rayleigh range of this beam is about 4\,cm. The design value for the spacings are shown in Table~\cite{tab:design_spacings}. The values used in an earlier \textsc{Finesse} model of LLO~\cite{l1_finesse_2014} are shown in Table~\cite{tab:finesse_spacings}. The thickness of each optic is found in Table~\cite{tab:optic_thickness}.
+The nominal values for the spacing between the optics at LHO/LLO, with a diagram, can be found in~\cite{aligo_layout_h1}. This information is also in~\cite{Muzammil2016}. The L1 Zemax parameters are found in~\cite{Zeemax_L1}. Table~\ref{tab:zeemax_spacings} contains the distances derived from the Zemax coordinates. Most spacings do not require sub mm accuracy, however SR3 to SR2 does since the Rayleigh range of this beam is about 4\,cm. The design value for the spacings are shown in Table~\ref{tab:design_spacings}. The values used in an earlier \textsc{Finesse} model of LLO~\cite{l1_finesse_2014} are shown in Table~\ref{tab:finesse_spacings}. The thickness of each optic is found in Table~\ref{tab:optic_thickness}.
 \begin{table}[ht]
 	\centering
 	\begin{tabular}{ c | c }

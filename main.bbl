@@ -1214,25 +1214,6 @@ A.E. Siegman.
 \newblock {\em lasers}.
 \newblock University Science Books, 1986.
 
-\bibitem{Graef2014}
-C~Gräf, B~W Barr, A~S Bell, F~Campbell, A~V Cumming, S~L Danilishin, N~A
-  Gordon, G~D Hammond, J~Hennig, E~A Houston, S~H Huttner, R~A Jones, S~S
-  Leavey, H~Lück, J~Macarthur, M~Marwick, S~Rigby, R~Schilling, B~Sorazu,
-  A~Spencer, S~Steinlechner, K~A Strain, and S~Hild.
-\newblock Design of a speed meter interferometer proof-of-principle experiment.
-\newblock {\em Classical and Quantum Gravity}, 31(21):215009, oct 2014.
-
-\bibitem{Jans_thesis}
-J.-S. Hennig.
-\newblock {\em Mirror suspensions for the Glasgow Sagnac speed meter}.
-\newblock PhD thesis, University of Glasgow., 2018.
-
-\bibitem{Meers1991a}
-B.~J. Meers and K.~A. Strain.
-\newblock Wave-front distortion in laser-interferometric gravitational-wave
-  detectors.
-\newblock {\em Physical Review D}, 43(10):3117--3130, may 1991.
-
 \bibitem{Schnupp_shot_noise}
 L.~Schnupp.
 \newblock (unpublished).
@@ -1410,6 +1391,12 @@ Alan~R. Beattie.
 \newblock {\em Journal of Physics and Chemistry of Solids}, 23(8):1049--1056,
   aug 1962.
 
+\bibitem{p5986_datasheet}
+Hamamatsu.
+\newblock Insb photovoltaic detectors, p5986/p4247 series, December 2011.
+\newblock datasheet
+  \url{https://www.hamamatsu.com/resources/pdf/ssd/p5968-060_etc_kird1039e.pdf}.
+
 \bibitem{Kimukin2003}
 Ibrahim Kimukin, Necmi Biyikli, and Ekmel Ozbay.
 \newblock {InSb} high-speed photodetectors grown on {GaAs} substrate.
@@ -1425,6 +1412,25 @@ A.J. Moseley, M.D. Scott, A.H. Moore, and R.H. Wallis.
 Gilberto~A. Umana-Membreno.
 \newblock Personal communication, December 2020.
 \newblock University of Western Australia.
+
+\bibitem{Graef2014}
+C~Gräf, B~W Barr, A~S Bell, F~Campbell, A~V Cumming, S~L Danilishin, N~A
+  Gordon, G~D Hammond, J~Hennig, E~A Houston, S~H Huttner, R~A Jones, S~S
+  Leavey, H~Lück, J~Macarthur, M~Marwick, S~Rigby, R~Schilling, B~Sorazu,
+  A~Spencer, S~Steinlechner, K~A Strain, and S~Hild.
+\newblock Design of a speed meter interferometer proof-of-principle experiment.
+\newblock {\em Classical and Quantum Gravity}, 31(21):215009, oct 2014.
+
+\bibitem{Jans_thesis}
+J.-S. Hennig.
+\newblock {\em Mirror suspensions for the Glasgow Sagnac speed meter}.
+\newblock PhD thesis, University of Glasgow., 2018.
+
+\bibitem{Meers1991a}
+B.~J. Meers and K.~A. Strain.
+\newblock Wave-front distortion in laser-interferometric gravitational-wave
+  detectors.
+\newblock {\em Physical Review D}, 43(10):3117--3130, may 1991.
 
 \bibitem{AD797}
 Analog Devices.
