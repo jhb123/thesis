@@ -1,4 +1,4 @@
-\section{Transimpedance Amplifier for Measuring the Dark Noise of Photodiodes}
+\section{A Transimpedance Amplifier for Measuring the Dark Noise of Photodiodes}
 \label{sec:appendix_dark_noise_tia}
 A circuit which allowed for the reverse bias to be set and for the easy exchange of photodiodes was constructed. To measure small amounts of current noise, a transimpedance amplifier with a large gain is needed. As the dark current for these photodiodes is of the order of 1\si{\milli\ampere}, the gain of the transimpedance amplifier was chosen to be $1\times10^6$ so that signals of the order 1\,V would be produced, and so a 1\,\si{\mega\ohm} resistor was used in the feedback path.
 \paragraph{}
@@ -31,7 +31,7 @@ To verify that this was a sufficiently quiet reverse bias voltage source that do
 	\caption{The FD10D was biased with 1\,V in the circuits shown in Figure~\ref{fig:circuitappendixdarknoisetestbox1} and Figure~\ref{fig:circuitappendixdarknoisetestbox2}. The low-noise fixed-bias circuit and the circuit with a settable-bias gave the same results, so we can be confident that the circuits shown in Figures \ref{fig:circuitappendixdarknoisetestbox1} and \ref{fig:circuitappendixdarknoisetestbox2} will produce measurements that are not contaminated by reverse bias noise.}
 	\label{fig:pdchapterbiascrosscheck}
 \end{figure}
-\subsection{Transfer function}
+\subsection{Transfer Function}
 The transfer function of the transimpedance amplifier shown in Figure~\ref{fig:circuitappendixdarknoisetestbox1} was measured under a variety of different physical constructions as this circuit's behaviour can be affected by stray capacitance. The measurements of these transfer functions are shown in Figure~\ref{fig:circuitappendixtransimpedanceamplifiertf}. When constructed from strip board and with the photodiode anode and cathode cables near each other, there was of the order 10\,pF of stray capacitance, i.e. it was as if the circuit had an extra 10\,pF capacitor between the inverting input of the op~amp and ground. By making this circuit on a prototyping board with less stray capacitance between the strips and by keeping the photodiode anode and cathode wires from forming a capacitor, the stray capacitance was reduced. The measurement matches the \textsc{LISO} (see Section~\ref{sec:circuit_appendix_liso}) simulation of this circuit. This was crosschecked using the \textsc{Matlab} function described in Section~\ref{sec:appendix_TIA_TF}.
 \begin{figure}
 	\centering
@@ -39,7 +39,7 @@ The transfer function of the transimpedance amplifier shown in Figure~\ref{fig:c
 	\caption{The transfer function between a current into the inverting input of the transimpedance amplifier design shown in Figure~\ref{fig:circuitappendixdarknoisetestbox1}, Figure~\ref{fig:circuitappendixdarknoisetestbox3} and Figure~\ref{fig:circuitappendixdarknoisetestbox2} was measured and simulated using \textsc{Liso}. A \textsc{Matlab} function (see Section~\ref{sec:appendix_TIA_TF}) was used to check the measurement and the simulation. This circuit is sensitive to stray capacitance (s.c.) at the inverting input of the TL071. The stray capacitance was reduced by changing the layout of the circuit.}
 	\label{fig:circuitappendixtransimpedanceamplifiertf}
 \end{figure}
-\subsection{Noise measurement}
+\subsection{Noise Measurement}
 The dark noise of the circuits described in Section~\ref{sec:appendix_dark_noise_tia} is shown in Figure~\ref{fig:circuitappendixdarknoiseboxnoise}. The shot noise level of a typical photocurrent in a gravitational wave detector is several hundred times larger than the noise of this circuit. To measure the noise of the transimpedance amplifier, instead of a photodiode, a 470\,pF capacitor was connected between the inverting input of the op~amp and ground.
 \begin{figure}
 	\centering
@@ -47,7 +47,7 @@ The dark noise of the circuits described in Section~\ref{sec:appendix_dark_noise
 	\caption{At low frequencies, the noise of the transimpedance amplifier shown in Figure~\ref{fig:circuitappendixdarknoisetestbox1}, Figure~\ref{fig:circuitappendixdarknoisetestbox3} and Figure~\ref{fig:circuitappendixdarknoisetestbox2} is dominated by the low frequency voltage noise of the TL071. Above 10\,Hz, the noise of the circuit is dominated by the Johnson-Nyquist noise of the feedback resistor. At 30\,kHz, the impedance of the feedback network causes the TL071's voltage noise to rise above the feedback resistor's Johnson-Nyquist noise. }
 	\label{fig:circuitappendixdarknoiseboxnoise}
 \end{figure}
-\section{Transimpedance Amplifier for Making Shot Noise limited Measurements of 10\,mA Photocurrents}
+\section{A Transimpedance Amplifier for Making Shot Noise limited Measurements of 10\,mA Photocurrents}
 \label{sec:circuits_appendix_variable_bias_ad797}
 A photodiode circuit with electronic noise $\sim25$ times lower than the shot noise of a 10\,mA current at frequencies between 100\,Hz to several MHz is shown in Figure~\ref{fig:pdchapterqetestcircuit}. Below 100\,Hz, the noise rises as 1/f, and it equals the shot noise of a 10\,mA current at 0.1\,Hz. The noise for this circuit is shown in Figure~\ref{fig:pdchapterqetestcircuitnoise} and the transfer function is shown in Figure~\ref{fig:pdchapterqetestcircuittf}. While Figure~\ref{fig:pdchapterqetestcircuit} is specific to the experiment described in Section~\ref{sec:pd_chapter_reverse_bias_qe}, the design of the transimpedance part of this circuit (the AD797 and accompanying parts) was also used in Chapter \ref{chapter:in_air_MZ}. 
 \paragraph{}
