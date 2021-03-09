@@ -1,4 +1,5 @@
 This appendix contains an overview of Gaussian modes. More in-depth explanations can be found in \cite{lasers1986}.
+%\setlength\belowdisplayskip{0pt}}
 \section{The Fundamental Gaussian Mode}
 The simplest laser beam profile can be described by the fundamental Gaussian mode. This is a mode which has a circular intensity profile which follows a Gaussian distribution, and its surface of constant phase is spherical. The fundamental Gaussian mode is given by
 \begin{equation}
@@ -97,13 +98,13 @@ The ABCD matrices for various components is summarised in table \ref{tab:optical
 \label{tab:optical_components_ABCD}
 \end{table}
 \section{Higher Order Modes and Optical Imperfections}
-The fundamental Gaussian mode describes the electric field of a beam in an ideal optical system. Imperfections in the optical layout, such as misalignment and mode mismatch, result in a different mode shape. If two modes are misaligned slightly, the resulting mode profile will look like two spots instead of one. A small mode mismatch results in a ring-shaped mode profile. These imperfections in the layout and the resulting beam shapes can be modelled as the optical layout scattering light into higher order optical modes (e.g~\cite{Morrison1994}). 
+The fundamental Gaussian mode describes the electric field of a beam in an ideal optical system. Imperfections in the optical layout, such as misalignment, mode mismatch and spatial distortions in mirror surfaces, can generate light with a different intensity profile to the fundamental Gaussian mode. For instance, if two interfering beams are misaligned slightly, the resulting beam will have a mode profile that looks like two spots instead of one. A small mode mismatch results in a ring-shaped mode profile. Similar effects happen when a laser and a cavity are misaligned. These imperfections in the layout and the resulting beam shapes can be modelled as the optical layout scattering light into higher order optical modes (e.g~\cite{Morrison1994}). 
 \par
 One complete, orthonormal basis set of functions that can be used to construct higher order modes with are the Hermite-Gaussian (HG) modes. These modes have $xy$ symmetry and are rectangularly shaped. HG modes are useful for modelling misalignments because this type of imperfection can be naturally broken into $xy$ coordinates.
 \par
 Mode mismatches are best described by the $r\theta$ coordinates, and so it is natural to express these in terms of another orthonormal basis set known as the Laguerre-Gauss (LG) modes. However, if the beam is astigmatic then the mode no longer has the symmetry required in order to be modelled with LG modes. Second order HG modes can also describe mode mismatch, even if the modes are astigmatic.
 \par
-The shape (i.e.~not including the units of the electric field) of the higher order modes can be described with
+The spatial distribution of a higher order mode's field amplitude can be described with
 \begin{equation}
 \Psi_{nm}(x,y,z) = \Psi_n(x,z)\Psi_m(y,z).
 \end{equation}
@@ -113,7 +114,7 @@ The functions $\Psi_{n}$ have the form
 \end{multline}
 where $H_n(x)$ a Hermite polynomial of the order n. By writing $\Psi_{nm}(x,y,z)$ out explicitly,
 \begin{multline}
-\Psi_{nm}(x,y,z) = \left(2^(n+m-1)n!m!\pi \right)^{1/2} \frac{1}{w(z)}\exp\big(i(n + m + 1)\phi(z)\big) \\ H_n\left(\frac{\sqrt{2}x}{w(z)}\right) H_m\left(\frac{\sqrt{2}x}{w(z)}\right) \exp\left(-ik\frac{x^2+y^2}{2R_c(z)} - i\frac{x^2 + y^2}{w^2(z)}\right),
+\Psi_{nm}(x,y,z) = \left(2^{(n+m-1)}n!m!\pi \right)^{1/2} \frac{1}{w(z)}\exp\big(i(n + m + 1)\phi(z)\big) \\ H_n\left(\frac{\sqrt{2}x}{w(z)}\right) H_m\left(\frac{\sqrt{2}x}{w(z)}\right) \exp\left(-ik\frac{x^2+y^2}{2R_c(z)} - i\frac{x^2 + y^2}{w^2(z)}\right),
 \end{multline}
 we can see that higher order modes have the same waist size and radius of curvature as the fundamental mode, but different intensity distributions and additional Gouy phase.
 %\par
@@ -126,4 +127,3 @@ In general, a mode can be written as a superposition of HG modes
 E(x,y,z) = \sum_{n=0}^{n=\infty}\sum_{m=0}^{m=\infty}A_n \Psi_n(x)A_m \Psi_m(y),
 \end{equation}
 where $A_n$ is the amplitude of the $n^{\rm{th}}$ mode.
-
