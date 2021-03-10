@@ -1830,7 +1830,7 @@ but may be detectable in a new kind of experiment.
 
 @Misc{galaxy_optics,
   title = {{ {LIGO Optics Database}}},
-  note  = {\url{https://galaxy.ligo.caltech.edu/optics/}},
+  note  = {\url{https://galaxy.ligo.caltech.edu/optics/} Accessed 09/03/2021},
 }
 
 @Misc{SR2_04_measurement,
@@ -3556,6 +3556,12 @@ but may be detectable in a new kind of experiment.
   month     = {apr},
   doi       = {10.1007/s41114-018-0012-9},
   publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Misc{MEDM,
+  author = {Argonne National Laboratory},
+  title  = {{Experimental Physics and Industrial Control System, MEDM: Motif Editor and Display Manager}},
+  note   = {\url{https://epics.anl.gov/extensions/medm/}, Accessed 10/03/2021},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
