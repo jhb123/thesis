@@ -1,39 +1,46 @@
-The following simulations where used in Chapter~\ref{chapter:simulation_finesse}. Section~\ref{sec:mode_match_to_arm} shows how the input beam parameter was determined so that single bounce simulations and simulations with arm cavities had the beam parameter of the input laser remained the same. Section~\ref{sec:sim_interferometer_params} contains tables of the spacings and properties of the optics for the LLO interferometer. Without a \texttt{cav} command, \textsc{Finesse} will default to using a 2mm beam with its waist at $z = 0$ with respect to the node at the laser.
+The following simulations were used in Chapter~\ref{chapter:simulation_finesse} for determining the effect of radii of curvature errors in the signal recycling cavity at LLO. This appendix clarifies some aspects of \textsc{Finesse}'s behaviour by providing tests and examples.
 \section{Mode Matching the Laser to the Arm Cavity}
 \label{sec:mode_match_to_arm}
-To find suitable numbers to use for the \texttt{gauss} command in the simulations of single-bounce and locked-arm measurements (see Section~\ref{sec:finesse_code} and Figure~\ref{fig:diagramofsim2}), the following test was performed. The main simulation from Section~\ref{sec:finesse_code} was modified so that it did not have an X arm or the SRC. The following beam parameters were found with a \texttt{bp} detector placed at the lasers node:
+The laser in a \textsc{Finesse} simulation has a beam parameter. By deafult, the beam will have a a 2mm beam with its waist at $z = 0$ with respect to the node at the laser. If a \texttt{cav} command is used to define a cavity, then the beam parameter of the laser is set so that it is perfectly matched to the cavity. It is crucial that the beam parameter of the input laser remains the same between simulations of when the interferometer is configured so that the arms are resonant and when it is configured for a single bounce measurement. 
+\par
+The beam parameter of the laser can be set with the \texttt{gauss} command. To find suitable numbers to use for the \texttt{gauss} command in the simulations of single-bounce and locked-arm measurements (see Section~\ref{sec:finesse_code} and Figure~\ref{fig:diagramofsim2}), the following test was performed. The main simulation from Section~\ref{sec:finesse_code} was modified so that it did not have an X arm or the SRC. The following beam parameters were found with a \texttt{bp} detector placed at the lasers node:
+\setlength{\parskip}{0em}
 \begin{itemize}
 	\item $w_0 = 0.00864064287177005$ m
 	\item $z = 1339.83530090614$ m
 \end{itemize}
+\par
 To determine if the sign of z is correct, consider what happens if the beam parameter detector is moved 1m towards the cavity to \verb|bs_a|:
 \begin{itemize}
-	\item $w_0 = 0.00864064287177005 $
+	\item $w_0 = 0.00864064287177005$ m
 	\item $z = 1338.83530090614$ m
 \end{itemize}
 $z$ increasing suggests moving from \verb|n1| to \verb|bs_a| causes one to be closer to the waist. Intuitively, we know this is the case since the geometry of the cavity means the waist is within the cavity, and moving towards the cavity means you are moving towards the cavity waist. In other words, we know the beam should be getting smaller as we move from the laser to the cavity, which matches the behaviour seen here.
+\setlength{\parskip}{2.0em}
 \par
 However, setting the beam parameter at the laser with the first set of numbers gives \textit{terrible} mode matching. The simulation below investigates this. A photodiode which is masked from the TM00 mode 
+\setlength{\parskip}{0em}
 \begin{verbatim}
 pd HOM bs_d 
 mask HOM 0 0 0
 \end{verbatim}
-was placed at \verb|bs_d| , which has the beam reflected from the arm cavity in it. The value of $z$ for the \texttt{gauss}  was varied and the power incident on \texttt{HOM}  was measured. To check that enough HOM were being used, the simulation was repeated with several \texttt{maxtem}  commands. The results had a quadratic fitted to them, and the minimum was taken as the optimal value. This is shown in Figure~\ref{fig:gausscommandfitting}. The values: 
+was placed at \verb|bs_d| , which has the beam reflected from the arm cavity in it. The value of $z$ for the \texttt{gauss}  was varied and the power incident on a \texttt{pd} with a \texttt{mask} applied to it, called \texttt{HOM}, was measured. To check that enough HOM were being used, the simulation was repeated with several \texttt{maxtem}  commands. The results had a quadratic fitted to them, and the minimum was taken as the optimal value. This is shown in Figure~\ref{fig:gausscommandfitting}. The values: 
 \begin{itemize}
 	\item $w_0 = 0.00864064287177005$ m
 	\item $z = -1339.83683935$ m
 \end{itemize}
-give more than 99.99999\% mode matching, which is plenty for for this work. This is close to the original values that we obtained, except for a minus sign. This is due to the way \textsc{Finesse} computes the beam parameter. 
+give more than 99.99999\% mode matching, which is plenty for this work. This is close to the original values that we obtained, except for a minus sign. This is due to the way \textsc{Finesse} computes the beam parameter. 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{sim_chapter_gauss_command_fitting}
 	\caption{Optimisation of the parameters used in the \texttt{gauss} command to mode match the laser to the arms in the simulations described in Chapter~\ref{chapter:simulation_finesse} and Section~\ref{sec:finesse_code}. The blue, green and orange lines show how the mode matching changes as the beam waist location is changed. As the mode mismatch became larger, more HOM were required; this is why the blue and green/orange lines diverge. A quadratic was fitted to the data highlighted in red, and the minimum value was used as the waist location parameter for the \texttt{gauss} command.}
 	\label{fig:gausscommandfitting}
 \end{figure}
+\setlength{\parskip}{2.0em}
 \clearpage
 \section{Interferometer Parameters}
 \label{sec:sim_interferometer_params}
-The simulated interferometer uses nominal values for the LIGO arms cavities and the LLO SRC. The simulated arm cavity geometry is based on the design values to avoid contrast defects. The following sections contain tables specifying the design and measured values for each component of the simulation. 
+The simulated interferometer has nominal values for the LIGO arms cavities and the LLO SRC. The simulated arm cavity geometry is based on the design values to avoid contrast defects. The following sections contain tables specifying the design and measured values for each component of the simulation. 
 \subsection{Radii of Curvature of optical components}
 The optics in the SRC were simulated with the values from Table~\ref{tab:measured_vals_RoCs}. The arm cavity optics have been simulated using the values from Table~\ref{tab:desgin_vals_RoCs}.
 \begin{table}[ht]
@@ -153,11 +160,10 @@ The parameters used in the main simulation were a combination of design values a
 	\label{tab:nominal simulation}
 \end{table}
 \clearpage
-\section{\textsc{Finesse} Code}
-This section contains the \textsc{Finesse} code used in Chapter~\ref{chapter:simulation_finesse}.
-\label{sec:finesse_code}
-\subsection{Michelson Interferometers with Thin Beamsplitter}
-This \textsc{Finesse} code describes a Michelson interferometer where the beam splitter is implemented with a single \texttt{bs} command. This simulation will produce an incorrect result as the phase at the beam splitter is not properly accounted for.
+\section{Finding the Correct Way to Model a Beam splitter}
+Two simulations were used to model two identical Michelson interferometers which only differ in how the beam splitter was implemented. These simulations were used to generate Figure~\ref{fig:thinvsthick}.
+\par
+The following \textsc{Finesse} code describes a Michelson interferometer where the beam splitter is implemented with a single \texttt{bs} command. This simulation will produce an incorrect result as the phase at the beam splitter is not properly accounted for.
 \begin{lstlisting}[breaklines]
 l l1 1 0 n1 
 s sin 1 n1 na 
@@ -174,8 +180,8 @@ pd AS nd
 
 xaxis Xmirror phi lin 0 180 100
 \end{lstlisting}
-\subsection{Michelson Interferometers with Thick Beamsplitter}
-This \textsc{Finesse} code describes a Michelson interferometer where the beam splitter is implemented with three \texttt{bs} and two \texttt{space} commands. This is the correct way to implement a beam splitter in \textsc{Finesse}.
+\par
+The thin beam splitter in the above simulation was replaced with a beam splitter that is implemented with three \texttt{bs} and two \texttt{space} commands. This is the correct way to implement a beam splitter in \textsc{Finesse}. The code for this is shown below.
 \begin{lstlisting}[breaklines]
 l l1 1 0 n1 
 s sin 1 n1 na 
@@ -196,7 +202,8 @@ pd AS nd
 
 xaxis Xmirror phi lin 0 180 100
 \end{lstlisting}
-\subsection{Main Simulation}
+\section{Main Simulation}
+\label{sec:finesse_code}
 The following \textsc{Finesse} code was used to simulate mode mismatches in the SRC.
 \begin{lstlisting}[breaklines]
 l l1 5M 0 n1
