@@ -55,13 +55,17 @@ where
 E_x(x,z) = \frac{E_0}{\sqrt{q_x(z)}}\exp\left(-ik\frac{x^2}{2q_x(z)}\right),\\
 E_y(y,z) = \frac{E_0}{\sqrt{q_y(z)}}\exp\left(-ik\frac{y^2}{2q_y(z)}\right).
 \end{align}
-The constant $E_0$ is such that the units of $E^*E$ are $\si{\watt\metre^{-2}}$. Mode matching depends only on the shape of the modes, denoted with $\Psi$, so the units of the electric field not feature in this calculation.
+The constant $E_0$ is such that the units of $E^*E$ are $\si{\watt\metre^{-2}}$. Mode matching depends only on the spatial distribution of the modes' intensities, denoted with $\Psi$, so the units of the electric field not feature in this calculation.
 \par
-For a beam without astigmatism, $x^2 + y^2 = r^2$ and $q_x = q_y = q$, so the shape of the mode can be expressed as
+For a beam without astigmatism, $x^2 + y^2 = r^2$ and $q_x = q_y = q$, so the spatial distribution of a mode's intensity can be expressed as
 \begin{equation}
 \Psi(r,z) = \frac{1}{q(z)}\exp\left(-ik\frac{r^2}{2q(z)}\right).
 \end{equation}
-The mode matching, $\mathcal{M}$, of two beams is determined by the overlap of the shapes their fields. This can be calculated with
+For a beam with astigmatism, the spatial distribution of a mode's intensity is given by 
+\begin{equation}
+\Psi(x,y) = \frac{1}{\sqrt{q_x}}\exp\left(\frac{ikx^2}{2q_x}\right)\frac{1}{\sqrt{q_y}}\exp\left(\frac{iky^2}{2q_y}\right).
+\end{equation}
+The mode matching, $\mathcal{M}$, between two beams is determined by the overlap integral of the spatial distribution of their intensities. This can be calculated with
 \begin{equation}
 \mathcal{M} = \frac{\left|\int_{A} \Psi_1^*\Psi_2 dA \right|}{\int_{A} \left|\Psi_1 \right|^2 dA \int_{A} \left|\Psi_2 \right|^2 dA}.
 \label{eq:mode_matching_general}

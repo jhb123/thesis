@@ -1,15 +1,15 @@
 This appendix contains an overview of Gaussian modes. More in-depth explanations can be found in \cite{lasers1986}.
 %\setlength\belowdisplayskip{0pt}}
 \section{The Fundamental Gaussian Mode}
-The simplest laser beam profile can be described by the fundamental Gaussian mode. This is a mode which has a circular intensity profile which follows a Gaussian distribution, and its surface of constant phase is spherical. The fundamental Gaussian mode is given by
+The simplest laser beam profile can be described by the fundamental Gaussian mode. This is a mode which has a circular intensity profile which follows a Gaussian distribution, and its surface of constant phase is spherical. As the phase fronts are spherical, Gaussian beams describe lasers in optical layouts which have spherically curved optics. The fundamental Gaussian mode is given by
 \begin{equation}
 E(\mathbf{r}) = E_0\sqrt{\frac{2}{\pi}} \frac{1}{w(z)} \exp\big(i\phi(z)\big)\exp\left( -ik\frac{x^2 + y^2}{2R_C(z)} - \frac{x^2 + y^2}{w^2(z)}\right)\exp\big(-ikz\big).
 \label{eq:gaussian_mode}
 \end{equation}
 \par
-Gaussian beams are characterised $w(z)$ which gives the width of the beam at position $z$ the optical axis; by $\phi(z)$ which gives the Gouy phase of the beam at $z$ along the optical axis; and by $R_c(z)$ which gives radius of curvature of the beam at $z$. The minimum value of $w(z)$ is known as the beam waist, or $w_0$.
+Gaussian beams are characterised by the size of their waist, $w_0$. The width of a Gaussian beam at a position $z$ along the optical axis is represented by $w(z)$, and $w(0) = w_0$. Gaussian beams are also characterised by $\phi(z)$, which gives the Gouy phase of the beam at $z$ along the optical axis, and by $R_c(z)$, which gives radius of curvature of the beam at $z$.
 \par
-It is useful to express $w(z)$, $\phi(z)$ and $R_c(z)$ in terms of the Rayleigh range, $z_{\rm{R}}$. The Rayleigh range characterises how fast the beam will spread out. The size of the waist determines the Rayleigh length, a smaller beam waist corresponds to a shorter Rayleigh length. The Rayleigh range is given by
+It is useful to express $w(z)$, $\phi(z)$ and $R_c(z)$ in terms of the Rayleigh range, $z_{\rm{R}}$. The Rayleigh range characterises how fast the beam will spread out. The size of the waist determines the Rayleigh range, a smaller beam waist corresponds to a shorter Rayleigh range. The Rayleigh range is given by
 \begin{equation}
 z_{\rm{R}} = \frac{\pi w_0^2}{\lambda}.
 \end{equation} 
@@ -80,7 +80,7 @@ The beam parameter of a laser as it passes through the first component to the $n
 \begin{equation}
 \mathbf{M} = \mathbf{M_n}\mathbf{M_{n-1}}\ldots\mathbf{M_0}.
 \end{equation}
-The ABCD matrices for various components is summarised in table \ref{tab:optical_components_ABCD}.
+Note, the left most matrix corresponds to the last optical component in the layout. The ABCD matrices for various components is summarised in table \ref{tab:optical_components_ABCD}.
 \begin{table}
 	\centering
 	\begin{tabular}{|c | c |}
@@ -94,11 +94,11 @@ The ABCD matrices for various components is summarised in table \ref{tab:optical
 		Mirror (AOI = $\alpha$, Tangential Plane) & $\begin{pmatrix} 1 & 0 \\ -S\cos\alpha & 1\end{pmatrix}$\\ & \\
 		\hline
 	\end{tabular}
-		\caption{Table of the ABCD matrices for simple optical components.}
+		\caption{Table of the ABCD matrices for simple optical components. The length of the space is $d$, and the optical power of the mirror/lens is $S$.}
 \label{tab:optical_components_ABCD}
 \end{table}
 \section{Higher Order Modes and Optical Imperfections}
-The fundamental Gaussian mode describes the electric field of a beam in an ideal optical system. Imperfections in the optical layout, such as misalignment, mode mismatch and spatial distortions in mirror surfaces, can generate light with a different intensity profile to the fundamental Gaussian mode. For instance, if two interfering beams are misaligned slightly, the resulting beam will have a mode profile that looks like two spots instead of one. A small mode mismatch results in a ring-shaped mode profile. Similar effects happen when a laser and a cavity are misaligned. These imperfections in the layout and the resulting beam shapes can be modelled as the optical layout scattering light into higher order optical modes (e.g~\cite{Morrison1994}). 
+The fundamental Gaussian mode describes the electric field of a beam in an ideal optical system. Imperfections in the optical layout, such as misalignment, mode mismatch and spatial distortions in mirror surfaces, can generate light with a different intensity profile to the fundamental Gaussian mode. For instance, if two interfering beams are misaligned slightly, the resulting beam will have a mode profile that looks like two spots instead of one. A small difference in waist size or location, i.e. a mode mismatch, between them would result in the beam having a ring-shaped mode profile. Similar effects happen when a laser and a cavity are misaligned. These imperfections in the layout and the resulting beam shapes can be modelled as the optical layout scattering light into higher order optical modes (e.g~\cite{Morrison1994}). 
 \par
 One complete, orthonormal basis set of functions that can be used to construct higher order modes with are the Hermite-Gaussian (HG) modes. These modes have $xy$ symmetry and are rectangularly shaped. HG modes are useful for modelling misalignments because this type of imperfection can be naturally broken into $xy$ coordinates.
 \par
