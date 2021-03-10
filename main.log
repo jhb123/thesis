@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  10 MAR 2021 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  10 MAR 2021 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6674,30 +6674,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [296]
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6705,30 +6681,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [297]
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
 Package epstopdf Info: Source file: <Figures/mode_matching_appendix_optical_lay
 outs.eps>
 (epstopdf)                    date: 2020-09-01 16:09:52
@@ -6740,7 +6692,7 @@ outs-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/mode_matching_appe
 ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
 l_layouts.eps>
-(epstopdf)             \includegraphics on input line 27.
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=6097, 
 pagebox=cropbox, 501.875pt x 240.9pt>
@@ -6748,9 +6700,9 @@ File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/mode_matching_appendix_optical_layouts-eps-con
-verted-to.pdf  used on input line 27. on input line 27.
+verted-to.pdf  used on input line 29. on input line 29.
 Package pdftex.def Info: Requested size: 384.1096pt x 184.38345pt on input line
- 27.
+ 29.
 Package epstopdf Info: Source file: <Figures/mode_matching_appendix_algorithm_s
 ketch.eps>
 (epstopdf)                    date: 2020-09-01 16:11:36
@@ -6762,7 +6714,7 @@ ketch-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/mode_matching_appe
 ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
 ithm_sketch.eps>
-(epstopdf)             \includegraphics on input line 33.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=6100,
  pagebox=cropbox, 450.68375pt x 253.94875pt>
@@ -6770,9 +6722,9 @@ File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/mode_matching_appendix_algorithm_sketch-eps-co
-nverted-to.pdf  used on input line 33. on input line 33.
+nverted-to.pdf  used on input line 35. on input line 35.
 Package pdftex.def Info: Requested size: 384.1096pt x 216.44644pt on input line
- 33.
+ 35.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7264,7 +7216,7 @@ ist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/
 type1/public/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc2488.pfb>
-Output written on main.pdf (365 pages, 14258411 bytes).
+Output written on main.pdf (365 pages, 14258684 bytes).
 PDF statistics:
  6925 PDF objects out of 7423 (max. 8388607)
  5136 compressed objects within 52 object streams
