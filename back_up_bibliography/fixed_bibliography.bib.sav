@@ -3560,8 +3560,19 @@ but may be detectable in a new kind of experiment.
 
 @Misc{MEDM,
   author = {Argonne National Laboratory},
-  title  = {{Experimental Physics and Industrial Control System, MEDM: Motif Editor and Display Manager }},
+  title  = {{Experimental Physics and Industrial Control System, MEDM: Motif Editor and Display Manager}},
   note   = {\url{https://epics.anl.gov/extensions/medm/}, Accessed 10/03/2021},
+}
+
+@Article{Huang2015,
+  author  = {C. {Huang} and C. {Ho} and M. {Wu}},
+  title   = {{Large-Area Planar Wavelength-Extended InGaAs p-i-n Photodiodes Using Rapid Thermal Diffusion With Spin-On Dopant Technique}},
+  journal = {IEEE Electron Device Letters},
+  year    = {2015},
+  volume  = {36},
+  number  = {8},
+  pages   = {820-822},
+  doi     = {10.1109/LED.2015.2445471},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
