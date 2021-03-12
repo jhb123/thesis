@@ -3575,4 +3575,22 @@ but may be detectable in a new kind of experiment.
   doi     = {10.1109/LED.2015.2445471},
 }
 
+@Misc{c30655,
+  title = {C30665 Series datasheet},
+  note  = {\url{https://www.excelitas.com/product/c30665gh-ingaas-pin-3mm-5}, Acessed 12/03/2021},
+}
+
+@Article{Chua2014,
+  author    = {S S Y Chua and S Dwyer and L Barsotti and D Sigg and R M S Schofield and V V Frolov and K Kawabe and M Evans and G D Meadors and M Factourovich and R Gustafson and N Smith-Lefebvre and C Vorvick and M Landry and A Khalaidovski and M S Stefszky and C M Mow-Lowry and B C Buchler and D A Shaddock and P K Lam and R Schnabel and N Mavalvala and D E McClelland},
+  title     = {{Impact of Backscattered Light in a Squeezing-Enhanced Interferometric Gravitational-Wave Detector}},
+  journal   = {Classical and Quantum Gravity},
+  year      = {2014},
+  volume    = {31},
+  number    = {3},
+  pages     = {035017},
+  month     = jan,
+  doi       = {10.1088/0264-9381/31/3/035017},
+  publisher = {{IOP} Publishing},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

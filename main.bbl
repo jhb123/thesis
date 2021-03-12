@@ -1142,12 +1142,10 @@ B.~Lantz, R.~Mittleman, J.~Kissel, J.~Warner, and A.~Pele.
 \newblock { Typical Motion of HAM Suspension Points in O2}.
 \newblock LIGO Document T1800066-v2 \url{https://dcc.ligo.org/T1800066}.
 
-\bibitem{Kochkina:2013bba}
-Evgenia Kochkina.
-\newblock {\em {Stigmatic and Astigmatic Gaussian Beams in Fundamental Mode}:
-  {impact of Beam Model Choice on Interferometric Pathlength Signal
-  Estimates}}.
-\newblock PhD thesis, Hannover U., 2013.
+\bibitem{CDR_BHD}
+K.~A. Strain, J.~Briggs, M.~Barton, R.~Jones, S.~Webster, and E.~Oelker.
+\newblock { Conceptual Design: Balanced Homodyne Detection For A+}.
+\newblock LIGO Document E1900377-v3 \url{https://dcc.ligo.org/LIGO-E1900377}.
 
 \bibitem{BHD_ISC_requirements}
 J.~Briggs, M.~Barton, J.~Jones, E.~Oelker, S.~Webster, and K.A. Strain.
@@ -1155,42 +1153,11 @@ J.~Briggs, M.~Barton, J.~Jones, E.~Oelker, S.~Webster, and K.A. Strain.
 \newblock LIGO Document E2000072-v2
   \url{https://dcc.ligo.org/LIGO-E2000072-v2}.
 
-\bibitem{A+HAM6_design_requirements}
-A.~Brookes, L.~Barsotti, G.~Billingsley, K.A. Strain, and M.~Zucker.
-\newblock {A+ O5-HAM6 Design Considerations and Requirements}.
-\newblock LIGO DCC, April 2020.
-\newblock E1900385-v1 \url{https://dcc.ligo.org/LIGO-E1900385}.
-
 \bibitem{SAMS_DesignRequirementsDocument}
 A.~Brookes, P.~Fritschel, F.~Matichard, L.~McCuller, M.~Noh, and C.~Torrie.
 \newblock {SAMS Design Requirements Document}.
 \newblock LIGO DCC, February 2019.
 \newblock E1800314 \url{https://dcc.ligo.org/LIGO-T1800042/public}.
-
-\bibitem{Lawrence2002}
-Ryan Lawrence, Michael Zucker, Peter Fritschel, Phil Marfuta, and David
-  Shoemaker.
-\newblock { Adaptive Thermal Compensation of Test Masses in Advanced {ligo}}.
-\newblock {\em Classical and Quantum Gravity}, 19(7):1803--1812, Mar 2002.
-
-\bibitem{Blair_email_2020}
-C.~Blair.
-\newblock personal communication.
-
-\bibitem{A+_Output_Faraday_Isolator_Final_Design}
-P.~Fulda, R.~Goetz, A.~Green, R.~Martin, and D.~B. Tanner.
-\newblock {A+ Output Faraday Isolator Final Design}.
-\newblock LIGO Document T1900788-v2 \url{https://dcc.ligo.org/LIGO-T1900788}.
-
-\bibitem{CDR_BHD}
-K.~A. Strain, J.~Briggs, M.~Barton, R.~Jones, S.~Webster, and E.~Oelker.
-\newblock { Conceptual Design: Balanced Homodyne Detection For A+}.
-\newblock LIGO Document E1900377-v3 \url{https://dcc.ligo.org/LIGO-E1900377}.
-
-\bibitem{Webster2020}
-S.~Webster, K.~A. Strain, R.~Jones, and M.~Barton.
-\newblock { A+ BHD HAM6 Layout of Sensing and Control Elements}.
-\newblock LIGO Document G2001448-v5 \url{https://dcc.ligo.org/LIGO-G2001448}.
 
 \bibitem{AS_port_beam_parameter}
 L.~Barsotti.
@@ -1198,6 +1165,19 @@ L.~Barsotti.
   Layout}}.
 \newblock LIGO Document T1200410-v2
   \url{https://dcc.ligo.org/LIGO-T1200410/public}.
+
+\bibitem{Kochkina:2013bba}
+Evgenia Kochkina.
+\newblock {\em {Stigmatic and Astigmatic Gaussian Beams in Fundamental Mode}:
+  {impact of Beam Model Choice on Interferometric Pathlength Signal
+  Estimates}}.
+\newblock PhD thesis, Hannover U., 2013.
+
+\bibitem{A+HAM6_design_requirements}
+A.~Brookes, L.~Barsotti, G.~Billingsley, K.A. Strain, and M.~Zucker.
+\newblock {A+ O5-HAM6 Design Considerations and Requirements}.
+\newblock LIGO DCC, April 2020.
+\newblock E1900385-v1 \url{https://dcc.ligo.org/LIGO-E1900385}.
 
 \bibitem{Bayer-Helms1984}
 F.~Bayer-Helms.
@@ -1414,6 +1394,20 @@ A.J. Moseley, M.D. Scott, A.H. Moore, and R.H. Wallis.
 Gilberto~A. Umana-Membreno.
 \newblock Personal communication, December 2020.
 \newblock University of Western Australia.
+
+\bibitem{c30655}
+C30665 series datasheet.
+\newblock \url{https://www.excelitas.com/product/c30665gh-ingaas-pin-3mm-5},
+  Acessed 12/03/2021.
+
+\bibitem{Chua2014}
+S~S~Y Chua, S~Dwyer, L~Barsotti, D~Sigg, R~M~S Schofield, V~V Frolov, K~Kawabe,
+  M~Evans, G~D Meadors, M~Factourovich, R~Gustafson, N~Smith-Lefebvre,
+  C~Vorvick, M~Landry, A~Khalaidovski, M~S Stefszky, C~M Mow-Lowry, B~C
+  Buchler, D~A Shaddock, P~K Lam, R~Schnabel, N~Mavalvala, and D~E McClelland.
+\newblock {Impact of Backscattered Light in a Squeezing-Enhanced
+  Interferometric Gravitational-Wave Detector}.
+\newblock {\em Classical and Quantum Gravity}, 31(3):035017, January 2014.
 
 \bibitem{Graef2014}
 C~Gräf, B~W Barr, A~S Bell, F~Campbell, A~V Cumming, S~L Danilishin, N~A
