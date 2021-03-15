@@ -990,6 +990,16 @@ V.~Frolov.
   Cavity Losses}.
 \newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=42639}.
 
+\bibitem{SRM_CO2_chop}
+C.~Blair, V.~Frolov, and A.~Effler.
+\newblock {SRM \ce{CO2} Chop}.
+\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=38689}.
+
+\bibitem{CO2_mode_matching_2019}
+C.~Blair.
+\newblock {Annular \ce{CO2} 1W at Various IFO Power}.
+\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=43065}.
+
 \bibitem{10W_omc_scans_2018}
 C.~Blair.
 \newblock { OMC Scans}.
@@ -999,6 +1009,11 @@ C.~Blair.
 C.~Blair and V.~Frolov.
 \newblock { {40W OMC Scans Method and Preliminary Data}}.
 \newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=45830}.
+
+\bibitem{cooling_omc_scan_2018}
+A.~Effler, V.~Frolov, and C.~Blair.
+\newblock { {OMC Scans of Cooling Interferometer}}.
+\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=41428}.
 
 \bibitem{llo_beam_profile_alog_2018}
 M.~Kasprzack, A.~Effler, A.~Mullavey, and M.~Tse.
@@ -1010,35 +1025,17 @@ A.~Effler and M.~Kasprzack.
 \newblock {LLO Interferometer Output Beam Study}.
 \newblock LIGO Document T1800089-v2 \url{https://dcc.ligo.org/LIGO-T1800089}.
 
-\bibitem{SRM_CO2_chop}
-C.~Blair, V.~Frolov, and A.~Effler.
-\newblock {SRM \ce{CO2} Chop}.
-\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=38689}.
+\bibitem{Freise2004}
+A~Freise, G~Heinzel, H~Lück, R~Schilling, B~Willke, and K~Danzmann.
+\newblock {Frequency-domain Interferometer Simulation with Higher-order Spatial
+  Modes}.
+\newblock {\em Classical and Quantum Gravity}, 21(5):S1067--S1074, Feb 2004.
 
-\bibitem{CO2_mode_matching_2019}
-C.~Blair.
-\newblock {Annular \ce{CO2} 1W at Various IFO Power}.
-\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=43065}.
-
-\bibitem{OMC_single_bounce_modelling_2018}
-C.~Blair, V.~Frolov, and A.~Effler.
-\newblock { OMC Mode Matching in Single Bounce}.
-\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=38698}.
-
-\bibitem{cooling_omc_scan_2018}
-A.~Effler, V.~Frolov, and C.~Blair.
-\newblock { {OMC Scans of Cooling Interferometer}}.
-\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=41428}.
-
-\bibitem{Finesse_model_ham6_2018}
-A.~Green, A.~Effler, P.~Dupej, V.~Frolov, P.~Fulda, and H.~Yu.
-\newblock {Finesse Squeezing Mode Matching Study For LLO}.
-\newblock LIGO Document T1900159-v1 \url{https://dcc.ligo.org/LIGO-T1900159}.
-
-\bibitem{sqz_omc_mode_matching}
-A.~Effler, P.~Dupej, H.~Yu, A.~Green, and C.~Blair.
-\newblock { {SQZ SRM Bounce 98\% Mode Matching}}.
-\newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=42187}.
+\bibitem{finesse_manual}
+D.~Brown C.~Bond and A.~Freise.
+\newblock Finesse 2, May 2014.
+\newblock Software can be downloaded from
+  \url{http://www.gwoptics.org/finesse}.
 
 \bibitem{Pykat}
 Daniel~David Brown and Andreas Freise.
@@ -1066,17 +1063,17 @@ M.~S. Stefszky, C.~M. Mow-Lowry, S.~S.~Y. Chua, D.~A. Shaddock, B.~C. Buchler,
 E.~Oelker.
 \newblock Personal Communication, 2021.
 
-\bibitem{Fritschel2014}
-Peter Fritschel, Matthew Evans, and Valery Frolov.
-\newblock { Balanced Homodyne Readout for Quantum Limited Gravitational Wave
-  Detectors}.
-\newblock {\em Optics Express}, 22(4):4224, Feb 2014.
-
 \bibitem{BHD_angle_2020}
 L.~McCuller.
 \newblock {Nov Squeezing Data Infers Lo/readout Angle of 11.5 ± 2 Deg, Good
   Side}.
 \newblock \url{https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=53867}.
+
+\bibitem{Fritschel2014}
+Peter Fritschel, Matthew Evans, and Valery Frolov.
+\newblock { Balanced Homodyne Readout for Quantum Limited Gravitational Wave
+  Detectors}.
+\newblock {\em Optics Express}, 22(4):4224, Feb 2014.
 
 \bibitem{Sigg2008}
 Daniel Sigg and the LIGO Scientific~Collaboration.
