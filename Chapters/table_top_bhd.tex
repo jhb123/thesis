@@ -69,11 +69,12 @@ Alternatively, one can calibrate the differential path length signal by measurin
 	\label{fig:mzchapterinaircalibration}
 \end{figure}
 \subsection{Measurement of Shot Noise}
+\label{sec:mz_chapter_shot_noise_measurement}
 The Mach-Zehnder was locked, and the difference between the photodiode signals was measured. To demonstrate that the difference in the photodiode signals depended on the differential path length of the Mach-Zehnder, a modulation at 6033\,Hz was applied to the PZT. The amplitude spectral density of the difference in the photodiode signals is shown in Figure~\ref{fig:mzchapterfullnoisespectrum}. The signal was calibrated using the ramp technique described in Section~\ref{sec:mz_chapter_in_air_cal}. The dashed red line indicates the noise predicted by Equation~\ref{eq:MZ_chapter_shot_noise_level}, and at frequencies free of noise due to acoustic vibrations, this matches the measured noise to within 5\%. Thus, the measurement was limited by shot noise.
 \par
-Below 1\,kHz, scattered light and frequency noise of the laser may have affected the measurement. The laser's frequency noise can couple to the measurement via imbalances in the Mach-Zehnder's path lengths. A pessimistic imbalance of $\Delta x = 1\,\rm{mm}$ was assumed. The frequency noise of the laser was modelled as typical NPRO noise ($n_f(f) = 1\times10^4/f \,\rm{Hz/\sqrt{Hz}}$~\cite{Heurs2004}), and the associated spectrum that would appear in the differential signal, $x_f(f)$, was calculated with $x_f(f) = \Delta xn_f/f $, where $f$ is the laser's frequency.
+Below 1\,kHz, scattered light and frequency noise of the laser may have affected the measurement. The laser's frequency noise can couple to the measurement via imbalances in the Mach-Zehnder's path lengths. A pessimistic imbalance of $\Delta x = 1\,\rm{mm}$ was assumed. The frequency noise of the laser was modelled as typical NPRO noise ($n_f(f) = 1\times10^4/f \,\rm{Hz/\sqrt{Hz}}$~\cite{Heurs2004}), and the associated spectrum that would appear in the differential signal, $x_f(f)$, was calculated with $x_f(f) = \Delta x \times n_f/f_{\rm{EM}} $, where $f_{\rm{EM}}$ is the laser's frequency.
 \par
-To estimate the signal that is due to scattered light, the a phase modulated signal, $A\exp\left(\frac{\omega_m}{\Omega}\sin(\Omega t)\right)$, was fit to the data. A likely source of motion is the air-con, and this drives modulations at 20\,Hz, so $\Omega = 2\pi\times20\,\si{\radian\,\second^{-1}}$. From Figure~\ref{fig:mzchapterfullnoisespectrumwithcouplings}, once can see that $\omega_m\sim 2\pi\times1000\,\si{\radian\,\second^{-1}}$. By computing the power spectrum in terms of relative intensity units and integrating over the frequency, one can estimate the squared amplitude of scattered light relative to the DC light power (see~\cite{Chua2014} for concrete details on this type of calculation). For this experiment, 300\,fW of scattered light could explain a significant amount of the noise below 1\,kHz. 
+To estimate the noise that is due to scattered light, a phase modulated signal, $A\exp\left(\frac{\omega_m}{\Omega}\sin(\Omega t)\right)$, was fit to the data. A likely source of motion is the air-con, and this drives modulations at 20\,Hz, so $\Omega = 2\pi\times20\,\si{\radian\,\second^{-1}}$. From Figure~\ref{fig:mzchapterfullnoisespectrumwithcouplings}, once can see that $\omega_m\sim 2\pi\times1000\,\si{\radian\,\second^{-1}}$. By computing the power spectrum in terms of relative intensity units and integrating over the frequency, and dividing by two\footnote{The modulating term in the interference between the LO field,$E_{\rm{LO}}$, and the scattered light field, $E_s$, is from the from the cross-terms of $(E_s+E^*_{\rm{LO}})(E^*_s+E_{\rm{LO}})$.}, one can estimate the squared amplitude of scattered light relative to the DC light power (see e.g.~\cite{Chua2014}). For this experiment, 300\,fW of scattered light could explain a significant amount of the noise below 1\,kHz. 
 \par
 This measurement reinforces the measurements made in Chapter~\ref{chapter:2um_photoiode_chapter}. The power of the light was measured using the same range of InGaAs photodiodes in both experiments, and the measurement of shot noise in the Mach-Zehnder links the power of light and photocurrents to the position of a mirror, so analogies between the results in Chapter~\ref{chapter:2um_photoiode_chapter} and shot noise in an interferometer can be made.
 %\begin{table}
@@ -99,17 +100,17 @@ This measurement reinforces the measurements made in Chapter~\ref{chapter:2um_ph
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/MZ_chapter_full_noise_spectrum_with_couplings}
-	\caption{The amplitude spectral density of the difference between the two photodiode's signals ($\rm{S_{BHD}}$) is shown in blue. The frequency noise that couples via a difference in path lengths between the two arms was estimated, and this is shown in green. The yellow line shows the estimated spectrum due to scattered light.}
+	\caption{The amplitude spectral density of the difference between the two photodiode's signals ($\rm{S_{BHD}}$) is shown in blue. The frequency noise that couples via a difference in path lengths between the two arms was estimated, and this is shown in green. The estimated spectrum due to 300\,fW of scattered light is shown in yellow.}
 	\label{fig:mzchapterfullnoisespectrumwithcouplings}
 \end{figure}
 \section{Noise in an In-Vacuum Mach-Zehnder Interferometer and the Effect of Misalignment Between the Local Oscillator and Signal Beam}
 \label{sec:MZ_chapter_in_vac}
-To measure shot noise in an interferometer at frequencies around 100\,Hz, the frequency band of interest in a gravitational wave detector, suspended optics are used in vacuum to reduce acoustic and seismic noise. There was an opportunity to perform the experiment from Section~\ref{sec:MZ_chapter_in_air} in-vacuum with left-over apparatus from a previous experiment~\cite{Graef2014}. Ultimately, scattered light interfering with the light detected by the photodiodes meant that shot noise could not be measured at any frequency. However, this apparatus was used to explore the effect of misalignment between the local oscillator and the signal beam. 
+To measure shot noise in an interferometer at frequencies around 100\,Hz, the frequency band of interest in a gravitational wave detector, suspended optics are used in vacuum to reduce acoustic and seismic noise. There was an opportunity to perform the experiment from Section~\ref{sec:MZ_chapter_in_air} in-vacuum with left-over apparatus from a previous experiment~\cite{Graef2014} which was built by others. The photodiode circuits used in this experiment were, however, made by the author. Ultimately, scattered light interfering with the light detected by the photodiodes meant that shot noise could not be measured at any frequency. However, this apparatus was used to explore the effect of misalignment between the local oscillator and the signal beam. 
 \subsection{Apparatus for the In-Vacuum Mach-Zehnder}
 \label{sec:mz_chapter_in_vac_susp}
-The Mach-Zehnder was constructed in a vacuum system which was pumped down to 1\,mbar. An NPRO was used to provide the laser light. A sketch of the layout is shown in Figure~\ref{fig:mzchapterinvacuumsketch}, and photographs of the equipment are shown in Figure~\ref{fig:mzchapterinvacuummzapparatus}.
+The Mach-Zehnder was constructed in a vacuum system which was pumped down to 1\,mbar to provide adequate acoustic isolation. An NPRO was used to provide the laser light. A sketch of the layout is shown in Figure~\ref{fig:mzchapterinvacuumsketch}, and photographs of the equipment are shown in Figure~\ref{fig:mzchapterinvacuummzapparatus}.
 \par
-The input steering mirrors, corner mirrors and input beam splitter of the Mach-Zehnder were housed in identical suspensions. These suspensions were double pendulums with masses of 75\si{\gram} separated by wires of lengths 100\,mm (top to middle mass) and 150\,mm (middle to bottom mass), resulting in them having longitudinal resonances around $\sim1\,\si{\hertz}$. More detail on these suspensions can be found in~\cite[Chapter~5]{Jans_thesis}. The angles of incidence were controlled with CDS.
+The input steering mirrors, corner mirrors and input beam splitter of the Mach-Zehnder were housed in identical suspensions. These suspensions were double pendulums with masses of 75\si{\gram} separated by wires of lengths 100\,mm (top to middle mass) and 150\,mm (middle to bottom mass), resulting in them having longitudinal resonances around $\sim1\si{\hertz}$. The rigid body modes of the suspension were reduced with eddy-current dampers on the upper mass of the suspension. More detail on these suspensions can be found in~\cite[Chapter~5]{Jans_thesis}. The angles of incidence were controlled with CDS.
 \par
 The balanced homodyne detector platform was a suspended assembly that included the recombination beam splitter, steering mirrors for the recombined beams and photodiodes. The transimpedance amplifiers for the photodiode signals were the same as the one used in the in-air experiment (see Appendix~\ref{sec:circuits_appendix_variable_bias_ad797}). 
 \begin{figure}
@@ -126,11 +127,11 @@ The balanced homodyne detector platform was a suspended assembly that included t
 \end{figure}
 \subsection{Calibration and Locking of the In-Vacuum Mach-Zehnder}
 \label{sec:mz_chapter_in_vac_servo}
-To lock the Mach-Zehnder, its differential arm length needed to be controlled below the main resonance of the suspensions $\sim1$\,Hz because the optics moved on the order of one wavelength at these frequencies. There were lots of suspension-related modes that coupled to the longitudinal signal around 30\,Hz because of the design of the balanced homodyne detector platform. The optical bench moved a large amount at frequencies near 30\,Hz due to insufficient seismic isolation, thus the combination of this and the design of the balanced homodyne detector platform meant the differential arm length noise was at a similar level at $\sim30\,\rm{Hz}$ as it was at $\sim1\,\rm{Hz}$. 
+To lock the Mach-Zehnder, its differential arm length needed to be controlled below the main resonance of the suspensions $\sim1$\,Hz because the optics moved on the order of one wavelength at these frequencies. There were many modes per suspension\footnote{For a two stage suspension, you can have two modes for each of: longitudinal, pitch, yaw, roll, vertical and sideways.} that coupled to the longitudinal signal around 30\,Hz because of the design of the balanced homodyne detector platform. The optical bench moved a large amount at frequencies near 30\,Hz due to insufficient seismic isolation, thus the combination of this and the design of the balanced homodyne detector platform meant the differential arm length noise was at a similar level at $\sim30\,\rm{Hz}$ as it was at $\sim1\,\rm{Hz}$. Additionally, scattered light caused there to be a high amount of noise in the error signal.
 \par
 To lock the Mach-Zehnder's differential arm length, one of the suspended corner mirrors was actuated on with a magnet and coil. The coil acted on a magnet glued to the bottom stage of the pendulum, therefore the actuator's strength fell as $1/f^2$ above the suspension's resonance. Thus, to control both the 1\,Hz motion and the 30\,Hz motion, the coil would need to drive a large signal at $1$\,Hz, as well as one that was $~1000$ times greater at $\sim30$\,Hz. 
 \par
-The actuator's strength was limited by the size of the magnet, the size of the coil, the current that could be driven through the coil etc., so it was not strong enough to drive the required signal at 30\,Hz. Therefore, the servo needed a large gain at $\sim1$\,Hz while having a unity gain point below $10$\,Hz to prevent the servo oscillating.
+Because of the steep roll-off, the actuator did not have enough range to provide correction at 30\,Hz, and a servo with that bandwidth would saturate on the 30\,Hz components i.e. it would use up all the available electronic range and the DACs would saturate. Therefore the unity gain point had to be kept well below 30\,Hz such that residual feedback at 30\,Hz did not lead to saturation. 
 \par
 The transfer function of the servo is shown in Figure~\ref{fig:mzchapterservotransferfunction}, and a sketch of the servo is shown in Figure~\ref{fig:mzchapterflowdiagraminvacuumservo}. The servo consists of five logical blocks: the coil-driven suspended mirror, the `optical transfer function' that represents a change in differential arm length and a change in the power of the recombined beams, the photodiode circuit, the analogue to digital/digital to analogue converters, and the digital filtering. As before, whitening and dewhitening was needed. The transfer function of the suspension was simulated using the model developed in~\cite{Jans_thesis} and the digital filters just add shaping. Therefore, to calibrate the loop, the conversion factors for the electronics and optics were measured; this is summarised in Table~\ref{tab:MZ_chapter_servo_model}. 
 \par
@@ -141,12 +142,14 @@ By injecting and measuring a signal across a `times one' block in the digital pa
 		\hline
 		Component & Transfer function & unit \\
 		\hline
-		CDS DAC/ADC converters & 0.62 & mV/count\\
+		CDS ADC converter & 3.3 & count/mV\\
+		CDS DAC converter & 0.31 & mV/count\\
+		Send/receive & 2 & V/V\\
 		Coil driver & 1.0 & mA/V \\
 		Coil & 10 & mN/A \\
-		Suspension & $H(f)$ & N/m\\ 
-		Mach-Zehnder & 665000 & m/$\lambda$ \\
-		Fringe to counts & 79000 & $\lambda$/count\\
+		Suspension & $H(f)$ & m/N\\ 
+		Mach-Zehnder & 665000 & $\lambda$/m \\
+		Fringe to counts & 79000 & count/$\lambda$\\
 		Digital filtering & $G(f)$ & count/count\\ 
 		\hline
 	\end{tabular}
@@ -166,7 +169,7 @@ By injecting and measuring a signal across a `times one' block in the digital pa
 	\label{fig:mzchapterservotransferfunction}
 \end{figure}
 \subsection{Measurement of the Differential Arm Signal}
-With the servo described in Section~\ref{sec:mz_chapter_in_vac_servo}, the in-vacuum Mach-Zehnder was locked. The differential arm motion's spectral density is shown in Figure~\ref{fig:mzchaptersuspendeddiffarm}. The curved mirrors used to guide the beam onto the photodiodes did not have an AR coating on their back face. This caused a large amount of scattered light (see Figure~\ref{fig:mzchapterinvacuummzapparatus}). Scattered light can acquire a phase modulation if the surface it is generated on is moving, and this coupling is not necessarily linear. The shoulder feature at $\sim30\,\si{\hertz}$ in Figure~\ref{fig:mzchaptersuspendeddiffarm} was due to scattered light and the desired light interfering on the photodiodes. 
+With the servo described in Section~\ref{sec:mz_chapter_in_vac_servo}, the in-vacuum Mach-Zehnder was locked. The differential arm motion's spectral density is shown in Figure~\ref{fig:mzchaptersuspendeddiffarm}. The curved mirrors used to guide the beam onto the photodiodes did not have an AR coating on their back face, and this caused a large amount of scattered light (see Figure~\ref{fig:mzchapterinvacuummzapparatus}). To estimate the amount of scattered light interfering with the local oscillator, the same analysis as in Section~\ref{sec:mz_chapter_shot_noise_measurement} was performed. From this, the power of the scattered light was estimated to be $\sim100$\,fW.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/MZ_chapter_suspended_diff_arm}
@@ -181,7 +184,7 @@ S_{\rm{sig}} = S_0 e^{-\left( (\theta -\theta_0)/\theta_c\right)^2},
 \end{equation}
 where $\theta_c = \sqrt{2}\lambda_{\rm{EM}}/\pi w_0 $ is the characteristic angle of a beam with waist $w_0$. As the apparatus was not perfectly aligned initially, $\theta_0$ is included as an offset. This effect is derived in e.g.~\cite{Meers1991a}. 
 \par
-Misalignments were made by apply a signal from CDS to one of the corner suspensions. The counts to angle factor was measured by applying the largest possible angle offset that CDS could provide and measuring the distance the beam moved, a few millimetres, over a distance of the order a metre. The beam's waist was know to be $\sim460\si{\micro\meter}$. 
+Misalignments were made by applying a signal from CDS to one of the corner suspensions. The counts to angle factor was measured by applying the largest possible angle offset that CDS could provide and measuring the distance the beam moved, a few millimetres, over a distance of the order a metre. The beam's waist was known to be $\sim460\si{\micro\meter}$. 
 \par
 A differential arm signal was generated and the resulting photodiode signal was measured for a range of angular misalignments. This result is shown in Figure~\ref{fig:mzchaptermisalignmentplot}. To prevent noise at nearby frequencies from leaking into the measurement, a narrow frequency resolution was required (0.2\,Hz). Around ten averages were used to measure the signal size at each misalignment. The variance of these averages was large and this is represented by the error bars shown in Figure~\ref{fig:mzchaptermisalignmentplot}. 
 \par
@@ -193,6 +196,6 @@ A weighted non-linear least squares regression function (\textsc{Matlab}'s \text
 	\label{fig:mzchaptermisalignmentplot}
 \end{figure}
 \section{Conclusion}
-In this chapter, the shot noise of a current measured with the transimpedance amplifier used in Chapter~\ref{chapter:2um_photoiode_chapter} was experimentally related to the displacement of a mirror in an interferometer. The measurement of shot noise is shown in Figure~\ref{fig:mzchapterfullnoisespectrum}.
+The experiment reported on in this Chapter was in support of the work in Chapter~\ref{chapter:2um_photoiode_chapter} to do with photodiodes and the work on BHD in Chapter~\ref{chapter:BHD_for_ligo_1} and Chapter~\ref{chapter:BHD_for_ligo_2}. The shot noise of a current measured with the transimpedance amplifier used in Chapter~\ref{chapter:2um_photoiode_chapter} was experimentally related to the displacement of a mirror in an interferometer. The measurement of shot noise is shown in Figure~\ref{fig:mzchapterfullnoisespectrum}.
 \par
 The experiment was tried in-vacuum with the aim of making shot noise limited measurements at lower frequencies so that the electronics could be calibrated in the frequency band of interest for ground-based gravitational wave detection. Due to the unexpected amounts of scattering and excessive motion of the suspended optics, this was not possible. However, the in-vacuum experiment highlighted problems that may occur due to scattered light in the design of BHD or any similar interferometer. This noise was analysed in terms of the amplitude of the scattered light and the rate of change of phase of the light. This apparatus was used to gain an insight into the feedback loops required to control suspensions, and an investigation was carried out to confirm models of loss due to misalignment in interferometers/BHD. 
