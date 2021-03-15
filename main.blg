@@ -4,44 +4,44 @@ The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: back_up_bibliography/fixed_bibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 214 entries,
+You've used 216 entries,
             1791 wiz_defined-function locations,
-            1630 strings with 60075 characters,
-and the built_in function-call counts, 56054 in all, are:
-= -- 3275
-> -- 5632
+            1639 strings with 60387 characters,
+and the built_in function-call counts, 56383 in all, are:
+= -- 3300
+> -- 5644
 < -- 0
-+ -- 1973
-- -- 1759
-* -- 5250
-:= -- 10256
-add.period$ -- 647
-call.type$ -- 214
-change.case$ -- 195
++ -- 1978
+- -- 1762
+* -- 5271
+:= -- 10300
+add.period$ -- 651
+call.type$ -- 216
+change.case$ -- 196
 chr.to.int$ -- 0
-cite$ -- 214
-duplicate$ -- 1647
-empty$ -- 4181
-format.name$ -- 1759
-if$ -- 11194
+cite$ -- 216
+duplicate$ -- 1661
+empty$ -- 4223
+format.name$ -- 1762
+if$ -- 11271
 int.to.chr$ -- 0
-int.to.str$ -- 214
-missing$ -- 150
-newline$ -- 1072
-num.names$ -- 212
-pop$ -- 699
+int.to.str$ -- 216
+missing$ -- 151
+newline$ -- 1080
+num.names$ -- 213
+pop$ -- 709
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 686
+skip$ -- 695
 stack$ -- 0
-substring$ -- 1813
-swap$ -- 219
+substring$ -- 1834
+swap$ -- 221
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 341
-width$ -- 217
-write$ -- 2234
+while$ -- 343
+width$ -- 219
+write$ -- 2250
