@@ -3610,12 +3610,43 @@ but may be detectable in a new kind of experiment.
   publisher = {{IOP} Publishing},
 }
 
-@Misc{f,
+@Misc{finesse_manual,
   author = {C. Bond, D. Brown and A. Freise},
   title  = {Finesse 2},
   month  = {May},
   year   = {2014},
   note   = {Software can be downloaded from \url{http://www.gwoptics.org/finesse}},
+}
+
+@Misc{neolase,
+  title = {{neoLase Amplifiers}},
+  note  = {\url{https://neolase.com/produkte/laser-verstaerker/?lang=en}. Accessed 18/03/2021.},
+}
+
+@Misc{mephisto,
+  title = {{Mephisto Laser, Coherent}},
+  note  = {\url{https://www.coherent.com/lasers/main/mephisto-lasers}. Accessed 18/03/2021.},
+}
+
+@Misc{failed_pmc,
+  author = {Heintze, M.},
+  title  = {{Information regarding the two failed PSL Pre-mode cleaners (PMC’s) at LLO}},
+  month  = sep,
+  year   = {2015},
+  note   = {LIGO- T1500492-V1 \url{https://dcc.ligo.org/LIGO-T1500492/public}.},
+}
+
+@Misc{failed_pmc_2,
+  author = {Jian Liu and Rick Savage},
+  title  = {{Update on aLIGO PSL PMC Upgrade to Address Contamination Issues}},
+  month  = aug,
+  year   = {2017},
+  note   = {LIGO Document G1701481-v1 \url{https://dcc.ligo.org/LIGO-G1701481}},
+}
+
+@Misc{beckhoff,
+  title = {Beckhoff},
+  note  = {\url{https://www.beckhoff.com/en-gb/}. Accessed 18/03/2021},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
