@@ -3649,4 +3649,29 @@ but may be detectable in a new kind of experiment.
   note  = {\url{https://www.beckhoff.com/en-gb/}. Accessed 18/03/2021},
 }
 
+@Article{Jaranowski1998,
+  author    = {Piotr Jaranowski and Andrzej Kr{\'{o}}lak and Bernard F. Schutz},
+  title     = {{Data analysis of gravitational-wave signals from spinning neutron stars: The signal and its detection}},
+  journal   = {Physical Review D},
+  year      = {1998},
+  volume    = {58},
+  number    = {6},
+  month     = aug,
+  doi       = {10.1103/physrevd.58.063001},
+  publisher = {American Physical Society ({APS})},
+}
+
+@Article{Sorazu2013,
+  author    = {B Sorazu and P J Fulda and B W Barr and A S Bell and C Bond and L Carbone and A Freise and S Hild and S H Huttner and J Macarthur and K A Strain},
+  title     = {{Experimental Test of Higher-order Laguerre{\textendash}Gauss Modes in the 10 m Glasgow Prototype Interferometer}},
+  journal   = {Classical and Quantum Gravity},
+  year      = {2013},
+  volume    = {30},
+  number    = {3},
+  pages     = {035004},
+  month     = {Jan},
+  doi       = {10.1088/0264-9381/30/3/035004},
+  publisher = {{IOP} Publishing},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
