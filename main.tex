@@ -21,6 +21,7 @@
 \usepackage{fancyhdr}
 \usepackage[version=4]{mhchem}
 \usepackage[compact]{titlesec} 
+%\usepackage[nottoc,numbib]{tocbibind}
 
 \titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
@@ -55,6 +56,119 @@
 	tabsize=2                  
 }
 \lstset{style=mystyle}
+
+\usepackage[acronym]{glossaries}
+\newacronymstyle{long-short-emph}%
+{%
+	\ifglshaslong{\glslabel}%
+	{% acronym
+		% This is an adaptation of \glsgenacfmt
+		\ifdefempty\glscustomtext
+		{%
+			\ifglsused\glslabel
+			{%
+				\glsifplural
+				{%
+					\glscapscase
+					{%
+						\acronymfont{\glsentryshortpl{\glslabel}}\glsinsert
+					}%
+					{%
+						\acronymfont{\Glsentryshortpl{\glslabel}}\glsinsert
+					}%
+					{%
+						\mfirstucMakeUppercase
+						{\acronymfont{\glsentryshortpl{\glslabel}}\glsinsert}%
+					}%
+				}%
+				{%
+					\glscapscase
+					{%
+						\acronymfont{\glsentryshort{\glslabel}}\glsinsert
+					}%
+					{%
+						\acronymfont{\Glsentryshort{\glslabel}}\glsinsert
+					}%
+					{%
+						\mfirstucMakeUppercase
+						{\acronymfont{\glsentryshort{\glslabel}}\glsinsert}%
+					}%
+				}%
+			}%
+			{%
+				\glsifplural
+				{%
+					\glscapscase
+					{%
+						\emph{\glsentrylongpl{\glslabel}\glsinsert}\space
+						(\firstacronymfont{\glsentryshortpl{\glslabel}})%
+					}%
+					{%
+						\emph{\Glsentrylongpl{\glslabel}{\glsinsert}}\space
+						(\firstacronymfont{\glsentryshortpl{\glslabel}})%
+					}%
+					{%
+						\mfirstucMakeUppercase
+						{\emph{\glsentrylongpl{\glslabel}{\glsinsert}}\space
+							(\firstacronymfont{\glsentryshortpl{\glslabel}})}%
+					}%
+				}%
+				{%
+					\glscapscase
+					{%
+						\emph{\glsentrylong{\glslabel}\glsinsert}\space
+						(\firstacronymfont{\glsentryshort{\glslabel}})%
+					}%
+					{%
+						\emph{\Glsentrylong{\glslabel}\glsinsert}\space
+						(\firstacronymfont{\glsentryshort{\glslabel}})%
+					}%
+					{%
+						\mfirstucMakeUppercase
+						{\emph{\glsentrylong{\glslabel}\glsinsert}\space
+							(\firstacronymfont{\glsentryshort{\glslabel}})}%
+					}%
+				}%
+			}%
+		}%
+		{%
+			\glscustomtext
+		}%
+	}%
+	{% regular term
+		\ifglsused{\glslabel}{\glsgenentryfmt}{\emph{\glsgenentryfmt}}%
+	}%
+}%
+{%
+	\GlsUseAcrStyleDefs{long-short}%
+}
+\setacronymstyle{long-short-emph}
+\makeglossaries
+\newacronym{label}{short}{long}
+\newacronym{bbh}{BBH}{binary black hole}
+\newacronym{bns}{BNS}{binary neutron star}
+\newacronym{bhd}{BHD}{balanced homodyne detection}
+\newacronym{snr}{SNR}{signal to noise ratio}
+\newacronym{etm}{ETM}{end test mass}
+\newacronym{itm}{ITM}{input test mass}
+\newacronym{llo}{LLO}{LIGO Livingston Observatory, LA., USA}
+\newacronym{lho}{LHO}{LIGO Hanford Observatory, WA., USA}
+\newacronym{ham}{HAM}{horizontal access modules}
+\newacronym{ofi}{OFI}{output Faraday isolator}
+\newacronym{bsc}{BSC}{basic symmetric chamber}
+\newacronym{prm}{PRM}{power recycling mirror}
+\newacronym{prc}{PRC}{power recycling cavity}
+\newacronym{pin}{PIN}{p-doped, intrinsic, n-doped (PIN)}
+\newacronym{psl}{PSL}{pre-stabilised-laser}
+\newacronym{srm}{SRM}{signal recycling mirror}
+\newacronym{src}{SRC}{signal recycling cavity}
+\newacronym{sql}{SQL}{standard quantum limit}
+\newacronym{rse}{RSE}{resonant sideband extraction}
+\newacronym{omc}{OMC}{output mode cleaner}
+\newacronym{as}{AS}{anti-symmetric}
+\newacronym{lo}{LO}{local oscillator}
+%chapter 2 acronym
+\newacronym{pmc}{PMC}{pre mode cleaner}
 
 \captionsetup{font=doublespacing}
 \doublespacing
@@ -95,6 +209,8 @@
 \setlength{\parskip}{0.2em}
 \tableofcontents
 \setlength{\parskip}{2em}
+\printglossary
+\printglossary[type=\acronymtype]
 %\mainmatter
 %\chapter{Introduction}
 %\label{chapter:Introduction}
@@ -158,7 +274,7 @@
 %Short bit of work, could be a chapter, but the experiment was not something new. This was a learning experience really however there was a new result which was needing higher quality mirrors for the OMC.
 %\chapter{mode matching python implementation}
 \phantomsection
-\addcontentsline{toc}{section}{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
 \setlength{\parskip}{0em}
 \bibliography{back_up_bibliography/fixed_bibliography}
 \end{document}
