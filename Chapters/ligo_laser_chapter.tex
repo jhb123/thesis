@@ -286,19 +286,19 @@ The free running noise of the laser transmitted by the PMC is shown in Figure~\r
 \par
 A sketch of the servo is shown in Figure~\ref{fig:ligolaserchapteroltfmeasurement}. The servo features two circuits that add shaping; these are found built into the photodiode circuit~\cite{ISS_inner_loop_photodiode} and within the rack electronics~\cite{ISS_inner_loop_rack}. The servo model is described in detail in Section~\ref{sec:ligolaserchapterservomodel}. The inner-loop ISS features two photodiodes, one for in-loop measurements and one for out-of-loop measurements. The rack electronics allow for the servo to be controlled via CDS. This gives the user the ability to turn the servo on/off, to vary the overall gain and activate extra integrators.
 \par
-The transfer function of all the components in the loop apart from a unity gain summing stage, i.e.~the open-loop transfer function, was measured by injecting a swept sine into the summing stage. A sketch of how this measurement was made is shown in Figure~\ref{fig:ligolaserchapterdaigramfortfmeasurement}. The relationship between the signal immediately before and after the summing stage, $a$ and $b$, is $a = bH$; thus the ratio of these signals gives $H$. This method allows the loop to be closed while the measurement is made; this is useful if the laser needs to remain amplitude stabilised while the measurement is made.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\linewidth]{Figures/ligo_laser_chapter_daigram_for_tf_measurement}
-	\caption{The transfer function of every component except in the loop is represented by the block labelled $H$. A signal was injected at a unity gain summing point in the servo. The signals $a$ and $b$ where measured, and as $a=bH$, the ratio $a/b = H$.}
-	\label{fig:ligolaserchapterdaigramfortfmeasurement}
-\end{figure}
+The transfer function of all the components in the loop apart from a unity gain summing stage, i.e.~the open-loop transfer function, was measured by injecting a swept sine into the summing stage. A sketch of how this measurement was made is shown in Figure~\ref{fig:ligolaserchapteroltfmeasurement}. The relationship between the signal immediately before and after the summing stage, $a$ and $b$, is $a = bH$; thus the ratio of these signals gives $H$. This method allows the loop to be closed while the measurement is made; this is useful if the laser needs to remain amplitude stabilised while the measurement is made.
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.5\linewidth]{Figures/ligo_laser_chapter_daigram_for_tf_measurement}
+%	\caption{The transfer function of every component except in the loop is represented by the block labelled $H$. A signal was injected at a unity gain summing point in the servo. The signals $a$ and $b$ where measured, and as $a=bH$, the ratio $a/b = H$.}
+%	\label{fig:ligolaserchapterdaigramfortfmeasurement}
+%\end{figure}
 \par
 For this measurement, the gain in CDS was set to 20\,dB. Once the intensity stabilisation was activated, the integrators were engaged to increase the open-loop gain at low frequencies. The light transmitted through the PMC was 100\,\si{\watt}. The open-loop transfer function is shown in Figure~\ref{fig:ligolaserchapteropenlooptransferfunction}. The unity gain point is at 48\,\si{\kilo\hertz} with $\sim 70\si{\degree}$ of phase margin. This servo satisfies the requirements.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_OL_TF_measurement}
-	\caption{Sketch of the amplitude stabilisation servo. By measuring the ratio of the signal at point B and point A, the transfer function of all the parts in the servo (apart from the $\times 1$ adding stage) can be measured (see Figure~\ref{fig:ligolaserchapterdaigramfortfmeasurement}).}
+	\caption{Sketch of the amplitude stabilisation servo. The components highlighted in blue have been shown in more detail. By injecting a signal into `TF in' and measuring the ratio $b/a$, the transfer function of all the parts the servo except for the unity summing stage, $H$, was measured. The measurement of the open transfer function with the variable gain stage set to 20\,dB is shown in Figure~\ref{fig:ligolaserchapteropenlooptransferfunction}. A block diagram of $H$ is shown in Figure~\ref{fig:ligolaserchapteroltfmodelblockdiagram}.}
 	\label{fig:ligolaserchapteroltfmeasurement}
 \end{figure}
 \begin{figure}
@@ -311,7 +311,7 @@ For this measurement, the gain in CDS was set to 20\,dB. Once the intensity stab
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_OL_TF_model_block_diagram}
-	\caption{Block diagram of the components in the the intensity stabilisation servo. The transfer function of each block is described in Section~\ref{sec:ligolaserchapterservomodel} and Table~\ref{tab:ligolaserchapterservomodel}. The overall gain of the servo depends on a variable gain chip and the amount of light on the photodiode. The shaping of each block is indicated below it.}
+	\caption{Block diagram of the components in the the intensity stabilisation servo. The transfer function of each block is described in Section~\ref{sec:ligolaserchapterservomodel} and Table~\ref{tab:ligolaserchapterservomodel}. Additional integrators can be activated with a digital switch. The overall gain of the servo depends on a variable gain IC and the amount of light on the photodiode. The shaping of each block is indicated below it.}
 	\label{fig:ligolaserchapteroltfmodelblockdiagram}
 \end{figure}
 \label{sec:ligolaserchapterservomodel}
@@ -420,7 +420,7 @@ The measurement and model of the open-loop transfer function, i.e.~the transfer 
 %	\label{fig:ligolaserchapterpztconversionfactor}
 %\end{figure}
 \subsection{Frequency Noise Measurement}
-The measurement of the systems frequency noise is shown in Figure~\ref{fig:ligolaserchapterfrequencynoise}. Despite imperfect calibration, this measurement provides useful information about the frequency noise of the laser and the length noise of the PMC. As the PMC was not vacuum sealed, between 100\,Hz to 1\,kHz, there was a bulge in the frequency noise. It is likely that this noise is not an issue, as LIGO never used the old PMC under vacuum. This was due to the air conditioning generating acoustic noise and length noise within the PMC, as well as non perfect offsetting in the PDH loop. 
+The measurement of the systems frequency noise is shown in Figure~\ref{fig:ligolaserchapterfrequencynoise}. Despite imperfect calibration, this measurement provides some useful information about the frequency noise of the laser and the length noise of the PMC. As the PMC was not vacuum sealed, between 100\,Hz to 1\,kHz, there was a bulge in the frequency noise. It is likely that this noise is not an issue, as LIGO never used the old PMC under vacuum. This was due to the air conditioning generating acoustic noise and length noise within the PMC, as well as non perfect offsetting in the PDH loop. 
 \par
 Below the unity gain point, as the PZT response is flat, the PZT signal can be converted into frequency noise. The mixer signal and the open-loop transfer function $c(1+GH)$ gives the frequency noise. These two measurements are within a factor of 2 of each other. There is uncertainty in the calibration as nominal values for the optical properties of the PMC were used. The mixer signal measurement is depends on the cavities linewidth, and as this depends on the cleanliness of mirrors, the PMC's linewidth could be different from its nominal value.  Reference~\cite{Uehara1995} describes measurements which could be used to accurately measure the optical properties of the PMC; however these measurements would require additional hardware. 
 \par
@@ -437,7 +437,7 @@ At frequencies much above the unity gain point of the servo, a signal applied to
 \section{Conclusion}
 The PSL has undergone a major redesign due to the pointing noise introduced by the cooling for the HPO. The new layout consists of an NPRO and two solid state amplifiers followed by the PMC. A prototype of this new design was constructed and tested. This layout is shown in Figure~\ref{fig:ligo_layout_chapter_layout}. The setup procedure was established and a cooling scheme was trialled. 
 \par
-The frequency noise of the beam transmitted by the PMC was investigated using signals in the PMC control loop. The laser is dominated by NPRO noise at frequencies below $\sim100\si{\hertz}$ and above $\sim1\si{\kilo\hertz}$. As the PMC is not shielded from acoustic vibrations, the PMC introduced noise between these two frequencies. This measurement is shown in Firgure~\ref{fig:ligolaserchapterfrequencynoise}.
+The frequency noise of the beam transmitted by the PMC was investigated using signals in the PMC control loop. The laser's frequency noise was dominated by fluctuations in the optical path length of the PMC as the PMC is not shielded from acoustic vibrations. This measurement is shown in Firgure~\ref{fig:ligolaserchapterfrequencynoise}.
 \par
 The pointing noise was found to exceed to the requirements (See~\ref{fig:ligolaserchapterpointingnoise}). As the pointing noise is close to the requirement, a significant reduction may be achieved when PSL is in a quieter environment. To reduce the pointing noise further, the flow rates being reduced will help, however this reduces the output power. Turbulence generated by bends in the water cooling pipes could be reduced to lower the pointing noise. Active alignment could be implemented using the light that is reflected from the PMC. 
 \par

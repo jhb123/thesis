@@ -100,11 +100,12 @@ Z_{\rm{FB}} = \frac{R_{\rm{FB}}}{R_{\rm{FB}}(C_{\rm{FB}}+C_{\rm{PD}})s + 1}.
 From Equation~(\ref{eq:app_circuits_TIA_TF}), $H(s)$ can be calculated with the following \textsc{Matlab} code:
 \begin{lstlisting}
 function [mag,phase] = photodiodeTransimpedance(cf, rf,cpd,gbw,A,w)
-% cf is the capacitor in the feedback loop used to keep the circuit
+% cf is the capacitor in the feedback used to keep the circuit
 % stable, and its units are Farads. rf is the feedback resistor
-% measured in Ohms. cpd is the photodiodes capacitance (Farads). gbw is the
-% gain bandwidth of the op~amp, and is measured in Hz. A is the Open loop
-% gian of the op~amp. w is the angular frequency range that
+% measured in Ohms. cpd is the photodiodes capacitance (Farads). 
+% gbw is the gain bandwidth of the op amp, and is measured in Hz. 
+% A is the Open loop gain of the op amp. 
+% w is the angular frequency range that
 % the phase and magnitude will be calculated over. 
 A_s = tf(A,[A/(2*pi*gbw),1]);
 B_s = tf([cf*rf,1],[rf*(cf+cpd),1]);

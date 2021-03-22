@@ -13,7 +13,7 @@ The difference between a Mach-Zehnder interferometer and a Michelson interferome
 	\label{fig:mzchaptermzsketch}
 \end{figure}
 \par
-The signal measured by each photodiode can be described by Equation (\ref{eq:bhdforligo_interference_at_a_beam_splitter}). The shot noise of this measurement depended on the total power in the signal and LO beams, and because the power of the LO beam, $P_{\rm{LO}}$, was much greater than the power of the signal beam, $P_{\rm{sig}}$, the amplitude spectral density associated with the shot noise, $n_z$, of the detected light can be expressed in units of $\si{\metre_{\rm{rms}}/\sqrt{\hertz}}$ by
+The signal measured by each photodiode can be described by Equation (\ref{eq:bhdforligo_interference_at_a_beam_splitter}). The shot noise of this measurement depended on the total power in the signal and LO beams, and because the power of the LO beam, $P_{\rm{LO}}$, was much greater than the power of the signal beam, $P_{\rm{sig}}$, the amplitude spectral density associated with the shot noise, $n_z$, of the detected light can be expressed in units of $\si{\metre/\sqrt{\hertz}}$ by
 \begin{equation}
 n_z = \sqrt{\frac{2hc\lambda}{16\pi^2P_{\rm{sig}}}}
 \label{eq:MZ_chapter_shot_noise_level}.
@@ -169,11 +169,11 @@ By injecting and measuring a signal across a `times one' block in the digital pa
 	\label{fig:mzchapterservotransferfunction}
 \end{figure}
 \subsection{Measurement of the Differential Arm Signal}
-With the servo described in Section~\ref{sec:mz_chapter_in_vac_servo}, the in-vacuum Mach-Zehnder was locked. The differential arm motion's spectral density is shown in Figure~\ref{fig:mzchaptersuspendeddiffarm}. The curved mirrors used to guide the beam onto the photodiodes did not have an AR coating on their back face, and this caused a large amount of scattered light (see Figure~\ref{fig:mzchapterinvacuummzapparatus}). To estimate the amount of scattered light interfering with the local oscillator, the same analysis as in Section~\ref{sec:mz_chapter_shot_noise_measurement} was performed. From this, the power of the scattered light was estimated to be $\sim100$\,fW.
+With the servo described in Section~\ref{sec:mz_chapter_in_vac_servo}, the in-vacuum Mach-Zehnder was locked. The differential arm motion's spectral density is shown in Figure~\ref{fig:mzchaptersuspendeddiffarm}. The curved mirrors used to guide the beam onto the photodiodes did not have an AR coating on their back face, and this caused a large amount of scattered light (see Figure~\ref{fig:mzchapterinvacuummzapparatus}). To estimate the amount of scattered light interfering with the local oscillator, the same analysis as in Section~\ref{sec:mz_chapter_shot_noise_measurement} was performed. The modulation frequency was approximately 1\,Hz and the modulation depth was approximately 36. From this, the power of the scattered light was estimated to be $\sim20\,\si{\micro\watt}$.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/MZ_chapter_suspended_diff_arm}
-	\caption{Scattering caused there to be a high level of noise in the differential arm length signal. Many peaks related to the balanced homodyne detector suspension can be seen around 30\,Hz, and this motion generated phase modulations in the scattered light. The noise was caused by the interference between the scattered light and the signal-carrying light on the photodiodes. For this measurement, shot noise would have been at $\sim 10^{-15}\,\rm{m}/\sqrt{\rm{Hz}}$.}
+	\caption{Scattering caused there to be a high level of noise in the differential arm length signal. Many peaks related to the balanced homodyne detector suspension can be seen around 30\,Hz, and this motion generated phase modulations in the scattered light. The noise was caused by the interference between the scattered light and the signal-carrying light on the photodiodes. The power of the scattered light was estimated to be $\sim20\,\si{\micro\watt}$. For this measurement, shot noise would have been at $\sim 10^{-15}\,\rm{m}/\sqrt{\rm{Hz}}$.}
 	\label{fig:mzchaptersuspendeddiffarm}
 \end{figure}
 \subsection{The Effect of Misalignment on the Size of a Signal in an Interferometer}

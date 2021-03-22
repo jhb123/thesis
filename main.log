@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  19 MAR 2021 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  22 MAR 2021 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2662,30 +2662,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [66]
-Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_daigram_for_tf_
-measurement.eps>
-(epstopdf)                    date: 2021-03-17 14:57:21
-(epstopdf)                    size: 44950 bytes
-(epstopdf)             Output file: <Figures/ligo_laser_chapter_daigram_for_tf_
-measurement-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-18 10:11:43
-(epstopdf)                    size: 16476 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
-_daigram_for_tf_measurement-eps-converted-to.pdf Figures/ligo_laser_chapter_dai
-gram_for_tf_measurement.eps>
-(epstopdf)             \includegraphics on input line 292.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_daigram_for_tf_measurement-eps-converted-to.pdf, id
-=2097, pagebox=cropbox, 580.1675pt x 262.9825pt>
-File: Figures/ligo_laser_chapter_daigram_for_tf_measurement-eps-converted-to.pd
-f Graphic file (type pdf)
-<use Figures/ligo_laser_chapter_daigram_for_tf_measurement-eps-converted-to.pdf
->
-Package pdftex.def Info: Figures/ligo_laser_chapter_daigram_for_tf_measurement-
-eps-converted-to.pdf  used on input line 292. on input line 292.
-Package pdftex.def Info: Requested size: 213.39568pt x 96.72816pt on input line
- 292.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2698,26 +2674,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [67]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_OL_TF_measureme
 nt.eps>
-(epstopdf)                    date: 2020-10-09 10:10:12
-(epstopdf)                    size: 146631 bytes
+(epstopdf)                    date: 2021-03-22 11:53:05
+(epstopdf)                    size: 153228 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_OL_TF_measureme
 nt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-10-09 10:30:06
-(epstopdf)                    size: 39097 bytes
+(epstopdf)                    date: 2021-03-22 11:53:58
+(epstopdf)                    size: 41449 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _OL_TF_measurement-eps-converted-to.pdf Figures/ligo_laser_chapter_OL_TF_measur
 ement.eps>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf, id=2105, pa
-gebox=cropbox, 399.4925pt x 239.89626pt>
+<Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf, id=2104, pa
+gebox=cropbox, 531.9875pt x 215.80624pt>
 File: Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Figures/ligo_laser_chapter_OL_TF_measurement-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_OL_TF_measurement-eps-conve
 rted-to.pdf  used on input line 300. on input line 300.
-Package pdftex.def Info: Requested size: 426.79135pt x 256.3021pt on input line
- 300.
+Package pdftex.def Info: Requested size: 426.79135pt x 173.13586pt on input lin
+e 300.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_OL_transfer_fun
 ction.eps>
 (epstopdf)                    date: 2020-11-02 16:33:41
@@ -2731,7 +2707,7 @@ _OL_transfer_function-eps-converted-to.pdf Figures/ligo_laser_chapter_OL_transf
 er_function.eps>
 (epstopdf)             \includegraphics on input line 306.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf, id=2108,
+<Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf, id=2109,
  pagebox=cropbox, 425.59pt x 368.37625pt>
 File: Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2742,27 +2718,27 @@ Package pdftex.def Info: Requested size: 384.1096pt x 332.4911pt on input line
 306.
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_OL_TF_model_blo
 ck_diagram.eps>
-(epstopdf)                    date: 2021-03-18 13:12:09
-(epstopdf)                    size: 72563 bytes
+(epstopdf)                    date: 2021-03-22 12:05:46
+(epstopdf)                    size: 78422 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_OL_TF_model_blo
 ck_diagram-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-18 13:12:22
-(epstopdf)                    size: 16924 bytes
+(epstopdf)                    date: 2021-03-22 12:06:15
+(epstopdf)                    size: 18824 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _OL_TF_model_block_diagram-eps-converted-to.pdf Figures/ligo_laser_chapter_OL_T
 F_model_block_diagram.eps>
 (epstopdf)             \includegraphics on input line 313.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/ligo_laser_chapter_OL_TF_model_block_diagram-eps-converted-to.pdf, id=
-2111, pagebox=cropbox, 414.54875pt x 131.49126pt>
+2112, pagebox=cropbox, 386.44376pt x 131.49126pt>
 File: Figures/ligo_laser_chapter_OL_TF_model_block_diagram-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Figures/ligo_laser_chapter_OL_TF_model_block_diagram-eps-converted-to.pdf>
 
 Package pdftex.def Info: Figures/ligo_laser_chapter_OL_TF_model_block_diagram-e
 ps-converted-to.pdf  used on input line 313. on input line 313.
-Package pdftex.def Info: Requested size: 426.79135pt x 135.3793pt on input line
- 313.
+Package pdftex.def Info: Requested size: 426.79135pt x 145.22066pt on input lin
+e 313.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2773,8 +2749,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[68 <./Figures/ligo_laser_chapter_daigram_for_tf_measurement-eps-converted-to.p
-df>]
+[68]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2789,14 +2764,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [70 <./Figures/ligo_laser_chapter_OL_transfer_function-eps-converted-to.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[71 <./Figures/ligo_laser_chapter_OL_TF_model_block_diagram-eps-converted-to.pd
-f>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95827pt
@@ -2816,7 +2783,7 @@ abilisation_noise.eps>
 (epstopdf)             \includegraphics on input line 342.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf, id=22
-60, pagebox=cropbox, 425.59pt x 301.125pt>
+43, pagebox=cropbox, 425.59pt x 301.125pt>
 File: Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/ligo_laser_chapter_AOM_stabilisation_noise-eps-converted-to.pdf>
@@ -2828,6 +2795,14 @@ e 342.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <./Figures/ligo_laser_chapter_OL_TF_model_block_diagram-eps-converted-to.pd
+f>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2866,7 +2841,7 @@ _pointing_noise-eps-converted-to.pdf Figures/ligo_laser_chapter_pointing_noise.
 eps>
 (epstopdf)             \includegraphics on input line 354.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf, id=2284, pageb
+<Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf, id=2280, pageb
 ox=cropbox, 424.58624pt x 301.125pt>
 File: Figures/ligo_laser_chapter_pointing_noise-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2907,7 +2882,7 @@ pter_frequency_noise_measurement_sketch.eps>
 (epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/ligo_laser_chapter_frequency_noise_measurement_sketch-eps-converted-to
-.pdf, id=2305, pagebox=cropbox, 416.55624pt x 314.17375pt>
+.pdf, id=2299, pagebox=cropbox, 416.55624pt x 314.17375pt>
 File: Figures/ligo_laser_chapter_frequency_noise_measurement_sketch-eps-convert
 ed-to.pdf Graphic file (type pdf)
 <use Figures/ligo_laser_chapter_frequency_noise_measurement_sketch-eps-converte
@@ -2941,7 +2916,7 @@ er_chapter_frequency_noise_measurement_maths_sketch.eps>
 (epstopdf)             \includegraphics on input line 388.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch-eps-conver
-ted-to.pdf, id=2317, pagebox=cropbox, 217.81375pt x 64.24pt>
+ted-to.pdf, id=2311, pagebox=cropbox, 217.81375pt x 64.24pt>
 File: Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch-eps-c
 onverted-to.pdf Graphic file (type pdf)
 <use Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch-eps-co
@@ -2963,7 +2938,7 @@ _Mixer_calibration-eps-converted-to.pdf Figures/ligo_laser_chapter_Mixer_calibr
 ation.eps>
 (epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf, id=2319, pa
+<Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf, id=2313, pa
 gebox=cropbox, 478.78876pt x 298.11375pt>
 File: Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2999,13 +2974,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [80 <./Figures/ligo_laser_chapter_frequency_noise_measurement_maths_sketch-eps-
 converted-to.pdf>]
-<Figures/ligo_laser_chapter_pmc_scan.png, id=2439, 476.982pt x 278.2395pt>
+<Figures/ligo_laser_chapter_pmc_scan.png, id=2433, 476.982pt x 278.2395pt>
 File: Figures/ligo_laser_chapter_pmc_scan.png Graphic file (type png)
 <use Figures/ligo_laser_chapter_pmc_scan.png>
 Package pdftex.def Info: Figures/ligo_laser_chapter_pmc_scan.png  used on input
  line 404. on input line 404.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.96548pt on input lin
 e 404.
+Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_pmc_loop_model_
+tf.eps>
+(epstopdf)                    date: 2020-11-03 12:09:35
+(epstopdf)                    size: 185952 bytes
+(epstopdf)             Output file: <Figures/ligo_laser_chapter_pmc_loop_model_
+tf-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-03 12:23:48
+(epstopdf)                    size: 55471 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
+_pmc_loop_model_tf-eps-converted-to.pdf Figures/ligo_laser_chapter_pmc_loop_mod
+el_tf.eps>
+(epstopdf)             \includegraphics on input line 412.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf, id=2436, pa
+gebox=cropbox, 425.59pt x 365.365pt>
+File: Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-conve
+rted-to.pdf  used on input line 412. on input line 412.
+Package pdftex.def Info: Requested size: 426.79135pt x 366.41777pt on input lin
+e 412.
+
+
+LaTeX Warning: Float too large for page by 24.86238pt on input line 415.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3024,36 +3025,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [82 <./Figures/ligo_laser_chapter_Mixer_calibration-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_pmc_loop_model_
-tf.eps>
-(epstopdf)                    date: 2020-11-03 12:09:35
-(epstopdf)                    size: 185952 bytes
-(epstopdf)             Output file: <Figures/ligo_laser_chapter_pmc_loop_model_
-tf-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-11-03 12:23:48
-(epstopdf)                    size: 55471 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
-_pmc_loop_model_tf-eps-converted-to.pdf Figures/ligo_laser_chapter_pmc_loop_mod
-el_tf.eps>
-(epstopdf)             \includegraphics on input line 412.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf, id=2457, pa
-gebox=cropbox, 425.59pt x 365.365pt>
-File: Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf Graphic
- file (type pdf)
-<use Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-conve
-rted-to.pdf  used on input line 412. on input line 412.
-Package pdftex.def Info: Requested size: 426.79135pt x 366.41777pt on input lin
-e 412.
-
-
-LaTeX Warning: Float too large for page by 24.86238pt on input line 415.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3080,26 +3051,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [85 <./Figures/ligo_laser_chapter_pmc_loop_model_tf-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/ligo_laser_chapter_frequency_noise
 .eps>
-(epstopdf)                    date: 2021-03-17 16:01:51
-(epstopdf)                    size: 69901 bytes
+(epstopdf)                    date: 2021-03-22 12:10:19
+(epstopdf)                    size: 69620 bytes
 (epstopdf)             Output file: <Figures/ligo_laser_chapter_frequency_noise
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-18 10:25:23
-(epstopdf)                    size: 23185 bytes
+(epstopdf)                    date: 2021-03-22 12:14:57
+(epstopdf)                    size: 23033 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/ligo_laser_chapter
 _frequency_noise-eps-converted-to.pdf Figures/ligo_laser_chapter_frequency_nois
 e.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf, id=2487, page
-box=cropbox, 421.575pt x 257.96375pt>
+<Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf, id=2481, page
+box=cropbox, 415.5525pt x 257.96375pt>
 File: Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use Figures/ligo_laser_chapter_frequency_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ligo_laser_chapter_frequency_noise-eps-convert
 ed-to.pdf  used on input line 433. on input line 433.
-Package pdftex.def Info: Requested size: 426.79135pt x 261.1593pt on input line
- 433.
+Package pdftex.def Info: Requested size: 426.79135pt x 264.94986pt on input lin
+e 433.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3159,7 +3130,7 @@ pter_ligo_layout-eps-converted-to.pdf Figures/beam_parameter_chapter_ligo_layou
 t.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/beam_parameter_chapter_ligo_layout-eps-converted-to.pdf, id=2533, page
+<Figures/beam_parameter_chapter_ligo_layout-eps-converted-to.pdf, id=2527, page
 box=cropbox, 559.08875pt x 304.13625pt>
 File: Figures/beam_parameter_chapter_ligo_layout-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3309,7 +3280,7 @@ erted-to.pdf>
 s_thick-eps-converted-to.pdf Figures/sim_chapter_thin_vs_thick.eps>
 (epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf, id=2637, pagebox=cropb
+<Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf, id=2631, pagebox=cropb
 ox, 505.89pt x 252.945pt>
 File: Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3333,7 +3304,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [102 <./Figures/sim_chapter_thin_vs_thick-eps-converted-to.pdf>]
-<Figures/sim_chapter_sketch_of_simulation.pdf, id=2697, pagebox=cropbox, 465.57
+<Figures/sim_chapter_sketch_of_simulation.pdf, id=2691, pagebox=cropbox, 465.57
 22pt x 287.25394pt>
 File: Figures/sim_chapter_sketch_of_simulation.pdf Graphic file (type pdf)
 <use Figures/sim_chapter_sketch_of_simulation.pdf>
@@ -3393,7 +3364,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ETM_tuning.eps
 n_ETM_tuning-eps-converted-to.pdf Figures/sim_chapter_Zoom_in_ETM_tuning.eps>
 (epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf, id=2730, pagebox=
+<Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf, id=2724, pagebox=
 cropbox, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_Zoom_in_ETM_tuning-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3414,7 +3385,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_Zoom_in_ITM_tuning.eps
 n_ITM_tuning-eps-converted-to.pdf Figures/sim_chapter_Zoom_in_ITM_tuning.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf, id=2731, pagebox=
+<Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf, id=2725, pagebox=
 cropbox, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_Zoom_in_ITM_tuning-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3467,7 +3438,7 @@ converted-to.pdf>
 ize_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_beam_size_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf, id=2852, pagebox=c
+<Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf, id=2846, pagebox=c
 ropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_size_sr2_sr3-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3487,7 +3458,7 @@ onverted-to.pdf>
 oc_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_beam_roc_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf, id=2855, pagebox=cr
+<Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf, id=2849, pagebox=cr
 opbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_roc_sr2_sr3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3531,7 +3502,7 @@ Package epstopdf Info: Source file: <Figures/sim_chapter_gouy_phase_sr2_sr3.eps
 hase_sr2_sr3-eps-converted-to.pdf Figures/sim_chapter_gouy_phase_sr2_sr3.eps>
 (epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf, id=2880, pagebox=
+<Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf, id=2874, pagebox=
 cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_gouy_phase_sr2_sr3-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3551,7 +3522,7 @@ o.pdf>
 -eps-converted-to.pdf Figures/sim_chapter_ITM_TL.eps>
 (epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_ITM_TL-eps-converted-to.pdf, id=2883, pagebox=cropbox, 433
+<Figures/sim_chapter_ITM_TL-eps-converted-to.pdf, id=2877, pagebox=cropbox, 433
 .62pt x 252.945pt>
 File: Figures/sim_chapter_ITM_TL-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/sim_chapter_ITM_TL-eps-converted-to.pdf>
@@ -3571,7 +3542,7 @@ converted-to.pdf>
 _experiment-eps-converted-to.pdf Figures/sim_chapter_maxtem_experiment.eps>
 (epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf, id=2884, pagebox=c
+<Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf, id=2878, pagebox=c
 ropbox, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_maxtem_experiment-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3593,7 +3564,7 @@ eps-converted-to.pdf>
 eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf, id=2885, pageb
+<Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf, id=2879, pageb
 ox=cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_SR3_SR2_likely_values-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3615,7 +3586,7 @@ arameter_at_SRM-eps-converted-to.pdf Figures/sim_chapter_beam_parameter_at_SRM.
 eps>
 (epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf, id=2890, pageb
+<Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf, id=2884, pageb
 ox=cropbox, 433.62pt x 289.08pt>
 File: Figures/sim_chapter_beam_parameter_at_SRM-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3714,7 +3685,7 @@ verted-to.pdf>
 imulated-eps-converted-to.pdf Figures/sim_chapter_TM00_simulated.eps>
 (epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf, id=3216, pagebox=crop
+<Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf, id=3210, pagebox=crop
 box, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_TM00_simulated-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3723,7 +3694,7 @@ Package pdftex.def Info: Figures/sim_chapter_TM00_simulated-eps-converted-to.pd
 f  used on input line 268. on input line 268.
 Package pdftex.def Info: Requested size: 405.45047pt x 236.52553pt on input lin
 e 268.
-<Figures/sim_chapter_All_power_simulated.pdf, id=3219, pagebox=cropbox, 433.62p
+<Figures/sim_chapter_All_power_simulated.pdf, id=3213, pagebox=cropbox, 433.62p
 t x 252.945pt>
 File: Figures/sim_chapter_All_power_simulated.pdf Graphic file (type pdf)
 <use Figures/sim_chapter_All_power_simulated.pdf>
@@ -3764,7 +3735,7 @@ verted-to.pdf>
 HG_ratio-eps-converted-to.pdf Figures/sim_chapter_SRM_T_HG_ratio.eps>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf, id=3338, pagebox=crop
+<Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf, id=3332, pagebox=crop
 box, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_SRM_T_HG_ratio-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3833,7 +3804,7 @@ er_BHD_sketch-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_BHD_sketch.eps>
 
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf, id=3415, pagebox
+<Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf, id=3409, pagebox
 =cropbox, 67.25125pt x 50.1875pt>
 File: Figures/BHD_for_ligo_chapter_BHD_sketch-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3921,7 +3892,7 @@ ch_of_LO_delivery.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf, id=35
-11, pagebox=cropbox, 576.1525pt x 527.9725pt>
+05, pagebox=cropbox, 576.1525pt x 527.9725pt>
 File: Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery-eps-converted-to.pdf>
@@ -3950,18 +3921,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 >]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_detector_reps
 onse.eps>
-(epstopdf)                    date: 2021-01-22 09:46:03
-(epstopdf)                    size: 39268 bytes
+(epstopdf)                    date: 2021-03-22 12:38:55
+(epstopdf)                    size: 36586 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_detector_reps
 onse-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-22 14:08:02
-(epstopdf)                    size: 13784 bytes
+(epstopdf)                    date: 2021-03-22 12:39:15
+(epstopdf)                    size: 12986 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_detector_repsonse-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_detector
 _repsonse.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf, id=3536, 
+<Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf, id=3530, 
 pagebox=cropbox, 505.89pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -3998,18 +3969,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [140 <./Figures/BHD_for_ligo_chapter_detector_repsonse-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_phase_noise.e
 ps>
-(epstopdf)                    date: 2021-01-22 09:46:05
-(epstopdf)                    size: 64905 bytes
+(epstopdf)                    date: 2021-03-22 12:38:56
+(epstopdf)                    size: 64743 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_phase_noise-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-22 14:08:05
-(epstopdf)                    size: 20288 bytes
+(epstopdf)                    date: 2021-03-22 12:39:17
+(epstopdf)                    size: 19847 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_phase_noise-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_phase_noise.ep
 s>
 (epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_phase_noise-eps-converted-to.pdf, id=3591, pagebo
+<Figures/BHD_for_ligo_chapter_phase_noise-eps-converted-to.pdf, id=3582, pagebo
 x=cropbox, 505.89pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_phase_noise-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4040,18 +4011,18 @@ Overfull \hbox (23.66391pt too wide) in paragraph at lines 183--184
 
 Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_HRTS_requirem
 ent.eps>
-(epstopdf)                    date: 2021-01-22 09:46:06
-(epstopdf)                    size: 71615 bytes
+(epstopdf)                    date: 2021-03-22 12:38:57
+(epstopdf)                    size: 72111 bytes
 (epstopdf)             Output file: <Figures/BHD_for_ligo_chapter_HRTS_requirem
 ent-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-22 14:08:06
-(epstopdf)                    size: 20672 bytes
+(epstopdf)                    date: 2021-03-22 12:39:19
+(epstopdf)                    size: 20638 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BHD_for_ligo_chapt
 er_HRTS_requirement-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_HRTS_requ
 irement.eps>
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=3607, p
+<Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf, id=3598, p
 agebox=cropbox, 505.89pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_HRTS_requirement-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -4073,7 +4044,7 @@ er_bhd_double_counted-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_bhd_dou
 ble_counted.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=3608,
+<Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf, id=3599,
  pagebox=cropbox, 109.40875pt x 101.37875pt>
 File: Figures/BHD_for_ligo_chapter_bhd_double_counted-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4138,7 +4109,7 @@ erted-to.pdf>
 _layout-eps-converted-to.pdf Figures/BHD_for_ligo_HAM_6_layout.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_HAM_6_layout-eps-converted-to.pdf, id=3768, pagebox=cropb
+<Figures/BHD_for_ligo_HAM_6_layout-eps-converted-to.pdf, id=3758, pagebox=cropb
 ox, 649.42625pt x 595.22375pt>
 File: Figures/BHD_for_ligo_HAM_6_layout-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -4175,7 +4146,7 @@ er_lens_choice-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_lens_choice.ep
 s>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=3803, pagebo
+<Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf, id=3793, pagebo
 x=cropbox, 433.62pt x 361.35pt>
 File: Figures/BHD_for_ligo_chapter_lens_choice-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4208,7 +4179,7 @@ er_astigmatism-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_astigmatism.ep
 s>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=3816, pagebo
+<Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf, id=3806, pagebo
 x=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_astigmatism-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4229,7 +4200,7 @@ Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_Beamshape.eps
 er_Beamshape-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_Beamshape.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=3824, pagebox=
+<Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf, id=3814, pagebox=
 cropbox, 433.62pt x 361.35pt>
 File: Figures/BHD_for_ligo_chapter_Beamshape-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4323,7 +4294,7 @@ Package epstopdf Info: Source file: <Figures/BHD_for_ligo_chapter_WS_sketch.eps
 er_WS_sketch-eps-converted-to.pdf Figures/BHD_for_ligo_chapter_WS_sketch.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=4007, pagebox=
+<Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf, id=3997, pagebox=
 cropbox, 194.7275pt x 94.3525pt>
 File: Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4360,7 +4331,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [161 <./Figures/BHD_for_ligo_chapter_WS_sketch-eps-converted-to.pdf>]
-<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png, id=4035, 433.62pt
+<Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png, id=4025, 433.62pt
  x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png Graphic file 
 (type png)
@@ -4370,7 +4341,7 @@ s.png  used on input line 185. on input line 185.
 Package pdftex.def Info: Requested size: 426.79135pt x 248.97282pt on input lin
 e 185.
 <Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf
-, id=4037, pagebox=cropbox, 433.62pt x 252.945pt>
+, id=4027, pagebox=cropbox, 433.62pt x 252.945pt>
 File: Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_succes
 s.pdf Graphic file (type pdf)
 <use Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success
@@ -4586,7 +4557,7 @@ ise_test_set_up-eps-converted-to.pdf Figures/PD_chapter_shot_noise_test_set_up.
 eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf, id=4275, pageb
+<Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf, id=4265, pageb
 ox=cropbox, 464.73625pt x 208.78pt>
 File: Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4636,7 +4607,7 @@ E_as_fn_of_bias-eps-converted-to.pdf Figures/PD_chapter_FD10D_QE_as_fn_of_bias.
 eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_FD10D_QE_as_fn_of_bias-eps-converted-to.pdf, id=4414, pageb
+<Figures/PD_chapter_FD10D_QE_as_fn_of_bias-eps-converted-to.pdf, id=4404, pageb
 ox=cropbox, 412.54124pt x 298.11375pt>
 File: Figures/PD_chapter_FD10D_QE_as_fn_of_bias-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4674,7 +4645,7 @@ nverted-to.pdf>
 oise_test-eps-converted-to.pdf Figures/PD_chapter_fd10d_noise_test.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_fd10d_noise_test-eps-converted-to.pdf, id=4436, pagebox=cro
+<Figures/PD_chapter_fd10d_noise_test-eps-converted-to.pdf, id=4426, pagebox=cro
 pbox, 429.605pt x 295.1025pt>
 File: Figures/PD_chapter_fd10d_noise_test-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4694,7 +4665,7 @@ ed-to.pdf>
 C_DC-eps-converted-to.pdf Figures/PD_chapter_fd10d_AC_DC.eps>
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf, id=4439, pagebox=cropbox,
+<Figures/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf, id=4429, pagebox=cropbox,
  409.53pt x 224.84pt>
 File: Figures/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -4749,39 +4720,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [187]
 Package epstopdf Info: Source file: <Figures/PD_chapter_FD10D_dark_noise.eps>
-(epstopdf)                    date: 2020-12-14 11:57:29
-(epstopdf)                    size: 244965 bytes
+(epstopdf)                    date: 2021-03-22 12:43:58
+(epstopdf)                    size: 245232 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_FD10D_dark_noise-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2020-12-14 12:39:17
-(epstopdf)                    size: 74058 bytes
+(epstopdf)                    date: 2021-03-22 12:44:50
+(epstopdf)                    size: 74041 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_FD10D_d
 ark_noise-eps-converted-to.pdf Figures/PD_chapter_FD10D_dark_noise.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf, id=4483, pagebox=cro
-pbox, 515.9275pt x 272.01625pt>
+<Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf, id=4473, pagebox=cro
+pbox, 513.92pt x 272.01625pt>
 File: Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.p
 df  used on input line 181. on input line 181.
-Package pdftex.def Info: Requested size: 426.79135pt x 225.0263pt on input line
- 181.
+Package pdftex.def Info: Requested size: 426.79135pt x 225.90208pt on input lin
+e 181.
 Package epstopdf Info: Source file: <Figures/PD_chapter_dark_current_mega_plot.
 eps>
-(epstopdf)                    date: 2020-12-16 13:50:30
-(epstopdf)                    size: 55924 bytes
+(epstopdf)                    date: 2021-03-22 12:46:01
+(epstopdf)                    size: 62597 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_dark_current_mega_plot-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 13:51:23
-(epstopdf)                    size: 14432 bytes
+(epstopdf)                    date: 2021-03-22 12:49:22
+(epstopdf)                    size: 18182 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_dark_cu
 rrent_mega_plot-eps-converted-to.pdf Figures/PD_chapter_dark_current_mega_plot.
 eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf, id=4490, pageb
+<Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf, id=4480, pageb
 ox=cropbox, 540.0175pt x 432.61626pt>
 File: Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4792,25 +4763,25 @@ Package pdftex.def Info: Requested size: 426.79135pt x 341.91493pt on input lin
 e 187.
 Package epstopdf Info: Source file: <Figures/PD_chapter_g12182-010k_noise_compa
 re.eps>
-(epstopdf)                    date: 2020-12-14 15:49:32
-(epstopdf)                    size: 63346 bytes
+(epstopdf)                    date: 2021-03-22 12:48:41
+(epstopdf)                    size: 63627 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_g12182-010k_noise_compa
 re-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 15:52:17
-(epstopdf)                    size: 18301 bytes
+(epstopdf)                    date: 2021-03-22 12:49:23
+(epstopdf)                    size: 18059 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_g12182-
 010k_noise_compare-eps-converted-to.pdf Figures/PD_chapter_g12182-010k_noise_co
 mpare.eps>
 (epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf, id=4495, pa
-gebox=cropbox, 428.60126pt x 258.9675pt>
+<Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf, id=4485, pa
+gebox=cropbox, 483.8075pt x 258.9675pt>
 File: Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_chapter_g12182-010k_noise_compare-eps-conve
 rted-to.pdf  used on input line 193. on input line 193.
-Package pdftex.def Info: Requested size: 426.79135pt x 257.87622pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 228.45715pt on input lin
 e 193.
 
 
@@ -4854,7 +4825,7 @@ _apparatus_photos-eps-converted-to.pdf Figures/PD_chapter_cooling_apparatus_pho
 tos.eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_cooling_apparatus_photos-eps-converted-to.pdf, id=4535, pag
+<Figures/PD_chapter_cooling_apparatus_photos-eps-converted-to.pdf, id=4525, pag
 ebox=cropbox, 142.5325pt x 66.2475pt>
 File: Figures/PD_chapter_cooling_apparatus_photos-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -4865,19 +4836,19 @@ Package pdftex.def Info: Requested size: 298.75264pt x 138.85696pt on input lin
 e 209.
 Package epstopdf Info: Source file: <Figures/PD_chapter_dark_current_termperatu
 re_all_diodes.eps>
-(epstopdf)                    date: 2021-01-02 11:14:26
-(epstopdf)                    size: 69847 bytes
+(epstopdf)                    date: 2021-03-22 12:50:41
+(epstopdf)                    size: 76522 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_dark_current_termperatu
 re_all_diodes-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-02 13:57:52
-(epstopdf)                    size: 18594 bytes
+(epstopdf)                    date: 2021-03-22 12:51:14
+(epstopdf)                    size: 22536 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_dark_cu
 rrent_termperature_all_diodes-eps-converted-to.pdf Figures/PD_chapter_dark_curr
 ent_termperature_all_diodes.eps>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_chapter_dark_current_termperature_all_diodes-eps-converted-to.pdf, 
-id=4536, pagebox=cropbox, 547.04375pt x 432.61626pt>
+id=4526, pagebox=cropbox, 547.04375pt x 432.61626pt>
 File: Figures/PD_chapter_dark_current_termperature_all_diodes-eps-converted-to.
 pdf Graphic file (type pdf)
 <use Figures/PD_chapter_dark_current_termperature_all_diodes-eps-converted-to.p
@@ -4916,7 +4887,7 @@ omponents_ratio-eps-converted-to.pdf Figures/PD_chapter_laser_components_ratio.
 eps>
 (epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_laser_components_ratio-eps-converted-to.pdf, id=4550, pageb
+<Figures/PD_chapter_laser_components_ratio-eps-converted-to.pdf, id=4540, pageb
 ox=cropbox, 418.56375pt x 224.84pt>
 File: Figures/PD_chapter_laser_components_ratio-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4944,7 +4915,7 @@ ise_problem_ig24-eps-converted-to.pdf Figures/pd_chapter_shot_noise_problem_ig2
 4.eps>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/pd_chapter_shot_noise_problem_ig24-eps-converted-to.pdf, id=4556, page
+<Figures/pd_chapter_shot_noise_problem_ig24-eps-converted-to.pdf, id=4546, page
 box=cropbox, 490.83376pt x 263.98625pt>
 File: Figures/pd_chapter_shot_noise_problem_ig24-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -4986,7 +4957,7 @@ nverted-to.pdf>
 rojection-eps-converted-to.pdf Figures/pd_chapter_noise_projection.eps>
 (epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/pd_chapter_noise_projection-eps-converted-to.pdf, id=4594, pagebox=cro
+<Figures/pd_chapter_noise_projection-eps-converted-to.pdf, id=4584, pagebox=cro
 pbox, 556.0775pt x 279.0425pt>
 File: Figures/pd_chapter_noise_projection-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -5017,7 +4988,7 @@ verted-to.pdf>
 _bias_IV-eps-converted-to.pdf Figures/PD_chapter_forward_bias_IV.eps>
 (epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_forward_bias_IV-eps-converted-to.pdf, id=4610, pagebox=crop
+<Figures/PD_chapter_forward_bias_IV-eps-converted-to.pdf, id=4599, pagebox=crop
 box, 433.62pt x 252.945pt>
 File: Figures/PD_chapter_forward_bias_IV-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -5039,7 +5010,7 @@ _bias_model_with_light-eps-converted-to.pdf Figures/pd_chapter_forward_bias_mod
 el_with_light.eps>
 (epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/pd_chapter_forward_bias_model_with_light-eps-converted-to.pdf, id=4613
+<Figures/pd_chapter_forward_bias_model_with_light-eps-converted-to.pdf, id=4602
 , pagebox=cropbox, 482.80376pt x 263.98625pt>
 File: Figures/pd_chapter_forward_bias_model_with_light-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -5085,24 +5056,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [201 <./Figures/pd_chapter_forward_bias_model_with_light-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/PD_chapter_P5968_noise.eps>
-(epstopdf)                    date: 2020-12-22 17:12:31
-(epstopdf)                    size: 128623 bytes
+(epstopdf)                    date: 2021-03-22 12:52:05
+(epstopdf)                    size: 128058 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_P5968_noise-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2020-12-22 17:31:36
-(epstopdf)                    size: 37909 bytes
+(epstopdf)                    date: 2021-03-22 12:52:29
+(epstopdf)                    size: 37765 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_P5968_n
 oise-eps-converted-to.pdf Figures/PD_chapter_P5968_noise.eps>
 (epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_P5968_noise-eps-converted-to.pdf, id=4700, pagebox=cropbox,
- 497.86pt x 257.96375pt>
+<Figures/PD_chapter_P5968_noise-eps-converted-to.pdf, id=4690, pagebox=cropbox,
+ 491.8375pt x 257.96375pt>
 File: Figures/PD_chapter_P5968_noise-eps-converted-to.pdf Graphic file (type pd
 f)
 <use Figures/PD_chapter_P5968_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_chapter_P5968_noise-eps-converted-to.pdf  u
 sed on input line 273. on input line 273.
-Package pdftex.def Info: Requested size: 426.79135pt x 221.14384pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 223.85588pt on input lin
 e 273.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5118,17 +5089,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Package epstopdf Info: Source file: <Figures/PD_chapter_insb_biased.eps>
-(epstopdf)                    date: 2020-12-28 11:21:07
-(epstopdf)                    size: 36739 bytes
+(epstopdf)                    date: 2021-03-22 12:54:40
+(epstopdf)                    size: 36169 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_insb_biased-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2020-12-28 11:37:55
-(epstopdf)                    size: 12533 bytes
+(epstopdf)                    date: 2021-03-22 12:55:41
+(epstopdf)                    size: 12403 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_insb_bi
 ased-eps-converted-to.pdf Figures/PD_chapter_insb_biased.eps>
 (epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_insb_biased-eps-converted-to.pdf, id=4712, pagebox=cropbox,
+<Figures/PD_chapter_insb_biased-eps-converted-to.pdf, id=4702, pagebox=cropbox,
  525.965pt x 260.975pt>
 File: Figures/PD_chapter_insb_biased-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5229,7 +5200,7 @@ Package epstopdf Info: Source file: <Figures/MZ_chapter_mz_sketch.eps>
 ch-eps-converted-to.pdf Figures/MZ_chapter_mz_sketch.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_mz_sketch-eps-converted-to.pdf, id=4794, pagebox=cropbox, 3
+<Figures/MZ_chapter_mz_sketch-eps-converted-to.pdf, id=4784, pagebox=cropbox, 3
 42.27875pt x 105.39375pt>
 File: Figures/MZ_chapter_mz_sketch-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -5249,7 +5220,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [212]
-<Figures/MZ_chapter_in_air_MZ.jpg, id=4805, 2783.39874pt x 2092.81876pt>
+<Figures/MZ_chapter_in_air_MZ.jpg, id=4795, 2783.39874pt x 2092.81876pt>
 File: Figures/MZ_chapter_in_air_MZ.jpg Graphic file (type jpg)
 <use Figures/MZ_chapter_in_air_MZ.jpg>
 Package pdftex.def Info: Figures/MZ_chapter_in_air_MZ.jpg  used on input line 2
@@ -5267,7 +5238,7 @@ rted-to.pdf>
 sketch-eps-converted-to.pdf Figures/MZ_chapter_in_air_sketch.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf, id=4806, pagebox=cropbo
+<Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf, id=4796, pagebox=cropbo
 x, 462.72874pt x 161.60374pt>
 File: Figures/MZ_chapter_in_air_sketch-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5324,7 +5295,7 @@ send_recieve_filter-eps-converted-to.pdf Figures/MZ_chapter_in_air_send_recieve
 _filter.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_in_air_send_recieve_filter-eps-converted-to.pdf, id=4942, p
+<Figures/MZ_chapter_in_air_send_recieve_filter-eps-converted-to.pdf, id=4932, p
 agebox=cropbox, 424.58624pt x 218.8175pt>
 File: Figures/MZ_chapter_in_air_send_recieve_filter-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -5344,7 +5315,7 @@ ted-to.pdf>
 rcuit-eps-converted-to.pdf Figures/MZ_in_air_servo_circuit.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_in_air_servo_circuit-eps-converted-to.pdf, id=4944, pagebox=cropbox
+<Figures/MZ_in_air_servo_circuit-eps-converted-to.pdf, id=4934, pagebox=cropbox
 , 748.7975pt x 269.005pt>
 File: Figures/MZ_in_air_servo_circuit-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5393,7 +5364,7 @@ converted-to.pdf>
 calibration-eps-converted-to.pdf Figures/MZ_chapter_in_air_calibration.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf, id=4981, pagebox=c
+<Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf, id=4971, pagebox=c
 ropbox, 416.55624pt x 286.06876pt>
 File: Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -5422,48 +5393,48 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [221 <./Figures/MZ_chapter_in_air_calibration-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/MZ_chapter_full_noise_spectrum.eps
 >
-(epstopdf)                    date: 2020-12-01 11:57:20
-(epstopdf)                    size: 61333 bytes
+(epstopdf)                    date: 2021-03-22 13:01:03
+(epstopdf)                    size: 61041 bytes
 (epstopdf)             Output file: <Figures/MZ_chapter_full_noise_spectrum-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2020-12-01 11:58:43
-(epstopdf)                    size: 15724 bytes
+(epstopdf)                    date: 2021-03-22 13:01:32
+(epstopdf)                    size: 15686 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_full_no
 ise_spectrum-eps-converted-to.pdf Figures/MZ_chapter_full_noise_spectrum.eps>
 (epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf, id=5010, pagebox=
-cropbox, 440.64626pt x 301.125pt>
+<Figures/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf, id=4999, pagebox=
+cropbox, 434.62375pt x 301.125pt>
 File: Figures/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/MZ_chapter_full_noise_spectrum-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/MZ_chapter_full_noise_spectrum-eps-converted-t
 o.pdf  used on input line 96. on input line 96.
-Package pdftex.def Info: Requested size: 426.79135pt x 291.66817pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 295.71617pt on input lin
 e 96.
 Package epstopdf Info: Source file: <Figures/MZ_chapter_full_noise_spectrum_wit
 h_couplings.eps>
-(epstopdf)                    date: 2021-03-12 19:39:13
-(epstopdf)                    size: 62909 bytes
+(epstopdf)                    date: 2021-03-22 12:59:40
+(epstopdf)                    size: 65292 bytes
 (epstopdf)             Output file: <Figures/MZ_chapter_full_noise_spectrum_wit
 h_couplings-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-12 19:40:19
-(epstopdf)                    size: 14437 bytes
+(epstopdf)                    date: 2021-03-22 13:00:01
+(epstopdf)                    size: 17329 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_full_no
 ise_spectrum_with_couplings-eps-converted-to.pdf Figures/MZ_chapter_full_noise_
 spectrum_with_couplings.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/MZ_chapter_full_noise_spectrum_with_couplings-eps-converted-to.pdf, id
-=5015, pagebox=cropbox, 477.785pt x 318.18875pt>
+=5004, pagebox=cropbox, 476.78125pt x 318.18875pt>
 File: Figures/MZ_chapter_full_noise_spectrum_with_couplings-eps-converted-to.pd
 f Graphic file (type pdf)
 <use Figures/MZ_chapter_full_noise_spectrum_with_couplings-eps-converted-to.pdf
 >
 Package pdftex.def Info: Figures/MZ_chapter_full_noise_spectrum_with_couplings-
 eps-converted-to.pdf  used on input line 102. on input line 102.
-Package pdftex.def Info: Requested size: 426.79135pt x 284.22609pt on input lin
-e 102.
+Package pdftex.def Info: Requested size: 426.79135pt x 284.8427pt on input line
+ 102.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5511,7 +5482,7 @@ nverted-to.pdf>
 um_sketch-eps-converted-to.pdf Figures/MZ_chapter_in_vacuum_sketch.eps>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_in_vacuum_sketch-eps-converted-to.pdf, id=5055, pagebox=cro
+<Figures/MZ_chapter_in_vacuum_sketch-eps-converted-to.pdf, id=5045, pagebox=cro
 pbox, 301.125pt x 150.5625pt>
 File: Figures/MZ_chapter_in_vacuum_sketch-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -5520,7 +5491,7 @@ Package pdftex.def Info: Figures/MZ_chapter_in_vacuum_sketch-eps-converted-to.p
 df  used on input line 118. on input line 118.
 Package pdftex.def Info: Requested size: 426.79135pt x 213.41656pt on input lin
 e 118.
-<Figures/MZ_chapter_in_vacuum_mz_apparatus.jpg, id=5060, 2363.83125pt x 2026.57
+<Figures/MZ_chapter_in_vacuum_mz_apparatus.jpg, id=5050, 2363.83125pt x 2026.57
 124pt>
 File: Figures/MZ_chapter_in_vacuum_mz_apparatus.jpg Graphic file (type jpg)
 <use Figures/MZ_chapter_in_vacuum_mz_apparatus.jpg>
@@ -5581,7 +5552,7 @@ agram_in_vacuum_servo-eps-converted-to.pdf Figures/MZ_chapter_flow_diagram_in_v
 acuum_servo.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_flow_diagram_in_vacuum_servo-eps-converted-to.pdf, id=5136,
+<Figures/MZ_chapter_flow_diagram_in_vacuum_servo-eps-converted-to.pdf, id=5125,
  pagebox=cropbox, 587.19376pt x 213.79875pt>
 File: Figures/MZ_chapter_flow_diagram_in_vacuum_servo-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -5604,7 +5575,7 @@ fer_function_cali_combo.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/MZ_chapter_servo_transfer_function_cali_combo-eps-converted-to.pdf, id
-=5139, pagebox=cropbox, 672.5125pt x 411.5375pt>
+=5128, pagebox=cropbox, 672.5125pt x 411.5375pt>
 File: Figures/MZ_chapter_servo_transfer_function_cali_combo-eps-converted-to.pd
 f Graphic file (type pdf)
 <use Figures/MZ_chapter_servo_transfer_function_cali_combo-eps-converted-to.pdf
@@ -5615,17 +5586,17 @@ Package pdftex.def Info: Requested size: 426.79135pt x 261.1727pt on input line
  167.
 Package epstopdf Info: Source file: <Figures/MZ_chapter_suspended_diff_arm.eps>
 
-(epstopdf)                    date: 2021-03-15 10:56:06
-(epstopdf)                    size: 87331 bytes
+(epstopdf)                    date: 2021-03-22 13:05:09
+(epstopdf)                    size: 87038 bytes
 (epstopdf)             Output file: <Figures/MZ_chapter_suspended_diff_arm-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2021-03-15 10:56:54
-(epstopdf)                    size: 20745 bytes
+(epstopdf)                    date: 2021-03-22 13:05:50
+(epstopdf)                    size: 20785 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_suspend
 ed_diff_arm-eps-converted-to.pdf Figures/MZ_chapter_suspended_diff_arm.eps>
 (epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_suspended_diff_arm-eps-converted-to.pdf, id=5148, pagebox=c
+<Figures/MZ_chapter_suspended_diff_arm-eps-converted-to.pdf, id=5137, pagebox=c
 ropbox, 441.65pt x 302.12875pt>
 File: Figures/MZ_chapter_suspended_diff_arm-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -5688,7 +5659,7 @@ onverted-to.pdf>
 nment_plot-eps-converted-to.pdf Figures/MZ_chapter_misalignment_plot.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_misalignment_plot-eps-converted-to.pdf, id=5222, pagebox=cr
+<Figures/MZ_chapter_misalignment_plot-eps-converted-to.pdf, id=5212, pagebox=cr
 opbox, 446.66875pt x 392.46625pt>
 File: Figures/MZ_chapter_misalignment_plot-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5746,6 +5717,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [240]
+Overfull \hbox (1.69002pt too wide) in paragraph at lines 15--19
+[]\T1/cmr/m/n/12 Future cryo-genic ground-based grav-i-ta-tional wave de-tec-to
+rs may use ei-ther 1.5[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5755,198 +5732,181 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[241]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[241])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[242])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[243]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[244
-
-]
+[242]
 Appendix A.
 (./Chapters/appendix_cooled_diodes_dark_noise.tex
 Package epstopdf Info: Source file: <Figures/PD_appendix_ig24_dark_noise_rt.eps
 >
-(epstopdf)                    date: 2020-12-16 14:29:21
-(epstopdf)                    size: 113580 bytes
+(epstopdf)                    date: 2021-03-22 13:13:38
+(epstopdf)                    size: 113296 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_ig24_dark_noise_rt-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 14:30:09
-(epstopdf)                    size: 31674 bytes
+(epstopdf)                    date: 2021-03-22 13:14:45
+(epstopdf)                    size: 31689 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_ig24_d
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig24_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf, id=5288, pagebox=
-cropbox, 497.86pt x 258.9675pt>
+<Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf, id=5269, pagebox=
+cropbox, 491.8375pt x 258.9675pt>
 File: Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-t
 o.pdf  used on input line 9. on input line 9.
-Package pdftex.def Info: Requested size: 426.79135pt x 222.00432pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 224.72691pt on input lin
 e 9.
 Package epstopdf Info: Source file: <Figures/PD_appendix_ig26_dark_noise_rt.eps
 >
-(epstopdf)                    date: 2020-12-16 14:29:00
-(epstopdf)                    size: 113308 bytes
+(epstopdf)                    date: 2021-03-22 13:13:47
+(epstopdf)                    size: 113024 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_ig26_dark_noise_rt-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 14:30:12
-(epstopdf)                    size: 32170 bytes
+(epstopdf)                    date: 2021-03-22 13:14:47
+(epstopdf)                    size: 32150 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_ig26_d
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig26_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf, id=5289, pagebox=
-cropbox, 497.86pt x 263.98625pt>
+<Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf, id=5270, pagebox=
+cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-t
 o.pdf  used on input line 15. on input line 15.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 229.08209pt on input lin
 e 15.
 Package epstopdf Info: Source file: <Figures/PD_appendix_ig22_dark_noise_rt.eps
 >
-(epstopdf)                    date: 2020-12-16 14:43:20
-(epstopdf)                    size: 144533 bytes
+(epstopdf)                    date: 2021-03-22 13:16:06
+(epstopdf)                    size: 147397 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_ig22_dark_noise_rt-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 14:43:57
-(epstopdf)                    size: 42761 bytes
+(epstopdf)                    date: 2021-03-22 13:16:35
+(epstopdf)                    size: 43650 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_ig22_d
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig22_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf, id=5290, pagebox=
-cropbox, 497.86pt x 263.98625pt>
+<Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf, id=5271, pagebox=
+cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-t
 o.pdf  used on input line 21. on input line 21.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 229.08209pt on input lin
 e 21.
 Package epstopdf Info: Source file: <Figures/PD_appendix_g12183-010k_dark_noise
 _rt.eps>
-(epstopdf)                    date: 2020-12-16 15:42:19
-(epstopdf)                    size: 122469 bytes
+(epstopdf)                    date: 2021-03-22 13:17:25
+(epstopdf)                    size: 124379 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_g12183-010k_dark_noise
 _rt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 15:43:54
-(epstopdf)                    size: 34866 bytes
+(epstopdf)                    date: 2021-03-22 13:17:54
+(epstopdf)                    size: 36965 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12183
 -010k_dark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_g12183-010k_dark_n
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf, id=5291, p
-agebox=cropbox, 497.86pt x 257.96375pt>
+<Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf, id=5272, p
+agebox=cropbox, 491.8375pt x 257.96375pt>
 File: Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-conv
 erted-to.pdf  used on input line 27. on input line 27.
-Package pdftex.def Info: Requested size: 426.79135pt x 221.14384pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 223.85588pt on input lin
 e 27.
 Package epstopdf Info: Source file: <Figures/PD_appendix_g12183-005k_dark_noise
 _rt.eps>
-(epstopdf)                    date: 2020-12-16 15:46:31
-(epstopdf)                    size: 136671 bytes
+(epstopdf)                    date: 2021-03-22 13:20:27
+(epstopdf)                    size: 138559 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_g12183-005k_dark_noise
 _rt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 15:48:19
-(epstopdf)                    size: 37854 bytes
+(epstopdf)                    date: 2021-03-22 13:20:54
+(epstopdf)                    size: 41614 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12183
 -005k_dark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_g12183-005k_dark_n
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf, id=5292, p
-agebox=cropbox, 497.86pt x 263.98625pt>
+<Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf, id=5273, p
+agebox=cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-conv
 erted-to.pdf  used on input line 33. on input line 33.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 229.08209pt on input lin
 e 33.
 Package epstopdf Info: Source file: <Figures/PD_appendix_g12182-010k_dark_noise
 _rt.eps>
-(epstopdf)                    date: 2020-12-16 15:53:50
-(epstopdf)                    size: 135099 bytes
+(epstopdf)                    date: 2021-03-22 12:48:37
+(epstopdf)                    size: 136918 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_g12182-010k_dark_noise
 _rt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 16:01:01
-(epstopdf)                    size: 37051 bytes
+(epstopdf)                    date: 2021-03-22 12:49:26
+(epstopdf)                    size: 40434 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12182
 -010k_dark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_g12182-010k_dark_n
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf, id=5293, p
-agebox=cropbox, 497.86pt x 263.98625pt>
+<Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf, id=5274, p
+agebox=cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-conv
 erted-to.pdf  used on input line 39. on input line 39.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 229.08209pt on input lin
 e 39.
 Package epstopdf Info: Source file: <Figures/PD_appendix_g12182-005k_dark_noise
 _rt.eps>
-(epstopdf)                    date: 2020-12-16 15:59:53
-(epstopdf)                    size: 124011 bytes
+(epstopdf)                    date: 2021-03-22 13:21:43
+(epstopdf)                    size: 123445 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_g12182-005k_dark_noise
 _rt-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-16 16:01:04
-(epstopdf)                    size: 37945 bytes
+(epstopdf)                    date: 2021-03-22 13:22:05
+(epstopdf)                    size: 37930 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12182
 -005k_dark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_g12182-005k_dark_n
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf, id=5294, p
-agebox=cropbox, 497.86pt x 263.98625pt>
+<Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf, id=5275, p
+agebox=cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-conv
 erted-to.pdf  used on input line 45. on input line 45.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 229.08209pt on input lin
 e 45.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[245]
+[243
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[246 <./Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf> <./Figures
+[244 <./Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf> <./Figures
 /PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5954,7 +5914,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[247 <./Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf> <./Figures
+[245 <./Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf> <./Figures
 /PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5962,7 +5922,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[248 <./Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf> <./
+[246 <./Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf> <./
 Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5970,165 +5930,165 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[249 <./Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf>]
+[247 <./Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/PD_appendix_FD10D_temperature_nois
 e_current.eps>
-(epstopdf)                    date: 2020-12-14 17:06:22
-(epstopdf)                    size: 145475 bytes
+(epstopdf)                    date: 2021-03-22 13:23:31
+(epstopdf)                    size: 160945 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_FD10D_temperature_nois
 e_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:06:45
-(epstopdf)                    size: 44483 bytes
+(epstopdf)                    date: 2021-03-22 13:23:52
+(epstopdf)                    size: 50089 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_FD10D_
 temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_FD10D_temper
 ature_noise_current.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf, id=5
-359, pagebox=cropbox, 497.86pt x 263.98625pt>
+340, pagebox=cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_FD10D_temperature_noise_current-ep
 s-converted-to.pdf  used on input line 55. on input line 55.
-Package pdftex.def Info: Requested size: 426.79135pt x 226.30673pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 229.08209pt on input lin
 e 55.
 Package epstopdf Info: Source file: <Figures/PD_appendix_g12183010k_temperature
 _noise_current.eps>
-(epstopdf)                    date: 2020-12-14 17:12:13
-(epstopdf)                    size: 163463 bytes
+(epstopdf)                    date: 2021-03-22 13:24:30
+(epstopdf)                    size: 162888 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_g12183010k_temperature
 _noise_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:15:27
-(epstopdf)                    size: 51928 bytes
+(epstopdf)                    date: 2021-03-22 13:24:50
+(epstopdf)                    size: 51747 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12183
 010k_temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_g121830
 10k_temperature_noise_current.eps>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to.pdf,
- id=5360, pagebox=cropbox, 489.83pt x 263.98625pt>
+ id=5341, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to.
 pdf>
 Package pdftex.def Info: Figures/PD_appendix_g12183010k_temperature_noise_curre
 nt-eps-converted-to.pdf  used on input line 61. on input line 61.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
+Package pdftex.def Info: Requested size: 422.52577pt x 230.55638pt on input lin
 e 61.
 Package epstopdf Info: Source file: <Figures/PD_appendix_g12183005k_temperature
 _noise_current.eps>
-(epstopdf)                    date: 2020-12-14 17:16:16
-(epstopdf)                    size: 150855 bytes
+(epstopdf)                    date: 2021-03-22 13:25:30
+(epstopdf)                    size: 150289 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_g12183005k_temperature
 _noise_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:16:42
-(epstopdf)                    size: 45565 bytes
+(epstopdf)                    date: 2021-03-22 13:26:23
+(epstopdf)                    size: 45490 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12183
 005k_temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_g121830
 05k_temperature_noise_current.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to.pdf,
- id=5361, pagebox=cropbox, 489.83pt x 263.98625pt>
+ id=5342, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to.
 pdf>
 Package pdftex.def Info: Figures/PD_appendix_g12183005k_temperature_noise_curre
 nt-eps-converted-to.pdf  used on input line 67. on input line 67.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
+Package pdftex.def Info: Requested size: 422.52577pt x 230.55638pt on input lin
 e 67.
 Package epstopdf Info: Source file: <Figures/PD_appendix_g12182010k_temperature
 _noise_current.eps>
-(epstopdf)                    date: 2020-12-14 17:24:11
-(epstopdf)                    size: 183669 bytes
+(epstopdf)                    date: 2021-03-22 13:27:08
+(epstopdf)                    size: 183103 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_g12182010k_temperature
 _noise_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:25:43
-(epstopdf)                    size: 56092 bytes
+(epstopdf)                    date: 2021-03-22 13:27:26
+(epstopdf)                    size: 56049 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12182
 010k_temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_g121820
 10k_temperature_noise_current.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to.pdf,
- id=5362, pagebox=cropbox, 489.83pt x 263.98625pt>
+ id=5343, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to.
 pdf>
 Package pdftex.def Info: Figures/PD_appendix_g12182010k_temperature_noise_curre
 nt-eps-converted-to.pdf  used on input line 73. on input line 73.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 232.88463pt on input lin
 e 73.
 Package epstopdf Info: Source file: <Figures/PD_appendix_g12182005k_temperature
 _noise_current.eps>
-(epstopdf)                    date: 2020-12-14 17:29:07
-(epstopdf)                    size: 165414 bytes
+(epstopdf)                    date: 2021-03-22 13:28:16
+(epstopdf)                    size: 164848 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_g12182005k_temperature
 _noise_current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:29:35
-(epstopdf)                    size: 52218 bytes
+(epstopdf)                    date: 2021-03-22 13:28:49
+(epstopdf)                    size: 52223 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_g12182
 005k_temperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_g121820
 05k_temperature_noise_current.eps>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to.pdf,
- id=5363, pagebox=cropbox, 489.83pt x 257.96375pt>
+ id=5344, pagebox=cropbox, 483.8075pt x 257.96375pt>
 File: Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to.
 pdf>
 Package pdftex.def Info: Figures/PD_appendix_g12182005k_temperature_noise_curre
 nt-eps-converted-to.pdf  used on input line 79. on input line 79.
-Package pdftex.def Info: Requested size: 426.79135pt x 224.76909pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 227.57166pt on input lin
 e 79.
 Package epstopdf Info: Source file: <Figures/PD_appendix_IG24_temperature_noise
 _current.eps>
-(epstopdf)                    date: 2020-12-14 17:32:32
-(epstopdf)                    size: 165033 bytes
+(epstopdf)                    date: 2021-03-22 13:29:43
+(epstopdf)                    size: 164467 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_IG24_temperature_noise
 _current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:33:16
-(epstopdf)                    size: 49671 bytes
+(epstopdf)                    date: 2021-03-22 13:30:06
+(epstopdf)                    size: 49652 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_IG24_t
 emperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_IG24_temperat
 ure_noise_current.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf, id=53
-64, pagebox=cropbox, 489.83pt x 263.98625pt>
+45, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_IG24_temperature_noise_current-eps
 -converted-to.pdf  used on input line 85. on input line 85.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
-e 85.
+Package pdftex.def Info: Requested size: 418.2537pt x 228.22813pt on input line
+ 85.
 Package epstopdf Info: Source file: <Figures/PD_appendix_IG26_temperature_noise
 _current.eps>
-(epstopdf)                    date: 2020-12-14 17:35:25
-(epstopdf)                    size: 150551 bytes
+(epstopdf)                    date: 2021-03-22 13:30:43
+(epstopdf)                    size: 158964 bytes
 (epstopdf)             Output file: <Figures/PD_appendix_IG26_temperature_noise
 _current-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-14 17:36:18
-(epstopdf)                    size: 45172 bytes
+(epstopdf)                    date: 2021-03-22 13:31:13
+(epstopdf)                    size: 48178 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_appendix_IG26_t
 emperature_noise_current-eps-converted-to.pdf Figures/PD_appendix_IG26_temperat
 ure_noise_current.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf, id=53
-65, pagebox=cropbox, 489.83pt x 263.98625pt>
+46, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_appendix_IG26_temperature_noise_current-eps
 -converted-to.pdf  used on input line 91. on input line 91.
-Package pdftex.def Info: Requested size: 426.79135pt x 230.01662pt on input lin
-e 91.
+Package pdftex.def Info: Requested size: 418.2537pt x 228.22813pt on input line
+ 91.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6136,7 +6096,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[250
+[248
 
  <./Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf>]
 
@@ -6145,7 +6105,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[251 <./Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-
+[249 <./Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-
 to.pdf> <./Figures/PD_appendix_g12183005k_temperature_noise_current-eps-convert
 ed-to.pdf>]
 
@@ -6154,7 +6114,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[252 <./Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-
+[250 <./Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-
 to.pdf> <./Figures/PD_appendix_g12182005k_temperature_noise_current-eps-convert
 ed-to.pdf>]
 
@@ -6163,29 +6123,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[253 <./Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf
+[251 <./Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf
 > <./Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/PD_chapter_insb_noise_as_function_
 of_bias.eps>
-(epstopdf)                    date: 2020-12-22 17:28:01
-(epstopdf)                    size: 192116 bytes
+(epstopdf)                    date: 2021-03-22 12:54:30
+(epstopdf)                    size: 191551 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_insb_noise_as_function_
 of_bias-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-22 17:31:41
-(epstopdf)                    size: 58528 bytes
+(epstopdf)                    date: 2021-03-22 12:55:44
+(epstopdf)                    size: 58469 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_insb_no
 ise_as_function_of_bias-eps-converted-to.pdf Figures/PD_chapter_insb_noise_as_f
 unction_of_bias.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf, id=542
-6, pagebox=cropbox, 489.83pt x 258.9675pt>
+<Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf, id=540
+7, pagebox=cropbox, 483.8075pt x 258.9675pt>
 File: Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_chapter_insb_noise_as_function_of_bias-eps-
 converted-to.pdf  used on input line 101. on input line 101.
-Package pdftex.def Info: Requested size: 426.79135pt x 225.64366pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 228.45715pt on input lin
 e 101.
 )
 
@@ -6194,17 +6154,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[254
+[252
 
  <./Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf>]
 Appendix B.
 (./Chapters/appendix_circuits.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [255
+ [253
 
 ]
-<Figures/Circuit_appendix_dark_noise_test_box_1.png, id=5444, 204.95772pt x 94.
+<Figures/Circuit_appendix_dark_noise_test_box_1.png, id=5425, 204.95772pt x 94.
 24008pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_1.png Graphic file (type png
 )
@@ -6213,7 +6173,7 @@ Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_1.png  us
 ed on input line 11. on input line 11.
 Package pdftex.def Info: Requested size: 298.75264pt x 137.37941pt on input lin
 e 11.
-<Figures/Circuit_appendix_dark_noise_test_box_2.png, id=5445, 384.7173pt x 180.
+<Figures/Circuit_appendix_dark_noise_test_box_2.png, id=5426, 384.7173pt x 180.
 1932pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_2.png Graphic file (type png
 )
@@ -6222,7 +6182,7 @@ Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_2.png  us
 ed on input line 17. on input line 17.
 Package pdftex.def Info: Requested size: 426.79135pt x 199.91232pt on input lin
 e 17.
-<Figures/Circuit_appendix_dark_noise_test_box_3.png, id=5450, 357.88104pt x 114
+<Figures/Circuit_appendix_dark_noise_test_box_3.png, id=5431, 357.88104pt x 114
 .9093pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_3.png Graphic file (type png
 )
@@ -6232,24 +6192,24 @@ ed on input line 25. on input line 25.
 Package pdftex.def Info: Requested size: 426.79135pt x 137.03656pt on input lin
 e 25.
 Package epstopdf Info: Source file: <Figures/PD_chapter_bias_cross_check.eps>
-(epstopdf)                    date: 2020-12-14 13:52:16
-(epstopdf)                    size: 48100 bytes
+(epstopdf)                    date: 2021-03-22 13:32:02
+(epstopdf)                    size: 47816 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_bias_cross_check-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2020-12-14 13:53:51
-(epstopdf)                    size: 16207 bytes
+(epstopdf)                    date: 2021-03-22 13:32:21
+(epstopdf)                    size: 16079 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_bias_cr
 oss_check-eps-converted-to.pdf Figures/PD_chapter_bias_cross_check.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf, id=5453, pagebox=cro
-pbox, 428.60126pt x 258.9675pt>
+<Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf, id=5434, pagebox=cro
+pbox, 422.57875pt x 258.9675pt>
 File: Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_chapter_bias_cross_check-eps-converted-to.p
 df  used on input line 31. on input line 31.
-Package pdftex.def Info: Requested size: 426.79135pt x 257.87622pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 261.55508pt on input lin
 e 31.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6261,7 +6221,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[256]
+[254]
 Package epstopdf Info: Source file: <Figures/Circuit_appendix_transimpedance_am
 plifier_TF.eps>
 (epstopdf)                    date: 2020-12-15 13:29:52
@@ -6276,7 +6236,7 @@ mpedance_amplifier_TF.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf, id=
-5472, pagebox=cropbox, 420.57124pt x 362.35374pt>
+5454, pagebox=cropbox, 420.57124pt x 362.35374pt>
 File: Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf>
@@ -6295,14 +6255,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[257 <./Figures/Circuit_appendix_dark_noise_test_box_1.png (PNG copy)>]
+[255 <./Figures/Circuit_appendix_dark_noise_test_box_1.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[258 <./Figures/Circuit_appendix_dark_noise_test_box_2.png (PNG copy)> <./Figur
+[256 <./Figures/Circuit_appendix_dark_noise_test_box_2.png (PNG copy)> <./Figur
 es/Circuit_appendix_dark_noise_test_box_3.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6310,28 +6270,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[259 <./Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>]
+[257 <./Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/Circuit_appendix_dark_noise_box_no
 ise.eps>
-(epstopdf)                    date: 2020-12-15 12:31:27
-(epstopdf)                    size: 135534 bytes
+(epstopdf)                    date: 2021-03-22 13:32:51
+(epstopdf)                    size: 135252 bytes
 (epstopdf)             Output file: <Figures/Circuit_appendix_dark_noise_box_no
 ise-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-15 13:01:25
-(epstopdf)                    size: 42686 bytes
+(epstopdf)                    date: 2021-03-22 13:33:15
+(epstopdf)                    size: 42699 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Circuit_appendix_d
 ark_noise_box_noise-eps-converted-to.pdf Figures/Circuit_appendix_dark_noise_bo
 x_noise.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf, id=5502, p
-agebox=cropbox, 492.84125pt x 263.98625pt>
+<Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf, id=5484, p
+agebox=cropbox, 486.81876pt x 263.98625pt>
 File: Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_box_noise-eps-conv
 erted-to.pdf  used on input line 47. on input line 47.
-Package pdftex.def Info: Requested size: 426.79135pt x 228.61887pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 231.43451pt on input lin
 e 47.
 
 Overfull \hbox (8.15833pt too wide) in paragraph at lines 51--51
@@ -6353,14 +6313,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[260]
+[258]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[261 <./Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.p
+[259 <./Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.p
 df>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6368,7 +6328,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[262 <./Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>]
+[260 <./Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6378,8 +6338,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[263]
-<Figures/PD_chapter_qe_test_circuit.png, id=5554, 346.75146pt x 118.5228pt>
+[261]
+<Figures/PD_chapter_qe_test_circuit.png, id=5535, 346.75146pt x 118.5228pt>
 File: Figures/PD_chapter_qe_test_circuit.png Graphic file (type png)
 <use Figures/PD_chapter_qe_test_circuit.png>
 Package pdftex.def Info: Figures/PD_chapter_qe_test_circuit.png  used on input 
@@ -6388,25 +6348,25 @@ Package pdftex.def Info: Requested size: 426.79135pt x 145.8798pt on input line
  60.
 Package epstopdf Info: Source file: <Figures/PD_chapter_qe_test_circuit_noise.e
 ps>
-(epstopdf)                    date: 2021-01-14 11:26:13
-(epstopdf)                    size: 86614 bytes
+(epstopdf)                    date: 2021-03-22 13:33:51
+(epstopdf)                    size: 86327 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_qe_test_circuit_noise-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-14 11:37:03
-(epstopdf)                    size: 19615 bytes
+(epstopdf)                    date: 2021-03-22 13:34:11
+(epstopdf)                    size: 19581 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_qe_test
 _circuit_noise-eps-converted-to.pdf Figures/PD_chapter_qe_test_circuit_noise.ep
 s>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf, id=5555, pagebo
-x=cropbox, 433.62pt x 262.9825pt>
+<Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf, id=5536, pagebo
+x=cropbox, 428.60126pt x 262.9825pt>
 File: Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_chapter_qe_test_circuit_noise-eps-converted
 -to.pdf  used on input line 66. on input line 66.
-Package pdftex.def Info: Requested size: 426.79135pt x 258.85268pt on input lin
+Package pdftex.def Info: Requested size: 426.79135pt x 261.87431pt on input lin
 e 66.
 Package epstopdf Info: Source file: <Figures/PD_chapter_qe_test_circuit_TF.eps>
 
@@ -6420,7 +6380,7 @@ converted-to.pdf>
 _circuit_TF-eps-converted-to.pdf Figures/PD_chapter_qe_test_circuit_TF.eps>
 (epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf, id=5558, pagebox=c
+<Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf, id=5539, pagebox=c
 ropbox, 418.56375pt x 291.0875pt>
 File: Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -6439,21 +6399,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[264 <./Figures/PD_chapter_qe_test_circuit.png (PNG copy)>]
+[262 <./Figures/PD_chapter_qe_test_circuit.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.11469pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[265 <./Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf>]
+[263 <./Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[266 <./Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf>]
+[264 <./Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6463,36 +6423,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[267]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[265])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[268])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[269]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[270
-
-]
+[266]
 Appendix C.
 (./Chapters/appendix_CDS.tex
-<Figures/medm_screen.png, id=5625, 730.98094pt x 609.02531pt>
+<Figures/medm_screen.png, id=5600, 730.98094pt x 609.02531pt>
 File: Figures/medm_screen.png Graphic file (type png)
 <use Figures/medm_screen.png>
 Package pdftex.def Info: Figures/medm_screen.png  used on input line 4. on inpu
@@ -6502,14 +6443,16 @@ Package pdftex.def Info: Requested size: 384.1096pt x 320.02187pt on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [271]
+ [267
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[272 <./Figures/medm_screen.png>]
+[268 <./Figures/medm_screen.png>]
 Package epstopdf Info: Source file: <Figures/MZ_chapter_CDS_noise.eps>
 (epstopdf)                    date: 2021-03-10 12:57:30
 (epstopdf)                    size: 239379 bytes
@@ -6521,7 +6464,7 @@ Package epstopdf Info: Source file: <Figures/MZ_chapter_CDS_noise.eps>
 se-eps-converted-to.pdf Figures/MZ_chapter_CDS_noise.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=5638, pagebox=cropbox, 4
+<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=5612, pagebox=cropbox, 4
 21.575pt x 153.57375pt>
 File: Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -6537,19 +6480,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[273]
+[269]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[274 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>]
+[270 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>]
 Appendix D.
 (./Chapters/appendix_to_SRC_finesse_investigation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [275
+ [271
 
 ]
 
@@ -6558,7 +6501,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[276]
+[272]
 Package epstopdf Info: Source file: <Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)                    date: 2021-01-21 12:39:02
@@ -6572,7 +6515,7 @@ command_fitting-eps-converted-to.pdf Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=5666, pageb
+<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=5641, pageb
 ox=cropbox, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6588,6 +6531,36 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[273]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[274 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[275
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[276]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [277]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6595,7 +6568,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[278 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
+[278
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6603,38 +6578,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [279
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[280]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[281]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[282
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[283
 
 ]
 Underfull \vbox (badness 1033) has occurred while \output is active []
@@ -6646,49 +6589,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[280]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[281]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[282]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[283])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [284]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[285]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[286]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[287])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[288]
 Appendix E.
 (./Chapters/appendix_mode_matching_algorithm_3_optics.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [289
+ [285
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6700,14 +6643,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[290]
+[286]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[291]
+[287]
 Package epstopdf Info: Source file: <Figures/mode_matching_appendix_optical_lay
 outs.eps>
 (epstopdf)                    date: 2020-09-01 16:09:52
@@ -6721,7 +6664,7 @@ ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
 l_layouts.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=5996, 
+<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=5970, 
 pagebox=cropbox, 501.875pt x 240.9pt>
 File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -6743,7 +6686,7 @@ ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
 ithm_sketch.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=5999,
+<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=5973,
  pagebox=cropbox, 450.68375pt x 253.94875pt>
 File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -6759,26 +6702,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[292]
+[288]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[293 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf>]
+[289 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.11469pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[294 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf>]
+[290 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf>]
 Appendix F.
 (./Chapters/light_and_gaussian_modes.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [295
+ [291
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6790,8 +6733,48 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[296]
+[292]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[293]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[294]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[295]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[296]
+Underfull \vbox (badness 4303) has occurred while \output is active []
 
 
 
@@ -6810,10 +6793,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[298]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[298])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6821,60 +6801,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [299]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[300]
-Underfull \vbox (badness 4303) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[301]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[302])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[303]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[304
+[300
 
 ]
 Appendix G.
 (./Chapters/appendix_mode_matching_derivation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [305]
+ [301]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[302]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[303]) (./main.bbl
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[304] [305
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6882,39 +6851,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [306]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[307]) (./main.bbl
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[308] [309
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[310]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[311]
+[307]
 Underfull \hbox (badness 1048) in paragraph at lines 150--154
 []\T1/cmr/m/n/12 LIGO Virgo Col-lab-o-ra-tion.   Prospects For Ob-serv-ing and 
 Lo-cal-iz-ing
@@ -6932,7 +6875,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[308]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[309]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[310]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[311]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [312]
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6947,6 +6921,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [314]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6961,9 +6938,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [316]
-Underfull \vbox (badness 4341) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6978,9 +6952,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [318]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6988,6 +6959,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [319]
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6995,6 +6969,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [320]
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7016,9 +6993,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [323]
-Underfull \vbox (badness 4341) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7026,9 +7000,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [324]
-Underfull \vbox (badness 4341) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7036,6 +7007,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [325]
+Underfull \hbox (badness 1852) in paragraph at lines 886--889
+[]\T1/cmr/m/n/12 Mephisto Laser, Co-her-ent.  []$\T1/cmtt/m/n/12 https : / / ww
+w . coherent . com / lasers / main /
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7064,9 +7040,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [329]
-Underfull \hbox (badness 1852) in paragraph at lines 886--889
-[]\T1/cmr/m/n/12 Mephisto Laser, Co-her-ent.  []$\T1/cmtt/m/n/12 https : / / ww
-w . coherent . com / lasers / main /
+Underfull \hbox (badness 1406) in paragraph at lines 1068--1072
+[]\T1/cmr/m/n/12 A Freise, G Heinzel, H Lück, R Schilling, B Willke, and K Danz
+-
  []
 
 
@@ -7097,11 +7073,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [333]
-Underfull \hbox (badness 1406) in paragraph at lines 1068--1072
-[]\T1/cmr/m/n/12 A Freise, G Heinzel, H Lück, R Schilling, B Willke, and K Danz
--
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7116,34 +7087,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [335]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[336]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[337]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[338]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[339]
 Underfull \hbox (badness 2318) in paragraph at lines 1315--1320
 []\T1/cmr/m/n/12 Lars Zim-mer-mann, Joachim John, Ste-fan De-g-roote, Gus-taaf 
 Borghs,
@@ -7155,7 +7098,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[340]
+[336]
 Underfull \hbox (badness 10000) in paragraph at lines 1357--1361
 \T1/cmr/m/n/12 cessed Jan 2021 []$\T1/cmtt/m/n/12 https : / / www . lasercompon
 ents . com / uk / product /
@@ -7179,7 +7122,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[341]
+[337]
 Underfull \hbox (badness 10000) in paragraph at lines 1397--1399
 [][]$\T1/cmtt/m/n/12 https : / / www . iceoxford . com / Low-[]Temperature-[]Va
 rnish-[]ICEles03-[] . htm$[]\T1/cmr/m/n/12 ,
@@ -7191,7 +7134,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[342]
+[338]
 Underfull \hbox (badness 10000) in paragraph at lines 1445--1448
 []\T1/cmr/m/n/12 C30665 se-ries datasheet.  []$\T1/cmtt/m/n/12 https : / / www 
 . excelitas . com / product /
@@ -7203,7 +7146,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[343])
+[339])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
 
 
@@ -7212,13 +7155,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[344]
+[340]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E4295C02067B31BF9A2CF41E5B132BC5;11911.
+(rerunfilecheck)             Checksum: 8A7EB473184EBF8CC6D3C708527C3F8C;11911.
 
 
 LaTeX Warning: There were undefined references.
@@ -7226,10 +7169,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 26067 strings out of 492990
- 496047 string characters out of 6136333
- 773194 words of memory out of 5000000
- 28001 multiletter control sequences out of 15000+600000
+ 26057 strings out of 492990
+ 495579 string characters out of 6136333
+ 773206 words of memory out of 5000000
+ 27996 multiletter control sequences out of 15000+600000
  571154 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,21n,77p,10378b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7268,10 +7211,10 @@ ist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/
 type1/public/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc2488.pfb>
-Output written on main.pdf (361 pages, 14182670 bytes).
+Output written on main.pdf (357 pages, 14197430 bytes).
 PDF statistics:
- 6832 PDF objects out of 7423 (max. 8388607)
- 5125 compressed objects within 52 object streams
- 1140 named destinations out of 1200 (max. 500000)
- 1622 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6805 PDF objects out of 7423 (max. 8388607)
+ 5106 compressed objects within 52 object streams
+ 1136 named destinations out of 1200 (max. 500000)
+ 1617 words of extra memory for PDF output out of 10000 (max. 10000000)
 
