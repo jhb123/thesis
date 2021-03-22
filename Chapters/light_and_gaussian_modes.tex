@@ -100,9 +100,9 @@ Note, the left most matrix corresponds to the last optical component in the layo
 \section{Higher Order Modes and Optical Imperfections}
 The fundamental Gaussian mode describes the electric field of a beam in an ideal optical system. Imperfections in the optical layout, such as misalignment, mode mismatch and spatial distortions in mirror surfaces, can generate light with a different intensity profile to the fundamental Gaussian mode. For instance, if two interfering beams are misaligned slightly, the resulting beam will have a mode profile that looks like two spots instead of one. A small difference in waist size or location, i.e. a mode mismatch, between them would result in the beam having a ring-shaped mode profile. Similar effects happen when a laser and a cavity are misaligned. These imperfections in the layout and the resulting beam shapes can be modelled as the optical layout scattering light into higher order optical modes (e.g~\cite{Morrison1994}). 
 \par
-One complete, orthonormal basis set of functions that can be used to construct higher order modes with are the Hermite-Gaussian (HG) modes. These modes have $xy$ symmetry and are rectangularly shaped. HG modes are useful for modelling misalignments because this type of imperfection can be naturally broken into $xy$ coordinates.
+One complete, orthonormal basis set of functions that can be used to construct higher order modes with are the \gls{hg} modes. These modes have $xy$ symmetry and are rectangularly shaped. \gls{hg} modes are useful for modelling misalignments because this type of imperfection can be naturally broken into $xy$ coordinates.
 \par
-Mode mismatches are best described by the $r\theta$ coordinates, and so it is natural to express these in terms of another orthonormal basis set known as the Laguerre-Gauss (LG) modes. However, if the beam is astigmatic then the mode no longer has the symmetry required in order to be modelled with LG modes. Second order HG modes can also describe mode mismatch, even if the modes are astigmatic.
+Mode mismatches are best described by the $r\theta$ coordinates, and so it is natural to express these in terms of another orthonormal basis set known as the Laguerre-Gauss modes. However, if the beam is astigmatic then the mode no longer has the symmetry required in order to be modelled with Laguerre-Gauss modes. Second order \gls{hg} modes can also describe mode mismatch, even if the modes are astigmatic.
 \par
 The spatial distribution of a higher order mode's field amplitude can be described with
 \begin{equation}
@@ -122,7 +122,7 @@ we can see that higher order modes have the same waist size and radius of curvat
 %\par
 %The Gouy phase separation of higher order modes is important when designing alignment and mode matching control systems, as different types of errors have different phases. For example, angular and translational misalignment are both first order effects. This means they both transfer light from the $HG_{00}$ mode into the $HG_{10}$. However, the complex amplitude of these misalignment situations is separated by $\pi/2$ rad of phase. Having two sensors separated by $\pi/2$ of Gouy phase, one can derive alignment control signals.
 \par
-In general, a mode can be written as a superposition of HG modes 
+In general, a mode can be written as a superposition of \gls{hg} modes 
 \begin{equation}
 E(x,y,z) = \sum_{n=0}^{n=\infty}\sum_{m=0}^{m=\infty}A_n \Psi_n(x)A_m \Psi_m(y),
 \end{equation}
