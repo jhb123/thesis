@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  24 MAR 2021 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  24 MAR 2021 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4774,7 +4774,7 @@ ise_test_set_up-eps-converted-to.pdf Figures/PD_chapter_shot_noise_test_set_up.
 eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf, id=5911, pageb
+<Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf, id=5912, pageb
 ox=cropbox, 464.73625pt x 208.78pt>
 File: Figures/PD_chapter_shot_noise_test_set_up-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4926,16 +4926,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [188 <./Figures/PD_chapter_fd10d_AC_DC-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[189]
 Package epstopdf Info: Source file: <Figures/PD_chapter_FD10D_dark_noise.eps>
 (epstopdf)                    date: 2021-03-22 12:43:58
 (epstopdf)                    size: 245232 bytes
@@ -4947,7 +4937,7 @@ nverted-to.pdf>
 ark_noise-eps-converted-to.pdf Figures/PD_chapter_FD10D_dark_noise.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf, id=6119, pagebox=cro
+<Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf, id=6113, pagebox=cro
 pbox, 513.92pt x 272.01625pt>
 File: Figures/PD_chapter_FD10D_dark_noise-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4958,18 +4948,18 @@ Package pdftex.def Info: Requested size: 426.79135pt x 225.90208pt on input lin
 e 181.
 Package epstopdf Info: Source file: <Figures/PD_chapter_dark_current_mega_plot.
 eps>
-(epstopdf)                    date: 2021-03-22 12:46:01
-(epstopdf)                    size: 62597 bytes
+(epstopdf)                    date: 2021-03-24 16:50:33
+(epstopdf)                    size: 62737 bytes
 (epstopdf)             Output file: <Figures/PD_chapter_dark_current_mega_plot-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-22 12:49:22
-(epstopdf)                    size: 18182 bytes
+(epstopdf)                    date: 2021-03-24 16:51:10
+(epstopdf)                    size: 18190 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_dark_cu
 rrent_mega_plot-eps-converted-to.pdf Figures/PD_chapter_dark_current_mega_plot.
 eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf, id=6126, pageb
+<Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf, id=6120, pageb
 ox=cropbox, 540.0175pt x 432.61626pt>
 File: Figures/PD_chapter_dark_current_mega_plot-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4991,7 +4981,7 @@ re-eps-converted-to.pdf>
 mpare.eps>
 (epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf, id=6131, pa
+<Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf, id=6125, pa
 gebox=cropbox, 483.8075pt x 258.9675pt>
 File: Figures/PD_chapter_g12182-010k_noise_compare-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -5001,6 +4991,16 @@ rted-to.pdf  used on input line 193. on input line 193.
 Package pdftex.def Info: Requested size: 426.79135pt x 228.45715pt on input lin
 e 193.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[189]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -5114,9 +5114,9 @@ d-to.pdf  used on input line 224. on input line 224.
 Package pdftex.def Info: Requested size: 426.79135pt x 229.25829pt on input lin
 e 224.
 
-Underfull \hbox (badness 1852) in paragraph at lines 225--225
-[]\T1/cmr/m/n/12 Figure 6.10: |The sat-u-ra-tion limit of the IG22x1000S4i, IG2
-4x500S4i and
+Underfull \hbox (badness 1406) in paragraph at lines 225--225
+[]\T1/cmr/m/n/12 Figure 6.10: |The sat-u-ra-tion lim-its of the IG22x1000S4i, I
+G24x500S4i and
  []
 
 
@@ -7384,7 +7384,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
 Here is how much of TeX's memory you used:
  33046 strings out of 492990
  621576 string characters out of 6136333
- 932124 words of memory out of 5000000
+ 932114 words of memory out of 5000000
  34809 multiletter control sequences out of 15000+600000
  571154 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7424,7 +7424,7 @@ ist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/
 type1/public/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc2488.pfb>
-Output written on main.pdf (363 pages, 14301487 bytes).
+Output written on main.pdf (363 pages, 14301702 bytes).
 PDF statistics:
  8597 PDF objects out of 8907 (max. 8388607)
  6681 compressed objects within 67 object streams
