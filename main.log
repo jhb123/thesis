@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  25 MAR 2021 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  25 MAR 2021 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3433,14 +3433,6 @@ Underfull \hbox (badness 1558) in paragraph at lines 45--45
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (18.07161pt too wide) in paragraph at lines 78--78
-|[]\T1/cmr/bx/n/17.28 Modelling In-ter-fer-om-e-ters with Mode Mis-matches
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3451,6 +3443,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [96]
+Overfull \hbox (18.07161pt too wide) in paragraph at lines 78--78
+|[]\T1/cmr/bx/n/17.28 Modelling In-ter-fer-om-e-ters with Mode Mis-matches
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7405,7 +7405,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
 Here is how much of TeX's memory you used:
  33046 strings out of 492990
  621562 string characters out of 6136333
- 925481 words of memory out of 5000000
+ 924540 words of memory out of 5000000
  34809 multiletter control sequences out of 15000+600000
  571154 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7445,7 +7445,7 @@ ist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/
 type1/public/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc2488.pfb>
-Output written on main.pdf (365 pages, 14304127 bytes).
+Output written on main.pdf (365 pages, 14303898 bytes).
 PDF statistics:
  8608 PDF objects out of 8907 (max. 8388607)
  6689 compressed objects within 67 object streams
