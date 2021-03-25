@@ -2,47 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 10106 items from 5000.
+Reallocated field_info (elt_size=4) to 10152 items from 5000.
 Database file #1: back_up_bibliography/fixed_bibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 222 entries,
+You've used 224 entries,
             1791 wiz_defined-function locations,
-            1662 strings with 61210 characters,
-and the built_in function-call counts, 57411 in all, are:
-= -- 3383
-> -- 5685
+            1671 strings with 61942 characters,
+and the built_in function-call counts, 58034 in all, are:
+= -- 3401
+> -- 5781
 < -- 0
-+ -- 1995
-- -- 1773
-* -- 5345
-:= -- 10446
-add.period$ -- 666
-call.type$ -- 222
-change.case$ -- 202
++ -- 2028
+- -- 1804
+* -- 5405
+:= -- 10568
+add.period$ -- 671
+call.type$ -- 224
+change.case$ -- 204
 chr.to.int$ -- 0
-cite$ -- 222
-duplicate$ -- 1702
-empty$ -- 4343
-format.name$ -- 1773
-if$ -- 11502
+cite$ -- 224
+duplicate$ -- 1712
+empty$ -- 4379
+format.name$ -- 1804
+if$ -- 11619
 int.to.chr$ -- 0
-int.to.str$ -- 222
+int.to.str$ -- 224
 missing$ -- 154
-newline$ -- 1107
-num.names$ -- 216
-pop$ -- 736
+newline$ -- 1116
+num.names$ -- 218
+pop$ -- 751
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 719
+skip$ -- 726
 stack$ -- 0
 substring$ -- 1889
-swap$ -- 227
+swap$ -- 229
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 349
-width$ -- 225
-write$ -- 2307
+while$ -- 351
+width$ -- 227
+write$ -- 2324
