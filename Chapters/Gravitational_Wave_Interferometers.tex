@@ -26,7 +26,7 @@ To improve statistical models of the systems that emit gravitational waves, the 
 		O5 & 2025 & - & LIGO A+, Advanced Virgo, KAGRA, LIGO India\\
 		\hline
 	\end{tabular}
-\caption{Summary of observation runs for LIGO, Virgo and KAGRA~\cite{Aasi2015,Acernese2014,Aso2013}. This table includes detections that were made up to November 2020; analysis of the O3 data is ongoing. }
+\caption[Summary of observation runs for LIGO, Virgo and KAGRA.]{Summary of observation runs for LIGO, Virgo and KAGRA~\cite{Aasi2015,Acernese2014,Aso2013}. This table includes detections that were made up to November 2020; analysis of the O3 data is ongoing. }
 \label{tab:detector_chpater_observation_runs}
 \end{table}
 \section{Measuring Gravitational Waves with an Interferometer}
@@ -68,7 +68,7 @@ Therefore, it is in principle possible to measure the differential motion of the
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/detector_chapter_simple_layout}
-	\caption{(a) A sketch of the effect a gravitational wave has on a Michelson interferometer. The positions of the test masses, ETMX and ETMY, at different times during the gravitational wave's period is shown by the blue and pink mirrors. The electric fields within the interferometer are indicated: $\sqrt{I_0}$ is the laser's amplitude and $\pm\Delta \phi/2$ is the phase acquired by the light as it travels up and down the arms. (b) To reach the sensitivity needed to detect gravitational waves, several mirrors need to be added to the basic Michelson interferometer: ITMX and ITMY boost the signal generated in the arms, the \gls{prm} increases the power at the beam splitter, and the \gls{srm} can be used to shape the quantum noise of the interferometer.}
+	\caption[Sketch of the effect of a gravitational wave interacting with a Michelson interferometer.]{(a) A sketch of the effect a gravitational wave has on a Michelson interferometer. The positions of the test masses, ETMX and ETMY, at different times during the gravitational wave's period is shown by the blue and pink mirrors. The electric fields within the interferometer are indicated: $\sqrt{I_0}$ is the laser's amplitude and $\pm\Delta \phi/2$ is the phase acquired by the light as it travels up and down the arms. (b) To reach the sensitivity needed to detect gravitational waves, several mirrors need to be added to the basic Michelson interferometer: ITMX and ITMY boost the signal generated in the arms, the \gls{prm} increases the power at the beam splitter, and the \gls{srm} can be used to shape the quantum noise of the interferometer.}
 	\label{fig:detectorchaptersimplelayout}
 \end{figure}
 \subsection{Using Fabry-Perot Cavities in the Arms of a Michelson Interferometer to Enhance its Sensitivity}
@@ -84,7 +84,7 @@ Fabry-Perot cavities are used to increase the effective number of times light bo
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/detector_chapter_fabry_vs_mirror}
-	\caption{Comparison between the phase of the light reflected from a mirror versus the phase of light reflected from a cavity as the position of the mirror/end mirror is changed. The orange line shows the extra round trip phase acquired by light in the arm if the \gls{etm} is moved one wavelength (\ang{360}) and the blue line shows the same thing for an Fabry-Perot cavity. The phase of the light reflected from the cavity rapidly changes as it moves through the resonance. The interferometers sensitivity is proportional to the slope $\frac{d \phi_{\rm{EM}}}{d \phi_{\rm{ETM}}}$, and so a Fabry-Perot cavity can increase the sensitivity of the interferometer.}
+	\caption[Comparison between the phase of the light reflected from a mirror versus the phase of light reflected from a cavity as the position of the mirror/end mirror is changed]{Comparison between the phase of the light reflected from a mirror versus the phase of light reflected from a cavity as the position of the mirror/end mirror is changed. The orange line shows the extra round trip phase acquired by light in the arm if the \gls{etm} is moved one wavelength (\ang{360}) and the blue line shows the same thing for an Fabry-Perot cavity. The phase of the light reflected from the cavity rapidly changes as it moves through the resonance. The interferometers sensitivity is proportional to the slope $\frac{d \phi_{\rm{EM}}}{d \phi_{\rm{ETM}}}$, and so a Fabry-Perot cavity can increase the sensitivity of the interferometer.}
 	\label{fig:detectorchapterfabryvsmirror}
 	%note that this figure is generated in the 'main thesis folder'.
 \end{figure}
@@ -121,7 +121,7 @@ Equation~(\ref{eq:detector_chapter_shot_noise_ifo}) assumed the frequency respon
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/detector_chapter_design_sensitivity_curves}
-	\caption{The light blue and light red lines show the design sensitivity of the aLIGO and LIGO A+ detectors. The noise due to radiation pressure and photon shot noise is shown in dark blue (aLIGO) and dark red (A+). These two noise sources make up the detectors' quantum noise. Above 10\,Hz, quantum effects are one of the limiting sources of noise. Below 10\,Hz, classical noise sources, e.g.~seismic motion, limit the sensitivity of the detectors. Above 100\,Hz, shot noise limits the sensitivity of detectors. Shot noise rises with $f$ due to the arm cavities. Below 100\,Hz, the quantum noise goes as $1/f$ due to radiation pressure. Coating thermal noise will limit the A+ detectors' sensitivity in a band around $100\,\si{\hertz}$.}
+	\caption[Sensitivity Curves for the aLIGO and LIGO A+ detectors.]{The light blue and light red lines show the design sensitivity of the aLIGO and LIGO A+ detectors. The noise due to radiation pressure and photon shot noise is shown in dark blue (aLIGO) and dark red (A+). These two noise sources make up the detectors' quantum noise. Above 10\,Hz, quantum effects are one of the limiting sources of noise. Below 10\,Hz, classical noise sources, e.g.~seismic motion, limit the sensitivity of the detectors. Above 100\,Hz, shot noise limits the sensitivity of detectors. Shot noise rises with $f$ due to the arm cavities. Below 100\,Hz, the quantum noise goes as $1/f$ due to radiation pressure. Coating thermal noise will limit the A+ detectors' sensitivity in a band around $100\,\si{\hertz}$.}
 	\label{fig:detectorchapterdesignsensitivitycurves}
 \end{figure}
 \par
@@ -214,7 +214,7 @@ The first cavity after the \gls{psl} is the \gls{imc}; this provides a beam with
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/LIGO_layout}
-	\caption{Sketch of a LIGO detector. The input and output optics --- IM1-4, the input periscope, OM1-3, the \gls{omc} , the input Faraday isolator and the \gls{ofi} --- are shown in blue. The \gls{imc} mirrors are shown in green. The power recycling mirrors are shown in pink. The arm cavity mirrors are shown in pale blue. The signal recycling cavity mirrors are shown in yellow. The beam leaves BS at an angle due to the BS being wedged. Angles in the recycling cavities are exaggerated and the arms are shortened for clarity.}
+	\caption[Sketch of a LIGO detector.]{Sketch of a LIGO detector. The input and output optics --- IM1-4, the input periscope, OM1-3, the \gls{omc} , the input Faraday isolator and the \gls{ofi} --- are shown in blue. The \gls{imc} mirrors are shown in green. The power recycling mirrors are shown in pink. The arm cavity mirrors are shown in pale blue. The signal recycling cavity mirrors are shown in yellow. The beam leaves BS at an angle due to the BS being wedged. Angles in the recycling cavities are exaggerated and the arms are shortened for clarity.}
 	\label{fig:ligolayout}
 \end{figure}
 \section{The Future of Ground-based Gravitational Wave Detectors}

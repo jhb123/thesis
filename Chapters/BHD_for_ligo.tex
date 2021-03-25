@@ -12,7 +12,7 @@ The \gls{lo} beam has a larger power than the signal beam, and the power of the 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\linewidth]{Figures/BHD_for_ligo_chapter_BHD_sketch}
-	\caption{A coherent state $\ket{\alpha}$, enters port $a$ of a beam splitter. A signal $\ket{\Psi}$ enters port $b$. These two beams interfere, resulting in photons being detected at the $c$ and $d$ ports. The two photocurrents are subtracted, and the signal that is produced is proportional to an arbitrary quadrature of the state $\ket{\Psi}$; the difference in the signals at the $c$ and $d$ ports is given by Equation~(\ref{eq:bhd_signal}). The quadrature of the state $\ket{\Psi}$ that is observed depends on the homodyne angle, $\phi$. }
+	\caption[Sketch of a balanced homodyne detector.]{A coherent state $\ket{\alpha}$, enters port $a$ of a beam splitter. A signal $\ket{\Psi}$ enters port $b$. These two beams interfere, resulting in photons being detected at the $c$ and $d$ ports. The two photocurrents are subtracted, and the signal that is produced is proportional to an arbitrary quadrature of the state $\ket{\Psi}$; the difference in the signals at the $c$ and $d$ ports is given by Equation~(\ref{eq:bhd_signal}). The quadrature of the state $\ket{\Psi}$ that is observed depends on the homodyne angle, $\phi$. }
 	\label{fig:bhdforligochapterbhdsketch}
 \end{figure}
 \par
@@ -120,7 +120,7 @@ To acquire a \gls{lo} with low frequency and intensity noise, the \gls{lo} will 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_sketch_of_LO_delivery}
-	\caption{Sketch of the \gls{lo} (green) and signal (pink) beam paths in relation to other parts of the interferometer (see Figure~\ref{fig:ligolayout} and Section~\ref{sec:detector_chapter_LIGO_layout}). The \gls{lo} beam emerges from PR2. Some of this light is used to control the interferometer, so BHDBS1 is needed to split the light. BHDM1 directs the \gls{lo} onto BHDBS2. The signal beam emerges from the \gls{srm}. It passes through the OFI and is reflected by OM0. The signal combines with the \gls{lo} on BHDBS2. The layout of the optics in HAM6 is shown in Figure~\ref{fig:bhdforligochapterlayout5f}.}
+	\caption[Sketch of how the local oscillator will be delivered to the balanced homodyne detector for LIGO A+.]{Sketch of the \gls{lo} (green) and signal (pink) beam paths in relation to other parts of the interferometer (see Figure~\ref{fig:ligolayout} and Section~\ref{sec:detector_chapter_LIGO_layout}). The \gls{lo} beam emerges from PR2. Some of this light is used to control the interferometer, so BHDBS1 is needed to split the light. BHDM1 directs the \gls{lo} onto BHDBS2. The signal beam emerges from the \gls{srm}. It passes through the OFI and is reflected by OM0. The signal combines with the \gls{lo} on BHDBS2. The layout of the optics in HAM6 is shown in Figure~\ref{fig:bhdforligochapterlayout5f}.}
 	\label{fig:bhdforligochaptersketchoflodelivery}
 \end{figure}
 \subsection{The Local Oscillator Path Length Stability Requirement}
@@ -141,7 +141,7 @@ where $h$ is Planck's constant and $\nu$ is the frequency of the light. For A+, 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_detector_repsonse}
-	\caption{The linear response function between strain and light power, expressed in units of radians/gravitational wave strain, at the \gls{as} port. The corner frequency at $\approx380$\,Hz comes from the pole of the coupled \gls{src}-arm cavity.}
+	\caption[The linear response function between strain and light power, expressed in units of radians/gravitational wave strain, at the anti-symmetric port of the interferometer.]{The linear response function between strain and light power, expressed in units of radians/gravitational wave strain, at the \gls{as} port. The corner frequency at $\approx380$\,Hz comes from the pole of the coupled \gls{src}-arm cavity.}
 	\label{fig:bhdforligochapterdetectorrepsonse}
 \end{figure}
 \par
@@ -174,7 +174,7 @@ Using Equation~(\ref{eq:bhdforligo_interference_at_a_beam_splitter}), the phase 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_phase_noise}
-	\caption{The sensitivity curve for the A+ detectors expressed in units of $\si{\radian/\sqrt{Hz}}$. At frequencies above 1\,kHz, the noise is flat ($3.4\times10^{-5}\,\si{\radian/\sqrt{\hertz}}$) as it is dominated by shot noise. At lower frequencies, the noise is increased relative to shot noise due to radiation pressure, coating thermal noise and other noise sources. At 5\,\si{\hertz}, the noise is $8\times10^{-5}\,\si{\radian/\sqrt{\hertz}}$.}
+	\caption[The sensitivity curve for the A+ detectors expressed in units of $\si{\radian/\sqrt{Hz}}$.]{The sensitivity curve for the A+ detectors expressed in units of $\si{\radian/\sqrt{Hz}}$. At frequencies above 1\,kHz, the noise is flat ($3.4\times10^{-5}\,\si{\radian/\sqrt{\hertz}}$) as it is dominated by shot noise. At lower frequencies, the noise is increased relative to shot noise due to radiation pressure, coating thermal noise and other noise sources. At 5\,\si{\hertz}, the noise is $8\times10^{-5}\,\si{\radian/\sqrt{\hertz}}$.}
 	\label{fig:bhdforligochapterphasenoise}
 \end{figure}
 \par
@@ -190,13 +190,13 @@ Multiplying the phase noise shown in Figure~\ref{fig:bhdforligochapterphasenoise
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_HRTS_requirement}
-	\caption{The sensitivity curve for A+ sets the limit on the amount of path length noise that is acceptable between the \gls{as} and \gls{lo} beams. The blue line shows the sensitivity curve in units of path length noise between the \gls{as} and \gls{lo} beams, and the orange line shows the longitudinal motion requirement for the optics which combine the \gls{lo} and signal beam. At 5\,Hz, the longitudinal motion requirement for the optics is $4.9\times10^{-13}\,\si{\metre/\sqrt{\hertz}}$.} 
+	\caption[The path length noise that is acceptable between the anti-symmetric and local oscillator beams in LIGO A+.]{The sensitivity curve for A+ sets the limit on the amount of path length noise that is acceptable between the \gls{as} and \gls{lo} beams. The blue line shows the sensitivity curve in units of path length noise between the \gls{as} and \gls{lo} beams, and the orange line shows the longitudinal motion requirement for the optics which combine the \gls{lo} and signal beam. At 5\,Hz, the longitudinal motion requirement for the optics is $4.9\times10^{-13}\,\si{\metre/\sqrt{\hertz}}$.} 
 	\label{fig:bhdforligochapterhrtsrequirement}
 \end{figure}
 \begin{figure}[b]
 	\centering
 	\includegraphics[width=0.3\linewidth]{Figures/BHD_for_ligo_chapter_bhd_double_counted}
-	\caption{A sketch of the \gls{lo} and signal beam paths. The \gls{lo} beam path is shown in blue, and the signal beam is shown in red. The dashed arrow indicates the direction that the recombining beam splitter, BHDBS2, may move in. If BHDBS2 moves in this way, the phase of the signal beam has increased while the phase of the \gls{lo} beam has decreased at the point where the signal and \gls{lo} beams combine. This means that the recombination beam splitter motion needs to be counted twice in calculations of the phase noise requirement.}
+	\caption[A sketch showing why the motion of BHDBS2 needs to be counted twice.]{A sketch of the \gls{lo} and signal beam paths. The \gls{lo} beam path is shown in blue, and the signal beam is shown in red. The dashed arrow indicates the direction that the recombining beam splitter, BHDBS2, may move in. If BHDBS2 moves in this way, the phase of the signal beam has increased while the phase of the \gls{lo} beam has decreased at the point where the signal and \gls{lo} beams combine. This means that the recombination beam splitter motion needs to be counted twice in calculations of the phase noise requirement.}
 	\label{fig:bhdforligochapterbhddoublecounted}
 \end{figure}
 %\subsection{The Linear Response Function Between Differential Strain and Power at the AS Port}

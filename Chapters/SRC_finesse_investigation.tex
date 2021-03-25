@@ -4,7 +4,7 @@ A gravitational wave creates a differential signal in the arm cavities. The ligh
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/beam_parameter_chapter_ligo_layout}		
-	\caption{Sketch showing the parts of the aLIGO detectors discussed in this chapter. A sketch showing more of the detector is shown in Figure~\ref{fig:ligolayout}. The angles and lengths are exaggerated for clarity. Light from the arm cavities is incident upon the beam splitter (BS). As BS is wedged, the light going towards the \gls{src} comes out an angle. Differential arm length signals encoded onto this light are directed towards SR3, SR2, and then the \gls{srm}. Between the \gls{srm} and the \gls{omc}, there are optics for steering and mode matching (OM1-3). Finally, to strip away junk light, the light enters the \gls{omc}. The light emerging from the \gls{omc} is detected by photodiodes.}%missing	
+	\caption[Sketch showing the parts of the aLIGO detectors discussed Chapter~\ref{chapter:simulation_finesse}]{Sketch showing the parts of the aLIGO detectors discussed in this chapter. A sketch showing more of the detector is shown in Figure~\ref{fig:ligolayout}. The angles and lengths are exaggerated for clarity. Light from the arm cavities is incident upon the beam splitter (BS). As BS is wedged, the light going towards the \gls{src} comes out an angle. Differential arm length signals encoded onto this light are directed towards SR3, SR2, and then the \gls{srm}. Between the \gls{srm} and the \gls{omc}, there are optics for steering and mode matching (OM1-3). Finally, to strip away junk light, the light enters the \gls{omc}. The light emerging from the \gls{omc} is detected by photodiodes.}%missing	
 	\label{fig:beamparameterchapterligolayout}
 \end{figure}
 \par
@@ -45,7 +45,7 @@ Techniques for determining the mode matching between the arms and the \gls{omc} 
 		Measurement of the beam profile. & A beam profiler was used to measure the size of the beam exiting the \gls{srm}. There was a 15\% mismatch between this beam and the \gls{omc} mode. &\cite{llo_beam_profile_alog_2018,llo_beam_profile_dcc_2018} \\  
 		\hline
 	\end{tabular}
-\caption{Measurements made at \gls{llo} by on-site scientists of the mode matching between the interferometer and the \gls{omc}.}
+\caption[Summary of mode matching measurements made at LIGO Livingston by on-site scientist.]{Measurements made at \gls{llo} by on-site scientists of the mode matching between the interferometer and the \gls{omc}.}
 \label{tab:src_chapter_measaurements}
 \end{table}
 %The mode matching between the arm cavities and the \gls{omc}, and the input light to the \gls{omc} were studied at the \gls{llo} detector between 2018-2019, and these measurements are described in the following section. Techniques for determining the mode matching between the arms and the \gls{omc} include: actuating on the waist size and waist location of the beam coming from the arm and measuring what effect this has on the mode matching to the \gls{omc}; direct beam profile measurements; the application of different DARM offsets to determine what portion of light in an \gls{omc} scan corresponds to the arm mode and what portion of the light comes from elsewhere in the interferometer (e.g.~from contrast defect); and use of a beacon signal to distinguish between the signal-carrying arm cavity light and junk light. 
@@ -103,7 +103,7 @@ The effect of using a thin beam splitter versus a thick beam splitter in a \text
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_thin_vs_thick.eps}
-	\caption{The simulation of a Michelson interferometer with a thin beam splitter is shown in blue. The same simulation was done with a thick beam splitter and this is shown in orange. The analytic behaviour of a Michelson interferometer (Equation~(\ref{eq:michelson})) is shown by the dashed black line. The tuning of one of the arm mirrors was changed and the power at the \gls{as} port was simulated. Comparing the outputs of the simulation to Equation~(\ref{eq:michelson}) shows that thick beam splitters should be used.}
+	\caption[\textsc{Finesse} simulation of a Michelson interferometer showing how incorrectly implemented beam splitters can yield erroneous results.]{The simulation of a Michelson interferometer with a thin beam splitter is shown in blue. The same simulation was done with a thick beam splitter and this is shown in orange. The analytic behaviour of a Michelson interferometer (Equation~(\ref{eq:michelson})) is shown by the dashed black line. The tuning of one of the arm mirrors was changed and the power at the \gls{as} port was simulated. Comparing the outputs of the simulation to Equation~(\ref{eq:michelson}) shows that thick beam splitters should be used.}
 	\label{fig:thinvsthick}
 \end{figure}
 \clearpage
@@ -117,7 +117,7 @@ The interferometer was set up to be in DC readout mode. The tuning of the arm mi
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\linewidth]{sim_chapter_sketch_of_simulation}
-	\caption{Schematic of the simulation. The dimensions of the schematic are not to scale. The laser light is shown as a red line. Black lines with red beams interacting with them correspond to components such as mirrors and lenses. Important nodes are highlighted with black dots and the associated \textsc{Finesse} commands are shown nearby. Zoom-ins provide more detail for the main beam splitter, ITMy and the \gls{src}. The elongated curled bracket highlights the arm cavity, and the text with it shows how it is implemented in \textsc{Finesse}.}
+	\caption[Schematic of the main simulation in Chapter~\ref{chapter:simulation_finesse}.]{Schematic of the simulation. The dimensions of the schematic are not to scale. The laser light is shown as a red line. Black lines with red beams interacting with them correspond to components such as mirrors and lenses. Important nodes are highlighted with black dots and the associated \textsc{Finesse} commands are shown nearby. Zoom-ins provide more detail for the main beam splitter, ITMy and the \gls{src}. The elongated curled bracket highlights the arm cavity, and the text with it shows how it is implemented in \textsc{Finesse}.}
 	\label{fig:diagramofsim2}
 \end{figure}
 \par
@@ -142,7 +142,7 @@ To maintain the same \gls{src} finesse seen by the differential mode for each si
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_Zoom_in_ETM_tuning.eps}
-	\caption{For simulations with the arm cavities, the DC offset is created by tuning the \glspl{etm}. The minimum of the dark fringe is at 0\si{\degree} differential \gls{etm} detuning, as shown by the blue line. A slight offset causes light to be at the \gls{as} port. This result was used to determine tunings for simulating what effect focal length errors in SR3 and SR2 have on the beam transmitted through the \gls{srm}. The orange line and dashed green line show that the beam has a negligible \gls{hom} content.}
+	\caption[Tunings of the end test masses used to produce a DC offset for the simulations with arm cavities.]{For simulations with the arm cavities, the DC offset is created by tuning the \glspl{etm}. The minimum of the dark fringe is at 0\si{\degree} differential \gls{etm} detuning, as shown by the blue line. A slight offset causes light to be at the \gls{as} port. This result was used to determine tunings for simulating what effect focal length errors in SR3 and SR2 have on the beam transmitted through the \gls{srm}. The orange line and dashed green line show that the beam has a negligible \gls{hom} content.}
 	\label{fig:zoominetmtuning}
 \end{figure}
 \begin{table}[ht]
@@ -155,13 +155,13 @@ To maintain the same \gls{src} finesse seen by the differential mode for each si
 		ETMx & 90 & $+2.64\rm{e}-05$ \\
 		ETMy & 90 & $-2.64\rm{e}-05$ \\ 
 	\end{tabular}
-	\caption{The tunings used for the arm-cavity simulation to get 30mW of light at the dark port.}
+	\caption[The tunings used for the arm-cavity simulation to get 30mW of light at the dark port.]{The tunings used for the arm-cavity simulation to get 30mW of light at the dark port.}
 	\label{tab:arm_tuning}
 \end{table}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_Zoom_in_ITM_tuning.eps}
-	\caption{For simulations without arm cavities, i.e.~single bounce simulations, the DC offset is created by tuning the \glspl{itm}. The minimum of the dark fringe is at 0\si{\degree} differential \gls{itm} detuning, as shown by the blue line. A slight offset causes light to be at the \gls{as} port. This result was used to determine tunings for simulating what effect focal length errors in SR3 and SR2 have on the beam transmitted through the \gls{srm}. The orange line and dashed green line show that the beam has a negligible \gls{hom} content.}
+	\caption[Tunings of the input test masses used produce a DC offset for the simulations without arm cavities.]{For simulations without arm cavities, i.e.~single bounce simulations, the DC offset is created by tuning the \glspl{itm}. The minimum of the dark fringe is at 0\si{\degree} differential \gls{itm} detuning, as shown by the blue line. A slight offset causes light to be at the \gls{as} port. This result was used to determine tunings for simulating what effect focal length errors in SR3 and SR2 have on the beam transmitted through the \gls{srm}. The orange line and dashed green line show that the beam has a negligible \gls{hom} content.}
 	\label{fig:zoominitmtuning}
 \end{figure}
 \begin{table}[ht]
@@ -174,7 +174,7 @@ To maintain the same \gls{src} finesse seen by the differential mode for each si
 		ITMx & 90 & $+0.00074$ \\
 		ITMy & 90 & $-0.00074$ \\ 
 	\end{tabular}
-	\caption{The tunings used for the no-arm-cavity simulation to get 30mW of light at the dark port.}
+	\caption[The tunings used for the no-arm-cavity simulation to get 30mW of light at the dark port.]{The tunings used for the no-arm-cavity simulation to get 30mW of light at the dark port.}
 	\label{tab:no_arm_cav_tuning}
 \end{table}
 \clearpage
@@ -199,13 +199,13 @@ Measurements of the single-bounce beam profile~\cite{llo_beam_profile_dcc_2018} 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_beam_size_sr2_sr3.eps}
-	\caption{The Gaussian width of the beam that is transmitted through the \gls{srm} as a function of the error ($\pm3\sigma$) in focal length of SR3 and SR2. The Gaussian beam width is strongly dependent on SR3's focal length error, whereas SR2's focal length error is less important. When the beam size is much greater than $\sim\!2.25\,\rm{mm}$, the \gls{src} is unstable (see Figure~\ref{fig:maxtemexperiment}), so this area of the parameter space is unlikely to correspond to the beam at the \gls{srm} at \gls{llo}.}
+	\caption[The Gaussian width of the beam that is transmitted through the signal recycling mirror as a function of the error in the focal length of SR3 and SR2.]{The Gaussian width of the beam that is transmitted through the \gls{srm} as a function of the error ($\pm3\sigma$) in focal length of SR3 and SR2. The Gaussian beam width is strongly dependent on SR3's focal length error, whereas SR2's focal length error is less important. When the beam size is much greater than $\sim\!2.25\,\rm{mm}$, the \gls{src} is unstable (see Figure~\ref{fig:maxtemexperiment}), so this area of the parameter space is unlikely to correspond to the beam at the \gls{srm} at \gls{llo}.}
 	\label{fig:beamsizesimulated}
 \end{figure}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_beam_roc_sr2_sr3.eps}
-	\caption{The \gls{roc} of the beam that is transmitted through the \gls{srm} as a function of the error ($\pm3\sigma$) in focal length of SR3 and SR2. If the arm cavities and the \gls{src} are well mode matched, then the \gls{roc} of the beam transmitted through the \gls{srm} would be $\frac{5.67\rm{m}}{1.45} = 3.91\rm{m}$.}
+	\caption[The radius of curvature of the beam that is transmitted through the signal recycling mirror as a function of the error in the focal length of SR3 and SR2.]{The \gls{roc} of the beam that is transmitted through the \gls{srm} as a function of the error ($\pm3\sigma$) in focal length of SR3 and SR2. If the arm cavities and the \gls{src} are well mode matched, then the \gls{roc} of the beam transmitted through the \gls{srm} would be $\frac{5.67\rm{m}}{1.45} = 3.91\rm{m}$.}
 	\label{fig:beamrocsimulated}
 \end{figure}
 \par
@@ -217,25 +217,25 @@ The focal lengths of SR3 and SR2 can be estimated from the Gouy phase measuremen
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_gouy_phase_sr2_sr3.eps}
-	\caption{The Gouy phase between the ITMs and the \gls{srm} as a function of the error ($\pm3\sigma$) in SR3 and SR2. When the SR3 focal length error $>6\,\rm{mm}$ and SR2 error is zero, the \gls{src} is unstable (see Figure~\ref{fig:maxtemexperiment}), so this area of the parameter space is unlikely to correspond to the beam at the \gls{srm} at \gls{llo}.}
+	\caption[The Gouy phase of the beam that is transmitted through the signal recycling mirror as a function of the error in the focal length of SR3 and SR2.]{The Gouy phase between the ITMs and the \gls{srm} as a function of the error ($\pm3\sigma$) in SR3 and SR2. When the SR3 focal length error $>6\,\rm{mm}$ and SR2 error is zero, the \gls{src} is unstable (see Figure~\ref{fig:maxtemexperiment}), so this area of the parameter space is unlikely to correspond to the beam at the \gls{srm} at \gls{llo}.}
 	\label{fig:gouyphasesr2sr3}
 \end{figure}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_ITM_TL.eps}
-	\caption{The Gouy phase between the ITMs and the \gls{srm} as a function of the thermal lens in the ITMs for the default values of SR3 and SR2. The nominal \gls{itm} thermal lens focal lengths are $50\,\rm{km}$, and this corresponds to about 19\si{\degree}. More heating results in a greater thermal lens, however the LIGO detectors compensate for this with the thermal compensation system.}
+	\caption[The Gouy phase between the input test masses and the signal recycling mirror as a function of the strength of the thermal lensing in the input test masses.]{The Gouy phase between the ITMs and the \gls{srm} as a function of the thermal lens in the ITMs for the default values of SR3 and SR2. The nominal \gls{itm} thermal lens focal lengths are $50\,\rm{km}$, and this corresponds to about 19\si{\degree}. More heating results in a greater thermal lens, however the LIGO detectors compensate for this with the thermal compensation system.}
 	\label{fig:itmtl}
 \end{figure}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_maxtem_experiment.eps}
-	\caption{The percentage of $\rm{HG}_{00}$ light transmitted through the \gls{srm} as a function of SR3's focal length for the Michelson interferometer with Fabry-Perot cavities in its arms was simulated. Each simulation used a different \texttt{maxtem} command. The focal length of SR3 was changed. For focal lengths with a positive error greater than 7.5\,mm, the cavity becomes unstable and \textsc{Finesse} does not produce reliable results. For a stable \gls{src}, the minimum number of \gls{tem} modes needed for sub 1\% accuracy is six.}
+	\caption[Test used to determine an appropriate number of higher order modes to use in the simulation.]{The percentage of $\rm{HG}_{00}$ light transmitted through the \gls{srm} as a function of SR3's focal length for the Michelson interferometer with Fabry-Perot cavities in its arms was simulated. Each simulation used a different \texttt{maxtem} command. The focal length of SR3 was changed. For focal lengths with a positive error greater than 7.5\,mm, the cavity becomes unstable and \textsc{Finesse} does not produce reliable results. For a stable \gls{src}, the minimum number of \gls{tem} modes needed for sub 1\% accuracy is six.}
 	\label{fig:maxtemexperiment}
 \end{figure}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_SR3_SR2_likely_values.eps}
-	\caption{The measurement error of SR3 and SR2 follows a normal distribution. These were combined to make a 2-D normal distribution. Dark blue corresponds to the least likely combinations of SR3 and SR2, and bright yellow corresponds to the most likely. The measured Gouy phase was 21.3\si{\degree}\cite{SRC_gouy_phase_meas_2018}; this is indicated by the white dashed line. The white circle marks the most likely combination of SR3 and SR2 which gives 21.3\si{\degree} of Gouy phase, and the white crosses show one standard deviation from this. The white circle and crosses indicate that the focal length of SR2 is $(-3.205\pm0.003)$\,m and the focal length of SR3 is $(17.971\pm0.002)$\,m.}
+	\caption[The probability distribution of the focal lengths of the SR2 and SR3, and the deduced combination of SR3 and SR2 focal length based on a measurement of the signal recycling cavity’s Gouy phase.]{The measurement error of SR3 and SR2 follows a normal distribution. These were combined to make a 2-D normal distribution. Dark blue corresponds to the least likely combinations of SR3 and SR2, and bright yellow corresponds to the most likely. The measured Gouy phase was 21.3\si{\degree}\cite{SRC_gouy_phase_meas_2018}; this is indicated by the white dashed line. The white circle marks the most likely combination of SR3 and SR2 which gives 21.3\si{\degree} of Gouy phase, and the white crosses show one standard deviation from this. The white circle and crosses indicate that the focal length of SR2 is $(-3.205\pm0.003)$\,m and the focal length of SR3 is $(17.971\pm0.002)$\,m.}
 	\label{fig:sr3sr2likelyvalues}
 \end{figure}
 \par
@@ -243,7 +243,7 @@ The beam parameter at the \gls{srm} is determined by the focal length of SR3 and
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_beam_parameter_at_SRM.eps}
-	\caption{The beam parameter at the \gls{srm} was calculated for combinations of SR2 and SR3 focal lengths. The associated probability density for these combinations can be calculated (see Figure~\ref{fig:sr3sr2likelyvalues}), so the probability of the beam parameter having a certain width and defocus can be calculated. The probability density for each pair of beam width and defocus is indicated with the colour bar. The mode corresponding to the measurement of 21.3\si{\degree} of Gouy phase\cite{SRC_gouy_phase_meas_2018} is indicated with a green cross (1.84\,mm, -2.80 Dioptre). This is a simplified approach since the beam parameter cannot be such that the \gls{src} is unstable, so certain combinations of beam width and beam defocus are not possible. Beam parameters with a width$>\sim\!2.25\,\rm{mm}$ result in an unstable \gls{src}, therefore these beams are unlikely to be present at the \gls{srm} at \gls{llo}.}
+	\caption[Distribution of beam parameters at the signal recycling mirrors.]{The beam parameter at the \gls{srm} was calculated for combinations of SR2 and SR3 focal lengths. The associated probability density for these combinations can be calculated (see Figure~\ref{fig:sr3sr2likelyvalues}), so the probability of the beam parameter having a certain width and defocus can be calculated. The probability density for each pair of beam width and defocus is indicated with the colour bar. The mode corresponding to the measurement of 21.3\si{\degree} of Gouy phase\cite{SRC_gouy_phase_meas_2018} is indicated with a green cross (1.84\,mm, -2.80 Dioptre). This is a simplified approach since the beam parameter cannot be such that the \gls{src} is unstable, so certain combinations of beam width and beam defocus are not possible. Beam parameters with a width$>\sim\!2.25\,\rm{mm}$ result in an unstable \gls{src}, therefore these beams are unlikely to be present at the \gls{srm} at \gls{llo}.}
 	\label{fig:sim_chapter_beam_parameter_at_SRM}
 \end{figure}
 \clearpage
@@ -261,13 +261,13 @@ As the \gls{src} gets closer to being unstable, more \gls{tem} modes are require
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_TM00_simulated.eps}
-	\caption{The percentage of light which is in the $\rm{HG}_{00}$ mode as the focal length of SR3 changes compared to the total light power does not depend on whether there are arm cavities. It is determined by the detuning of the \gls{srm}. The blue dashed line shows the behaviour of the beam with arm cavities present and with the \gls{src} in signal recycling mode (\gls{srm} $\phi = 0\si{\degree}$). The red line shows how the beam changes with focal length error for a single-bounce measurement and with the \gls{src} in \gls{rse} mode (\gls{srm} $\phi = 90\si{\degree}$). The orange dashed line corresponds to the interferometer having arm cavities and being in \gls{rse} mode (\gls{srm} $\phi = 90\si{\degree}$). The green line shows the behaviour of the beam when the interferometer is configured for a single-bounce measurement and is in signal recycling mode. The hatched region indicates where the \gls{src} becomes unstable (see Figure~\ref{fig:maxtemexperiment}), so the behaviour of the interferometer cannot be accurately simulated for these focal lengths.}
+	\caption[The percentage of light that is in higher order modes as a function of the focal length of SR3.]{The percentage of light which is in the $\rm{HG}_{00}$ mode as the focal length of SR3 changes compared to the total light power does not depend on whether there are arm cavities. It is determined by the detuning of the \gls{srm}. The blue dashed line shows the behaviour of the beam with arm cavities present and with the \gls{src} in signal recycling mode (\gls{srm} $\phi = 0\si{\degree}$). The red line shows how the beam changes with focal length error for a single-bounce measurement and with the \gls{src} in \gls{rse} mode (\gls{srm} $\phi = 90\si{\degree}$). The orange dashed line corresponds to the interferometer having arm cavities and being in \gls{rse} mode (\gls{srm} $\phi = 90\si{\degree}$). The green line shows the behaviour of the beam when the interferometer is configured for a single-bounce measurement and is in signal recycling mode. The hatched region indicates where the \gls{src} becomes unstable (see Figure~\ref{fig:maxtemexperiment}), so the behaviour of the interferometer cannot be accurately simulated for these focal lengths.}
 	\label{fig:TM00_simulated}
 \end{figure}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_All_power_simulated.pdf}
-	\caption{The total power transmitted through the \gls{srm} for each simulation is shown by the thick pale lines. The thin solid lines correspond to the power in the $\rm{HG}_{00}$ mode, and the thin dashed lines correspond to the power in the higher order modes. Blue lines show the behaviour when the interferometer has arm cavities and is in signal recycling mode, and the orange lines shows when it is in \gls{rse} mode. Green lines show how the power changes when the interferometer is configured for a single-bounce measurement and is in signal recycling mode, and the red line shows when its in \gls{rse} mode. The hatched region indicates where the \gls{src} becomes unstable, and so the behaviour of the interferometer cannot be accurately simulated for these focal lengths.}
+	\caption[Simulated power of the beam's fundamental mode and the power in its higher order mode as the mode mismatch is changed.]{The total power transmitted through the \gls{srm} for each simulation is shown by the thick pale lines. The thin solid lines correspond to the power in the $\rm{HG}_{00}$ mode, and the thin dashed lines correspond to the power in the higher order modes. Blue lines show the behaviour when the interferometer has arm cavities and is in signal recycling mode, and the orange lines shows when it is in \gls{rse} mode. Green lines show how the power changes when the interferometer is configured for a single-bounce measurement and is in signal recycling mode, and the red line shows when its in \gls{rse} mode. The hatched region indicates where the \gls{src} becomes unstable, and so the behaviour of the interferometer cannot be accurately simulated for these focal lengths.}
 	\label{fig:allpowerout}
 \end{figure}
 \clearpage
@@ -276,7 +276,7 @@ As the transmission of the \gls{srm} decreases, the finesse of the cavity increa
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.95\linewidth]{sim_chapter_SRM_T_HG_ratio.eps}
-	\caption{Ratio of $\rm{HG}_{20+02}$ to $\rm{HG}_{00}$ as the transmission of the \gls{srm} is increased for a mode mismatch between the arm cavities and the \gls{src}. The interferometer is in \gls{rse} mode. A mode mismatch was introduced by setting the focal length of SR3 to be 12\,mm shorter than the default amount.}
+	\caption[Ratio of power in the fundamental mode and the power in higher order modes as the signal recycling mirrors reflectivity changes.]{Ratio of $\rm{HG}_{20+02}$ to $\rm{HG}_{00}$ as the transmission of the \gls{srm} is increased for a mode mismatch between the arm cavities and the \gls{src}. The interferometer is in \gls{rse} mode. A mode mismatch was introduced by setting the focal length of SR3 to be 12\,mm shorter than the default amount.}
 	\label{fig:srmthgratio}
 \end{figure}
 \section{Conclusion}

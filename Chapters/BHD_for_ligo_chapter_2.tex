@@ -9,7 +9,7 @@ The design of the optical layout within HAM6 that is being taken forward\footnot
 \begin{figure}
 	\centering
 	\includegraphics[width=0.95\linewidth]{BHD_for_ligo_HAM_6_layout.eps}
-	\caption{The \gls{lo} beam enters HAM6 directly above BHDBS2 (north side), and it is highlighted in green. The signal beam enters HAM6 directly above OM0 (north side), and it is highlighted in pink. The signal beam is steered by OM0 onto BHDBS2 where it is combined with the \gls{lo}. The two combined beams are shown in red. These are incident upon a mirror used for steering (OMxS), and then upon two curved mirrors (OMx1 and OMx2). The beams enter the \glspl{omc}, which are seismically isolated by the BHSS (the large triangular component). The spacings for these components are given in Table~\ref{tab:layout_parameters}.}
+	\caption[Sketch of the balanced homodyne detection scheme for LIGO A+.]{The \gls{lo} beam enters HAM6 directly above BHDBS2 (north side), and it is highlighted in green. The signal beam enters HAM6 directly above OM0 (north side), and it is highlighted in pink. The signal beam is steered by OM0 onto BHDBS2 where it is combined with the \gls{lo}. The two combined beams are shown in red. These are incident upon a mirror used for steering (OMxS), and then upon two curved mirrors (OMx1 and OMx2). The beams enter the \glspl{omc}, which are seismically isolated by the BHSS (the large triangular component). The spacings for these components are given in Table~\ref{tab:layout_parameters}.}
 	\label{fig:bhdforligochapterlayout5f}
 \end{figure}
 \par
@@ -21,7 +21,7 @@ Three optics provide mode matching between the mode at the \gls{srm} and the \gl
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_lens_choice}
-	\caption{Top panel: the power of the \gls{ofi} lens power affects the combination of OMx1 and OMx2 powers that is required for 100\% mode matching. Bottom panel: the best choice for the \gls{ofi} lens is where the Gouy phase separation between OMx1 and OMx2 is closest to \ang{45}, as this means OMx1 and OMx2 are as close to being orthogonal as possible. The most Gouy phase separation between OMx1 and OMx2 achievable with this layout is \ang{42}.}
+	\caption[Combinations of optical powers for OFI lens, OMx1 and OMx2 that match the interferometer to the output mode cleaners.]{Top panel: the power of the \gls{ofi} lens power affects the combination of OMx1 and OMx2 powers that is required for 100\% mode matching. Bottom panel: the best choice for the \gls{ofi} lens is where the Gouy phase separation between OMx1 and OMx2 is closest to \ang{45}, as this means OMx1 and OMx2 are as close to being orthogonal as possible. The most Gouy phase separation between OMx1 and OMx2 achievable with this layout is \ang{42}.}
 	\label{fig:bhdforligochapterlenschoice}
 \end{figure}
 \par
@@ -29,7 +29,7 @@ As astigmatism degrades the mode matching, it can contribute to the loss in the 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_astigmatism}
-	\caption{Astigmatism is a source of loss. When designing the layout shown in Figure~\ref{fig:bhdforligochapterlayout5f}, the angle of incidence for the curved mirrors was altered to explore how sensitive it was to astigmatism. Using Equation (\ref{eq:bhd_for_ligo_mm_loss}), the loss was computed. This effect is negligible up to 10\si{\degree}. Above 10\si{\degree}, loss due to astigmatism starts to become significant compared to the losses summarised in Table~\ref{tab:HAM6_losses}.}
+	\caption[Loss due to astigmatism as a function of angle of incidence upon the mirrors for mode matching in HAM6.]{Astigmatism is a source of loss. When designing the layout shown in Figure~\ref{fig:bhdforligochapterlayout5f}, the angle of incidence for the curved mirrors was altered to explore how sensitive it was to astigmatism. Using Equation (\ref{eq:bhd_for_ligo_mm_loss}), the loss was computed. This effect is negligible up to 10\si{\degree}. Above 10\si{\degree}, loss due to astigmatism starts to become significant compared to the losses summarised in Table~\ref{tab:HAM6_losses}.}
 	\label{fig:bhdforligochapterastigmatism}
 \end{figure}
 \par
@@ -37,7 +37,7 @@ The Gaussian width and Gouy phase of the beam as a function of position along th
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_Beamshape}
-	\caption{The top panel shows the radius of the beam as it travels from the \gls{srm} (z = 0) to the waist of the \gls{omc}. Significant points along the axis are marked with vertical lines. Less significant, but useful, reference points are marked by dashed vertical lines. The bottom panel shows the Gouy phase shift accumulated by the beam as it propagates along the optical axis.}
+	\caption[Beam size and Gouy phase within HAM6.]{The top panel shows the radius of the beam as it travels from the \gls{srm} (z = 0) to the waist of the \gls{omc}. Significant points along the axis are marked with vertical lines. Less significant, but useful, reference points are marked by dashed vertical lines. The bottom panel shows the Gouy phase shift accumulated by the beam as it propagates along the optical axis.}
 	\label{fig:bhdforligochapterbeamshape}
 \end{figure}
 %\par
@@ -79,7 +79,7 @@ The Gaussian width and Gouy phase of the beam as a function of position along th
 		\multicolumn{2}{|c|}{OMx1 and OMx2 angle of incidence} & \multicolumn{2}{|c|}{A: \ang{9.7}, B: \ang{4.9}}\\
 		\hline
 	\end{tabular}
-	\caption{Mechanical and optical properties of the LIGO A+ HAM6 layout.}
+	\caption[Mechanical and optical properties of the LIGO A+ HAM6 layout.]{Mechanical and optical properties of the LIGO A+ HAM6 layout.}
 	\label{tab:layout_parameters}
 \end{table}
 \clearpage
@@ -130,7 +130,7 @@ The Gaussian width and Gouy phase of the beam as a function of position along th
 		Any other optical loss & $<1\%$\\
 		\hline
 	\end{tabular}
-	\caption{Target for losses in HAM6. Reproduced from~\cite{A+HAM6_design_requirements}.}
+	\caption[Target for losses in HAM6.]{Target for losses in HAM6. Reproduced from~\cite{A+HAM6_design_requirements}.}
 	\label{tab:HAM6_losses}
 \end{table}
 \section{Method for Visualising the Effectiveness of Systems with Active Optics for Mode Mismatching}
@@ -171,7 +171,7 @@ To illustrate how actuators move a mode in \gls{ws} space, consider two lenses w
 \begin{figure}
 	\centering
 	\includegraphics[width=0.95\linewidth]{Figures/BHD_for_ligo_chapter_WS_sketch}
-	\caption{Sketches of the \gls{ws} representation for a Gaussian beam interacting with different parts of a simple optical layout consisting of two active lenses with powers $S_{1,2} \pm \Delta S_{1,2}$. The left-hand axes shows the \gls{ws} plane at Lens 1. The input beam, $q_1$, is indicated by a red dot, and the effect of the lens on $q_1$ is shown by the dark green arrow $S_1$. This results in a new mode $q_2$ which is shown as a blue dot. A light green arrow indicates the actuation of Lens 1. The right-hand axes shows the \gls{ws} plane at Lens 2. The input mode at Lens 2, $q_3$, is shown as a purple dot, and the output mode, $q_4$, is shown as a pink dot. The static and dynamic power of Lens 2 is indicated by the orange and yellow lines. As Lens 1 and Lens 2 are separated by $45\si{\degree}$ of Gouy phase, the actuation provided by Lens 1 results in a change in the beam parameter which is orthogonal to the actuation provided by Lens 2, provided that the actuations are small enough. Beneath the two \gls{ws} space diagrams is a sketch of the optical axis and the location of the modes.}
+	\caption[Sketch of the waist-defocus representation for a Gaussian beam interacting with a simple optical layout.]{Sketches of the \gls{ws} representation for a Gaussian beam interacting with different parts of a simple optical layout consisting of two active lenses with powers $S_{1,2} \pm \Delta S_{1,2}$. The left-hand axes shows the \gls{ws} plane at Lens 1. The input beam, $q_1$, is indicated by a red dot, and the effect of the lens on $q_1$ is shown by the dark green arrow $S_1$. This results in a new mode $q_2$ which is shown as a blue dot. A light green arrow indicates the actuation of Lens 1. The right-hand axes shows the \gls{ws} plane at Lens 2. The input mode at Lens 2, $q_3$, is shown as a purple dot, and the output mode, $q_4$, is shown as a pink dot. The static and dynamic power of Lens 2 is indicated by the orange and yellow lines. As Lens 1 and Lens 2 are separated by $45\si{\degree}$ of Gouy phase, the actuation provided by Lens 1 results in a change in the beam parameter which is orthogonal to the actuation provided by Lens 2, provided that the actuations are small enough. Beneath the two \gls{ws} space diagrams is a sketch of the optical axis and the location of the modes.}
 	\label{fig:bhdforligochapterwssketch}
 \end{figure}
 \par
@@ -183,13 +183,13 @@ To generate the region from which the target region can be reached by OMx2, the 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_layout_5f_omx1_omx2_planes.png}
-	\caption{The \gls{ws} space at the OMx2 plane. The effect of OMx2 in the plane of OMx2 is to move a mode vertically in \gls{ws} space. After reflection from OMx2, a mode should be at least $98\%$ mode matched to the \gls{omc} as there are no further active mode matching elements in the layout of HAM6. Such modes are shown by the red region. The blue region represents modes which can be reached from the red region by either $S_{\rm{OMx2}}\pm\Delta S$, and was constructed by applying transformations to the modes in the red region. The red region was split into two parts, `upper' and `lower', indicated by the dashed line that connects the two extremes in width of the region. To create the lower edge of the blue region, modes in the lower edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}-\Delta S$ applied to them. To construct the upper edge of the blue region, the upper edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}+\Delta S$ applied to them.}
+	\caption[Sketch showing how the expansion of the waist-defocus by active optics is computed.]{The \gls{ws} space at the OMx2 plane. The effect of OMx2 in the plane of OMx2 is to move a mode vertically in \gls{ws} space. After reflection from OMx2, a mode should be at least $98\%$ mode matched to the \gls{omc} as there are no further active mode matching elements in the layout of HAM6. Such modes are shown by the red region. The blue region represents modes which can be reached from the red region by either $S_{\rm{OMx2}}\pm\Delta S$, and was constructed by applying transformations to the modes in the red region. The red region was split into two parts, `upper' and `lower', indicated by the dashed line that connects the two extremes in width of the region. To create the lower edge of the blue region, modes in the lower edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}-\Delta S$ applied to them. To construct the upper edge of the blue region, the upper edge of the red region had the transformation corresponding to a mirror power of $S_{\rm{OMx2}}+\Delta S$ applied to them.}
 	\label{fig:bhdforligochapterlayout5fomx1omx2planes}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/BHD_for_ligo_chapter_layout_5f_Modes_srm_omc_mode_matching_success.pdf}
-	\caption{The region of \gls{ws} space covered by the \gls{awc} in HAM6 for the layout discussed in Section~\ref{sec:bhd_for_ligo_chosen_layout}. Left panel: the set of modes that is expected to be present at the \gls{srm}, as described in Chapter~\ref{chapter:simulation_finesse}, is shown by the purple-blue-green-yellow curve. The pink region shows which modes can be corrected for so that 98\% mode matching is achieved. The contours indicate the mode matching between a mode $(W,S)$ and the \gls{omc} mode. The red cross indicates the mode size that can be inferred from measurements of the \gls{src}'s Gouy phase at \gls{llo}. Right panel: this shows the same modes as the left panel, except they have been transformed by the optical layout to the plane of the \gls{omc} waist. Modes within the pink region can be actuated on so they move to the goal region, which is indicated with a hatched area.}
+	\caption[Coverage of the waist-defocus space provided by the active optics for mode matching in HAM6.]{The region of \gls{ws} space covered by the \gls{awc} in HAM6 for the layout discussed in Section~\ref{sec:bhd_for_ligo_chosen_layout}. Left panel: the set of modes that is expected to be present at the \gls{srm}, as described in Chapter~\ref{chapter:simulation_finesse}, is shown by the purple-blue-green-yellow curve. The pink region shows which modes can be corrected for so that 98\% mode matching is achieved. The contours indicate the mode matching between a mode $(W,S)$ and the \gls{omc} mode. The red cross indicates the mode size that can be inferred from measurements of the \gls{src}'s Gouy phase at \gls{llo}. Right panel: this shows the same modes as the left panel, except they have been transformed by the optical layout to the plane of the \gls{omc} waist. Modes within the pink region can be actuated on so they move to the goal region, which is indicated with a hatched area.}
 	\label{fig:bhdforligochapterlayout5fmodessrmomcmode matchingsuccess}
 \end{figure}
 \par
