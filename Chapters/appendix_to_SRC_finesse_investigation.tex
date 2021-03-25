@@ -1,7 +1,7 @@
-The following simulations were used in Chapter~\ref{chapter:simulation_finesse} for determining the effect of radii of curvature errors in the signal recycling cavity at \gls{llo}. This appendix clarifies some aspects of \textsc{Finesse}'s behaviour by providing tests and examples.
+The following simulations were used in Chapter~\ref{chapter:simulation_finesse} for determining the effect of radii of curvature errors in the signal recycling cavity at \gls{llo}. This appendix contains parameters for the simulations performed in Chapter~\ref{chapter:simulation_finesse}, and clarifies some aspects of \textsc{Finesse}'s behaviour by providing tests and examples.
 \section{Mode Matching the Laser to the Arm Cavity}
 \label{sec:mode_match_to_arm}
-The laser in a \textsc{Finesse} simulation has a beam parameter. By default, the beam will have a 2mm beam with its waist at $z = 0$ with respect to the node at the laser. If a \texttt{cav} command is used to define a cavity, then the beam parameter of the laser is set so that it is perfectly matched to the cavity. It is crucial that the beam parameter of the input laser remains the simulation is configured such that the arms are resonant and when it is configured for a single bounce measurement. 
+The laser in a \textsc{Finesse} simulation has a beam parameter. By default, the beam will have a 2\,mm beam with its waist at $z = 0$ with respect to the node at the laser. If a \texttt{cav} command is used to define a cavity, then the beam parameter of the laser is set so that it is perfectly matched to the cavity. It is crucial that the beam parameter of the input laser remains the same when the simulation is configured such that the arms are resonant and when it is configured for a single bounce measurement. 
 \par
 The beam parameter of the laser can be set with the \texttt{gauss} command. To find suitable numbers to use for the \texttt{gauss} command in the simulations of single-bounce and locked-arm measurements (see Section~\ref{sec:finesse_code} and Figure~\ref{fig:diagramofsim2}), the following test was performed. The main simulation from Section~\ref{sec:finesse_code} was modified so that it did not have an X arm or the \gls{src}. The following beam parameters were found with a \texttt{bp} detector placed at the lasers node:
 \setlength{\parskip}{0em}
@@ -24,7 +24,7 @@ However, setting the beam parameter at the laser with the first set of numbers g
 pd HOM bs_d 
 mask HOM 0 0 0
 \end{verbatim}
-was placed at \verb|bs_d| , which has the beam reflected from the arm cavity in it. The value of $z$ for the \texttt{gauss}  was varied and the power incident on a \texttt{pd} with a \texttt{mask} applied to it, called \texttt{HOM}, was measured. To check that enough \gls{hom} were being used, the simulation was repeated with several \texttt{maxtem}  commands. The results had a quadratic fitted to them, and the minimum was taken as the optimal value. This is shown in Figure~\ref{fig:gausscommandfitting}. The values: 
+was placed at \verb|bs_d| , which has the beam reflected from the arm cavity in it. The value of $z$ for the \texttt{gauss} command was varied and the power incident on a \texttt{pd} with a \texttt{mask} applied to it, called \texttt{HOM}, was measured. To check that enough \gls{hom} were being used, the simulation was repeated with several \texttt{maxtem} commands. The results had a quadratic fitted to them, and the minimum was taken as the optimal value. This is shown in Figure~\ref{fig:gausscommandfitting}. The values: 
 \begin{itemize}
 	\item $w_0 = 0.00864064287177005$ m
 	\item $z = -1339.83683935$ m
@@ -33,16 +33,16 @@ give more than 99.99999\% mode matching, which is plenty for this work. This is 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{sim_chapter_gauss_command_fitting}
-	\caption{Optimisation of the parameters used in the \texttt{gauss} command to mode match the laser to the arms in the simulations described in Chapter~\ref{chapter:simulation_finesse} and Section~\ref{sec:finesse_code}. The blue, green and orange lines show how the mode matching changes as the beam waist location is changed. As the mode mismatch became larger, more \gls{hom} were required; this is why the blue and green/orange lines diverge. A quadratic was fitted to the data highlighted in red, and the minimum value was used as the waist location parameter for the \texttt{gauss} command.}
+	\caption{Optimisation of the parameters used in the \texttt{gauss} command to mode match the laser to the arms in the simulations described in Chapter~\ref{chapter:simulation_finesse} and Section~\ref{sec:finesse_code}. The blue, green and orange lines show how the mode matching changes as the beam waist location is changed. As the mode mismatch became larger, more \glspl{hom} were required; this is why the blue and green/orange lines diverge. A quadratic was fitted to the data highlighted in red, and the minimum value was used as the waist location parameter for the \texttt{gauss} command.}
 	\label{fig:gausscommandfitting}
 \end{figure}
 \setlength{\parskip}{2.0em}
 \clearpage
 \section{Interferometer Parameters}
 \label{sec:sim_interferometer_params}
-The simulated interferometer has nominal values for the LIGO arms cavities and the \gls{llo} \gls{src}. The simulated arm cavity geometry is based on the design values to avoid contrast defects. The following sections contain tables specifying the design and measured values for each component of the simulation. 
+The simulated interferometer has nominal values for the LIGO arm cavities and the \gls{llo} \gls{src}. The simulated arm cavity geometry is based on the design values to avoid contrast defects. The following sections contain tables specifying the design and measured values for each component of the simulation. 
 \subsection{Radii of Curvature of optical components}
-The optics in the \gls{src} were simulated with the values from Table~\ref{tab:measured_vals_RoCs}. The arm cavity optics have been simulated using the values from Table~\ref{tab:desgin_vals_RoCs}.
+The optics in the \gls{src} were simulated with the values from Table~\ref{tab:measured_vals_RoCs}. The arm cavity optics were simulated using the values from Table~\ref{tab:desgin_vals_RoCs}.
 \begin{table}[ht]
 	\centering
 	\begin{tabular}[h]{ c | c | c | c }
@@ -68,11 +68,11 @@ The optics in the \gls{src} were simulated with the values from Table~\ref{tab:m
 		ITM-08 &  $1938.44$ &  $969.22$  &~\cite{galaxy_optics} \\
 		ETM-15 &  $2245.4$ & $1122.7$ &~\cite{galaxy_optics} \\
 	\end{tabular}
-	\caption{The measured values of the \gls{roc} of the optics at \gls{llo} that make up the \gls{src} and the arms.}
+	\caption{The measured values of the \glspl{roc} of the optics at \gls{llo} that make up the \gls{src} and the arms.}
 	\label{tab:measured_vals_RoCs}
 \end{table}
 \subsection{Spacings}
-The nominal values for the spacing between the optics at \gls{lho}/\gls{llo}, with a diagram, can be found in~\cite{aligo_layout_h1}. This information is also in~\cite{Muzammil2016}. The \gls{llo} Zemax parameters are found in~\cite{Zeemax_L1}. Table~\ref{tab:zeemax_spacings} contains the distances derived from the Zemax coordinates. Most spacings do not require sub mm accuracy, however SR3 to SR2 does since the Rayleigh range of this beam is about 4\,cm. The design value for the spacings are shown in Table~\ref{tab:design_spacings}. The values used in an earlier \textsc{Finesse} model of \gls{llo}~\cite{l1_finesse_2014} are shown in Table~\ref{tab:finesse_spacings}. The thickness of each optic is found in Table~\ref{tab:optic_thickness}.
+The nominal values for the spacing between the optics at \gls{lho}/\gls{llo}, with a diagram, can be found in~\cite{aligo_layout_h1}. This information is also in~\cite{Muzammil2016}. The \gls{llo} Zemax parameters are found in~\cite{Zeemax_L1}. Table~\ref{tab:zeemax_spacings} contains the distances derived from the Zemax coordinates. Most spacings do not require sub mm accuracy, however SR3 to SR2 does since the Rayleigh range of this beam is about 4\,cm. The design value for the spacings are shown in Table~\ref{tab:design_spacings}. The values used in an earlier \textsc{Finesse} model of \gls{llo} made by others~\cite{l1_finesse_2014} are shown in Table~\ref{tab:finesse_spacings}. The thickness of each optic is found in Table~\ref{tab:optic_thickness}.
 \begin{table}[ht]
 	\centering
 	\begin{tabular}{ c | c }
@@ -85,7 +85,7 @@ The nominal values for the spacing between the optics at \gls{lho}/\gls{llo}, wi
 		SR3 to SR2 & $15.4435$ \\
 		SR2 to \gls{srm} & $15.7562$ \\
 	\end{tabular}
-\caption{Measured spacings between the optics at \gls{llo}\cite{Zeemax_L1}.}
+\caption{Measured spacings between the optics at \gls{llo}~\cite{Zeemax_L1}.}
 \label{tab:zeemax_spacings}
 \end{table}
 \begin{table}[ht]
@@ -100,7 +100,7 @@ The nominal values for the spacing between the optics at \gls{lho}/\gls{llo}, wi
 		SR3 to SR2 & $15.4607$ \\
 		SR2 to \gls{srm} & $15.726$ \\
 	\end{tabular}
-	\caption{Design value for spacings\cite{aligo_layout_h1}.}
+	\caption{Design value for spacings~\cite{aligo_layout_h1}.}
 	\label{tab:design_spacings}
 \end{table}
 \begin{table}[ht]
@@ -115,7 +115,7 @@ The nominal values for the spacing between the optics at \gls{lho}/\gls{llo}, wi
 		SR3 to SR2 & $15.4435$ \\
 		SR2 to \gls{srm} &  $15.7566$ \\
 	\end{tabular}
-	\caption{Values used in an earlier \textsc{Finesse} model of \gls{llo} ~\cite{l1_finesse_2014}.}
+	\caption{Values used in an earlier \textsc{Finesse} model of \gls{llo}~\cite{l1_finesse_2014}.}
 	\label{tab:finesse_spacings}
 \end{table}
 \begin{table}[ht]
@@ -126,14 +126,14 @@ The nominal values for the spacing between the optics at \gls{lho}/\gls{llo}, wi
 		\gls{itm} & $0.200$ \\
 		CP & $0.100$ \\
 		BS & $0.0685$ \\
-		Angled BS & $0.1202$ \\
+		beam path through BS & $0.1202$ \\
 	\end{tabular}
 	\caption{Thickness of the optics between the \gls{itm} and the \gls{srm}.}
 	\label{tab:optic_thickness}
 \end{table}
 \clearpage
 \subsection{Parameters used in the Main Simulation}
-The parameters used in the main simulation were a combination of design values and measured values. The arm cavities were simulated using the design values to remove the contrast defect that would occur otherwise, and the \gls{src} was simulated using measurements taken from \gls{llo}. The \glspl{itm} that were simulated have a thickness of 0.1\,m and a refractive index of 1.45. The thermal lens is implemented as shown in Figure~\ref{fig:diagramofsim2}. The parameters used are shown in Table~\ref{tab:nominal simulation}. 
+The parameters used in the main simulation were a combination of design values and measured values. The arm cavities were simulated using the design values to remove the contrast defect that would occur otherwise, and the \gls{src} was simulated using measurements taken from \gls{llo}. The \glspl{itm} that were simulated have a thickness of 0.1\,m and a refractive index of 1.45. The thermal lens was implemented as shown in Figure~\ref{fig:diagramofsim2}. The parameters used are shown in Table~\ref{tab:nominal simulation}. 
 \begin{table}[ht]
 	\centering
 	\begin{tabular}[h]{ c | c | p{45mm}  }
@@ -163,7 +163,7 @@ The parameters used in the main simulation were a combination of design values a
 \section{Finding the Correct Way to Model a Beam Splitter}
 Two simulations were used to model two identical Michelson interferometers which only differ in how the beam splitter was implemented. These simulations were used to generate Figure~\ref{fig:thinvsthick}.
 \par
-The following \textsc{Finesse} code describes a Michelson interferometer where the beam splitter is implemented with a single \texttt{bs} command. This simulation will produce an incorrect result as the phase at the beam splitter is not properly accounted for.
+The following \textsc{Finesse} code describes a Michelson interferometer where the beam splitter was implemented with a single \texttt{bs} command. This simulation produced an incorrect result as the phase at the beam splitter is not properly accounted for.
 \begin{lstlisting}[breaklines]
 l l1 1 0 n1 
 s sin 1 n1 na 
@@ -181,7 +181,7 @@ pd AS nd
 xaxis Xmirror phi lin 0 180 100
 \end{lstlisting}
 \par
-The thin beam splitter in the above simulation was replaced with a beam splitter that is implemented with three \texttt{bs} and two \texttt{space} commands. This is the correct way to implement a beam splitter in \textsc{Finesse}. The code for this is shown below.
+The thin beam splitter in the above simulation was replaced with a beam splitter that was implemented with three \texttt{bs} and two \texttt{space} commands. This is the correct way to implement a beam splitter in \textsc{Finesse}. The code for this is shown below.
 \begin{lstlisting}[breaklines]
 l l1 1 0 n1 
 s sin 1 n1 na 

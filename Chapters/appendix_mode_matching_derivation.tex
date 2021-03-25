@@ -70,7 +70,7 @@ The mode matching, $\mathcal{M}$, between two beams is determined by the overlap
 \mathcal{M} = \frac{\left|\int_{A} \Psi_1^*\Psi_2 dA \right|}{\int_{A} \left|\Psi_1 \right|^2 dA \int_{A} \left|\Psi_2 \right|^2 dA}.
 \label{eq:mode_matching_general}
 \end{equation}
-The numerator of Equation~(\ref{eq:mode_matching_general}) for beams can be written as
+The numerator of Equation~(\ref{eq:mode_matching_general}) for astigmatic beams can be written as
 \begin{align}
 \left|\int_{A} \Psi_1^*\Psi_2 dA \right| &= \int_{A} \Psi_1^*\Psi_2 dA\int_{A} \Psi_1\Psi_2^* dA \\
 &= \int^{-\infty}_{-\infty} \Psi_{x1}^*\Psi_{x2} dx \int^{-\infty}_{-\infty} \Psi_{y1}^*\Psi_{y2} dy \int^{-\infty}_{-\infty} \Psi_{x1}\Psi_{x2}^* dx \int^{-\infty}_{-\infty} \Psi_{y1}\Psi_{y2}^* dy.
@@ -82,9 +82,9 @@ Since this calculation is the same for the $x$ and $y$ coordinates, we only need
 \times\int_{-\infty}^{\infty} \frac{1}{\sqrt{q_{x1}}}\exp\left(\frac{-ikx^2}{2q_{x1}}\right)\frac{1}{\sqrt{q_{x2}^*}}\exp\left(\frac{ikx^2}{2q_{x2}^*}\right)dx,
 \end{multline}
 \begin{align}
-&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left(\int_{-\infty}^{\infty}\exp\left(\frac{ikx^2}{2q_{x1}^*}\right)\exp\left(\frac{-ikx^2}{2q_{x2}}\right)dx\right) \times \rm{\rm{c.c}}., \nonumber\\
-%&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2}{2q_{x1}^*} -  \frac{-ikx^2}{2q_{x2}}\right) dx \times \rm{\rm{c.c}}.\right),  \nonumber\\
-&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2\left(q_{x2} - q_{x1}^*\right)}{2q_{x1}^*q_{x2}}\right) dx\right) \times \rm{\rm{c.c}}.,
+&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left(\int_{-\infty}^{\infty}\exp\left(\frac{ikx^2}{2q_{x1}^*}\right)\exp\left(\frac{-ikx^2}{2q_{x2}}\right)dx \times \rm{c.c.} \right) , \nonumber\\
+%&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2}{2q_{x1}^*} -  \frac{-ikx^2}{2q_{x2}}\right) \times \rm{c.c.}  dx\right),  \nonumber\\
+&=\frac{1}{\left|q_{x1}\right|\left|q_{x2}\right|}\left( \int_{-\infty}^{\infty} \exp\left(\frac{ikx^2\left(q_{x2} - q_{x1}^*\right)}{2q_{x1}^*q_{x2}}\right) dx \times \rm{c.c.}\right),
 \label{eq:numerator_x_coords}
 \end{align}
 where c.c. is shorthand for the complex conjugate of the preceding expression.
@@ -107,14 +107,14 @@ Thus, the numerator of Equation~(\ref{eq:mode_matching_general}) is
 \frac{4\pi^2}{k^2}\frac{1}{\left|q_{x2} - q_{x1}^*\right|\left|q_{y2} - q_{y1}^*\right|}.
 \end{equation}
 \par
-Since $\Psi_x$ and $\Psi_y$ are orthogonal, $\left|\Psi\right|^2 = \left|\Psi_x\right|^2\left|\Psi_y\right|^2 $. An expression for the denominator of Equation~(\ref{eq:mode_matching_general}) can be found as follows
+Since $\Psi_x$ and $\Psi_y$ are orthogonal, $\left|\Psi\right|^2 = \left|\Psi_x\right|^2\left|\Psi_y\right|^2 $. An expression for the denominator of Equation~(\ref{eq:mode_matching_general}) can be found as follows:
 \begin{align}
 \int_A \left|\Psi\right|^2 dA &= \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \left|\Psi_x\right|^2\left|\Psi_y\right|^2 dx dy \\
 &= \int_{-\infty}^{\infty} \frac{1}{\left|q_x\right|}\exp\left(\frac{ikx^2\left(q_x - q_x^*\right)}{2q_xq_x^*}\right) \times \text{y term}.
 \end{align}
 A similar approach to the calculation of the denominator can be used for the calculation of the numerator terms. The numerator terms take the form
 \begin{align}
-\int_A \left|\Psi\right|^2 dA &= \frac{1}{\left|q_x\right|}\sqrt{\frac{i2\pi\left|q_x\right|^2}{k\left(q_x-q_x^*\right)}}\frac{1}{\left|q_y\right|}\sqrt{\frac{i2\pi\left|q_y\right|^2}{k\left(q_y-q_y^*\right)}} \\
+\int_A \left|\Psi\right|^2 dA &= \frac{1}{\left|q_x\right|}\sqrt{\frac{i2\pi\left|q_x\right|^2}{k\left(q_x-q_x^*\right)}}\frac{1}{\left|q_y\right|}\sqrt{\frac{i2\pi\left|q_y\right|^2}{k\left(q_y-q_y^*\right)}}, \\
 &=-\frac{2\pi}{k}\frac{1}{\sqrt{\left(q_x-q_x^*\right)\left(q_y-q_y^*\right)}}.
 \end{align}
 \par

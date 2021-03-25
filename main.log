@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  25 MAR 2021 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  25 MAR 2021 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1765,6 +1765,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12]
+Overfull \hbox (3.05101pt too wide) in paragraph at lines 69--69
+ [][] [][]\T1/cmr/m/n/12 A De-scrip-tion of Mode Match-ing in Terms of Hermite-
+Gaussian 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -5976,7 +5981,7 @@ Package epstopdf Info: Source file: <Figures/PD_appendix_ig24_dark_noise_rt.eps
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig24_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf, id=6960, pagebox=
+<Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf, id=6961, pagebox=
 cropbox, 491.8375pt x 258.9675pt>
 File: Figures/PD_appendix_ig24_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -5997,7 +6002,7 @@ Package epstopdf Info: Source file: <Figures/PD_appendix_ig26_dark_noise_rt.eps
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig26_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf, id=6961, pagebox=
+<Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf, id=6962, pagebox=
 cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_ig26_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6018,7 +6023,7 @@ Package epstopdf Info: Source file: <Figures/PD_appendix_ig22_dark_noise_rt.eps
 ark_noise_rt-eps-converted-to.pdf Figures/PD_appendix_ig22_dark_noise_rt.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf, id=6962, pagebox=
+<Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf, id=6963, pagebox=
 cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_ig22_dark_noise_rt-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6040,7 +6045,7 @@ _rt-eps-converted-to.pdf>
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf, id=6963, p
+<Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf, id=6964, p
 agebox=cropbox, 491.8375pt x 257.96375pt>
 File: Figures/PD_appendix_g12183-010k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -6062,7 +6067,7 @@ _rt-eps-converted-to.pdf>
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf, id=6964, p
+<Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf, id=6965, p
 agebox=cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_g12183-005k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -6084,7 +6089,7 @@ _rt-eps-converted-to.pdf>
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf, id=6965, p
+<Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf, id=6966, p
 agebox=cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_g12182-010k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -6106,7 +6111,7 @@ _rt-eps-converted-to.pdf>
 oise_rt.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf, id=6966, p
+<Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf, id=6967, p
 agebox=cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_g12182-005k_dark_noise_rt-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -6167,7 +6172,7 @@ ature_noise_current.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf, id=7
-031, pagebox=cropbox, 491.8375pt x 263.98625pt>
+033, pagebox=cropbox, 491.8375pt x 263.98625pt>
 File: Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use Figures/PD_appendix_FD10D_temperature_noise_current-eps-converted-to.pdf>
@@ -6189,7 +6194,7 @@ _noise_current-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to.pdf,
- id=7032, pagebox=cropbox, 483.8075pt x 263.98625pt>
+ id=7034, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12183010k_temperature_noise_current-eps-converted-to.
@@ -6212,7 +6217,7 @@ _noise_current-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to.pdf,
- id=7033, pagebox=cropbox, 483.8075pt x 263.98625pt>
+ id=7035, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12183005k_temperature_noise_current-eps-converted-to.
@@ -6235,7 +6240,7 @@ _noise_current-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to.pdf,
- id=7034, pagebox=cropbox, 483.8075pt x 263.98625pt>
+ id=7036, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12182010k_temperature_noise_current-eps-converted-to.
@@ -6258,7 +6263,7 @@ _noise_current-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to.pdf,
- id=7035, pagebox=cropbox, 483.8075pt x 257.96375pt>
+ id=7037, pagebox=cropbox, 483.8075pt x 257.96375pt>
 File: Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Figures/PD_appendix_g12182005k_temperature_noise_current-eps-converted-to.
@@ -6281,7 +6286,7 @@ ure_noise_current.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf, id=70
-36, pagebox=cropbox, 483.8075pt x 263.98625pt>
+38, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/PD_appendix_IG24_temperature_noise_current-eps-converted-to.pdf>
@@ -6303,7 +6308,7 @@ ure_noise_current.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf, id=70
-37, pagebox=cropbox, 483.8075pt x 263.98625pt>
+39, pagebox=cropbox, 483.8075pt x 263.98625pt>
 File: Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Figures/PD_appendix_IG26_temperature_noise_current-eps-converted-to.pdf>
@@ -6360,8 +6365,8 @@ ise_as_function_of_bias-eps-converted-to.pdf Figures/PD_chapter_insb_noise_as_f
 unction_of_bias.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf, id=709
-8, pagebox=cropbox, 483.8075pt x 258.9675pt>
+<Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf, id=710
+0, pagebox=cropbox, 483.8075pt x 258.9675pt>
 File: Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Figures/PD_chapter_insb_noise_as_function_of_bias-eps-converted-to.pdf>
@@ -6386,7 +6391,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [255
 
 ]
-<Figures/Circuit_appendix_dark_noise_test_box_1.png, id=7114, 204.95772pt x 94.
+<Figures/Circuit_appendix_dark_noise_test_box_1.png, id=7116, 204.95772pt x 94.
 24008pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_1.png Graphic file (type png
 )
@@ -6395,7 +6400,7 @@ Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_1.png  us
 ed on input line 11. on input line 11.
 Package pdftex.def Info: Requested size: 298.75264pt x 137.37941pt on input lin
 e 11.
-<Figures/Circuit_appendix_dark_noise_test_box_2.png, id=7115, 384.7173pt x 180.
+<Figures/Circuit_appendix_dark_noise_test_box_2.png, id=7117, 384.7173pt x 180.
 1932pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_2.png Graphic file (type png
 )
@@ -6404,7 +6409,7 @@ Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_test_box_2.png  us
 ed on input line 17. on input line 17.
 Package pdftex.def Info: Requested size: 426.79135pt x 199.91232pt on input lin
 e 17.
-<Figures/Circuit_appendix_dark_noise_test_box_3.png, id=7121, 357.88104pt x 114
+<Figures/Circuit_appendix_dark_noise_test_box_3.png, id=7123, 357.88104pt x 114
 .9093pt>
 File: Figures/Circuit_appendix_dark_noise_test_box_3.png Graphic file (type png
 )
@@ -6424,7 +6429,7 @@ nverted-to.pdf>
 oss_check-eps-converted-to.pdf Figures/PD_chapter_bias_cross_check.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf, id=7128, pagebox=cro
+<Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf, id=7130, pagebox=cro
 pbox, 422.57875pt x 258.9675pt>
 File: Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -6444,33 +6449,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [256]
-Package epstopdf Info: Source file: <Figures/Circuit_appendix_transimpedance_am
-plifier_TF.eps>
-(epstopdf)                    date: 2020-12-15 13:29:52
-(epstopdf)                    size: 367901 bytes
-(epstopdf)             Output file: <Figures/Circuit_appendix_transimpedance_am
-plifier_TF-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-12-15 13:33:36
-(epstopdf)                    size: 95653 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/Circuit_appendix_t
-ransimpedance_amplifier_TF-eps-converted-to.pdf Figures/Circuit_appendix_transi
-mpedance_amplifier_TF.eps>
-(epstopdf)             \includegraphics on input line 39.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf, id=
-7147, pagebox=cropbox, 420.57124pt x 362.35374pt>
-File: Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf
- Graphic file (type pdf)
-<use Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf>
-
-Package pdftex.def Info: Figures/Circuit_appendix_transimpedance_amplifier_TF-e
-ps-converted-to.pdf  used on input line 39. on input line 39.
-Package pdftex.def Info: Requested size: 426.79135pt x 367.71605pt on input lin
-e 39.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6484,15 +6462,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[258 <./Figures/Circuit_appendix_dark_noise_test_box_2.png (PNG copy)> <./Figur
-es/Circuit_appendix_dark_noise_test_box_3.png (PNG copy)>]
+[258 <./Figures/Circuit_appendix_dark_noise_test_box_2.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[259 <./Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>]
+[259 <./Figures/Circuit_appendix_dark_noise_test_box_3.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[260 <./Figures/PD_chapter_bias_cross_check-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/Circuit_appendix_transimpedance_am
+plifier_TF.eps>
+(epstopdf)                    date: 2020-12-15 13:29:52
+(epstopdf)                    size: 367901 bytes
+(epstopdf)             Output file: <Figures/Circuit_appendix_transimpedance_am
+plifier_TF-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-12-15 13:33:36
+(epstopdf)                    size: 95653 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/Circuit_appendix_t
+ransimpedance_amplifier_TF-eps-converted-to.pdf Figures/Circuit_appendix_transi
+mpedance_amplifier_TF.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf, id=
+7173, pagebox=cropbox, 420.57124pt x 362.35374pt>
+File: Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.pdf>
+
+Package pdftex.def Info: Figures/Circuit_appendix_transimpedance_amplifier_TF-e
+ps-converted-to.pdf  used on input line 40. on input line 40.
+Package pdftex.def Info: Requested size: 426.79135pt x 367.71605pt on input lin
+e 40.
 Package epstopdf Info: Source file: <Figures/Circuit_appendix_dark_noise_box_no
 ise.eps>
 (epstopdf)                    date: 2021-03-22 13:32:51
@@ -6504,26 +6511,26 @@ ise-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/Circuit_appendix_d
 ark_noise_box_noise-eps-converted-to.pdf Figures/Circuit_appendix_dark_noise_bo
 x_noise.eps>
-(epstopdf)             \includegraphics on input line 47.
+(epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf, id=7178, p
+<Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf, id=7184, p
 agebox=cropbox, 486.81876pt x 263.98625pt>
 File: Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Circuit_appendix_dark_noise_box_noise-eps-conv
-erted-to.pdf  used on input line 47. on input line 47.
+erted-to.pdf  used on input line 48. on input line 48.
 Package pdftex.def Info: Requested size: 426.79135pt x 231.43451pt on input lin
-e 47.
+e 48.
 
-Overfull \hbox (8.15833pt too wide) in paragraph at lines 51--51
+Overfull \hbox (8.15833pt too wide) in paragraph at lines 52--52
 \T1/cmr/bx/n/17.28 Noise lim-ited Mea-sure-ments of 10mA Pho-tocur-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95827pt
-(hyperref)                removed on input line 51.
+(hyperref)                removed on input line 52.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6535,14 +6542,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[260]
+[261
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[261 <./Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.p
+[262 <./Figures/Circuit_appendix_transimpedance_amplifier_TF-eps-converted-to.p
 df>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6550,24 +6559,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[262 <./Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>]
+[263 <./Figures/Circuit_appendix_dark_noise_box_noise-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 27.11469pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[263]
-<Figures/PD_chapter_qe_test_circuit.png, id=7229, 346.75146pt x 118.5228pt>
+[264]
+<Figures/PD_chapter_qe_test_circuit.png, id=7235, 346.75146pt x 118.5228pt>
 File: Figures/PD_chapter_qe_test_circuit.png Graphic file (type png)
 <use Figures/PD_chapter_qe_test_circuit.png>
 Package pdftex.def Info: Figures/PD_chapter_qe_test_circuit.png  used on input 
-line 60. on input line 60.
+line 61. on input line 61.
 Package pdftex.def Info: Requested size: 426.79135pt x 145.8798pt on input line
- 60.
+ 61.
 Package epstopdf Info: Source file: <Figures/PD_chapter_qe_test_circuit_noise.e
 ps>
 (epstopdf)                    date: 2021-03-22 13:33:51
@@ -6579,17 +6588,17 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_qe_test
 _circuit_noise-eps-converted-to.pdf Figures/PD_chapter_qe_test_circuit_noise.ep
 s>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf, id=7230, pagebo
+<Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf, id=7236, pagebo
 x=cropbox, 428.60126pt x 262.9825pt>
 File: Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_chapter_qe_test_circuit_noise-eps-converted
--to.pdf  used on input line 66. on input line 66.
+-to.pdf  used on input line 67. on input line 67.
 Package pdftex.def Info: Requested size: 426.79135pt x 261.87431pt on input lin
-e 66.
+e 67.
 Package epstopdf Info: Source file: <Figures/PD_chapter_qe_test_circuit_TF.eps>
 
 (epstopdf)                    date: 2021-01-14 11:26:14
@@ -6600,42 +6609,42 @@ converted-to.pdf>
 (epstopdf)                    size: 19642 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/PD_chapter_qe_test
 _circuit_TF-eps-converted-to.pdf Figures/PD_chapter_qe_test_circuit_TF.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf, id=7233, pagebox=c
+<Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf, id=7239, pagebox=c
 ropbox, 418.56375pt x 291.0875pt>
 File: Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf Graphic file (
 type pdf)
 <use Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to
-.pdf  used on input line 72. on input line 72.
+.pdf  used on input line 73. on input line 73.
 Package pdftex.def Info: Requested size: 426.79135pt x 296.80759pt on input lin
-e 72.
+e 73.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[264 <./Figures/PD_chapter_qe_test_circuit.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.11469pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[265 <./Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf>]
+[265 <./Figures/PD_chapter_qe_test_circuit.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[266 <./Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf>]
+[266 <./Figures/PD_chapter_qe_test_circuit_noise-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.11469pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[267 <./Figures/PD_chapter_qe_test_circuit_TF-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6645,17 +6654,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[267])
+[268])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[268]
+[269]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[270
+
+]
 Appendix C.
 (./Chapters/appendix_CDS.tex
-<Figures/medm_screen.png, id=7299, 730.98094pt x 609.02531pt>
+<Figures/medm_screen.png, id=7306, 730.98094pt x 609.02531pt>
 File: Figures/medm_screen.png Graphic file (type png)
 <use Figures/medm_screen.png>
 Package pdftex.def Info: Figures/medm_screen.png  used on input line 4. on inpu
@@ -6665,16 +6683,14 @@ Package pdftex.def Info: Requested size: 384.1096pt x 320.02187pt on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [269
-
-]
+ [271]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[270 <./Figures/medm_screen.png>]
+[272 <./Figures/medm_screen.png>]
 Package epstopdf Info: Source file: <Figures/MZ_chapter_CDS_noise.eps>
 (epstopdf)                    date: 2021-03-10 12:57:30
 (epstopdf)                    size: 239379 bytes
@@ -6686,7 +6702,7 @@ Package epstopdf Info: Source file: <Figures/MZ_chapter_CDS_noise.eps>
 se-eps-converted-to.pdf Figures/MZ_chapter_CDS_noise.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=7332, pagebox=cropbox, 4
+<Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf, id=7338, pagebox=cropbox, 4
 21.575pt x 153.57375pt>
 File: Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -6702,28 +6718,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[271 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>]
+[273 <./Figures/MZ_chapter_CDS_noise-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[272
+[274
 
 ]
 Appendix D.
 (./Chapters/appendix_to_SRC_finesse_investigation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [273]
+ [275]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[274]
+[276]
 Package epstopdf Info: Source file: <Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)                    date: 2021-01-21 12:39:02
@@ -6737,7 +6753,7 @@ command_fitting-eps-converted-to.pdf Figures/sim_chapter_gauss_command_fitting.
 eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=7362, pageb
+<Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf, id=7369, pageb
 ox=cropbox, 433.62pt x 252.945pt>
 File: Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -6753,21 +6769,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[275]
+[277]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[276 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
+[278 <./Figures/sim_chapter_gauss_command_fitting-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[277
+[279
 
 ]
 
@@ -6776,21 +6792,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[278]
+[280]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[279]
+[281]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[280
+[282
 
 ]
 
@@ -6799,30 +6815,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[281
+[283
 
 ]
 Underfull \vbox (badness 1033) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[282]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[283]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -6841,7 +6837,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[285])
+[285]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -6849,11 +6848,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [286]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[287])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[288]
 Appendix E.
 (./Chapters/appendix_mode_matching_algorithm_3_optics.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [287
+ [289
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6865,14 +6881,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[288]
+[290]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[289]
+[291]
 Package epstopdf Info: Source file: <Figures/mode_matching_appendix_optical_lay
 outs.eps>
 (epstopdf)                    date: 2020-09-01 16:09:52
@@ -6886,7 +6902,7 @@ ndix_optical_layouts-eps-converted-to.pdf Figures/mode_matching_appendix_optica
 l_layouts.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=7750, 
+<Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf, id=7758, 
 pagebox=cropbox, 501.875pt x 240.9pt>
 File: Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -6908,7 +6924,7 @@ ndix_algorithm_sketch-eps-converted-to.pdf Figures/mode_matching_appendix_algor
 ithm_sketch.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=7753,
+<Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf, id=7761,
  pagebox=cropbox, 450.68375pt x 253.94875pt>
 File: Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -6924,48 +6940,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[290]
+[292]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[291 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf>]
+[293 <./Figures/mode_matching_appendix_optical_layouts-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.11469pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[292 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf>]
+[294 <./Figures/mode_matching_appendix_algorithm_sketch-eps-converted-to.pdf>]
 Appendix F.
 (./Chapters/light_and_gaussian_modes.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [293
+ [295
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[294]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[295]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6996,7 +6992,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [298]
-Underfull \vbox (badness 4303) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -7015,7 +7011,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[300])
+[300]
+Underfull \vbox (badness 4303) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7023,20 +7022,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [301]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[302
+[302])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[303]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[304
 
 ]
 Appendix G.
 (./Chapters/appendix_mode_matching_derivation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [303]
+ [305]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -7046,7 +7062,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[304]
+[306]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -7056,41 +7072,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[305]) (./main.bbl
+[307]) (./main.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[306] [307
+[308] [309
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[308]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[309]
-Underfull \hbox (badness 1048) in paragraph at lines 150--154
-[]\T1/cmr/m/n/12 LIGO Virgo Col-lab-o-ra-tion.   Prospects For Ob-serv-ing and 
-Lo-cal-iz-ing
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 162--166
-[]\T1/cmr/m/n/12 Yoichi Aso, Yuta Michimura, Ken-taro Somiya, Masaki Ando, Os-a
-mu
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7105,6 +7096,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [311]
+Underfull \hbox (badness 1048) in paragraph at lines 150--154
+[]\T1/cmr/m/n/12 LIGO Virgo Col-lab-o-ra-tion.   Prospects For Ob-serv-ing and 
+Lo-cal-iz-ing
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 162--166
+[]\T1/cmr/m/n/12 Yoichi Aso, Yuta Michimura, Ken-taro Somiya, Masaki Ando, Os-a
+mu
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7126,9 +7128,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [314]
-Underfull \vbox (badness 4341) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7143,7 +7142,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [316]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4341) has occurred while \output is active []
 
 
 
@@ -7160,6 +7159,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [318]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7181,9 +7183,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [321]
-Underfull \vbox (badness 4341) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7191,6 +7190,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [322]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[323]
 Underfull \vbox (badness 4341) has occurred while \output is active []
 
 
@@ -7200,14 +7206,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[323]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [324]
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7229,11 +7231,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [327]
-Underfull \hbox (badness 1852) in paragraph at lines 886--889
-[]\T1/cmr/m/n/12 Mephisto Laser, Co-her-ent.  []$\T1/cmtt/m/n/12 https : / / ww
-w . coherent . com / lasers / main /
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7248,6 +7245,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [329]
+Underfull \hbox (badness 1852) in paragraph at lines 886--889
+[]\T1/cmr/m/n/12 Mephisto Laser, Co-her-ent.  []$\T1/cmtt/m/n/12 https : / / ww
+w . coherent . com / lasers / main /
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7262,11 +7264,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [331]
-Underfull \hbox (badness 1406) in paragraph at lines 1068--1072
-[]\T1/cmr/m/n/12 A Freise, G Heinzel, H Lück, R Schilling, B Willke, and K Danz
--
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7281,6 +7278,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [333]
+Underfull \hbox (badness 1406) in paragraph at lines 1068--1072
+[]\T1/cmr/m/n/12 A Freise, G Heinzel, H Lück, R Schilling, B Willke, and K Danz
+-
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7309,6 +7311,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [337]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[338]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[339]
 Underfull \hbox (badness 2318) in paragraph at lines 1315--1320
 []\T1/cmr/m/n/12 Lars Zim-mer-mann, Joachim John, Ste-fan De-g-roote, Gus-taaf 
 Borghs,
@@ -7320,7 +7336,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[338]
+[340]
 Underfull \hbox (badness 10000) in paragraph at lines 1357--1361
 \T1/cmr/m/n/12 cessed Jan 2021 []$\T1/cmtt/m/n/12 https : / / www . lasercompon
 ents . com / uk / product /
@@ -7344,7 +7360,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[339]
+[341]
 Underfull \hbox (badness 10000) in paragraph at lines 1397--1399
 [][]$\T1/cmtt/m/n/12 https : / / www . iceoxford . com / Low-[]Temperature-[]Va
 rnish-[]ICEles03-[] . htm$[]\T1/cmr/m/n/12 ,
@@ -7356,7 +7372,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[340]
+[342]
 Underfull \hbox (badness 10000) in paragraph at lines 1445--1448
 []\T1/cmr/m/n/12 C30665 se-ries datasheet.  []$\T1/cmtt/m/n/12 https : / / www 
 . excelitas . com / product /
@@ -7368,7 +7384,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[341])
+[343])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
 
 
@@ -7377,19 +7393,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[342]
+[344]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F5D649F0561C6680F67D40F1A34B0FC1;12277.
+(rerunfilecheck)             Checksum: 69DECF424B3596CF7800021228C9F831;12280.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
  ) 
 Here is how much of TeX's memory you used:
  33046 strings out of 492990
- 621576 string characters out of 6136333
- 932169 words of memory out of 5000000
+ 621562 string characters out of 6136333
+ 925481 words of memory out of 5000000
  34809 multiletter control sequences out of 15000+600000
  571154 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7429,10 +7445,10 @@ ist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/
 type1/public/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc2488.pfb>
-Output written on main.pdf (363 pages, 14302597 bytes).
+Output written on main.pdf (365 pages, 14304127 bytes).
 PDF statistics:
- 8599 PDF objects out of 8907 (max. 8388607)
- 6683 compressed objects within 67 object streams
+ 8608 PDF objects out of 8907 (max. 8388607)
+ 6689 compressed objects within 67 object streams
  1197 named destinations out of 1200 (max. 500000)
  1617 words of extra memory for PDF output out of 10000 (max. 10000000)
 

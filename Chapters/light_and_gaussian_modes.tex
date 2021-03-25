@@ -7,9 +7,9 @@ E(\mathbf{r}) = E_0\sqrt{\frac{2}{\pi}} \frac{1}{w(z)} \exp\big(i\phi(z)\big)\ex
 \label{eq:gaussian_mode}
 \end{equation}
 \par
-Gaussian beams are characterised by the size of their waist, $w_0$. The width of a Gaussian beam at a position $z$ along the optical axis is represented by $w(z)$, and $w(0) = w_0$. Gaussian beams are also characterised by $\phi(z)$, which gives the Gouy phase of the beam at $z$ along the optical axis, and by $R_c(z)$, which gives radius of curvature of the beam at $z$.
+Gaussian beams are characterised by the size of their waist, $w_0$. The width of a Gaussian beam at a position $z$ along the optical axis is represented by $w(z)$, and $w(0) = w_0$. Gaussian beams are also characterised by $\phi(z)$, which gives the Gouy phase of the beam at $z$ along the optical axis, and by $R_c(z)$, which gives the radius of curvature of the beam at $z$.
 \par
-It is useful to express $w(z)$, $\phi(z)$ and $R_c(z)$ in terms of the Rayleigh range, $z_{\rm{R}}$. The Rayleigh range characterises how fast the beam will spread out. The size of the waist determines the Rayleigh range, a smaller beam waist corresponds to a shorter Rayleigh range. The Rayleigh range is given by
+It is useful to express $w(z)$, $\phi(z)$ and $R_c(z)$ in terms of the Rayleigh range, $z_{\rm{R}}$. The Rayleigh range characterises how fast the beam will spread out. The size of the waist determines the Rayleigh range; a smaller beam waist corresponds to a shorter Rayleigh range. The Rayleigh range is given by
 \begin{equation}
 z_{\rm{R}} = \frac{\pi w_0^2}{\lambda}.
 \end{equation} 
@@ -24,7 +24,7 @@ In the far field ($z>z_{\rm{R}}$), Equation~(\ref{eq:beam_size}) becomes linear 
 w(z) \approx w_0\frac{z}{z_{\rm{R}}}.
 \end{equation}
 \par
-As a Gaussian beam propagates along the optical axis, it acquires an additional phase shift compared to a plane wave. This is known as the Gouy phase shift, $\phi(z)$, and it given by
+As a Gaussian beam propagates along the optical axis, it acquires an additional phase shift compared to a plane wave. This is known as the Gouy phase shift, $\phi(z)$, and it is given by
 \begin{equation}
 	\phi(z) = \tan^{-1}\frac{z}{z_{\rm{R}}}.
 \end{equation}
@@ -62,12 +62,12 @@ An astigmatic Gaussian beam can be split up into two orthogonal fields,
 \begin{align}
 E(\mathbf{r}) &= E(x,z)E(y,z) \nonumber\\ &= E_0\sqrt{\frac{2}{\pi}} \sqrt{\frac{q_{x0}}{w_{x0}q_{x}(z)}}\sqrt{\frac{q_{y0}}{w_{y0}q_{y}(z)}} \exp\big(i\phi_{\rm{Av}}(z)\big) \nonumber\\ &\times\exp\left( -ik\frac{x^2}{2q_{x}(z)} -ik\frac{y^2}{2q_{y}(z)}\right)\exp\big(-ikz\big).
 \end{align}
-where $\exp\big(i\phi_{\rm{Av}}(z)\big)$ is the average of the Gouy phase in the saggital and tangential planes. The equations for waist size, Gouy phase and defocus remain the same (Equation~(\ref{eq:beam_radius}), Equation~(\ref{eq:beam_gouy}) and Equation~(\ref{eq:beam_defocus})). A beam with astigmatism can be thought of as two independent beams, and their interaction with the optical layout can be calculated independently.
+where $\phi_{\rm{Av}}(z)$ is the average of the Gouy phase in the saggital and tangential planes. The equations for waist size, Gouy phase and defocus remain the same (Equation~(\ref{eq:beam_radius}), Equation~(\ref{eq:beam_gouy}) and Equation~(\ref{eq:beam_defocus})). A beam with astigmatism can be thought of as two independent beams, and their interaction with the optical layout can be calculated independently.
 \section{Gaussian Beams Traversing Optical Layouts}
 \label{sec:gaussian_beam_tracing}
 As a Gaussian beam propagates through an optical layout, the beam parameter that describes it changes. The effect of simple optical components can be modelled with ABCD matrices, and an entire layout can be modelled by multiplying a series of ABCD matrices together. This formalism can also be used to compute cavity eigenmodes.
 \par
-When a beam interacts with an optical component, it is transformed from a mode described by $q_1$ to a new mode $q_2$ according to 
+When a beam interacts with an optical component, it is transformed from a mode described by $q_1$ to a new mode described by $q_2$ according to 
 \begin{equation}
 q_2 = \frac{A q_1 +B}{C q_1 + D}.
 \end{equation}
@@ -80,7 +80,7 @@ The beam parameter of a laser as it passes through the first component to the $n
 \begin{equation}
 \mathbf{M} = \mathbf{M_n}\mathbf{M_{n-1}}\ldots\mathbf{M_0}.
 \end{equation}
-Note, the left most matrix corresponds to the last optical component in the layout. The ABCD matrices for various components is summarised in table \ref{tab:optical_components_ABCD}.
+Note, the left most matrix corresponds to the final optical component in the layout. The ABCD matrices for spaces and mirrors are summarised in Table~\ref{tab:optical_components_ABCD}.
 \begin{table}
 	\centering
 	\begin{tabular}{|c | c |}
@@ -90,17 +90,17 @@ Note, the left most matrix corresponds to the last optical component in the layo
 		space & $\begin{pmatrix} 1 & d \\ 0 &1\end{pmatrix}$ \\ & \\
 		\hline & \\
 		Mirror or lens (normal incidence) & $\begin{pmatrix} 1 & 0 \\ -S & 1\end{pmatrix}$\\ & \\
-		Mirror (AOI = $\alpha$, Sagittal Plane) & $\begin{pmatrix} 1 & 0 \\ -\frac{S}{\cos\alpha} & 1\end{pmatrix}$\\ & \\
-		Mirror (AOI = $\alpha$, Tangential Plane) & $\begin{pmatrix} 1 & 0 \\ -S\cos\alpha & 1\end{pmatrix}$\\ & \\
+		Mirror (Sagittal Plane) & $\begin{pmatrix} 1 & 0 \\ -\frac{S}{\cos\alpha} & 1\end{pmatrix}$\\ & \\
+		Mirror (Tangential Plane) & $\begin{pmatrix} 1 & 0 \\ -S\cos\alpha & 1\end{pmatrix}$\\ & \\
 		\hline
 	\end{tabular}
-		\caption{Table of the ABCD matrices for simple optical components. The length of the space is $d$, and the optical power of the mirror/lens is $S$.}
+		\caption{Table of the ABCD matrices for simple optical components. The length of the space is $d$, and the optical power of the mirror/lens is $S$. The angle of incidence is $\alpha$.}
 \label{tab:optical_components_ABCD}
 \end{table}
 \section{Higher Order Modes and Optical Imperfections}
-The fundamental Gaussian mode describes the electric field of a beam in an ideal optical system. Imperfections in the optical layout, such as misalignment, mode mismatch and spatial distortions in mirror surfaces, can generate light with a different intensity profile to the fundamental Gaussian mode. For instance, if two interfering beams are misaligned slightly, the resulting beam will have a mode profile that looks like two spots instead of one. A small difference in waist size or location, i.e. a mode mismatch, between them would result in the beam having a ring-shaped mode profile. Similar effects happen when a laser and a cavity are misaligned. These imperfections in the layout and the resulting beam shapes can be modelled as the optical layout scattering light into higher order optical modes (e.g~\cite{Morrison1994}). 
+The fundamental Gaussian mode describes the electric field of a beam in an ideal optical system. Imperfections in the optical layout, such as misalignment, mode mismatch and spatial distortions in mirror surfaces, can generate light with a different intensity profile to the fundamental Gaussian mode. For instance, if a beam entering a cavity is slightly misaligned, the resulting reflected beam will have a mode profile that looks like two spots instead of one. A small difference in waist size or location, i.e. a mode mismatch, between them would result in the reflected beam having a ring-shaped mode profile. Similar effects happen when a laser and a cavity are misaligned. These imperfections in the layout and the resulting beam shapes can be modelled as the optical layout scattering light into higher order optical modes (e.g~\cite{Morrison1994}). 
 \par
-One complete, orthonormal basis set of functions that can be used to construct higher order modes with are the \gls{hg} modes. These modes have $xy$ symmetry and are rectangularly shaped. \gls{hg} modes are useful for modelling misalignments because this type of imperfection can be naturally broken into $xy$ coordinates.
+One complete, orthonormal basis set of functions that can be used to construct higher order modes with are the Hermite-Gaussian modes. These modes have $xy$ symmetry and are rectangularly shaped. \gls{hg} modes are useful for modelling misalignments because this type of imperfection can be naturally broken into $xy$ coordinates.
 \par
 Mode mismatches are best described by the $r\theta$ coordinates, and so it is natural to express these in terms of another orthonormal basis set known as the Laguerre-Gauss modes. However, if the beam is astigmatic then the mode no longer has the symmetry required in order to be modelled with Laguerre-Gauss modes. Second order \gls{hg} modes can also describe mode mismatch, even if the modes are astigmatic.
 \par
@@ -112,7 +112,7 @@ The functions $\Psi_{n}$ have the form
 \begin{multline}
 \Psi_n(x,z) = \left(\frac{2}{\pi}\right)^{1/4} \left(\frac{\exp\big(i(2n+1)\phi(z)\big)}{2^nn!w(z)}\right)^{1/2}\\ H_n\left(\frac{\sqrt{2}x}{w(z)}\right)\exp\left(-i\frac{kx^2}{2R_c(z)} - i\frac{x^2}{w^2(z)}\right),
 \end{multline}
-where $H_n(x)$ a Hermite polynomial of the order n. By writing $\Psi_{nm}(x,y,z)$ out explicitly,
+where $H_n(x)$ a Hermite polynomial of the order $n$. By writing $\Psi_{nm}(x,y,z)$ out explicitly,
 \begin{multline}
 \Psi_{nm}(x,y,z) = \left(2^{(n+m-1)}n!m!\pi \right)^{1/2} \frac{1}{w(z)}\exp\big(i(n + m + 1)\phi(z)\big) \\ H_n\left(\frac{\sqrt{2}x}{w(z)}\right) H_m\left(\frac{\sqrt{2}x}{w(z)}\right) \exp\left(-ik\frac{x^2+y^2}{2R_c(z)} - i\frac{x^2 + y^2}{w^2(z)}\right),
 \end{multline}
