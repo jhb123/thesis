@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  26 MAR 2021 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  26 MAR 2021 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1713,19 +1713,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4
 
-] (./Chapters/Acknowledgements.tex) [5]
+] (./Chapters/Acknowledgements.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6
-
-] (./Chapters/Declaration.tex
+[6] (./Chapters/Declaration.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [7
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -7594,7 +7597,7 @@ ist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/
 type1/public/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc2488.pfb>
-Output written on main.pdf (380 pages, 14330825 bytes).
+Output written on main.pdf (380 pages, 14333067 bytes).
 PDF statistics:
  8924 PDF objects out of 10688 (max. 8388607)
  6990 compressed objects within 70 object streams
