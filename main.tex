@@ -58,6 +58,7 @@
 \lstset{style=mystyle}
 
 \usepackage[acronym]{glossaries}
+\glstoctrue
 \newacronymstyle{long-short-emph}%
 {%
 	\ifglshaslong{\glslabel}%
@@ -175,7 +176,7 @@
 \newacronym{npro}{NPRO}{non-planar ring oscillator}
 \newacronym{eom}{EOM}{electro-optic modulator}
 \newacronym{fwhm}{FWHM}{full width at half maximum}
-\newacronym{ttfss}{TTFSS}{tabletop frequency stabilisation servo}
+%\newacronym{ttfss}{TTFSS}{tabletop frequency stabilisation servo}
 \newacronym{dbb}{DBB}{diagnostic bread board}
 \newacronym{pdh}{PDH}{Pound-Drever-Hall}
 \newacronym{aom}{AOM}{acousto-optic modulator}
@@ -230,19 +231,30 @@
 \setlength{\parskip}{2em}
 %\frontmatter
 \chapter*{Abstract}
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
 \input{Chapters/abstract}
 \chapter*{Acknowledgements}
+\phantomsection
+\addcontentsline{toc}{chapter}{Acknowledgements}
 \input{Chapters/Acknowledgements}
 %\chapter*{Preface}
 %\input{Chapters/preface}
 \chapter*{Declaration}
+\phantomsection
+\addcontentsline{toc}{chapter}{Declaration}
 \input{Chapters/Declaration}
 \setlength{\parskip}{0em}
 \tableofcontents
+%\clearpage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures
+%\clearpage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{List of Tables}
 \listoftables
-\printglossary
-\printglossary[type=\acronymtype]
+%\cleardoublepage
 \setlength{\parskip}{2em}
 %\mainmatter
 %\chapter{Introduction}
@@ -306,8 +318,13 @@
 %\chapter{Caltech characterisation of OMC}
 %Short bit of work, could be a chapter, but the experiment was not something new. This was a learning experience really however there was a new result which was needing higher quality mirrors for the OMC.
 %\chapter{mode matching python implementation}
+\setlength{\parskip}{0em}
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Acronyms}
+\printglossary
+\printglossary[type=\acronymtype]
+\cleardoublepage
 \phantomsection
 \addcontentsline{toc}{chapter}{Bibliography}
-\setlength{\parskip}{0em}
 \bibliography{back_up_bibliography/fixed_bibliography}
 \end{document}

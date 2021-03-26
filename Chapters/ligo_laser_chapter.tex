@@ -1,4 +1,3 @@
-The work in this chapter is reported on in~\cite{Bode2020a}, and undertaken alongside Nina Bode, Matt Heintze and Andrew Spencer.
 \section{Introduction}
 The LIGO detectors require high input power, nominally 125\,\si{\watt} at 1064\,\si{\nano\metre}~\cite{PSL_requirements}, to decrease the shot noise which limits their sensitivities at frequencies above 100\,\si{\hertz}. The original laser for aLIGO cannot reach the required power without generating excess pointing noise. In this chapter, the new laser layout is discussed. The \gls{pmc} throughput power, beam quality, intensity noise, pointing noise and frequency noise of the prototype laser were measured. The prototype of the new laser was able to produce 100\,\si{\watt} of intensity stabilised light. The pointing noise was measured to be above the requirement; however, this prototype was made in a lab which was noisier than the room in which the \gls{psl} is housed, and the pointing noise may be improved by reducing turbulence in the water-cooling system. While the 125\,\si{\watt} nominal power level was not obtained, this layout can provide $\sim\!30\,\rm{W}$ more power than the laser which was used for LIGO's third observation run. With additional work in optimising the setup, the maximum output power of this laser may be increased.  
 \par
@@ -160,7 +159,7 @@ For normal operation of the laser, i.e.~how it will be used during observation r
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_cooling_pwoer_hom}
-	\caption[The effect of the sencond amplifier's temperature on the power of the beam that is in the fundemental Gaussian mode.]{The top panel: as the second amplifier head's temperature increased, the power produced by it decreased. The bottom panel: the higher order mode content increased as the temperature of the amplifier increased. This means that the power in the fundamental mode decreased as the temperature increased due to two effects: less overall power and worse beam quality.}
+	\caption[The effect of the second amplifier's temperature on the power of the beam that is in the fundamental Gaussian mode.]{The top panel: as the second amplifier head's temperature increased, the power produced by it decreased. The bottom panel: the higher order mode content increased as the temperature of the amplifier increased. This means that the power in the fundamental mode decreased as the temperature increased due to two effects: less overall power and worse beam quality.}
 	\label{fig:ligo_laser_chapter_cooling_pwoer_hom}
 \end{figure}
 \begin{figure}
@@ -311,7 +310,7 @@ For this measurement, the variable gain stage was set to 20\,dB in \gls{cds}. On
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/ligo_laser_chapter_OL_transfer_function}
-	\caption[Measurement of the open-loop transfer function was measured.]{The open-loop transfer function was measured using the layout shown in Figure~\ref{fig:ligolaserchapteroltfmeasurement}. The unity gain point is at 48\,\si{\kilo\hertz} with 70\si{\degree} of phase margin. The shaping of the servo is $1/f$ at the unity gain point, but to achieve higher gain at low frequency, the servo has a $1/f^3$ slope between 10\,Hz---5\,kHz. The measurement saturated below 100\,Hz. The model and measurement do not agree well below a few kHz due to the measurement saturating.}
+	\caption[Measurement of the open-loop transfer function of the pre stabilised laser's intensity stabilisation servo.]{The open-loop transfer function was measured using the layout shown in Figure~\ref{fig:ligolaserchapteroltfmeasurement}. The unity gain point is at 48\,\si{\kilo\hertz} with 70\si{\degree} of phase margin. The shaping of the servo is $1/f$ at the unity gain point, but to achieve higher gain at low frequency, the servo has a $1/f^3$ slope between 10\,Hz---5\,kHz. The measurement saturated below 100\,Hz. The model and measurement do not agree well below a few kHz due to the measurement saturating.}
 	\label{fig:ligolaserchapteropenlooptransferfunction}
 \end{figure}
 \clearpage
@@ -350,7 +349,7 @@ The \gls{pmc} was set to transmit 100\,\si{\watt} of intensity stabilised light.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_AOM_stabilisation_noise}
-	\caption[The noise of the protoype laser while its intensity was being stabilised.]{The free-running noise of the laser is shown in red. The noise of the light transmitted by the \gls{pmc} is shown in blue; this meets the requirement that is shown by the dashed black line. The noise level is determined by the in-loop noise, shown in green, the shot noise and other technical noise sources; the sum of these is shown by the dotted brown line. Between 10\,Hz--100\,Hz, the noise of the laser is limited by shot noise. There is a discrepancy between the noise budget and the measured noise. This is likely due to dust falling through the beam or scattered light. Near the unity gain point of the servo, the noise is enhanced by the servo due to gain peaking.}
+	\caption[The noise of the prototype laser while its intensity was being stabilised.]{The free-running noise of the laser is shown in red. The noise of the light transmitted by the \gls{pmc} is shown in blue; this meets the requirement that is shown by the dashed black line. The noise level is determined by the in-loop noise, shown in green, the shot noise and other technical noise sources; the sum of these is shown by the dotted brown line. Between 10\,Hz--100\,Hz, the noise of the laser is limited by shot noise. There is a discrepancy between the noise budget and the measured noise. This is likely due to dust falling through the beam or scattered light. Near the unity gain point of the servo, the noise is enhanced by the servo due to gain peaking.}
 	\label{fig:ligolaserchapteraomstabilisationnoise}
 \end{figure}
 \section{Pointing Noise of the Beam Entering the Pre Mode Cleaner}
@@ -404,7 +403,7 @@ The pole of the \gls{pmc} cavity is at $\sim\!1$\,MHz, so it does not affect thi
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_Mixer_calibration}
-	\caption[Measurement of the Pound-Drever-Hall signal used to calibrate the ore mode cleaner error signal.]{A ramp was applied to the PZT and the photodiode signal was measured before and after demodulation. The demodulated photodiode signal is shown in blue. The photodiode signal is shown in red. Around the peak of the photodiode signal, the slope of the demodulated signal gives the gain of the `optics' transfer function. This can be expressed in units of V/MHz by converting the time axis to a frequency axis using the \gls{fwhm} of the reflected signal as a reference frequency. The level of the \gls{fwhm} is indicated by the dashed red line.}
+	\caption[Measurement of the Pound-Drever-Hall signal used to calibrate the pre mode cleaner error signal.]{A ramp was applied to the PZT and the photodiode signal was measured before and after demodulation. The demodulated photodiode signal is shown in blue. The photodiode signal is shown in red. Around the peak of the photodiode signal, the slope of the demodulated signal gives the gain of the `optics' transfer function. This can be expressed in units of V/MHz by converting the time axis to a frequency axis using the \gls{fwhm} of the reflected signal as a reference frequency. The level of the \gls{fwhm} is indicated by the dashed red line.}
 	\label{fig:ligolaserchaptermixercalibration}
 \end{figure}
 \par
@@ -441,7 +440,7 @@ At frequencies much above the unity gain point of the servo, a signal applied to
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Figures/ligo_laser_chapter_frequency_noise}
-	\caption[Frequency noise of the beam exiting the the pre mode cleaner.]{Frequency noise of the beam exiting the the pre mode cleaner. The mixer signal combined with the open-loop transfer function is shown in red. This is equivalent to the frequency noise of the system. The PZT signal should agree with this measurement below the unity gain point ($\sim\! 800$\,Hz). A signal was applied to the PZT at 1111\,Hz. This is below the corner frequency of the PZT and above the unity gain point for the servo. This should match with the mixer signal. There is a factor of two between these two measurements. This can be attributed to imperfect calibration due to nominal parameters of the \gls{pmc} being used. The typical noise expected from an \gls{npro} is shown by the dashed black line. Between 100\,Hz and 1000\,Hz, there is a bulge in the frequency noise. This is likely due to acoustically driven noise of the \gls{pmc} as the \gls{pmc} is not vacuum sealed. This can be converted to length noise with a factor of $\sim\!10^{-14}\,\rm{m/Hz}$.}
+	\caption[Frequency noise of the beam exiting the pre mode cleaner.]{Frequency noise of the beam exiting the the pre mode cleaner. The mixer signal combined with the open-loop transfer function is shown in red. This is equivalent to the frequency noise of the system. The PZT signal should agree with this measurement below the unity gain point ($\sim\! 800$\,Hz). A signal was applied to the PZT at 1111\,Hz. This is below the corner frequency of the PZT and above the unity gain point for the servo. This should match with the mixer signal. There is a factor of two between these two measurements. This can be attributed to imperfect calibration due to nominal parameters of the \gls{pmc} being used. The typical noise expected from an \gls{npro} is shown by the dashed black line. Between 100\,Hz and 1000\,Hz, there is a bulge in the frequency noise. This is likely due to acoustically driven noise of the \gls{pmc} as the \gls{pmc} is not vacuum sealed. This can be converted to length noise with a factor of $\sim\!10^{-14}\,\rm{m/Hz}$.}
 	\label{fig:ligolaserchapterfrequencynoise}
 \end{figure}
 \section{Conclusion}
