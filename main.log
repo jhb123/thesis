@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  28 MAR 2021 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.27)  29 MAR 2021 09:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5924,8 +5924,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [231]
 Package epstopdf Info: Source file: <Figures/MZ_chapter_suspended_diff_arm.eps>
 
-(epstopdf)                    date: 2021-03-22 14:05:09
-(epstopdf)                    size: 87038 bytes
+(epstopdf)                    date: 2021-03-29 09:35:28
+(epstopdf)                    size: 87054 bytes
 (epstopdf)             Output file: <Figures/MZ_chapter_suspended_diff_arm-eps-
 converted-to.pdf>
 (epstopdf)                    date: 2021-03-22 14:05:50
@@ -5933,7 +5933,14 @@ converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/MZ_chapter_suspend
 ed_diff_arm-eps-converted-to.pdf Figures/MZ_chapter_suspended_diff_arm.eps>
 (epstopdf)             \includegraphics on input line 180.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=Figures/MZ_chapter_suspended_diff_arm-eps-convert
+ed-to.pdf Figures/MZ_chapter_suspended_diff_arm.eps)...executed safely (allowed
+).
+
+Package epstopdf Info: Result file: <Figures/MZ_chapter_suspended_diff_arm-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2021-03-29 09:47:48
+(epstopdf)                    size: 20811 bytes.
 <Figures/MZ_chapter_suspended_diff_arm-eps-converted-to.pdf, id=6686, pagebox=c
 ropbox, 441.65pt x 302.12875pt>
 File: Figures/MZ_chapter_suspended_diff_arm-eps-converted-to.pdf Graphic file (
@@ -7557,7 +7564,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
 Here is how much of TeX's memory you used:
  33022 strings out of 492990
  621055 string characters out of 6136333
- 879027 words of memory out of 5000000
+ 879180 words of memory out of 5000000
  34760 multiletter control sequences out of 15000+600000
  571154 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7597,7 +7604,7 @@ ist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2017/texmf-dist/fonts/
 type1/public/cm-super/sfxc1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfxc2488.pfb>
-Output written on main.pdf (380 pages, 14332960 bytes).
+Output written on main.pdf (380 pages, 14332895 bytes).
 PDF statistics:
  8924 PDF objects out of 10688 (max. 8388607)
  6990 compressed objects within 70 object streams
