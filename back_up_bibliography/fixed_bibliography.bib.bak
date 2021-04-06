@@ -3683,4 +3683,10 @@ but may be detectable in a new kind of experiment.
   publisher = {Zenodo},
 }
 
+@Misc{ComponentLibrary,
+  author = {Alexander Franzen},
+  title  = {ComponentLibrary},
+  note   = {\url{http://www.gwoptics.org/ComponentLibrary/}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
