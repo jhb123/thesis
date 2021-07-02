@@ -3689,4 +3689,53 @@ but may be detectable in a new kind of experiment.
   note   = {\url{http://www.gwoptics.org/ComponentLibrary/}},
 }
 
+@Article{Abbott2016d,
+  author    = {B.{\hspace{0.167em}}P. Abbott et al},
+  title     = {{Tests of General Relativity with {GW}150914}},
+  journal   = {Physical Review Letters},
+  year      = {2016},
+  volume    = {116},
+  number    = {22},
+  month     = {May},
+  doi       = {10.1103/physrevlett.116.221101},
+  publisher = {American Physical Society ({APS})},
+}
+
+@Article{Abbott2016e,
+  author    = {B.{\hspace{0.167em}}P. Abbott et al},
+  title     = {Properties of the Binary Black Hole Merger {GW}150914},
+  journal   = {Physical Review Letters},
+  year      = {2016},
+  volume    = {116},
+  number    = {24},
+  month     = {jun},
+  doi       = {10.1103/physrevlett.116.241102},
+  publisher = {American Physical Society ({APS})},
+}
+
+@Article{Abbott2018a,
+  author    = {B.{\hspace{0.167em}}P. Abbott et al},
+  title     = {{GW}170817: Measurements of Neutron Star Radii and Equation of State},
+  journal   = {Physical Review Letters},
+  year      = {2018},
+  volume    = {121},
+  number    = {16},
+  month     = {Oct},
+  doi       = {10.1103/physrevlett.121.161101},
+  publisher = {American Physical Society ({APS})},
+}
+
+@Article{Abbott2017f,
+  author    = {B. P. Abbott et al},
+  title     = {{Estimating the Contribution of Dynamical Ejecta in the Kilonova Associated with {GW}170817}},
+  journal   = {The Astrophysical Journal},
+  year      = {2017},
+  volume    = {850},
+  number    = {2},
+  pages     = {L39},
+  month     = {Dec},
+  doi       = {10.3847/2041-8213/aa9478},
+  publisher = {American Astronomical Society},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
